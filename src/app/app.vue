@@ -21,13 +21,24 @@
     box-sizing: border-box;
   }
 
+  html,
   body {
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
   }
 
-  #app {
+  body {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  button {
+    padding: 10px;
+  }
+
+  main {
+    max-width: 50vw;
+    margin: 0 auto;
   }
 </style>

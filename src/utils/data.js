@@ -16,3 +16,6 @@ export const getThesesCount = () =>
 
 export const getParty = token =>
   parties.find(p => p.token === token)
+
+export const getParties = () =>
+  parties

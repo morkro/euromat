@@ -1,15 +1,17 @@
 <template>
   <section class="euromat">
-    <header>
-      <span>{{ currentThesis + 1 }}/{{ thesesCount }}</span>
-      <progress :value="currentThesis + 1" :max="thesesCount">
-        {{ currentThesis }}
-      </progress>
+    <header class="euromat-header">
+      <div class="header-progress">
+        <span>{{ currentThesis + 1 }}/{{ thesesCount }}</span>
+        <progress :value="currentThesis + 1" :max="thesesCount">
+          {{ currentThesis }}
+        </progress>
+      </div>
       <h1 class="thesis">{{ thesisTitle }}</h1>
     </header>
 
     <div class="euromat-controls">
-      <button type="button" @click="submitAnswer(optionSkip)">
+      <button class="controls-skip" type="button" @click="submitAnswer(optionSkip)">
         {{ optionSkip.label }}
       </button>
       <ul class="euromat-btns">
@@ -72,8 +74,24 @@
 </script>
 
 <style lang="scss" scoped>
+  .header-progress {
+    display: flex;
+
+    progress {
+      width: 100%;
+    }
+  }
+
+  .euromat-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .euromat-btns {
     list-style: none;
     display: flex;
+    justify-content: center;
   }
 </style>
