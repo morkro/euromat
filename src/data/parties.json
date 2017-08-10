@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "Christlich Demokratische Union Deutschlands",
+    "token": "CDU",
+    "id": 0,
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 7,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 22,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 29,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 33,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 34,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 35,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 36,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 37,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 38,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 39,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 40,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 41,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 42,
+        "position": "neutral",
+        "statement": ""
+      }
+    ]
+  },
+  {
+    "name": "Sozialdemokratische Partei Deutschlands",
+    "token": "SPD",
+    "id": 1,
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 7,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 22,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 29,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 33,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 34,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 35,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 36,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 37,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 38,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 39,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 40,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 41,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 42,
+        "position": "neutral",
+        "statement": ""
+      }
+    ]
+  },
+  {
+    "name": "Die Linke",
+    "token": "LINKE",
+    "id": 2,
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 7,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 22,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 29,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 33,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 34,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 35,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 36,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 37,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 38,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 39,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 40,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 41,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 42,
+        "position": "neutral",
+        "statement": ""
+      }
+    ]
+  },
+  {
+    "name": "Bündnis 90/Die Grünen",
+    "token": "GRÜNE",
+    "id": 3,
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 7,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 22,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 29,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 33,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 34,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 35,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 36,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 37,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 38,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 39,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 40,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 41,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 42,
+        "position": "neutral",
+        "statement": ""
+      }
+    ]
+  },
+  {
+    "name": "Freie Demokratische Partei",
+    "token": "FDP",
+    "id": 4,
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 7,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 22,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 29,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 33,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 34,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 35,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 36,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 37,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 38,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 39,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 40,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 41,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 42,
+        "position": "neutral",
+        "statement": ""
+      }
+    ]
+  },
+  {
+    "name": "Alternative für Deutschland",
+    "token": "AfD",
+    "id": 5,
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 7,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 22,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 29,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 33,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 34,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 35,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 36,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 37,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 38,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 39,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 40,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 41,
+        "position": "neutral",
+        "statement": ""
+      },
+      {
+        "thesis": 42,
+        "position": "neutral",
+        "statement": ""
+      }
+    ]
+  }
+]

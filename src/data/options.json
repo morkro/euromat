@@ -1,0 +1,22 @@
+[
+  {
+    "position": "positive",
+    "id": 0,
+    "label": "Ich stimme zu"
+  },
+  {
+    "position": "neutral",
+    "id": 1,
+    "label": "Neutral"
+  },
+  {
+    "position": "negative",
+    "id": 2,
+    "label": "Ich bin dagegen"
+  },
+  {
+    "position": "skipped",
+    "id": 3,
+    "label": "Thesis überspringen"
+  }
+]
