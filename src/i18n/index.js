@@ -6,7 +6,7 @@ import { i18n as intro } from '@/app/intro'
 Vue.use(VueI18n)
 
 export default new VueI18n({
-  locale: localStorage.getItem('locale') || 'de',
+  locale: localStorage.getItem('euromat-locale') || 'de',
   fallbackLocale: 'de',
   messages: {
     ...intro

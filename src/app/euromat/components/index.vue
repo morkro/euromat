@@ -71,7 +71,7 @@
         event.target.blur()
       },
       forwardToResults () {
-        localStorage.setItem('results', JSON.stringify(this.answers, null, 2))
+        localStorage.setItem('euromat-results', JSON.stringify(this.answers, null, 2))
         this.$router.push({ path: 'ergebnisse' })
       }
     }

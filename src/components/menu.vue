@@ -49,7 +49,7 @@
       },
       changeLanguage (locale) {
         this.$i18n.locale = locale
-        localStorage.setItem('locale', locale)
+        localStorage.setItem('euromat-locale', locale)
       }
     }
   }
