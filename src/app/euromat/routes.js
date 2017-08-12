@@ -1,8 +1,8 @@
-import EuroMat from './components/euromat'
+import EuroMat from './components/index'
 
 export default [
   {
-    path: '/',
+    path: '/thesen',
     name: 'euromat',
     component: EuroMat
   }

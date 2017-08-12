@@ -32,8 +32,10 @@
     methods: {
       getPartyMatch (party) {
         const { positions } = getParty(party.token)
-        return this.results.filter(answer =>
-          answer.option.position === positions[answer.thesis.id].position).length
+        return this.results
+          .filter(answer =>
+            answer.option.position === positions[answer.thesis.id].position)
+          .length
       }
     },
 

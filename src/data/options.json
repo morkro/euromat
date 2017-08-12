@@ -2,21 +2,21 @@
   {
     "position": "positive",
     "id": 0,
-    "label": "Ich stimme zu"
+    "label": "👍🏻 Ich stimme zu"
   },
   {
     "position": "neutral",
     "id": 1,
-    "label": "Neutral"
+    "label": "🖐🏻 Neutral"
   },
   {
     "position": "negative",
     "id": 2,
-    "label": "Ich bin dagegen"
+    "label": "👎🏻 Ich bin dagegen"
   },
   {
     "position": "skipped",
     "id": 3,
-    "label": "Thesis überspringen"
+    "label": "These überspringen"
   }
 ]

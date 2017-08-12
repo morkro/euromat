@@ -1,4 +1,4 @@
-import Results from './components/results'
+import Results from './components/index'
 
 export default [
   {
