@@ -7,9 +7,16 @@
         </router-link>
       </li>
     </ul>
+
     <router-link class="menu-impressum" :to="impressum.route">
       {{ impressum.label }}
     </router-link>
+
+    <div class="menu-language">
+      <button v-for="lang of languages" type="button" @click="changeLanguage(lang.locale)">
+        {{ lang.label }}
+      </button>
+    </div>
   </aside>
 </template>
 
@@ -21,6 +28,15 @@
       menu: { type: Array, default: () => [] }
     },
 
+    data () {
+      return {
+        languages: [
+          { label: 'DE', locale: 'de' },
+          { label: 'EN', locale: 'en' }
+        ]
+      }
+    },
+
     computed: {
       impressum () {
         return this.menu[this.menu.length - 1]
@@ -30,6 +46,10 @@
     methods: {
       notLastItem (index) {
         return index !== this.menu.length - 1
+      },
+      changeLanguage (locale) {
+        this.$i18n.locale = locale
+        localStorage.setItem('locale', locale)
       }
     }
   }
@@ -74,5 +94,10 @@
     color: $text-color-base;
     font-weight: 500;
     font-size: 85%;
+    text-align: center;
+
+    &:hover {
+      color: $text-color-special;
+    }
   }
 </style>

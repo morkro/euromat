@@ -1,6 +1,9 @@
 <template>
   <section>
     <h1>404</h1>
+    <p>
+      Content to be written.
+    </p>
   </section>
 </template>
 
@@ -10,4 +13,10 @@
   }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  @import "~styles/layout";
+
+  h1 {
+    margin-bottom: $base-gap;
+  }
+</style>

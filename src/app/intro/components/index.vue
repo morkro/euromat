@@ -1,9 +1,9 @@
 <template>
   <section>
-    <h1>Willkommen beim EuroMat</h1>
-    <p>Content to be written.</p>
+    <h1>{{ $t('intro.headline') }}</h1>
+    <p>{{ $t('intro.content') }}</p>
     <router-link tag="button" :to="{ path: '/thesen' }">
-      Start
+      {{ $t('intro.button') }}
     </router-link>
   </section>
 </template>

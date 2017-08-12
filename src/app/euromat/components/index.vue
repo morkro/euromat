@@ -2,9 +2,7 @@
   <section class="euromat">
     <div class="header-progress">
       <span>{{ currentThesis + 1 }}/{{ thesesCount }}</span>
-      <progress :value="currentThesis + 1" :max="thesesCount">
-        {{ currentThesis }}
-      </progress>
+      <thesis-progress :value="currentThesis + 1" :max="thesesCount" />
     </div>
 
     <header class="euromat-header">
@@ -28,9 +26,14 @@
 
 <script>
   import { getAllOptions, getThesis, getThesesCount } from '@/utils/data'
+  import Progress from '@/components/progress'
 
   export default {
     name: 'EuroMat',
+
+    components: {
+      'thesis-progress': Progress
+    },
 
     data () {
       return {
@@ -84,21 +87,8 @@
     align-items: center;
     margin-bottom: $base-gap * 2;
 
-    progress[value] {
-      appearance: none;
-      width: 100%;
-      height: 20px;
-      margin-left: 15px;
-
-      &::-webkit-progress-bar {
-        background: $dark-blue;
-        border-radius: $border-radius;
-      }
-
-      &::-webkit-progress-value {
-        background: $yellow;
-        border-radius: $border-radius;
-      }
+    span {
+      margin-right: 15px;
     }
   }
 

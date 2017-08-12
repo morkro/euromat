@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Impressum</h1>
+    <h1>{{ $t('headline') }}</h1>
     <p>Content to be written.</p>
   </section>
 </template>
