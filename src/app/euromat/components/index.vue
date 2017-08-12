@@ -19,7 +19,7 @@
           </button>
         </li>
       </ul>
-      <button class="controls-skip" type="button" @click="submitAnswer(optionSkip)">
+      <button class="controls-skip btn-txt" type="button" @click="submitAnswer(optionSkip)">
         {{ optionSkip.label }}
       </button>
     </div>
@@ -81,21 +81,23 @@
 
   .header-progress {
     display: flex;
+    align-items: center;
     margin-bottom: $base-gap * 2;
 
     progress[value] {
       appearance: none;
       width: 100%;
+      height: 20px;
       margin-left: 15px;
 
       &::-webkit-progress-bar {
-        background: rgba(0,0,0,.3);
-        border-radius: 20px;
+        background: $dark-blue;
+        border-radius: $border-radius;
       }
 
       &::-webkit-progress-value {
         background: $yellow;
-        border-radius: 20px;
+        border-radius: $border-radius;
       }
     }
   }
@@ -112,9 +114,8 @@
   }
 
   .controls-skip {
-    background: transparent;
     font-style: italic;
-    color: $text-color-base;
+    margin-top: $base-gap / 2;
   }
 
   .euromat-btns {

@@ -5,9 +5,10 @@
   "author": "Moritz Kröger <write@morkro.de>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js",
+    "dev": "npm run svg && node build/dev-server.js",
+    "start": "npm run svg && node build/dev-server.js",
+    "build": "npm run svg && node build/build.js",
+    "svg": "vsvg -s ./src/assets/svg -t ./src/assets/icons",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -16,6 +17,7 @@
   "dependencies": {
     "vue": "^2.3.3",
     "vue-router": "^2.3.1",
+    "vue-svgicon": "^1.2.4",
     "vuex": "^2.3.1"
   },
   "devDependencies": {

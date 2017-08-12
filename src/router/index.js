@@ -7,6 +7,7 @@ import { routes as results } from '@/app/results'
 import { routes as faq } from '@/app/faq'
 import { routes as press } from '@/app/press'
 import { routes as imprint } from '@/app/imprint'
+import { routes as fourzerofour } from '@/app/404'
 
 Vue.use(Router)
 
@@ -18,6 +19,7 @@ export default new Router({
     ...results,
     ...faq,
     ...press,
-    ...imprint
+    ...imprint,
+    ...fourzerofour
   ]
 })
