@@ -1,12 +1,15 @@
 <template>
   <aside class="menu">
     <ul>
-      <li v-for="item in menu">
+      <li v-for="(item, index) in menu" v-if="notLastItem(index)">
         <router-link tag="a" :to="item.route">
           {{ item.label }}
         </router-link>
       </li>
     </ul>
+    <router-link class="menu-impressum" :to="impressum.route">
+      {{ impressum.label }}
+    </router-link>
   </aside>
 </template>
 
@@ -16,6 +19,18 @@
 
     props: {
       menu: { type: Array, default: () => [] }
+    },
+
+    computed: {
+      impressum () {
+        return this.menu[this.menu.length - 1]
+      }
+    },
+
+    methods: {
+      notLastItem (index) {
+        return index !== this.menu.length - 1
+      }
     }
   }
 </script>
@@ -27,16 +42,17 @@
   .menu {
     margin-right: $base-gap * 2;
     position: relative;
-    background: $background-secondary;
-    border-radius: $border-radius;
-    padding: 4px;
     flex-grow: 1;
     width: 140px;
-    box-shadow: 0px 0px 22px $dark-blue;
 
     ul {
       list-style: none;
       text-align: right;
+      background: $background-secondary;
+      border-radius: $border-radius;
+      padding: 4px;
+      width: 100%;
+      box-shadow: 0px 0px 22px $dark-blue;
     }
 
     li:not(:last-child) {
@@ -52,5 +68,11 @@
     border-radius: $border-radius;
     padding: 10px 20px;
     display: block;
+  }
+
+  .menu-impressum {
+    color: $text-color-base;
+    font-weight: 500;
+    font-size: 85%;
   }
 </style>
