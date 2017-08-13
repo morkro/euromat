@@ -23,6 +23,10 @@
     appearance: none;
     width: 100%;
     height: 20px;
+    background: $dark-blue;
+    color: $yellow;
+    border: none;
+    border-radius: $border-radius;
 
     &::-webkit-progress-bar {
       background: $dark-blue;

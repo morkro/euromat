@@ -1,22 +1,18 @@
 [
   {
     "position": "positive",
-    "id": 0,
-    "label": "👍🏻 Ich stimme zu"
+    "id": 0
   },
   {
     "position": "neutral",
-    "id": 1,
-    "label": "🖐🏻 Neutral"
+    "id": 1
   },
   {
     "position": "negative",
-    "id": 2,
-    "label": "👎🏻 Ich bin dagegen"
+    "id": 2
   },
   {
     "position": "skipped",
-    "id": 3,
-    "label": "These überspringen"
+    "id": 3
   }
 ]

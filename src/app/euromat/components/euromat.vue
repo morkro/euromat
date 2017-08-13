@@ -39,7 +39,6 @@
       return {
         currentThesis: 0,
         thesesCount: getThesesCount(),
-        options: getAllOptions(),
         answers: []
       }
     },
@@ -50,6 +49,12 @@
           return
         }
         return getThesis(this.currentThesis).thesis
+      },
+      options () {
+        return getAllOptions().map(option =>
+          Object.assign({}, option, {
+            label: this.$t(`euromat.options.${option.position}`)
+          }))
       },
       optionSkip () {
         return this.options[this.options.length - 1]
@@ -105,7 +110,7 @@
 
   .controls-skip {
     font-style: italic;
-    margin-top: $base-gap / 2;
+    margin-top: $base-gap;
   }
 
   .euromat-btns {

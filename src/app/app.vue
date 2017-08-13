@@ -75,6 +75,8 @@
   @import "~styles/colors";
   @import "~styles/layout";
 
+  $app-width: 850px;
+
   * {
     padding: 0;
     margin: 0;
@@ -94,9 +96,10 @@
     background: $background-primary;
     color: $text-color-base;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   h1 {
@@ -111,12 +114,12 @@
   }
 
   #app {
-    max-width: 750px;
+    max-width: $app-width;
     width: 95vw;
     display: flex;
     align-items: flex-start;
     position: relative;
-    margin-top: $base-gap * 3;
+    margin: $base-gap * 3 0;
   }
 
   main {

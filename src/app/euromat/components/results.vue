@@ -1,15 +1,13 @@
 <template>
   <section>
     <header class="results-header">
-      <router-link :to="{ path: '/' }">
-        Zurück
-      </router-link>
-      <h1>Dein Ergebnis</h1>
+      <h1>{{ $t('euromat.results.headline') }}</h1>
     </header>
 
     <ul class="party-results">
       <li v-for="party in parties">
         <h2>{{ party.token }}</h2>
+        <svgicon :name="getPartyLogoName(party.token)" width="50" height="50" />
         <party-percentage :value="getPartyMatch(party)" :max="thesesCount" />
       </li>
     </ul>
@@ -19,6 +17,7 @@
 <script>
   import { getParties, getParty, getThesesCount } from '@/utils/data'
   import Progress from '@/components/progress'
+  import '@/assets/icons'
 
   export default {
     name: 'Results',
@@ -29,7 +28,7 @@
 
     data () {
       return {
-        results: {},
+        results: [],
         thesesCount: getThesesCount(),
         parties: getParties()
       }
@@ -42,6 +41,9 @@
           .filter(answer =>
             answer.option.position === positions[answer.thesis.id].position)
           .length
+      },
+      getPartyLogoName (token) {
+        return `${token.toLowerCase()}-logo`
       }
     },
 

@@ -11,6 +11,9 @@ export const getAllOptions = () =>
 export const getThesis = id =>
   theses.find(t => t.id === id)
 
+export const getAllTheses = () =>
+  theses
+
 export const getThesesCount = () =>
   theses.length
 

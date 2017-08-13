@@ -1,6 +1,6 @@
 import Index from './components/index'
 import EuroMat from './components/euromat'
-import Weighting from './components/weighting'
+import Emphasis from './components/emphasis'
 import Results from './components/results'
 
 export default [
@@ -15,8 +15,8 @@ export default [
       },
       {
         path: 'gewichtung',
-        name: 'weighting',
-        component: Weighting
+        name: 'emphasis',
+        component: Emphasis
       },
       {
         path: 'ergebnis',

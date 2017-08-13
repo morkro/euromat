@@ -58,8 +58,9 @@
   .menu {
     margin-right: $base-gap * 2;
     position: relative;
-    flex-grow: 1;
-    width: 140px;
+    flex-basis: 140px;
+    flex-grow: 0;
+    flex-shrink: 0;
 
     ul {
       list-style: none;
@@ -107,6 +108,7 @@
 
     button {
       padding: 10px;
+      font-size: 25px;
     }
   }
 </style>

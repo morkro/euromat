@@ -5,6 +5,7 @@ button, .btn {
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
+  font-weight: 600;
   background: $button-background;
   color: $button-color;
   border-radius: $border-radius;
@@ -30,7 +31,7 @@ button, .btn {
     border-radius: $border-radius;
     opacity: 0;
     z-index: -1;
-    transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.5, 1, 1);
     transition: transform 0.4s, opacity 0.4s;
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
   }
@@ -58,9 +59,12 @@ button, .btn {
   }
 
   &.btn-txt {
+    all: unset;
+    cursor: pointer;
     background: transparent;
     color: $text-color-base;
     border: none;
+    font-weight: 400;
 
     &::before, &::after {
       content: none;
