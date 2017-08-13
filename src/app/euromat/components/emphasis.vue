@@ -58,7 +58,8 @@
   @import "~styles/colors";
   @import "~styles/layout";
 
-  h1, p {
+  h1,
+  p {
     margin-bottom: $base-gap;
   }
 
@@ -79,9 +80,7 @@
 
     label {
       cursor: pointer;
-      flex-grow: 0;
-      flex-shrink: 0;
-      flex-basis: 90%;
+      flex: 0 0 90%;
     }
   }
 

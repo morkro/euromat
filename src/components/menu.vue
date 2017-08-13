@@ -58,9 +58,7 @@
   .menu {
     margin-right: $base-gap * 2;
     position: relative;
-    flex-basis: 140px;
-    flex-grow: 0;
-    flex-shrink: 0;
+    flex: 0 0 140px;
 
     ul {
       list-style: none;
@@ -69,7 +67,7 @@
       border-radius: $border-radius;
       padding: 4px;
       width: 100%;
-      box-shadow: 0px 0px 22px $dark-blue;
+      box-shadow: 0 0 22px $dark-blue;
     }
 
     li:not(:last-child) {

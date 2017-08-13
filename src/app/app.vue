@@ -108,6 +108,7 @@
 
   a {
     color: $text-color-base;
+
     &:hover {
       color: $text-color-special;
     }
@@ -123,7 +124,7 @@
   }
 
   main {
-    background: transparentize($background-primary, .5);
+    background: transparentize($background-primary, 0.5);
     width: 100%;
     position: relative;
     z-index: 1;
@@ -139,7 +140,7 @@
       position: absolute;
       top: 0;
       transform: translate(-65%, -53%);
-      opacity: .2;
+      opacity: 0.2;
     }
   }
 </style>

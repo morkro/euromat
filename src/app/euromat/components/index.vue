@@ -7,3 +7,5 @@
     name: 'EuromatIndex'
   }
 </script>
+
+<style lang="scss" scoped></style>

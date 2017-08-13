@@ -17,7 +17,8 @@
 <style lang="scss" scoped>
   @import "~styles/layout";
 
-  h1, p {
+  h1,
+  p {
     margin-bottom: $base-gap;
   }
 </style>
