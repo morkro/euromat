@@ -48,7 +48,10 @@
     },
 
     mounted () {
-      this.results = JSON.parse(localStorage.getItem('euromat-results'))
+      const results = JSON.parse(localStorage.getItem('euromat-results'))
+      if (results) {
+        this.results = results
+      }
       console.log(this.results)
     }
   }

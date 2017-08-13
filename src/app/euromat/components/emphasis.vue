@@ -8,14 +8,18 @@
         <label :for="`thesis-${thesis.id}`">
           {{ thesis.thesis }}
         </label>
-        <input :name="`thesis-${thesis.id}`" :id="`thesis-${thesis.id}`" type="checkbox" />
+        <input
+          :name="`thesis-${thesis.id}`"
+          :id="`thesis-${thesis.id}`"
+          type="checkbox"
+          @click.self="addThesisEmphasis(thesis, $event)"/>
       </li>
     </ol>
 
     <div class="emphasis-controls">
-      <router-link class="btn" :to="{ path: '/thesen/ergebnis' }">
+      <button type="button" @click="submitEmphasis()">
         {{ $t('euromat.emphasis.button') }}
-      </router-link>
+      </button>
     </div>
   </section>
 </template>
@@ -28,7 +32,23 @@
 
     data () {
       return {
-        theses: getAllTheses()
+        theses: getAllTheses(),
+        emphasized: []
+      }
+    },
+
+    methods: {
+      addThesisEmphasis (thesis, event) {
+        if (event.target.checked) {
+          this.emphasized.push({ id: thesis.id })
+        } else {
+          const index = this.emphasized.findIndex(item => item.id === thesis.id)
+          this.emphasized.splice(index, 1)
+        }
+      },
+      submitEmphasis () {
+        localStorage.setItem('euromat-emphasized', JSON.stringify(this.emphasized))
+        this.$router.push({ path: '/thesen/ergebnis' })
       }
     }
   }

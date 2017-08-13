@@ -76,7 +76,7 @@
         event && event.target.blur()
       },
       forwardToResults () {
-        localStorage.setItem('euromat-results', JSON.stringify(this.answers, null, 2))
+        localStorage.setItem('euromat-results', JSON.stringify(this.answers))
         this.$router.push({ path: '/thesen/gewichtung' })
       }
     }

@@ -109,6 +109,8 @@
     button {
       padding: 10px;
       font-size: 25px;
+      display: flex;
+      align-items: center;
     }
   }
 </style>
