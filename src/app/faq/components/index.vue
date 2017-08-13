@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>FAQ</h1>
-    <p>FAQ to be written.</p>
+    <h1>{{ $t('faq.headline') }}</h1>
+    <p>{{ $t('faq.content') }}</p>
   </section>
 </template>
 

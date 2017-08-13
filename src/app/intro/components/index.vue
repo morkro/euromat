@@ -2,7 +2,7 @@
   <section>
     <h1>{{ $t('intro.headline') }}</h1>
     <p>{{ $t('intro.content') }}</p>
-    <router-link tag="button" :to="{ path: '/thesen' }">
+    <router-link class="btn" :to="{ path: '/thesen' }">
       {{ $t('intro.button') }}
     </router-link>
   </section>

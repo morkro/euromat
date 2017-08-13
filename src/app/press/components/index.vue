@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>Presse</h1>
-    <p>Content to be written.</p>
+    <h1>{{ $t('press.headline') }}</h1>
+    <p>{{ $t('press.content') }}</p>
   </section>
 </template>
 

@@ -8,15 +8,19 @@
       </li>
     </ul>
 
-    <router-link class="menu-impressum" :to="impressum.route">
-      {{ impressum.label }}
-    </router-link>
-
     <div class="menu-language">
-      <button v-for="lang of languages" type="button" @click="changeLanguage(lang.locale)">
+      <button
+        class="btn-txt"
+        v-for="lang of languages"
+        type="button"
+        @click="changeLanguage(lang.locale)">
         {{ lang.label }}
       </button>
     </div>
+
+    <router-link class="menu-impressum" :to="impressum.route">
+      {{ impressum.label }}
+    </router-link>
   </aside>
 </template>
 
@@ -25,16 +29,8 @@
     name: 'Menu',
 
     props: {
-      menu: { type: Array, default: () => [] }
-    },
-
-    data () {
-      return {
-        languages: [
-          { label: 'DE', locale: 'de' },
-          { label: 'EN', locale: 'en' }
-        ]
-      }
+      menu: { type: Array, default: () => [] },
+      languages: { type: Array, default: () => [] }
     },
 
     computed: {
@@ -98,6 +94,19 @@
 
     &:hover {
       color: $text-color-special;
+    }
+  }
+
+  .menu-language {
+    margin-top: $base-gap / 2;
+    background: $dark-blue;
+    padding: 5px;
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      padding: 10px;
     }
   }
 </style>

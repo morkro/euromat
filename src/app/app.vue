@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-menu :menu="menu" />
+    <app-menu :menu="menu" :languages="languages" />
     <main>
       <router-view></router-view>
     </main>
@@ -26,13 +26,43 @@
       'app-menu': Menu
     },
 
+    i18n: {
+      messages: {
+        de: {
+          menu: {
+            index: 'Startseite',
+            faq: 'FAQ',
+            press: 'Presse',
+            imprint: 'Impressum'
+          }
+        },
+        en: {
+          menu: {
+            index: 'Main page',
+            faq: 'FAQ',
+            press: 'Press',
+            imprint: 'Imprint'
+          }
+        }
+      }
+    },
+
     data () {
       return {
-        menu: [
-          { label: 'Startseite', route: { path: '/' } },
-          { label: 'FAQ', route: { path: '/faq' } },
-          { label: 'Presse', route: { path: '/presse' } },
-          { label: 'Impressum', route: { path: '/impressum' } }
+        languages: [
+          { label: '🇩🇪', locale: 'de' },
+          { label: '🇬🇧', locale: 'en' }
+        ]
+      }
+    },
+
+    computed: {
+      menu () {
+        return [
+          { label: this.$t('menu.index'), route: { path: '/' } },
+          { label: this.$t('menu.faq'), route: { path: '/faq' } },
+          { label: this.$t('menu.press'), route: { path: '/presse' } },
+          { label: this.$t('menu.imprint'), route: { path: '/impressum' } }
         ]
       }
     }
@@ -41,6 +71,7 @@
 
 <style lang="scss">
   @import "~node_modules/normalize.css/normalize";
+  @import "~styles/buttons";
   @import "~styles/colors";
   @import "~styles/layout";
 
@@ -76,74 +107,6 @@
     color: $text-color-base;
     &:hover {
       color: $text-color-special;
-    }
-  }
-
-  button {
-    padding: 10px 20px;
-    background: $button-background;
-    color: $button-color;
-    border-radius: $border-radius;
-    border: 2px solid $button-background;
-    cursor: pointer;
-    position: relative;
-    transition: background 50ms, border-color 0.4s;
-    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-
-    &::before,
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -2px;
-      width: calc(100% + 4px);
-      height: 100%;
-      border-radius: $border-radius;
-    }
-
-    &::before {
-      background: $yellow;
-      border-radius: $border-radius;
-      opacity: 0;
-      z-index: -1;
-      transform: scale3d(0.7, 1, 1);
-      transition: transform 0.4s, opacity 0.4s;
-      transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-    }
-
-    &::after {
-      background: $button-background;
-      z-index: -2;
-    }
-
-    &:hover {
-      background: transparent;
-      border-color: $yellow;
-
-      &::before {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-      }
-    }
-
-    &:active,
-    &:focus {
-      outline: none;
-      background: $yellow;
-    }
-
-    &.btn-txt {
-      background: transparent;
-      color: $text-color-base;
-      border: none;
-
-      &::before, &::after {
-        content: none;
-      }
-
-      &:hover {
-        color: $text-color-special;
-      }
     }
   }
 

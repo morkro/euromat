@@ -1,22 +1,23 @@
 <template>
   <section>
-    <h1>404</h1>
-    <p>
-      Content to be written.
-    </p>
+    <h1>{{ $t('fourzerofour.headline') }}</h1>
+    <p>{{ $t('fourzerofour.content')  }}</p>
+    <router-link class="btn" :to="{ path: '/' }">
+      {{ $t('fourzerofour.button') }}
+    </router-link>
   </section>
 </template>
 
 <script>
   export default {
-    name: '404'
+    name: 'FourZeroFour'
   }
 </script>
 
 <style lang="scss" scoped>
   @import "~styles/layout";
 
-  h1 {
+  h1, p {
     margin-bottom: $base-gap;
   }
 </style>

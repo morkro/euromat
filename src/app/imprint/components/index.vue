@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>{{ $t('headline') }}</h1>
-    <p>Content to be written.</p>
+    <h1>{{ $t('imprint.headline') }}</h1>
+    <p>{{ $t('imprint.content') }}</p>
   </section>
 </template>
 
