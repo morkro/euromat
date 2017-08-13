@@ -11,7 +11,7 @@
       },
       {
         "thesis": 1,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "thesis": 3,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -31,17 +31,17 @@
       },
       {
         "thesis": 5,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 6,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 7,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "thesis": 9,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -61,12 +61,12 @@
       },
       {
         "thesis": 11,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 12,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -96,12 +96,12 @@
       },
       {
         "thesis": 18,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 19,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -111,17 +111,17 @@
       },
       {
         "thesis": 21,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 22,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 23,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -131,7 +131,7 @@
       },
       {
         "thesis": 25,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -146,27 +146,27 @@
       },
       {
         "thesis": 28,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 29,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 30,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 31,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 32,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -181,7 +181,7 @@
       },
       {
         "thesis": 35,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -201,7 +201,7 @@
       },
       {
         "thesis": 39,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -216,7 +216,7 @@
       },
       {
         "thesis": 42,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       }
     ]
@@ -228,7 +228,7 @@
     "positions": [
       {
         "thesis": 0,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -243,12 +243,12 @@
       },
       {
         "thesis": 3,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 4,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -258,12 +258,12 @@
       },
       {
         "thesis": 6,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 7,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -273,7 +273,7 @@
       },
       {
         "thesis": 9,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -288,17 +288,17 @@
       },
       {
         "thesis": 12,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 13,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 14,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -308,12 +308,12 @@
       },
       {
         "thesis": 16,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 17,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -328,7 +328,7 @@
       },
       {
         "thesis": 20,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -338,12 +338,12 @@
       },
       {
         "thesis": 22,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 23,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -368,12 +368,12 @@
       },
       {
         "thesis": 28,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 29,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -383,12 +383,12 @@
       },
       {
         "thesis": 31,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 32,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -408,12 +408,12 @@
       },
       {
         "thesis": 36,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 37,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -423,7 +423,7 @@
       },
       {
         "thesis": 39,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -433,12 +433,12 @@
       },
       {
         "thesis": 41,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 42,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       }
     ]
@@ -450,37 +450,37 @@
     "positions": [
       {
         "thesis": 0,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 1,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 2,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 3,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 4,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 5,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 6,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -490,12 +490,12 @@
       },
       {
         "thesis": 8,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 9,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -505,7 +505,7 @@
       },
       {
         "thesis": 11,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -520,7 +520,7 @@
       },
       {
         "thesis": 14,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -535,7 +535,7 @@
       },
       {
         "thesis": 17,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -555,12 +555,12 @@
       },
       {
         "thesis": 21,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 22,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -570,27 +570,27 @@
       },
       {
         "thesis": 24,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 25,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 26,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 27,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 28,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -605,37 +605,37 @@
       },
       {
         "thesis": 31,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 32,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 33,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 34,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 35,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 36,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 37,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -645,12 +645,12 @@
       },
       {
         "thesis": 39,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 40,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -672,42 +672,42 @@
     "positions": [
       {
         "thesis": 0,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 1,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 2,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 3,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 4,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 5,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 6,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 7,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -717,32 +717,32 @@
       },
       {
         "thesis": 9,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 10,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 11,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 12,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 13,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 14,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -752,27 +752,27 @@
       },
       {
         "thesis": 16,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 17,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 18,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 19,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 20,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -782,17 +782,17 @@
       },
       {
         "thesis": 22,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 23,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 24,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -802,12 +802,12 @@
       },
       {
         "thesis": 26,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 27,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -822,12 +822,12 @@
       },
       {
         "thesis": 30,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 31,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -837,12 +837,12 @@
       },
       {
         "thesis": 33,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 34,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -852,27 +852,27 @@
       },
       {
         "thesis": 36,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 37,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 38,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 39,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 40,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -882,7 +882,7 @@
       },
       {
         "thesis": 42,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       }
     ]
@@ -894,32 +894,32 @@
     "positions": [
       {
         "thesis": 0,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 1,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 2,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 3,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 4,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 5,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -939,27 +939,27 @@
       },
       {
         "thesis": 9,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 10,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 11,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 12,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 13,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -969,27 +969,27 @@
       },
       {
         "thesis": 15,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 16,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 17,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 18,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 19,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -999,7 +999,7 @@
       },
       {
         "thesis": 21,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1009,7 +1009,7 @@
       },
       {
         "thesis": 23,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1019,17 +1019,17 @@
       },
       {
         "thesis": 25,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 26,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 27,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1039,7 +1039,7 @@
       },
       {
         "thesis": 29,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1059,37 +1059,37 @@
       },
       {
         "thesis": 33,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 34,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 35,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 36,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 37,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 38,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 39,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1104,7 +1104,7 @@
       },
       {
         "thesis": 42,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       }
     ]
@@ -1116,7 +1116,7 @@
     "positions": [
       {
         "thesis": 0,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1136,7 +1136,7 @@
       },
       {
         "thesis": 4,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -1146,17 +1146,17 @@
       },
       {
         "thesis": 6,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 7,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 8,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
@@ -1176,7 +1176,7 @@
       },
       {
         "thesis": 12,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1186,7 +1186,7 @@
       },
       {
         "thesis": 14,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1201,27 +1201,27 @@
       },
       {
         "thesis": 17,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 18,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 19,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 20,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 21,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1236,7 +1236,7 @@
       },
       {
         "thesis": 24,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1246,7 +1246,7 @@
       },
       {
         "thesis": 26,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1256,32 +1256,32 @@
       },
       {
         "thesis": 28,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 29,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 30,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 31,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 32,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 33,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1291,17 +1291,17 @@
       },
       {
         "thesis": 35,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 36,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 37,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
@@ -1311,17 +1311,17 @@
       },
       {
         "thesis": 39,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {
         "thesis": 40,
-        "position": "neutral",
+        "position": "negative",
         "statement": ""
       },
       {
         "thesis": 41,
-        "position": "neutral",
+        "position": "positive",
         "statement": ""
       },
       {

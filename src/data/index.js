@@ -1,6 +1,6 @@
-import options from '@/data/options'
-import theses from '@/data/theses'
-import parties from '@/data/parties'
+import options from './options'
+import theses from './theses'
+import parties from './parties'
 
 export const getOption = position =>
   options.find(o => o.position === position)

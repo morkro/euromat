@@ -25,7 +25,7 @@
 </template>
 
 <script>
-  import { getAllOptions, getThesis, getThesesCount } from '@/utils/data'
+  import { getAllOptions, getThesis, getThesesCount } from '@/data'
   import Progress from '@/components/progress'
 
   export default {
@@ -71,12 +71,12 @@
         }
 
         const thesis = getThesis(this.currentThesis)
-        this.answers.push({ thesis, option })
+        this.answers.push({ thesis: thesis.id, position: option.position })
         this.currentThesis += 1
         event && event.target.blur()
       },
       forwardToResults () {
-        localStorage.setItem('euromat-results', JSON.stringify(this.answers))
+        localStorage.setItem('euromat-answers', JSON.stringify(this.answers))
         this.$router.push({ path: '/thesen/gewichtung' })
       }
     }

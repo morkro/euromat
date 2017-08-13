@@ -25,7 +25,7 @@
 </template>
 
 <script>
-  import { getAllTheses } from '@/utils/data'
+  import { getAllTheses } from '@/data'
 
   export default {
     name: 'Emphasis',

@@ -5,19 +5,26 @@
     </header>
 
     <ul class="party-results">
-      <li v-for="party in parties">
-        <h2>{{ party.token }}</h2>
-        <svgicon :name="getPartyLogoName(party.token)" width="50" height="50" />
-        <party-percentage :value="getPartyMatch(party)" :max="thesesCount" />
+      <li v-for="item of results">
+        <h2>{{ item.token }} ({{ getScorePercentage(item.score) }} %)</h2>
+        <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
+        <party-percentage
+          :value="getScorePercentage(item.score)"
+          :max="totalScoredPoints" />
       </li>
     </ul>
   </section>
 </template>
 
 <script>
-  import { getParties, getParty, getThesesCount } from '@/utils/data'
+  import * as SCORING from '@/app/euromat/scoring'
+  import { getParties, getThesesCount } from '@/data'
   import Progress from '@/components/progress'
   import '@/assets/icons'
+
+  // FIXME: There is a bug that not all theses are send to localStorage.
+  // We have 43 theses now, but only 42 are stored. Hence I check if
+  // answers is even an object.
 
   export default {
     name: 'Results',
@@ -28,31 +35,76 @@
 
     data () {
       return {
+        answers: [],
+        emphasized: [],
         results: [],
         thesesCount: getThesesCount(),
-        parties: getParties()
+        parties: getParties(),
+        totalScoredPoints: 0
       }
     },
 
     methods: {
-      getPartyMatch (party) {
-        const { positions } = getParty(party.token)
-        return this.results
-          .filter(answer =>
-            answer.option.position === positions[answer.thesis.id].position)
-          .length
-      },
       getPartyLogoName (token) {
         return `${token.toLowerCase()}-logo`
+      },
+      getScorePercentage (score) {
+        console.log(score, this.totalScoredPoints)
+        return (score / this.totalScoredPoints * 100).toFixed(2)
+      },
+      sortResults () {
+        return this.parties
+          .map(party => ({
+            token: party.token,
+            score: party.positions
+              .map(this.countScoring)
+              .reduce((a, b) => a + b, 0)
+          }))
+          .sort((a, b) => a.score - b.score)
+          .reverse()
+      },
+      countScoring (partyConfig) {
+        const answer = this.answers.find(answer => answer.thesis === partyConfig.thesis)
+        if (!answer || answer.position === 'skipped') {
+          return SCORING.MIN_POINTS
+        }
+
+        let score = 0
+        const hasEmphasis = !!this.emphasized.find(e => e.id === answer.thesis)
+        const user = answer.position
+        const party = partyConfig.position
+
+        if (user === party) {
+          score = SCORING.MAX_POINTS
+        } else if (
+          (user === 'positive' && party === 'neutral') ||
+          (user === 'neutral' && party === 'positive') ||
+          (user === 'negative' && party === 'neutral')
+        ) {
+          score = SCORING.BASE_POINTS
+        } else if (
+          (user === 'positive' && party === 'negative') ||
+          (user === 'neutral' && party === 'negative') ||
+          (user === 'negative' && party === 'positive')
+        ) {
+          score = SCORING.MIN_POINTS
+        }
+
+        score = hasEmphasis ? score * SCORING.EMPHASIS_POINTS : score
+        this.totalScoredPoints += score
+
+        return score
       }
     },
 
-    mounted () {
-      const results = JSON.parse(localStorage.getItem('euromat-results'))
-      if (results) {
-        this.results = results
-      }
-      console.log(this.results)
+    created () {
+      const emphasized = JSON.parse(localStorage.getItem('euromat-emphasized'))
+      const answers = JSON.parse(localStorage.getItem('euromat-answers'))
+
+      if (emphasized) this.emphasized = emphasized
+      if (answers) this.answers = answers
+
+      this.results = this.sortResults()
     }
   }
 </script>
