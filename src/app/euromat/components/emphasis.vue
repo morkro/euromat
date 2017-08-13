@@ -40,9 +40,9 @@
     methods: {
       addThesisEmphasis (thesis, event) {
         if (event.target.checked) {
-          this.emphasized.push({ id: thesis.id })
+          this.emphasized.push({ thesis: thesis.id })
         } else {
-          const index = this.emphasized.findIndex(item => item.id === thesis.id)
+          const index = this.emphasized.findIndex(item => item.thesis === thesis.id)
           this.emphasized.splice(index, 1)
         }
       },

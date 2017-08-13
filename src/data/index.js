@@ -20,5 +20,11 @@ export const getThesesCount = () =>
 export const getParty = token =>
   parties.find(p => p.token === token)
 
+export const getPartyPositions = (thesis) =>
+  parties.map(party => {
+    const { position } = party.positions.find(p => p.thesis === thesis)
+    return { type: 'party', party: party.id, position }
+  })
+
 export const getParties = () =>
   parties

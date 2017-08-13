@@ -5,11 +5,11 @@
     </header>
 
     <ul class="party-results">
-      <li v-for="item of results">
-        <h2>{{ item.token }} ({{ getScorePercentage(item.score) }} %)</h2>
+      <li v-for="party of parties">
+        <h2>{{ party.token }} ({{ getScorePercentage(party.score) }} %)</h2>
         <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
         <party-percentage
-          :value="getScorePercentage(item.score)"
+          :value="getScorePercentage(party.score)"
           :max="totalScoredPoints" />
       </li>
     </ul>
@@ -17,14 +17,22 @@
 </template>
 
 <script>
-  import * as SCORING from '@/app/euromat/scoring'
-  import { getParties, getThesesCount } from '@/data'
+  import {
+    MAX_POINTS,
+    BASE_POINTS,
+    MIN_POINTS,
+    EMPHASIS_POINTS,
+    getScoringGrid
+  } from '@/app/euromat/scoring'
+  import { getParties } from '@/data'
   import Progress from '@/components/progress'
   import '@/assets/icons'
 
   // FIXME: There is a bug that not all theses are send to localStorage.
   // We have 43 theses now, but only 42 are stored. Hence I check if
   // answers is even an object.
+
+  const addUp = (a, b) => a + b
 
   export default {
     name: 'Results',
@@ -35,10 +43,10 @@
 
     data () {
       return {
+        scoringGrid: [],
         answers: [],
         emphasized: [],
-        results: [],
-        thesesCount: getThesesCount(),
+        scores: [],
         parties: getParties(),
         totalScoredPoints: 0
       }
@@ -49,51 +57,64 @@
         return `${token.toLowerCase()}-logo`
       },
       getScorePercentage (score) {
-        console.log(score, this.totalScoredPoints)
         return (score / this.totalScoredPoints * 100).toFixed(2)
       },
-      sortResults () {
-        return this.parties
-          .map(party => ({
-            token: party.token,
-            score: party.positions
-              .map(this.countScoring)
-              .reduce((a, b) => a + b, 0)
-          }))
-          .sort((a, b) => a.score - b.score)
-          .reverse()
-      },
-      countScoring (partyConfig) {
-        const answer = this.answers.find(answer => answer.thesis === partyConfig.thesis)
-        if (!answer || answer.position === 'skipped') {
-          return SCORING.MIN_POINTS
-        }
-
+      evalPoints (party, user, emphasis) {
         let score = 0
-        const hasEmphasis = !!this.emphasized.find(e => e.id === answer.thesis)
-        const user = answer.position
-        const party = partyConfig.position
 
-        if (user === party) {
-          score = SCORING.MAX_POINTS
+        if (user.position === party.position) {
+          score = MAX_POINTS
         } else if (
-          (user === 'positive' && party === 'neutral') ||
-          (user === 'neutral' && party === 'positive') ||
-          (user === 'negative' && party === 'neutral')
+          (user.position === 'positive' && party.position === 'neutral') ||
+          (user.position === 'neutral' && party.position === 'positive') ||
+          (user.position === 'negative' && party.position === 'neutral')
         ) {
-          score = SCORING.BASE_POINTS
+          score = BASE_POINTS
         } else if (
-          (user === 'positive' && party === 'negative') ||
-          (user === 'neutral' && party === 'negative') ||
-          (user === 'negative' && party === 'positive')
+          (user.position === 'positive' && party.position === 'negative') ||
+          (user.position === 'neutral' && party.position === 'negative') ||
+          (user.position === 'negative' && party.position === 'positive')
         ) {
-          score = SCORING.MIN_POINTS
+          score = MIN_POINTS
         }
 
-        score = hasEmphasis ? score * SCORING.EMPHASIS_POINTS : score
-        this.totalScoredPoints += score
+        return {
+          party: party.party,
+          score: emphasis ? score * EMPHASIS_POINTS : score
+        }
+      },
+      getHighestScore (scores) {
+        const highestScore = Math.max(...scores.map(s => s.score))
 
-        return score
+        if (!highestScore) {
+          return MIN_POINTS
+        }
+
+        return highestScore === 1
+          ? MAX_POINTS
+          : highestScore
+      },
+      getScorePoints (grid) {
+        // 1. Iterate over scoringGrid
+        // 2. Get user and party positions of each thesis
+        // 3. Evaluate points based on calculation model for each party
+        // 4. Count the highest score per thesis
+        // 5. Return a new object for each thesis row with results
+        return grid.map(row => {
+          const parties = row.positions.filter(p => p.type === 'party')
+          const user = row.positions[row.positions.length - 1]
+          const scores = parties.map(party => this.evalPoints(party, user, row.emphasis))
+          const highestScore = this.getHighestScore(scores)
+          return { thesis: row.thesis, highestScore, scores }
+        })
+      },
+      getScorePerParty (party) {
+        return {
+          token: party.token,
+          score: this.scores
+            .map(t => t.scores.find(s => s.party === party.id).score)
+            .reduce(addUp, 0)
+        }
       }
     },
 
@@ -104,7 +125,15 @@
       if (emphasized) this.emphasized = emphasized
       if (answers) this.answers = answers
 
-      this.results = this.sortResults()
+      this.scoringGrid = getScoringGrid(this.answers, this.emphasized)
+      this.scores = this.getScorePoints(this.scoringGrid)
+      this.parties = this.parties
+        .map(this.getScorePerParty)
+        .sort((a, b) => a.score - b.score)
+        .reverse()
+      this.totalScoredPoints = this.scores
+        .map(s => s.highestScore)
+        .reduce(addUp, 0)
     }
   }
 </script>
