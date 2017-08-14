@@ -1,7 +1,8 @@
 @import "~styles/colors";
 @import "~styles/layout";
 
-button, .btn {
+button,
+.btn {
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
@@ -14,6 +15,16 @@ button, .btn {
   position: relative;
   transition: background 50ms, border-color 0.4s;
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+
+  &[disabled] {
+    cursor: not-allowed;
+    color: transparentize($button-color, 0.5);
+
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
 
   &::before,
   &::after {
@@ -41,10 +52,10 @@ button, .btn {
     z-index: -2;
   }
 
-  &:hover {
-    background: transparent;
-    border-color: $yellow;
-    color: $button-color;
+  &:hover:not([disabled]) {
+    background: transparent !important;
+    border-color: $yellow !important;
+    color: $button-color !important;
 
     &::before {
       opacity: 1;
@@ -58,6 +69,26 @@ button, .btn {
     background: $yellow;
   }
 
+  &.btn-dark {
+    background: $dark-blue;
+    border-color: $dark-blue;
+    color: $text-color-base;
+    font-weight: 400;
+
+    &[disabled] {
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    &::after {
+      background: $dark-blue;
+    }
+  }
+
+  &.btn-small {
+    padding: 5px 10px;
+    font-size: 85%;
+  }
+
   &.btn-txt {
     all: unset;
     cursor: pointer;
@@ -66,7 +97,8 @@ button, .btn {
     border: none;
     font-weight: 400;
 
-    &::before, &::after {
+    &::before,
+    &::after {
       content: none;
     }
 

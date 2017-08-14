@@ -6,7 +6,7 @@
     </div>
 
     <header class="euromat-header">
-      <h1 class="thesis">{{ thesisTitle }}</h1>
+      <h1>{{ thesisTitle }}</h1>
     </header>
 
     <div class="euromat-controls">
@@ -17,15 +17,27 @@
           </button>
         </li>
       </ul>
-      <button class="controls-skip btn-txt" type="button" @click="submitAnswer(optionSkip)">
-        {{ optionSkip.label }}
-      </button>
+      <div class="controls-sub">
+        <button
+          :disabled="this.currentThesis === 0"
+          class="btn-dark btn-small"
+          type="button"
+          @click="goBack">
+          {{ $t('euromat.euromat.back') }}
+        </button>
+        <button
+          class="btn-dark btn-small"
+          type="button"
+          @click="submitAnswer(optionSkip)">
+          {{ optionSkip.label }}
+        </button>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
-  import { getAllOptions, getThesis, getThesesCount } from '@/data'
+  import { options, theses } from '@/data'
   import Progress from '@/components/progress'
 
   export default {
@@ -38,7 +50,7 @@
     data () {
       return {
         currentThesis: 0,
-        thesesCount: getThesesCount(),
+        thesesCount: theses.length,
         answers: []
       }
     },
@@ -48,10 +60,10 @@
         if (this.currentThesis === this.thesesCount) {
           return
         }
-        return getThesis(this.currentThesis).thesis
+        return this.getThesis(this.currentThesis).thesis
       },
       options () {
-        return getAllOptions().map(option =>
+        return options.map(option =>
           Object.assign({}, option, {
             label: this.$t(`euromat.options.${option.position}`)
           }))
@@ -62,6 +74,16 @@
     },
 
     methods: {
+      getThesis (id) {
+        return theses.find(t => t.id === id)
+      },
+      goBack () {
+        const thesis = this.getThesis(this.currentThesis)
+        const index = this.answers.findIndex(a => a.thesis === thesis.id)
+
+        this.answers.splice(index, 1)
+        this.currentThesis -= 1
+      },
       submitAnswer (option, event) {
         if (!option) {
           return console.warn('Invalid answer')
@@ -70,7 +92,7 @@
           this.forwardToResults()
         }
 
-        const thesis = getThesis(this.currentThesis)
+        const thesis = this.getThesis(this.currentThesis)
         this.answers.push({ thesis: thesis.id, position: option.position })
         this.currentThesis += 1
         event && event.target.blur()
@@ -93,12 +115,13 @@
     margin-bottom: $base-gap * 2;
 
     span {
-      margin-right: 15px;
+      margin-right: $small-gap;
     }
   }
 
   .euromat-header {
     margin-bottom: $base-gap * 2;
+    text-align: center;
   }
 
   .euromat-controls {
@@ -108,9 +131,13 @@
     align-items: center;
   }
 
-  .controls-skip {
-    font-style: italic;
-    margin-top: $base-gap;
+  .controls-sub {
+    display: flex;
+    margin-top: $small-gap;
+
+    button:first-of-type {
+      margin-right: $small-gap;
+    }
   }
 
   .euromat-btns {
@@ -119,7 +146,7 @@
     justify-content: center;
 
     li:not(:last-child) {
-      margin-right: 15px;
+      margin-right: $small-gap;
     }
   }
 </style>

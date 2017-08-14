@@ -7,6 +7,9 @@ export default {
         negative: '👎🏻 Ich bin dagegen',
         skipped: 'These überspringen'
       },
+      euromat: {
+        back: 'Zurück'
+      },
       results: {
         headline: 'Dein Ergebnis'
       },
@@ -24,6 +27,9 @@ export default {
         neutral: '🖐🏻 Neutral',
         negative: '👎🏻 I disagree',
         skipped: 'Skip thesis'
+      },
+      euromat: {
+        back: 'Back'
       },
       results: {
         headline: 'Your results'

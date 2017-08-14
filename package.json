@@ -5,6 +5,7 @@
   "author": "Moritz Kröger <write@morkro.de>",
   "private": true,
   "scripts": {
+    "precommit": "lint-staged",
     "dev": "npm run svg && node build/dev-server.js",
     "start": "npm run svg && node build/dev-server.js",
     "build": "npm run svg && node build/build.js",
@@ -15,7 +16,15 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "css": "stylelint '**/*.vue' --syntax scss"
   },
+  "lint-staged": {
+    "src/**/*.vue": [
+      "npm run css",
+      "git add"
+    ]
+  },
   "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.3",
     "stylelint": "^8.0.0",
     "stylelint-config-standard": "^17.0.0",
     "stylelint-processor-html": "^1.0.0",

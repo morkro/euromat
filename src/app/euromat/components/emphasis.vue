@@ -25,14 +25,14 @@
 </template>
 
 <script>
-  import { getAllTheses } from '@/data'
+  import { theses } from '@/data'
 
   export default {
     name: 'Emphasis',
 
     data () {
       return {
-        theses: getAllTheses(),
+        theses,
         emphasized: []
       }
     },

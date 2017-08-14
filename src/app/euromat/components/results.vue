@@ -24,7 +24,7 @@
     EMPHASIS_POINTS,
     getScoringGrid
   } from '@/app/euromat/scoring'
-  import { getParties } from '@/data'
+  import { parties } from '@/data'
   import Progress from '@/components/progress'
   import '@/assets/icons'
 
@@ -47,7 +47,7 @@
         answers: [],
         emphasized: [],
         scores: [],
-        parties: getParties(),
+        parties,
         totalScoredPoints: 0
       }
     },
@@ -101,9 +101,9 @@
         // 4. Count the highest score per thesis
         // 5. Return a new object for each thesis row with results
         return grid.map(row => {
-          const parties = row.positions.filter(p => p.type === 'party')
+          const partiesFromRow = row.positions.filter(p => p.type === 'party')
           const user = row.positions[row.positions.length - 1]
-          const scores = parties.map(party => this.evalPoints(party, user, row.emphasis))
+          const scores = partiesFromRow.map(party => this.evalPoints(party, user, row.emphasis))
           const highestScore = this.getHighestScore(scores)
           return { thesis: row.thesis, highestScore, scores }
         })
