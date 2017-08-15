@@ -37,6 +37,12 @@
       }
     },
 
+    computed: {
+      isGermanLocale () {
+        return this.$i18n.locale === 'de'
+      }
+    },
+
     methods: {
       addThesisEmphasis (thesis, event) {
         if (event.target.checked) {
@@ -48,7 +54,10 @@
       },
       submitEmphasis () {
         localStorage.setItem('euromat-emphasized', JSON.stringify(this.emphasized))
-        this.$router.push({ path: '/thesen/ergebnis' })
+        this.$router.push({ path: this.isGermanLocale
+          ? '/thesen/ergebnis'
+          : '/theses/results'
+        })
       }
     }
   }

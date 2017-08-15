@@ -3,7 +3,7 @@ import Press from './components/index'
 export default [
   {
     path: '/presse',
-    alias: 'press',
+    alias: '/press',
     name: 'press',
     component: Press
   }

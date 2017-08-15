@@ -65,18 +65,39 @@
     },
 
     computed: {
+      isGermanLocale () {
+        return this.$i18n.locale === 'de'
+      },
       topMenu () {
         return [
-          { label: this.$t('topMenu.index'), route: { path: '/' } },
-          { label: this.$t('topMenu.about'), route: { path: '/über-uns' } },
-          { label: this.$t('topMenu.faq'), route: { path: '/faq' } },
-          { label: this.$t('topMenu.press'), route: { path: '/presse' } }
+          {
+            label: this.$t('topMenu.index'),
+            route: { path: '/' }
+          },
+          {
+            label: this.$t('topMenu.about'),
+            route: { path: this.isGermanLocale ? '/über-uns' : '/about-us' }
+          },
+          {
+            label: this.$t('topMenu.faq'),
+            route: { path: '/faq' }
+          },
+          {
+            label: this.$t('topMenu.press'),
+            route: { path: this.isGermanLocale ? '/presse' : '/press' }
+          }
         ]
       },
       subMenu () {
         return [
-          { label: this.$t('subMenu.imprint'), route: { path: '/impressum' } },
-          { label: this.$t('subMenu.privacy'), route: { path: '/datenschutz' } }
+          {
+            label: this.$t('subMenu.imprint'),
+            route: { path: this.isGermanLocale ? '/impressum' : '/imprint' }
+          },
+          {
+            label: this.$t('subMenu.privacy'),
+            route: { path: this.isGermanLocale ? '/datenschutz' : '/privacy' }
+          }
         ]
       }
     }

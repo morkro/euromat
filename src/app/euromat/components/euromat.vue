@@ -56,6 +56,9 @@
     },
 
     computed: {
+      isGermanLocale () {
+        return this.$i18n.locale === 'de'
+      },
       thesisTitle () {
         if (this.currentThesis === this.thesesCount) {
           return
@@ -99,7 +102,10 @@
       },
       forwardToResults () {
         localStorage.setItem('euromat-answers', JSON.stringify(this.answers))
-        this.$router.push({ path: '/thesen/gewichtung' })
+        this.$router.push({ path: this.isGermanLocale
+          ? '/thesen/gewichtung'
+          : '/theses/emphasis'
+        })
       }
     }
   }

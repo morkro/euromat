@@ -1,10 +1,12 @@
 <template>
   <section>
     <h1>{{ $t('intro.headline') }}</h1>
+
     <p v-for="txt of $t('intro.content')">
       {{ txt }}
     </p>
-    <router-link class="btn" :to="{ path: '/thesen' }">
+
+    <router-link class="btn" :to="{ path: thesesPath }">
       {{ $t('intro.button') }}
     </router-link>
   </section>
@@ -12,7 +14,15 @@
 
 <script>
   export default {
-    name: 'Intro'
+    name: 'Intro',
+
+    computed: {
+      thesesPath () {
+        return this.$i18n.locale === 'de'
+          ? '/thesen'
+          : '/theses'
+      }
+    }
   }
 </script>
 

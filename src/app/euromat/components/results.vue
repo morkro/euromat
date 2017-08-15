@@ -6,7 +6,7 @@
 
     <ul class="party-results">
       <li v-for="party of parties">
-        <router-link :to="{ path: `/partei/${party.token.toLowerCase()}` }">
+        <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
           <h2>{{ party.token }} ({{ getScorePercentage(party.score) }} %)</h2>
           <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
           <party-percentage
@@ -55,7 +55,18 @@
       }
     },
 
+    computed: {
+      isGermanLocale () {
+        return this.$i18n.locale === 'de'
+      }
+    },
+
     methods: {
+      getPartyPath (token) {
+        return this.isGermanLocale
+          ? `/partei/${token}`
+          : `/party/${token}`
+      },
       getPartyLogoName (token) {
         return `${token.toLowerCase()}-logo`
       },
