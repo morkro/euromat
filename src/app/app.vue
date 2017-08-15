@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-menu :menu="menu" :languages="languages" />
+    <app-menu :main="topMenu" :sub="subMenu" :languages="languages" />
     <main>
       <router-view></router-view>
     </main>
@@ -29,19 +29,27 @@
     i18n: {
       messages: {
         de: {
-          menu: {
+          topMenu: {
             index: 'Startseite',
+            about: 'Über uns',
             faq: 'FAQ',
-            press: 'Presse',
-            imprint: 'Impressum'
+            press: 'Presse'
+          },
+          subMenu: {
+            imprint: 'Impressum',
+            privacy: 'Datenschutz'
           }
         },
         en: {
-          menu: {
+          topMenu: {
             index: 'Main page',
+            about: 'About us',
             faq: 'FAQ',
-            press: 'Press',
-            imprint: 'Imprint'
+            press: 'Press'
+          },
+          subMenu: {
+            imprint: 'Imprint',
+            privacy: 'Data privacy'
           }
         }
       }
@@ -57,12 +65,18 @@
     },
 
     computed: {
-      menu () {
+      topMenu () {
         return [
-          { label: this.$t('menu.index'), route: { path: '/' } },
-          { label: this.$t('menu.faq'), route: { path: '/faq' } },
-          { label: this.$t('menu.press'), route: { path: '/presse' } },
-          { label: this.$t('menu.imprint'), route: { path: '/impressum' } }
+          { label: this.$t('topMenu.index'), route: { path: '/' } },
+          { label: this.$t('topMenu.about'), route: { path: '/über-uns' } },
+          { label: this.$t('topMenu.faq'), route: { path: '/faq' } },
+          { label: this.$t('topMenu.press'), route: { path: '/presse' } }
+        ]
+      },
+      subMenu () {
+        return [
+          { label: this.$t('subMenu.imprint'), route: { path: '/impressum' } },
+          { label: this.$t('subMenu.privacy'), route: { path: '/datenschutz' } }
         ]
       }
     }
