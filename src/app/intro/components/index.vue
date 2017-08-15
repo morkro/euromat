@@ -1,7 +1,9 @@
 <template>
   <section>
     <h1>{{ $t('intro.headline') }}</h1>
-    <p>{{ $t('intro.content') }}</p>
+    <p v-for="txt of $t('intro.content')">
+      {{ txt }}
+    </p>
     <router-link class="btn" :to="{ path: '/thesen' }">
       {{ $t('intro.button') }}
     </router-link>
