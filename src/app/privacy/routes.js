@@ -3,7 +3,8 @@ import Privacy from './components/index'
 export default [
   {
     path: '/datenschutz',
-    name: 'datenschutz',
+    alias: 'privacy',
+    name: 'privacy',
     component: Privacy
   }
 ]

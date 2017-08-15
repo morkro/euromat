@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import { routes as intro } from '@/app/intro'
 import { routes as euromat } from '@/app/euromat'
+import { routes as party } from '@/app/party'
 import { routes as about } from '@/app/about'
 import { routes as faq } from '@/app/faq'
 import { routes as press } from '@/app/press'
@@ -17,6 +18,7 @@ export default new Router({
   routes: [
     ...intro,
     ...euromat,
+    ...party,
     ...about,
     ...faq,
     ...press,

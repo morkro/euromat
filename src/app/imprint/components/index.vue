@@ -1,7 +1,14 @@
 <template>
   <section>
     <h1>{{ $t('imprint.headline') }}</h1>
-    <p>{{ $t('imprint.content') }}</p>
+
+    <div>
+      <h2>{{ $t('imprint.address') }}</h2>
+    </div>
+
+    <div>
+      <h2>{{ $t('imprint.address') }}</h2>
+    </div>
   </section>
 </template>
 

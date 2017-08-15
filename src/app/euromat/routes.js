@@ -6,6 +6,7 @@ import Results from './components/results'
 export default [
   {
     path: '/thesen',
+    alias: '/theses',
     component: Index,
     children: [
       {
@@ -15,11 +16,13 @@ export default [
       },
       {
         path: 'gewichtung',
+        alias: 'emphasis',
         name: 'emphasis',
         component: Emphasis
       },
       {
         path: 'ergebnis',
+        alias: 'results',
         name: 'results',
         component: Results
       }

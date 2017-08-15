@@ -6,11 +6,14 @@
 
     <ul class="party-results">
       <li v-for="party of parties">
-        <h2>{{ party.token }} ({{ getScorePercentage(party.score) }} %)</h2>
-        <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
-        <party-percentage
-          :value="getScorePercentage(party.score)"
-          :max="totalScoredPoints" />
+        <router-link :to="{ path: `/partei/${party.token.toLowerCase()}` }">
+          <h2>{{ party.token }} ({{ getScorePercentage(party.score) }} %)</h2>
+          <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
+          <party-percentage
+            class="result-percentage"
+            :value="getScorePercentage(party.score)"
+            :max="totalScoredPoints" />
+        </router-link>
       </li>
     </ul>
   </section>
@@ -134,6 +137,8 @@
       this.totalScoredPoints = this.scores
         .map(s => s.highestScore)
         .reduce(addUp, 0)
+
+      console.log(this.parties)
     }
   }
 </script>
@@ -153,6 +158,10 @@
       display: flex;
       flex-direction: column;
       margin-bottom: $base-gap;
+    }
+
+    .result-percentage {
+      height: 40px;
     }
   }
 </style>

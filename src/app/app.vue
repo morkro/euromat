@@ -20,7 +20,7 @@
   import '@/assets/icons/european-stars'
 
   export default {
-    name: 'Eur-O-Mat',
+    name: 'App',
 
     components: {
       'app-menu': Menu

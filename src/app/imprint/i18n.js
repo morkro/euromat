@@ -1,14 +1,24 @@
 export default {
   de: {
+    social: {
+      polis: [
+        { platform: 'Twitter', url: '' },
+        { platform: 'Facebook', url: '' }
+      ],
+      poe: [
+        { platform: 'Twitter', url: '' },
+        { platform: 'Facebook', url: '' }
+      ]
+    },
     imprint: {
       headline: 'Impressum',
-      content: 'Muss noch geschrieben werden.'
+      address: 'Adresse'
     }
   },
   en: {
     imprint: {
       headline: 'Imprint',
-      content: 'Imprint to be written.'
+      address: 'Address'
     }
   }
 }
