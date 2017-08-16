@@ -1,174 +1,475 @@
 [
   {
     "id": 0,
-    "thesis": "Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden.",
+      "en": "EN—Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden."
+    }
   },
   {
     "id": 1,
-    "thesis": "Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden.",
+      "en": "EN—Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden."
+    }
   },
   {
     "id": 2,
-    "thesis": "Das Europäische Parlament sollte das Recht bekommen, eigene Gesetzesvorschläge zu machen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Das Europäische Parlament sollte das Recht bekommen, eigene Gesetzesvorschläge zu machen.",
+      "en": "EN—Das Europäische Parlament sollte das Recht bekommen, eigene Gesetzesvorschläge zu machen."
+    }
   },
   {
     "id": 3,
-    "thesis": "Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden.",
+      "en": "EN—Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden."
+    }
   },
   {
     "id": 4,
-    "thesis": "Die Hürde für europäische Bürgerinitiativen soll von 1 Million auf 500.000 Unterschriften gesenkt werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Hürde für europäische Bürgerinitiativen soll von 1 Million auf 500.000 Unterschriften gesenkt werden.",
+      "en": "EN—Die Hürde für europäische Bürgerinitiativen soll von 1 Million auf 500.000 Unterschriften gesenkt werden."
+    }
   },
   {
     "id": 5,
-    "thesis": "Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden.",
+      "en": "EN—Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden."
+    }
   },
   {
     "id": 6,
-    "thesis": "Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden.",
+      "en": "EN—Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden."
+    }
   },
   {
     "id": 7,
-    "thesis": "Es sollte in Deutschland ein Referendum über die EU-Mitgliedschaft geben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte in Deutschland ein Referendum über die EU-Mitgliedschaft geben.",
+      "en": "EN—Es sollte in Deutschland ein Referendum über die EU-Mitgliedschaft geben."
+    }
   },
   {
     "id": 8,
-    "thesis": "Im Sinne des Subsidiaritätsprinzips sollten nationale Parlamente ein stärkeres Mitspracherecht in der europäischen Gesetzgebung erhalten."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Im Sinne des Subsidiaritätsprinzips sollten nationale Parlamente ein stärkeres Mitspracherecht in der europäischen Gesetzgebung erhalten.",
+      "en": "EN—Im Sinne des Subsidiaritätsprinzips sollten nationale Parlamente ein stärkeres Mitspracherecht in der europäischen Gesetzgebung erhalten."
+    }
   },
   {
     "id": 9,
-    "thesis": "Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten.",
+      "en": "EN—Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten."
+    }
   },
   {
     "id": 10,
-    "thesis": "Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben.",
+      "en": "EN—Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben."
+    }
   },
   {
     "id": 11,
-    "thesis": "Deutschland soll sich für die Einführung eines gemeinsamen Asyl-Systems mit Verteilungsschlüssel auf EU-Ebene einsetzen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Deutschland soll sich für die Einführung eines gemeinsamen Asyl-Systems mit Verteilungsschlüssel auf EU-Ebene einsetzen.",
+      "en": "EN—Deutschland soll sich für die Einführung eines gemeinsamen Asyl-Systems mit Verteilungsschlüssel auf EU-Ebene einsetzen."
+    }
   },
   {
     "id": 12,
-    "thesis": "Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden.",
+      "en": "EN—Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden."
+    }
   },
   {
     "id": 13,
-    "thesis": "Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden.",
+      "en": "EN—Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden."
+    }
   },
   {
     "id": 14,
-    "thesis": "Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen.",
+      "en": "EN—Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen."
+    }
   },
   {
     "id": 15,
-    "thesis": "Die EU soll keine weiteren Flüchtlinge mehr aufnehmen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU soll keine weiteren Flüchtlinge mehr aufnehmen.",
+      "en": "EN—Die EU soll keine weiteren Flüchtlinge mehr aufnehmen."
+    }
   },
   {
     "id": 16,
-    "thesis": "Die EU sollte mehr Geld zur weltweiten Bekämpfung von Hunger und Armut und Fluchtursachen ausgeben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU sollte mehr Geld zur weltweiten Bekämpfung von Hunger und Armut und Fluchtursachen ausgeben.",
+      "en": "EN—Die EU sollte mehr Geld zur weltweiten Bekämpfung von Hunger und Armut und Fluchtursachen ausgeben."
+    }
   },
   {
     "id": 17,
-    "thesis": "Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben.",
+      "en": "EN—Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben."
+    }
   },
   {
     "id": 18,
-    "thesis": "Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen.",
+      "en": "EN—Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen."
+    }
   },
   {
     "id": 19,
-    "thesis": "Die EU soll keine neuen Mitgliedstaaten aufnehmen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU soll keine neuen Mitgliedstaaten aufnehmen.",
+      "en": "EN—Die EU soll keine neuen Mitgliedstaaten aufnehmen."
+    }
   },
   {
     "id": 20,
-    "thesis": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen.",
+      "en": "EN—Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen."
+    }
   },
   {
     "id": 21,
-    "thesis": "Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten.",
+      "en": "EN—Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten."
+    }
   },
   {
     "id": 22,
-    "thesis": "Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt.",
+      "en": "EN—Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt."
+    }
   },
   {
     "id": 23,
-    "thesis": "Die Bundesregierung sollte sich für ein europaweites Mitspracherecht bei dem Bau neuer Atomkraftwerke einsetzen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Bundesregierung sollte sich für ein europaweites Mitspracherecht bei dem Bau neuer Atomkraftwerke einsetzen.",
+      "en": "EN—Die Bundesregierung sollte sich für ein europaweites Mitspracherecht bei dem Bau neuer Atomkraftwerke einsetzen."
+    }
   },
   {
     "id": 24,
-    "thesis": "Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben.",
+      "en": "EN—Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben."
+    }
   },
   {
     "id": 25,
-    "thesis": "Die Bundesregierung sollte sich für ein europaweites Verbot von Fracking (Schiefergasbohrungen) einsetzen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Bundesregierung sollte sich für ein europaweites Verbot von Fracking (Schiefergasbohrungen) einsetzen.",
+      "en": "EN—Die Bundesregierung sollte sich für ein europaweites Verbot von Fracking (Schiefergasbohrungen) einsetzen."
+    }
   },
   {
     "id": 26,
-    "thesis": "Die EU sollte sich global für hohe Umwelt- und Sozialstandards und fairen Handel einsetzen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU sollte sich global für hohe Umwelt- und Sozialstandards und fairen Handel einsetzen.",
+      "en": "EN—Die EU sollte sich global für hohe Umwelt- und Sozialstandards und fairen Handel einsetzen."
+    }
   },
   {
     "id": 27,
-    "thesis": "Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren.",
+      "en": "EN—Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren."
+    }
   },
   {
     "id": 28,
-    "thesis": "Es sollten europaweit angemessene Mindestlöhne eingeführt werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollten europaweit angemessene Mindestlöhne eingeführt werden.",
+      "en": "EN—Es sollten europaweit angemessene Mindestlöhne eingeführt werden."
+    }
   },
   {
     "id": 29,
-    "thesis": "Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden.",
+      "en": "EN—Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden."
+    }
   },
   {
     "id": 30,
-    "thesis": "Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden.",
+      "en": "EN—Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden."
+    }
   },
   {
     "id": 31,
-    "thesis": "Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben.",
+      "en": "EN—Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben."
+    }
   },
   {
     "id": 32,
-    "thesis": "Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds)."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds).",
+      "en": "EN—Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds)."
+    }
   },
   {
     "id": 33,
-    "thesis": "Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden.",
+      "en": "EN—Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden."
+    }
   },
   {
     "id": 34,
-    "thesis": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
+      "en": "EN—Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben."
+    }
   },
   {
     "id": 35,
-    "thesis": "Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen.",
+      "en": "EN—Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen."
+    }
   },
   {
     "id": 36,
-    "thesis": "Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren.",
+      "en": "EN—Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren."
+    }
   },
   {
     "id": 37,
-    "thesis": "Es sollte ein Europakunde-Fach eingeführt werden welches in ganz Europa nach einem einheitlichen Lehrplan unterrichtet wird."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte ein Europakunde-Fach eingeführt werden welches in ganz Europa nach einem einheitlichen Lehrplan unterrichtet wird.",
+      "en": "EN—Es sollte ein Europakunde-Fach eingeführt werden welches in ganz Europa nach einem einheitlichen Lehrplan unterrichtet wird."
+    }
   },
   {
     "id": 38,
-    "thesis": "Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben.",
+      "en": "EN—Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben."
+    }
   },
   {
     "id": 39,
-    "thesis": "Die EU sollte weitere Barrieren für GründerInnen abbauen um ein attraktives Klima für innovative Start-Ups in Europa zu schaffen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Die EU sollte weitere Barrieren für GründerInnen abbauen um ein attraktives Klima für innovative Start-Ups in Europa zu schaffen.",
+      "en": "EN—Die EU sollte weitere Barrieren für GründerInnen abbauen um ein attraktives Klima für innovative Start-Ups in Europa zu schaffen."
+    }
   },
   {
     "id": 40,
-    "thesis": "Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren.",
+      "en": "EN—Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren."
+    }
   },
   {
     "id": 41,
-    "thesis": "Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen.",
+      "en": "EN—Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen."
+    }
   },
   {
     "id": 42,
-    "thesis": "Deutschland soll sich für eine rasche Umsetzung eines digitalen Binnenmarktes einsetzen, in dem Daten so frei verkehren können, wie es für Personen, Waren, Dienstleistungen und Kapital bereits der Fall ist."
+    "category": {
+      "de": "",
+      "en": ""
+    },
+    "thesis": {
+      "de": "Deutschland soll sich für eine rasche Umsetzung eines digitalen Binnenmarktes einsetzen, in dem Daten so frei verkehren können, wie es für Personen, Waren, Dienstleistungen und Kapital bereits der Fall ist.",
+      "en": "EN—Deutschland soll sich für eine rasche Umsetzung eines digitalen Binnenmarktes einsetzen, in dem Daten so frei verkehren können, wie es für Personen, Waren, Dienstleistungen und Kapital bereits der Fall ist."
+    }
   }
 ]
