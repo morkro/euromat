@@ -63,7 +63,7 @@
         if (this.currentThesis === this.thesesCount) {
           return
         }
-        return this.getThesis(this.currentThesis).thesis
+        return this.getThesis(this.currentThesis).thesis[this.$i18n.locale]
       },
       options () {
         return options.map(option =>
@@ -101,7 +101,7 @@
         event && event.target.blur()
       },
       forwardToResults () {
-        localStorage.setItem('euromat-answers', JSON.stringify(this.answers))
+        sessionStorage.setItem('euromat-answers', JSON.stringify(this.answers))
         this.$router.push({ path: this.isGermanLocale
           ? '/thesen/gewichtung'
           : '/theses/emphasis'

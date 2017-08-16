@@ -133,8 +133,8 @@
     },
 
     created () {
-      const emphasized = JSON.parse(localStorage.getItem('euromat-emphasized'))
-      const answers = JSON.parse(localStorage.getItem('euromat-answers'))
+      const emphasized = JSON.parse(sessionStorage.getItem('euromat-emphasized'))
+      const answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
 
       if (emphasized) this.emphasized = emphasized
       if (answers) this.answers = answers
@@ -148,8 +148,6 @@
       this.totalScoredPoints = this.scores
         .map(s => s.highestScore)
         .reduce(addUp, 0)
-
-      console.log(this.parties)
     }
   }
 </script>

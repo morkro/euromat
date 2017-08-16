@@ -6,7 +6,7 @@
     <ol class="thesis-list">
       <li v-for="thesis of theses">
         <label :for="`thesis-${thesis.id}`">
-          {{ thesis.thesis }}
+          {{ getThesisTitle(thesis.thesis) }}
         </label>
         <input
           :name="`thesis-${thesis.id}`"
@@ -44,6 +44,9 @@
     },
 
     methods: {
+      getThesisTitle (thesis) {
+        return thesis[this.$i18n.locale]
+      },
       addThesisEmphasis (thesis, event) {
         if (event.target.checked) {
           this.emphasized.push({ thesis: thesis.id })
@@ -53,7 +56,7 @@
         }
       },
       submitEmphasis () {
-        localStorage.setItem('euromat-emphasized', JSON.stringify(this.emphasized))
+        sessionStorage.setItem('euromat-emphasized', JSON.stringify(this.emphasized))
         this.$router.push({ path: this.isGermanLocale
           ? '/thesen/ergebnis'
           : '/theses/results'
