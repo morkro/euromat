@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <app-menu :main="topMenu" :sub="subMenu" :languages="languages" />
+    <app-menu
+      :main="topMenu"
+      :sub="subMenu"
+      :languages="languages"
+      :socialMedia="socialMedia" />
     <main>
       <router-view></router-view>
     </main>
@@ -60,6 +64,11 @@
         languages: [
           { label: '🇩🇪', locale: 'de' },
           { label: '🇬🇧', locale: 'en' }
+        ],
+        socialMedia: [
+          { label: 'Twitter' },
+          { label: 'Facebook' },
+          { label: 'Clipboard' }
         ]
       }
     },
@@ -139,6 +148,10 @@
 
   h1 {
     margin: 0;
+  }
+
+  p {
+    line-height: 150%;
   }
 
   a {

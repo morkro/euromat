@@ -5,26 +5,29 @@
       {{ txt }}
     </p>
 
+    <h2>{{ $t('about.teamLabel.polis') }}</h2>
     <ul>
-      <li v-for="(member, index) of $t('members.polis')">
-        <a :href="$t(`members.polis[${index}].profile`)" target="_blank">
-          <span>{{ $t(`members.polis[${index}].name`) }}</span>
+      <li v-for="(member, index) of $t('about.members.polis')">
+        <a :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
+          <span>{{ $t(`about.members.polis[${index}].name`) }}</span>
         </a>
       </li>
     </ul>
 
+    <h2>{{ $t('about.teamLabel.poe') }}</h2>
     <ul>
-      <li v-for="(member, index) of $t('members.poe')">
-        <a :href="$t(`members.poe[${index}].profile`)" target="_blank">
-          <span>{{ $t(`members.poe[${index}].name`) }}</span>
+      <li v-for="(member, index) of $t('about.members.poe')">
+        <a :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
+          <span>{{ $t(`about.members.poe[${index}].name`) }}</span>
         </a>
       </li>
     </ul>
 
+    <h2>{{ $t('about.teamLabel.dev') }}</h2>
     <ul>
-      <li v-for="(member, index) of $t('members.dev')">
-        <a :href="$t(`members.dev[${index}].profile`)" target="_blank">
-          <span>{{ $t(`members.dev[${index}].name`) }}</span>
+      <li v-for="(member, index) of $t('about.members.dev')">
+        <a :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
+          <span>{{ $t(`about.members.dev[${index}].name`) }}</span>
         </a>
       </li>
     </ul>

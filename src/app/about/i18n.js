@@ -1,21 +1,21 @@
 export default {
   de: {
-    members: {
-      polis: [
-        { name: 'Susanne Zels', profile: 'https://google.de' },
-        { name: 'Stephan', profile: 'https://google.de' },
-        { name: 'Ben', profile: 'https://google.de' },
-        { name: 'Johannes', profile: 'https://google.de' }
-      ],
-      poe: [
-        { name: 'Eva Podgorsek', profile: 'https://google.de' },
-        { name: 'Peter Funk', profile: 'https://google.de' }
-      ],
-      dev: [
-        { name: 'Moritz Kröger', profile: 'https://google.de' }
-      ]
-    },
     about: {
+      members: {
+        polis: [
+          { name: 'Susanne Zels', profile: 'https://google.de' },
+          { name: 'Stephan', profile: 'https://google.de' },
+          { name: 'Ben', profile: 'https://google.de' },
+          { name: 'Johannes', profile: 'https://google.de' }
+        ],
+        poe: [
+          { name: 'Eva Podgorsek', profile: 'https://google.de' },
+          { name: 'Peter Funk', profile: 'https://google.de' }
+        ],
+        dev: [
+          { name: 'Moritz Kröger', profile: 'https://google.de' }
+        ]
+      },
       headline: 'Wer steckt eigentlich hinter dem Euromat?',
       content: [
         'Als digitaler Wahl-Freund hat der Euromat zwar einiges auf dem Kasten. Dennoch besteht seine DNA vor allem aus Einsen und Nullen.',
@@ -32,6 +32,21 @@ export default {
   },
   en: {
     about: {
+      members: {
+        polis: [
+          { name: 'Susanne Zels', profile: 'https://google.de' },
+          { name: 'Stephan', profile: 'https://google.de' },
+          { name: 'Ben', profile: 'https://google.de' },
+          { name: 'Johannes', profile: 'https://google.de' }
+        ],
+        poe: [
+          { name: 'Eva Podgorsek', profile: 'https://google.de' },
+          { name: 'Peter Funk', profile: 'https://google.de' }
+        ],
+        dev: [
+          { name: 'Moritz Kröger', profile: 'https://google.de' }
+        ]
+      },
       headline: 'Who‘s behind Euromat?',
       content: [
         'As your digital election buddy the Euromat certainly has plenty of grey matter. However, it‘s DNA still consists of mainly Ones and Zeros.',

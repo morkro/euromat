@@ -25,6 +25,14 @@
         </router-link>
       </li>
     </ul>
+
+    <ul style="display:none;">
+      <li v-for="item of socialMedia">
+        <button>
+          {{ item.label }}
+        </button>
+      </li>
+    </ul>
   </aside>
 </template>
 
@@ -39,7 +47,8 @@
     props: {
       main: { type: Array, default: () => [getDefaultMenu()] },
       sub: { type: Array, default: () => [getDefaultMenu()] },
-      languages: { type: Array, default: () => [] }
+      languages: { type: Array, default: () => [] },
+      socialMedia: { type: Array, default: () => [] }
     },
 
     methods: {
