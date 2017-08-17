@@ -57,7 +57,7 @@ export default {
       teamLabel: {
         polis: 'Polis180',
         poe: 'Pulse of Europe',
-        dev: 'Umsetzung und Design'
+        dev: 'Development and design'
       }
     }
   }

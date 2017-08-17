@@ -1,5 +1,6 @@
 <template>
   <aside class="menu">
+    <img class="menu-logo" :src="euromatLogo" width="80" height="80" />
     <ul class="top-menu">
       <li v-for="item of main">
         <router-link tag="a" :to="item.route">
@@ -51,6 +52,12 @@
       socialMedia: { type: Array, default: () => [] }
     },
 
+    data () {
+      return {
+        euromatLogo: require('@/assets/svg/euromat-logo.svg')
+      }
+    },
+
     methods: {
       changeLanguage (locale) {
         this.$i18n.locale = locale
@@ -72,6 +79,10 @@
     ul {
       list-style: none;
     }
+  }
+
+  .menu-logo {
+    margin-bottom: $small-gap;
   }
 
   .top-menu {
