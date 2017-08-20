@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <app-menu
-      :main="topMenu"
-      :sub="subMenu"
-      :languages="languages"
-      :socialMedia="socialMedia" />
+    <aside class="menu">
+      <router-link :to="{ path: '/' }">
+        <img class="menu-logo" :src="euromatLogo" width="140" height="140" />
+      </router-link>
+      <app-menu
+        :main="topMenu"
+        :sub="subMenu"
+        :languages="languages"
+        :socialMedia="socialMedia" />
+    </aside>
+
     <main>
       <router-view></router-view>
     </main>
+
     <div class="app-background">
       <svgicon
         name="european-stars"
@@ -61,6 +68,7 @@
 
     data () {
       return {
+        euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         languages: [
           { label: '🇩🇪', locale: 'de' },
           { label: '🇬🇧', locale: 'en' }
@@ -169,13 +177,23 @@
     align-items: flex-start;
     position: relative;
     margin: $base-gap * 3 0;
+
+    aside {
+      margin-right: $base-gap * 2;
+      position: relative;
+      flex: 0 0 140px;
+    }
+
+    main {
+      background: transparentize($background-primary, 0.5);
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
   }
 
-  main {
-    background: transparentize($background-primary, 0.5);
-    width: 100%;
-    position: relative;
-    z-index: 1;
+  .menu-logo {
+    margin-bottom: $small-gap;
   }
 
   .app-background {
