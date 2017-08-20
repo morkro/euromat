@@ -2,474 +2,451 @@
   {
     "id": 0,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Eurozone",
+      "en": "Eurozone"
     },
     "thesis": {
       "de": "Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden.",
-      "en": "EN—Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden."
+      "en": "A common economic policy should beintroduced under the supervision of a European Minister to strengthen the Eurozone."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 1,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Europäisches Wahlrecht",
+      "en": "European Elections"
     },
     "thesis": {
       "de": "Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden.",
-      "en": "EN—Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden."
+      "en": "Representatives of the European Parliament should be elected through a uniform/ standardised electoral law via a paneuropean list."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 2,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Volksentscheid",
+      "en": "Referenda on EU-level"
     },
     "thesis": {
-      "de": "Das Europäische Parlament sollte das Recht bekommen, eigene Gesetzesvorschläge zu machen.",
-      "en": "EN—Das Europäische Parlament sollte das Recht bekommen, eigene Gesetzesvorschläge zu machen."
+      "de": "Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden.",
+      "en": "Amendments to the European Treaties or any other basic decisions should pass a resolution/ be determined through a referendum on European level. "
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 3,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Lobbying",
+      "en": "Lobby control"
     },
     "thesis": {
-      "de": "Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden.",
-      "en": "EN—Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden."
+      "de": "Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden.",
+      "en": "Influence on European laws is to be made more transparent by a lobby register."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 4,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Europäische Kommission",
+      "en": "European Commission"
     },
     "thesis": {
-      "de": "Die Hürde für europäische Bürgerinitiativen soll von 1 Million auf 500.000 Unterschriften gesenkt werden.",
-      "en": "EN—Die Hürde für europäische Bürgerinitiativen soll von 1 Million auf 500.000 Unterschriften gesenkt werden."
+      "de": "Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden.",
+      "en": "The European Commission should be scaled down and better controlled by the Parliament,"
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 5,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Nationale Mitbestimmung",
+      "en": "National Representation"
     },
     "thesis": {
-      "de": "Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden.",
-      "en": "EN—Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden."
+      "de": "Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten.",
+      "en": "The EU has undetaken too many tasks which should be fullfilled by national Parliaments."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 6,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Grenzkontrollen",
+      "en": "Border controls"
     },
     "thesis": {
-      "de": "Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden.",
-      "en": "EN—Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden."
+      "de": "Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben.",
+      "en": "Even under special circumstances, border controls in the Shengen area should be entirely avoided."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 7,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Europäischer Grenzschutz",
+      "en": "European border protection"
     },
     "thesis": {
-      "de": "Es sollte in Deutschland ein Referendum über die EU-Mitgliedschaft geben.",
-      "en": "EN—Es sollte in Deutschland ein Referendum über die EU-Mitgliedschaft geben."
+      "de": "Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden.",
+      "en": "All Member States should make a greater contribution to the protection of the EU's external borders and build an effective European border protection."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 8,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Terrorismusbekämpfung",
+      "en": "Fighting terrorism"
     },
     "thesis": {
-      "de": "Im Sinne des Subsidiaritätsprinzips sollten nationale Parlamente ein stärkeres Mitspracherecht in der europäischen Gesetzgebung erhalten.",
-      "en": "EN—Im Sinne des Subsidiaritätsprinzips sollten nationale Parlamente ein stärkeres Mitspracherecht in der europäischen Gesetzgebung erhalten."
+      "de": "Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden.",
+      "en": "A joint European intelligence service should be set up to combat terrorism more effectively."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 9,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Cyberkriminalität",
+      "en": "Cyber crime"
     },
     "thesis": {
-      "de": "Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten.",
-      "en": "EN—Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten."
+      "de": "Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen.",
+      "en": "The EU is to introduce a special unit to fight against international cyber attacks and Fake News."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 10,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Aufnahme von Geflüchteten",
+      "en": "Refugee crisis"
     },
     "thesis": {
-      "de": "Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben.",
-      "en": "EN—Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben."
+      "de": "Die EU soll keine weiteren Flüchtlinge mehr aufnehmen.",
+      "en": "The EU should not accept any more refugees."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 11,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Rüstungsexporte",
+      "en": "Defence exports"
     },
     "thesis": {
-      "de": "Deutschland soll sich für die Einführung eines gemeinsamen Asyl-Systems mit Verteilungsschlüssel auf EU-Ebene einsetzen.",
-      "en": "EN—Deutschland soll sich für die Einführung eines gemeinsamen Asyl-Systems mit Verteilungsschlüssel auf EU-Ebene einsetzen."
+      "de": "Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben.",
+      "en": "There should be more coordination in the EU for arms exports to third countries."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 12,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "UNO-Sicherheitsrat",
+      "en": "UN Security Council"
     },
     "thesis": {
-      "de": "Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden.",
-      "en": "EN—Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden."
+      "de": "Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen.",
+      "en": "Germany should commit to the Introducton of a joint EU Membership in the UN security council."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 13,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Europäische Armee",
+      "en": "European Army"
     },
     "thesis": {
-      "de": "Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden.",
-      "en": "EN—Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden."
+      "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen.",
+      "en": "In the long term the EU should unite all its armed forces in one greater european army."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 14,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Gemeinsame Werte",
+      "en": "Common values"
     },
     "thesis": {
-      "de": "Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen.",
-      "en": "EN—Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen."
+      "de": "Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten.",
+      "en": "The EU should act more actively on a global level in promoting its values."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 15,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "CO2-Steuer",
+      "en": "Tax on CO2 emissions"
     },
     "thesis": {
-      "de": "Die EU soll keine weiteren Flüchtlinge mehr aufnehmen.",
-      "en": "EN—Die EU soll keine weiteren Flüchtlinge mehr aufnehmen."
+      "de": "Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt.",
+      "en": "At European level, a CO2 tax should be introduced to help finance the EU budget."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 16,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Erneuerbare Energien",
+      "en": "Renewable energy"
     },
     "thesis": {
-      "de": "Die EU sollte mehr Geld zur weltweiten Bekämpfung von Hunger und Armut und Fluchtursachen ausgeben.",
-      "en": "EN—Die EU sollte mehr Geld zur weltweiten Bekämpfung von Hunger und Armut und Fluchtursachen ausgeben."
+      "de": "Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben.",
+      "en": "A funding programme for renewable energy shoudl be introduced on European level"
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 17,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Ausgabe des EU-Budgets",
+      "en": "Spending of EU-budget"
     },
     "thesis": {
-      "de": "Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben.",
-      "en": "EN—Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben."
+      "de": "Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren.",
+      "en": "The EU should invest more money in education an new technologies and less in agricultural promotion. "
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 18,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Mindestlöhne",
+      "en": "Minimum wage"
     },
     "thesis": {
-      "de": "Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen.",
-      "en": "EN—Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen."
+      "de": "Es sollten europaweit angemessene Mindestlöhne eingeführt werden.",
+      "en": "Reasonable minimum wages should be introduced on a european level. "
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 19,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Unternehmenssteuern",
+      "en": "Business tax"
     },
     "thesis": {
-      "de": "Die EU soll keine neuen Mitgliedstaaten aufnehmen.",
-      "en": "EN—Die EU soll keine neuen Mitgliedstaaten aufnehmen."
+      "de": "Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden.",
+      "en": "There should be a uniform corporate tax rate throughout Europe and stronger measures against tax evasion by international corporations should be taken."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 20,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Freihandelsabkommen",
+      "en": "Free trade agreements"
     },
     "thesis": {
-      "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen.",
-      "en": "EN—Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen."
+      "de": " Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden.",
+      "en": "Free trade agreements should be ratified by the European parliament alone. "
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 21,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Handelspolitik",
+      "en": "Trade policy"
     },
     "thesis": {
-      "de": "Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten.",
-      "en": "EN—Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten."
+      "de": "Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben.",
+      "en": "The EU should raise tariffs to protect domestic products and corporations from illegitimate competition."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 22,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Eurobonds",
+      "en": "Eurobonds"
     },
     "thesis": {
-      "de": "Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt.",
-      "en": "EN—Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt."
+      "de": "Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds).",
+      "en": "The Eurozone countries should be able to jointly borrow loans for which they are jointly liable (Eurobonds)."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 23,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Gundrechte",
+      "en": "Fundamental rights"
     },
     "thesis": {
-      "de": "Die Bundesregierung sollte sich für ein europaweites Mitspracherecht bei dem Bau neuer Atomkraftwerke einsetzen.",
-      "en": "EN—Die Bundesregierung sollte sich für ein europaweites Mitspracherecht bei dem Bau neuer Atomkraftwerke einsetzen."
+      "de": "Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden.",
+      "en": "The non-compliance of European legal standards should be sanctioned by a reduction in European funding. "
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 24,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Arbeitslosenversicherung",
+      "en": "Unemployment insurance"
     },
     "thesis": {
-      "de": "Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben.",
-      "en": "EN—Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben."
+      "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
+      "en": "There should be a joint unemployment insurance scheme at European level."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 25,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Schuldenmanagement",
+      "en": "Debt management"
     },
     "thesis": {
-      "de": "Die Bundesregierung sollte sich für ein europaweites Verbot von Fracking (Schiefergasbohrungen) einsetzen.",
-      "en": "EN—Die Bundesregierung sollte sich für ein europaweites Verbot von Fracking (Schiefergasbohrungen) einsetzen."
+      "de": "Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen.",
+      "en": "At European level, the focus should be on investment instead of debt reduction."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 26,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Elektromobilität",
+      "en": "E-mobility"
     },
     "thesis": {
-      "de": "Die EU sollte sich global für hohe Umwelt- und Sozialstandards und fairen Handel einsetzen.",
-      "en": "EN—Die EU sollte sich global für hohe Umwelt- und Sozialstandards und fairen Handel einsetzen."
+      "de": "Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren.",
+      "en": "The EU should invest more in electromobility and a dense network of charging stations across Europe."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 27,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Europäischer Feiertag",
+      "en": "European Holiday"
     },
     "thesis": {
-      "de": "Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren.",
-      "en": "EN—Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren."
+      "de": "Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben.",
+      "en": "There should be an all-European holiday celebrating the unity of Europe."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 28,
     "category": {
-      "de": "",
-      "en": ""
+      "de": "Kostenloses Interrail",
+      "en": "Free Interrail"
     },
     "thesis": {
-      "de": "Es sollten europaweit angemessene Mindestlöhne eingeführt werden.",
-      "en": "EN—Es sollten europaweit angemessene Mindestlöhne eingeführt werden."
+      "de": "Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren.",
+      "en": "For intercultural understanding, the EU should finance an Interrail ticket for all 18-year-old Europeans."
+    },
+    "terminology": {
+      "de": "",
+      "en": ""
     }
   },
   {
     "id": 29,
     "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden.",
-      "en": "EN—Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden."
-    }
-  },
-  {
-    "id": 30,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden.",
-      "en": "EN—Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden."
-    }
-  },
-  {
-    "id": 31,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben.",
-      "en": "EN—Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben."
-    }
-  },
-  {
-    "id": 32,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds).",
-      "en": "EN—Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds)."
-    }
-  },
-  {
-    "id": 33,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden.",
-      "en": "EN—Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden."
-    }
-  },
-  {
-    "id": 34,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
-      "en": "EN—Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben."
-    }
-  },
-  {
-    "id": 35,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen.",
-      "en": "EN—Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen."
-    }
-  },
-  {
-    "id": 36,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren.",
-      "en": "EN—Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren."
-    }
-  },
-  {
-    "id": 37,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Es sollte ein Europakunde-Fach eingeführt werden welches in ganz Europa nach einem einheitlichen Lehrplan unterrichtet wird.",
-      "en": "EN—Es sollte ein Europakunde-Fach eingeführt werden welches in ganz Europa nach einem einheitlichen Lehrplan unterrichtet wird."
-    }
-  },
-  {
-    "id": 38,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben.",
-      "en": "EN—Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben."
-    }
-  },
-  {
-    "id": 39,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Die EU sollte weitere Barrieren für GründerInnen abbauen um ein attraktives Klima für innovative Start-Ups in Europa zu schaffen.",
-      "en": "EN—Die EU sollte weitere Barrieren für GründerInnen abbauen um ein attraktives Klima für innovative Start-Ups in Europa zu schaffen."
-    }
-  },
-  {
-    "id": 40,
-    "category": {
-      "de": "",
-      "en": ""
-    },
-    "thesis": {
-      "de": "Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren.",
-      "en": "EN—Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren."
-    }
-  },
-  {
-    "id": 41,
-    "category": {
-      "de": "",
-      "en": ""
+      "de": "Arbeitslosenhilfe",
+      "en": "Unemployment assistance"
     },
     "thesis": {
       "de": "Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen.",
-      "en": "EN—Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen."
-    }
-  },
-  {
-    "id": 42,
-    "category": {
+      "en": "Unemployed EU citizens should receive an EU-funded aid if they are seeking or applying for a job in another country."
+    },
+    "terminology": {
       "de": "",
       "en": ""
-    },
-    "thesis": {
-      "de": "Deutschland soll sich für eine rasche Umsetzung eines digitalen Binnenmarktes einsetzen, in dem Daten so frei verkehren können, wie es für Personen, Waren, Dienstleistungen und Kapital bereits der Fall ist.",
-      "en": "EN—Deutschland soll sich für eine rasche Umsetzung eines digitalen Binnenmarktes einsetzen, in dem Daten so frei verkehren können, wie es für Personen, Waren, Dienstleistungen und Kapital bereits der Fall ist."
     }
   }
 ]
