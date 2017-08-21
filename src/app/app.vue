@@ -123,6 +123,7 @@
 
 <style lang="scss">
   @import "~node_modules/normalize.css/normalize";
+  @import "~styles/fonts";
   @import "~styles/buttons";
   @import "~styles/colors";
   @import "~styles/layout";
@@ -147,7 +148,8 @@
   body {
     background: $background-primary;
     color: $text-color-base;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Halis GR', Avenir, Helvetica, Arial, sans-serif;
+    font-weight: normal;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

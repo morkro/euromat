@@ -1,0 +1,53 @@
+$fontPath: '/static/fonts/';
+
+@font-face {
+  font-family: 'Halis GR';
+  src: url($fontPath + 'hinted-HalisGR-BoldItalic.eot');
+  src:
+    local('Halis GR Bold Italic'),
+    local('HalisGR-BoldItalic'),
+    url($fontPath + 'hinted-HalisGR-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url($fontPath + 'hinted-HalisGR-BoldItalic.woff') format('woff'),
+    url($fontPath + 'hinted-HalisGR-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Halis GR';
+  src: url($fontPath + 'hinted-HalisGR-Regular.eot');
+  src:
+    local('Halis GR Regular'),
+    local('HalisGR-Regular'),
+    url($fontPath + 'hinted-HalisGR-Regular.eot?#iefix') format('embedded-opentype'),
+    url($fontPath + 'hinted-HalisGR-Regular.woff') format('woff'),
+    url($fontPath + 'hinted-HalisGR-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Halis GR';
+  src: url($fontPath + 'hinted-HalisGR-RegularItalic.eot');
+  src:
+    local('Halis GR Regular Italic'),
+    local('HalisGR-RegularItalic'),
+    url($fontPath + 'hinted-HalisGR-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url($fontPath + 'hinted-HalisGR-RegularItalic.woff') format('woff'),
+    url($fontPath + 'hinted-HalisGR-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Halis GR';
+  src: url($fontPath + 'hinted-HalisGR-Bold.eot');
+  src:
+    local('Halis GR Bold'),
+    local('HalisGR-Bold'),
+    url($fontPath + 'hinted-HalisGR-Bold.eot?#iefix') format('embedded-opentype'),
+    url($fontPath + 'hinted-HalisGR-Bold.woff') format('woff'),
+    url($fontPath + 'hinted-HalisGR-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
