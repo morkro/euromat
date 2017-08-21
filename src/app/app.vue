@@ -53,7 +53,7 @@
         },
         en: {
           topMenu: {
-            index: 'Main page',
+            index: 'Landing page',
             about: 'About us',
             faq: 'FAQ',
             press: 'Press'

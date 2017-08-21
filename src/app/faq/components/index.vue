@@ -1,7 +1,14 @@
 <template>
   <section>
     <h1>{{ $t('faq.headline') }}</h1>
-    <p>{{ $t('faq.content') }}</p>
+    <ul>
+      <li v-for="question of $t('faq.questions')">
+        <h2>{{ question.title }}</h2>
+        <p v-for="answer of question.answer">
+          {{ answer }}
+        </p>
+      </li>
+    </ul>
   </section>
 </template>
 
