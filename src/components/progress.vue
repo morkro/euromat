@@ -34,8 +34,9 @@
     }
 
     &::-webkit-progress-value {
-      background: $yellow;
+      background: linear-gradient(90deg, $yellow, $orange);
       border-radius: $border-radius;
+      box-shadow: 0 5px 34px transparentize($yellow, 0.6);
     }
   }
 </style>

@@ -1,19 +1,26 @@
 <template>
   <div id="app">
-    <aside class="menu">
+    <header class="app-header">
       <router-link :to="{ path: '/' }">
-        <img class="menu-logo" :src="euromatLogo" width="140" height="140" />
+        <img :src="euromatLogo" width="90" height="90" />
       </router-link>
-      <app-menu
-        :main="topMenu"
-        :sub="subMenu"
-        :languages="languages"
-        :socialMedia="socialMedia" />
-    </aside>
+
+      <app-menu :main="topMenu" :languages="languages" />
+    </header>
 
     <main>
       <router-view></router-view>
     </main>
+
+    <footer>
+      <ul>
+        <li v-for="item of subMenu">
+          <router-link tag="a" class="btn btn-small btn-txt" :to="item.router">
+            {{ item.label }}
+          </router-link>
+        </li>
+      </ul>
+    </footer>
 
     <div class="app-background">
       <svgicon
@@ -158,6 +165,7 @@
 
   h1 {
     margin: 0;
+    text-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
   }
 
   p {
@@ -173,29 +181,32 @@
   }
 
   #app {
-    max-width: $app-width;
-    width: 95vw;
+    width: 100vw;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    margin: $base-gap * 3 0;
-
-    aside {
-      margin-right: $base-gap * 2;
-      position: relative;
-      flex: 0 0 140px;
-    }
 
     main {
       background: transparentize($background-primary, 0.5);
       width: 100%;
+      max-width: 900px;
       position: relative;
       z-index: 1;
     }
+
+    header,
+    footer {
+      width: 100%;
+    }
   }
 
-  .menu-logo {
-    margin-bottom: $small-gap;
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $small-gap $small-gap 0 $small-gap;
   }
 
   .app-background {
