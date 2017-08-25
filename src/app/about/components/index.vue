@@ -1,36 +1,43 @@
 <template>
   <section>
     <h1>{{ $t('about.headline') }}</h1>
-    <p v-for="txt of $t('about.content')">
-      {{ txt }}
-    </p>
 
-    <h2>{{ $t('about.teamLabel.polis') }}</h2>
-    <ul>
-      <li v-for="(member, index) of $t('about.members.polis')">
-        <a :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
-          <span>{{ $t(`about.members.polis[${index}].name`) }}</span>
-        </a>
-      </li>
-    </ul>
+    <div class="about-content">
+      <div class="about-text">
+        <p v-for="txt of $t('about.content')">
+          {{ txt }}
+        </p>
+      </div>
 
-    <h2>{{ $t('about.teamLabel.poe') }}</h2>
-    <ul>
-      <li v-for="(member, index) of $t('about.members.poe')">
-        <a :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
-          <span>{{ $t(`about.members.poe[${index}].name`) }}</span>
-        </a>
-      </li>
-    </ul>
+      <div class="about-people">
+        <h2>{{ $t('about.teamLabel.polis') }}</h2>
+        <ul>
+          <li v-for="(member, index) of $t('about.members.polis')">
+            <a :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
+              <span>{{ $t(`about.members.polis[${index}].name`) }}</span>
+            </a>
+          </li>
+        </ul>
 
-    <h2>{{ $t('about.teamLabel.dev') }}</h2>
-    <ul>
-      <li v-for="(member, index) of $t('about.members.dev')">
-        <a :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
-          <span>{{ $t(`about.members.dev[${index}].name`) }}</span>
-        </a>
-      </li>
-    </ul>
+        <h2>{{ $t('about.teamLabel.poe') }}</h2>
+        <ul>
+          <li v-for="(member, index) of $t('about.members.poe')">
+            <a :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
+              <span>{{ $t(`about.members.poe[${index}].name`) }}</span>
+            </a>
+          </li>
+        </ul>
+
+        <h2>{{ $t('about.teamLabel.dev') }}</h2>
+        <ul>
+          <li v-for="(member, index) of $t('about.members.dev')">
+            <a :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
+              <span>{{ $t(`about.members.dev[${index}].name`) }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -46,5 +53,23 @@
   h1,
   p {
     margin-bottom: $base-gap;
+  }
+
+  .about-content {
+    display: flex;
+  }
+
+  .about-people {
+    flex: 1 0 350px;
+    margin-left: $base-gap;
+
+    h2 {
+      margin-bottom: $small-gap;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: $base-gap;
+    }
   }
 </style>

@@ -24,4 +24,16 @@
   h1 {
     margin-bottom: $base-gap;
   }
+
+  ul {
+    list-style: none;
+
+    li:not(:last-child) {
+      margin-bottom: $base-gap;
+    }
+  }
+
+  h2 {
+    margin-bottom: $small-gap;
+  }
 </style>
