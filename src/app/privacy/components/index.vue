@@ -25,4 +25,12 @@
   p {
     margin-bottom: $base-gap;
   }
+
+  ul {
+    list-style: none;
+  }
+
+  h2 {
+    margin-bottom: $small-gap;
+  }
 </style>

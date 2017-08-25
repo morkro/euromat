@@ -2,9 +2,10 @@
   <section>
     <h1>{{ $t('press.headline') }}</h1>
     <p>{{ $t('press.content') }}</p>
-    <i18n path="press.contact" tag="p">
-      <a :href="`mailto:${$t('press.email')}`">{{ $t('press.email') }}</a>
-    </i18n>
+    <p>{{ $t('press.contact') }}</p>
+    <a class="btn" :href="`mailto:${$t('press.email')}`">
+      {{ $t('press.email') }} <feather-mail />
+    </a>
   </section>
 </template>
 
@@ -19,5 +20,9 @@
 
   h1 {
     margin-bottom: $base-gap;
+  }
+
+  a {
+    margin-top: $base-gap;
   }
 </style>

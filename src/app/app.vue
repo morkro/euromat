@@ -190,7 +190,7 @@
     text-decoration: none;
     transition: color 150ms $easeInOutQuint;
 
-    &:hover {
+    &:not(.btn):hover {
       color: $text-color-special;
     }
   }
