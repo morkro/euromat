@@ -1,14 +1,20 @@
-$blue: #40a6ee;
-$dark-blue: #06069d;
-$yellow: #fee872;
-$orange: #fa742a;
+$transparent-white: rgba(255, 255, 255, 0.21);
+$blue: #40A6EE;
+$dark-blue: #296E9F;
+$yellow: #FEE872;
+$orange: #F5A960;
+$pink: #D74AA1;
 
 $background-primary: $blue;
 $background-secondary: white;
 
 $text-color-base: white;
+$text-color-secondary: $dark-blue;
 $text-color-invert: rgba(0, 0, 0, 0.8);
 $text-color-special: $yellow;
+$text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 
-$button-background: white;
-$button-color: $blue;
+$button-background-primary: linear-gradient(215deg, $yellow 0%, $orange 44%, $pink 100%);
+$button-background-secondary: $transparent-white;
+$button-color: white;
+$button-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);

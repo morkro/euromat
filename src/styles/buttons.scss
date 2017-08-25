@@ -1,95 +1,89 @@
+@import "~styles/fonts";
 @import "~styles/colors";
 @import "~styles/layout";
 
 button,
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 14px 24px;
+  font-family: $fontHalisGR;
+  font-size: $font-size-medium;
   font-weight: 600;
-  background: $button-background;
+  background: $button-background-primary;
   color: $button-color;
   border-radius: $border-radius;
-  border: 2px solid $button-background;
+  border: none;
   cursor: pointer;
   position: relative;
-  transition: background 50ms, border-color 0.4s;
-  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  text-shadow: $text-shadow;
+  box-shadow: $button-shadow;
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: $button-shadow, 0 0 8px $pink;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: $border-radius;
+    border: 1px solid transparentize($yellow, 0.87);
+  }
+
+  svg {
+    stroke: $button-color;
+    width: 16px;
+    height: 16px;
+    filter: drop-shadow($text-shadow);
+    margin-left: $small-gap / 2;
+
+    path,
+    polyline {
+      stroke: $button-color;
+    }
+  }
 
   &[disabled] {
     cursor: not-allowed;
-    color: transparentize($button-color, 0.5);
-
-    &::before,
-    &::after {
-      content: none;
-    }
-  }
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -2px;
-    width: calc(100% + 4px);
-    height: 100%;
-    border-radius: $border-radius;
-  }
-
-  &::before {
-    background: $yellow;
-    border-radius: $border-radius;
-    opacity: 0;
-    z-index: -1;
-    transform: scale3d(0.5, 1, 1);
-    transition: transform 0.4s, opacity 0.4s;
-    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-  }
-
-  &::after {
-    background: $button-background;
-    z-index: -2;
-  }
-
-  &:hover:not([disabled]) {
-    background: transparent !important;
-    border-color: $yellow !important;
-    color: $button-color !important;
-
-    &::before {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
-  }
-
-  &:active,
-  &:focus {
-    outline: none;
-    background: $yellow;
+    color: transparentize($button-color, 0.5) !important;
   }
 
   &.btn-dark {
-    background: $dark-blue;
-    border-color: $dark-blue;
-    color: $text-color-base;
-    font-weight: 400;
-
-    &[disabled] {
-      color: rgba(255, 255, 255, 0.3);
-    }
+    background: $button-background-secondary;
+    border-color: $button-background-secondary;
+    color: $button-color;
+    box-shadow: none;
+    text-shadow: none;
 
     &::after {
-      background: $dark-blue;
+      display: none;
+    }
+
+    &:focus,
+    &:active {
+      outline: none;
+      box-shadow: 0 0 8px transparentize($dark-blue, 0.7);
+    }
+
+    svg {
+      filter: none;
     }
   }
 
   &.btn-small {
-    padding: 5px 10px;
-    font-size: 85%;
+    padding: 8px 14px;
+    font-size: $font-size-small;
   }
 
   &.btn-txt {
+    position: relative;
     all: unset;
     cursor: pointer;
     background: transparent;
@@ -97,13 +91,8 @@ button,
     border: none;
     font-weight: 400;
 
-    &::before,
     &::after {
-      content: none;
-    }
-
-    &:hover {
-      color: $text-color-special;
+      display: none;
     }
   }
 }

@@ -2,9 +2,9 @@ export default {
   de: {
     euromat: {
       options: {
-        positive: '👍🏻 Ich stimme zu',
-        neutral: '🖐🏻 Neutral',
-        negative: '👎🏻 Ich bin dagegen',
+        positive: 'Ich stimme zu',
+        neutral: 'Neutral',
+        negative: 'Ich bin dagegen',
         skipped: 'These überspringen'
       },
       euromat: {
@@ -23,9 +23,9 @@ export default {
   en: {
     euromat: {
       options: {
-        positive: '👍🏻 I agree',
-        neutral: '🖐🏻 Neutral',
-        negative: '👎🏻 I disagree',
+        positive: 'I agree',
+        neutral: 'Neutral',
+        negative: 'I disagree',
         skipped: 'Skip thesis'
       },
       euromat: {

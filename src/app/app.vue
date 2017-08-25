@@ -135,7 +135,7 @@
   @import "~styles/colors";
   @import "~styles/layout";
 
-  $app-width: 850px;
+  $app-width: 930px;
 
   * {
     padding: 0;
@@ -155,9 +155,9 @@
   body {
     background: $background-primary;
     color: $text-color-base;
-    font-family: 'Halis GR', Avenir, Helvetica, Arial, sans-serif;
+    font-family: $fontHalisGR;
     font-weight: normal;
-    font-size: 16px;
+    font-size: $font-size-base;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -167,11 +167,17 @@
     font-size: $font-size-xlarge;
     line-height: 110%;
     font-weight: 600;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
     margin: 0;
 
     @media (max-width: 768px) {
       font-size: $font-size-large;
     }
+  }
+
+  h2 {
+    font-size: $font-size-large;
+    color: $text-color-secondary;
   }
 
   p {
@@ -196,7 +202,7 @@
 
     main {
       width: 100%;
-      max-width: 900px;
+      max-width: $app-width;
       padding: 0 $small-gap;
       position: relative;
       z-index: 1;
@@ -205,6 +211,13 @@
     header,
     footer {
       width: 100%;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      display: flex;
+      justify-content: flex-end;
     }
   }
 
@@ -216,6 +229,7 @@
   }
 
   .app-background {
+    display: none;
     position: absolute;
     width: 100%;
     height: 100%;

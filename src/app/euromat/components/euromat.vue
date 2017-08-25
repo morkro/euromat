@@ -1,36 +1,41 @@
 <template>
   <section class="euromat">
     <div class="header-progress">
-      <span>{{ currentThesis + 1 }}/{{ thesesCount }}</span>
-      <thesis-progress :value="currentThesis + 1" :max="thesesCount" />
+      <div>
+        <span class="progress-current">{{ currentThesis + 1 }}</span>
+        <span>/{{ thesesCount }}</span>
+      </div>
+      <button
+        :disabled="this.currentThesis === 0"
+        class="btn-dark btn-small"
+        type="button"
+        @click="goBack">
+        {{ $t('euromat.euromat.back') }}
+      </button>
     </div>
 
-    <header class="euromat-header">
-      <h1>{{ thesisTitle }}</h1>
-    </header>
+    <div class="euromat-content">
+      <header class="euromat-header">
+        <h2>{{ thesisCategory }}</h2>
+        <h1>{{ thesisTitle }}</h1>
+      </header>
 
-    <div class="euromat-controls">
-      <ul class="euromat-btns">
-        <li v-for="option in options" v-if="option.position !== 'skipped'">
-          <button type="button" @click="submitAnswer(option, $event)">
-            {{ option.label }}
+      <div class="euromat-controls">
+        <ul class="euromat-btns">
+          <li v-for="option in options" v-if="option.position !== 'skipped'">
+            <button type="button" @click="submitAnswer(option, $event)">
+              {{ option.label }} <feather-icon :type="option.icon" />
+            </button>
+          </li>
+        </ul>
+        <div class="controls-sub">
+          <button
+            class="btn-dark btn-small"
+            type="button"
+            @click="submitAnswer(optionSkip)">
+            {{ optionSkip.label }} <feather-corner-up-right />
           </button>
-        </li>
-      </ul>
-      <div class="controls-sub">
-        <button
-          :disabled="this.currentThesis === 0"
-          class="btn-dark btn-small"
-          type="button"
-          @click="goBack">
-          {{ $t('euromat.euromat.back') }}
-        </button>
-        <button
-          class="btn-dark btn-small"
-          type="button"
-          @click="submitAnswer(optionSkip)">
-          {{ optionSkip.label }}
-        </button>
+        </div>
       </div>
     </div>
   </section>
@@ -65,10 +70,17 @@
         }
         return this.getThesis(this.currentThesis).thesis[this.$i18n.locale]
       },
+      thesisCategory () {
+        if (this.currentThesis === this.thesesCount) {
+          return
+        }
+        return this.getThesis(this.currentThesis).category[this.$i18n.locale]
+      },
       options () {
         return options.map(option =>
           Object.assign({}, option, {
-            label: this.$t(`euromat.options.${option.position}`)
+            label: this.$t(`euromat.options.${option.position}`),
+            icon: this.getIconName(option.position)
           }))
       },
       optionSkip () {
@@ -77,13 +89,21 @@
     },
 
     methods: {
+      getIconName (type) {
+        switch (type) {
+          case 'positive': return 'thumbs-up'
+          case 'neutral': return 'circle'
+          case 'negative': return 'thumbs-down'
+          case 'skipped': return 'corner-up-right'
+          default: return
+        }
+      },
       getThesis (id) {
         return theses.find(t => t.id === id)
       },
       goBack () {
         const thesis = this.getThesis(this.currentThesis)
         const index = this.answers.findIndex(a => a.thesis === thesis.id)
-
         this.answers.splice(index, 1)
         this.currentThesis -= 1
       },
@@ -112,29 +132,60 @@
 </script>
 
 <style lang="scss" scoped>
+  @import "~styles/fonts";
   @import "~styles/colors";
   @import "~styles/layout";
 
-  .header-progress {
+  .euromat {
     display: flex;
-    align-items: center;
-    margin-bottom: $base-gap * 2;
+    align-items: flex-start;
+  }
+
+  .header-progress {
+    flex: 1 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: $base-gap * 2;
+    color: $text-color-secondary;
+
+    > div {
+      display: flex;
+    }
 
     span {
-      margin-right: $small-gap;
+      font-size: $font-size-large;
+      font-weight: 600;
+      display: inline;
+    }
+
+    .progress-current {
+      color: $text-color-special;
+    }
+
+    button {
+      margin-top: $base-gap;
     }
   }
 
+  .euromat-content {
+    text-align: left;
+  }
+
   .euromat-header {
-    margin-bottom: $base-gap * 2;
-    text-align: center;
+    margin-bottom: $base-gap + 5;
+    text-align: left;
+
+    h2 {
+      margin-bottom: $base-gap;
+    }
   }
 
   .euromat-controls {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .controls-sub {

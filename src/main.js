@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import VueSVGIcon from 'vue-svgicon'
+import VueFeatherIcon from 'vue-feather-icon'
+
 import App from '@/app/app'
 import router from './router'
 import i18n from './i18n'
 
 Vue.config.productionTip = false
 Vue.use(VueSVGIcon)
+Vue.use(VueFeatherIcon)
 
 /* eslint-disable no-new */
 new Vue({
