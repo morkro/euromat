@@ -49,10 +49,16 @@
   @import "~styles/colors";
   @import "~styles/layout";
 
+  $language-btn-size: 45px;
+
   .app-menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
   }
 
   ul {
@@ -63,6 +69,14 @@
     text-align: right;
     width: 100%;
     display: flex;
+
+    @media (max-width: 480px) {
+      margin-bottom: $small-gap + 5;
+
+      li:last-child {
+        margin-right: 0;
+      }
+    }
 
     li {
       margin-right: $base-gap;
@@ -86,8 +100,8 @@
       margin-right: 5px;
       background: rgba(0, 0, 0, 0.1);
       border-radius: 100%;
-      width: 40px;
-      height: 40px;
+      width: $language-btn-size;
+      height: $language-btn-size;
       transform: scale(1);
       transition:
         transform 150ms $easeInOutQuint,

@@ -2,7 +2,7 @@
   <div id="app">
     <header class="app-header">
       <router-link :to="{ path: '/' }">
-        <img :src="euromatLogo" width="90" height="90" />
+        <img class="header-logo" :src="euromatLogo" width="90" height="90" />
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
@@ -228,6 +228,20 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: $base-gap $small-gap 0 $base-gap;
+
+    @media (max-width: 650px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: $small-gap - 5;
+      margin-bottom: $base-gap;
+    }
+  }
+
+  .header-logo {
+    @media (max-width: 650px) {
+      margin-bottom: $small-gap;
+    }
   }
 
   .app-background {
