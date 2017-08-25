@@ -13,7 +13,7 @@ import { routes as fourzerofour } from '@/app/404'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   mode: 'hash',
   routes: [
     ...intro,
@@ -27,3 +27,10 @@ export default new Router({
     ...fourzerofour
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  window.scrollTo(0, 0)
+  next()
+})
+
+export default router
