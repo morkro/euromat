@@ -130,6 +130,7 @@
 
 <style lang="scss">
   @import "~node_modules/normalize.css/normalize";
+  @import "~styles/animations";
   @import "~styles/fonts";
   @import "~styles/buttons";
   @import "~styles/colors";
@@ -186,6 +187,7 @@
 
   a {
     color: $text-color-base;
+    transition: color 150ms $easeInOutQuint;
 
     &:hover {
       color: $text-color-special;
