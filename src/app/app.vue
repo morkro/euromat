@@ -15,7 +15,7 @@
     <footer>
       <ul>
         <li v-for="item of subMenu">
-          <router-link tag="a" class="btn btn-small btn-txt" :to="item.router">
+          <router-link tag="a" class="btn btn-small btn-txt" :to="item.route">
             {{ item.label }}
           </router-link>
         </li>
@@ -27,8 +27,8 @@
         name="european-stars"
         width="10em"
         height="10em"
-        scale="4"
-        color="black" />
+        scale="8"
+        color="#fee872" />
     </div>
   </div>
 </template>
@@ -77,8 +77,8 @@
       return {
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         languages: [
-          { label: '🇩🇪', locale: 'de' },
-          { label: '🇬🇧', locale: 'en' }
+          { icon: require('@/assets/svg/flag-de.svg'), locale: 'de' },
+          { icon: require('@/assets/svg/flag-uk.svg'), locale: 'en' }
         ],
         socialMedia: [
           { label: 'Twitter' },
@@ -164,8 +164,14 @@
   }
 
   h1 {
+    font-size: $font-size-xlarge;
+    line-height: 110%;
+    font-weight: 600;
     margin: 0;
-    text-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+
+    @media (max-width: 768px) {
+      font-size: $font-size-large;
+    }
   }
 
   p {
@@ -189,9 +195,9 @@
     position: relative;
 
     main {
-      background: transparentize($background-primary, 0.5);
       width: 100%;
       max-width: 900px;
+      padding: 0 $small-gap;
       position: relative;
       z-index: 1;
     }
@@ -205,8 +211,8 @@
   .app-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: $small-gap $small-gap 0 $small-gap;
+    align-items: flex-start;
+    padding: $base-gap $small-gap 0 $base-gap;
   }
 
   .app-background {
@@ -219,7 +225,6 @@
       position: absolute;
       top: 0;
       transform: translate(-65%, -53%);
-      opacity: 0.2;
     }
   }
 </style>

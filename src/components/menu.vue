@@ -14,7 +14,7 @@
         v-for="lang of languages"
         type="button"
         @click="changeLanguage(lang.locale)">
-        {{ lang.label }}
+        <img :src="lang.icon" width="25" height="25" :alt="lang.locale" />
       </button>
     </div>
   </div>
@@ -57,17 +57,14 @@
     width: 100%;
     display: flex;
 
-    li:not(:last-child) {
-      margin-bottom: 3px;
+    li {
+      margin-right: $base-gap;
     }
   }
 
   a {
     text-decoration: none;
     font-weight: 600;
-    border: 3px solid $button-background;
-    border-radius: $border-radius;
-    padding: 10px 20px;
     display: block;
   }
 
@@ -77,6 +74,10 @@
 
     button {
       font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: $base-gap;
     }
   }
 </style>
