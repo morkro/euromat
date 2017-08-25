@@ -175,6 +175,10 @@
   h2 {
     font-size: $font-size-large;
     color: $text-color-secondary;
+
+    @media (max-width: 768px) {
+      font-size: $font-size-large - 50%;
+    }
   }
 
   p {
@@ -199,14 +203,6 @@
     justify-content: center;
     position: relative;
 
-    main {
-      width: 100%;
-      max-width: $app-width;
-      padding: 0 $small-gap;
-      position: relative;
-      z-index: 1;
-    }
-
     header,
     footer {
       width: 100%;
@@ -218,19 +214,32 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: $base-gap $small-gap 0 $base-gap;
+    margin-bottom: $base-gap;
 
     @media (max-width: 650px) {
       flex-direction: column;
       justify-content: center;
       align-items: center;
       padding: $small-gap - 5;
-      margin-bottom: $base-gap;
     }
   }
 
   .header-logo {
     @media (max-width: 650px) {
       margin-bottom: $small-gap;
+    }
+  }
+
+  main {
+    width: 100%;
+    max-width: $app-width;
+    padding: 0 $small-gap;
+    position: relative;
+    z-index: 1;
+    margin-bottom: $base-gap * 3;
+
+    @media (max-width: 768px) {
+      margin-bottom: $base-gap;
     }
   }
 

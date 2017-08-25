@@ -136,9 +136,15 @@
   @import "~styles/colors";
   @import "~styles/layout";
 
+  $breakpoint: 835px;
+
   .euromat {
     display: flex;
     align-items: flex-start;
+
+    @media (max-width: $breakpoint) {
+      flex-direction: column;
+    }
   }
 
   .header-progress {
@@ -149,6 +155,15 @@
     margin-right: $base-gap * 2;
     color: $text-color-secondary;
 
+    @media (max-width: $breakpoint) {
+      flex: 1;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+
     > div {
       display: flex;
     }
@@ -157,6 +172,10 @@
       font-size: $font-size-large;
       font-weight: 600;
       display: inline;
+
+      @media (max-width: $breakpoint) {
+        font-size: $font-size-large - 50%;
+      }
     }
 
     .progress-current {
@@ -165,6 +184,11 @@
 
     button {
       margin-top: $base-gap;
+
+      @media (max-width: $breakpoint) {
+        margin-top: 0;
+        margin-left: $base-gap;
+      }
     }
   }
 
@@ -204,6 +228,16 @@
 
     li:not(:last-child) {
       margin-right: $small-gap;
+    }
+
+    @media (max-width: $breakpoint) {
+      flex-direction: column;
+      margin-bottom: $base-gap;
+
+      li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: $small-gap;
+      }
     }
   }
 </style>
