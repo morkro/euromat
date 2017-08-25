@@ -11,6 +11,7 @@
           type="checkbox"
           @click.self="addThesisEmphasis(thesis, $event)"/>
         <label :for="`thesis-${thesis.id}`">
+          <span>{{ getThesisCategory(thesis.category) }}</span>
           {{ getThesisTitle(thesis.thesis) }}
         </label>
       </li>
@@ -44,6 +45,9 @@
     },
 
     methods: {
+      getThesisCategory (category) {
+        return category[this.$i18n.locale]
+      },
       getThesisTitle (thesis) {
         return thesis[this.$i18n.locale]
       },
@@ -72,6 +76,7 @@
   @import "~styles/layout";
 
   $input-size: 40px;
+  $breakpoint: 768px;
 
   h1,
   p {
@@ -98,6 +103,15 @@
         color: $text-color-secondary;
         font-size: $font-size-large;
         font-weight: 600;
+      }
+
+      @media (max-width: $breakpoint) {
+        flex-direction: column;
+
+        &::before {
+          top: 0;
+          transform: translateY(0);
+        }
       }
     }
 
@@ -126,23 +140,34 @@
 
     &:checked + label::after {
       opacity: 1;
-      transform: translateY(0);
+      transform: translate(-70px, -50%);
       transition:
         transform 150ms $easeInOutQuint,
         opacity 200ms $easeInOutQuint;
+    }
+
+    @media (max-width: $breakpoint) {
+      margin-bottom: $small-gap / 2;
+
+      &:checked + label::after {
+        transform: translate(60px, -125%);
+      }
     }
   }
 
   label {
     cursor: pointer;
     flex: 1;
+    position: relative;
+    font-weight: 600;
 
     &::after,
     &::before {
       content: "";
       position: absolute;
-      left: $base-gap * 2;
-      top: 0;
+      left: 0;
+      top: 50%;
+      transform: translate(-70px, -50%);
       border-radius: 100%;
       width: $input-size;
       height: $input-size;
@@ -152,7 +177,7 @@
       opacity: 0;
       background: $button-background-primary;
       box-shadow: $button-shadow;
-      transform: translateY(4px);
+      transform: translate(-70px, -47%);
       transition:
         transform 150ms $easeInOutQuint,
         opacity 200ms $easeInOutQuint;
@@ -160,6 +185,20 @@
 
     &::before {
       background: $dark-blue;
+    }
+
+    span {
+      color: $text-color-secondary;
+      display: block;
+      margin-bottom: $small-gap / 2;
+    }
+
+    @media (max-width: $breakpoint) {
+      &::after,
+      &::before {
+        top: 0;
+        transform: translate(60px, -125%);
+      }
     }
   }
 
