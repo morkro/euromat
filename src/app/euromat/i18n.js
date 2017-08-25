@@ -2,7 +2,7 @@ export default {
   de: {
     euromat: {
       options: {
-        positive: 'Ich stimme zu',
+        positive: 'Ich bin dafür',
         neutral: 'Neutral',
         negative: 'Ich bin dagegen',
         skipped: 'These überspringen'

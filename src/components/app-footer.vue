@@ -23,13 +23,20 @@
   @import "~styles/layout";
 
   .footer-menu {
+    background: transparentize($background-primary, 0.5);
     list-style: none;
     display: flex;
     font-size: $font-size-small;
+    padding: $small-gap;
+    border-radius: $border-radius;
 
     a {
       color: $text-color-secondary;
       font-weight: 600;
+
+      &:hover {
+        color: $text-color-special;
+      }
     }
 
     li:not(:first-child) {

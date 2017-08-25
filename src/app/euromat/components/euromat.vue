@@ -183,7 +183,7 @@
     }
 
     button {
-      margin-top: $base-gap;
+      margin-top: $base-gap + 5;
 
       @media (max-width: $breakpoint) {
         margin-top: 0;

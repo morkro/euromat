@@ -5,14 +5,14 @@
 
     <ol class="thesis-list">
       <li v-for="thesis of theses">
-        <label :for="`thesis-${thesis.id}`">
-          {{ getThesisTitle(thesis.thesis) }}
-        </label>
         <input
           :name="`thesis-${thesis.id}`"
           :id="`thesis-${thesis.id}`"
           type="checkbox"
           @click.self="addThesisEmphasis(thesis, $event)"/>
+        <label :for="`thesis-${thesis.id}`">
+          {{ getThesisTitle(thesis.thesis) }}
+        </label>
       </li>
     </ol>
 
@@ -67,8 +67,11 @@
 </script>
 
 <style lang="scss" scoped>
+  @import "~styles/animations";
   @import "~styles/colors";
   @import "~styles/layout";
+
+  $input-size: 40px;
 
   h1,
   p {
@@ -78,21 +81,85 @@
   .thesis-list {
     margin-top: $base-gap;
     list-style: decimal;
+    counter-reset: emphasis;
 
     li {
-      padding-bottom: $base-gap / 2;
+      padding-bottom: $base-gap;
       display: flex;
       justify-content: space-between;
+      position: relative;
+
+      &::before {
+        counter-increment: emphasis;
+        content: counter(emphasis) ".";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-85%);
+        color: $text-color-secondary;
+        font-size: $font-size-large;
+        font-weight: 600;
+      }
     }
 
     li:not(:last-child) {
-      margin-bottom: $base-gap / 2;
-      border-bottom: 4px solid $dark-blue;
+      margin-bottom: $base-gap;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 4px;
+        background: linear-gradient(90deg, $transparent-white);
+      }
+    }
+  }
+
+  input {
+    opacity: 0;
+    width: $input-size;
+    height: $input-size;
+    margin-right: $base-gap;
+    margin-left: $base-gap * 2;
+
+    &:checked + label::after {
+      opacity: 1;
+      transform: translateY(0);
+      transition:
+        transform 150ms $easeInOutQuint,
+        opacity 200ms $easeInOutQuint;
+    }
+  }
+
+  label {
+    cursor: pointer;
+    flex: 1;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      left: $base-gap * 2;
+      top: 0;
+      border-radius: 100%;
+      width: $input-size;
+      height: $input-size;
     }
 
-    label {
-      cursor: pointer;
-      flex: 0 0 90%;
+    &::after {
+      opacity: 0;
+      background: $button-background-primary;
+      box-shadow: $button-shadow;
+      transform: translateY(4px);
+      transition:
+        transform 150ms $easeInOutQuint,
+        opacity 200ms $easeInOutQuint;
+    }
+
+    &::before {
+      background: $dark-blue;
     }
   }
 

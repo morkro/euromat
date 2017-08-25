@@ -245,10 +245,10 @@
 
   footer {
     position: fixed;
+    z-index: 2;
     bottom: 0;
     display: flex;
     justify-content: flex-end;
-    padding: 0 $small-gap $small-gap $small-gap;
 
     @media (max-width: 768px) {
       position: static;
