@@ -1,3 +1,4 @@
+@import "~styles/animations";
 @import "~styles/fonts";
 @import "~styles/colors";
 @import "~styles/layout";
@@ -19,6 +20,20 @@ button,
   position: relative;
   text-shadow: $text-shadow;
   box-shadow: $button-shadow;
+  transform: translateY(0);
+  transition:
+    transform 150ms $easeInOutQuint,
+    box-shadow 150ms $easeInOutQuint;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: $button-shadow-deep;
+
+    &:focus,
+    &:active {
+      box-shadow: $button-shadow-deep, 0 0 8px $pink;
+    }
+  }
 
   &:focus,
   &:active {
@@ -61,6 +76,15 @@ button,
     color: $button-color;
     box-shadow: none;
     text-shadow: none;
+    transition: background 150ms $easeInOutQuint;
+
+    &:hover {
+      transform: translateY(0);
+    }
+
+    &:not([disabled]):hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
 
     &::after {
       display: none;
