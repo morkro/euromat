@@ -22,7 +22,7 @@
 
 <script>
   export default {
-    name: 'Menu',
+    name: 'AppMenu',
 
     props: {
       main: { type: Array, default: () => [{ label: 'Index', route: { path: '/' } }] },

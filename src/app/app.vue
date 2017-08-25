@@ -13,13 +13,7 @@
     </main>
 
     <footer>
-      <ul>
-        <li v-for="item of subMenu">
-          <router-link tag="a" class="btn btn-small btn-txt" :to="item.route">
-            {{ item.label }}
-          </router-link>
-        </li>
-      </ul>
+      <app-footer :menu="subMenu" />
     </footer>
 
     <div class="app-background">
@@ -34,14 +28,16 @@
 </template>
 
 <script>
-  import Menu from '@/components/menu'
+  import AppMenu from '@/components/app-menu'
+  import AppFooter from '@/components/app-footer'
   import '@/assets/icons/european-stars'
 
   export default {
     name: 'App',
 
     components: {
-      'app-menu': Menu
+      'app-menu': AppMenu,
+      'app-footer': AppFooter
     },
 
     i18n: {
@@ -187,6 +183,7 @@
 
   a {
     color: $text-color-base;
+    text-decoration: none;
     transition: color 150ms $easeInOutQuint;
 
     &:hover {
@@ -214,13 +211,6 @@
     footer {
       width: 100%;
     }
-
-    footer {
-      position: fixed;
-      bottom: 0;
-      display: flex;
-      justify-content: flex-end;
-    }
   }
 
   .app-header {
@@ -241,6 +231,20 @@
   .header-logo {
     @media (max-width: 650px) {
       margin-bottom: $small-gap;
+    }
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 $small-gap $small-gap $small-gap;
+
+    @media (max-width: 768px) {
+      position: static;
+      justify-content: center;
+      margin-top: $base-gap;
     }
   }
 
