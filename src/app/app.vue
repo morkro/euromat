@@ -13,7 +13,7 @@
     </main>
 
     <footer>
-      <app-footer :menu="subMenu" />
+      <app-footer :menu="subMenu" :social="socialMedia" />
     </footer>
 
     <div class="app-background">
@@ -77,9 +77,9 @@
           { icon: require('@/assets/svg/flag-uk.svg'), locale: 'en' }
         ],
         socialMedia: [
-          { label: 'Twitter' },
-          { label: 'Facebook' },
-          { label: 'Clipboard' }
+          { label: 'Twitter', icon: 'twitter' },
+          { label: 'Facebook', icon: 'facebook' },
+          { label: 'Clipboard', icon: 'clipboard' }
         ]
       }
     },
@@ -203,8 +203,7 @@
     justify-content: center;
     position: relative;
 
-    header,
-    footer {
+    header {
       width: 100%;
     }
   }
@@ -247,6 +246,7 @@
     position: fixed;
     z-index: 2;
     bottom: 0;
+    right: 0;
     display: flex;
     justify-content: flex-end;
 
