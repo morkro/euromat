@@ -106,7 +106,7 @@
   @import "~styles/layout";
 
   $social-btn-size: 40px;
-  $breakpoint: 768px;
+  $breakpoint: 1050px;
 
   .footer {
     display: flex;
@@ -126,7 +126,7 @@
     background: transparentize($background-primary, 0.5);
     display: flex;
     font-size: $font-size-small;
-    padding: $small-gap;
+    padding: $small-gap / 2 $small-gap $small-gap;
     border-radius: $border-radius;
 
     a {
@@ -144,12 +144,16 @@
   }
 
   .footer-social {
-    padding: 0 $small-gap 0 0;
+    margin: 0 $small-gap / 2 0 0;
+    padding: $small-gap / 2;
+    background: $background-primary;
+    border-radius: $border-radius;
 
     @media (max-width: $breakpoint) {
       display: flex;
       justify-content: center;
       padding: 0;
+      margin: 0;
 
       li:not(:last-child) {
         margin-bottom: 0;

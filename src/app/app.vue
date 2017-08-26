@@ -201,6 +201,11 @@
     &:not(.btn):hover {
       color: $text-color-special;
     }
+
+    &:not(.btn):focus {
+      outline: none;
+      color: $text-color-special;
+    }
   }
 
   #app {
@@ -245,6 +250,10 @@
     z-index: 1;
     margin-bottom: $base-gap * 3;
 
+    @media (max-width: 1050px) {
+      margin-bottom: $base-gap * 2;
+    }
+
     @media (max-width: 768px) {
       margin-bottom: $base-gap;
     }
@@ -258,7 +267,7 @@
     display: flex;
     justify-content: flex-end;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1050px) {
       position: static;
       justify-content: center;
       margin-top: $base-gap;

@@ -19,7 +19,7 @@
 
     <div class="emphasis-controls">
       <button type="button" @click="submitEmphasis()">
-        {{ $t('euromat.emphasis.button') }}
+        {{ $t('euromat.emphasis.button') }} <feather-arrow-right />
       </button>
     </div>
   </section>
@@ -205,6 +205,6 @@
   .emphasis-controls {
     margin-top: $base-gap;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 </style>

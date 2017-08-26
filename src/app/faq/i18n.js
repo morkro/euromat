@@ -21,12 +21,6 @@ export default {
           answer: [
             'Von den insgesamt 42 Parteien, die bei der Bundestagswahl zur Auswahl stehen, sind die folgenden fünf etablierten Parteien im Euromat vertreten:'
           ]
-        },
-        {
-          title: 'Europapolitischer Glossar',
-          answer: [
-            ''
-          ]
         }
       ]
     }
@@ -52,12 +46,6 @@ export default {
           title: 'Overview of parties in German Federal Elections 2017',
           answer: [
             'Of the overall 42 parties running for the German Federal Elections, Euromat lists the following five established parties:'
-          ]
-        },
-        {
-          title: 'Terminology of European policy',
-          answer: [
-            ''
           ]
         }
       ]

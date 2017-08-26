@@ -2,8 +2,8 @@
   <section>
     <h1>{{ $t('privacy.headline') }}</h1>
     <ul>
-      <li v-for="topic of $t('privacy.topics')">
-        <h2>{{ topic.title }}</h2>
+      <li v-for="(topic, index) of $t('privacy.topics')">
+        <h2 v-if="index !== 0">{{ topic.title }}</h2>
         <p v-for="content of topic.content">
           {{ content }}
         </p>

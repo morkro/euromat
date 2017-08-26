@@ -64,7 +64,7 @@ export default {
       headline: 'Data privacy',
       topics: [
         {
-          title: 'Datenschutz',
+          title: 'Data privacy',
           content: [
             'We would like to inform you about our privacy policy. You will find information about the collection and use of personal data when using our website. In doing so, we observe the data protection law applicable to Germany. You can access this statement at any time on our website.',
             'We expressly point out that data transmission on the Internet (for example, by e-mail communication) has security gaps and can not be completely protected against access by third parties.',

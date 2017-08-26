@@ -111,6 +111,11 @@
         background: rgba(0, 0, 0, 0.15);
         transform: scale(1.2);
       }
+
+      &:focus {
+        box-shadow: none;
+        background: $button-background-secondary;
+      }
     }
   }
 </style>
