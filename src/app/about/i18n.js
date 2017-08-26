@@ -3,8 +3,8 @@ export default {
     about: {
       members: {
         polis: [
-          { name: 'Susanne Zels', profile: 'https://google.de' },
-          { name: 'Stephan Kreutzner', profile: 'https://google.de' },
+          { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
+          { name: 'Stephan Kreutzner', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
           { name: 'Ben Lenzing', profile: 'https://google.de' },
           { name: 'Johannes John', profile: 'https://google.de' }
         ],
@@ -23,8 +23,14 @@ export default {
         'Dieses Team kam durch eine Kooperation zwischen dem Berliner Organisationsteam von Pulse of Europe e.V. und dem ebenfalls in Berlin ansässigen Think Tank Polis 180 zusammen.'
       ],
       teamLabel: {
-        polis: 'Polis180',
-        poe: 'Pulse of Europe',
+        polis: {
+          label: 'Polis180',
+          url: 'https://polis180.org/'
+        },
+        poe: {
+          label: 'Pulse of Europe',
+          url: 'https://pulseofeurope.eu'
+        },
         dev: 'Umsetzung und Design'
       }
     }
@@ -33,8 +39,8 @@ export default {
     about: {
       members: {
         polis: [
-          { name: 'Susanne Zels', profile: 'https://google.de' },
-          { name: 'Stephan Kreutzner', profile: 'https://google.de' },
+          { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
+          { name: 'Stephan Kreutzner', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
           { name: 'Ben Lenzing', profile: 'https://google.de' },
           { name: 'Johannes John', profile: 'https://google.de' }
         ],
@@ -53,8 +59,14 @@ export default {
         'This team has been brought together through a collaboration between the Berlin organising team of Pulse of Europe e.V. and the likewise Berlin-based Think Tank Polis 180.'
       ],
       teamLabel: {
-        polis: 'Polis180',
-        poe: 'Pulse of Europe',
+        polis: {
+          label: 'Polis180',
+          url: 'https://polis180.org/'
+        },
+        poe: {
+          label: 'Pulse of Europe',
+          url: 'https://pulseofeurope.eu'
+        },
         dev: 'Development and design'
       }
     }

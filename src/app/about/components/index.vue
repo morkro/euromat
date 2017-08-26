@@ -10,7 +10,11 @@
       </div>
 
       <div class="about-people">
-        <h2>{{ $t('about.teamLabel.polis') }}</h2>
+        <h2>
+          <a :href="$t('about.teamLabel.polis.url')" tagret="_blank">
+            {{ $t('about.teamLabel.polis.label') }}
+          </a>
+        </h2>
         <ul>
           <li v-for="(member, index) of $t('about.members.polis')">
             <a :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
@@ -19,7 +23,11 @@
           </li>
         </ul>
 
-        <h2>{{ $t('about.teamLabel.poe') }}</h2>
+        <h2>
+          <a :href="$t('about.teamLabel.poe.url')" tagret="_blank">
+            {{ $t('about.teamLabel.poe.label') }}
+          </a>
+        </h2>
         <ul>
           <li v-for="(member, index) of $t('about.members.poe')">
             <a :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
