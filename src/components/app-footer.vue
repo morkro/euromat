@@ -1,8 +1,10 @@
 <template>
   <div class="footer">
     <ul class="footer-social">
-      <li v-for="item of social">
-        <button class="btn-dark" @click="share(item.label)" >
+      <li v-for="item of social"
+        :data-message="item.label === 'clipboard' ? item.message : ''"
+        :class="{ 'show-info': showInfo }">
+        <button class="btn-dark" @click="share(item)" >
           <feather-icon :type="item.icon" />
         </button>
       </li>
@@ -28,16 +30,18 @@
 
     data () {
       return {
-        url: 'https://euromat.info'
+        url: window.location.origin,
+        showInfo: false,
+        infoTimeout: 2000
       }
     },
 
     methods: {
-      share (type) {
-        switch (type.toLowerCase()) {
-          case 'twitter': return this.shareViaTwitter()
-          case 'facebook': return this.shareViaFacebook()
-          case 'clipboard': return this.copyToClipboard()
+      share (social) {
+        switch (social.label.toLowerCase()) {
+          case 'twitter': return this.shareViaTwitter(social.message)
+          case 'facebook': return this.shareViaFacebook(social.message)
+          case 'clipboard': return this.copyToClipboard(social.message)
           default: return
         }
       },
@@ -47,7 +51,7 @@
       shareViaFacebook () {
         console.log('shareViaFacebook')
       },
-      copyToClipboard () {
+      copyToClipboard (message) {
         const $textarea = document.createElement('textarea')
         $textarea.value = this.url
         document.body.appendChild($textarea)
@@ -55,8 +59,10 @@
 
         try {
           const successful = document.execCommand('copy')
-          const msg = successful ? 'successful' : 'unsuccessful'
-          console.log('Copying text command was ' + msg)
+          if (successful) {
+            this.showInfo = true
+            setTimeout(() => { this.showInfo = false }, this.infoTimeout)
+          }
         } catch (err) {
           console.log('Oops, unable to copy')
         }
@@ -106,6 +112,29 @@
 
   .footer-social {
     padding: 0 $small-gap 0 0;
+
+    li {
+      position: relative;
+
+      &.show-info::before {
+        display: block;
+      }
+    }
+
+    li::before {
+      content: attr(data-message);
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-105%, -50%);
+      white-space: pre;
+      padding: 10px 20px;
+      border-radius: $border-radius;
+      background: rgba(0, 0, 0, 0.3);
+      width: auto;
+      font-size: $font-size-small;
+      display: none;
+    }
 
     li:not(:last-child) {
       margin-bottom: 5px;

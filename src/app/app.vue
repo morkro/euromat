@@ -52,6 +52,9 @@
           subMenu: {
             imprint: 'Impressum',
             privacy: 'Datenschutz'
+          },
+          socialMedia: {
+            clipboard: 'In Zwischenablage kopiert'
           }
         },
         en: {
@@ -64,6 +67,9 @@
           subMenu: {
             imprint: 'Imprint',
             privacy: 'Data privacy'
+          },
+          socialMedia: {
+            clipboard: 'Copied to clipboard'
           }
         }
       }
@@ -75,11 +81,6 @@
         languages: [
           { icon: require('@/assets/svg/flag-de.svg'), locale: 'de' },
           { icon: require('@/assets/svg/flag-uk.svg'), locale: 'en' }
-        ],
-        socialMedia: [
-          { label: 'Twitter', icon: 'twitter' },
-          { label: 'Facebook', icon: 'facebook' },
-          { label: 'Clipboard', icon: 'clipboard' }
         ]
       }
     },
@@ -118,6 +119,13 @@
             label: this.$t('subMenu.privacy'),
             route: { path: this.isGermanLocale ? '/datenschutz' : '/privacy' }
           }
+        ]
+      },
+      socialMedia () {
+        return [
+          { label: 'twitter', icon: 'twitter', message: '' },
+          { label: 'facebook', icon: 'facebook', message: '' },
+          { label: 'clipboard', icon: 'clipboard', message: this.$t('socialMedia.clipboard') }
         ]
       }
     }
