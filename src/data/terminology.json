@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "label": {
+      "de": "Eurozone",
+      "en": "Eurozone"
+    },
+    "explanation": {
+      "de": "Gebiet, das die EU-Mitgliedstaaten umfasst, die den Euro als Währung eingeführt haben, und in dem eine einheitliche Geldpolitik unter Aufsicht des EZB-Rats durchgeführt wird.",
+      "en": "The group of EU Member States that have adopted the euro as their currenc"
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=894832&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=894832&langId=en"
+    }
+  },
+  {
+    "id": 1,
+    "label": {
+      "de": "Europäisches Parlament",
+      "en": "European Parliament"
+    },
+    "explanation": {
+      "de": "Das Europäische Parlament ist die auf der Grundlage der Verträge, des Akts vom 20. September 1976 zur Einführung allgemeiner unmittelbarer Wahlen der Mitglieder des Europäischen Parlaments und der in Anwendung der Verträge erlassenen nationalen Rechtsvorschriften gewählte Versammlung.",
+      "en": "The European Parliament is the assembly elected pursuant to the Treaties, the Act of 20 September 1976 concerning the election of the members of the European Parliament by direct universal suffrage and national legislation deriving from the Treaties."
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=126540&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=126540&langId=en"
+    }
+  },
+  {
+    "id": 2,
+    "label": {
+      "de": "EU-Verträge",
+      "en": "EU treaties"
+    },
+    "explanation": {
+      "de": "Die Europäische Union beruht auf rechtstaatlichen Grundsätzen. Das bedeutet, dass jede Tätigkeit der EU auf Verträgen beruht, die von allen EU-Mitgliedstaaten auf freiwilliger und demokratischer Basis angenommen wurden. Wenn ein Politikbereich beispielsweise in einem Vertrag nicht erwähnt wird, kann die Kommission keinen Gesetzesvorschlag für diesen Bereich vorlegen. Ein Vertrag ist eine verbindliche Vereinbarung zwischen EU-Mitgliedstaaten. In ihm sind die Zielsetzungen der EU, die für die EU-Institutionen geltenden Regeln, der Prozess der Entscheidungsfindung und die Beziehungen zwischen der EU und den EU-Mitgliedstaaten festgelegt. Verträge werden überarbeitet, um die EU wirksamer und transparenter zu gestalten, sie auf neue Mitgliedstaaten vorzubereiten und um neue Felder der Zusammenarbeit (z. B. die gemeinsame Währung) einzuführen.",
+      "en": "The European Union is based on the rule of law. This means that every action taken by the EU is founded on treaties that have been approved voluntarily and democratically by all EU member countries. For example, if a policy area is not cited in a treaty, the Commission cannot propose a law in that area. A treaty is a binding agreement between EU member countries. It sets out EU objectives, rules for EU institutions, how decisions are made and the relationship between the EU and its member countries. Treaties are amended to make the EU more efficient and transparent, to prepare for new member countries and to introduce new areas of cooperation – such as the single currency."
+    },
+    "reference": {
+      "de": "https://europa.eu/european-union/law/treaties_de",
+      "en": "https://europa.eu/european-union/law/treaties_en"
+    }
+  },
+  {
+    "id": 3,
+    "label": {
+      "de": "Cyber-Angriff",
+      "en": "Cyber attack"
+    },
+    "explanation": {
+      "de": "Anschlag auf Informationssysteme bzw. Steuersysteme kritischer Infrastrukturen mit Hilfe bösartiger Software, der zum Verlust lebenswichtiger Infrastrukturdienste führt.",
+      "en": "Deliberate act, generally using malicious computer code, designed to alter, disrupt, deny, degrade, or destroy information resident in computers and computer networks, or the computers and networks themselves."
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=919510&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=919510&langId=en"
+    }
+  },
+  {
+    "id": 4,
+    "label": {
+      "de": "Fake News",
+      "en": "Fake News"
+    },
+    "explanation": {
+      "de": "Unzutreffende Nachrichtenmeldung. Sie entsteht durch die fehlerhafte oder nachlässige Recherche eines Journalisten oder wird von Journalisten, amtlichen Stellen, Politikern, Unternehmen, Privatpersonen und anderen Informanten absichtlich lanciert. Abzugrenzen sind davon für den Rezipienten in der Regel klar erkennbaren Aprilscherze sowie weitere Nachrichtensatiren.",
+      "en": "Fabricated news stories with the deliberate aim of fooling readers"
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=3572432&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=3572432&langId=en"
+    }
+  },
+  {
+    "id": 5,
+    "label": {
+      "de": "Drittland",
+      "en": "Third country"
+    },
+    "explanation": {
+      "de": "Land, das nicht Mitglied der Europäischen Union ist; \"Drittland\" bezeichnet im weiteren Sinne auch ein Land, das bei internationalen Verträgen nicht Vertragspartner ist bzw. einer internationalen Organisation nicht angehört.",
+      "en": "Country that is not a member of the European Union."
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=768108&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=768108&langId=en"
+    }
+  },
+  {
+    "id": 6,
+    "label": {
+      "de": "UN-Sicherheitsrat",
+      "en": "United Nations Security Council"
+    },
+    "explanation": {
+      "de": "Zentrales Organ der Internationalen Staatengemeinschaft für Friedenssicherung und Konfliktmanagement; fasst Beschlüsse (Resolutionen), die – anders als die der Generalversammlung – für alle Mitgliedstaaten bindend sind; damit verfügt er über weit gehende Befugnisse und kann ggf. auch in die Souveränität der Staaten eingreifen, z.B. durch die Verhängung von Sanktionen.",
+      "en": "UN body that has the primary responsibility for the maintenance of international peace and security; Composed of five permanent members — China, France, Russian Federation, the United Kingdom and the United States — and ten non-permanent members."
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=877820&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=877820&langId=en"
+    }
+  },
+  {
+    "id": 7,
+    "label": {
+      "de": "EU-Mitgliedsstaaten",
+      "en": "EU Member States"
+    },
+    "explanation": {
+      "de": "Die Europäische Union (EU) besteht seit dem 1. Juli 2013 aus 28 Mitgliedstaaten (Unionsmitgliedstaaten). Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Griechenland, Irland, Italien, Kroatien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Österreich, Polen, Portugal, Rumänien, Schweden, Slowakei, Slowenien, Spanien, Tschechien, Ungarn, Vereinigtes Königreich, Zypern.",
+      "en": "One of the sovereign nation states that have acceded to the European Union (EU). As from 1 July 2013 the 28 Member States of the EU are Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxemburg, Malta, The Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden and the United Kingdom."
+    },
+    "reference": {
+      "de": "https://de.wikipedia.org/wiki/Mitgliedstaaten_der_Europ%C3%A4ischen_Union",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=1568826&langId=en"
+    }
+  },
+  {
+    "id": 8,
+    "label": {
+      "de": "EU-Haushalt/ Haushaltsplan",
+      "en": "EU budget"
+    },
+    "explanation": {
+      "de": " (I) Der Haushaltsplan ist der Rechtsakt, durch den für jedes Haushaltsjahr sämtliche als erforderlich erachteten Einnahmen und Ausgaben der Europäischen Gemeinschaft und der Europäischen Atomgemeinschaft veranschlagt und bewilligt werden. ; (II) Der Haushaltsplan umfasst:  (I) Verordnung (EG, Euratom) Nr. 1605/2002 des Rates vom 25. Juni 2002 über die Haushaltsordnung für den Gesamthaushaltsplan der Europäischen Gemeinschaften, Titel II, Kapitel 1, Artikel 4, ABl. L 248 vom 16.9.2002.;(II) Verordnung (EG, Euratom) Nr. 1605/2002 des Rates vom 25. Juni 2002 über die Haushaltsordnung für den Gesamthaushaltsplan der Europäischen Gemeinschaften, Titel III, Kapitel 2, Artikel 40, ABl. L 248 vom 16.9.2002.",
+      "en": "(I) The budget is the instrument which, for each financial year, forecasts and authorises all revenue and expenditure considered necessary for the European Community and the European Atomic Energy Community. ; (II) The budget shall consist of: Quelle (I) Council Regulation (EC, Euratom) No. 1605/2002 of 25 June 2002 on the Financial Regulation applicable to the general budget of the European Communities, title II, chapter 1, article 4, OJ L 248, 16.9.2002.;(II) Council Regulation (EC, Euratom) No. 1605/2002 of 25 June 2002 on the Financial Regulation applicable to the general budget of the European Communities, title III, chapter 2, article 40, OJ L 248, 16.9.2002."
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=749055&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=749055&langId=en"
+    }
+  },
+  {
+    "id": 9,
+    "label": {
+      "de": "Gliederung und Darstellung des Haushaltsplans",
+      "en": "Layout of the EU budget"
+    },
+    "explanation": {
+      "de": "Der Haushaltsplan umfasst a) den allgemeinen Einnahmen- und Ausgabenplan, b) Einzelpläne mit den Einnahmen- und Ausgabenplänen für jedes der Organe einzeln mit Ausnahme des Europäischen Rates und des Rates, die in demselben Einzelplan zusammengefasst werden.",
+      "en": "TBD"
+    },
+    "reference": {
+      "de": "http://iate.europa.eu/FindTermsByLilId.do?lilId=1077513&langId=de",
+      "en": "http://iate.europa.eu/FindTermsByLilId.do?lilId=1077513&langId=en"
+    }
+  }
+]

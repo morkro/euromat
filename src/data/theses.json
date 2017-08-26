@@ -9,10 +9,9 @@
       "de": "Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden.",
       "en": "A common economic policy should beintroduced under the supervision of a European Minister to strengthen the Eurozone."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      0
+    ]
   },
   {
     "id": 1,
@@ -24,10 +23,9 @@
       "de": "Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden.",
       "en": "Representatives of the European Parliament should be elected through a uniform/ standardised electoral law via a paneuropean list."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      1
+    ]
   },
   {
     "id": 2,
@@ -39,10 +37,9 @@
       "de": "Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden.",
       "en": "Amendments to the European Treaties or any other basic decisions should pass a resolution/ be determined through a referendum on European level. "
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      2
+    ]
   },
   {
     "id": 3,
@@ -54,10 +51,7 @@
       "de": "Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden.",
       "en": "Influence on European laws is to be made more transparent by a lobby register."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 4,
@@ -69,10 +63,7 @@
       "de": "Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden.",
       "en": "The European Commission should be scaled down and better controlled by the Parliament,"
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 5,
@@ -84,10 +75,7 @@
       "de": "Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten.",
       "en": "The EU has undetaken too many tasks which should be fullfilled by national Parliaments."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 6,
@@ -99,10 +87,7 @@
       "de": "Es sollte auch ausnahmsweise keine Grenzkontrollen im Schengen-Raum geben.",
       "en": "Even under special circumstances, border controls in the Shengen area should be entirely avoided."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 7,
@@ -114,10 +99,7 @@
       "de": "Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden.",
       "en": "All Member States should make a greater contribution to the protection of the EU's external borders and build an effective European border protection."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 8,
@@ -129,10 +111,7 @@
       "de": "Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden.",
       "en": "A joint European intelligence service should be set up to combat terrorism more effectively."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 9,
@@ -144,10 +123,10 @@
       "de": "Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen.",
       "en": "The EU is to introduce a special unit to fight against international cyber attacks and Fake News."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      3,
+      4
+    ]
   },
   {
     "id": 10,
@@ -159,10 +138,7 @@
       "de": "Die EU soll keine weiteren Flüchtlinge mehr aufnehmen.",
       "en": "The EU should not accept any more refugees."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 11,
@@ -174,10 +150,9 @@
       "de": "Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben.",
       "en": "There should be more coordination in the EU for arms exports to third countries."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      5
+    ]
   },
   {
     "id": 12,
@@ -189,10 +164,9 @@
       "de": "Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen.",
       "en": "Germany should commit to the Introducton of a joint EU Membership in the UN security council."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      6
+    ]
   },
   {
     "id": 13,
@@ -204,10 +178,9 @@
       "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen.",
       "en": "In the long term the EU should unite all its armed forces in one greater european army."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      7
+    ]
   },
   {
     "id": 14,
@@ -219,10 +192,7 @@
       "de": "Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten.",
       "en": "The EU should act more actively on a global level in promoting its values."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 15,
@@ -234,10 +204,10 @@
       "de": "Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt.",
       "en": "At European level, a CO2 tax should be introduced to help finance the EU budget."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": [
+      8,
+      9
+    ]
   },
   {
     "id": 16,
@@ -249,10 +219,7 @@
       "de": "Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben.",
       "en": "A funding programme for renewable energy shoudl be introduced on European level"
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 17,
@@ -264,10 +231,7 @@
       "de": "Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren.",
       "en": "The EU should invest more money in education an new technologies and less in agricultural promotion. "
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 18,
@@ -279,10 +243,7 @@
       "de": "Es sollten europaweit angemessene Mindestlöhne eingeführt werden.",
       "en": "Reasonable minimum wages should be introduced on a european level. "
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 19,
@@ -294,10 +255,7 @@
       "de": "Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden.",
       "en": "There should be a uniform corporate tax rate throughout Europe and stronger measures against tax evasion by international corporations should be taken."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 20,
@@ -309,10 +267,7 @@
       "de": " Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden.",
       "en": "Free trade agreements should be ratified by the European parliament alone. "
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 21,
@@ -324,10 +279,7 @@
       "de": "Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben.",
       "en": "The EU should raise tariffs to protect domestic products and corporations from illegitimate competition."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 22,
@@ -339,10 +291,7 @@
       "de": "Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds).",
       "en": "The Eurozone countries should be able to jointly borrow loans for which they are jointly liable (Eurobonds)."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 23,
@@ -354,10 +303,7 @@
       "de": "Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden.",
       "en": "The non-compliance of European legal standards should be sanctioned by a reduction in European funding. "
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 24,
@@ -369,10 +315,7 @@
       "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
       "en": "There should be a joint unemployment insurance scheme at European level."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 25,
@@ -384,10 +327,7 @@
       "de": "Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen.",
       "en": "At European level, the focus should be on investment instead of debt reduction."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 26,
@@ -399,10 +339,7 @@
       "de": "Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren.",
       "en": "The EU should invest more in electromobility and a dense network of charging stations across Europe."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 27,
@@ -414,10 +351,7 @@
       "de": "Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben.",
       "en": "There should be an all-European holiday celebrating the unity of Europe."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 28,
@@ -429,10 +363,7 @@
       "de": "Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren.",
       "en": "For intercultural understanding, the EU should finance an Interrail ticket for all 18-year-old Europeans."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   },
   {
     "id": 29,
@@ -444,9 +375,6 @@
       "de": "Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen.",
       "en": "Unemployed EU citizens should receive an EU-funded aid if they are seeking or applying for a job in another country."
     },
-    "terminology": {
-      "de": "",
-      "en": ""
-    }
+    "terminology": []
   }
 ]
