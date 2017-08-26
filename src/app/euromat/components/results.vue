@@ -136,8 +136,12 @@
       const emphasized = JSON.parse(sessionStorage.getItem('euromat-emphasized'))
       const answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
 
-      if (emphasized) this.emphasized = emphasized
-      if (answers) this.answers = answers
+      if (!emphasized) {
+        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+      }
+
+      this.emphasized = emphasized
+      this.answers = answers
 
       this.scoringGrid = getScoringGrid(this.answers, this.emphasized)
       this.scores = this.getScorePoints(this.scoringGrid)

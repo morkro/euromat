@@ -66,6 +66,12 @@
           : '/theses/results'
         })
       }
+    },
+
+    created () {
+      if (!sessionStorage.getItem('euromat-answers')) {
+        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+      }
     }
   }
 </script>
