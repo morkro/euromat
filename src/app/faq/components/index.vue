@@ -29,7 +29,7 @@
     list-style: none;
 
     li:not(:last-child) {
-      margin-bottom: $base-gap;
+      margin-bottom: $base-gap * 2;
     }
   }
 

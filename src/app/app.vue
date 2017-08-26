@@ -45,8 +45,9 @@
         de: {
           topMenu: {
             index: 'Startseite',
-            about: 'Über uns',
+            glossary: 'Glossar',
             faq: 'FAQ',
+            about: 'Über uns',
             press: 'Presse'
           },
           subMenu: {
@@ -60,8 +61,9 @@
         en: {
           topMenu: {
             index: 'Landing page',
-            about: 'About us',
+            glossary: 'Glossary',
             faq: 'FAQ',
+            about: 'About us',
             press: 'Press'
           },
           subMenu: {
@@ -96,12 +98,16 @@
             route: { path: '/' }
           },
           {
-            label: this.$t('topMenu.about'),
-            route: { path: this.isGermanLocale ? '/über-uns' : '/about-us' }
+            label: this.$t('topMenu.glossary'),
+            route: { path: this.isGermanLocale ? '/glossar' : '/glossary' }
           },
           {
             label: this.$t('topMenu.faq'),
             route: { path: '/faq' }
+          },
+          {
+            label: this.$t('topMenu.about'),
+            route: { path: this.isGermanLocale ? '/über-uns' : '/about-us' }
           },
           {
             label: this.$t('topMenu.press'),

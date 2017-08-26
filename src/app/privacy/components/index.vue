@@ -21,13 +21,16 @@
 <style lang="scss" scoped>
   @import "~styles/layout";
 
-  h1,
-  p {
+  h1 {
     margin-bottom: $base-gap;
   }
 
   ul {
     list-style: none;
+
+    li {
+      margin-bottom: $base-gap * 2;
+    }
   }
 
   h2 {
