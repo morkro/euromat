@@ -167,6 +167,10 @@
       &.show-info::before {
         transform: translate(-105%, -50%) scale(1);
         opacity: 1;
+
+        @media (max-width: $breakpoint) {
+          transform: translate(-50%, -55%) scale(1);
+        }
       }
     }
 
@@ -184,6 +188,11 @@
       font-size: $font-size-small;
       opacity: 0;
       transition: opacity 150ms $easeInOutQuint;
+
+      @media (max-width: $breakpoint) {
+        left: 50%;
+        top: -50%;
+      }
     }
 
     li:not(:last-child) {
