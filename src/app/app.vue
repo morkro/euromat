@@ -2,7 +2,7 @@
   <div id="app">
     <header class="app-header">
       <router-link :to="{ path: '/' }">
-        <img class="header-logo" :src="euromatLogo" width="90" height="90" />
+        <img class="header-logo" :src="euromatLogo" :width="logoSize" :height="logoSize" />
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
@@ -80,6 +80,7 @@
     data () {
       return {
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
+        logoSize: 110,
         languages: [
           { icon: require('@/assets/svg/flag-de.svg'), locale: 'de' },
           { icon: require('@/assets/svg/flag-uk.svg'), locale: 'en' }
@@ -202,7 +203,7 @@
   a {
     color: $text-color-base;
     text-decoration: none;
-    transition: color 150ms $easeInOutQuint;
+    transition: color 150ms $easeOutBack;
 
     &:not(.btn):hover {
       color: $text-color-special;

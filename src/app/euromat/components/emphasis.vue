@@ -148,8 +148,8 @@
       opacity: 1;
       transform: translate(-70px, -50%);
       transition:
-        transform 150ms $easeInOutQuint,
-        opacity 200ms $easeInOutQuint;
+        transform 150ms $easeOutBack,
+        opacity 200ms $easeOutBack;
     }
 
     @media (max-width: $breakpoint) {
@@ -185,8 +185,8 @@
       box-shadow: $button-shadow;
       transform: translate(-70px, -47%);
       transition:
-        transform 150ms $easeInOutQuint,
-        opacity 200ms $easeInOutQuint;
+        transform 150ms $easeOutBack,
+        opacity 200ms $easeOutBack;
     }
 
     &::before {

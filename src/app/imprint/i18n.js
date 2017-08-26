@@ -29,7 +29,7 @@ export default {
       represented: {
         polis: {
           label: 'Vertretungsberechtigte Personen:',
-          text: ' Christian Freudlsperger, Co-Vorsitzender Sonja Schiffers,  Co-Vorsitzende Julian Zuber, Schatzmeiste'
+          text: ' Christian Freudlsperger, Co-Vorsitzender Sonja Schiffers,  Co-Vorsitzende Julian Zuber, Schatzmeister.'
         },
         poe: {
           label: 'Vertreten durch:',

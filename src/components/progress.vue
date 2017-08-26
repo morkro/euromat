@@ -22,7 +22,7 @@
   progress[value] {
     appearance: none;
     width: 100%;
-    height: 20px;
+    height: 60px;
     background: $dark-blue;
     color: $yellow;
     border: none;
@@ -34,9 +34,9 @@
     }
 
     &::-webkit-progress-value {
-      background: linear-gradient(90deg, $yellow, $orange);
+      background: $button-background-primary;
       border-radius: $border-radius;
-      box-shadow: 0 5px 34px transparentize($yellow, 0.6);
+      box-shadow: $button-shadow;
     }
   }
 </style>

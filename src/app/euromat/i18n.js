@@ -11,7 +11,10 @@ export default {
         back: 'Zurück'
       },
       results: {
-        headline: 'Dein Ergebnis'
+        headline: 'Dein Ergebnis',
+        buttons: {
+          back: 'Zurück zum Anfang'
+        }
       },
       emphasis: {
         headline: 'Welche Thesen sind dir wichtig?',
@@ -32,7 +35,10 @@ export default {
         back: 'Back'
       },
       results: {
-        headline: 'Your results'
+        headline: 'Your results',
+        buttons: {
+          back: 'Back to beginning'
+        }
       },
       emphasis: {
         headline: 'Which theses are important for you?',

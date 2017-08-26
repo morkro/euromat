@@ -187,7 +187,7 @@
       width: auto;
       font-size: $font-size-small;
       opacity: 0;
-      transition: opacity 150ms $easeInOutQuint;
+      transition: opacity 150ms $easeOutBack;
 
       @media (max-width: $breakpoint) {
         left: 50%;

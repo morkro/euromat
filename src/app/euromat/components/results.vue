@@ -7,7 +7,10 @@
     <ul class="party-results">
       <li v-for="party of parties">
         <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
-          <h2>{{ party.token }} ({{ getScorePercentage(party.score) }} %)</h2>
+          <h2>
+            {{ party.token }}
+            <span>({{ getScorePercentage(party.score) }}%)</span>
+          </h2>
           <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
           <party-percentage
             class="result-percentage"
@@ -16,6 +19,16 @@
         </router-link>
       </li>
     </ul>
+
+    <div class="results-ctrls">
+      <router-link
+        tag="a"
+        class="btn"
+        :to="{ path: this.isGermanLocale ? '/thesen' : '/theses' }">
+        {{ $t('euromat.results.buttons.back') }}
+        <feather-corner-up-left />
+      </router-link>
+    </div>
   </section>
 </template>
 
@@ -157,24 +170,77 @@
 </script>
 
 <style lang="scss" scoped>
+  @import "~styles/colors";
   @import "~styles/layout";
 
+  section {
+    width: 95%;
+    margin: 0 auto;
+  }
+
   .results-header {
-    margin-bottom: $base-gap;
+    margin-bottom: $base-gap * 2;
+    display: flex;
   }
 
   .party-results {
     list-style: none;
     width: 100%;
+    counter-reset: result;
 
     li {
       display: flex;
       flex-direction: column;
+      align-items: flex-end;
       margin-bottom: $base-gap;
+      position: relative;
+
+      &::before {
+        counter-increment: result;
+        content: counter(result) ".";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        color: $text-color-secondary;
+        font-size: $font-size-xlarge;
+        font-weight: 600;
+      }
+    }
+
+    a {
+      height: 80px;
+      width: 92%;
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: $small-gap;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 1;
+      color: $text-color-base;
+      font-weight: 600;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+
+      span {
+        font-weight: 400;
+      }
     }
 
     .result-percentage {
-      height: 40px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
     }
+  }
+
+  .results-ctrls {
+    margin-top: $base-gap * 2;
+    border-top: 4px solid $transparent-white;
+    padding-top: $base-gap * 2;
   }
 </style>

@@ -102,14 +102,10 @@
       border-radius: 100%;
       width: $language-btn-size;
       height: $language-btn-size;
-      transform: scale(1);
-      transition:
-        transform 150ms $easeInOutQuint,
-        background 150ms $easeInOutQuint;
+      transition: background 150ms $easeOutBack;
 
       &:hover {
         background: rgba(0, 0, 0, 0.15);
-        transform: scale(1.2);
       }
 
       &:focus {

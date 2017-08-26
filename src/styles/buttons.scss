@@ -22,8 +22,8 @@ button,
   box-shadow: $button-shadow;
   transform: translateY(0);
   transition:
-    transform 150ms $easeInOutQuint,
-    box-shadow 150ms $easeInOutQuint;
+    transform 150ms $easeOutBack,
+    box-shadow 150ms $easeOutBack;
 
   &:hover {
     transform: translateY(-3px);
@@ -76,7 +76,7 @@ button,
     color: $button-color;
     box-shadow: none;
     text-shadow: none;
-    transition: background 150ms $easeInOutQuint;
+    transition: background 150ms $easeOutBack;
 
     &:hover {
       transform: translateY(0);

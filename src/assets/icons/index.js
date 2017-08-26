@@ -1,5 +1,4 @@
 /* eslint-disable */
-require('./afd-logo')
 require('./cdu-logo')
 require('./euromat-logo')
 require('./european-stars')
@@ -8,4 +7,6 @@ require('./flag-de')
 require('./flag-uk')
 require('./grüne-logo')
 require('./linke-logo')
+require('./poe-logo')
+require('./polis-logo')
 require('./spd-logo')

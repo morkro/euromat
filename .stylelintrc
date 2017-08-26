@@ -3,6 +3,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "no-empty-source": null,
-    "color-hex-case": null
+    "color-hex-case": null,
+    "comment-empty-line-before": null
   }
 }
