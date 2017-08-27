@@ -1,7 +1,14 @@
 <template>
   <section>
     <h1>{{ $t('euromat.emphasis.headline') }}</h1>
-    <p>{{ $t('euromat.emphasis.content') }}</p>
+
+    <div class="emphasis-content">
+      <p>{{ $t('euromat.emphasis.content') }}</p>
+      <button type="button" class="btn-dark btn-small" @click="submitEmphasis()">
+        {{ $t('euromat.emphasis.skip') }}
+        <feather-corner-up-right />
+      </button>
+    </div>
 
     <ol class="thesis-list">
       <li v-for="thesis of theses">
@@ -84,9 +91,20 @@
   $input-size: 40px;
   $breakpoint: 768px;
 
-  h1,
-  p {
+  h1 {
     margin-bottom: $base-gap;
+  }
+
+  .emphasis-content {
+    margin-bottom: $base-gap;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    button {
+      flex: 0 0 auto;
+      margin-left: $base-gap;
+    }
   }
 
   .thesis-list {

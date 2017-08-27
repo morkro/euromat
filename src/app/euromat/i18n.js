@@ -23,6 +23,7 @@ export default {
         pageTitle: 'Thesengewichtung',
         headline: 'Welche Thesen sind dir wichtig?',
         content: 'Markiere Thesen die doppelt gewertet sollen.',
+        skip: 'Gewichtung überspringen',
         button: 'Weiter'
       }
     }
@@ -51,6 +52,7 @@ export default {
         pageTitle: 'Emphasis',
         headline: 'Which theses are important for you?',
         content: 'Mark the theses which should count double.',
+        skip: 'Skip emphasis',
         button: 'Continue'
       }
     }
