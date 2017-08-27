@@ -2,12 +2,15 @@
   <section>
     <h1>{{ $t('intro.headline') }}</h1>
 
-    <p v-for="txt of $t('intro.content')">
+    <p
+      v-for="(txt, index) of $t('intro.content')"
+      :class="{ 'small': index === $t('intro.content').length -1 }">
       {{ txt }}
     </p>
 
     <router-link class="btn" :to="{ path: thesesPath }">
       {{ $t('intro.button') }}
+      <feather-check-circle />
     </router-link>
   </section>
 </template>
@@ -32,5 +35,9 @@
   h1,
   p {
     margin-bottom: $base-gap;
+  }
+
+  p.small {
+    font-size: $font-size-small;
   }
 </style>
