@@ -19,7 +19,7 @@
           <feather-zoom-in class="results-see-more" />
           <party-percentage
             class="result-percentage"
-            :value="getScorePercentage(party.score)"
+            :value="party.score"
             :max="totalScoredPoints" />
         </router-link>
       </li>
