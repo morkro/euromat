@@ -11,52 +11,58 @@
 
       <div class="about-people">
         <div class="people-group">
-          <h2>
-            <a :href="$t('about.teamLabel.polis.url')" target="_blank">
-              <svgicon class="team-logo" name="polis-logo" width="150" height="100" />
-              <span hidden>{{ $t('about.teamLabel.polis.label') }}</span>
-            </a>
-          </h2>
-          <ul>
-            <li v-for="(member, index) of $t('about.members.polis')">
-              <a v-if="member.profile" :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
-                {{ $t(`about.members.polis[${index}].name`) }}
-                <feather-external-link />
+          <div class="group-inner">
+            <h2>
+              <a :href="$t('about.teamLabel.polis.url')" target="_blank">
+                <svgicon class="team-logo" name="polis-logo" width="150" height="100" />
+                <span hidden>{{ $t('about.teamLabel.polis.label') }}</span>
               </a>
-              <span v-else>{{ $t(`about.members.polis[${index}].name`) }}</span>
-            </li>
-          </ul>
+            </h2>
+            <ul>
+              <li v-for="(member, index) of $t('about.members.polis')">
+                <a v-if="member.profile" :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
+                  {{ $t(`about.members.polis[${index}].name`) }}
+                  <feather-external-link />
+                </a>
+                <span v-else>{{ $t(`about.members.polis[${index}].name`) }}</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="people-group">
-          <h2>
-            <a :href="$t('about.teamLabel.poe.url')" target="_blank">
-              <svgicon class="team-logo" name="poe-logo" width="400" height="60" />
-              <span hidden>{{ $t('about.teamLabel.poe.label') }}</span>
-            </a>
-          </h2>
-          <ul>
-            <li v-for="(member, index) of $t('about.members.poe')">
-              <a v-if="member.profile" :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
-                {{ $t(`about.members.poe[${index}].name`) }}
-                <feather-external-link />
+          <div class="group-inner">
+            <h2>
+              <a :href="$t('about.teamLabel.poe.url')" target="_blank">
+                <svgicon class="team-logo" name="poe-logo" width="400" height="60" />
+                <span hidden>{{ $t('about.teamLabel.poe.label') }}</span>
               </a>
-              <span v-else>{{ $t(`about.members.poe[${index}].name`) }}</span>
-            </li>
-          </ul>
+            </h2>
+            <ul>
+              <li v-for="(member, index) of $t('about.members.poe')">
+                <a v-if="member.profile" :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
+                  {{ $t(`about.members.poe[${index}].name`) }}
+                  <feather-external-link />
+                </a>
+                <span v-else>{{ $t(`about.members.poe[${index}].name`) }}</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="people-group">
-          <h2>{{ $t('about.teamLabel.dev') }}</h2>
-          <ul>
-            <li v-for="(member, index) of $t('about.members.dev')">
-              <a v-if="member.profile" :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
-                {{ $t(`about.members.dev[${index}].name`) }}
-                <feather-external-link />
-              </a>
-              <span v-else>{{ $t(`about.members.dev[${index}].name`) }}</span>
-            </li>
-          </ul>
+          <div class="group-inner dark">
+            <h2>{{ $t('about.teamLabel.dev') }}</h2>
+            <ul>
+              <li v-for="(member, index) of $t('about.members.dev')">
+                <a v-if="member.profile" :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
+                  {{ $t(`about.members.dev[${index}].name`) }}
+                  <feather-external-link />
+                </a>
+                <span v-else>{{ $t(`about.members.dev[${index}].name`) }}</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -80,6 +86,7 @@
   }
 
   svg.team-logo {
+    width: 100% !important;
     stroke: none !important;
 
     path,
@@ -105,11 +112,11 @@
 
     h2 {
       margin-bottom: $small-gap;
+      color: $text-color-secondary;
     }
 
     ul {
       list-style: none;
-      margin-bottom: $base-gap;
     }
 
     li:not(:last-child) {
@@ -120,6 +127,36 @@
       stroke: $transparent-white;
       width: 1em;
       height: 1em;
+    }
+  }
+
+  .group-inner {
+    width: calc(100% - #{$base-gap});
+    background: $background-secondary;
+    border-radius: $border-radius / 2;
+    box-shadow: $button-shadow;
+    padding: $small-gap;
+    color: $text-color-secondary;
+    margin-bottom: $base-gap;
+
+    &.dark {
+      background: $dark-blue;
+
+      h2,
+      a,
+      span {
+        color: $text-color-base;
+      }
+    }
+
+    a,
+    span {
+      color: $text-color-secondary;
+      font-weight: 700;
+    }
+
+    svg:not(.team-logo) {
+      stroke: $blue !important;
     }
   }
 </style>

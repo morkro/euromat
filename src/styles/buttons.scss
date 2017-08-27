@@ -58,6 +58,11 @@ button,
     height: 16px;
     filter: drop-shadow($button-text-shadow);
     margin-left: $small-gap / 2;
+
+    path,
+    polyline {
+      stroke: $button-color;
+    }
   }
 
   &[disabled] {

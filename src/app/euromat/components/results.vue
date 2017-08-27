@@ -17,6 +17,7 @@
           </div>
 
           <feather-zoom-in class="results-see-more" />
+
           <party-percentage
             class="result-percentage"
             :value="party.score"

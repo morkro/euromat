@@ -11,6 +11,10 @@
           <feather-corner-up-left />
         </router-link>
         <h1>{{ partyName }}</h1>
+        <a class="btn" :href="partyProgramLink" target="_blank">
+          {{ $t('party.partyProgram') }}
+          <feather-external-link />
+        </a>
       </div>
     </header>
 
@@ -79,6 +83,9 @@
       },
       partyName () {
         return this.party.name[this.$i18n.locale]
+      },
+      partyProgramLink () {
+        return this.party.program[this.$i18n.locale]
       }
     },
 
@@ -123,6 +130,16 @@
   $table-column-large: 70%;
   $table-column-small: 15%;
 
+  svg {
+    stroke: $text-color-base;
+    filter: drop-shadow($text-shadow);
+
+    path,
+    polyline {
+      stroke: $button-color;
+    }
+  }
+
   .party-header {
     display: flex;
     align-items: flex-start;
@@ -137,6 +154,10 @@
       .btn {
         margin-bottom: $small-gap / 2;
       }
+    }
+
+    h1 {
+      margin-bottom: $small-gap;
     }
 
     .party-header-logo {
@@ -236,6 +257,7 @@
         color: $text-color-secondary;
         margin-bottom: $small-gap / 2;
         display: inline-block;
+        font-weight: 700;
       }
     }
 

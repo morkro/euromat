@@ -119,6 +119,7 @@
         this.answers.push({ thesis: thesis.id, position: option.position })
         this.currentThesis += 1
         event && event.target.blur()
+        window.scrollTo(0, 0)
 
         if (this.currentThesis === this.thesesCount) {
           this.forwardToResults()

@@ -5,6 +5,24 @@
       "en": "Christian Democratic Union of Germany"
     },
     "token": "CDU",
+    "european_profile": {
+      "members": [
+        29,
+        96
+      ],
+      "party": {
+        "de": "Europäische Volkspartei (EVP)",
+        "en": "European People's Party (EPP)"
+      },
+      "group": {
+        "de": "Europäische Volkspartei (EVP)",
+        "en": "European People's Party (EPP)"
+      }
+    },
+    "program": {
+      "de": "https://google.de",
+      "en": "https://google.co.uk"
+    },
     "id": 0,
     "positions": [
       {
@@ -165,6 +183,24 @@
       "en": "Social Democratic Party of Germany"
     },
     "token": "SPD",
+    "european_profile": {
+      "members": [
+        27,
+        96
+      ],
+      "party": {
+        "de": "Sozialdemokratische Partei Europas (SPE)",
+        "en": "Party of European Socialists (PES)"
+      },
+      "group": {
+        "de": "Progressive Allianz der Sozialdemokraten im Europäischen Parlament (S&D)",
+        "en": "European Progressive Alliance of Socialists and Democrats (S&D)"
+      }
+    },
+    "program": {
+      "de": "https://google.de",
+      "en": "https://google.co.uk"
+    },
     "id": 1,
     "positions": [
       {
@@ -325,6 +361,24 @@
       "en": "The Left"
     },
     "token": "LINKE",
+    "european_profile": {
+      "members": [
+        7,
+        96
+      ],
+      "party": {
+        "de": "Europäische Linke (EL)",
+        "en": "Party of the European Left (EL"
+      },
+      "group": {
+        "de": "Konföderale Fraktion der Vereinten Europäischen Linken/Nordische Grüne Linke (GUE/NGL)",
+        "en": "European United Left–Nordic Green Left (GUE/NGL)"
+      }
+    },
+    "program": {
+      "de": "https://google.de",
+      "en": "https://google.co.uk"
+    },
     "id": 2,
     "positions": [
       {
@@ -485,6 +539,24 @@
       "en": "Alliance 90/The Greens"
     },
     "token": "GRÜNE",
+    "european_profile": {
+      "members": [
+        11,
+        96
+      ],
+      "party": {
+        "de": "Europäische Grüne Partei (EGP)",
+        "en": "European Green Party (EGP)"
+      },
+      "group": {
+        "de": "Die Grünen/Europäische Freie Allianz (Grüne/EFA)",
+        "en": "Greens/European Free Alliance (Grüne/EFA)"
+      }
+    },
+    "program": {
+      "de": "https://google.de",
+      "en": "https://google.co.uk"
+    },
     "id": 3,
     "positions": [
       {
@@ -645,6 +717,24 @@
       "en": "Free Democratic Party"
     },
     "token": "FDP",
+    "european_profile": {
+      "members": [
+        3,
+        96
+      ],
+      "party": {
+        "de": "Allianz der Liberalen und Demokraten für Europa (ALDE)",
+        "en": "Alliance of Liberals and Democrats for Europe (ALDE)"
+      },
+      "group": {
+        "de": "Allianz der Liberalen und Demokraten für Europa (ALDE)",
+        "en": "Alliance of Liberals and Democrats for Europe (ALDE)"
+      }
+    },
+    "program": {
+      "de": "https://google.de",
+      "en": "https://google.co.uk"
+    },
     "id": 4,
     "positions": [
       {

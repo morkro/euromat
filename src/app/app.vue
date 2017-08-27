@@ -15,15 +15,6 @@
     <footer>
       <app-footer :menu="subMenu" :social="socialMedia" />
     </footer>
-
-    <div class="app-background">
-      <svgicon
-        name="european-stars"
-        width="10em"
-        height="10em"
-        scale="8"
-        color="#fee872" />
-    </div>
   </div>
 </template>
 
@@ -45,7 +36,7 @@
         de: {
           topMenu: {
             index: 'Startseite',
-            glossary: 'Glossar',
+            // glossary: 'Glossar',
             faq: 'FAQ',
             about: 'Über uns',
             press: 'Presse'
@@ -61,7 +52,7 @@
         en: {
           topMenu: {
             index: 'Landing page',
-            glossary: 'Glossary',
+            // glossary: 'Glossary',
             faq: 'FAQ',
             about: 'About us',
             press: 'Press'
@@ -98,10 +89,10 @@
             label: this.$t('topMenu.index'),
             route: { path: '/' }
           },
-          {
-            label: this.$t('topMenu.glossary'),
-            route: { path: this.isGermanLocale ? '/glossar' : '/glossary' }
-          },
+          // {
+          //   label: this.$t('topMenu.glossary'),
+          //   route: { path: this.isGermanLocale ? '/glossar' : '/glossary' }
+          // },
           {
             label: this.$t('topMenu.faq'),
             route: { path: '/faq' }
@@ -215,16 +206,6 @@
     }
   }
 
-  svg {
-    stroke: $text-color-base;
-    filter: drop-shadow($text-shadow);
-
-    path,
-    polyline {
-      stroke: $button-color;
-    }
-  }
-
   ::selection {
     color: $text-color-base;
     background: $text-color-special;
@@ -249,6 +230,8 @@
     align-items: flex-start;
     padding: $base-gap $small-gap 0 $base-gap;
     margin-bottom: $base-gap;
+    position: relative;
+    z-index: 2;
 
     @media (max-width: 650px) {
       flex-direction: column;
@@ -293,20 +276,6 @@
       position: static;
       justify-content: center;
       margin-top: $base-gap;
-    }
-  }
-
-  .app-background {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-
-    svg {
-      position: absolute;
-      top: 0;
-      transform: translate(-65%, -53%);
     }
   }
 </style>
