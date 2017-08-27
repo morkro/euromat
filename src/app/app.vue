@@ -179,7 +179,7 @@
     font-size: $font-size-xlarge;
     line-height: 110%;
     font-weight: 600;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    text-shadow: $text-shadow;
     margin: 0;
 
     @media (max-width: 768px) {
@@ -212,6 +212,16 @@
     &:not(.btn):focus {
       outline: none;
       color: $text-color-special;
+    }
+  }
+
+  svg {
+    stroke: $text-color-base;
+    filter: drop-shadow($text-shadow);
+
+    path,
+    polyline {
+      stroke: $button-color;
     }
   }
 

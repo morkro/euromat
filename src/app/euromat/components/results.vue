@@ -248,7 +248,7 @@
     h2 {
       color: $text-color-base;
       font-weight: 600;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+      text-shadow: $text-shadow;
 
       span {
         font-weight: 400;
@@ -257,7 +257,7 @@
 
     .results-see-more {
       stroke: $text-color-base;
-      filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));
+      filter: drop-shadow($text-shadow);
       height: 32px;
       width: 32px;
       opacity: 0;

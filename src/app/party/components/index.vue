@@ -16,9 +16,9 @@
 
     <ul class="party-theses-list">
       <li class="list-header">
-        <h2>Thesis</h2>
-        <h2>Partei</h2>
-        <h2>Deine Wahl</h2>
+        <h2>{{ $t('party.table.thesis') }}</h2>
+        <h2>{{ party.token }}</h2>
+        <h2 v-if="!!answers">{{ $t('party.table.user') }}</h2>
       </li>
       <li v-for="thesis in theses">
         <div class="list-thesis">
@@ -26,16 +26,19 @@
           <h3>{{ getThesis(thesis.thesis) }}</h3>
         </div>
 
-        <div class="list-statements">
-          <div class="statements-party">
-            <feather-icon :type="getPartyStatement(thesis.id)" />
-          </div>
-          <div v-if="!!answers" class="statements-user">
-            <feather-icon :type="getUserStatement(thesis.id)" />
-          </div>
+        <div class="statements-party">
+          <feather-icon :type="getPartyStatement(thesis.id)" />
+        </div>
+        <div v-if="!!answers" class="statements-user">
+          <feather-icon :type="getUserStatement(thesis.id)" />
         </div>
       </li>
     </ul>
+
+    <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
+      {{ $t('party.back') }}
+      <feather-corner-up-left />
+    </router-link>
   </section>
 </template>
 
@@ -82,7 +85,7 @@
           case 'negative':
             return 'thumbs-down'
           case 'skipped':
-            return 'corner-up-right'
+            return 'x'
           case 'neutral':
           default:
             return 'circle'
@@ -105,6 +108,9 @@
 <style lang="scss" scoped>
   @import "~styles/colors";
   @import "~styles/layout";
+
+  $table-column-large: 70%;
+  $table-column-small: 15%;
 
   .party-header {
     display: flex;
@@ -142,19 +148,31 @@
     list-style: none;
 
     .list-header {
+      display: flex;
+      justify-content: space-between;
       background: $transparent-white;
       border-radius: $border-radius;
+      padding: $small-gap;
 
       h2 {
+        flex: 1 0 $table-column-small;
         font-size: $font-size-base;
         color: $text-color-base;
         margin: 0;
+        text-align: center;
+      }
+
+      h2:first-of-type {
+        flex: 1 0 $table-column-large;
+        width: $table-column-large;
+        text-align: left;
       }
     }
 
     li {
       padding: $small-gap 0;
       display: flex;
+      align-items: center;
     }
 
     li:not(:last-child):not(.list-header) {
@@ -162,9 +180,18 @@
     }
 
     .list-thesis {
+      flex: 1 0 $table-column-large;
+
       span {
         color: $text-color-secondary;
       }
+    }
+
+    .statements-party,
+    .statements-user {
+      flex: 1 0 $table-column-small;
+      display: flex;
+      justify-content: center;
     }
   }
 </style>

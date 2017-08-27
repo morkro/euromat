@@ -18,7 +18,7 @@ button,
   border: none;
   cursor: pointer;
   position: relative;
-  text-shadow: $text-shadow;
+  text-shadow: $button-text-shadow;
   box-shadow: $button-shadow;
   transform: translateY(0);
   transition:
@@ -56,13 +56,8 @@ button,
     stroke: $button-color;
     width: 16px;
     height: 16px;
-    filter: drop-shadow($text-shadow);
+    filter: drop-shadow($button-text-shadow);
     margin-left: $small-gap / 2;
-
-    path,
-    polyline {
-      stroke: $button-color;
-    }
   }
 
   &[disabled] {
