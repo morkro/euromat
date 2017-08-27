@@ -7,14 +7,18 @@
     <ul class="party-results">
       <li v-for="party of parties">
         <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
-          <h2>
-            {{ party.token }}
-            <span>({{ getScorePercentage(party.score) }}%)</span>
-          </h2>
+          <div class="result-party-info">
+            <div class="result-party-logo">
+              <img :src="getPartyLogo(party.token)" width="50" height="50" />
+            </div>
+
+            <h2>
+              {{ party.token }}
+              <span>({{ getScorePercentage(party.score) }}%)</span>
+            </h2>
+          </div>
 
           <feather-zoom-in class="results-see-more" />
-
-          <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
           <party-percentage
             class="result-percentage"
             :value="getScorePercentage(party.score)"
@@ -48,7 +52,6 @@
   } from '@/app/euromat/scoring'
   import { parties } from '@/data'
   import Progress from '@/components/progress'
-  import '@/assets/icons'
 
   // FIXME: There is a bug that not all theses are send to localStorage.
   // We have 43 theses now, but only 42 are stored. Hence I check if
@@ -86,8 +89,8 @@
           ? `/partei/${token}`
           : `/party/${token}`
       },
-      getPartyLogoName (token) {
-        return `${token.toLowerCase()}-logo`
+      getPartyLogo (token) {
+        return require(`@/assets/svg/${token.toLowerCase()}-logo.svg`)
       },
       getScorePercentage (score) {
         return (score / this.totalScoredPoints * 100).toFixed(2)
@@ -217,6 +220,12 @@
         font-size: $font-size-xlarge;
         font-weight: 600;
       }
+
+      @media (max-width: 650px) {
+        &::before {
+          display: none;
+        }
+      }
     }
 
     a {
@@ -226,7 +235,10 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: $small-gap $base-gap;
+
+      @media (max-width: 650px) {
+        width: 100%;
+      }
     }
 
     h2,
@@ -252,6 +264,7 @@
       width: 32px;
       opacity: 0;
       transition: opacity 150ms $easeOutBack;
+      margin-right: $base-gap;
     }
 
     .result-percentage {
@@ -262,9 +275,38 @@
     }
   }
 
+  .result-party-info {
+    display: flex;
+    height: calc(100% - 4px);
+    align-items: center;
+    justify-content: center;
+
+    .result-party-logo {
+      margin-right: $small-gap;
+      position: relative;
+      z-index: 1;
+      background: $background-secondary;
+      border-radius: $border-radius;
+      width: 80px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 2px;
+
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+
   .results-ctrls {
     margin-top: $base-gap * 2;
     border-top: 4px solid $transparent-white;
     padding-top: $base-gap * 2;
+
+    a:first-of-type {
+      margin-right: $small-gap;
+    }
   }
 </style>
