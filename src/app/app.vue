@@ -215,6 +215,11 @@
     }
   }
 
+  ::selection {
+    color: $text-color-base;
+    background: $text-color-special;
+  }
+
   #app {
     width: 100vw;
     display: flex;
