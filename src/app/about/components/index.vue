@@ -60,8 +60,6 @@
         </div>
       </div>
     </div>
-
-
   </section>
 </template>
 
@@ -79,6 +77,15 @@
   h1,
   p {
     margin-bottom: $base-gap;
+  }
+
+  svg.team-logo {
+    stroke: none !important;
+
+    path,
+    polyline {
+      stroke: none !important;
+    }
   }
 
   .about-content {

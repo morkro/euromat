@@ -167,7 +167,7 @@
   body {
     background: $background-primary;
     color: $text-color-base;
-    font-family: $fontHalisGR;
+    font-family: $fontAssistant;
     font-weight: normal;
     font-size: $font-size-base;
     -webkit-font-smoothing: antialiased;
