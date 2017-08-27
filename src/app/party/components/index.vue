@@ -14,6 +14,16 @@
       </div>
     </header>
 
+    <div class="theses-legend">
+      <p>{{ $t('party.legend') }}:</p>
+      <ul>
+        <li v-for="option in options">
+          <feather-icon :type="positionToIconName(option.position)" />
+          <span>{{ $t(`euromat.options.${option.position}`) }}</span>
+        </li>
+      </ul>
+    </div>
+
     <ul class="party-theses-list">
       <li class="list-header">
         <h2>{{ $t('party.table.thesis') }}</h2>
@@ -43,7 +53,7 @@
 </template>
 
 <script>
-  import { parties, theses } from '@/data'
+  import { parties, theses, options } from '@/data'
   export default {
     name: 'Party',
 
@@ -53,7 +63,8 @@
         partyLogo: require(`@/assets/svg/${this.$route.params.token}-logo.svg`),
         party: parties.find(p => p.token === this.$route.params.token.toUpperCase()),
         answers: JSON.parse(sessionStorage.getItem('euromat-answers')),
-        theses
+        theses,
+        options
       }
     },
 
@@ -115,6 +126,7 @@
   .party-header {
     display: flex;
     align-items: flex-start;
+    margin-bottom: $base-gap;
 
     .party-header-info {
       display: flex;
@@ -143,9 +155,46 @@
     }
   }
 
+  .theses-legend {
+    display: flex;
+    flex-direction: column;
+    font-size: $font-size-tiny;
+
+    p {
+      font-weight: 600;
+      margin-bottom: $small-gap / 2;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: $border-radius;
+      padding: $small-gap / 3 $small-gap / 1.5;
+      margin-bottom: $small-gap / 3;
+
+      &:not(:last-child) {
+        margin-right: $small-gap / 3;
+      }
+    }
+
+    svg {
+      width: 12px;
+      height: 12px;
+      margin-right: $small-gap / 3;
+    }
+  }
+
   .party-theses-list {
-    margin-top: $base-gap;
+    margin: $small-gap / 2 0 $base-gap 0;
     list-style: none;
+    border-bottom: 4px solid $transparent-white;
 
     .list-header {
       display: flex;
@@ -170,9 +219,9 @@
     }
 
     li {
-      padding: $small-gap 0;
+      padding: $small-gap;
       display: flex;
-      align-items: center;
+      align-items: stretch;
     }
 
     li:not(:last-child):not(.list-header) {
@@ -181,9 +230,12 @@
 
     .list-thesis {
       flex: 1 0 $table-column-large;
+      padding-right: $small-gap;
 
       span {
         color: $text-color-secondary;
+        margin-bottom: $small-gap / 2;
+        display: inline-block;
       }
     }
 
@@ -192,6 +244,12 @@
       flex: 1 0 $table-column-small;
       display: flex;
       justify-content: center;
+      align-items: center;
+    }
+
+    .statements-party {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: $border-radius;
     }
   }
 </style>
