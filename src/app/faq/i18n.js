@@ -16,12 +16,6 @@ export default {
           answer: [
             'Das Berechnungsmodell des Euromat basiert auf dem Rechenmodell der Bundeszentrale für politische Bildung, welches unter folgender lizenzfrei zur Verfügung steht: Creative Commons BY-NC-ND 3.0'
           ]
-        },
-        {
-          title: 'Übersicht der Parteien zur Bundestagswahl 2017',
-          answer: [
-            'Von den insgesamt 42 Parteien, die bei der Bundestagswahl zur Auswahl stehen, sind die folgenden fünf etablierten Parteien im Euromat vertreten:'
-          ]
         }
       ]
     }
@@ -42,12 +36,6 @@ export default {
           title: 'Methodology',
           answer: [
             'The computation model of Euromat follows the calculation scheme by Bundeszentrale für politische Bildung that is  freely available under the following license: Creative Commons BY-NC-ND 3.0'
-          ]
-        },
-        {
-          title: 'Overview of parties in German Federal Elections 2017',
-          answer: [
-            'Of the overall 42 parties running for the German Federal Elections, Euromat lists the following five established parties:'
           ]
         }
       ]
