@@ -1,16 +1,17 @@
 export default {
   de: {
     about: {
+      pageTitle: 'Über uns',
       members: {
         polis: [
           { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
           { name: 'Stephan Kreutzner', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
-          { name: 'Ben Lenzing', profile: 'https://google.de' },
-          { name: 'Johannes John', profile: 'https://google.de' }
+          { name: 'Ben Lenzing', profile: false },
+          { name: 'Johannes John', profile: false }
         ],
         poe: [
-          { name: 'Eva Podgorsek', profile: 'https://twitter.com/evapodg' },
-          { name: 'Peter Funk', profile: 'https://google.de' }
+          { name: 'Eva Podgoršek', profile: 'https://twitter.com/evapodg' },
+          { name: 'Peter Funk', profile: 'http://linkedin.com/in/peter-funk-047a899' }
         ],
         dev: [
           { name: 'Moritz Kröger', profile: 'http://moritz.berlin' }
@@ -37,16 +38,17 @@ export default {
   },
   en: {
     about: {
+      pageTitle: 'About',
       members: {
         polis: [
           { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
           { name: 'Stephan Kreutzner', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
-          { name: 'Ben Lenzing', profile: 'https://google.de' },
-          { name: 'Johannes John', profile: 'https://google.de' }
+          { name: 'Ben Lenzing', profile: false },
+          { name: 'Johannes John', profile: false }
         ],
         poe: [
-          { name: 'Eva Podgorsek', profile: 'https://twitter.com/evapodg' },
-          { name: 'Peter Funk', profile: 'https://google.de' }
+          { name: 'Eva Podgoršek', profile: 'https://twitter.com/evapodg' },
+          { name: 'Peter Funk', profile: 'http://linkedin.com/in/peter-funk-047a899' }
         ],
         dev: [
           { name: 'Moritz Kröger', profile: 'http://moritz.berlin' }

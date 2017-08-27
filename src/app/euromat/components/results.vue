@@ -11,6 +11,9 @@
             {{ party.token }}
             <span>({{ getScorePercentage(party.score) }}%)</span>
           </h2>
+
+          <feather-zoom-in class="results-see-more" />
+
           <!-- <svgicon :name="getPartyLogoName(item.token)" width="50" height="50" /> -->
           <party-percentage
             class="result-percentage"
@@ -21,12 +24,15 @@
     </ul>
 
     <div class="results-ctrls">
+      <router-link tag="a" class="btn" :to="{ path: '/' }">
+        {{ $t('euromat.results.buttons.index') }}
+      </router-link>
       <router-link
         tag="a"
-        class="btn"
+        class="btn btn-dark btn-small"
         :to="{ path: this.isGermanLocale ? '/thesen' : '/theses' }">
-        {{ $t('euromat.results.buttons.back') }}
-        <feather-corner-up-left />
+        {{ $t('euromat.results.buttons.startover') }}
+        <feather-rotate-cw />
       </router-link>
     </div>
   </section>
@@ -170,6 +176,7 @@
 </script>
 
 <style lang="scss" scoped>
+  @import "~styles/animations";
   @import "~styles/colors";
   @import "~styles/layout";
 
@@ -195,6 +202,10 @@
       margin-bottom: $base-gap;
       position: relative;
 
+      &:hover .results-see-more {
+        opacity: 1;
+      }
+
       &::before {
         counter-increment: result;
         content: counter(result) ".";
@@ -213,14 +224,18 @@
       width: 92%;
       position: relative;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
-      padding: $small-gap;
+      padding: $small-gap $base-gap;
+    }
+
+    h2,
+    .results-see-more {
+      position: relative;
+      z-index: 1;
     }
 
     h2 {
-      position: relative;
-      z-index: 1;
       color: $text-color-base;
       font-weight: 600;
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
@@ -228,6 +243,15 @@
       span {
         font-weight: 400;
       }
+    }
+
+    .results-see-more {
+      stroke: $text-color-base;
+      filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));
+      height: 32px;
+      width: 32px;
+      opacity: 0;
+      transition: opacity 150ms $easeOutBack;
     }
 
     .result-percentage {

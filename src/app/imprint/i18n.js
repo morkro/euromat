@@ -1,6 +1,7 @@
 export default {
   de: {
     imprint: {
+      pageTitle: 'Impressum',
       headline: 'Impressum',
       address: {
         label: 'Adresse',
@@ -86,6 +87,7 @@ export default {
   },
   en: {
     imprint: {
+      pageTitle: 'Imprint',
       headline: 'Imprint',
       address: {
         label: 'Address',

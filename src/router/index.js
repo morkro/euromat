@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import getPageTitle from './getPageTitle'
 import { routes as intro } from '@/app/intro'
 import { routes as euromat } from '@/app/euromat'
 import { routes as glossary } from '@/app/glossary'
@@ -31,6 +32,10 @@ const router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
+  if (to.meta.title && to.meta.title.de && to.meta.title.en) {
+    window.document.title = getPageTitle(to.meta.title)
+  }
+
   window.scrollTo(0, 0)
   next()
 })

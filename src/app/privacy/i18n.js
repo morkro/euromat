@@ -1,6 +1,7 @@
 export default {
   de: {
     privacy: {
+      pageTitle: 'Datenschutz',
       headline: 'Datenschutz',
       topics: [
         {
@@ -61,6 +62,7 @@ export default {
   },
   en: {
     privacy: {
+      pageTitle: 'Data privacy',
       headline: 'Data privacy',
       topics: [
         {

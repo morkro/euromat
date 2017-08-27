@@ -19,10 +19,11 @@
           </h2>
           <ul>
             <li v-for="(member, index) of $t('about.members.polis')">
-              <a :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
+              <a v-if="member.profile" :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
                 {{ $t(`about.members.polis[${index}].name`) }}
                 <feather-external-link />
               </a>
+              <span v-else>{{ $t(`about.members.polis[${index}].name`) }}</span>
             </li>
           </ul>
         </div>
@@ -36,10 +37,11 @@
           </h2>
           <ul>
             <li v-for="(member, index) of $t('about.members.poe')">
-              <a :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
+              <a v-if="member.profile" :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
                 {{ $t(`about.members.poe[${index}].name`) }}
                 <feather-external-link />
               </a>
+              <span v-else>{{ $t(`about.members.poe[${index}].name`) }}</span>
             </li>
           </ul>
         </div>
@@ -48,15 +50,18 @@
           <h2>{{ $t('about.teamLabel.dev') }}</h2>
           <ul>
             <li v-for="(member, index) of $t('about.members.dev')">
-              <a :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
+              <a v-if="member.profile" :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
                 {{ $t(`about.members.dev[${index}].name`) }}
                 <feather-external-link />
               </a>
+              <span v-else>{{ $t(`about.members.dev[${index}].name`) }}</span>
             </li>
           </ul>
         </div>
       </div>
     </div>
+
+
   </section>
 </template>
 

@@ -1,6 +1,7 @@
 export default {
   de: {
     faq: {
+      pageTitle: 'FAQ',
       headline: 'FAQ',
       questions: [
         {
@@ -27,6 +28,7 @@ export default {
   },
   en: {
     faq: {
+      pageTitle: 'FAQ',
       headline: 'FAQ',
       questions: [
         {
