@@ -15,7 +15,7 @@ export default {
         pageTitle: 'Ergebnis',
         headline: 'Dein Ergebnis',
         entry: 'Super, Sie haben es geschafft! Gespannt, wie Ihr Ergebnis ausfällt? Hier ist es auch schon:',
-        thanks: 'Danke, dass Sie den EUROMAT genutzt haben. Wir hoffen es hat Ihnen Freude bereitet und vergessen Sie nicht: am 24. September ist Bundestagswahl!',
+        thanks: 'Danke, dass Sie den Euromat genutzt haben. Wir hoffen es hat Ihnen Freude bereitet und vergessen Sie nicht: am 24. September ist Bundestagswahl!',
         buttons: {
           startover: 'Euromat wiederholen',
           index: 'Zur Startseite'
@@ -46,7 +46,7 @@ export default {
         pageTitle: 'Results',
         headline: 'Your results',
         entry: 'Great, you made it! Curious about your result? We won\'t keep you any longer, here it is:',
-        thanks: 'Thanks for using EUROMAT. We hope you enjoyed it and don\'t forget: 24. September is election day!',
+        thanks: 'Thanks for using Euromat. We hope you enjoyed it and don\'t forget: 24. September is election day!',
         buttons: {
           startover: 'Start over',
           index: 'Back to landing page'

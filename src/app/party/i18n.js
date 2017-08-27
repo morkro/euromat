@@ -1,12 +1,14 @@
 export default {
   de: {
     party: {
-      back: 'Zurück'
+      pageTitle: 'Partei',
+      back: 'Zurück zum Ergebnis'
     }
   },
   en: {
     party: {
-      back: 'Back'
+      pageTitle: 'Party',
+      back: 'Back to results'
     }
   }
 }

@@ -1,6 +1,9 @@
 [
   {
-    "name": "Christlich Demokratische Union Deutschlands",
+    "name": {
+      "de": "Christlich Demokratische Union Deutschlands",
+      "en": "Christian Democratic Union of Germany"
+    },
     "token": "CDU",
     "id": 0,
     "positions": [
@@ -157,7 +160,10 @@
     ]
   },
   {
-    "name": "Sozialdemokratische Partei Deutschlands",
+    "name": {
+      "de": "Sozialdemokratische Partei Deutschlands",
+      "en": "Social Democratic Party of Germany"
+    },
     "token": "SPD",
     "id": 1,
     "positions": [
@@ -314,7 +320,10 @@
     ]
   },
   {
-    "name": "Die Linke",
+    "name": {
+      "de": "Die Linke",
+      "en": "The Left"
+    },
     "token": "LINKE",
     "id": 2,
     "positions": [
@@ -471,7 +480,10 @@
     ]
   },
   {
-    "name": "Bündnis 90/Die Grünen",
+    "name": {
+      "de": "Bündnis 90/Die Grünen",
+      "en": "Alliance 90/The Greens"
+    },
     "token": "GRÜNE",
     "id": 3,
     "positions": [
@@ -628,7 +640,10 @@
     ]
   },
   {
-    "name": "Freie Demokratische Partei",
+    "name": {
+      "de": "Freie Demokratische Partei",
+      "en": "Free Democratic Party"
+    },
     "token": "FDP",
     "id": 4,
     "positions": [

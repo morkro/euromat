@@ -52,10 +52,6 @@
   import { parties } from '@/data'
   import Progress from '@/components/progress'
 
-  // FIXME: There is a bug that not all theses are send to localStorage.
-  // We have 30 theses now, but only 29 are stored. Hence I check if
-  // answers is even an object.
-
   const addUp = (a, b) => a + b
 
   export default {

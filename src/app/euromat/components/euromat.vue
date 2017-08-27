@@ -2,7 +2,7 @@
   <section class="euromat">
     <div class="header-progress">
       <div>
-        <span class="progress-current">{{ currentThesis + 1 }}</span>
+        <span class="progress-current">{{ currentThesisStep }}</span>
         <span>/{{ thesesCount }}</span>
       </div>
       <button
@@ -64,6 +64,9 @@
       isGermanLocale () {
         return this.$i18n.locale === 'de'
       },
+      currentThesisStep () {
+        return this.currentThesis + 1
+      },
       thesisTitle () {
         if (this.currentThesis === this.thesesCount) {
           return
@@ -111,14 +114,15 @@
         if (!option) {
           return console.warn('Invalid answer')
         }
-        if (this.currentThesis === this.thesesCount - 1) {
-          this.forwardToResults()
-        }
 
         const thesis = this.getThesis(this.currentThesis)
         this.answers.push({ thesis: thesis.id, position: option.position })
         this.currentThesis += 1
         event && event.target.blur()
+
+        if (this.currentThesis === this.thesesCount) {
+          this.forwardToResults()
+        }
       },
       forwardToResults () {
         sessionStorage.setItem('euromat-answers', JSON.stringify(this.answers))
