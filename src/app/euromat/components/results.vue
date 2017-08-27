@@ -2,6 +2,7 @@
   <section>
     <header class="results-header">
       <h1>{{ $t('euromat.results.headline') }}</h1>
+      <p>{{ $t('euromat.results.entry') }}</p>
     </header>
 
     <ul class="party-results">
@@ -9,13 +10,10 @@
         <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
           <div class="result-party-info">
             <div class="result-party-logo">
-              <img :src="getPartyLogo(party.token)" width="50" height="50" />
+              <img :src="getPartyLogo(party.token)" width="50" height="50" :alt="party.token" />
             </div>
 
-            <h2>
-              {{ party.token }}
-              <span>({{ getScorePercentage(party.score) }}%)</span>
-            </h2>
+            <h2>{{ getScorePercentage(party.score) }}%</h2>
           </div>
 
           <feather-zoom-in class="results-see-more" />
@@ -28,6 +26,7 @@
     </ul>
 
     <div class="results-ctrls">
+      <p>{{ $t('euromat.results.thanks') }}</p>
       <router-link tag="a" class="btn" :to="{ path: '/' }">
         {{ $t('euromat.results.buttons.index') }}
       </router-link>
@@ -54,7 +53,7 @@
   import Progress from '@/components/progress'
 
   // FIXME: There is a bug that not all theses are send to localStorage.
-  // We have 43 theses now, but only 42 are stored. Hence I check if
+  // We have 30 theses now, but only 29 are stored. Hence I check if
   // answers is even an object.
 
   const addUp = (a, b) => a + b
@@ -190,7 +189,10 @@
 
   .results-header {
     margin-bottom: $base-gap * 2;
-    display: flex;
+
+    h1 {
+      margin-bottom: $small-gap;
+    }
   }
 
   .party-results {
@@ -303,7 +305,11 @@
   .results-ctrls {
     margin-top: $base-gap * 2;
     border-top: 4px solid $transparent-white;
-    padding-top: $base-gap * 2;
+    padding-top: $small-gap;
+
+    p {
+      margin-bottom: $small-gap;
+    }
 
     a:first-of-type {
       margin-right: $small-gap;
