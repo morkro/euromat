@@ -52,6 +52,11 @@
           top: ((height / 2) - (h / 2)) + dualScreenTop
         }
       },
+      constructTwitterURL (message) {
+        const { text, hashtags } = message
+        const url = 'https://twitter.com/intent/tweet'
+        return `${url}?text=${encodeURI(text)}&hashtags=${hashtags}&url=${this.shareURL}`
+      },
       share (social) {
         switch (social.label.toLowerCase()) {
           case 'twitter': return this.shareViaTwitter(social.message)
@@ -60,13 +65,12 @@
           default: return
         }
       },
-      shareViaTwitter () {
-        const url = 'https://twitter.com/intent/tweet'
+      shareViaTwitter (message) {
         const frameName = 'Post a Tweet on Twitter'
         const { width, height, left, top } = this.getPopupDimensions()
         const options = `resizable,scrollbars,width=${width},height=${height},top=${top},left=${left}`
 
-        const popup = window.open(url, frameName, options)
+        const popup = window.open(this.constructTwitterURL(message), frameName, options)
         if (window.focus) {
           popup.focus()
         }

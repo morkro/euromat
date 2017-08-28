@@ -46,6 +46,11 @@
             privacy: 'Datenschutz'
           },
           socialMedia: {
+            twitter: {
+              text: 'Cool! BTW17 kann jetzt auch Sterne. Neugierig was die Parteien zur EU sagen? Mach den EUROMAT & finde heraus mit wem du übereinstimmst!',
+              hashtags: 'BTW17,EUROMAT'
+            },
+            facebook: 'Cool! #BTW17 kann jetzt auch Sterne. Neugierig was die Parteien zur EU sagen? Mach den #EUROMAT & finde heraus mit wem du übereinstimmst!',
             clipboard: 'In Zwischenablage kopiert'
           }
         },
@@ -62,6 +67,11 @@
             privacy: 'Data privacy'
           },
           socialMedia: {
+            twitter: {
+              text: 'Great! GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/EUROMAT & see who you match up with!',
+              hashtags: 'GermanElections,EUROMAT'
+            },
+            facebook: 'Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!',
             clipboard: 'Copied to clipboard'
           }
         }
@@ -121,9 +131,24 @@
       },
       socialMedia () {
         return [
-          { label: 'twitter', icon: 'twitter', message: '' },
-          { label: 'facebook', icon: 'facebook', message: '' },
-          { label: 'clipboard', icon: 'clipboard', message: this.$t('socialMedia.clipboard') }
+          {
+            label: 'twitter',
+            icon: 'twitter',
+            message: {
+              text: this.$t('socialMedia.twitter.text'),
+              hashtags: this.$t('socialMedia.twitter.hashtags')
+            }
+          },
+          {
+            label: 'facebook',
+            icon: 'facebook',
+            message: this.$t('socialMedia.facebook')
+          },
+          {
+            label: 'clipboard',
+            icon: 'clipboard',
+            message: this.$t('socialMedia.clipboard')
+          }
         ]
       }
     }
