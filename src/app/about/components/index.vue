@@ -14,7 +14,7 @@
           <div class="group-inner">
             <h2>
               <a :href="$t('about.teamLabel.polis.url')" target="_blank">
-                <svgicon class="team-logo" name="polis-logo" width="150" height="100" />
+                <img class="team-logo polis" :src="polisLogo" width="150" height="100" />
                 <span hidden>{{ $t('about.teamLabel.polis.label') }}</span>
               </a>
             </h2>
@@ -34,7 +34,7 @@
           <div class="group-inner">
             <h2>
               <a :href="$t('about.teamLabel.poe.url')" target="_blank">
-                <svgicon class="team-logo" name="poe-logo" width="400" height="60" />
+                <img class="team-logo poe" :src="poeLogo" width="400" height="60" />
                 <span hidden>{{ $t('about.teamLabel.poe.label') }}</span>
               </a>
             </h2>
@@ -72,7 +72,14 @@
 <script>
   import '@/assets/icons'
   export default {
-    name: 'About'
+    name: 'About',
+
+    data () {
+      return {
+        polisLogo: require('@/assets/svg/polis-colored-logo.svg'),
+        poeLogo: require('@/assets/svg/poe-colored-logo.svg')
+      }
+    }
   }
 </script>
 
@@ -85,14 +92,9 @@
     margin-bottom: $base-gap;
   }
 
-  svg.team-logo {
-    width: 100% !important;
-    stroke: none !important;
-
-    path,
-    polyline {
-      stroke: none !important;
-    }
+  .team-logo.poe {
+    width: 100%;
+    height: auto;
   }
 
   .about-content {
@@ -102,11 +104,12 @@
 
   .about-people {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 
     .people-group {
-      flex: 1 0 50%;
+      flex: 0 0 50%;
       text-align: center;
     }
 
@@ -135,7 +138,7 @@
     background: $background-secondary;
     border-radius: $border-radius / 2;
     box-shadow: $button-shadow;
-    padding: $small-gap;
+    padding: $small-gap $base-gap;
     color: $text-color-secondary;
     margin-bottom: $base-gap;
 
@@ -153,6 +156,10 @@
     span {
       color: $text-color-secondary;
       font-weight: 700;
+    }
+
+    a:hover {
+      color: $text-color-special;
     }
 
     svg:not(.team-logo) {
