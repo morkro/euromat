@@ -2,7 +2,7 @@
   <div id="app">
     <header class="app-header">
       <router-link :to="{ path: '/' }">
-        <img class="header-logo" :src="euromatLogo" :width="logoSize" :height="logoSize" />
+        <img class="header-logo" :src="euromatLogo" :width="logoSize" :height="logoSize / 2" />
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
@@ -68,7 +68,7 @@
           },
           socialMedia: {
             twitter: {
-              text: 'Great! GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/EUROMAT & see who you match up with!',
+              text: 'Great! German election is star-spangled. Curious what parties say about EU? See who you match up with',
               hashtags: 'GermanElections,EUROMAT'
             },
             facebook: 'Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!',
@@ -81,7 +81,7 @@
     data () {
       return {
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
-        logoSize: 110,
+        logoSize: 220,
         languages: [
           { icon: require('@/assets/svg/flag-de.svg'), locale: 'de' },
           { icon: require('@/assets/svg/flag-uk.svg'), locale: 'en' }
@@ -109,7 +109,7 @@
           },
           {
             label: this.$t('topMenu.about'),
-            route: { path: this.isGermanLocale ? '/über-uns' : '/about-us' }
+            route: { path: this.isGermanLocale ? '/uber-uns' : '/about-us' }
           },
           {
             label: this.$t('topMenu.press'),
