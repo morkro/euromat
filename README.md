@@ -1,8 +1,8 @@
-# eur-o-mat
+# EUROMAT 2017
 
-> A progressive web application Euro-Mat for the upcoming German election
+> A Vue.js powered, progressive web voting application for the upcoming German election with a European focus.
 
-## Build Setup
+## Development
 
 ``` bash
 # install dependencies
