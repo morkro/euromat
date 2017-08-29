@@ -49,6 +49,12 @@
       ga('create', 'UA-83519650-2', 'auto');
       ga('send', 'pageview');
 
+      window.addEventListener('beforeinstallprompt', e => {
+        e.userChoice.then(choiceResult => {
+          ga('send', 'event', 'A2H', choiceResult.outcome);
+        });
+      });
+
       window.fbAsyncInit = () => {
         FB.init({
           appId: '1632993110065053',

@@ -1,6 +1,7 @@
 {
-  "name": "eur-o-mat",
-  "short_name": "eur-o-mat",
+  "name": "EUROMAT",
+  "short_name": "euromat",
+  "description": "Der Euromat nicht einfach nur ein Wahlomat. Sondern Ihr digitaler Wahl-Freund, der Ihnen einen Eindruck von den europapolitischen Positionen der Parteien vermittelt.",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
@@ -13,8 +14,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "/?utm_source=homescreen",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "background_color": "#40A6EE",
+  "theme_color": "#ffffff"
 }
