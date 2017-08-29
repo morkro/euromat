@@ -2,8 +2,12 @@
   <section>
     <header class="results-header">
       <h1>{{ $t('euromat.results.headline') }}</h1>
-      <p>{{ $t('euromat.results.entry') }}</p>
     </header>
+
+    <div class="results-content">
+      <p>{{ $t('euromat.results.entry') }}</p>
+      <span>{{ $t('euromat.results.hint') }}</span>
+    </div>
 
     <ul class="party-results">
       <li v-for="party of parties">
@@ -185,10 +189,20 @@
   }
 
   .results-header {
-    margin-bottom: $base-gap * 2;
+    margin-bottom: $base-gap;
 
     h1 {
       margin-bottom: $small-gap;
+    }
+  }
+
+  .results-content {
+    margin-bottom: $base-gap;
+
+    span {
+      margin-top: $small-gap;
+      color: $text-color-secondary;
+      font-size: $font-size-small;
     }
   }
 

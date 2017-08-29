@@ -213,7 +213,7 @@
     }
 
     svg {
-      margin: 0;
+      margin: 0 auto;
     }
   }
 </style>

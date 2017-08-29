@@ -113,5 +113,9 @@
         background: $button-background-secondary;
       }
     }
+
+    img {
+      margin: 0 auto;
+    }
   }
 </style>
