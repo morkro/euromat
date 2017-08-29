@@ -108,9 +108,17 @@
     align-items: flex-start;
     flex-wrap: wrap;
 
+    @media (max-width: 630px) {
+      flex-direction: column;
+    }
+
     .people-group {
       flex: 0 0 50%;
       text-align: center;
+
+      @media (max-width: 630px) {
+        width: 100%;
+      }
     }
 
     h2 {
@@ -138,7 +146,7 @@
     background: $background-secondary;
     border-radius: $border-radius / 2;
     box-shadow: $button-shadow;
-    padding: $small-gap $base-gap;
+    padding: $base-gap;
     color: $text-color-secondary;
     margin-bottom: $base-gap;
 

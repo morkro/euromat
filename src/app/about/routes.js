@@ -3,7 +3,7 @@ import i18n from './i18n'
 
 export default [
   {
-    path: '/über-uns',
+    path: '/uber-uns',
     alias: '/about-us',
     name: 'about',
     component: About,

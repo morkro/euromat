@@ -14,8 +14,8 @@ export default {
       results: {
         pageTitle: 'Ergebnis',
         headline: 'Dein Ergebnis',
-        entry: 'Super, Sie haben es geschafft! Gespannt, wie Ihr Ergebnis ausfällt? Hier ist es auch schon:',
-        hint: 'Übrigens: Mit Klick auf die Partei können Sie übrigens auch alle Antworten einzeln ansehen.',
+        entry: 'Super, Sie haben es geschafft! Gespannt, wie ihr Ergebnis ausfällt? Hier ist es auch schon:',
+        hint: 'Übrigens: Mit Klick auf die Partei gelangen Sie zur Übersicht der einzelnen Thesen. Vergleichen Sie Ihre Auswahl mit den direkten Antworten der jeweiligen Partei.',
         thanks: 'Danke, dass Sie den Euromat genutzt haben. Wir hoffen es hat Ihnen Freude bereitet und vergessen Sie nicht: am 24. September ist Bundestagswahl!',
         buttons: {
           startover: 'Euromat wiederholen',
