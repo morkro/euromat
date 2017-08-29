@@ -10,7 +10,7 @@
       </div>
 
       <div class="about-people">
-        <div class="people-group">
+        <div class="people-group polis">
           <div class="group-inner">
             <h2>
               <a :href="$t('about.teamLabel.polis.url')" target="_blank">
@@ -30,7 +30,7 @@
           </div>
         </div>
 
-        <div class="people-group">
+        <div class="people-group poe">
           <div class="group-inner">
             <h2>
               <a :href="$t('about.teamLabel.poe.url')" target="_blank">
@@ -50,7 +50,7 @@
           </div>
         </div>
 
-        <div class="people-group">
+        <div class="people-group dev">
           <div class="group-inner dark">
             <h2>{{ $t('about.teamLabel.dev') }}</h2>
             <ul>
@@ -110,6 +110,8 @@
 
     @media (max-width: 630px) {
       flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
     }
 
     .people-group {
@@ -117,7 +119,20 @@
       text-align: center;
 
       @media (max-width: 630px) {
+        flex: 0 0 100%;
         width: 100%;
+
+        &.poe {
+          order: 1;
+        }
+
+        &.polis {
+          order: 2;
+        }
+
+        &.dev {
+          order: 3;
+        }
       }
     }
 

@@ -68,8 +68,8 @@
           },
           socialMedia: {
             twitter: {
-              text: 'Great! German election is star-spangled. Curious what parties say about EU? See who you match up with',
-              hashtags: 'GermanElections,EUROMAT'
+              text: 'Great! German election is star-spangled. Curious what parties say about EU? Compare views & see your match:',
+              hashtags: 'BTW17,EUROMAT'
             },
             facebook: 'Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!',
             clipboard: 'Copied to clipboard'
