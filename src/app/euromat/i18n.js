@@ -16,9 +16,9 @@ export default {
         headline: 'Dein Ergebnis',
         entry: 'Super, Sie haben es geschafft! Gespannt, wie ihr Ergebnis ausfällt? Hier ist es auch schon:',
         hint: 'Übrigens: Mit Klick auf die Partei gelangen Sie zur Übersicht der einzelnen Thesen. Vergleichen Sie Ihre Auswahl mit den direkten Antworten der jeweiligen Partei.',
-        thanks: 'Danke, dass Sie den Euromat genutzt haben. Wir hoffen es hat Ihnen Freude bereitet und vergessen Sie nicht: am 24. September ist Bundestagswahl!',
+        thanks: 'Danke, dass Sie den EUROMAT genutzt haben. Wir hoffen es hat Ihnen Freude bereitet und vergessen Sie nicht: am 24. September ist Bundestagswahl!',
         buttons: {
-          startover: 'Euromat wiederholen',
+          startover: 'EUROMAT wiederholen',
           index: 'Zur Startseite'
         }
       },
@@ -48,7 +48,7 @@ export default {
         headline: 'Your results',
         entry: 'Great, you made it! Curious about your result? We won\'t keep you any longer, here it is:',
         hint: 'Oh, by the way: Clicking on each party will get you to an overview of all individual statements. Take a look at what the parties answered and how your choice compares.',
-        thanks: 'Thanks for using Euromat. We hope you enjoyed it and don\'t forget: 24. September is election day!',
+        thanks: 'Thanks for using EUROMAT. We hope you enjoyed it and don\'t forget: 24. September is election day!',
         buttons: {
           startover: 'Start over',
           index: 'Back to landing page'
