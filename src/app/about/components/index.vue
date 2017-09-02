@@ -87,6 +87,8 @@
   @import "~styles/colors";
   @import "~styles/layout";
 
+  $breakpoint: 630px;
+
   h1,
   p {
     margin-bottom: $base-gap;
@@ -108,7 +110,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
 
-    @media (max-width: 630px) {
+    @media (max-width: $breakpoint) {
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
@@ -118,7 +120,7 @@
       flex: 0 0 50%;
       text-align: center;
 
-      @media (max-width: 630px) {
+      @media (max-width: $breakpoint) {
         flex: 0 0 100%;
         width: 100%;
 
@@ -164,6 +166,10 @@
     padding: $base-gap;
     color: $text-color-secondary;
     margin-bottom: $base-gap;
+
+    @media (max-width: $breakpoint) {
+      width: 100%;
+    }
 
     &.dark {
       background: $dark-blue;
