@@ -28,152 +28,242 @@
       {
         "thesis": 0,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 1,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 2,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 3,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 4,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 5,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 6,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 7,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 8,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 9,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 10,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 11,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 12,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 13,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 14,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 15,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 16,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 17,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 18,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 19,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 20,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 21,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 22,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 23,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 24,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 25,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 26,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 27,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 28,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 29,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       }
     ]
   },
@@ -206,152 +296,242 @@
       {
         "thesis": 0,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 1,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 2,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 3,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 4,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 5,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 6,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 7,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 8,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 9,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 10,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 11,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 12,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 13,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 14,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 15,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 16,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 17,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 18,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 19,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 20,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 21,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 22,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 23,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 24,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 25,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 26,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 27,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 28,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 29,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       }
     ]
   },
@@ -384,152 +564,242 @@
       {
         "thesis": 0,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 1,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 2,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 3,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 4,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 5,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 6,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 7,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 8,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 9,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 10,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 11,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 12,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 13,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 14,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 15,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 16,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 17,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 18,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 19,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 20,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 21,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 22,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 23,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 24,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 25,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 26,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 27,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 28,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 29,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       }
     ]
   },
@@ -562,152 +832,242 @@
       {
         "thesis": 0,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 1,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 2,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 3,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 4,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 5,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 6,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 7,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 8,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 9,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 10,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 11,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 12,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 13,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 14,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 15,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 16,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 17,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 18,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 19,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 20,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 21,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 22,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 23,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 24,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 25,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 26,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 27,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 28,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 29,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       }
     ]
   },
@@ -740,152 +1100,242 @@
       {
         "thesis": 0,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 1,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 2,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 3,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 4,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 5,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 6,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 7,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 8,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 9,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 10,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 11,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 12,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 13,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 14,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 15,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 16,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 17,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 18,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 19,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 20,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 21,
         "position": "neutral",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 22,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 23,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 24,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 25,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 26,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 27,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 28,
         "position": "positive",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       },
       {
         "thesis": 29,
         "position": "negative",
-        "statement": ""
+        "statement": {
+          "de": "",
+          "en": ""
+        }
       }
     ]
   }

@@ -6,7 +6,7 @@ export default {
         polis: [
           { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
           { name: 'Stephan Kreutzer', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
-          { name: 'Ben Lenzing', profile: false },
+          { name: 'Benjamin Lenzing', profile: false },
           { name: 'Johannes John', profile: false }
         ],
         poe: [
@@ -43,7 +43,7 @@ export default {
         polis: [
           { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
           { name: 'Stephan Kreutzer', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
-          { name: 'Ben Lenzing', profile: false },
+          { name: 'Benjamin Lenzing', profile: false },
           { name: 'Johannes John', profile: false }
         ],
         poe: [
