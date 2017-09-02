@@ -5,6 +5,7 @@ export default {
       back: 'Zurück zum Ergebnis',
       partyProgram: 'Zum Parteiprogramm',
       legend: 'Legende',
+      partyStatement: 'Antwort der Partei',
       table: {
         thesis: 'Thesis',
         user: 'Deine Wahl'
@@ -17,6 +18,7 @@ export default {
       back: 'Back to results',
       partyProgram: 'To party program',
       legend: 'Legend',
+      partyStatement: 'Party statement',
       table: {
         thesis: 'Theses',
         user: 'Your choice'

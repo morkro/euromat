@@ -34,17 +34,30 @@
         <h2>{{ party.token }}</h2>
         <h2 v-if="!!answers">{{ $t('party.table.user') }}</h2>
       </li>
+
       <li v-for="thesis in theses">
-        <div class="list-thesis">
-          <span>{{ getCategory(thesis.category) }}</span>
-          <h3>{{ getThesis(thesis.thesis) }}</h3>
+        <div class="thesis-facts">
+          <div class="list-thesis" @click="toggleStatement(thesis.id)">
+            <div class="thesis-subline">
+              <feather-icon :type="chevronIcon(thesis.id)" />
+              <span>{{ getCategory(thesis.category) }}</span>
+            </div>
+            <h3>{{ getThesis(thesis.thesis) }}</h3>
+          </div>
+
+          <div class="statements-party">
+            <feather-icon :type="getPartyPosition(thesis.id)" />
+          </div>
+          <div v-if="!!answers" class="statements-user">
+            <feather-icon :type="getUserPosition(thesis.id)" />
+          </div>
         </div>
 
-        <div class="statements-party">
-          <feather-icon :type="getPartyStatement(thesis.id)" />
-        </div>
-        <div v-if="!!answers" class="statements-user">
-          <feather-icon :type="getUserStatement(thesis.id)" />
+        <div v-show="showStatement(thesis.id)" class="thesis-statement">
+          <p><strong>{{ $t('party.partyStatement') }}:</strong></p>
+          <blockquote>
+            {{ getPartyStatement(thesis.id) }}
+          </blockquote>
         </div>
       </li>
     </ul>
@@ -67,6 +80,7 @@
         partyLogo: require(`@/assets/svg/${this.$route.params.token}-logo.svg`),
         party: parties.find(p => p.token === this.$route.params.token.toUpperCase()),
         answers: JSON.parse(sessionStorage.getItem('euromat-answers')),
+        toggles: theses.map(t => ({ id: t.id, show: false })),
         theses,
         options
       }
@@ -90,6 +104,11 @@
     },
 
     methods: {
+      chevronIcon (id) {
+        return this.showStatement(id)
+          ? 'chevron-up'
+          : 'chevron-down'
+      },
       getCategory (category) {
         return category[this.$i18n.locale]
       },
@@ -109,24 +128,39 @@
             return 'circle'
         }
       },
-      getPartyStatement (id) {
+      getPartyPosition (id) {
         return this.positionToIconName(
           this.party.positions.find(p => p.thesis === id).position
         )
       },
-      getUserStatement (id) {
+      getPartyStatement (id) {
+        return this.party.positions
+          .find(p => p.thesis === id)
+          .statement[this.$i18n.locale]
+      },
+      getUserPosition (id) {
         return this.positionToIconName(
           this.answers.find(a => a.thesis === id).position
         )
+      },
+      showStatement (id) {
+        console.log(id, this.toggles)
+        return this.toggles.find(t => t.id === id).show
+      },
+      toggleStatement (id) {
+        const statement = this.toggles.find(t => t.id === id)
+        statement.show = !statement.show
       }
     }
   }
 </script>
 
 <style lang="scss" scoped>
+  @import "~styles/animations";
   @import "~styles/colors";
   @import "~styles/layout";
 
+  $breakpoint: 600px;
   $table-column-large: 70%;
   $table-column-small: 15%;
 
@@ -144,6 +178,10 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: $base-gap;
+
+    @media (max-width: $breakpoint) {
+      flex-direction: column;
+    }
 
     .party-header-info {
       display: flex;
@@ -173,6 +211,11 @@
       img {
         object-fit: contain;
       }
+
+      @media (max-width: $breakpoint) {
+        margin-bottom: $base-gap;
+        margin-right: 0;
+      }
     }
   }
 
@@ -190,6 +233,11 @@
       list-style: none;
       display: flex;
       flex-wrap: wrap;
+
+      @media (max-width: $breakpoint) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
 
     li {
@@ -219,15 +267,17 @@
 
     .list-header {
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      background: $transparent-white;
+      flex-direction: row;
+      background: $background-secondary;
       border-radius: $border-radius;
+      box-shadow: $button-shadow;
       padding: $small-gap;
 
       h2 {
         flex: 1 0 $table-column-small;
         font-size: $font-size-base;
-        color: $text-color-base;
         margin: 0;
         text-align: center;
       }
@@ -242,22 +292,62 @@
     li {
       padding: $small-gap;
       display: flex;
-      align-items: stretch;
+      flex-direction: column;
     }
 
     li:not(:last-child):not(.list-header) {
       border-bottom: 2px dashed $transparent-white;
     }
 
+    .thesis-facts {
+      display: flex;
+      align-items: stretch;
+    }
+
+    .thesis-statement {
+      background: $dark-blue;
+      border-radius: $border-radius / 4;
+      padding: $small-gap;
+      margin-top: $base-gap;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background: $dark-blue;
+        top: 0;
+        left: 0;
+        transform: translate(30px, -50%) rotate(45deg);
+      }
+    }
+
     .list-thesis {
       flex: 1 0 $table-column-large;
       padding-right: $small-gap;
+      cursor: pointer;
+
+      &:hover svg {
+        stroke: $text-color-special;
+      }
 
       span {
         color: $text-color-secondary;
-        margin-bottom: $small-gap / 2;
         display: inline-block;
         font-weight: 700;
+      }
+
+      svg {
+        margin-right: $small-gap / 2;
+        stroke: $text-color-secondary;
+        transition: stroke 150ms $easeOutBack;
+      }
+
+      .thesis-subline {
+        display: flex;
+        align-items: center;
+        margin-bottom: $small-gap / 2;
       }
     }
 

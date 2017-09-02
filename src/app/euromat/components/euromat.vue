@@ -205,6 +205,10 @@
     margin-bottom: $base-gap + 5;
     text-align: left;
 
+    h1 {
+      overflow-wrap: break-word;
+    }
+
     h2 {
       margin-bottom: $base-gap;
     }
