@@ -155,8 +155,16 @@
     },
 
     created () {
-      const emphasized = JSON.parse(sessionStorage.getItem('euromat-emphasized'))
-      const answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
+      let emphasized
+      let answers
+
+      if (this.$browser.supports('sessionStorage')) {
+        emphasized = JSON.parse(sessionStorage.getItem('euromat-emphasized'))
+        answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
+      } else {
+        emphasized = JSON.parse(this.$root.$data.backupStorage.emphasized)
+        answers = JSON.parse(this.$root.$data.backupStorage.answers)
+      }
 
       if (!emphasized) {
         this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })

@@ -3,9 +3,10 @@ import EuroMat from './components/euromat'
 import Emphasis from './components/emphasis'
 import Results from './components/results'
 import i18n from './i18n'
+import { storageAvailable } from '@/helper/storage'
 
 function hasAnswers (to, from, next) {
-  if (!sessionStorage.getItem('euromat-answers')) {
+  if (storageAvailable('sessionStorage') && !sessionStorage.getItem('euromat-answers')) {
     next({ path: '/' })
   }
   next()

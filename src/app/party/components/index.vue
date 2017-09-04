@@ -75,11 +75,19 @@
     name: 'Party',
 
     data () {
+      let answers
+
+      if (this.$browser.supports('sessionStorage')) {
+        answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
+      } else {
+        answers = JSON.parse(this.$root.$data.backupStorage.answers)
+      }
+
       return {
         logoSize: 60,
         partyLogo: require(`@/assets/svg/${this.$route.params.token}-logo.svg`),
         party: parties.find(p => p.token === this.$route.params.token.toUpperCase()),
-        answers: JSON.parse(sessionStorage.getItem('euromat-answers')),
+        answers,
         toggles: theses.map(t => ({ id: t.id, show: false })),
         theses,
         options
@@ -144,7 +152,6 @@
         )
       },
       showStatement (id) {
-        console.log(id, this.toggles)
         return this.toggles.find(t => t.id === id).show
       },
       toggleStatement (id) {

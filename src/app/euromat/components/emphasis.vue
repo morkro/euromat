@@ -67,7 +67,14 @@
         }
       },
       submitEmphasis () {
-        sessionStorage.setItem('euromat-emphasized', JSON.stringify(this.emphasized))
+        const emphasized = JSON.stringify(this.emphasized)
+
+        if (this.$browser.supports('sessionStorage')) {
+          sessionStorage.setItem('euromat-emphasized', emphasized)
+        } else {
+          this.$root.$data.backupStorage.emphasized = emphasized
+        }
+
         this.$router.push({ path: this.isGermanLocale
           ? '/thesen/ergebnis'
           : '/theses/results'
@@ -76,7 +83,11 @@
     },
 
     created () {
-      if (!sessionStorage.getItem('euromat-answers')) {
+      if (this.$browser.supports('sessionStorage')) {
+        if (!sessionStorage.getItem('euromat-answers')) {
+          this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+        }
+      } else if (this.$root.$data.backupStorage.answers === undefined) {
         this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
       }
     }

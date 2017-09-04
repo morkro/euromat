@@ -126,7 +126,14 @@
         }
       },
       forwardToResults () {
-        sessionStorage.setItem('euromat-answers', JSON.stringify(this.answers))
+        const answers = JSON.stringify(this.answers)
+
+        if (this.$browser.supports('sessionStorage')) {
+          sessionStorage.setItem('euromat-answers', answers)
+        } else {
+          this.$root.$data.backupStorage.answers = answers
+        }
+
         this.$router.push({ path: this.isGermanLocale
           ? '/thesen/gewichtung'
           : '/theses/emphasis'
