@@ -34,6 +34,11 @@ const router = new Router({
 router.beforeEach((to, from, next) => {
   if (to.meta.title && to.meta.title.de && to.meta.title.en) {
     window.document.title = getPageTitle(to.meta.title)
+
+    if (window.ga) {
+      window.ga('set', 'page', to.path)
+      window.ga('send', 'pageview')
+    }
   }
 
   window.scrollTo(0, 0)
