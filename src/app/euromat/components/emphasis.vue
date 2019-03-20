@@ -4,19 +4,23 @@
 
     <div class="emphasis-content">
       <p>{{ $t('euromat.emphasis.content') }}</p>
-      <button type="button" class="btn-dark btn-small" @click="submitEmphasis()">
+      <button type="button"
+        class="btn-dark btn-small"
+        @click="submitEmphasis()"
+      >
         {{ $t('euromat.emphasis.skip') }}
         <feather-corner-up-right />
       </button>
     </div>
 
     <ol class="thesis-list">
-      <li v-for="thesis of theses">
+      <li v-for="thesis of theses" :key="thesis.id">
         <input
-          :name="`thesis-${thesis.id}`"
           :id="`thesis-${thesis.id}`"
+          :name="`thesis-${thesis.id}`"
           type="checkbox"
-          @click.self="addThesisEmphasis(thesis, $event)"/>
+          @click.self="addThesisEmphasis(thesis, $event)"
+        >
         <label :for="`thesis-${thesis.id}`">
           <span>{{ getThesisCategory(thesis.category) }}</span>
           {{ getThesisTitle(thesis.thesis) }}
@@ -51,6 +55,16 @@
       }
     },
 
+    created () {
+      if (this.$browser.supports('sessionStorage')) {
+        if (!sessionStorage.getItem('euromat-answers')) {
+          this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+        }
+      } else if (this.$root.$data.backupStorage.answers === undefined) {
+        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+      }
+    },
+
     methods: {
       getThesisCategory (category) {
         return category[this.$i18n.locale]
@@ -79,16 +93,6 @@
           ? '/thesen/ergebnis'
           : '/theses/results'
         })
-      }
-    },
-
-    created () {
-      if (this.$browser.supports('sessionStorage')) {
-        if (!sessionStorage.getItem('euromat-answers')) {
-          this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
-        }
-      } else if (this.$root.$data.backupStorage.answers === undefined) {
-        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
       }
     }
   }

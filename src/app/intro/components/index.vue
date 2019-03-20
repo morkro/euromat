@@ -5,7 +5,9 @@
 
       <p
         v-for="(txt, index) of $t('intro.content')"
-        :class="{ 'small': index === $t('intro.content').length -1 }">
+        :key="txt + index"
+        :class="{ 'small': index === $t('intro.content').length -1 }"
+      >
         {{ txt }}
       </p>
 

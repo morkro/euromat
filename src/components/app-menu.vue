@@ -1,7 +1,7 @@
 <template>
   <div class="app-menu">
     <ul class="top-menu">
-      <li v-for="item of main">
+      <li v-for="item of main" :key="item.route">
         <router-link tag="a" :to="item.route">
           {{ item.label }}
         </router-link>
@@ -10,11 +10,17 @@
 
     <div class="menu-language">
       <button
-        class="btn-txt"
         v-for="lang of languages"
+        :key="lang.locale"
+        class="btn-txt"
         type="button"
-        @click="changeLanguage(lang.locale)">
-        <img :src="lang.icon" :width="buttonSize" :height="buttonSize" :alt="lang.locale" />
+        @click="changeLanguage(lang.locale)"
+      >
+        <img :src="lang.icon"
+          :width="buttonSize"
+          :height="buttonSize"
+          :alt="lang.locale"
+        >
       </button>
     </div>
   </div>

@@ -10,11 +10,15 @@
     </div>
 
     <ul class="party-results">
-      <li v-for="party of parties">
+      <li v-for="party of parties" :key="party.token">
         <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
           <div class="result-party-info">
             <div class="result-party-logo">
-              <img :src="getPartyLogo(party.token)" width="50" height="50" :alt="party.token" />
+              <img :src="getPartyLogo(party.token)"
+                width="50"
+                height="50"
+                :alt="party.token"
+              >
             </div>
 
             <h2>{{ getScorePercentage(party.score) }}%</h2>
@@ -25,20 +29,25 @@
           <party-percentage
             class="result-percentage"
             :value="party.score"
-            :max="totalScoredPoints" />
+            :max="totalScoredPoints"
+          />
         </router-link>
       </li>
     </ul>
 
     <div class="results-ctrls">
       <p>{{ $t('euromat.results.thanks') }}</p>
-      <router-link tag="a" class="btn" :to="{ path: '/' }">
+      <router-link tag="a"
+        class="btn"
+        :to="{ path: '/' }"
+      >
         {{ $t('euromat.results.buttons.index') }}
       </router-link>
       <router-link
         tag="a"
         class="btn btn-dark btn-small"
-        :to="{ path: this.isGermanLocale ? '/thesen' : '/theses' }">
+        :to="{ path: isGermanLocale ? '/thesen' : '/theses' }"
+      >
         {{ $t('euromat.results.buttons.startover') }}
         <feather-rotate-cw />
       </router-link>
@@ -81,6 +90,36 @@
       isGermanLocale () {
         return this.$i18n.locale === 'de'
       }
+    },
+
+    created () {
+      let emphasized
+      let answers
+
+      if (this.$browser.supports('sessionStorage')) {
+        emphasized = JSON.parse(sessionStorage.getItem('euromat-emphasized'))
+        answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
+      } else {
+        emphasized = JSON.parse(this.$root.$data.backupStorage.emphasized)
+        answers = JSON.parse(this.$root.$data.backupStorage.answers)
+      }
+
+      if (!emphasized) {
+        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+      }
+
+      this.emphasized = emphasized
+      this.answers = answers
+
+      this.scoringGrid = getScoringGrid(this.answers, this.emphasized)
+      this.scores = this.getScorePoints(this.scoringGrid)
+      this.parties = this.parties
+        .map(this.getScorePerParty)
+        .sort((a, b) => a.score - b.score)
+        .reverse()
+      this.totalScoredPoints = this.scores
+        .map(s => s.highestScore)
+        .reduce(addUp, 0)
     },
 
     methods: {
@@ -152,36 +191,6 @@
             .reduce(addUp, 0)
         }
       }
-    },
-
-    created () {
-      let emphasized
-      let answers
-
-      if (this.$browser.supports('sessionStorage')) {
-        emphasized = JSON.parse(sessionStorage.getItem('euromat-emphasized'))
-        answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
-      } else {
-        emphasized = JSON.parse(this.$root.$data.backupStorage.emphasized)
-        answers = JSON.parse(this.$root.$data.backupStorage.answers)
-      }
-
-      if (!emphasized) {
-        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
-      }
-
-      this.emphasized = emphasized
-      this.answers = answers
-
-      this.scoringGrid = getScoringGrid(this.answers, this.emphasized)
-      this.scores = this.getScorePoints(this.scoringGrid)
-      this.parties = this.parties
-        .map(this.getScorePerParty)
-        .sort((a, b) => a.score - b.score)
-        .reverse()
-      this.totalScoredPoints = this.scores
-        .map(s => s.highestScore)
-        .reduce(addUp, 0)
     }
   }
 </script>

@@ -4,7 +4,7 @@
 
     <div class="about-content">
       <div class="about-text">
-        <p v-for="txt of $t('about.content')">
+        <p v-for="txt of $t('about.content')" :key="txt">
           {{ txt }}
         </p>
       </div>
@@ -14,13 +14,22 @@
           <div class="group-inner">
             <h2>
               <a :href="$t('about.teamLabel.polis.url')" target="_blank">
-                <img class="team-logo polis" :src="polisLogo" width="150" height="100" />
+                <img
+                  class="team-logo polis"
+                  :src="polisLogo"
+                  width="150"
+                  height="100"
+                >
                 <span hidden>{{ $t('about.teamLabel.polis.label') }}</span>
               </a>
             </h2>
             <ul>
-              <li v-for="(member, index) of $t('about.members.polis')">
-                <a v-if="member.profile" :href="$t(`about.members.polis[${index}].profile`)" target="_blank">
+              <li v-for="(member, index) of $t('about.members.polis')" :key="'member-polis-' + index">
+                <a
+                  v-if="member.profile"
+                  :href="$t(`about.members.polis[${index}].profile`)"
+                  target="_blank"
+                >
                   {{ $t(`about.members.polis[${index}].name`) }}
                   <feather-external-link />
                 </a>
@@ -34,13 +43,22 @@
           <div class="group-inner">
             <h2>
               <a :href="$t('about.teamLabel.poe.url')" target="_blank">
-                <img class="team-logo poe" :src="poeLogo" width="400" height="60" />
+                <img
+                  class="team-logo poe"
+                  :src="poeLogo"
+                  width="400"
+                  height="60"
+                >
                 <span hidden>{{ $t('about.teamLabel.poe.label') }}</span>
               </a>
             </h2>
             <ul>
-              <li v-for="(member, index) of $t('about.members.poe')">
-                <a v-if="member.profile" :href="$t(`about.members.poe[${index}].profile`)" target="_blank">
+              <li v-for="(member, index) of $t('about.members.poe')" :key="'member-poe-' + index">
+                <a
+                  v-if="member.profile"
+                  :href="$t(`about.members.poe[${index}].profile`)"
+                  target="_blank"
+                >
                   {{ $t(`about.members.poe[${index}].name`) }}
                   <feather-external-link />
                 </a>
@@ -54,8 +72,12 @@
           <div class="group-inner dark">
             <h2>{{ $t('about.teamLabel.dev') }}</h2>
             <ul>
-              <li v-for="(member, index) of $t('about.members.dev')">
-                <a v-if="member.profile" :href="$t(`about.members.dev[${index}].profile`)" target="_blank">
+              <li v-for="(member, index) of $t('about.members.dev')" :key="'member-dev-' + index">
+                <a
+                  v-if="member.profile"
+                  :href="$t(`about.members.dev[${index}].profile`)"
+                  target="_blank"
+                >
                   {{ $t(`about.members.dev[${index}].name`) }}
                   <feather-external-link />
                 </a>

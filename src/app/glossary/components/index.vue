@@ -2,10 +2,15 @@
   <section>
     <h1>{{ $t('glossary.headline') }}</h1>
     <ul>
-      <li v-for="(item, index) in terminology">
-        <h2 :id="item.id">{{ getTermLabel(index) }} <feather-link /></h2>
+      <li v-for="(item, index) in terminology" :key="item.id">
+        <h2 :id="item.id">
+          {{ getTermLabel(index) }} <feather-link />
+        </h2>
         <p>{{ getTermExplanation(index) }}</p>
-        <a class="btn btn-dark btn-small" :href="getTermReference(index)" target="_blank">
+        <a class="btn btn-dark btn-small"
+          :href="getTermReference(index)"
+          target="_blank"
+        >
           {{ getTermReference(index) }} <feather-external-link />
         </a>
       </li>

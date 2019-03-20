@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1>{{ $t('fourzerofour.headline') }}</h1>
-    <p>{{ $t('fourzerofour.content')  }}</p>
+    <p>{{ $t('fourzerofour.content') }}</p>
     <router-link class="btn" :to="{ path: '/' }">
       {{ $t('fourzerofour.button') }}
     </router-link>

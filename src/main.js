@@ -13,7 +13,6 @@ Vue.use(VueSVGIcon)
 Vue.use(VueFeatherIcon)
 Vue.use(storage)
 
-/* eslint-disable no-new */
 new Vue({
   router,
   i18n,

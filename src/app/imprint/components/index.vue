@@ -7,8 +7,8 @@
         <div class="imprint-group">
           <h3>{{ $t('imprint.address.label') }}</h3>
           <address>
-            <span v-for="txt of $t('imprint.address.poe')">
-              <span>{{ txt }}</span><br />
+            <span v-for="txt of $t('imprint.address.poe')" :key="txt">
+              <span>{{ txt }}</span><br>
             </span>
           </address>
         </div>
@@ -34,7 +34,9 @@
 
         <div class="imprint-group">
           <h3>{{ $t('imprint.register.poe.label') }}</h3>
-          <p v-for="txt of $t('imprint.register.poe.text')">{{ txt }}</p>
+          <p v-for="txt of $t('imprint.register.poe.text')" :key="txt">
+            {{ txt }}
+          </p>
         </div>
       </div>
 
@@ -42,8 +44,8 @@
         <div class="imprint-group">
           <h3>{{ $t('imprint.address.label') }}</h3>
           <address>
-            <span v-for="txt of $t('imprint.address.polis')">
-              <span>{{ txt }}</span><br />
+            <span v-for="txt of $t('imprint.address.polis')" :key="txt">
+              <span>{{ txt }}</span><br>
             </span>
           </address>
         </div>
@@ -69,17 +71,21 @@
 
         <div class="imprint-group">
           <h3>{{ $t('imprint.register.polis.label') }}</h3>
-          <p v-for="txt of $t('imprint.register.polis.text')">{{ txt }}</p>
+          <p v-for="txt of $t('imprint.register.polis.text')" :key="txt">
+            {{ txt }}
+          </p>
         </div>
       </div>
     </div>
 
-    <hr />
+    <hr>
 
     <div class="imprint-responsibility">
       <div class="imprint-group">
         <h3>{{ $t('imprint.responsible.label') }}</h3>
-        <p v-for="txt of $t('imprint.responsible.text')">{{ txt }}</p>
+        <p v-for="txt of $t('imprint.responsible.text')" :key="txt">
+          {{ txt }}
+        </p>
       </div>
 
       <div class="imprint-group inline">
@@ -90,10 +96,10 @@
       </div>
     </div>
 
-    <hr />
+    <hr>
 
     <ul class="imprint-info">
-      <li v-for="info of $t('imprint.content')">
+      <li v-for="info of $t('imprint.content')" :key="info.title">
         <h2>{{ info.title }}</h2>
         <p>{{ info.text }}</p>
       </li>

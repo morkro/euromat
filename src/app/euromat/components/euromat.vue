@@ -6,10 +6,11 @@
         <span>/{{ thesesCount }}</span>
       </div>
       <button
-        :disabled="this.currentThesis === 0"
+        :disabled="currentThesis === 0"
         class="btn-dark btn-small"
         type="button"
-        @click="goBack">
+        @click="goBack"
+      >
         {{ $t('euromat.euromat.back') }}
       </button>
     </div>
@@ -22,7 +23,7 @@
 
       <div class="euromat-controls">
         <ul class="euromat-btns">
-          <li v-for="option in options" v-if="option.position !== 'skipped'">
+          <li v-for="option in options" :key="option.label">
             <button type="button" @click="submitAnswer(option, $event)">
               {{ option.label }} <feather-icon :type="option.icon" />
             </button>
@@ -32,7 +33,8 @@
           <button
             class="btn-dark btn-small"
             type="button"
-            @click="submitAnswer(optionSkip)">
+            @click="submitAnswer(optionSkip)"
+          >
             {{ optionSkip.label }} <feather-corner-up-right />
           </button>
         </div>
@@ -43,14 +45,9 @@
 
 <script>
   import { options, theses } from '@/data'
-  import Progress from '@/components/progress'
 
   export default {
     name: 'EuroMat',
-
-    components: {
-      'thesis-progress': Progress
-    },
 
     data () {
       return {
@@ -85,6 +82,7 @@
             label: this.$t(`euromat.options.${option.position}`),
             icon: this.getIconName(option.position)
           }))
+        .filter(option => option.position !== 'skipped')
       },
       optionSkip () {
         return this.options[this.options.length - 1]
@@ -98,7 +96,7 @@
           case 'neutral': return 'circle'
           case 'negative': return 'thumbs-down'
           case 'skipped': return 'corner-up-right'
-          default: return
+          default:
         }
       },
       getThesis (id) {
