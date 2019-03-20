@@ -95,9 +95,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/animations";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/animations";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $input-size: 40px;
   $breakpoint: 768px;

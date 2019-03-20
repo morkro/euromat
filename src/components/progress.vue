@@ -16,8 +16,8 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   progress[value] {
     appearance: none;

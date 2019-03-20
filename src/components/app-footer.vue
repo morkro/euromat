@@ -62,7 +62,7 @@
           case 'twitter': return this.shareViaTwitter(social.message)
           case 'facebook': return this.shareViaFacebook(social.message)
           case 'clipboard': return this.copyToClipboard(social.message)
-          default: return
+          default: break
         }
       },
       shareViaTwitter (message) {
@@ -105,9 +105,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/animations";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/animations";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $social-btn-size: 40px;
   $breakpoint: 1050px;

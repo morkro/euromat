@@ -15,7 +15,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/layout";
+  @import "~@/styles/layout";
 
   h1,
   p {

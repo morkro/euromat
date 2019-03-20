@@ -156,12 +156,12 @@
 </script>
 
 <style lang="scss">
-  @import "~node_modules/normalize.css/normalize";
-  @import "~styles/animations";
-  @import "~styles/fonts";
-  @import "~styles/buttons";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/../node_modules/normalize.css/normalize";
+  @import "~@/styles/animations";
+  @import "~@/styles/fonts";
+  @import "~@/styles/buttons";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $app-width: 930px;
 

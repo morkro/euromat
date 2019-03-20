@@ -163,9 +163,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/animations";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/animations";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $breakpoint: 600px;
   $table-column-large: 70%;

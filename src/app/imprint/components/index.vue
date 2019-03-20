@@ -123,8 +123,8 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/layout";
-  @import "~styles/colors";
+  @import "~@/styles/layout";
+  @import "~@/styles/colors";
 
   h1 {
     margin-bottom: $base-gap;
