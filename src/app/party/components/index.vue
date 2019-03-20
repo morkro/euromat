@@ -2,16 +2,26 @@
   <section>
     <header class="party-header">
       <div class="party-header-logo">
-        <img :src="partyLogo" :width="logoSize" :height="logoSize" :alt="partyName" />
+        <img :src="partyLogo"
+          :width="logoSize"
+          :height="logoSize"
+          :alt="partyName"
+        >
       </div>
 
       <div class="party-header-info">
-        <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
+        <router-link v-if="!!answers"
+          class="btn btn-dark btn-small"
+          :to="{ path: resultsPath }"
+        >
           {{ $t('party.back') }}
           <feather-corner-up-left />
         </router-link>
         <h1>{{ partyName }}</h1>
-        <a class="btn" :href="partyProgramLink" target="_blank">
+        <a class="btn"
+          :href="partyProgramLink"
+          target="_blank"
+        >
           {{ $t('party.partyProgram') }}
           <feather-external-link />
         </a>
@@ -21,7 +31,7 @@
     <div class="theses-legend">
       <p>{{ $t('party.legend') }}:</p>
       <ul>
-        <li v-for="option in options">
+        <li v-for="option in options" :key="option.position">
           <feather-icon :type="positionToIconName(option.position)" />
           <span>{{ $t(`euromat.options.${option.position}`) }}</span>
         </li>
@@ -32,10 +42,12 @@
       <li class="list-header">
         <h2>{{ $t('party.table.thesis') }}</h2>
         <h2>{{ party.token }}</h2>
-        <h2 v-if="!!answers">{{ $t('party.table.user') }}</h2>
+        <h2 v-if="!!answers">
+          {{ $t('party.table.user') }}
+        </h2>
       </li>
 
-      <li v-for="thesis in theses">
+      <li v-for="thesis in theses" :key="thesis.id">
         <div class="thesis-facts">
           <div class="list-thesis" @click="toggleStatement(thesis.id)">
             <div class="thesis-subline">
@@ -62,7 +74,10 @@
       </li>
     </ul>
 
-    <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
+    <router-link v-if="!!answers"
+      class="btn btn-dark btn-small"
+      :to="{ path: resultsPath }"
+    >
       {{ $t('party.back') }}
       <feather-corner-up-left />
     </router-link>

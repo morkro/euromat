@@ -1,16 +1,18 @@
 <template>
   <div class="footer">
     <ul class="footer-social">
-      <li v-for="item of social"
+      <li v-for="(item, index) of social"
+        :key="index"
         :data-message="item.label === 'clipboard' ? item.message : ''"
-        :class="{ 'show-info': item.label === 'clipboard' && showClipboardInfo }">
-        <button class="btn-dark" @click="share(item)" >
+        :class="{ 'show-info': item.label === 'clipboard' && showClipboardInfo }"
+      >
+        <button class="btn-dark" @click="share(item)">
           <feather-icon :type="item.icon" />
         </button>
       </li>
     </ul>
     <ul class="footer-menu">
-      <li v-for="item of menu">
+      <li v-for="item of menu" :key="item.route">
         <router-link tag="a" :to="item.route">
           {{ item.label }}
         </router-link>

@@ -2,9 +2,9 @@
   <section>
     <h1>{{ $t('faq.headline') }}</h1>
     <ul>
-      <li v-for="question of $t('faq.questions')">
+      <li v-for="question of $t('faq.questions')" :key="question.title + question.answer">
         <h2>{{ question.title }}</h2>
-        <p v-for="answer of question.answer">
+        <p v-for="answer of question.answer" :key="answer">
           {{ answer }}
         </p>
       </li>

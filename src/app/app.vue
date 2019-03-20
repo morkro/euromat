@@ -2,14 +2,18 @@
   <div id="app">
     <header class="app-header">
       <router-link :to="{ path: '/' }">
-        <img class="header-logo" :src="euromatLogo" :width="logoSize" :height="logoSize / 2" />
+        <img class="header-logo"
+          :src="euromatLogo"
+          :width="logoSize"
+          :height="logoSize / 2"
+        >
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
     </header>
 
     <main>
-      <router-view></router-view>
+      <router-view />
     </main>
 
     <footer>
