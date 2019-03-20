@@ -39,8 +39,8 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   h1 {
     margin-bottom: $base-gap;

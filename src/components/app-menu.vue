@@ -47,9 +47,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/animations";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/animations";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $language-btn-size: 45px;
 

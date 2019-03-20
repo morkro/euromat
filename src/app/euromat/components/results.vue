@@ -187,9 +187,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/animations";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/animations";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   section {
     width: 95%;

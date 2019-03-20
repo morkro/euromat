@@ -84,8 +84,8 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $breakpoint: 630px;
 

@@ -144,9 +144,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~styles/fonts";
-  @import "~styles/colors";
-  @import "~styles/layout";
+  @import "~@/styles/fonts";
+  @import "~@/styles/colors";
+  @import "~@/styles/layout";
 
   $breakpoint: 835px;
 
