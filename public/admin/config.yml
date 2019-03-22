@@ -13,16 +13,18 @@ collections:
     - label: "Site Info"
       name: "info"
       format: 'json'
-      file: "src/content/setup/info.json"
+      file: "src/data/setup/info.json"
       fields:
         - {label: Site Name, name: sitename, widget: string}
         - {label: Site Description, name: sitedescription, widget: string}
-        - {label: Site Icon (Must be 512x512 or larger square PNG), name: siteicon, widget: image,default: "/icon.png"}
-        - {label: Show Icon in Menu, name: showmenu, widget: boolean}
-        - label: Menu Links
-          name: menu
-          widget: list
+    - label: "Social Media"
+      name: "connect"
+      format: 'json'
+      file: "src/data/setup/socialmedia.json"
+      fields:
+        - label: 'Links'
+          name: 'socialMedia'
+          widget: 'list'
           fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Position, name: position, widget: string}
-            - {label: Link, name: link, widget: string}
+            - {label: Link Name, name: name, widget: string}
+            - {label: URL, name: url, widget: string}
