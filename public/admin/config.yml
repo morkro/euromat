@@ -1,0 +1,28 @@
+backend:
+  name: euromat
+  branch: next
+  accept_roles:
+    - admin
+    - editor
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+collections:
+  - label: "Setup"
+    name: "setup"
+    files:
+    - label: "Site Info"
+      name: "info"
+      format: 'json'
+      file: "src/content/setup/info.json"
+      fields:
+        - {label: Site Name, name: sitename, widget: string}
+        - {label: Site Description, name: sitedescription, widget: string}
+        - {label: Site Icon (Must be 512x512 or larger square PNG), name: siteicon, widget: image,default: "/icon.png"}
+        - {label: Show Icon in Menu, name: showmenu, widget: boolean}
+        - label: Menu Links
+          name: menu
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Position, name: position, widget: string}
+            - {label: Link, name: link, widget: string}
