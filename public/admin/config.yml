@@ -1,5 +1,5 @@
 backend:
-  name: euromat
+  name: git-gateway
   branch: next
   accept_roles:
     - admin
