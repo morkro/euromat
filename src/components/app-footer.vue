@@ -12,7 +12,7 @@
       </li>
     </ul>
     <ul class="footer-menu">
-      <li v-for="item of menu" :key="item.route">
+      <li v-for="item of menu" :key="item.label">
         <router-link tag="a" :to="item.route">
           {{ item.label }}
         </router-link>
