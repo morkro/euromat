@@ -1,16 +1,17 @@
 <template>
   <div class="footer">
     <ul class="footer-social">
-      <li v-for="(item, index) of social"
-        :key="index"
-        :data-message="item.label === 'clipboard' ? item.message : ''"
-        :class="{ 'show-info': item.label === 'clipboard' && showClipboardInfo }"
+      <li v-for="item of social"
+        :key="item.label"
+        :data-message="getMessage(item)"
+        :class="getSocialClass(item)"
       >
         <button class="btn-dark" @click="share(item)">
-          <feather-icon :type="item.icon" />
+          <component :is="'feather-' + item.icon" />
         </button>
       </li>
     </ul>
+
     <ul class="footer-menu">
       <li v-for="item of menu" :key="item.label">
         <router-link tag="a" :to="item.route">
@@ -24,6 +25,15 @@
 <script>
   export default {
     name: 'AppFooter',
+
+    components: {
+      'feather-twitter': () =>
+        import('vue-feather-icons/icons/TwitterIcon' /* webpackChunkName: "icons" */),
+      'feather-facebook': () =>
+        import('vue-feather-icons/icons/FacebookIcon' /* webpackChunkName: "icons" */),
+      'feather-clipboard': () =>
+        import('vue-feather-icons/icons/ClipboardIcon' /* webpackChunkName: "icons" */)
+    },
 
     props: {
       menu: { type: Array, default: () => [] },
@@ -39,6 +49,16 @@
     },
 
     methods: {
+      getMessage (item) {
+        return item.label === 'clipboard'
+          ? item.message
+          : ''
+      },
+      getSocialClass (item) {
+        return {
+          'show-info': item.label === 'clipboard' && this.showClipboardInfo
+        }
+      },
       // https://stackoverflow.com/a/16861050/1724106
       getPopupDimensions (w = 800, h = 600) {
         const { screenLeft, screenTop, innerWidth, innerHeight } = window
@@ -96,8 +116,8 @@
             this.showClipboardInfo = true
             setTimeout(() => { this.showClipboardInfo = false }, this.infoTimeout)
           }
-        } catch (err) {
-          console.log('Oops, unable to copy')
+        } catch (error) {
+          console.log('Oops, unable to copy', error)
         }
 
         document.body.removeChild($textarea)

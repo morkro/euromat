@@ -3,7 +3,6 @@ import VueI18n from 'vue-i18n'
 
 import { i18n as intro } from '@/app/intro'
 import { i18n as euromat } from '@/app/euromat'
-// import { i18n as glossary } from '@/app/glossary'
 import { i18n as party } from '@/app/party'
 import { i18n as about } from '@/app/about'
 import { i18n as fourzerofour } from '@/app/404'
@@ -12,16 +11,17 @@ import { i18n as press } from '@/app/press'
 import { i18n as imprint } from '@/app/imprint'
 import { i18n as privacy } from '@/app/privacy'
 
+import { DEFAULT_LOCALE } from '@/config'
+
 Vue.use(VueI18n)
 
 export default new VueI18n({
-  locale: localStorage.getItem('euromat-locale') || 'de',
-  fallbackLocale: 'de',
+  locale: localStorage.getItem('euromat-locale') || DEFAULT_LOCALE,
+  fallbackLocale: DEFAULT_LOCALE,
   messages: {
     de: {
       ...intro.de,
       ...euromat.de,
-      // ...glossary.de,
       ...party.de,
       ...about.de,
       ...fourzerofour.de,
@@ -33,7 +33,6 @@ export default new VueI18n({
     en: {
       ...intro.en,
       ...euromat.en,
-      // ...glossary.en,
       ...party.en,
       ...about.en,
       ...fourzerofour.en,

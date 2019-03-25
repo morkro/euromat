@@ -11,7 +11,12 @@
 
 <script>
   export default {
-    name: 'Presse'
+    name: 'Presse',
+
+    components: {
+      'feather-mail': () =>
+        import('vue-feather-icons/icons/MailIcon' /* webpackChunkName: "icons" */)
+    }
   }
 </script>
 

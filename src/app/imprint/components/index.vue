@@ -111,6 +111,13 @@
   export default {
     name: 'Imprint',
 
+    components: {
+      'feather-mail': () =>
+        import('vue-feather-icons/icons/MailIcon' /* webpackChunkName: "icons" */),
+      'feather-phone': () =>
+        import('vue-feather-icons/icons/PhoneIcon' /* webpackChunkName: "icons" */)
+    },
+
     data () {
       return {
         social: {

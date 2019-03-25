@@ -42,6 +42,13 @@
   export default {
     name: 'Emphasis',
 
+    components: {
+      'feather-arrow-right': () =>
+        import('vue-feather-icons/icons/ArrowRightIcon' /* webpackChunkName: "icons" */),
+      'feather-corner-up-right': () =>
+        import('vue-feather-icons/icons/CornerUpRightIcon' /* webpackChunkName: "icons" */)
+    },
+
     data () {
       return {
         theses,

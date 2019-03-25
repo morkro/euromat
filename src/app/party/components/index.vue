@@ -32,7 +32,7 @@
       <p>{{ $t('party.legend') }}:</p>
       <ul>
         <li v-for="option in options" :key="option.position">
-          <feather-icon :type="positionToIconName(option.position)" />
+          <component :is="'feather-' + positionToIconName(option.position)" />
           <span>{{ $t(`euromat.options.${option.position}`) }}</span>
         </li>
       </ul>
@@ -51,17 +51,17 @@
         <div class="thesis-facts">
           <div class="list-thesis" @click="toggleStatement(thesis.id)">
             <div class="thesis-subline">
-              <feather-icon :type="chevronIcon(thesis.id)" />
+              <component :is="'feather-' + chevronIcon(thesis.id)" />
               <span>{{ getCategory(thesis.category) }}</span>
             </div>
             <h3>{{ getThesis(thesis.thesis) }}</h3>
           </div>
 
           <div class="statements-party">
-            <feather-icon :type="getPartyPosition(thesis.id)" />
+            <component :is="'feather-' + getPartyPosition(thesis.id)" />
           </div>
           <div v-if="!!answers" class="statements-user">
-            <feather-icon :type="getUserPosition(thesis.id)" />
+            <component :is="'feather-' + getUserPosition(thesis.id)" />
           </div>
         </div>
 
@@ -88,6 +88,25 @@
   import { parties, theses, options } from '@/data'
   export default {
     name: 'Party',
+
+    components: {
+      'feather-external-link': () =>
+        import('vue-feather-icons/icons/ExternalLinkIcon' /* webpackChunkName: "icons" */),
+      'feather-corner-up-left': () =>
+        import('vue-feather-icons/icons/CornerUpLeftIcon' /* webpackChunkName: "icons" */),
+      'feather-chevron-up': () =>
+        import('vue-feather-icons/icons/ChevronUpIcon' /* webpackChunkName: "icons" */),
+      'feather-chevron-down': () =>
+        import('vue-feather-icons/icons/ChevronDownIcon' /* webpackChunkName: "icons" */),
+      'feather-circle': () =>
+        import('vue-feather-icons/icons/CircleIcon' /* webpackChunkName: "icons" */),
+      'feather-thumbs-up': () =>
+        import('vue-feather-icons/icons/ThumbsUpIcon' /* webpackChunkName: "icons" */),
+      'feather-thumbs-down': () =>
+        import('vue-feather-icons/icons/ThumbsDownIcon' /* webpackChunkName: "icons" */),
+      'feather-x': () =>
+        import('vue-feather-icons/icons/XIcon' /* webpackChunkName: "icons" */)
+    },
 
     data () {
       let answers

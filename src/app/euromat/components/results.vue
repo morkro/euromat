@@ -26,7 +26,7 @@
 
           <feather-zoom-in class="results-see-more" />
 
-          <party-percentage
+          <v-progress
             class="result-percentage"
             :value="party.score"
             :max="totalScoredPoints"
@@ -64,7 +64,6 @@
     getScoringGrid
   } from '@/app/euromat/scoring'
   import { parties } from '@/data'
-  import Progress from '@/components/progress'
 
   const addUp = (a, b) => a + b
 
@@ -72,7 +71,10 @@
     name: 'Results',
 
     components: {
-      'party-percentage': Progress
+      'feather-zoom-in': () =>
+        import('vue-feather-icons/icons/ZoomInIcon' /* webpackChunkName: "icons" */),
+      'feather-rotate-cw': () =>
+        import('vue-feather-icons/icons/RotateCwIcon' /* webpackChunkName: "icons" */)
     },
 
     data () {
