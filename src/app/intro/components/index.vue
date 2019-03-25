@@ -23,6 +23,11 @@
   export default {
     name: 'Intro',
 
+    components: {
+      'feather-check-circle': () =>
+        import('vue-feather-icons/icons/CheckCircleIcon' /* webpackChunkName: "icons" */)
+    },
+
     computed: {
       thesesPath () {
         return this.$i18n.locale === 'de'

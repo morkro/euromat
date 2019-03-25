@@ -96,6 +96,11 @@
   export default {
     name: 'About',
 
+    components: {
+      'feather-external-link': () =>
+        import('vue-feather-icons/icons/ExternalLinkIcon' /* webpackChunkName: "icons" */)
+    },
+
     data () {
       return {
         polisLogo: require('@/assets/svg/polis-colored-logo.svg'),

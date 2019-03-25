@@ -23,24 +23,16 @@
 </template>
 
 <script>
-  import AppMenu from '@/components/app-menu'
-  import AppFooter from '@/components/app-footer'
   import '@/assets/icons/european-stars'
 
   export default {
     name: 'App',
-
-    components: {
-      'app-menu': AppMenu,
-      'app-footer': AppFooter
-    },
 
     i18n: {
       messages: {
         de: {
           topMenu: {
             index: 'Startseite',
-            // glossary: 'Glossar',
             faq: 'FAQ',
             about: 'Über uns',
             press: 'Presse'
@@ -61,7 +53,6 @@
         en: {
           topMenu: {
             index: 'Landing page',
-            // glossary: 'Glossary',
             faq: 'FAQ',
             about: 'About us',
             press: 'Press'
@@ -103,10 +94,6 @@
             label: this.$t('topMenu.index'),
             route: { path: '/' }
           },
-          // {
-          //   label: this.$t('topMenu.glossary'),
-          //   route: { path: this.isGermanLocale ? '/glossar' : '/glossary' }
-          // },
           {
             label: this.$t('topMenu.faq'),
             route: { path: '/faq' }

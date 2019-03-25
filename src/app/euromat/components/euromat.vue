@@ -25,7 +25,7 @@
         <ul class="euromat-btns">
           <li v-for="option in options" :key="option.label">
             <button type="button" @click="submitAnswer(option, $event)">
-              {{ option.label }} <feather-icon :type="option.icon" />
+              {{ option.label }} <component :is="'feather-' + option.icon" />
             </button>
           </li>
         </ul>
@@ -48,6 +48,17 @@
 
   export default {
     name: 'EuroMat',
+
+    components: {
+      'feather-corner-up-right': () =>
+        import('vue-feather-icons/icons/CornerUpRightIcon' /* webpackChunkName: "icons" */),
+      'feather-circle': () =>
+        import('vue-feather-icons/icons/CircleIcon' /* webpackChunkName: "icons" */),
+      'feather-thumbs-up': () =>
+        import('vue-feather-icons/icons/ThumbsUpIcon' /* webpackChunkName: "icons" */),
+      'feather-thumbs-down': () =>
+        import('vue-feather-icons/icons/ThumbsDownIcon' /* webpackChunkName: "icons" */)
+    },
 
     data () {
       return {
