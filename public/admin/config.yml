@@ -13,8 +13,7 @@ collections:
     folder: "src/app/intro/content"
     format: "json"
     create: true
-    identifier_field: language
-    slug: "{{slug}}-{{title}}"
+    slug: "{{fields.language}}"
     fields:
       - label: "Language"
         name: "language"
