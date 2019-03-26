@@ -7,8 +7,37 @@ backend:
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 collections:
-  - label: "Setup"
-    name: "setup"
+  - name: "introduction"
+    label: "[Page] Introduction"
+    description: "The introduction page of Euromat."
+    folder: "src/app/intro/content"
+    format: "json"
+    create: true
+    identifier_field: language
+    slug: "{{slug}}-{{title}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - label: "Site Name"
+        name: "title"
+        widget: "string"
+      - label: "Headline"
+        name: "headline"
+        widget: "string"
+      - label: "Content"
+        name: "content"
+        widget: "markdown"
+      - label: "Button Label"
+        name: "button"
+        widget: "string"
+  - name: "setup"
+    label: "Setup"
     files:
     - label: "Site Info"
       name: "info"
