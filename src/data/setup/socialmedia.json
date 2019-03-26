@@ -7,6 +7,10 @@
     {
       "name": "Facebook",
       "url": "https://www.facebook.com/EUROMAT.info/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/morkro/euromat"
     }
   ]
 }
