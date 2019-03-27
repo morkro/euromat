@@ -8,8 +8,8 @@ export default [
     component: Intro,
     meta: {
       title: {
-        de: i18n.de.intro.pageTitle,
-        en: i18n.en.intro.pageTitle
+        de: i18n.de.intro.title,
+        en: i18n.en.intro.title
       }
     }
   }

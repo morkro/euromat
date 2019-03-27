@@ -8,8 +8,8 @@ export default [
     component: FourZeroFour,
     meta: {
       title: {
-        de: i18n.de.fourzerofour.pageTitle,
-        en: i18n.en.fourzerofour.pageTitle
+        de: i18n.de.fourzerofour.title,
+        en: i18n.en.fourzerofour.title
       }
     }
   }

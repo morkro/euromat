@@ -2,9 +2,8 @@
   <section>
     <h1>{{ $t('press.headline') }}</h1>
     <p>{{ $t('press.content') }}</p>
-    <p>{{ $t('press.contact') }}</p>
-    <a class="btn" :href="`mailto:${$t('press.email')}`">
-      {{ $t('press.email') }} <feather-mail />
+    <a class="btn" href="mailto:hello@euromat.info">
+      hello@euromat.info <feather-mail />
     </a>
   </section>
 </template>
