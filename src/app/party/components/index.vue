@@ -14,7 +14,7 @@
           class="btn btn-dark btn-small"
           :to="{ path: resultsPath }"
         >
-          {{ $t('party.back') }}
+          {{ $t('party.backButtonLabel') }}
           <feather-corner-up-left />
         </router-link>
         <h1>{{ partyName }}</h1>
@@ -22,14 +22,14 @@
           :href="partyProgramLink"
           target="_blank"
         >
-          {{ $t('party.partyProgram') }}
+          {{ $t('party.subtitle') }}
           <feather-external-link />
         </a>
       </div>
     </header>
 
     <div class="theses-legend">
-      <p>{{ $t('party.legend') }}:</p>
+      <p>{{ $t('party.legendLabel') }}:</p>
       <ul>
         <li v-for="option in options" :key="option.position">
           <component :is="'feather-' + positionToIconName(option.position)" />
@@ -40,10 +40,10 @@
 
     <ul class="party-theses-list">
       <li class="list-header">
-        <h2>{{ $t('party.table.thesis') }}</h2>
+        <h2>{{ $t('party.tableHeading') }}</h2>
         <h2>{{ party.token }}</h2>
         <h2 v-if="!!answers">
-          {{ $t('party.table.user') }}
+          {{ $t('party.tableUser') }}
         </h2>
       </li>
 
@@ -66,7 +66,7 @@
         </div>
 
         <div v-show="showStatement(thesis.id)" class="thesis-statement">
-          <p><strong>{{ $t('party.partyStatement') }}:</strong></p>
+          <p><strong>{{ $t('party.partyAnswer') }}:</strong></p>
           <blockquote>
             {{ getPartyStatement(thesis.id) }}
           </blockquote>
@@ -78,7 +78,7 @@
       class="btn btn-dark btn-small"
       :to="{ path: resultsPath }"
     >
-      {{ $t('party.back') }}
+      {{ $t('party.backButtonLabel') }}
       <feather-corner-up-left />
     </router-link>
   </section>

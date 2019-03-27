@@ -4,9 +4,11 @@ backend:
   accept_roles:
     - admin
     - editor
+publish_mode: editorial_workflow
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 collections:
+  # INTRODUCTION
   - name: "introduction"
     label: "[Page] Introduction"
     description: "The introduction page of Euromat."
@@ -23,20 +25,161 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - label: "Site Name"
-        name: "title"
-        widget: "string"
-      - label: "Headline"
-        name: "headline"
-        widget: "string"
-      - label: "Content"
-        name: "content"
-        widget: "markdown"
-      - label: "Button Label"
-        name: "button"
-        widget: "string"
-  - name: "setup"
-    label: "Setup"
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Button Label", name: "button", widget: "string"}
+  # PARTY
+  - name: "party"
+    label: "[Page] Party"
+    description: "This is an informational page comparing the voters results with a political parties position."
+    folder: "src/app/party/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Label: Back button", name: "backButtonLabel", widget: "string"}
+      - {label: "Label: Legend", name: "legendLabel", widget: "string"}
+      - {label: "Answer", name: "partyAnswer", widget: "string"}
+      - {label: "Table Heading", name: "tableHeading", widget: "string"}
+      - {label: "Table User Description", name: "tableUser", widget: "string"}
+  # ABOUT US
+  - name: "about"
+    label: "[Page] About us"
+    description: "The about us page."
+    folder: "src/app/about/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+  # FAQ
+  - name: "faq"
+    label: "[Page] FAQ"
+    description: "The FAQ page."
+    folder: "src/app/faq/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+  # PRESS
+  - name: "press"
+    label: "[Page] Press"
+    description: "Press page."
+    folder: "src/app/press/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+      - {label: "Content", name: "content", widget: "markdown"}
+  # DATA PRIVACY
+  - name: "privacy"
+    label: "[Page] Data Privacy"
+    description: "The data privacy page."
+    folder: "src/app/privacy/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+      - {label: "Content", name: "content", widget: "markdown"}
+  # IMPRINT
+  - name: "imprint"
+    label: "[Page] Imprint"
+    description: "Imprint (required in Germany)."
+    folder: "src/app/imprint/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+  # 404
+  - name: "fourzerofour"
+    label: "[Page] 404"
+    description: "Error page when the user (accidentally) reaches a non-existant page."
+    folder: "src/app/404/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Headline", name: "headline", widget: "string"}
+      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Button Label", name: "button", widget: "string"}
+  # APP SETUP
+  - name: "settings"
+    label: "Settings"
     files:
     - label: "Site Info"
       name: "info"

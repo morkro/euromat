@@ -3,12 +3,8 @@
     <div class="intro-content">
       <h1>{{ $t('intro.headline') }}</h1>
 
-      <p
-        v-for="(txt, index) of $t('intro.content')"
-        :key="txt + index"
-        :class="{ 'small': index === $t('intro.content').length -1 }"
-      >
-        {{ txt }}
+      <p>
+        {{ $t('intro.content') }}
       </p>
 
       <router-link class="btn" :to="{ path: thesesPath }">
