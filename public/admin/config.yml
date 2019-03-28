@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: next
+  squash_merges: true
   accept_roles:
     - admin
     - editor
@@ -65,29 +66,23 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string"}
+      - {label: "Page URL", name: "url", hint: "An optional, localised URL", widget: "string", optional: true}
       - {label: "Site Name", name: "title", widget: "string"}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
-      - label: "Polis180"
-        name: "polis"
+      - label: "Polis180 Member"
+        name: "pulse"
         widget: "list"
-        types:
-          - label: "Logo"
-            name: "logo"
-            widget: "image"
-          - label: "Member"
-            name: "member"
-            widget: "object"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "URL to profile", name: "profile", widget: "string"}
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "URL to profile", name: "profile", widget: "string"}
       - label: "Puls of Europe Member"
         name: "poe"
         widget: "list"
