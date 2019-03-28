@@ -1,5 +1,24 @@
 {
   "language": "en",
+  "url": "imprint",
   "title": "Imprint",
-  "headline": "Imprint"
+  "headline": "Imprint",
+  "content": [
+    {
+      "title": "§ 1 Warnings regarding content",
+      "text": "The free and accessible content of this website has been created with the greatest possible care. However, the provider of this website does not guarantee the correctness and up-to-dateness of the free and freely available journalistic guides and messages. Contributions identified by name give the opinion of the author and not always the opinion of the provider. By calling the free and freely accessible content, there is no contractual relationship between the user and the provider, in this respect there is a lack of the provider’s legal commitment."
+    },
+    {
+      "title": "§ 2 External links",
+      "text": "This website contains links to websites of third parties (“external links”). These websites are the responsibility of the respective operators. When the external links were linked for the first time, the provider checked the contents of third parties to ascertain whether there were any legal violations. At that time no legal violations were apparent. The provider has no influence on the current and future design and content of the linked pages. The setting of external links does not mean that the provider owns the content behind the link or link. A constant control of the external links is unreasonable for the offerer without concrete indications of legal violations. In case of knowledge of legal violations, however, such external links are immediately deleted."
+    },
+    {
+      "title": "§ 3 Copyright and performance rights",
+      "text": "The contents published on this website are subject to the German copyright and the right to protection of intellectual property. Any use not permitted by the German Copyright and Performance Protection Law requires the prior written consent of the provider or respective copyright owner. This applies particularly to the reproduction, processing, translation, storage of content in databases or other electronic media and systems. Contents and rights of third parties are marked as such. The unauthorized duplication or dissemination of individual contents or complete pages is not permitted and punishable. Only the production of copies and downloads for personal, private and non-commercial use is permitted. The presentation of this website in foreign frames is only permitted with written permission."
+    },
+    {
+      "title": "§ 4 Special Conditions of Use",
+      "text": "Insofar as special conditions for individual uses of this website deviate from the abovementioned paragraphs, this is expressly pointed out at the appropriate place. The special conditions of use apply in the particular case only."
+    }
+  ]
 }
