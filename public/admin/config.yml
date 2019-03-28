@@ -74,6 +74,26 @@ collections:
       - {label: "Page URL", name: "url", widget: "string"}
       - {label: "Site Name", name: "title", widget: "string"}
       - {label: "Headline", name: "headline", widget: "string"}
+      - {label: "Content", name: "content", widget: "markdown"}
+      - label: "Polis180"
+        name: "polis"
+        widget: "list"
+        types:
+          - label: "Logo"
+            name: "logo"
+            widget: "image"
+          - label: "Member"
+            name: "member"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "URL to profile", name: "profile", widget: "string"}
+      - label: "Puls of Europe Member"
+        name: "poe"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "URL to profile", name: "profile", widget: "string"}
   # FAQ
   - name: "faq"
     label: "[Page] FAQ"
