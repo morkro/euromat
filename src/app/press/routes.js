@@ -1,17 +1,15 @@
-import Press from './components/index'
+import { DEFAULT_LOCALE } from '@/config'
+import { getTranslatedTitles, getTranslatedAliases } from '@/helper/content'
 import i18n from './i18n'
 
 export default [
   {
-    path: '/' + i18n.de.press.url,
-    alias: '/' + i18n.en.press.url,
+    path: '/' + i18n[DEFAULT_LOCALE].press.url,
+    alias: getTranslatedAliases(i18n, 'press'),
     name: 'press',
-    component: Press,
+    component: () => import('./components/index' /* webpackChunkName: "press" */),
     meta: {
-      title: {
-        de: i18n.de.press.title,
-        en: i18n.en.press.title
-      }
+      title: getTranslatedTitles(i18n, 'press')
     }
   }
 ]

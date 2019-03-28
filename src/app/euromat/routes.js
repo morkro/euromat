@@ -1,7 +1,3 @@
-import Index from './components/index'
-import EuroMat from './components/euromat'
-import Emphasis from './components/emphasis'
-import Results from './components/results'
 import i18n from './i18n'
 import { storageAvailable } from '@/helper/storage'
 
@@ -16,12 +12,12 @@ export default [
   {
     path: '/thesen',
     alias: '/theses',
-    component: Index,
+    component: () => import('./components/index' /* webpackChunkName: "euromat" */),
     children: [
       {
         path: '',
         name: 'euromat',
-        component: EuroMat,
+        component: () => import('./components/euromat' /* webpackChunkName: "euromat" */),
         meta: {
           title: {
             de: i18n.de.euromat.euromat.pageTitle,
@@ -33,7 +29,7 @@ export default [
         path: 'gewichtung',
         alias: 'emphasis',
         name: 'emphasis',
-        component: Emphasis,
+        component: () => import('./components/emphasis' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
           title: {
@@ -46,7 +42,7 @@ export default [
         path: 'ergebnis',
         alias: 'results',
         name: 'results',
-        component: Results,
+        component: () => import('./components/results' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
           title: {

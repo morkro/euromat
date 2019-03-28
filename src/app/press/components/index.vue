@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1>{{ $t('press.headline') }}</h1>
-    <p>{{ $t('press.content') }}</p>
+    <v-markdown :source="$t('press.content')" />
     <a class="btn" href="mailto:hello@euromat.info">
       hello@euromat.info <feather-mail />
     </a>

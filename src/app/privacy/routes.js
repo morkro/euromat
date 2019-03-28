@@ -1,17 +1,15 @@
-import Privacy from './components/index'
+import { DEFAULT_LOCALE } from '@/config'
+import { getTranslatedTitles, getTranslatedAliases } from '@/helper/content'
 import i18n from './i18n'
 
 export default [
   {
-    path: '/' + i18n.de.privacy.url,
-    alias: '/' + i18n.en.privacy.url,
+    path: '/' + i18n[DEFAULT_LOCALE].privacy.url,
+    alias: getTranslatedAliases(i18n, 'privacy'),
     name: 'privacy',
-    component: Privacy,
+    component: () => import('./components/index' /* webpackChunkName: "misc" */),
     meta: {
-      title: {
-        de: i18n.de.privacy.title,
-        en: i18n.en.privacy.title
-      }
+      title: getTranslatedTitles(i18n, 'privacy')
     }
   }
 ]

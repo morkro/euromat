@@ -1,17 +1,15 @@
-import Party from './components/index'
+import { DEFAULT_LOCALE } from '@/config'
+import { getTranslatedTitles, getTranslatedAliases } from '@/helper/content'
 import i18n from './i18n'
 
 export default [
   {
-    path: `/${i18n.de.party.url}/:token`,
-    alias: `/${i18n.en.party.url}/:token`,
+    path: `/${i18n[DEFAULT_LOCALE].party.url}/:token`,
+    alias: getTranslatedAliases(i18n, 'party').map(alias => `${alias}/:token`),
     name: 'party',
-    component: Party,
+    component: () => import('./components/index' /* webpackChunkName: "party" */),
     meta: {
-      title: {
-        de: i18n.de.party.title,
-        en: i18n.en.party.title
-      }
+      title: getTranslatedTitles(i18n, 'party')
     }
   }
 ]

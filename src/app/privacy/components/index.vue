@@ -6,9 +6,7 @@
         <h2 v-if="index !== 0">
           {{ topic.title }}
         </h2>
-        <p v-for="content of topic.content" :key="content">
-          {{ content }}
-        </p>
+        <v-markdown :source="topic.content" />
       </li>
     </ul>
   </section>
