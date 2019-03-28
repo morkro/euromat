@@ -11,35 +11,28 @@ import { i18n as press } from '@/app/press'
 import { i18n as imprint } from '@/app/imprint'
 import { i18n as privacy } from '@/app/privacy'
 
-import { DEFAULT_LOCALE } from '@/config'
+import { DEFAULT_LOCALE, LOCALES } from '@/config'
 
 Vue.use(VueI18n)
+
+const messages = [
+  intro, euromat, party,
+  about, fourzerofour, faq,
+  press, imprint, privacy
+]
+
+function getLanguage (lang) {
+  return messages.reduce((acc, cur) => ({
+    ...acc,
+    ...cur[lang]
+  }), {})
+}
 
 export default new VueI18n({
   locale: localStorage.getItem('euromat-locale') || DEFAULT_LOCALE,
   fallbackLocale: DEFAULT_LOCALE,
-  messages: {
-    de: {
-      ...intro.de,
-      ...euromat.de,
-      ...party.de,
-      ...about.de,
-      ...fourzerofour.de,
-      ...faq.de,
-      ...press.de,
-      ...imprint.de,
-      ...privacy.de
-    },
-    en: {
-      ...intro.en,
-      ...euromat.en,
-      ...party.en,
-      ...about.en,
-      ...fourzerofour.en,
-      ...faq.en,
-      ...press.en,
-      ...imprint.en,
-      ...privacy.en
-    }
-  }
+  messages: LOCALES.reduce((acc, cur) => ({
+    ...acc,
+    [cur]: getLanguage(cur)
+  }), {})
 })

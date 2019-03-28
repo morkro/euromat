@@ -20,13 +20,14 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
       - {label: "Button Label", name: "button", widget: "string"}
@@ -41,14 +42,15 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Label: Back button", name: "backButtonLabel", widget: "string"}
       - {label: "Label: Legend", name: "legendLabel", widget: "string"}
@@ -73,22 +75,11 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", hint: "An optional, localised URL", widget: "string", optional: true}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
-      - label: "Polis180 Member"
-        name: "pulse"
-        widget: "list"
-        fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "URL to profile", name: "profile", widget: "string"}
-      - label: "Puls of Europe Member"
-        name: "poe"
-        widget: "list"
-        fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "URL to profile", name: "profile", widget: "string"}
+      - {label: "Label for development and design", name: "devDesign", widget: "string"}
   # FAQ
   - name: "faq"
     label: "[Page] FAQ"
@@ -100,14 +91,15 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - label: "Questions"
         name: "questions"
@@ -126,14 +118,15 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
   # DATA PRIVACY
@@ -147,14 +140,15 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - label: "Topics"
         name: "topics"
@@ -173,14 +167,15 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - label: "Content"
         name: "content"
@@ -199,13 +194,14 @@ collections:
     fields:
       - label: "Language"
         name: "language"
+        hint: "Select the language for this page."
         widget: "select"
         options:
           - {label: "English", value: "en"}
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Site Name", name: "title", widget: "string"}
+      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
       - {label: "Button Label", name: "button", widget: "string"}
