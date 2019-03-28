@@ -1,17 +1,14 @@
-import FAQ from './components/index'
+import { getTranslatedTitles } from '@/helper/content'
 import i18n from './i18n'
 
 export default [
   {
     path: '/faq',
-    alias: '/alias',
+    // alias: getTranslatedAliases(i18n, 'faq'),
     name: 'faq',
-    component: FAQ,
+    component: () => import('./components/index' /* webpackChunkName: "faq" */),
     meta: {
-      title: {
-        de: i18n.de.faq.pageTitle,
-        en: i18n.en.faq.pageTitle
-      }
+      title: getTranslatedTitles(i18n, 'faq')
     }
   }
 ]

@@ -3,9 +3,7 @@
     <div class="intro-content">
       <h1>{{ $t('intro.headline') }}</h1>
 
-      <p>
-        {{ $t('intro.content') }}
-      </p>
+      <v-markdown :source="$t('intro.content')" />
 
       <router-link class="btn" :to="{ path: thesesPath }">
         {{ $t('intro.button') }}

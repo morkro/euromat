@@ -1,4 +1,4 @@
-import loadContent from '@/helper/content'
+import { loadContent } from '@/helper/content'
 
 export default loadContent(
   'privacy',

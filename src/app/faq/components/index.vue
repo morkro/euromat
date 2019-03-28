@@ -4,9 +4,7 @@
     <ul>
       <li v-for="question of $t('faq.questions')" :key="question.title + question.answer">
         <h2>{{ question.title }}</h2>
-        <p v-for="answer of question.answer" :key="answer">
-          {{ answer }}
-        </p>
+        <v-markdown :source="question.answer" />
       </li>
     </ul>
   </section>

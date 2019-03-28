@@ -1,4 +1,3 @@
-import Imprint from './components/index'
 import i18n from './i18n'
 
 export default [
@@ -6,7 +5,7 @@ export default [
     path: '/impressum',
     alias: '/imprint',
     name: 'imprint',
-    component: Imprint,
+    component: () => import('./components/index' /* webpackChunkName: "misc" */),
     meta: {
       title: {
         de: i18n.de.imprint.pageTitle,

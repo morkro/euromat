@@ -94,6 +94,12 @@ collections:
       - {label: "Page URL", name: "url", widget: "string"}
       - {label: "Site Name", name: "title", widget: "string"}
       - {label: "Headline", name: "headline", widget: "string"}
+      - label: "Questions"
+        name: "questions"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Answer", name: "answer", widget: "markdown"}
   # PRESS
   - name: "press"
     label: "[Page] Press"
@@ -135,7 +141,12 @@ collections:
       - {label: "Page URL", name: "url", widget: "string"}
       - {label: "Site Name", name: "title", widget: "string"}
       - {label: "Headline", name: "headline", widget: "string"}
-      - {label: "Content", name: "content", widget: "markdown"}
+      - label: "Topics"
+        name: "topics"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
   # IMPRINT
   - name: "imprint"
     label: "[Page] Imprint"
@@ -156,10 +167,16 @@ collections:
       - {label: "Page URL", name: "url", widget: "string"}
       - {label: "Site Name", name: "title", widget: "string"}
       - {label: "Headline", name: "headline", widget: "string"}
+      - label: "Content"
+        name: "content"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
   # 404
   - name: "fourzerofour"
     label: "[Page] 404"
-    description: "Error page when the user (accidentally) reaches a non-existant page."
+    description: "Error page when the user (accidentally) reaches a nonexistent page."
     folder: "src/app/404/content"
     format: "json"
     create: true
@@ -183,19 +200,19 @@ collections:
     files:
     - label: "Site Info"
       name: "info"
-      format: 'json'
+      format: "json"
       file: "src/data/setup/info.json"
       fields:
         - {label: Site Name, name: sitename, widget: string}
         - {label: Site Description, name: sitedescription, widget: string}
     - label: "Social Media"
       name: "connect"
-      format: 'json'
+      format: "json"
       file: "src/data/setup/socialmedia.json"
       fields:
-        - label: 'Links'
-          name: 'socialMedia'
-          widget: 'list'
+        - label: "Links"
+          name: "socialMedia"
+          widget: "list"
           fields:
-            - {label: Link Name, name: name, widget: string}
-            - {label: URL, name: url, widget: string}
+            - {label: "Link Name", name: "name", widget: "string"}
+            - {label: "URL", name: "url", widget: "string"}
