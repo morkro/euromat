@@ -4,36 +4,34 @@
 
     <div class="about-content">
       <div class="about-text">
-        <p v-for="txt of $t('about.content')" :key="txt">
-          {{ txt }}
-        </p>
+        <v-markdown :source="$t('about.content')" />
       </div>
 
       <div class="about-people">
         <div class="people-group polis">
           <div class="group-inner">
             <h2>
-              <a :href="$t('about.teamLabel.polis.url')" target="_blank">
+              <a :href="teamLabel.polis.url" target="_blank">
                 <img
                   class="team-logo polis"
                   :src="polisLogo"
                   width="150"
                   height="100"
                 >
-                <span hidden>{{ $t('about.teamLabel.polis.label') }}</span>
+                <span hidden>{{ teamLabel.polis.label }}</span>
               </a>
             </h2>
             <ul>
-              <li v-for="(member, index) of $t('about.members.polis')" :key="'member-polis-' + index">
+              <li v-for="(member, index) of members.polis" :key="'member-polis-' + index">
                 <a
                   v-if="member.profile"
-                  :href="$t(`about.members.polis[${index}].profile`)"
+                  :href="member.profile"
                   target="_blank"
                 >
-                  {{ $t(`about.members.polis[${index}].name`) }}
+                  {{ member.name }}
                   <feather-external-link />
                 </a>
-                <span v-else>{{ $t(`about.members.polis[${index}].name`) }}</span>
+                <span v-else>{{ member.name }}</span>
               </li>
             </ul>
           </div>
@@ -42,27 +40,27 @@
         <div class="people-group poe">
           <div class="group-inner">
             <h2>
-              <a :href="$t('about.teamLabel.poe.url')" target="_blank">
+              <a :href="teamLabel.poe.url" target="_blank">
                 <img
                   class="team-logo poe"
                   :src="poeLogo"
                   width="400"
                   height="60"
                 >
-                <span hidden>{{ $t('about.teamLabel.poe.label') }}</span>
+                <span hidden>{{ teamLabel.poe.label }}</span>
               </a>
             </h2>
             <ul>
-              <li v-for="(member, index) of $t('about.members.poe')" :key="'member-poe-' + index">
+              <li v-for="(member, index) of members.poe" :key="'member-poe-' + index">
                 <a
                   v-if="member.profile"
-                  :href="$t(`about.members.poe[${index}].profile`)"
+                  :href="member.profile"
                   target="_blank"
                 >
-                  {{ $t(`about.members.poe[${index}].name`) }}
+                  {{ member.name }}
                   <feather-external-link />
                 </a>
-                <span v-else>{{ $t(`about.members.poe[${index}].name`) }}</span>
+                <span v-else>{{ member.name }}</span>
               </li>
             </ul>
           </div>
@@ -70,18 +68,18 @@
 
         <div class="people-group dev">
           <div class="group-inner dark">
-            <h2>{{ $t('about.teamLabel.dev') }}</h2>
+            <h2>{{ $t('about.devDesign') }}</h2>
             <ul>
-              <li v-for="(member, index) of $t('about.members.dev')" :key="'member-dev-' + index">
+              <li v-for="(member, index) of members.dev" :key="'member-dev-' + index">
                 <a
                   v-if="member.profile"
-                  :href="$t(`about.members.dev[${index}].profile`)"
+                  :href="member.profile"
                   target="_blank"
                 >
-                  {{ $t(`about.members.dev[${index}].name`) }}
+                  {{ member.name }}
                   <feather-external-link />
                 </a>
-                <span v-else>{{ $t(`about.members.dev[${index}].name`) }}</span>
+                <span v-else>{{ member.name }}</span>
               </li>
             </ul>
           </div>
@@ -104,7 +102,32 @@
     data () {
       return {
         polisLogo: require('@/assets/svg/polis-colored-logo.svg'),
-        poeLogo: require('@/assets/svg/poe-colored-logo.svg')
+        poeLogo: require('@/assets/svg/poe-colored-logo.svg'),
+        members: {
+          polis: [
+            { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
+            { name: 'Stephan Kreutzer', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
+            { name: 'Benjamin Lenzing', profile: null },
+            { name: 'Johannes John', profile: null }
+          ],
+          poe: [
+            { name: 'Eva Podgoršek', profile: 'https://twitter.com/evapodg' },
+            { name: 'Peter Funk', profile: 'https://twitter.com/funk67' }
+          ],
+          dev: [
+            { name: 'Moritz Kröger', profile: 'http://moritz.berlin' }
+          ]
+        },
+        teamLabel: {
+          polis: {
+            label: 'Polis180',
+            url: 'https://polis180.org/'
+          },
+          poe: {
+            label: 'Pulse of Europe',
+            url: 'https://pulseofeurope.eu'
+          }
+        }
       }
     }
   }
@@ -129,6 +152,10 @@
   .about-content {
     display: flex;
     flex-direction: column;
+  }
+
+  .about-text {
+    margin-bottom: $base-gap;
   }
 
   .about-people {
