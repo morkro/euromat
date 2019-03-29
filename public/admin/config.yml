@@ -227,7 +227,7 @@ collections:
   - name: "settings"
     label: "Settings"
     description: "Overall settings for all pages (e.g. menu labels, social media, ...)"
-    folder: "src/data/settings"
+    folder: "src/data/meta"
     format: "json"
     create: true
     slug: "{{fields.language}}"
