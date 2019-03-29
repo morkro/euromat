@@ -9,6 +9,24 @@ publish_mode: editorial_workflow
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 collections:
+  # EUROMAT
+  - name: "euromat"
+    label: "Euromat"
+    description: "Theses, parties, ..., everything for the actual app."
+    folder: "src/app/euromat/content"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "[Meta] Language"
+        name: "language"
+        hint: "Select the language for this page."
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
   # INTRODUCTION
   - name: "introduction"
     label: "[Page] Introduction"
@@ -18,7 +36,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -27,7 +45,7 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
       - {label: "Button Label", name: "button", widget: "string"}
@@ -40,7 +58,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -49,8 +67,8 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Page URL", name: "url", widget: "string", hint: "An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>", optional: true}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Label: Back button", name: "backButtonLabel", widget: "string"}
       - {label: "Label: Legend", name: "legendLabel", widget: "string"}
@@ -66,7 +84,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -75,8 +93,8 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Page URL", name: "url", widget: "string", hint: "An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>", optional: true}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
       - {label: "Label for development and design", name: "devDesign", widget: "string"}
@@ -89,7 +107,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -98,8 +116,8 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Page URL", name: "url", widget: "string", hint: "An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>", optional: true}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - label: "Questions"
         name: "questions"
@@ -116,7 +134,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -125,8 +143,8 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Page URL", name: "url", widget: "string", hint: "An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>", optional: true}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
   # DATA PRIVACY
@@ -138,7 +156,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -147,8 +165,8 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Page URL", name: "url", widget: "string", hint: "An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>", optional: true}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - label: "Topics"
         name: "topics"
@@ -165,7 +183,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -174,8 +192,8 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Page URL", name: "url", widget: "string", hint: "An optional, localised URL (e.g. https://euromat.info/#/<THIS_URL>", optional: true}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Page URL", name: "url", widget: "string", hint: "An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>", optional: true}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - label: "Content"
         name: "content"
@@ -192,7 +210,7 @@ collections:
     create: true
     slug: "{{fields.language}}"
     fields:
-      - label: "Language"
+      - label: "[Meta] Language"
         name: "language"
         hint: "Select the language for this page."
         widget: "select"
@@ -201,29 +219,50 @@ collections:
           - {label: "Deutsch", value: "de"}
           - {label: "Français", value: "fr"}
           - {label: "Polski", value: "pl"}
-      - {label: "Site Name", name: "title", widget: "string", hint: "The name that will appear in the browser tab."}
+      - {label: "[Meta] Site Name", name: "title", widget: "string", hint: "The name for the page that will appear in the browser tab."}
       - {label: "Headline", name: "headline", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
       - {label: "Button Label", name: "button", widget: "string"}
   # APP SETUP
   - name: "settings"
     label: "Settings"
-    files:
-    - label: "Site Info"
-      name: "info"
-      format: "json"
-      file: "src/data/setup/info.json"
-      fields:
-        - {label: Site Name, name: sitename, widget: string}
-        - {label: Site Description, name: sitedescription, widget: string}
-    - label: "Social Media"
-      name: "connect"
-      format: "json"
-      file: "src/data/setup/socialmedia.json"
-      fields:
-        - label: "Links"
-          name: "socialMedia"
-          widget: "list"
-          fields:
-            - {label: "Link Name", name: "name", widget: "string"}
-            - {label: "URL", name: "url", widget: "string"}
+    description: "Overall settings for all pages (e.g. menu labels, social media, ...)"
+    folder: "src/data/settings"
+    format: "json"
+    create: true
+    slug: "{{fields.language}}"
+    fields:
+      - label: "[Meta] Language"
+        name: "language"
+        hint: "Select the language for this page."
+        widget: "select"
+        options:
+          - {label: "English", value: "en"}
+          - {label: "Deutsch", value: "de"}
+          - {label: "Français", value: "fr"}
+          - {label: "Polski", value: "pl"}
+      - label: "Top Navigation"
+        name: "topMenu"
+        hint: "The main navigation for the website."
+        widget: "object"
+        fields:
+          - {label: "Introduction", name: "index", widget: "string"}
+          - {label: "FAQ", name: "faq", widget: "string"}
+          - {label: "About us", name: "about", widget: "string"}
+          - {label: "Press", name: "press", widget: "string"}
+      - label: "Footer Navigation"
+        name: "footerMenu"
+        hint: "The footer navigation for the website."
+        widget: "object"
+        fields:
+          - {label: "Imprint", name: "imprint", widget: "string"}
+          - {label: "Data privacy", name: "privacy", widget: "string"}
+      - label: "Social Media Share Text"
+        name: "socialMedia"
+        hint: "These are the default texts which get used to share."
+        widget: "object"
+        fields:
+          - {label: "Twitter", name: "twitter", widget: "string"}
+          - {label: "Facebook", name: "facebook", widget: "string"}
+          - {label: "Clipboard", name: "clipboard", widget: "string"}
+

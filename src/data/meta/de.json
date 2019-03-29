@@ -1,0 +1,21 @@
+{
+  "language": "de",
+  "topMenu": {
+    "index": "Startseite",
+    "faq": "FAQ",
+    "about": "Über uns",
+    "press": "Presse"
+  },
+  "footerMenu": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "socialMedia": {
+    "twitter": {
+      "text": "Cool! BTW17 kann jetzt auch Sterne. Neugierig was die Parteien zur EU sagen? Mach den EUROMAT & finde heraus mit wem du übereinstimmst!",
+      "hashtags": "BTW17,EUROMAT"
+    },
+    "facebook": "Cool! #BTW17 kann jetzt auch Sterne. Neugierig was die Parteien zur EU sagen? Mach den #EUROMAT & finde heraus mit wem du übereinstimmst!",
+    "clipboard": "In Zwischenablage kopiert"
+  }
+}
