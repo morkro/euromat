@@ -3,7 +3,9 @@
     <div class="intro-content">
       <h1>{{ $t('intro.headline') }}</h1>
 
-      <v-markdown :source="$t('intro.content')" />
+      <div class="intro-text">
+        <v-markdown :source="$t('intro.content')" />
+      </div>
 
       <router-link class="btn" :to="{ path: thesesPath }">
         {{ $t('intro.button') }}
@@ -51,5 +53,9 @@
   .intro-content {
     position: relative;
     z-index: 1;
+  }
+
+  .intro-text {
+    margin-bottom: $base-gap;
   }
 </style>
