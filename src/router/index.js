@@ -34,11 +34,6 @@ router.beforeEach((to, from, next) => {
     window.document.title = getPageTitle(to.meta.title)
   }
 
-  if (window.ga && to.path) {
-    window.ga('set', 'page', to.path)
-    window.ga('send', 'pageview')
-  }
-
   window.scrollTo(0, 0)
   next()
 })
