@@ -19,11 +19,27 @@
     <footer>
       <app-footer :menu="subMenu" :social="socialMedia" />
     </footer>
+
+    <section v-if="showConsentLayer" id="analytics-consent">
+      <div class="consent-content">
+        <p>Let's track a bit?</p>
+        <div class="consent-actions">
+          <button @click="updateConsent(false)">
+            Decline
+          </button>
+          <button @click="updateConsent(true)">
+            Allow
+          </button>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
   import '@/assets/icons/european-stars'
+  import { GA_COOKIE_NAME } from '@/config/analytics'
+  import { setCookie, getCookie } from '@/helper/cookies'
 
   export default {
     name: 'App',
@@ -75,6 +91,7 @@
 
     data () {
       return {
+        showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         logoSize: 220,
         languages: [
@@ -141,6 +158,13 @@
             message: this.$t('socialMedia.clipboard')
           }
         ]
+      }
+    },
+
+    methods: {
+      updateConsent (consent) {
+        setCookie(GA_COOKIE_NAME, consent)
+        this.showConsentLayer = false
       }
     }
   }
@@ -292,6 +316,40 @@
       position: static;
       justify-content: center;
       margin-top: $base-gap;
+    }
+  }
+
+  #analytics-consent {
+    position: fixed;
+    z-index: 4;
+    bottom: 0;
+    width: 100vw;
+    max-width: $app-width;
+    background: $background-secondary;
+    color: $text-color-secondary;
+    display: flex;
+    justify-content: center;
+    padding: $small-gap;
+    margin-bottom: $base-gap;
+    border-radius: $border-radius;
+    box-shadow: $button-shadow;
+
+    @media (max-width: $app-width) {
+      margin-bottom: 0;
+      border-radius: 0;
+      box-shadow: 0;
+    }
+
+    .consent-content {
+      max-width: $app-width;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & button {
+        margin-left: $small-gap;
+      }
     }
   }
 </style>
