@@ -255,8 +255,8 @@ collections:
         hint: "The footer navigation for the website."
         widget: "object"
         fields:
-          - {label: "Imprint", name: "imprint", widget: "string"}
-          - {label: "Data privacy", name: "privacy", widget: "string"}
+          - {label: "[Label] Imprint", name: "imprint", widget: "string"}
+          - {label: "[Label] Data privacy", name: "privacy", widget: "string"}
       - label: "Social Media Share Text"
         name: "socialMedia"
         hint: "These are the default texts which get used to share."
@@ -265,4 +265,12 @@ collections:
           - {label: "Twitter", name: "twitter", widget: "string"}
           - {label: "Facebook", name: "facebook", widget: "string"}
           - {label: "Clipboard", name: "clipboard", widget: "string"}
+      - label: "Cookie Consent Layer"
+        name: "cookieConsent"
+        hint: "The text which is shown in the cookie consent layer."
+        widget: "object"
+        fields:
+          - {label: "Text", name: "text", widget: "text"}
+          - {label: "[Button] Decline", name: "btnDecline", widget: "string"}
+          - {label: "[Button] Accept", name: "btnAccept", widget: "string"}
 
