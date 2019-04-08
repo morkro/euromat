@@ -25,10 +25,10 @@
         <p>{{ $t('meta.cookieConsent.text') }}</p>
         <div class="consent-actions">
           <button @click="updateConsent(false)">
-            {{ $t('meta.cookieConsent.decline') }}
+            {{ $t('meta.cookieConsent.btnDecline') }}
           </button>
           <button @click="updateConsent(true)">
-            {{ $t('meta.cookieConsent.accept') }}
+            {{ $t('meta.cookieConsent.btnAccept') }}
           </button>
         </div>
       </div>
@@ -39,6 +39,7 @@
 <script>
   import '@/assets/icons/european-stars'
   import { GA_COOKIE_NAME } from '@/config/analytics'
+  import { LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
 
   export default {
@@ -49,10 +50,11 @@
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         logoSize: 220,
-        languages: [
-          { icon: require('@/assets/svg/flag-de.svg'), locale: 'de' },
-          { icon: require('@/assets/svg/flag-uk.svg'), locale: 'en' }
-        ]
+        languages: LOCALES.map(([locale, language]) => ({
+          icon: require(`@/assets/svg/flag-${locale}.svg`),
+          locale,
+          language
+        }))
       }
     },
 
