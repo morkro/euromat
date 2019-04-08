@@ -25,10 +25,10 @@
         <p>{{ $t('meta.cookieConsent.text') }}</p>
         <div class="consent-actions">
           <button @click="updateConsent(false)">
-            {{ $t('meta.cookieConsent.decline') }}
+            {{ $t('meta.cookieConsent.btnDecline') }}
           </button>
           <button @click="updateConsent(true)">
-            {{ $t('meta.cookieConsent.accept') }}
+            {{ $t('meta.cookieConsent.btnAccept') }}
           </button>
         </div>
       </div>
