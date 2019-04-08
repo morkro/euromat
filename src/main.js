@@ -18,7 +18,10 @@ Vue.use(storage)
 Vue.use(VueAnalytics, {
   id: GA_KEY,
   disabled: getCookie(GA_COOKIE_NAME) !== 'true',
-  router
+  router,
+  debug: {
+    sendHitTask: process.env.NODE_ENV === 'production'
+  }
 })
 
 new Vue({

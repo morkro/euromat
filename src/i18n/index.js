@@ -10,12 +10,14 @@ import { i18n as faq } from '@/app/faq'
 import { i18n as press } from '@/app/press'
 import { i18n as imprint } from '@/app/imprint'
 import { i18n as privacy } from '@/app/privacy'
+import { i18n as meta } from '@/data'
 
 import { DEFAULT_LOCALE, LOCALES } from '@/config'
 
 Vue.use(VueI18n)
 
 const messages = [
+  meta,
   intro, euromat, party,
   about, fourzerofour, faq,
   press, imprint, privacy

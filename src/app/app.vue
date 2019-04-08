@@ -22,13 +22,13 @@
 
     <section v-if="showConsentLayer" id="analytics-consent">
       <div class="consent-content">
-        <p>Let's track a bit?</p>
+        <p>{{ $t('meta.cookieConsent.text') }}</p>
         <div class="consent-actions">
           <button @click="updateConsent(false)">
-            Decline
+            {{ $t('meta.cookieConsent.decline') }}
           </button>
           <button @click="updateConsent(true)">
-            Allow
+            {{ $t('meta.cookieConsent.accept') }}
           </button>
         </div>
       </div>
@@ -43,51 +43,6 @@
 
   export default {
     name: 'App',
-
-    i18n: {
-      messages: {
-        de: {
-          topMenu: {
-            index: 'Startseite',
-            faq: 'FAQ',
-            about: 'Über uns',
-            press: 'Presse'
-          },
-          subMenu: {
-            imprint: 'Impressum',
-            privacy: 'Datenschutz'
-          },
-          socialMedia: {
-            twitter: {
-              text: 'Cool! BTW17 kann jetzt auch Sterne. Neugierig was die Parteien zur EU sagen? Mach den EUROMAT & finde heraus mit wem du übereinstimmst!',
-              hashtags: 'BTW17,EUROMAT'
-            },
-            facebook: 'Cool! #BTW17 kann jetzt auch Sterne. Neugierig was die Parteien zur EU sagen? Mach den #EUROMAT & finde heraus mit wem du übereinstimmst!',
-            clipboard: 'In Zwischenablage kopiert'
-          }
-        },
-        en: {
-          topMenu: {
-            index: 'Landing page',
-            faq: 'FAQ',
-            about: 'About us',
-            press: 'Press'
-          },
-          subMenu: {
-            imprint: 'Imprint',
-            privacy: 'Data privacy'
-          },
-          socialMedia: {
-            twitter: {
-              text: 'Great! German election is star-spangled. Curious what parties say about EU? Compare views & see your match:',
-              hashtags: 'BTW17,EUROMAT'
-            },
-            facebook: 'Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!',
-            clipboard: 'Copied to clipboard'
-          }
-        }
-      }
-    },
 
     data () {
       return {
@@ -108,19 +63,19 @@
       topMenu () {
         return [
           {
-            label: this.$t('topMenu.index'),
+            label: this.$t('meta.topMenu.index'),
             route: { path: '/' }
           },
           {
-            label: this.$t('topMenu.faq'),
+            label: this.$t('meta.topMenu.faq'),
             route: { path: '/faq' }
           },
           {
-            label: this.$t('topMenu.about'),
+            label: this.$t('meta.topMenu.about'),
             route: { path: this.isGermanLocale ? '/uber-uns' : '/about-us' }
           },
           {
-            label: this.$t('topMenu.press'),
+            label: this.$t('meta.topMenu.press'),
             route: { path: this.isGermanLocale ? '/presse' : '/press' }
           }
         ]
@@ -128,11 +83,11 @@
       subMenu () {
         return [
           {
-            label: this.$t('subMenu.imprint'),
+            label: this.$t('meta.footerMenu.imprint'),
             route: { path: this.isGermanLocale ? '/impressum' : '/imprint' }
           },
           {
-            label: this.$t('subMenu.privacy'),
+            label: this.$t('meta.footerMenu.privacy'),
             route: { path: this.isGermanLocale ? '/datenschutz' : '/privacy' }
           }
         ]
@@ -143,19 +98,19 @@
             label: 'twitter',
             icon: 'twitter',
             message: {
-              text: this.$t('socialMedia.twitter.text'),
-              hashtags: this.$t('socialMedia.twitter.hashtags')
+              text: this.$t('meta.socialMedia.twitter'),
+              hashtags: 'BTW17,EUROMAT'
             }
           },
           {
             label: 'facebook',
             icon: 'facebook',
-            message: this.$t('socialMedia.facebook')
+            message: this.$t('meta.socialMedia.facebook')
           },
           {
             label: 'clipboard',
             icon: 'clipboard',
-            message: this.$t('socialMedia.clipboard')
+            message: this.$t('meta.socialMedia.clipboard')
           }
         ]
       }
