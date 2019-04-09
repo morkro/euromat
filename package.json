@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "npm run svg && vue-cli-service serve",
+    "build": "npm run svg && && npm run admin && vue-cli-service build --modern",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "svg": "vsvg -s ./src/assets/svg -t ./src/assets/icons",
@@ -52,8 +52,12 @@
     }
   },
   "lint-staged": {
-    "src/**/*.vue": [
-      "npm run css",
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
       "git add"
     ],
     "*": [
