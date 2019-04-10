@@ -43,6 +43,7 @@
     "js-yaml": "^3.13.1",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
+    "ora": "^3.4.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
   },
