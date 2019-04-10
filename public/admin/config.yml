@@ -92,7 +92,7 @@ collections:
         widget: string
         hint: >-
           An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>
+          https://euromat.info/#/<PAGE_URL>)
         optional: true
       - label: '[Meta] Site Name'
         name: title
@@ -142,7 +142,7 @@ collections:
         widget: string
         hint: >-
           An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>
+          https://euromat.info/#/<PAGE_URL>)
         optional: true
       - label: '[Meta] Site Name'
         name: title
@@ -183,7 +183,7 @@ collections:
         widget: string
         hint: >-
           An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>
+          https://euromat.info/#/<PAGE_URL>)
         optional: true
       - label: '[Meta] Site Name'
         name: title
@@ -228,7 +228,7 @@ collections:
         widget: string
         hint: >-
           An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>
+          https://euromat.info/#/<PAGE_URL>)
         optional: true
       - label: '[Meta] Site Name'
         name: title
@@ -266,7 +266,7 @@ collections:
         widget: string
         hint: >-
           An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>
+          https://euromat.info/#/<PAGE_URL>)
         optional: true
       - label: '[Meta] Site Name'
         name: title
@@ -311,7 +311,7 @@ collections:
         widget: string
         hint: >-
           An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>
+          https://euromat.info/#/<PAGE_URL>)
         optional: true
       - label: '[Meta] Site Name'
         name: title
