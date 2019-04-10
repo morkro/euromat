@@ -8,20 +8,40 @@
       </li>
     </ul>
 
-    <div class="menu-language">
+    <div :class="['menu-language', { 'show-languages': languageMenuSelected }]">
       <button
-        v-for="lang of languages"
-        :key="lang.locale"
         class="btn-txt"
         type="button"
-        @click="changeLanguage(lang.locale)"
+        @click="toggleLanguageSelection"
       >
-        <img :src="lang.icon"
+        <img :src="selectedLanguage.icon"
           :width="buttonSize"
           :height="buttonSize"
-          :alt="lang.locale"
+          :alt="selectedLanguage.locale"
         >
       </button>
+
+      <div
+        class="menu-language-select"
+        @click.self="hideLanguageSelection"
+      >
+        <ul>
+          <li
+            v-for="lang of languages"
+            :key="lang.locale"
+            :class="{ selected: $i18n.locale === lang.locale }"
+          >
+            <button @click="changeLanguage(lang.locale)">
+              <img :src="lang.icon"
+                :width="buttonSize"
+                :height="buttonSize"
+                :alt="lang.locale"
+              >
+              <span>{{ lang.language }}</span>
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -37,16 +57,30 @@
 
     data () {
       return {
-        buttonSize: 20
+        buttonSize: 20,
+        languageMenuSelected: false
+      }
+    },
+
+    computed: {
+      selectedLanguage () {
+        return this.languages.find(lang => lang.locale === this.$i18n.locale)
       }
     },
 
     methods: {
+      toggleLanguageSelection () {
+        this.languageMenuSelected = !this.languageMenuSelected
+      },
+      hideLanguageSelection () {
+        this.languageMenuSelected = false
+      },
       changeLanguage (locale) {
         this.$i18n.locale = locale
         if (this.$browser.supports('localStorage')) {
           localStorage.setItem('euromat-locale', locale)
         }
+        this.hideLanguageSelection()
       }
     }
   }
@@ -100,8 +134,9 @@
   .menu-language {
     display: flex;
     justify-content: space-around;
+    position: relative;
 
-    button {
+    > button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -113,7 +148,7 @@
       transition: background 150ms $easeOutBack;
 
       &:hover {
-        background: rgba(0, 0, 0, 0.15);
+        background: $transparent-black;
       }
 
       &:focus {
@@ -124,6 +159,64 @@
 
     img {
       margin: 0 auto;
+    }
+  }
+
+  .menu-language-select {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    @media (max-width: 480px) {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    .show-languages & {
+      display: flex;
+    }
+
+    ul {
+      background: $background-secondary;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: $button-shadow;
+
+      @media (max-width: 480px) {
+        width: 95%;
+        margin: 0 auto;
+      }
+    }
+
+    ul li {
+      &:not(:last-child) {
+        border-bottom: 2px solid $transparent-black;
+      }
+    }
+
+    ul button {
+      width: 100%;
+      background: none;
+      box-shadow: none;
+      border-radius: 0;
+      color: $text-color-secondary;
+
+      &:hover {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+
+      & span {
+        margin-left: 0.5em;
+      }
+
+      & img {
+        margin: 0;
+      }
     }
   }
 </style>
