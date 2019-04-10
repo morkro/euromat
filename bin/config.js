@@ -44,7 +44,7 @@ const pageUrl = () => ({
   label: '[Meta] Page URL',
   name: 'url',
   widget: 'string',
-  hint: 'An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>',
+  hint: 'An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>)',
   optional: true
 })
 
