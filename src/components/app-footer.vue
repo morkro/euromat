@@ -117,7 +117,8 @@
             setTimeout(() => { this.showClipboardInfo = false }, this.infoTimeout)
           }
         } catch (error) {
-          console.log('Oops, unable to copy', error)
+          // eslint-disable-next-line
+          console.error('Oops, unable to copy', error)
         }
 
         document.body.removeChild($textarea)
