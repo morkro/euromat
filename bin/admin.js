@@ -217,7 +217,7 @@ const configTree = {
   const spinner = ora(`Building 'config.yml' for Netlify CMS admin.`).start()
   try {
     await writeFile(PATH_DESTINATION, yaml.safeDump(configTree))
-    spinner.succeed(`'config.yml' has been succuessfully created!`)
+    spinner.succeed(`'config.yml' has been successfully created!`)
   } catch (error) {
     spinner.fail(`There was an error creating 'config.yml': ${error.message}`)
     throw new Error(error)

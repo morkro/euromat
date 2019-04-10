@@ -121,6 +121,7 @@
       },
       submitAnswer (option, event) {
         if (!option) {
+          // eslint-disable-next-line
           return console.warn('Invalid answer')
         }
 
