@@ -1,5 +1,7 @@
 const fs = require('fs')
 const yaml = require('js-yaml')
+const ora = require('ora')
+
 const {
   category,
   baseConfig,
@@ -212,9 +214,12 @@ const configTree = {
 }
 
 ;(async () => {
+  const spinner = ora(`Building 'config.yml' for Netlify CMS admin.`).start()
   try {
     await writeFile(PATH_DESTINATION, yaml.safeDump(configTree))
+    spinner.succeed(`'config.yml' has been succuessfully created!`)
   } catch (error) {
+    spinner.fail(`There was an error creating 'config.yml': ${error.message}`)
     throw new Error(error)
   }
 })()
