@@ -23,18 +23,18 @@ const messages = [
   press, imprint, privacy
 ]
 
-function getLanguage (lang) {
+function getLanguage (locale) {
   return messages.reduce((acc, cur) => ({
     ...acc,
-    ...cur[lang]
+    ...cur[locale]
   }), {})
 }
 
 export default new VueI18n({
   locale: localStorage.getItem('euromat-locale') || DEFAULT_LOCALE,
   fallbackLocale: DEFAULT_LOCALE,
-  messages: LOCALES.reduce((acc, cur) => ({
+  messages: LOCALES.reduce((acc, [locale]) => ({
     ...acc,
-    [cur]: getLanguage(cur)
+    [locale]: getLanguage(locale)
   }), {})
 })
