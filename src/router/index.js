@@ -15,7 +15,8 @@ import { routes as fourzerofour } from '@/app/404'
 Vue.use(Router)
 
 const router = new Router({
-  mode: 'hash',
+  // mode: process.env.NODE_ENV === 'production' ? 'history' : 'hash',
+  mode: 'history',
   routes: [
     ...intro,
     ...euromat,
