@@ -139,6 +139,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
+    &.no-scroll {
+      overflow: hidden;
+    }
   }
 
   body {
@@ -260,6 +264,7 @@
 
     @media (max-width: 1050px) {
       position: static;
+      z-index: 0;
       justify-content: center;
       margin-top: $base-gap;
     }
