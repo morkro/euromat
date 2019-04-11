@@ -1,36 +1,17 @@
 # EUROMAT
 
-> A Vue.js powered, progressive web voting application for the upcoming European election.
+A Vue.js powered, progressive web voting application for upcoming European elections. EUROMAT is hosted on _Netlify_ and uses the **Netlify CMS** for easier collaboration.
 
-## Project setup
-```
-npm install
-```
+## ⌨️ Development
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a Vue.js progressive web application, developed with [`@vue/cli`](https://github.com/vuejs/vue-cli).
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| Command | Description |
+| ------- | ----------- |
+| `npm install` | Installs dependencies |
+| `npm run serve` | Serve with hot reload at localhost:8080 |
+| `npm run build` | Build for production with minification |
+| `npm run test:unit` | Run all unit tests |
+| `npm run lint` | Runs `standard` over all `.js` and `.vue` files |
+| `npm run svg` | Creates all SVG files used in the application |
+| `npm run admin` | Creates `config.yml` for Netlify CMS admin UI |
