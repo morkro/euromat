@@ -202,6 +202,7 @@
       width: 100%;
       background: none;
       box-shadow: none;
+      text-shadow: none;
       border-radius: 0;
       color: $text-color-secondary;
 
@@ -216,6 +217,9 @@
 
       & img {
         margin: 0;
+        height: auto;
+        box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+        display: inline-flex;
       }
     }
   }
