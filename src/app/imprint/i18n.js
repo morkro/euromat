@@ -1,8 +1,9 @@
 export default {
   de: {
     imprint: {
-      pageTitle: 'Impressum',
+      title: 'Impressum',
       headline: 'Impressum',
+      url: 'impressum',
       address: {
         label: 'Adresse',
         polis: [
@@ -87,8 +88,9 @@ export default {
   },
   en: {
     imprint: {
-      pageTitle: 'Imprint',
+      title: 'Imprint',
       headline: 'Imprint',
+      url: 'imprint',
       address: {
         label: 'Address',
         polis: [

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="app-header">
-      <router-link :to="{ path: '/' }">
+      <router-link :to="{ path: `/${$i18n.locale}/` }">
         <img class="header-logo"
           :src="euromatLogo"
           :width="logoSize"
