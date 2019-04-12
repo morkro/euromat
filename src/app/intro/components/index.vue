@@ -27,8 +27,8 @@
     computed: {
       thesesPath () {
         return this.$i18n.locale === 'de'
-          ? '/thesen'
-          : '/theses'
+          ? `/${this.$i18n.locale}/thesen`
+          : `/${this.$i18n.locale}/theses`
       }
     }
   }

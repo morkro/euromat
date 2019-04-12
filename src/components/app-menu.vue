@@ -47,6 +47,7 @@
 </template>
 
 <script>
+  import { setCurrentLocale } from '@/i18n/helper'
   export default {
     name: 'AppMenu',
 
@@ -76,10 +77,8 @@
         this.languageMenuSelected = false
       },
       changeLanguage (locale) {
-        this.$i18n.locale = locale
-        if (this.$browser.supports('localStorage')) {
-          localStorage.setItem('euromat-locale', locale)
-        }
+        setCurrentLocale(locale)
+        // this.$i18n.locale = locale
         this.hideLanguageSelection()
       }
     }

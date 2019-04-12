@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import getPageTitle from './getPageTitle'
+import * as i18n from '@/i18n/helper'
+import BaseLocaleRouter from '@/components/base-locale-router'
+import { getPageTitle, beforeEnter } from '@/router/helper'
+
 import { routes as intro } from '@/app/intro'
 import { routes as euromat } from '@/app/euromat'
 import { routes as party } from '@/app/party'
@@ -17,20 +20,33 @@ Vue.use(Router)
 const router = new Router({
   mode: 'history',
   routes: [
-    ...intro,
-    ...euromat,
-    ...party,
-    ...about,
-    ...faq,
-    ...press,
-    ...imprint,
-    ...privacy,
-    ...fourzerofour
+    {
+      path: '/:locale',
+      component: BaseLocaleRouter,
+      beforeEnter,
+      children: [
+        ...intro,
+        ...euromat,
+        ...party,
+        ...about,
+        ...faq,
+        ...press,
+        ...imprint,
+        ...privacy,
+        ...fourzerofour
+      ]
+    },
+    {
+      path: '*',
+      redirect (to) {
+        return i18n.getUserSupportedLanguage()
+      }
+    }
   ]
 })
 
 router.beforeEach((to, from, next) => {
-  if (to.meta.title && to.meta.title.de && to.meta.title.en) {
+  if (to.meta.title) {
     window.document.title = getPageTitle(to.meta.title)
   }
 

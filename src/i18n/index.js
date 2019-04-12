@@ -12,7 +12,7 @@ import { i18n as imprint } from '@/app/imprint'
 import { i18n as privacy } from '@/app/privacy'
 import { i18n as meta } from '@/data'
 
-import { DEFAULT_LOCALE, LOCALES } from '@/config'
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
 
 Vue.use(VueI18n)
 
@@ -30,11 +30,13 @@ function getLanguage (locale) {
   }), {})
 }
 
-export default new VueI18n({
-  locale: localStorage.getItem('euromat-locale') || DEFAULT_LOCALE,
+const i18n = new VueI18n({
+  locale: DEFAULT_LOCALE,
   fallbackLocale: DEFAULT_LOCALE,
-  messages: LOCALES.reduce((acc, [locale]) => ({
+  messages: SUPPORTED_LOCALES.reduce((acc, [locale]) => ({
     ...acc,
     [locale]: getLanguage(locale)
   }), {})
 })
+
+export default i18n

@@ -1,4 +1,4 @@
-import { getTranslatedTitles } from '@/helper/content'
+import { getTranslatedTitles } from '@/i18n/helper'
 import i18n from './i18n'
 
 export default [
