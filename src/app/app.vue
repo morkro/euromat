@@ -30,8 +30,9 @@
 <script>
   import '@/assets/icons/european-stars'
   import { GA_COOKIE_NAME } from '@/config/analytics'
-  import { LOCALES } from '@/config'
+  import { SUPPORTED_LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
+  import { getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'App',
@@ -41,7 +42,7 @@
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         logoSize: 220,
-        languages: LOCALES.map(([locale, language]) => ({
+        languages: SUPPORTED_LOCALES.map(([locale, language]) => ({
           icon: require(`@/assets/svg/flag-${locale}.svg`),
           locale,
           language
@@ -50,26 +51,23 @@
     },
 
     computed: {
-      isGermanLocale () {
-        return this.$i18n.locale === 'de'
-      },
       topMenu () {
         return [
           {
             label: this.$t('meta.topMenu.index'),
-            route: { path: '/' }
+            route: { path: `/${this.$i18n.locale}/` }
           },
           {
             label: this.$t('meta.topMenu.faq'),
-            route: { path: '/faq' }
+            route: { path: getTranslatedUrl('faq') }
           },
           {
             label: this.$t('meta.topMenu.about'),
-            route: { path: this.isGermanLocale ? '/uber-uns' : '/about-us' }
+            route: { path: getTranslatedUrl('about') }
           },
           {
             label: this.$t('meta.topMenu.press'),
-            route: { path: this.isGermanLocale ? '/presse' : '/press' }
+            route: { path: getTranslatedUrl('press') }
           }
         ]
       },
@@ -77,11 +75,11 @@
         return [
           {
             label: this.$t('meta.footerMenu.imprint'),
-            route: { path: this.isGermanLocale ? '/impressum' : '/imprint' }
+            route: { path: getTranslatedUrl('imprint') }
           },
           {
             label: this.$t('meta.footerMenu.privacy'),
-            route: { path: this.isGermanLocale ? '/datenschutz' : '/privacy' }
+            route: { path: getTranslatedUrl('privacy') }
           }
         ]
       },

@@ -10,8 +10,8 @@ function hasAnswers (to, from, next) {
 
 export default [
   {
-    path: '/thesen',
-    alias: '/theses',
+    path: 'thesen',
+    alias: 'theses',
     component: () => import('./components/index' /* webpackChunkName: "euromat" */),
     children: [
       {

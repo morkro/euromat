@@ -2,8 +2,8 @@ import i18n from './i18n'
 
 export default [
   {
-    path: '/impressum',
-    alias: '/imprint',
+    path: 'impressum',
+    alias: 'imprint',
     name: 'imprint',
     component: () => import('./components/index' /* webpackChunkName: "misc" */),
     meta: {

@@ -25,8 +25,8 @@ Vue.use(VueAnalytics, {
 })
 
 new Vue({
-  router,
   i18n,
+  router,
   data: {
     backupStorage: {
       answers: undefined,

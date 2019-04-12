@@ -4,7 +4,7 @@ export const LOCALE_FRENCH = 'fr'
 export const LOCALE_POLISH = 'pl'
 export const DEFAULT_LOCALE = LOCALE_ENGLISH
 
-export const LOCALES = [
+export const SUPPORTED_LOCALES = [
   [LOCALE_ENGLISH, 'English'],
   [LOCALE_GERMAN, 'Deutsch'],
   [LOCALE_FRENCH, 'Français'],
