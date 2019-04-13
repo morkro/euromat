@@ -1,14 +1,14 @@
 <template>
   <section>
-    <h1>{{ $t('euromat.emphasis.headline') }}</h1>
+    <h1>{{ $t('emphasis.headline') }}</h1>
 
     <div class="emphasis-content">
-      <p>{{ $t('euromat.emphasis.content') }}</p>
+      <p>{{ $t('emphasis.content') }}</p>
       <button type="button"
         class="btn-dark btn-small"
         @click="submitEmphasis()"
       >
-        {{ $t('euromat.emphasis.skip') }}
+        {{ $t('emphasis.skip') }}
         <feather-corner-up-right />
       </button>
     </div>
@@ -30,7 +30,7 @@
 
     <div class="emphasis-controls">
       <button type="button" @click="submitEmphasis()">
-        {{ $t('euromat.emphasis.button') }} <feather-arrow-right />
+        {{ $t('emphasis.button') }} <feather-arrow-right />
       </button>
     </div>
   </section>
@@ -65,10 +65,10 @@
     created () {
       if (this.$browser.supports('sessionStorage')) {
         if (!sessionStorage.getItem('euromat-answers')) {
-          this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+          this.$router.push({ path: this.isGermanLocale ? '/de/thesen' : '/en/theses' })
         }
       } else if (this.$root.$data.backupStorage.answers === undefined) {
-        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+        this.$router.push({ path: this.isGermanLocale ? '/de/thesen' : '/en/theses' })
       }
     },
 
@@ -97,8 +97,8 @@
         }
 
         this.$router.push({ path: this.isGermanLocale
-          ? '/thesen/ergebnis'
-          : '/theses/results'
+          ? '/de/thesen/ergebnis'
+          : '/en/theses/results'
         })
       }
     }

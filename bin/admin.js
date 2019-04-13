@@ -29,12 +29,54 @@ const configTree = {
   collections: [
     category({
       meta: {
-        name: 'euromat',
-        label: 'Euromat',
-        description: 'Theses, parties, ..., everything for the actual app.',
-        folder: 'src/app/euromat/content'
+        name: 'euromat-theses',
+        label: '[Euromat] Theses',
+        description: 'The theses selection pages for the EUROMAT.',
+        folder: 'src/app/euromat/content/theses'
       },
-      fields: []
+      fields: [
+        pageUrl(),
+        siteName(),
+        stringField('backBtn', 'Label for back button'),
+        stringField('positive', 'Label for positive'),
+        stringField('neutral', 'Label for neutral'),
+        stringField('negative', 'Label for negative'),
+        stringField('skipped', 'Label for skipping thesis')
+      ]
+    }),
+    category({
+      meta: {
+        name: 'euromat-emphasis',
+        label: '[Euromat] Emphasis',
+        description: 'The emphasis page which comes after the theses.',
+        folder: 'src/app/euromat/content/emphasis'
+      },
+      fields: [
+        pageUrl(),
+        siteName(),
+        stringField('headline', 'Headline'),
+        stringField('content', 'Description under headline'),
+        stringField('skip', 'Skip emphasis page'),
+        stringField('button', '[Label] Button to continue')
+      ]
+    }),
+    category({
+      meta: {
+        name: 'euromat-results',
+        label: '[Euromat] Results',
+        description: 'The EUROMAT result page.',
+        folder: 'src/app/euromat/content/results'
+      },
+      fields: [
+        pageUrl(),
+        siteName(),
+        stringField('headline', 'Headline for results'),
+        stringField('entry', 'Description under headline'),
+        stringField('hint', 'A short hint for users to know they can click the parties'),
+        stringField('thanks', 'Final words'),
+        stringField('startoverBtn', '[Label] Button to start over'),
+        stringField('indexBtn', '[Label] Button to go back to index')
+      ]
     }),
     category({
       meta: {
