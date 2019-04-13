@@ -5,75 +5,67 @@
     <div class="imprint-basic">
       <div class="imprint-address">
         <div class="imprint-group">
-          <h3>{{ $t('imprint.address.label') }}</h3>
+          <h3>{{ $t('imprint.poe.addressLabel') }}</h3>
           <address>
-            <span v-for="txt of $t('imprint.address.poe')" :key="txt">
-              <span>{{ txt }}</span><br>
-            </span>
+            <v-markdown :source="$t('imprint.poe.address')" />
           </address>
         </div>
 
         <div class="imprint-group">
-          <h3>{{ $t('imprint.represented.poe.label') }}</h3>
-          <p>{{ $t('imprint.represented.poe.text') }}</p>
+          <h3>{{ $t('imprint.poe.representedLabel') }}</h3>
+          <p>{{ $t('imprint.poe.represented') }}</p>
         </div>
 
         <div class="imprint-group inline">
-          <h3>{{ $t('imprint.email.label') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.email.poe')}`">
-            {{ $t('imprint.email.poe') }} <feather-mail />
+          <h3>{{ $t('imprint.poe.emailLabel') }}</h3>
+          <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.poe.email')}`">
+            {{ $t('imprint.poe.email') }} <feather-mail />
           </a>
         </div>
 
         <div class="imprint-group inline">
-          <h3>{{ $t('imprint.phone.label') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`tel:${$t('imprint.phone.poe')}`">
-            {{ $t('imprint.phone.poe') }} <feather-phone />
+          <h3>{{ $t('imprint.poe.phoneLabel') }}</h3>
+          <a class="btn btn-dark btn-small" :href="`tel:${$t('imprint.poe.phone')}`">
+            {{ $t('imprint.poe.phone') }} <feather-phone />
           </a>
         </div>
 
         <div class="imprint-group">
-          <h3>{{ $t('imprint.register.poe.label') }}</h3>
-          <p v-for="txt of $t('imprint.register.poe.text')" :key="txt">
-            {{ txt }}
-          </p>
+          <h3>{{ $t('imprint.poe.registerLabel') }}</h3>
+          <v-markdown :source="$t('imprint.poe.register')" />
         </div>
       </div>
 
       <div class="imprint-address">
         <div class="imprint-group">
-          <h3>{{ $t('imprint.address.label') }}</h3>
+          <h3>{{ $t('imprint.polis180.addressLabel') }}</h3>
           <address>
-            <span v-for="txt of $t('imprint.address.polis')" :key="txt">
-              <span>{{ txt }}</span><br>
-            </span>
+            <v-markdown :source="$t('imprint.polis180.address')" />
           </address>
         </div>
 
         <div class="imprint-group">
-          <h3>{{ $t('imprint.represented.polis.label') }}</h3>
-          <p>{{ $t('imprint.represented.polis.text') }}</p>
+          <h3>{{ $t('imprint.polis180.representedLabel') }}</h3>
+          <p>{{ $t('imprint.polis180.represented') }}</p>
         </div>
 
         <div class="imprint-group inline">
-          <h3>{{ $t('imprint.email.label') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.email.polis')}`">
-            {{ $t('imprint.email.polis') }} <feather-mail />
+          <h3>{{ $t('imprint.polis180.emailLabel') }}</h3>
+          <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.polis180.email')}`">
+            {{ $t('imprint.polis180.email') }} <feather-mail />
           </a>
         </div>
 
         <div class="imprint-group inline">
-          <h3>{{ $t('imprint.phone.label') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`tel:${$t('imprint.phone.polis')}`">
-            {{ $t('imprint.phone.polis') }} <feather-phone />
+          <h3>{{ $t('imprint.polis180.phoneLabel') }}</h3>
+          <a class="btn btn-dark btn-small" :href="`tel:${$t('imprint.polis180.phone')}`">
+            {{ $t('imprint.polis180.phone') }} <feather-phone />
           </a>
         </div>
 
         <div class="imprint-group">
-          <h3>{{ $t('imprint.register.polis.label') }}</h3>
-          <p v-for="txt of $t('imprint.register.polis.text')" :key="txt">
-            {{ txt }}
-          </p>
+          <h3>{{ $t('imprint.polis180.registerLabel') }}</h3>
+          <v-markdown :source="$t('imprint.polis180.register')" />
         </div>
       </div>
     </div>
@@ -82,16 +74,14 @@
 
     <div class="imprint-responsibility">
       <div class="imprint-group">
-        <h3>{{ $t('imprint.responsible.label') }}</h3>
-        <p v-for="txt of $t('imprint.responsible.text')" :key="txt">
-          {{ txt }}
-        </p>
+        <h3>{{ $t('imprint.responsible.headline') }}</h3>
+        <v-markdown :source="$t('imprint.responsible.text')" />
       </div>
 
       <div class="imprint-group inline">
-        <h3>{{ $t('imprint.responsible.mail.label') }}</h3>
-        <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.responsible.mail.mail')}`">
-          {{ $t('imprint.responsible.mail.mail') }} <feather-mail />
+        <h3>{{ $t('imprint.responsible.mail') }}</h3>
+        <a class="btn btn-dark btn-small" href="mailto:hello@euromat.info">
+          hello@euromat.info <feather-mail />
         </a>
       </div>
     </div>

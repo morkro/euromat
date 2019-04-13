@@ -3,6 +3,35 @@
   "url": "impressum",
   "title": "Impressum",
   "headline": "Impressum",
+  "polis180": {
+    "addressLabel": "Adresse",
+    "address": "Polis180 e.V.\nSolmsstraße 18\n10961 Berlin",
+    "representedLabel": "Vertretungsberechtigte Personen:",
+    "represented": "Christian Freudlsperger, Co-Vorsitzender Sonja Schiffers,  Co-Vorsitzende Julian Zuber, Schatzmeister.",
+    "emailLabel": "Email",
+    "email": "info@polis180.org",
+    "phoneLabel": "Telefon",
+    "phone": "+49 (0)176 301 912 30",
+    "registerLabel": "Vereinsregister:",
+    "register": "Registergericht: Amtsgericht\nCharlottenburg Registernummer: VR 34523"
+  },
+  "poe": {
+    "addressLabel": "Adresse",
+    "address": "Pulse of Europe e. V.\nWolfsgangstraße 63\n60322 Frankfurt\nDeutschland",
+    "representedLabel": "Vertreten durch:",
+    "represented": "Der Verein wird vertreten durch seinen Vorstand, dieser wiederum durch seinen Vorsitzenden Dr. Daniel Röder.",
+    "emailLabel": "Email",
+    "email": "info@pulseofeurope.eu",
+    "phoneLabel": "Telefon",
+    "phone": "+49 (0)157 721 209 88",
+    "registerLabel": "Registereintrag:",
+    "register": "Eintragung im Vereinsregister.\nRegistergericht: Frankfurt am Main\nRegisternummer:  VR 16000"
+  },
+  "responsible": {
+    "headline": "Inhalte der Webseite (nach § 55 Abs. 2 RStV)",
+    "text": "Eva Podgoršek und Peter Funk für Pulse of Europe (Berlin)\n\nSusanne Zels für Polis180",
+    "mail": "Kontakt"
+  },
   "content": [
     {
       "title": "Haftungsausschluss",

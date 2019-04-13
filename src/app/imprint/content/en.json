@@ -3,6 +3,35 @@
   "url": "imprint",
   "title": "Imprint",
   "headline": "Imprint",
+  "polis180": {
+    "addressLabel": "Adress",
+    "address": "Polis180 e.V.\nSolmsstraße 18\n10961 Berlin",
+    "representedLabel": "Represented by:",
+    "represented": "Christian Freudlsperger, Co-Chair Sonja Schiffers, Co-Chair Julian Zuber, Treasurer",
+    "emailLabel": "Email",
+    "email": "info@polis180.org",
+    "phoneLabel": "Phone",
+    "phone": "+49 (0)176 301 912 30",
+    "registerLabel": "Entry in the register of associations:",
+    "register": "Register court: Amtsgericht\nCharlottenburg Registernummer: VR 34523"
+  },
+  "poe": {
+    "addressLabel": "Adress",
+    "address": "Pulse of Europe e. V.\nWolfsgangstraße 63\n60322 Frankfurt\nDeutschland",
+    "representedLabel": "Represented by:",
+    "represented": "The public charity is represented by the Managing Board, which in turn is represented by the Chair Dr. Daniel Röder.",
+    "emailLabel": "Email",
+    "email": "info@pulseofeurope.eu",
+    "phoneLabel": "Phone",
+    "phone": "+49 (0)157 721 209 88",
+    "registerLabel": "Register entry:",
+    "register": "Entry in the register of associations.\nRegister court: Frankfurt am Main\nRegisternummer:  VR 16000"
+  },
+  "responsible": {
+    "headline": "Responsible for website content (according to § 55 Abs. 2 RStV)",
+    "text": "Eva Podgoršek and Peter Funk für Pulse of Europe (Berlin)\n\nSusanne Zels for Polis180",
+    "mail": "Contact"
+  },
   "content": [
     {
       "title": "§ 1 Warnings regarding content",
