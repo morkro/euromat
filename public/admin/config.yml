@@ -320,6 +320,88 @@ collections:
       - label: Headline
         name: headline
         widget: string
+      - label: Legal notice for Polis180
+        name: polis180
+        widget: object
+        fields:
+          - label: Headline for address
+            name: addressLabel
+            widget: string
+          - label: Address
+            name: address
+            widget: markdown
+          - label: Headline for represented by
+            name: representedLabel
+            widget: string
+          - label: Represented by
+            name: represented
+            widget: markdown
+          - label: Headline for email
+            name: emailLabel
+            widget: string
+          - label: Email address
+            name: email
+            widget: string
+          - label: Headline for phone
+            name: phoneLabel
+            widget: string
+          - label: Phone number
+            name: phone
+            widget: string
+          - label: Headline for register entry
+            name: registerLabel
+            widget: string
+          - label: Register entry
+            name: register
+            widget: markdown
+      - label: Legal notice for Pulse of Europe
+        name: poe
+        widget: object
+        fields:
+          - label: Headline for address
+            name: addressLabel
+            widget: string
+          - label: Address
+            name: address
+            widget: markdown
+          - label: Headline for represented by
+            name: representedLabel
+            widget: string
+          - label: Represented by
+            name: represented
+            widget: markdown
+          - label: Headline for email
+            name: emailLabel
+            widget: string
+          - label: Email address
+            name: email
+            widget: string
+          - label: Headline for phone
+            name: phoneLabel
+            widget: string
+          - label: Phone number
+            name: phone
+            widget: string
+          - label: Headline for register entry
+            name: registerLabel
+            widget: string
+          - label: Register entry
+            name: register
+            widget: markdown
+      - label: Responsible for website content
+        name: responsible
+        widget: object
+        hint: A short description who is responsible for the website content
+        fields:
+          - label: Headline
+            name: headline
+            widget: string
+          - label: Content
+            name: text
+            widget: markdown
+          - label: '[Label] Contact'
+            name: mail
+            widget: string
       - label: Content
         name: content
         widget: list
@@ -385,6 +467,10 @@ collections:
             value: fr
           - label: Polski
             value: pl
+      - label: '[Meta] Site Name'
+        name: title
+        widget: string
+        hint: The name for the page that will appear in the browser tab.
       - label: Top Navigation
         name: topMenu
         widget: object

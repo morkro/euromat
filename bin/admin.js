@@ -146,6 +146,42 @@ const configTree = {
         pageUrl(),
         siteName(),
         stringField('headline', 'Headline'),
+        objectField('polis180', 'Legal notice for Polis180', {
+          list: [
+            stringField('addressLabel', 'Headline for address'),
+            markdownField('address', 'Address'),
+            stringField('representedLabel', 'Headline for represented by'),
+            markdownField('represented', 'Represented by'),
+            stringField('emailLabel', 'Headline for email'),
+            stringField('email', 'Email address'),
+            stringField('phoneLabel', 'Headline for phone'),
+            stringField('phone', 'Phone number'),
+            stringField('registerLabel', 'Headline for register entry'),
+            markdownField('register', 'Register entry')
+          ]
+        }),
+        objectField('poe', 'Legal notice for Pulse of Europe', {
+          list: [
+            stringField('addressLabel', 'Headline for address'),
+            markdownField('address', 'Address'),
+            stringField('representedLabel', 'Headline for represented by'),
+            markdownField('represented', 'Represented by'),
+            stringField('emailLabel', 'Headline for email'),
+            stringField('email', 'Email address'),
+            stringField('phoneLabel', 'Headline for phone'),
+            stringField('phone', 'Phone number'),
+            stringField('registerLabel', 'Headline for register entry'),
+            markdownField('register', 'Register entry')
+          ]
+        }),
+        objectField('responsible', 'Responsible for website content', {
+          hint: 'A short description who is responsible for the website content',
+          list: [
+            stringField('headline', 'Headline'),
+            markdownField('text', 'Content'),
+            stringField('mail', '[Label] Contact')
+          ]
+        }),
         listField('content', 'Content', {
           list: [
             stringField('title', 'Title'),
@@ -176,6 +212,7 @@ const configTree = {
         folder: 'src/data/meta'
       },
       fields: [
+        siteName(),
         objectField('topMenu', 'Top Navigation', {
           hint: 'The main navigation for the website.',
           list: [
