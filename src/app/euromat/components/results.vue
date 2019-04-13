@@ -90,9 +90,6 @@
     },
 
     computed: {
-      isGermanLocale () {
-        return this.$i18n.locale === 'de'
-      },
       startOverUrl () {
         return getTranslatedUrl('theses')
       }
@@ -111,7 +108,7 @@
       }
 
       if (!emphasized) {
-        this.$router.push({ path: this.isGermanLocale ? '/de/thesen' : '/en/theses' })
+        this.$router.push({ path: getTranslatedUrl('theses') })
       }
 
       this.emphasized = emphasized

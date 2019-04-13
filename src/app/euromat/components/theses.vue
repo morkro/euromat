@@ -1,5 +1,5 @@
 <template>
-  <section class="euromat">
+  <section class="theses">
     <div class="header-progress">
       <div>
         <span class="progress-current">{{ currentThesisStep }}</span>
@@ -15,14 +15,14 @@
       </button>
     </div>
 
-    <div class="euromat-content">
-      <header class="euromat-header">
+    <div class="theses-content">
+      <header class="theses-header">
         <h2>{{ thesisCategory }}</h2>
         <h1>{{ thesisTitle }}</h1>
       </header>
 
-      <div class="euromat-controls">
-        <ul class="euromat-btns">
+      <div class="theses-controls">
+        <ul class="theses-btns">
           <li v-for="option in options" :key="option.label">
             <button type="button" @click="submitAnswer(option, $event)">
               {{ option.label }} <component :is="'feather-' + option.icon" />
@@ -45,7 +45,7 @@
 
 <script>
   import { options, theses } from '@/data'
-  // import { getTranslatedUrl } from '@/i18n/helper'
+  import { getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'EuroMat',
@@ -62,7 +62,6 @@
     },
 
     data () {
-      console.log(this.$i18n)
       return {
         currentThesis: 0,
         thesesCount: theses.length,
@@ -71,9 +70,6 @@
     },
 
     computed: {
-      isGermanLocale () {
-        return this.$i18n.locale === 'de'
-      },
       currentThesisStep () {
         return this.currentThesis + 1
       },
@@ -149,9 +145,8 @@
           this.$root.$data.backupStorage.answers = answers
         }
 
-        this.$router.push({ path: this.isGermanLocale
-          ? '/de/thesen/gewichtung'
-          : '/en/theses/emphasis'
+        this.$router.push({
+          path: getTranslatedUrl('emphasis', getTranslatedUrl('theses', null, true))
         })
       }
     }
@@ -165,7 +160,7 @@
 
   $breakpoint: 835px;
 
-  .euromat {
+  .theses {
     display: flex;
     align-items: flex-start;
 
@@ -219,11 +214,11 @@
     }
   }
 
-  .euromat-content {
+  .theses-content {
     text-align: left;
   }
 
-  .euromat-header {
+  .theses-header {
     margin-bottom: $base-gap + 5;
     text-align: left;
 
@@ -236,7 +231,7 @@
     }
   }
 
-  .euromat-controls {
+  .theses-controls {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,7 +247,7 @@
     }
   }
 
-  .euromat-btns {
+  .theses-btns {
     list-style: none;
     display: flex;
     justify-content: center;

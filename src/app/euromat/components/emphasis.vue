@@ -38,6 +38,7 @@
 
 <script>
   import { theses } from '@/data'
+  import { getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'Emphasis',
@@ -56,19 +57,13 @@
       }
     },
 
-    computed: {
-      isGermanLocale () {
-        return this.$i18n.locale === 'de'
-      }
-    },
-
     created () {
       if (this.$browser.supports('sessionStorage')) {
         if (!sessionStorage.getItem('euromat-answers')) {
-          this.$router.push({ path: this.isGermanLocale ? '/de/thesen' : '/en/theses' })
+          this.$router.push({ path: getTranslatedUrl('theses') })
         }
       } else if (this.$root.$data.backupStorage.answers === undefined) {
-        this.$router.push({ path: this.isGermanLocale ? '/de/thesen' : '/en/theses' })
+        this.$router.push({ path: getTranslatedUrl('theses') })
       }
     },
 
@@ -96,9 +91,8 @@
           this.$root.$data.backupStorage.emphasized = emphasized
         }
 
-        this.$router.push({ path: this.isGermanLocale
-          ? '/de/thesen/ergebnis'
-          : '/en/theses/results'
+        this.$router.push({
+          path: getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
         })
       }
     }

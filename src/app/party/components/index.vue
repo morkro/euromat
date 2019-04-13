@@ -33,7 +33,7 @@
       <ul>
         <li v-for="option in options" :key="option.position">
           <component :is="'feather-' + positionToIconName(option.position)" />
-          <span>{{ $t(`euromat.options.${option.position}`) }}</span>
+          <span>{{ $t(`theses.${option.position}`) }}</span>
         </li>
       </ul>
     </div>
@@ -86,6 +86,7 @@
 
 <script>
   import { parties, theses, options } from '@/data'
+  import { getTranslatedUrl } from '@/i18n/helper'
   export default {
     name: 'Party',
 
@@ -129,13 +130,8 @@
     },
 
     computed: {
-      isGermanLocale () {
-        return this.$i18n.locale === 'de'
-      },
       resultsPath () {
-        return this.isGermanLocale
-          ? '/thesen/ergebnis'
-          : '/theses/results'
+        return getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
       },
       partyName () {
         return this.party.name[this.$i18n.locale]
