@@ -19,8 +19,8 @@ export default [
     children: [
       {
         path: '',
-        name: 'euromat',
-        component: () => import('./components/euromat' /* webpackChunkName: "euromat" */),
+        name: 'theses',
+        component: () => import('./components/theses' /* webpackChunkName: "euromat" */),
         meta: {
           title: getTranslatedTitles(localI18n, 'theses')
         }

@@ -22,13 +22,13 @@ const availablesLanguages =
 const i18n = availablesLanguages.reduce((acc, cur) => {
   acc[cur] = {}
 
-  if (cur in theses) {
+  if (theses.hasOwnProperty(cur)) {
     acc[cur] = { ...acc[cur], ...theses[cur] }
   }
-  if (cur in emphasis) {
+  if (emphasis.hasOwnProperty(cur)) {
     acc[cur] = { ...acc[cur], ...emphasis[cur] }
   }
-  if (cur in results) {
+  if (results.hasOwnProperty(cur)) {
     acc[cur] = { ...acc[cur], ...results[cur] }
   }
 
