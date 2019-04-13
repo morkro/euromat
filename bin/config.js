@@ -18,7 +18,7 @@ const objectField = (name, label, { list, ...rest } = {}) =>
 const baseConfig = () => ({
   backend: {
     name: 'git-gateway',
-    branch: 'next',
+    branch: 'master',
     squash_merges: true,
     accept_roles: ['admin', 'editor']
   },
