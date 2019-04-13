@@ -51,7 +51,10 @@ export function getTranslatedAliases (data, section) {
   )]
 }
 
-export function getTranslatedUrl (section) {
+export function getTranslatedUrl (section, prefixUrl, omitLocale = false) {
   const url = i18n.messages[getCurrentLocale()][section].url
-  return `/${i18n.locale}/${url}`
+  const fullUrl = prefixUrl ? `${prefixUrl}/${url}` : url
+  return omitLocale
+    ? fullUrl
+    : `/${i18n.locale}/${fullUrl}`
 }
