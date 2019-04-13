@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: next
+  branch: master
   squash_merges: true
   accept_roles:
     - admin
@@ -9,10 +9,10 @@ publish_mode: editorial_workflow
 media_folder: static/img/uploads
 public_folder: /img/uploads
 collections:
-  - name: euromat
-    label: Euromat
-    description: 'Theses, parties, ..., everything for the actual app.'
-    folder: src/app/euromat/content
+  - name: euromat-theses
+    label: '[Euromat] Theses'
+    description: The theses selection pages for the EUROMAT.
+    folder: src/app/euromat/content/theses
     format: json
     create: true
     slug: '{{fields.language}}'
@@ -30,6 +30,126 @@ collections:
             value: fr
           - label: Polski
             value: pl
+      - label: '[Meta] Page URL'
+        name: url
+        widget: string
+        hint: >-
+          An optional, localised URL which will be used for this page (e.g.
+          https://euromat.info/#/<PAGE_URL>)
+        optional: true
+      - label: '[Meta] Site Name'
+        name: title
+        widget: string
+        hint: The name for the page that will appear in the browser tab.
+      - label: Label for back button
+        name: backBtn
+        widget: string
+      - label: Label for positive
+        name: positive
+        widget: string
+      - label: Label for neutral
+        name: neutral
+        widget: string
+      - label: Label for negative
+        name: negative
+        widget: string
+      - label: Label for skipping thesis
+        name: skipped
+        widget: string
+  - name: euromat-emphasis
+    label: '[Euromat] Emphasis'
+    description: The emphasis page which comes after the theses.
+    folder: src/app/euromat/content/emphasis
+    format: json
+    create: true
+    slug: '{{fields.language}}'
+    fields:
+      - label: '[Meta] Language'
+        name: language
+        hint: Select the language for this page.
+        widget: select
+        options:
+          - label: English
+            value: en
+          - label: Deutsch
+            value: de
+          - label: Français
+            value: fr
+          - label: Polski
+            value: pl
+      - label: '[Meta] Page URL'
+        name: url
+        widget: string
+        hint: >-
+          An optional, localised URL which will be used for this page (e.g.
+          https://euromat.info/#/<PAGE_URL>)
+        optional: true
+      - label: '[Meta] Site Name'
+        name: title
+        widget: string
+        hint: The name for the page that will appear in the browser tab.
+      - label: Headline
+        name: headline
+        widget: string
+      - label: Description under headline
+        name: content
+        widget: string
+      - label: Skip emphasis page
+        name: skip
+        widget: string
+      - label: '[Label] Button to continue'
+        name: button
+        widget: string
+  - name: euromat-results
+    label: '[Euromat] Results'
+    description: The EUROMAT result page.
+    folder: src/app/euromat/content/results
+    format: json
+    create: true
+    slug: '{{fields.language}}'
+    fields:
+      - label: '[Meta] Language'
+        name: language
+        hint: Select the language for this page.
+        widget: select
+        options:
+          - label: English
+            value: en
+          - label: Deutsch
+            value: de
+          - label: Français
+            value: fr
+          - label: Polski
+            value: pl
+      - label: '[Meta] Page URL'
+        name: url
+        widget: string
+        hint: >-
+          An optional, localised URL which will be used for this page (e.g.
+          https://euromat.info/#/<PAGE_URL>)
+        optional: true
+      - label: '[Meta] Site Name'
+        name: title
+        widget: string
+        hint: The name for the page that will appear in the browser tab.
+      - label: Headline for results
+        name: headline
+        widget: string
+      - label: Description under headline
+        name: entry
+        widget: string
+      - label: A short hint for users to know they can click the parties
+        name: hint
+        widget: string
+      - label: Final words
+        name: thanks
+        widget: string
+      - label: '[Label] Button to start over'
+        name: startoverBtn
+        widget: string
+      - label: '[Label] Button to go back to index'
+        name: indexBtn
+        widget: string
   - name: introduction
     label: '[Page] Introduction'
     description: The introduction page of Euromat.

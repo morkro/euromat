@@ -1,0 +1,10 @@
+{
+  "language": "en",
+  "url": "theses",
+  "title": "Theses",
+  "backBtn": "Back",
+  "positive": "I agree",
+  "neutral": "Neutral",
+  "negative": "I disagree",
+  "skipped": "Skip thesis"
+}

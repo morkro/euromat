@@ -11,7 +11,7 @@
         type="button"
         @click="goBack"
       >
-        {{ $t('euromat.euromat.back') }}
+        {{ $t('theses.backBtn') }}
       </button>
     </div>
 
@@ -45,6 +45,7 @@
 
 <script>
   import { options, theses } from '@/data'
+  // import { getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'EuroMat',
@@ -61,6 +62,7 @@
     },
 
     data () {
+      console.log(this.$i18n)
       return {
         currentThesis: 0,
         thesesCount: theses.length,
@@ -90,13 +92,16 @@
       options () {
         return options.map(option =>
           Object.assign({}, option, {
-            label: this.$t(`euromat.options.${option.position}`),
+            label: this.$t(`theses.${option.position}`),
             icon: this.getIconName(option.position)
           }))
         .filter(option => option.position !== 'skipped')
       },
       optionSkip () {
-        return this.options[this.options.length - 1]
+        const skipped = options.find(option => option.position === 'skipped')
+        return Object.assign({}, skipped, {
+          label: this.$t('theses.skipped')
+        })
       }
     },
 
@@ -145,8 +150,8 @@
         }
 
         this.$router.push({ path: this.isGermanLocale
-          ? '/thesen/gewichtung'
-          : '/theses/emphasis'
+          ? '/de/thesen/gewichtung'
+          : '/en/theses/emphasis'
         })
       }
     }

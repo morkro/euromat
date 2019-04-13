@@ -1,17 +1,20 @@
-import i18n from './i18n'
+import { DEFAULT_LOCALE } from '@/config'
+import i18n from '@/i18n'
+import localI18n from './i18n'
 import { storageAvailable } from '@/helper/storage'
+import { getTranslatedAliases, getTranslatedTitles } from '@/i18n/helper'
 
 function hasAnswers (to, from, next) {
   if (storageAvailable('sessionStorage') && !sessionStorage.getItem('euromat-answers')) {
-    next({ path: '/' })
+    next({ path: `/${i18n.locale}/` })
   }
   next()
 }
 
 export default [
   {
-    path: 'thesen',
-    alias: 'theses',
+    path: localI18n[DEFAULT_LOCALE].theses.url,
+    alias: getTranslatedAliases(localI18n, 'theses'),
     component: () => import('./components/index' /* webpackChunkName: "euromat" */),
     children: [
       {
@@ -19,36 +22,27 @@ export default [
         name: 'euromat',
         component: () => import('./components/euromat' /* webpackChunkName: "euromat" */),
         meta: {
-          title: {
-            de: i18n.de.euromat.euromat.pageTitle,
-            en: i18n.en.euromat.euromat.pageTitle
-          }
+          title: getTranslatedTitles(localI18n, 'theses')
         }
       },
       {
-        path: 'gewichtung',
-        alias: 'emphasis',
+        path: 'emphasis',
+        alias: getTranslatedAliases(localI18n, 'emphasis'),
         name: 'emphasis',
         component: () => import('./components/emphasis' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
-          title: {
-            de: i18n.de.euromat.emphasis.pageTitle,
-            en: i18n.en.euromat.emphasis.pageTitle
-          }
+          title: getTranslatedTitles(localI18n, 'emphasis')
         }
       },
       {
-        path: 'ergebnis',
-        alias: 'results',
+        path: 'results',
+        alias: getTranslatedAliases(localI18n, 'results'),
         name: 'results',
         component: () => import('./components/results' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
-          title: {
-            de: i18n.de.euromat.results.pageTitle,
-            en: i18n.en.euromat.results.pageTitle
-          }
+          title: getTranslatedTitles(localI18n, 'results')
         }
       }
     ]

@@ -1,12 +1,12 @@
 <template>
   <section>
     <header class="results-header">
-      <h1>{{ $t('euromat.results.headline') }}</h1>
+      <h1>{{ $t('results.headline') }}</h1>
     </header>
 
     <div class="results-content">
-      <p>{{ $t('euromat.results.entry') }}</p>
-      <span>{{ $t('euromat.results.hint') }}</span>
+      <p>{{ $t('results.entry') }}</p>
+      <span>{{ $t('results.hint') }}</span>
     </div>
 
     <ul class="party-results">
@@ -36,19 +36,19 @@
     </ul>
 
     <div class="results-ctrls">
-      <p>{{ $t('euromat.results.thanks') }}</p>
+      <p>{{ $t('results.thanks') }}</p>
       <router-link tag="a"
         class="btn"
-        :to="{ path: '/' }"
+        :to="{ path: `/${$i18n.locale}/` }"
       >
-        {{ $t('euromat.results.buttons.index') }}
+        {{ $t('results.indexBtn') }}
       </router-link>
       <router-link
         tag="a"
         class="btn btn-dark btn-small"
-        :to="{ path: isGermanLocale ? '/thesen' : '/theses' }"
+        :to="{ path: startOverUrl }"
       >
-        {{ $t('euromat.results.buttons.startover') }}
+        {{ $t('results.startoverBtn') }}
         <feather-rotate-cw />
       </router-link>
     </div>
@@ -56,6 +56,7 @@
 </template>
 
 <script>
+  import { getTranslatedUrl } from '@/i18n/helper'
   import {
     MAX_POINTS,
     BASE_POINTS,
@@ -91,6 +92,9 @@
     computed: {
       isGermanLocale () {
         return this.$i18n.locale === 'de'
+      },
+      startOverUrl () {
+        return getTranslatedUrl('theses')
       }
     },
 
@@ -107,7 +111,7 @@
       }
 
       if (!emphasized) {
-        this.$router.push({ path: this.isGermanLocale ? '/thesen' : '/theses' })
+        this.$router.push({ path: this.isGermanLocale ? '/de/thesen' : '/en/theses' })
       }
 
       this.emphasized = emphasized
@@ -126,9 +130,7 @@
 
     methods: {
       getPartyPath (token) {
-        return this.isGermanLocale
-          ? `/partei/${token}`
-          : `/party/${token}`
+        return `${getTranslatedUrl('party')}/${token}`
       },
       getPartyLogo (token) {
         return require(`@/assets/svg/${token.toLowerCase()}-logo.svg`)
