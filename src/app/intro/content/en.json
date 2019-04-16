@@ -1,7 +1,12 @@
 {
   "language": "en",
+  "url": "faq",
   "title": "Landing page",
-  "headline": "Welcome! This is your EUROMAT for the European Elections 2019!",
-  "content": "You‘re thinking: What‘s a EUROMAT? The EUROMAT is not a regular voting advice application. It is your digital tool navigating you through the policies and visions of the current European parties. The goal of the EUROMAT is to support you to make an informed choice for the upcoming European elections!\n\n**Why the European parties?** \n\nDid you know? Though we have national parties on our ballots on election day, they are affiliated to _European parties_. On the European level, our national political parties bundle with other parties which share similar political ideas and visions and are active in other Member States. The European parties (for exemple PES, EPP, ALDE or the European Green Party) are represented by party groups in the European Parliament. In the end, those will determine the decision-making process in the European Parliament.\n\nWhich European party matches your opinions and future vision of the European Union most? Don‘t hesitate, find out now! After finishing the EUROMAT, you will be provided with an overview of the affiliations of your national parties to the European ones. \n\n**Last but not least: Whatever your result, the final choice is up to YOU!** \n\nThe EUROMAT focuses mainly on one thing – making your voting experience fun while providing you with all essential information about the main positions of the European parties.",
-  "button": "Get started"
+  "headline": "Frequently Asked Questions",
+  "questions": [
+    {
+      "title": "What is the EUROMAT?",
+      "answer": "The EUROMAT presents 33 statements on different European policy areas - such as migration or security - which you agree, disagree with or react neutrally to. Ultimately, your answers will be compared with the positions of the European parties, and the matching results presented as a percentage of correspondence. Additionally, we will give you an overview of the corresponding national parties affiliated with the respective European party. \n\nIn total, 21 parties were contacted for the compilation of statements and answers:  \\\nEuropean People's Party (EPP), Party of European Socialists (PES), Alliance of Conservatives and Reformists in Europe (ACRE),European Christian Political Movement (ECPM),  Alliance of Liberals and Democrats for Europe (ALDE),  European Democratic Party (EDP), Party of the European Left (PEL), Nordic Green Left Alliance (NGLA), European Green Party (EGP), European Free Alliance (EFA), Movement for a Europe of Nations and Freedom (MENF), VOLT, Alliance for Peace and Freedom (APF), Alliance for European National Movements (AENM), Initiative of Communist and Workers' Parties, DiEM25, European Federalist Party, European Pirate Party (PPEU), Euro Animal 7 (EA7), Liberal South East European Network (LIBSEEN), Europe Democracy Esperanto (EDE).\n\n12 of those 21 parties have responded to our questionnaire and are represented in the EUROMAT. We could not include the other parties in the further EUROMAT evaluation."
+    }
+  ]
 }
