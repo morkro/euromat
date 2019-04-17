@@ -3,6 +3,9 @@ node_modules
 /dist
 .netlify
 
+# Test files
+/bin/xlsx-data/test
+
 # local env files
 .env.local
 .env.*.local
