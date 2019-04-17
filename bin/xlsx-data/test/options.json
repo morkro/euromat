@@ -1,0 +1,18 @@
+[
+  {
+    "position": "positive",
+    "id": 0
+  },
+  {
+    "position": "neutral",
+    "id": 1
+  },
+  {
+    "position": "negative",
+    "id": 2
+  },
+  {
+    "position": "skipped",
+    "id": 3
+  }
+]
