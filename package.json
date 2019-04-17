@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "npm run svg && node run data && vue-cli-service serve",
-    "build": "npm run svg && npm run admin && node run data && vue-cli-service build --modern",
+    "serve": "npm run svg && npm run data && vue-cli-service serve",
+    "build": "npm run svg && npm run admin && npm run data && vue-cli-service build --modern",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "svg": "vsvg -s ./src/assets/svg -t ./src/assets/icons",
