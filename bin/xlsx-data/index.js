@@ -21,7 +21,7 @@ function createPartyPositionMap (sheetName) {
   if (!sheetName) return []
   const rawData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName])
   return rawData.map(block => ({
-    thesis: block.Thesis,
+    thesis: parseInt(block.Thesis, 10),
     position: block.Position,
     statement: createLocaleMap('Statement', block)
   }))
@@ -85,15 +85,19 @@ async function createPartiesDataset (sheetName, partySheets) {
   }
 
   const rawData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName])
-  const data = rawData.map(block => ({
-    id: parseInt(block.ID, 10),
-    token: block.Token,
-    european_profile: {
-      party: createLocaleMap('European Party', block)
-    },
-    program: createLocaleMap('Program', block),
-    positions: createPartyPositionMap(partySheets.find(sName => sName === block.Token))
-  }))
+  const data = rawData.map(block => {
+    const token = block.Token.toUpperCase()
+    return {
+      id: parseInt(block.ID, 10),
+      token,
+      name: createLocaleMap('European Party', block),
+      european_profile: {
+        party: createLocaleMap('European Party', block)
+      },
+      program: createLocaleMap('Program', block),
+      positions: createPartyPositionMap(partySheets.find(sName => sName.toUpperCase() === token))
+    }
+  })
 
   await writeDataset('parties.json', data)
 }

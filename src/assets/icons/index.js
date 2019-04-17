@@ -1,5 +1,7 @@
 /* eslint-disable */
+require('./alde-logo')
 require('./cdu-logo')
+require('./diem25-logo')
 require('./euromat-logo')
 require('./european-stars')
 require('./fdp-logo')

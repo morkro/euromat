@@ -130,7 +130,12 @@
         return `${getTranslatedUrl('party')}/${token}`
       },
       getPartyLogo (token) {
-        return require(`@/assets/svg/${token.toLowerCase()}-logo.svg`)
+        try {
+          return require(`@/assets/svg/${token.toLowerCase()}-logo.svg`)
+        } catch (error) {
+          console.warn(`No logo found for party "${token}", falling back to initials.`, error.message)
+          return ''
+        }
       },
       getScorePercentage (score) {
         return (score / this.totalScoredPoints * 100).toFixed(2)

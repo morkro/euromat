@@ -38,8 +38,8 @@
   {
     "id": 3,
     "category": {
-      "de": "Atomenergie",
-      "en": "Nuclear Energy"
+      "de": "Energiepolitik",
+      "en": "Energy Policy"
     },
     "thesis": {
       "de": "Alle Mitgliedsstaaten sollen bis spätestens 2040 aus der Atomkraft aussteigen.",
@@ -98,12 +98,12 @@
   {
     "id": 8,
     "category": {
-      "de": "Verteilung Flüchtlinge:",
-      "en": "Distribution Refugees"
+      "de": "Verteilung von Asylbewerbern",
+      "en": "Asylum Seekers Allocation"
     },
     "thesis": {
-      "de": "Innerhalb der EU sollten Flüchtlinge nach einem Verteilungsschlüssel auf alle Mitgliedsstaaten verteilt werden.",
-      "en": "The refugees should be distributed between every member state based on a quota within the EU."
+      "de": "Innerhalb der EU sollten Asylbewerber nach einem Verteilungsschlüssel auf alle Mitgliedsstaaten verteilt werden.",
+      "en": "Asylum seekers should be distributed between every member state based on a quota within the EU."
     },
     "terminology": []
   },
@@ -122,8 +122,8 @@
   {
     "id": 10,
     "category": {
-      "de": "CO2 Steuer",
-      "en": "CO2 Tax"
+      "de": "Energiepolitik",
+      "en": "Energy Policy"
     },
     "thesis": {
       "de": "Es soll eine EU-weite CO2-Steuer geben.",
@@ -231,7 +231,7 @@
     "id": 19,
     "category": {
       "de": "Abschiebung",
-      "en": "Deportation"
+      "en": "Return Policy"
     },
     "thesis": {
       "de": "Straffällig gewordene Asylbewerber und Menschen ohne anerkanntem Aufenthaltsstatus sollen aus der EU ausgewiesen werden.",
@@ -243,7 +243,7 @@
     "id": 20,
     "category": {
       "de": "Bargeld",
-      "en": "Cash"
+      "en": "Money"
     },
     "thesis": {
       "de": "Die EU sollte langfristig Bargeld abschaffen.",
