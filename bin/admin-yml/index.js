@@ -1,7 +1,7 @@
-const fs = require('fs')
 const yaml = require('js-yaml')
 const ora = require('ora')
 
+const { writeFile } = require('../helper')
 const {
   category,
   baseConfig,
@@ -12,15 +12,7 @@ const {
   markdownField,
   listField,
   objectField
-} = require('./config')
-
-const writeFile = (path, data, opts = 'utf8') =>
-  new Promise((resolve, reject) => {
-    fs.writeFile(path, data, opts, (err) => {
-      if (err) reject(err)
-      else resolve()
-    })
-  })
+} = require('./helper')
 
 const PATH_DESTINATION = './public/admin/config.yml'
 

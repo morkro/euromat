@@ -1,0 +1,1087 @@
+[
+  {
+    "id": 0,
+    "token": "ALDE",
+    "european_profile": {
+      "party": {
+        "de": "Allianz der Liberalen und Demokraten für Europa",
+        "en": "Alliance of Liberals and Democrats for Europe (ALDE)"
+      }
+    },
+    "program": {
+      "en": "https://www.aldeparty.eu/sites/alde/files/40-Resolutions/2019_freedom_opportunity_prosperity_the_liberal_vision_for_the_future_of_europe.pdf"
+    },
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "skipped",
+        "statement": {
+          "de": "Nationale Kompetenz",
+          "en": "National competence",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "1",
+        "position": "neutral",
+        "statement": {
+          "de": "Die ALDE begrüßt eine umfassendere europäische Kooperation bei den Verteidigungsaufwendungen und dem PESCO-Abkommen, und sie ermutigt die Mitgliedstaaten dazu, die Verteidigungszusammenarbeit in Bereichen gegenseitigen Vorteils zu intensiveren, und zwar in verstärkter Kooperation mit und in Ergänzung zur NATO, die das Rückgrat der militärischen Zusammenarbeit und der Garant für die kollektive Verteidigung Europas bleiben wird. (2019 Manifesto)",
+          "en": "\"We welcome greater European cooperation in defence spending and the agreement of PESCO, and encourage Member States to further increase defence cooperation in areas of mutual advantage, in greater cooperation with and to complement NATO which remains the backbone of military cooperation and guarantor of collective defence for Europe.\" (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "2",
+        "position": "neutral",
+        "statement": {
+          "de": "Die ALDE ist der Meinung, dass die Beschlüsse auf derjenigen Ebene –der lokalen oder regionalen Ebene, der nationalen Ebene oder der EU –zu fassen sind, die Ihnen am besten und in der direktesten Weise nützt. Wir unterstützen Initiativen zur Neubewertung und Neuverhandlung der Zuständigkeiten zwischen der Europäischen Union und ihren Mitgliedstaaten, wobei die Grundsätze der Vereinfachung und Subsidiarität nicht vergessen werden dürfen. (2019 Manifesto)",
+          "en": "\"We believe that decisions should be taken at the appropriate local and regional, national or EU level that serves you best and most directly. We support initiatives to re-evaluate and re-negotiate of the division of competencies between the European Union and its Member States, strongly keeping in mind the principles of simplification and subsidiarity.\" (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "3",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "4",
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "5",
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "6",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "7",
+        "position": "negative",
+        "statement": {
+          "de": "Die Datenschutzpolitik muss harmonisiert und ausgeglichen werden, damit die Zukunft der EU als Standort für Innovation gesichert werden kann. [...] Das Ansprechen der Fragen der Cybersicherheit, des Datenschutzes und der Privatsphäre ist für die ALDE selbstverständlich, denn wenn diese grundlegenden Voraussetzungen nicht gegeben sind, kann es keine digitale Gesellschaft geben. (2019 Manifesto)",
+          "en": "\"Data protection policies need to be harmonised and balanced in order to ensure the EU's future as place of innovation […] Addressing the issues of cyber security, data protection, and privacy is selfevident for us, there can be no digital society without these base requirements.\" (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "8",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "9",
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "10",
+        "position": "neutral",
+        "statement": {
+          "de": "Die ALDE befürwortet einen europäischen Rahmen für Mindeststeuern auf CO2-Emissionen für Sektoren außerhalb des EU-Emissionshandelssystems. Allerdings ist darauf zu achten, dass die Wettbewerbsfähigkeit der EU-Industrie nicht beeinträchtigt wird. (2012 Resolution)",
+          "en": "\"An EU framework for minimum national carbon taxes should be considered for the sectors outside the ETS (Emissions Trading System), but due care needs to be taken not to harm the competitiveness of EU industry.\" (2012 resolution)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "11",
+        "position": "positive",
+        "statement": {
+          "de": "Die ALDE ist bestrebt,die Agrarsubventionen substanziell zu reformieren und zu überdenken, da die Reformierung der Gemeinsamen Agrarpolitik einen wichtigen Schritt hin zu den Zielen der Nachhaltigkeit sowie zu höherer Transparenz und Gleichberechtigung bei der Zahlung von Subventionen sein wird. (2019 Manifesto)",
+          "en": "\"We aim to substantially reform and rethink agricultural subsidies as reforming the Common Agricultural Policy will be an essential step to the sustainability goals, and greater transparency and equality in the subsidies payment.\" (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "12",
+        "position": "skipped",
+        "statement": {
+          "de": "Die Bürgerinnen und Bürger Europas müssen im Mittelpunkt unserer Sicherheits-und Verteidigungspolitik stehen, die konkrete Aktionen mit engerer Kooperation von der Bekämpfung des Terrorismus bis zu effektiveren Bemühungen zur Sicherung der EU-Außengrenze mit umfassen sollte. Die Stärkung der Befugnisse von Europol und die Intensivierung der Zusammenarbeit beim Austausch von Informationen sind die notwendigen nächsten Schritte, die wir zu nehmen haben. Dies sollte auch eine verbesserte Fähigkeit der Institutionen und Mitgliedstaaten der EU umfassen, unsere Volkswirtschaften und Gesellschaften vor hybriden Aktivitäten wie Desinformationskampagnen, Cyber-Spionage, Cyber-Attacken und einschlägiger Kriminalität zu schützen. (2019 Manifesto)",
+          "en": "\"European citizens must be at the centre of our security and defence policy that must involve concrete actions starting with ever-closer cooperation to fight terrorism as well as more effective efforts to secure the EU’s external border. Upgrading Europol’s powers and increasing cooperation in intelligence sharing are necessary next steps we need to take. It must also involve greater capacity across EU institutions and Member States to defend our economies and societies against hybrid activities, such as disinformation campaigns, cyber espionage, cyber-attacks and crime.” (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "13",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "14",
+        "position": "negative",
+        "statement": {
+          "de": "Die ALDE spricht sich dafür aus, die Sanktionen gegen die russische Regierung aufrechtzuerhalten, bis diese die Besetzung der Krimhalbinsel beendet und alle Schritte des Minsker Friedensabkommens implementiert. (2016 Resolution)",
+          "en": "ALDE is in favor of maintaining and upholding sanctions against the Russian government unless it ceases to occupy the Crimean Peninsula and fully implements all steps of the Minsk Peace Agreement. (2016 resolution)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "15",
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "16",
+        "position": "positive",
+        "statement": {
+          "de": "EU und Mitgliedsstaaten sollten sich auf das Problem der Jugendarbeitslosigkeit und die großen Unterschiede innerhalb Europas konzentrieren, um eine Lösung für dieses dringende Problem zu finden. (2016 Resolution)",
+          "en": "\"The EU and the Member States should focus on the problem of youth unemployment and the broad differences within Europe, in order to seek a solution to this pressing issue.\" (2016 resolution)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "17",
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "18",
+        "position": "neutral",
+        "statement": {
+          "de": "Die ALDE ist der Meinung, dass die EU eine gemeinsame Steuerbemessungsgrundlage einführen sollte, es aber den Mitgliedsstaaten überlässt, den Steuersatz zu bestimmen. (2014 Resolution)",
+          "en": "The European Union should introduce a common consolidated tax base, but give the Member States the possibility to decide on tax rates. (2014 resolution)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "19",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "20",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "21",
+        "position": "neutral",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "22",
+        "position": "positive",
+        "statement": {
+          "de": "Vielleicht nicht in erheblichem Umfang, aber die ALDE fordert, dass die EU-Mitgliedstaaten auch in ihre eigene Sicherheit und Verteidigung investieren und ihre eigenen militärischen Fähigkeiten koordiniert verbessern. (2017 Resolution)",
+          "en": "Perhaps not substantially but we call for \"EU Member States to also invest in their own security and defence, and improve their own military capabilities in a coordinated manner.\" (2017 resolution)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "23",
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "24",
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "25",
+        "position": "positive",
+        "statement": {
+          "de": "Wir glauben, dass das Europäische Parlament nur einen Sitz in Brüssel haben sollte. (2019 Manifesto)",
+          "en": "\"We believe the European Parliament should only have one seat in Brussels\" (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "26",
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "27",
+        "position": "negative",
+        "statement": {
+          "de": "Der freie Verkehr von Personen in der EU ist für die Weiterführung der europäischen Integration und den Wohlstand Europas unerlässlich,und aus diesem Grund ist ALDE gegen jegliche Wiedereinführung von ständigen Kontrollen an den Binnengrenzen der Schengener Vertragsstaaten. (2019 Resolution)",
+          "en": "\"Free movement of people within the EU is vital for continued European integration and prosperity, so we oppose any re-introduction of permanent internal border controls between Schengen member states.\" (2019 Manifesto)",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "28",
+        "position": "skipped",
+        "statement": {
+          "de": "Nationale Kompetenz",
+          "en": "National competence",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": "29",
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-",
+          "fr": "Statement der Partei"
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "skipped",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "token": "DiEM25",
+    "european_profile": {
+      "party": {
+        "de": "Bewegung Demokratie in Europa 2025",
+        "en": "Democracy in Europe Movement 2025"
+      }
+    },
+    "program": {
+      "en": "https://diem25.org/wp-content/uploads/2016/02/diem25_english_long.pdf"
+    },
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "positive",
+        "statement": {
+          "de": "Um informierte Entscheidungen zu treffen sollten die Bürger Europas ihre gemeinsame Geschichte, Institutionen und die EU Politik kennen.",
+          "en": "European citizens must know about their common history, their institutions, and EU policies in order to make informed democratic decisions."
+        }
+      },
+      {
+        "thesis": "1",
+        "position": "positive",
+        "statement": {
+          "de": "So lange militärische Kapazitäten (zur reinen Verteidigung) nötig sind, sollte die EU nicht weiter unnötige Ressourcen vergeuden und seine Streitkräfte zusammenschließen. Dies ist auch ein Schritt in eine Zukunft, in der Krieg ziwschen den Mitgliedern der EU unmöglich sein wird.",
+          "en": "As long as (purely defensive) military capacties are required, the EU should stop wasting resources and merge military forces. This is also a further step to make future wars between EU countries all but impossible."
+        }
+      },
+      {
+        "thesis": "2",
+        "position": "negative",
+        "statement": {
+          "de": "European Spring kämpft für eine Europäische Konstitution, die von den Bürgern verfasst und verabschiedet wird. Es soll die Entscheidung der Bürger sein, welche Kompetenzen die EU hat und welche Länder, Regionen und Kommunen innehaben.",
+          "en": "The European Spring fights for a European Constitution which is written and adopted by the European citizens. It will be the citizens' prerogative to decide which competencies should be at the European level and which belong to lower levels such as countries, regions and communes."
+        }
+      },
+      {
+        "thesis": "3",
+        "position": "positive",
+        "statement": {
+          "de": "Mit unserem Green New Deal wollen wir einen schnellen Wechsel hin zu erneuerbarer Energie erwirken und ein Auslaufen von Subventionen für nicht erneuerbare Energie wie Kohle und Atomenergie erreichen.",
+          "en": "With our Green New Deal, we allow a fast  adoption of renewable  energy sources and  phasing out of all  subsidies for non-renewable  energy system including coal and atomic energy"
+        }
+      },
+      {
+        "thesis": "4",
+        "position": "negative",
+        "statement": {
+          "de": "Generell sollten Produkte, die in der EU produziert werden, ohne Schutz vor Wettbewerb auskommen - Handelskriege sind kein adequates Mittel um ein gerechteres Wachstum in der Welt zu erreichen. Allerdings sollten Produkte, die im Einklang mit Umwelt-, Gesundheits und Arbeits- Standards produziert wurden nicht mit Produkten konkurrieren, die im Ausland zu einem niedrigeren Standard hergestellt wurden. Nichtsdestrotrotz sollte es Ausnahmen für Produkte aus dem globalen Süden geben.",
+          "en": "Generally, European products do not and should not need protection from competition — and trade wars are not conducive to equitable growth in any part of the world. Products that are produced according to strict environmental, health, labour and other standards, however, should be protected from having to compete with foreign products produced according to lower standards. There should be sensible exceptions for imports from the global south."
+        }
+      },
+      {
+        "thesis": "5",
+        "position": "negative",
+        "statement": {
+          "de": "Alle EU Mitgliedsstaaten sollten natürlich zu einer gemeinsamen Migrationsstrategie beitragen. Aber wir lehnen die Haltung zu einer \"sicheren\" europäischen Grenze ab - und weisen entschieden darauf hin, dass mehr Ressourcen nötig sind, um Migranten zu schützen, die ihr Leben risktieren. Wir sind überzeugt, dass die Sicherheit an den Grenzen gewährleistet sein wird, wenn es eine sensible Migrationspolitik gibt.",
+          "en": "All EU Member-States should, of course, contribute to a common immigration strategy. But we reject the framing around 'securing' the European border — and insist that more resources should be spent saving migrants who risk their lives there. Indeed, security at the borders will become much less difficult if we establish a sensible immigration policy."
+        }
+      },
+      {
+        "thesis": "6",
+        "position": "positive",
+        "statement": {
+          "de": "Es gibt nach wie vor viel zu wenig Frauen in leitenden Positionen. Wir fordern eine faire Vertretung aller Geschlechter in Führungspositionen in der EU Administration, dem Europäischen Parlament, großen Unternehmen und Universitäten.",
+          "en": "There are still far too few women in management positions. We demand fair representation of all genders in leadership positions at the EU administration, the European Parliament, big companies and universities."
+        }
+      },
+      {
+        "thesis": "7",
+        "position": "negative",
+        "statement": {
+          "de": "European Spring wird die Rechte der EU Bürger dahingehend stärken, Kontrolle über die Nutzung, Speicherung und Löschung ihrer eigenen Daten zu haben. Dies betrifft auch die Datenerfassung von Staaten und internationalen Geheimdiensten.",
+          "en": "The European Spring will strengthen the rights of Europe's citizens*to \r\ncontrol the use, storage and deletion of their data. This also includes \r\ndata collection by state and international agencies. We need to avoid \r\nthe threat of an orwellian future which may arrive quickly if unlimted \r\ndata collection happens to coincide with authoritarian goverment \r\ntakeovers."
+        }
+      },
+      {
+        "thesis": "8",
+        "position": "neutral",
+        "statement": {
+          "de": "Jeder EU Staat sollte einen gerechten Anteil an Geflüchtete aufnehmen; Dennoch sollten die Präferenzen der Geflüchteten Priorität haben (basierend auf dem Beruf, der Familie und den sprachlichen Fähigkeiten des Einzelnen).",
+          "en": "Each EUState should accept its fair share of refugees; however the refugees wishes (based on lanour market regarding the person's profession, family, language skills etc.) should have priority"
+        }
+      },
+      {
+        "thesis": "9",
+        "position": "negative",
+        "statement": {
+          "de": "Es sollte strikte Kriterien zur Aufnahme neuer EU Mitgliedsstaaten geben. Diese Kriterien sollten auf der strikten Einhaltung von Menschenrechten, Rechtsstaatlichkeit und Korruptionslevel der einzelnen Kandidaten basiert sein.",
+          "en": "There shold be strict criteria for admission of new members to the EU. These criteria should be based, among other things, on the effective protection of human rights and the rule of law as well as corruption levels in the candidate state."
+        }
+      },
+      {
+        "thesis": "10",
+        "position": "positive",
+        "statement": {
+          "de": "Wir werden Preise auf den Ausstoß von Kohlestoff erlassen, um die EU auf Linie mit den von Wissenschaftlern aufgestellten Emissionszielen zu bringen. Dies ist Teil unserers Green New Deal für Europa, der unter anderem das Auslaufen von nicht nachhaltigen und umweltschädlichen Formern der Energiegwinnung vorsieht (Kohl und Atomenergie) sowie eine Reform des Emissionshandels.",
+          "en": "We will raise prices on carbon to bring Europe in line with emissionstargets suggested by scientists. This is part of our more comprehensive Green new deal for Europe, which includes - among other things - adoption of renewable energy sources and phasing out all non-sustainable and environmentally damaging forms of energy including coal and atomic energy and the reform of the emission trading system and include more sectors."
+        }
+      },
+      {
+        "thesis": "11",
+        "position": "positive",
+        "statement": {
+          "de": "European Spring wird die Subventionierung für große Agrarunternehmen einstellen. Dennoch müssen wir kleine, nachhaltige Bauern finanziell unterstützen, die den Tierschutz und die Umwelt respektieren.",
+          "en": "European Spring will stop subsidies to large, unsustainable agriculture enterprises. But we must subsidise small, sustainable farms which respect animal welfare and the environment."
+        }
+      },
+      {
+        "thesis": "12",
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": "13",
+        "position": "positive",
+        "statement": {
+          "de": "Der freie Markt beeinflusst Arbeitnehmer in ganz Europa. Deshalb brauchen wir auch eine gemeinsame Arbeitsmarktpolitik, und einen einen Mindestlohn. Dieser sollte sich an den Lebensunterhaltungskosten orientieren und nicht an den Durchschnittslöhnen.",
+          "en": "The EU's free market affects employees all over Europe.  Thus we also need a common  policy regarding, among other things, minimum wages. The minimum wage shold be tied to the cost of living, however, not the average income."
+        }
+      },
+      {
+        "thesis": "14",
+        "position": "negative",
+        "statement": {
+          "de": "Die EU sollte eine durchgängige Sanktionspolitik allen Staaten gegenüber haben, die einen Anreiz gibt, internationaler Regeln zu befolgen. Speziell Sanktionen gegen Russland sollten abgeschafft werden, die nicht im Einklang mit der Zurückhaltung von Sanktionen in anderen Fällen stehen.",
+          "en": "The EU should have a consistent sanctions policy towards all states that creates incentives for following international rules. Specific sanctions against Russia that are inconsistent with the absence of sanctions in other cases should be lifted."
+        }
+      },
+      {
+        "thesis": "15",
+        "position": "neutral",
+        "statement": {
+          "de": "Dieser Aussage liegt die teilweise falsche Annahme zu Grunde, dass Missinformationen kriminell sind. Wir brauchen starke Sicherheitsstandards, die mit Hilfe des Internets vor gefährlicher Missinformation, Mobbing und Deformationen schützen. Strafverfolgung sollte allerdings nur ein Teil der schützenden Maßnahmen darstellen. Wichtig ist, dass der Schutz vor dem unrechtmäßgem Nutzen des Internets die Zensur ist. Solch eine Maßnahme muss immer im Einklang mit der freien Meinungsäußerung stehen. Im Zeifel sollte die freie Meinungsäußerung den Vorzug haben.",
+          "en": "The question rests on the partially inccorect premise that, for example, misinformation is criminal. We need strong safety mechanisms to protect against dangerous misinformation, bullying, and defamation with the help of the internet. Prosecution, however, should be only a part of that protection mechanism. Most importantly any protection against illegitimate use of the internet is, effectively, censorship. Thus such protection must be balanced against the principles of free speech. In case of doubt free speech should prevail."
+        }
+      },
+      {
+        "thesis": "16",
+        "position": "negative",
+        "statement": {
+          "de": "Die hohen Arbeitslosenzahlen sollten von allen Mitgliedsstaaten der EU gemeinschaftlich bekämpft werden. Zusätzlichen brauchen wir eine gemeinsame Sozialpolitik, die sicher stellt, das Armut in der EU beseitigt wird. Die finanzielle Unterstützung ärmerer EU Staaten durch reicherer EU Staaten wird zu einer Stabilität und Prosperität der gesamten EU beitragen und so allen zu Gute kommen. Wegen all diesen Gründe sollte Jugendarbeitslosigkeit auf nationaler und EU Ebene bekämpft werden.",
+          "en": "High levels of youth (and other) unemployment should be fought jointly by all EU states. In addition we need a common EU social policy making sure that poverty is eradicated all over the EU. Richer EU regions transferring money to less wealthy ones will share stability and prosperity all over the EU and thus also benefit the richer regions. For all of these reasons, youth unemployment needs to be combatted at BOTH the national and EU levels."
+        }
+      },
+      {
+        "thesis": "17",
+        "position": "positive",
+        "statement": {
+          "de": "Tonnnen von Gewicht zu bewegen nur um eine 80 kg schwere Person zu bewegen verschwendet enorme Ressourcen. Wir müssen nicht nur den öffentlichen Verkehr stärken sondern auch nachhtaltige und umweltfreundlichen Verkehrsmittel wie Fahrräder und E-Bikes.",
+          "en": "Moving a ton of weight to move a 80 Kg person is an   enormous waste of resources. But we need not only enhance public transport but also support sustainable, and environmentally friendly personal transport such as bicycles and ebikes."
+        }
+      },
+      {
+        "thesis": "18",
+        "position": "positive",
+        "statement": {
+          "de": "Es wird geschätzt, dass 1 Trillionen Euro im Jahr auf Grund von Steuervermeidung verlohren gehen. Die Mitgliedsstaaten der EU sollten nicht gezwungen sein, mit einander in einen Steuerwettbewerb treten zu müssen, um neue Arbeitsplätze zu sichern. Private Unternehmen sollten nationale Unterschiede nicht ausnutzen können. European Spring will diese Situation verändern und ein Minimum an Unternehemnssteuer erheben um dafür zu Sorgen, das alle Firmen, die in Europa angesiedelt sind einen fairen Anteil an Steuern zahlen. Generell braucht Europa eine Steuerharmonisieren, die an lokale Gegebenheiten agepasst werden kann.",
+          "en": "It is estimated that up to 1 trillion Euro is lost per year due to tax avoidance and tax evasion. The countries of Europe should not be forced to engage in tax competition to attract jobs and private companies should not be allowed to exploit such divisions to avoid paying taxation. The European Spring wants to change situation by introducing a minimum level of corporate taxation, ensuring that all companies operating within the EU pay their fair share. Moreover, Europe generally needs tax harmonisation, allowing, however, for consideration of local circumstances."
+        }
+      },
+      {
+        "thesis": "19",
+        "position": "negative",
+        "statement": {
+          "de": "Einige Personen unterliegen der Ausweisung, so lange ihre Menschenrechte im Aufnahmeland garantiert sind. Personen ohne Aufentaltstitel müssen individuell angehört werden - mit dem Feingefühl für die Umstände, unter denen sie nach Europa gekommen sind. Eine Ausweisung ist nur in wenigen Fällen die richtige Antwort - wir lehnen die Aussage ab.",
+          "en": "Certain persons may be liable to expulsion, but only if their human rights are guaranteed in the receiving state. Persons lacking residence permits must be dealt with on a case by case basis — but with compassion for circumstances that led them to Europe. Expulsion is rarely the answer, so we disagree with the statement."
+        }
+      },
+      {
+        "thesis": "20",
+        "position": "negative",
+        "statement": {
+          "de": "Die Nutzung von elektrischem Geld erlaubt eine Umfassende Nachverfolgung der Bürger. Dies ist Teil einer orwellschen Zukunft, die es zu Verhindern gilt.",
+          "en": "Fully electronic money would allow comprehensive tracking of citizens'. This is part of an orwellian future that we must avoid."
+        }
+      },
+      {
+        "thesis": "21",
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": "22",
+        "position": "negative",
+        "statement": {
+          "de": "Die EU sollte mehr Geld in Bildung, Gesundheit und Nachhaltigkeit investieren.",
+          "en": "The EU needs to spend more money in important areas like education, health and sustainable efforts for disarmament."
+        }
+      },
+      {
+        "thesis": "23",
+        "position": "positive",
+        "statement": {
+          "de": "Der freie Markt der EU wirkt sich auf alle Arbeitssuchende aus.",
+          "en": "The EU's free market affects employment seekers in all of Europe."
+        }
+      },
+      {
+        "thesis": "24",
+        "position": "positive",
+        "statement": {
+          "de": "Freihandelsabkommen mit Drittstaaten müssen transparent und unter fairen Bedingungen verhandelt werden. Sie sollten nie europäische Umwelt-, Gesundheits- und Arbeitsstandards untergraben.",
+          "en": "Trade agreements with foreign states must be negotiated transparently, must be fair, and must must not undermine advanced European environmental, health, labour and other standards."
+        }
+      },
+      {
+        "thesis": "25",
+        "position": "neutral",
+        "statement": {
+          "de": "Die regelmäßige Verlegung des Parlaments zwischen Brüssel und Straßburg ist eine enorme Geldverschwendung. Aus Effizienzgründen sollte das Parlament dort sein, wo der Großteil der EU Administration angesiedelt ist: in Brüssel. Strasbourg sollte die Möglichkeit erhalten, für den Umzug des Parlaments entschädigt zu werden.",
+          "en": "Moving the whole parliament periodically between Brusseles and Strassbourg is an enormous waste of money. For reasons of efficiency, the parliament needs to be where the bulk of the EU administration is - that is in Bruxelles. Strassbourg should be offered opportunities to compensate for loosing the seat of the parliament."
+        }
+      },
+      {
+        "thesis": "26",
+        "position": "neutral",
+        "statement": {
+          "de": "Schlaue, nachhaltige und umweltfreundliche Infrastruktur und öffentliche Dienstleistungen sollten sowohl in städtischem als auch ländlichem Raum vorhanden sein.",
+          "en": "Smart, sustainable, and environmentally sound infrastructure and public services need to be available in urban and rural regions alike."
+        }
+      },
+      {
+        "thesis": "27",
+        "position": "negative",
+        "statement": {
+          "de": "Die Idee von Schengen ist es, Grenzkontrollen überflüssig zu machen. Die Freiheit sich überall bewegen zu können ist ein fundamentales Menschenrecht und der Eckpfeiler der Europäischen Union. Wir werden die Freizügigkeiten verteidigen und fordern eine sofortige Abschaffung aller Grenzkontrollen im Schengenraum.",
+          "en": "The whole idea of Schengen is to abolish border controls. The freedom of movement is a fundamental human right — and a cornerstone of the European Union. We will defend free movement by demanding the immediate elimination of all border controls within the    Schengen area."
+        }
+      },
+      {
+        "thesis": "28",
+        "position": "negative",
+        "statement": {
+          "de": "Menschen in Europa haben ein Anrecht auf Sozialfürsorge in allen Mitgliedsstaaten. Sie müssen die Hilfe bekommen, die sie benötigen, um Krankheit, Arbeitslosigkeit und im hohen Alter gut leben zu können. Die Sozialführsorge muss alle Bedürftnisse am Wohnort erfüllen.",
+          "en": "People in the EU must enjoy equal social welfare in all Member States. They must receive the help they need in case of sickness, unemployment or old age in the country where they life in. Social wellfare must cover all needs at the place of residence."
+        }
+      },
+      {
+        "thesis": "29",
+        "position": "positive",
+        "statement": {
+          "de": "Wir brauchen flexiblere und schnellere Entscheidungen in der EU und fordern das Prinzip der qualifizierten Mehrheit in den Entscheidungsfindungen der EU, auch in der Außenpolitik. Außerdem vordern wir einen Außenminister auf EU Ebene.",
+          "en": "We need more flexible and faster decisions in the EU and call for the majority decision-making procedure including foreign policy decisions.  In addition, we call for a forign minister of the EU."
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {
+          "de": "Wir fordern eine bessere Beschriftung von Lebensmitteln. Transparenz fördert Demokratie und Selbstbestimmung. Eine Ernährungsampel schafft einen Verbraucherschutz für Menschen, die nicht Lesen können oder Kleingedrucktes auf Verpackungen nicht entziffern können.",
+          "en": "We call for better labelling of food health values. Transparency enables democracy and self-determination. A food traffic light creates consumer protection for people who cannot read or decipher small printed details."
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "positive",
+        "statement": {
+          "de": "Eine demokratische EU braucht ihre eigenen Steuereinnahmen. European Spring setzt sich dafür ein, ein gemeinsames Finanzministerium auf EU Ebene einzurichten. Einnahmen einer Finanztransaktionssteuer könnten in pan-Europäische Arbeits- und Sozialprojekte fließen und gemeinschaftlich verwaltet werden.",
+          "en": "A democratic EU needs its own tax resources. European Spring calls therefore for  a common European Ministry of Finance.Revenues from the financial transaction tax can be channelled into pan-European labour and social projects and coordinated jointly."
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "negative",
+        "statement": {
+          "de": "European Spring kämpft für eine gemeinsame Europäische Verfassung, die von den Bürgern der EU verfasst und verabschiedet wird. Zweck dieser Verfassung ist es, dass die Bürger gemeinsam darüber beraten, zu welchen Teilen ihre Ländern in der EU integriert sind. Eine simple Ja-Nein Frage (die Frage, die in einem Referndum gestellt werden würde) kann diese Komplexität nicht auflösen. Der Brexit zeigt dies sehr deutlich.",
+          "en": "The European Spring fights for a European Constitution which is written and adopted by the European citizens. It is in this constitution that European citizens should deliberate together to which extent their countries should be integrated into the EU. A simplistic yes-no question (which is the only feasible kind of referendum) is incapable to resolve a matter as complex as how closely a country should be attached to the EU. Brexit demonstrates this in a quite striking manner."
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "token": "ECPM",
+    "european_profile": {
+      "party": {
+        "de": "Europäische Christliche Politische Bewegung",
+        "en": "European Christian Political Movement"
+      }
+    },
+    "program": {
+      "en": "https://ecpm.info/ECPM%20Summary%20Election%20Manifesto%202019.pdf"
+    },
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "1",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "2",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "3",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "4",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "5",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "6",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "7",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "8",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "9",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "10",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "11",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "12",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "13",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "14",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "15",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "16",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "17",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "18",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "19",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "20",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "21",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "22",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "23",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "24",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "25",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "26",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "27",
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "28",
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": "29",
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "token": "EDE",
+    "european_profile": {
+      "party": {
+        "de": "Europa Demokratie Esperanto",
+        "en": "Europe Democracy Esperanto"
+      }
+    },
+    "program": {},
+    "positions": [
+      {
+        "thesis": 0,
+        "statement": {}
+      },
+      {
+        "thesis": "1",
+        "statement": {}
+      },
+      {
+        "thesis": "2",
+        "statement": {}
+      },
+      {
+        "thesis": "3",
+        "statement": {}
+      },
+      {
+        "thesis": "4",
+        "statement": {}
+      },
+      {
+        "thesis": "5",
+        "statement": {}
+      },
+      {
+        "thesis": "6",
+        "statement": {}
+      },
+      {
+        "thesis": "7",
+        "statement": {}
+      },
+      {
+        "thesis": "8",
+        "statement": {}
+      },
+      {
+        "thesis": "9",
+        "statement": {}
+      },
+      {
+        "thesis": "10",
+        "statement": {}
+      },
+      {
+        "thesis": "11",
+        "statement": {}
+      },
+      {
+        "thesis": "12",
+        "statement": {}
+      },
+      {
+        "thesis": "13",
+        "statement": {}
+      },
+      {
+        "thesis": "14",
+        "statement": {}
+      },
+      {
+        "thesis": "15",
+        "statement": {}
+      },
+      {
+        "thesis": "16",
+        "statement": {}
+      },
+      {
+        "thesis": "17",
+        "statement": {}
+      },
+      {
+        "thesis": "18",
+        "statement": {}
+      },
+      {
+        "thesis": "19",
+        "statement": {}
+      },
+      {
+        "thesis": "20",
+        "statement": {}
+      },
+      {
+        "thesis": "21",
+        "statement": {}
+      },
+      {
+        "thesis": "22",
+        "statement": {}
+      },
+      {
+        "thesis": "23",
+        "statement": {}
+      },
+      {
+        "thesis": "24",
+        "statement": {}
+      },
+      {
+        "thesis": "25",
+        "statement": {}
+      },
+      {
+        "thesis": "26",
+        "statement": {}
+      },
+      {
+        "thesis": "27",
+        "statement": {}
+      },
+      {
+        "thesis": "28",
+        "statement": {}
+      },
+      {
+        "thesis": "29",
+        "statement": {}
+      },
+      {
+        "thesis": 30,
+        "statement": {}
+      },
+      {
+        "thesis": 31,
+        "statement": {}
+      },
+      {
+        "thesis": 32,
+        "statement": {}
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "token": "EDP",
+    "european_profile": {
+      "party": {
+        "de": "Europäische Demokratische Partei",
+        "en": "European Democratic Party"
+      }
+    },
+    "program": {
+      "en": "http://www.democrats.eu/en/theme/a-democratic-europe"
+    },
+    "positions": []
+  },
+  {
+    "id": 5,
+    "token": "EFA",
+    "european_profile": {
+      "party": {
+        "de": "Europäische Freie Allianz",
+        "en": "European Free Alliance"
+      }
+    },
+    "program": {
+      "en": "https://www.youdecidenow.eu/2019-manifesto-european-elections/"
+    },
+    "positions": []
+  },
+  {
+    "id": 6,
+    "token": "EGP",
+    "european_profile": {
+      "party": {
+        "de": "Europäische Grüne Partei",
+        "en": "European Greens"
+      }
+    },
+    "program": {
+      "en": "https://vote.europeangreens.eu/manifesto"
+    },
+    "positions": []
+  },
+  {
+    "id": 7,
+    "token": "European LEFT",
+    "european_profile": {
+      "party": {
+        "de": "Partei der Europäischen Linken",
+        "en": "Party of the European Left"
+      }
+    },
+    "program": {
+      "en": "https://www.european-left.org/wp-content/uploads/2018/11/Manifesto-European-Left_ENG.pdf"
+    },
+    "positions": []
+  },
+  {
+    "id": 8,
+    "token": "EPP",
+    "european_profile": {
+      "party": {
+        "de": "Europäische Volkspartei",
+        "en": "European People's Party"
+      }
+    },
+    "program": {
+      "en": "https://www.eppgroup.eu/what-we-stand-for/campaigns/eu-elections-2019/commitments"
+    },
+    "positions": []
+  },
+  {
+    "id": 9,
+    "token": "Pirates ",
+    "european_profile": {
+      "party": {
+        "de": "Europäische Piratenpartei",
+        "en": "European Pirate Party"
+      }
+    },
+    "program": {
+      "en": "https://wiki.ppeu.net/doku.php?id=programme:ceep2019"
+    },
+    "positions": []
+  },
+  {
+    "id": 10,
+    "token": "PES",
+    "european_profile": {
+      "party": {
+        "de": "Sozialdemokratische Partei Europas",
+        "en": "Party of European Socialists"
+      }
+    },
+    "program": {
+      "en": "https://www.pes.eu/export/sites/default/.galleries/Documents-gallery/PES-Manifesto-2019_EN.pdf_2063069299.pdf"
+    },
+    "positions": []
+  },
+  {
+    "id": 11,
+    "token": "VOLT",
+    "european_profile": {
+      "party": {
+        "de": "Volt Europa",
+        "en": "Volt Europa"
+      }
+    },
+    "program": {
+      "en": "https://assets.nationbuilder.com/volt/pages/6564/attachments/original/1540629281/Amsterdam_Declaration.pdf?1540629281"
+    },
+    "positions": []
+  }
+]
