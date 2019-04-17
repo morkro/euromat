@@ -2117,7 +2117,7 @@
   },
   {
     "id": 9,
-    "token": "PIRATES ",
+    "token": "PIRATES",
     "name": {
       "de": "Europäische Piratenpartei",
       "en": "European Pirate Party"
@@ -2131,7 +2131,209 @@
     "program": {
       "en": "https://wiki.ppeu.net/doku.php?id=programme:ceep2019"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 1,
+        "position": "positive",
+        "statement": {
+          "de": "Die Europäische Piraten Partei unterstützt die gemeinsamen Anstrengungen alle Nationen der EU zu schützen, eine Diskussion über die Organisation muss jedoch vorher stattfinden und der Fokus auf existierende Verteidigungssysteme, wie die PESCO, vereinheitlicht werden.",
+          "en": "We generally support joint efforts to protect nations of the EU, however a discussion about how it should be set up needs to take place first and until then we need to focus on streamlining existing defense systems, such as PESCO."
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Europäische Piraten Partei unterstützt das Subsidiaritätsprinzip, wir denken jedoch nicht, dass die EU zu viele Aufgaben übernommen hat. Der Fokus sollte jetzt darauf liegen diese Aufgaben effizienter zu gestalten.",
+          "en": "We support subsidiarity, but we don't think EU has taken on too many tasks. We think it should focus on these tasks now to become more efficient in them."
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 4,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 6,
+        "position": "negative",
+        "statement": {
+          "de": "Die Europäische Piraten Partei ist gegen Diskriminierung aufgrund von Alter, Geschlecht, Race oder jeglichem anderen Aspekt. Wir unterstzützen jedoch positive Motivation und Unterstützung anstatt Quoten.",
+          "en": "We are against discrimination based on age, gender, race or any other aspect. However we support positive motivation and support, not quotas."
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 8,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 9,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 10,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Kooperation zwischen den nationalen Behörden zu verbessern sollte bei erforderlichen Fällen verbessert werden. Die Europäische Piraten Partei ist jedoch gegen großflächige Überwachung und gegen das Sammeln von vielen privaten Daten.",
+          "en": "Improving cooperation in necessary cases between national agencies is desirable, however we oppose mass surveilence and congregation of big amount of private data."
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Europäische Piraten Partei unterstützt die Idee eines bedingungslosen Grudeinkommens, jedoch sollten zunächst Daten erhoben und ausgewertet werden und in kleinerem Maßstab angewendet werden.",
+          "en": "We support the idea of unconditional basic income, however data first need to be gathered and evaluated and it shall be applied on smaller scale first."
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "negative",
+        "statement": {
+          "de": "Sobald die Gründe für die Sanktionen, wie die Einschränkung von Menschenrechten, nicht mehr vorhanden sind, sollten die Saktionen aufgehoben werden.",
+          "en": "Until the reasons for the sanctions, such as restriction of human rights, are no more in place, they can be lifted."
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Europäische Piraten Partei will, dass das Internet als nicht-digitaler Raum, wie eine Straße betrachtet wird - was auf Straßen als Delikt gilt, sollte auch im Internet eine Straftat sein.",
+          "en": "We want the Internet to be considered as an offline space, such as streets - what is a criminal offence on a street should be a criminal offence on the Internet."
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 17,
+        "position": "positive",
+        "statement": {
+          "de": "Die Europäische Piraten Partei unterstützt verschiedene Optionen für Bürgerinnen und Bürger, sodass diese sich frei entscheiden können. Wir erkennen jedoch an, dass Autos die am wenigsten effektiven und energetisch anspruchsvollsten Verkehrsmittel sind.",
+          "en": "We support quality options for citizens so that they can choose freely, but we acknowledge cars are the least effective and energetically most demanding way of transportation."
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Europäische Piraten Partei lehnt mulitilaterale, internationale Abkommen, welche dysfunktionale Monopole und Patente zur Zerstörung der Menschenrechte und Grundfreiheiten etablieren, ab.  Wir verlangen, dass alle Wirtschaftsabkommen den Schutz persönlicher Daten von Konsumenten und Firmen wahren.",
+          "en": "We reject multilateral international agreements that entrench dysfunctional monopolies and patents to the detriment of civil rights and human freedoms. We require all trade agreements to respect the protection of personal data of consumers and firms."
+        }
+      },
+      {
+        "thesis": 25,
+        "position": "positive",
+        "statement": {
+          "de": "Die Europäische Piraten Partei akzeptiert, dass es aus histortischen Gründen den Transfer von Brüssel nach Strasburg gibt, hält dies jedoch für obsolet, da die EU eine Union mit gleichberechtigten Staaten ist und der Transfer zu teuer für die Steuerzahler ist.",
+          "en": "We accept the historical reasons for the transfer between Brussels and Strasbourg, however we think they are obsolete as we are one Union with equal states and the transfer is too costly for the tax-payers."
+        }
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Europäische Piraten Partei will alle Varianten und Leistungen für so viele Menschen wie möglich voranbringen, egal wo sie sich befinden. Dörfer erfahren eine Entvölkerung, jedoch nicht nur wegen schlechte ausgebauten Transportmitteln. Es ist wichtig sowohl nach dem Ausbau ländlicher Zentren, als auch größerer Städte zu streben.",
+          "en": "We want to promote all variants and services to as many people as possible, regardless of their location. It is true villages are depopulating, but not just because of poor transport services. It is important to strive for the development of regional centers as well as bigger cities."
+        }
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 28,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 29,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 30,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": {
+          "de": "Die Europäische Piraten Partei unterstützt generell die Bürgerbeteiligung und Referenden, jedoch braucht es eine ausgeglichene Kampagne für eine informierte Entscheidung.",
+          "en": "We support citizen's participation and referendums in general, however there need to be a balanced campaign to secure informed decision."
+        }
+      }
+    ]
   },
   {
     "id": 10,
