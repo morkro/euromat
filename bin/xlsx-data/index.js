@@ -86,7 +86,7 @@ async function createPartiesDataset (sheetName, partySheets) {
 
   const rawData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName])
   const data = rawData.map(block => {
-    const token = block.Token.toUpperCase()
+    const token = block.Token.toUpperCase().trim()
     return {
       id: parseInt(block.ID, 10),
       token,

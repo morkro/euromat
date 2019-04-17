@@ -131,7 +131,7 @@
       },
       getPartyLogo (token) {
         try {
-          return require(`@/assets/svg/${token.toLowerCase()}-logo.svg`)
+          return require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
         } catch (error) {
           console.warn(`No logo found for party "${token}", falling back to initials.`, error.message)
           return ''
