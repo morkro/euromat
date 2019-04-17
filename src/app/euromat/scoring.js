@@ -7,8 +7,12 @@ export const EMPHASIS_POINTS = 2
 
 export function getPartyPositions (thesis) {
   return parties.map(party => {
-    const { position } = party.positions.find(p => p.thesis === thesis)
-    return { type: 'party', party: party.id, position }
+    const position = party.positions.find(p => p.thesis === thesis)
+    return {
+      type: 'party',
+      party: party.id,
+      position: (position && position.position) || {}
+    }
   })
 }
 

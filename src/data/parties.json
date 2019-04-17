@@ -2,6 +2,10 @@
   {
     "id": 0,
     "token": "ALDE",
+    "name": {
+      "de": "Allianz der Liberalen und Demokraten für Europa",
+      "en": "Alliance of Liberals and Democrats for Europe (ALDE)"
+    },
     "european_profile": {
       "party": {
         "de": "Allianz der Liberalen und Demokraten für Europa",
@@ -22,7 +26,7 @@
         }
       },
       {
-        "thesis": "1",
+        "thesis": 1,
         "position": "neutral",
         "statement": {
           "de": "Die ALDE begrüßt eine umfassendere europäische Kooperation bei den Verteidigungsaufwendungen und dem PESCO-Abkommen, und sie ermutigt die Mitgliedstaaten dazu, die Verteidigungszusammenarbeit in Bereichen gegenseitigen Vorteils zu intensiveren, und zwar in verstärkter Kooperation mit und in Ergänzung zur NATO, die das Rückgrat der militärischen Zusammenarbeit und der Garant für die kollektive Verteidigung Europas bleiben wird. (2019 Manifesto)",
@@ -31,7 +35,7 @@
         }
       },
       {
-        "thesis": "2",
+        "thesis": 2,
         "position": "neutral",
         "statement": {
           "de": "Die ALDE ist der Meinung, dass die Beschlüsse auf derjenigen Ebene –der lokalen oder regionalen Ebene, der nationalen Ebene oder der EU –zu fassen sind, die Ihnen am besten und in der direktesten Weise nützt. Wir unterstützen Initiativen zur Neubewertung und Neuverhandlung der Zuständigkeiten zwischen der Europäischen Union und ihren Mitgliedstaaten, wobei die Grundsätze der Vereinfachung und Subsidiarität nicht vergessen werden dürfen. (2019 Manifesto)",
@@ -40,7 +44,7 @@
         }
       },
       {
-        "thesis": "3",
+        "thesis": 3,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -49,7 +53,7 @@
         }
       },
       {
-        "thesis": "4",
+        "thesis": 4,
         "position": "negative",
         "statement": {
           "de": "-",
@@ -58,7 +62,7 @@
         }
       },
       {
-        "thesis": "5",
+        "thesis": 5,
         "position": "skipped",
         "statement": {
           "de": "-",
@@ -67,7 +71,7 @@
         }
       },
       {
-        "thesis": "6",
+        "thesis": 6,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -76,7 +80,7 @@
         }
       },
       {
-        "thesis": "7",
+        "thesis": 7,
         "position": "negative",
         "statement": {
           "de": "Die Datenschutzpolitik muss harmonisiert und ausgeglichen werden, damit die Zukunft der EU als Standort für Innovation gesichert werden kann. [...] Das Ansprechen der Fragen der Cybersicherheit, des Datenschutzes und der Privatsphäre ist für die ALDE selbstverständlich, denn wenn diese grundlegenden Voraussetzungen nicht gegeben sind, kann es keine digitale Gesellschaft geben. (2019 Manifesto)",
@@ -85,7 +89,7 @@
         }
       },
       {
-        "thesis": "8",
+        "thesis": 8,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -94,7 +98,7 @@
         }
       },
       {
-        "thesis": "9",
+        "thesis": 9,
         "position": "negative",
         "statement": {
           "de": "-",
@@ -103,7 +107,7 @@
         }
       },
       {
-        "thesis": "10",
+        "thesis": 10,
         "position": "neutral",
         "statement": {
           "de": "Die ALDE befürwortet einen europäischen Rahmen für Mindeststeuern auf CO2-Emissionen für Sektoren außerhalb des EU-Emissionshandelssystems. Allerdings ist darauf zu achten, dass die Wettbewerbsfähigkeit der EU-Industrie nicht beeinträchtigt wird. (2012 Resolution)",
@@ -112,7 +116,7 @@
         }
       },
       {
-        "thesis": "11",
+        "thesis": 11,
         "position": "positive",
         "statement": {
           "de": "Die ALDE ist bestrebt,die Agrarsubventionen substanziell zu reformieren und zu überdenken, da die Reformierung der Gemeinsamen Agrarpolitik einen wichtigen Schritt hin zu den Zielen der Nachhaltigkeit sowie zu höherer Transparenz und Gleichberechtigung bei der Zahlung von Subventionen sein wird. (2019 Manifesto)",
@@ -121,7 +125,7 @@
         }
       },
       {
-        "thesis": "12",
+        "thesis": 12,
         "position": "skipped",
         "statement": {
           "de": "Die Bürgerinnen und Bürger Europas müssen im Mittelpunkt unserer Sicherheits-und Verteidigungspolitik stehen, die konkrete Aktionen mit engerer Kooperation von der Bekämpfung des Terrorismus bis zu effektiveren Bemühungen zur Sicherung der EU-Außengrenze mit umfassen sollte. Die Stärkung der Befugnisse von Europol und die Intensivierung der Zusammenarbeit beim Austausch von Informationen sind die notwendigen nächsten Schritte, die wir zu nehmen haben. Dies sollte auch eine verbesserte Fähigkeit der Institutionen und Mitgliedstaaten der EU umfassen, unsere Volkswirtschaften und Gesellschaften vor hybriden Aktivitäten wie Desinformationskampagnen, Cyber-Spionage, Cyber-Attacken und einschlägiger Kriminalität zu schützen. (2019 Manifesto)",
@@ -130,7 +134,7 @@
         }
       },
       {
-        "thesis": "13",
+        "thesis": 13,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -139,7 +143,7 @@
         }
       },
       {
-        "thesis": "14",
+        "thesis": 14,
         "position": "negative",
         "statement": {
           "de": "Die ALDE spricht sich dafür aus, die Sanktionen gegen die russische Regierung aufrechtzuerhalten, bis diese die Besetzung der Krimhalbinsel beendet und alle Schritte des Minsker Friedensabkommens implementiert. (2016 Resolution)",
@@ -148,7 +152,7 @@
         }
       },
       {
-        "thesis": "15",
+        "thesis": 15,
         "position": "skipped",
         "statement": {
           "de": "-",
@@ -157,7 +161,7 @@
         }
       },
       {
-        "thesis": "16",
+        "thesis": 16,
         "position": "positive",
         "statement": {
           "de": "EU und Mitgliedsstaaten sollten sich auf das Problem der Jugendarbeitslosigkeit und die großen Unterschiede innerhalb Europas konzentrieren, um eine Lösung für dieses dringende Problem zu finden. (2016 Resolution)",
@@ -166,7 +170,7 @@
         }
       },
       {
-        "thesis": "17",
+        "thesis": 17,
         "position": "skipped",
         "statement": {
           "de": "-",
@@ -175,7 +179,7 @@
         }
       },
       {
-        "thesis": "18",
+        "thesis": 18,
         "position": "neutral",
         "statement": {
           "de": "Die ALDE ist der Meinung, dass die EU eine gemeinsame Steuerbemessungsgrundlage einführen sollte, es aber den Mitgliedsstaaten überlässt, den Steuersatz zu bestimmen. (2014 Resolution)",
@@ -184,7 +188,7 @@
         }
       },
       {
-        "thesis": "19",
+        "thesis": 19,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -193,7 +197,7 @@
         }
       },
       {
-        "thesis": "20",
+        "thesis": 20,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -202,7 +206,7 @@
         }
       },
       {
-        "thesis": "21",
+        "thesis": 21,
         "position": "neutral",
         "statement": {
           "de": "-",
@@ -211,7 +215,7 @@
         }
       },
       {
-        "thesis": "22",
+        "thesis": 22,
         "position": "positive",
         "statement": {
           "de": "Vielleicht nicht in erheblichem Umfang, aber die ALDE fordert, dass die EU-Mitgliedstaaten auch in ihre eigene Sicherheit und Verteidigung investieren und ihre eigenen militärischen Fähigkeiten koordiniert verbessern. (2017 Resolution)",
@@ -220,7 +224,7 @@
         }
       },
       {
-        "thesis": "23",
+        "thesis": 23,
         "position": "skipped",
         "statement": {
           "de": "-",
@@ -229,7 +233,7 @@
         }
       },
       {
-        "thesis": "24",
+        "thesis": 24,
         "position": "negative",
         "statement": {
           "de": "-",
@@ -238,7 +242,7 @@
         }
       },
       {
-        "thesis": "25",
+        "thesis": 25,
         "position": "positive",
         "statement": {
           "de": "Wir glauben, dass das Europäische Parlament nur einen Sitz in Brüssel haben sollte. (2019 Manifesto)",
@@ -247,7 +251,7 @@
         }
       },
       {
-        "thesis": "26",
+        "thesis": 26,
         "position": "skipped",
         "statement": {
           "de": "-",
@@ -256,7 +260,7 @@
         }
       },
       {
-        "thesis": "27",
+        "thesis": 27,
         "position": "negative",
         "statement": {
           "de": "Der freie Verkehr von Personen in der EU ist für die Weiterführung der europäischen Integration und den Wohlstand Europas unerlässlich,und aus diesem Grund ist ALDE gegen jegliche Wiedereinführung von ständigen Kontrollen an den Binnengrenzen der Schengener Vertragsstaaten. (2019 Resolution)",
@@ -265,7 +269,7 @@
         }
       },
       {
-        "thesis": "28",
+        "thesis": 28,
         "position": "skipped",
         "statement": {
           "de": "Nationale Kompetenz",
@@ -274,7 +278,7 @@
         }
       },
       {
-        "thesis": "29",
+        "thesis": 29,
         "position": "skipped",
         "statement": {
           "de": "-",
@@ -310,7 +314,11 @@
   },
   {
     "id": 1,
-    "token": "DiEM25",
+    "token": "DIEM25",
+    "name": {
+      "de": "Bewegung Demokratie in Europa 2025",
+      "en": "Democracy in Europe Movement 2025"
+    },
     "european_profile": {
       "party": {
         "de": "Bewegung Demokratie in Europa 2025",
@@ -330,7 +338,7 @@
         }
       },
       {
-        "thesis": "1",
+        "thesis": 1,
         "position": "positive",
         "statement": {
           "de": "So lange militärische Kapazitäten (zur reinen Verteidigung) nötig sind, sollte die EU nicht weiter unnötige Ressourcen vergeuden und seine Streitkräfte zusammenschließen. Dies ist auch ein Schritt in eine Zukunft, in der Krieg ziwschen den Mitgliedern der EU unmöglich sein wird.",
@@ -338,7 +346,7 @@
         }
       },
       {
-        "thesis": "2",
+        "thesis": 2,
         "position": "negative",
         "statement": {
           "de": "European Spring kämpft für eine Europäische Konstitution, die von den Bürgern verfasst und verabschiedet wird. Es soll die Entscheidung der Bürger sein, welche Kompetenzen die EU hat und welche Länder, Regionen und Kommunen innehaben.",
@@ -346,7 +354,7 @@
         }
       },
       {
-        "thesis": "3",
+        "thesis": 3,
         "position": "positive",
         "statement": {
           "de": "Mit unserem Green New Deal wollen wir einen schnellen Wechsel hin zu erneuerbarer Energie erwirken und ein Auslaufen von Subventionen für nicht erneuerbare Energie wie Kohle und Atomenergie erreichen.",
@@ -354,7 +362,7 @@
         }
       },
       {
-        "thesis": "4",
+        "thesis": 4,
         "position": "negative",
         "statement": {
           "de": "Generell sollten Produkte, die in der EU produziert werden, ohne Schutz vor Wettbewerb auskommen - Handelskriege sind kein adequates Mittel um ein gerechteres Wachstum in der Welt zu erreichen. Allerdings sollten Produkte, die im Einklang mit Umwelt-, Gesundheits und Arbeits- Standards produziert wurden nicht mit Produkten konkurrieren, die im Ausland zu einem niedrigeren Standard hergestellt wurden. Nichtsdestrotrotz sollte es Ausnahmen für Produkte aus dem globalen Süden geben.",
@@ -362,7 +370,7 @@
         }
       },
       {
-        "thesis": "5",
+        "thesis": 5,
         "position": "negative",
         "statement": {
           "de": "Alle EU Mitgliedsstaaten sollten natürlich zu einer gemeinsamen Migrationsstrategie beitragen. Aber wir lehnen die Haltung zu einer \"sicheren\" europäischen Grenze ab - und weisen entschieden darauf hin, dass mehr Ressourcen nötig sind, um Migranten zu schützen, die ihr Leben risktieren. Wir sind überzeugt, dass die Sicherheit an den Grenzen gewährleistet sein wird, wenn es eine sensible Migrationspolitik gibt.",
@@ -370,7 +378,7 @@
         }
       },
       {
-        "thesis": "6",
+        "thesis": 6,
         "position": "positive",
         "statement": {
           "de": "Es gibt nach wie vor viel zu wenig Frauen in leitenden Positionen. Wir fordern eine faire Vertretung aller Geschlechter in Führungspositionen in der EU Administration, dem Europäischen Parlament, großen Unternehmen und Universitäten.",
@@ -378,7 +386,7 @@
         }
       },
       {
-        "thesis": "7",
+        "thesis": 7,
         "position": "negative",
         "statement": {
           "de": "European Spring wird die Rechte der EU Bürger dahingehend stärken, Kontrolle über die Nutzung, Speicherung und Löschung ihrer eigenen Daten zu haben. Dies betrifft auch die Datenerfassung von Staaten und internationalen Geheimdiensten.",
@@ -386,7 +394,7 @@
         }
       },
       {
-        "thesis": "8",
+        "thesis": 8,
         "position": "neutral",
         "statement": {
           "de": "Jeder EU Staat sollte einen gerechten Anteil an Geflüchtete aufnehmen; Dennoch sollten die Präferenzen der Geflüchteten Priorität haben (basierend auf dem Beruf, der Familie und den sprachlichen Fähigkeiten des Einzelnen).",
@@ -394,7 +402,7 @@
         }
       },
       {
-        "thesis": "9",
+        "thesis": 9,
         "position": "negative",
         "statement": {
           "de": "Es sollte strikte Kriterien zur Aufnahme neuer EU Mitgliedsstaaten geben. Diese Kriterien sollten auf der strikten Einhaltung von Menschenrechten, Rechtsstaatlichkeit und Korruptionslevel der einzelnen Kandidaten basiert sein.",
@@ -402,7 +410,7 @@
         }
       },
       {
-        "thesis": "10",
+        "thesis": 10,
         "position": "positive",
         "statement": {
           "de": "Wir werden Preise auf den Ausstoß von Kohlestoff erlassen, um die EU auf Linie mit den von Wissenschaftlern aufgestellten Emissionszielen zu bringen. Dies ist Teil unserers Green New Deal für Europa, der unter anderem das Auslaufen von nicht nachhaltigen und umweltschädlichen Formern der Energiegwinnung vorsieht (Kohl und Atomenergie) sowie eine Reform des Emissionshandels.",
@@ -410,7 +418,7 @@
         }
       },
       {
-        "thesis": "11",
+        "thesis": 11,
         "position": "positive",
         "statement": {
           "de": "European Spring wird die Subventionierung für große Agrarunternehmen einstellen. Dennoch müssen wir kleine, nachhaltige Bauern finanziell unterstützen, die den Tierschutz und die Umwelt respektieren.",
@@ -418,12 +426,12 @@
         }
       },
       {
-        "thesis": "12",
+        "thesis": 12,
         "position": "neutral",
         "statement": {}
       },
       {
-        "thesis": "13",
+        "thesis": 13,
         "position": "positive",
         "statement": {
           "de": "Der freie Markt beeinflusst Arbeitnehmer in ganz Europa. Deshalb brauchen wir auch eine gemeinsame Arbeitsmarktpolitik, und einen einen Mindestlohn. Dieser sollte sich an den Lebensunterhaltungskosten orientieren und nicht an den Durchschnittslöhnen.",
@@ -431,7 +439,7 @@
         }
       },
       {
-        "thesis": "14",
+        "thesis": 14,
         "position": "negative",
         "statement": {
           "de": "Die EU sollte eine durchgängige Sanktionspolitik allen Staaten gegenüber haben, die einen Anreiz gibt, internationaler Regeln zu befolgen. Speziell Sanktionen gegen Russland sollten abgeschafft werden, die nicht im Einklang mit der Zurückhaltung von Sanktionen in anderen Fällen stehen.",
@@ -439,7 +447,7 @@
         }
       },
       {
-        "thesis": "15",
+        "thesis": 15,
         "position": "neutral",
         "statement": {
           "de": "Dieser Aussage liegt die teilweise falsche Annahme zu Grunde, dass Missinformationen kriminell sind. Wir brauchen starke Sicherheitsstandards, die mit Hilfe des Internets vor gefährlicher Missinformation, Mobbing und Deformationen schützen. Strafverfolgung sollte allerdings nur ein Teil der schützenden Maßnahmen darstellen. Wichtig ist, dass der Schutz vor dem unrechtmäßgem Nutzen des Internets die Zensur ist. Solch eine Maßnahme muss immer im Einklang mit der freien Meinungsäußerung stehen. Im Zeifel sollte die freie Meinungsäußerung den Vorzug haben.",
@@ -447,7 +455,7 @@
         }
       },
       {
-        "thesis": "16",
+        "thesis": 16,
         "position": "negative",
         "statement": {
           "de": "Die hohen Arbeitslosenzahlen sollten von allen Mitgliedsstaaten der EU gemeinschaftlich bekämpft werden. Zusätzlichen brauchen wir eine gemeinsame Sozialpolitik, die sicher stellt, das Armut in der EU beseitigt wird. Die finanzielle Unterstützung ärmerer EU Staaten durch reicherer EU Staaten wird zu einer Stabilität und Prosperität der gesamten EU beitragen und so allen zu Gute kommen. Wegen all diesen Gründe sollte Jugendarbeitslosigkeit auf nationaler und EU Ebene bekämpft werden.",
@@ -455,7 +463,7 @@
         }
       },
       {
-        "thesis": "17",
+        "thesis": 17,
         "position": "positive",
         "statement": {
           "de": "Tonnnen von Gewicht zu bewegen nur um eine 80 kg schwere Person zu bewegen verschwendet enorme Ressourcen. Wir müssen nicht nur den öffentlichen Verkehr stärken sondern auch nachhtaltige und umweltfreundlichen Verkehrsmittel wie Fahrräder und E-Bikes.",
@@ -463,7 +471,7 @@
         }
       },
       {
-        "thesis": "18",
+        "thesis": 18,
         "position": "positive",
         "statement": {
           "de": "Es wird geschätzt, dass 1 Trillionen Euro im Jahr auf Grund von Steuervermeidung verlohren gehen. Die Mitgliedsstaaten der EU sollten nicht gezwungen sein, mit einander in einen Steuerwettbewerb treten zu müssen, um neue Arbeitsplätze zu sichern. Private Unternehmen sollten nationale Unterschiede nicht ausnutzen können. European Spring will diese Situation verändern und ein Minimum an Unternehemnssteuer erheben um dafür zu Sorgen, das alle Firmen, die in Europa angesiedelt sind einen fairen Anteil an Steuern zahlen. Generell braucht Europa eine Steuerharmonisieren, die an lokale Gegebenheiten agepasst werden kann.",
@@ -471,7 +479,7 @@
         }
       },
       {
-        "thesis": "19",
+        "thesis": 19,
         "position": "negative",
         "statement": {
           "de": "Einige Personen unterliegen der Ausweisung, so lange ihre Menschenrechte im Aufnahmeland garantiert sind. Personen ohne Aufentaltstitel müssen individuell angehört werden - mit dem Feingefühl für die Umstände, unter denen sie nach Europa gekommen sind. Eine Ausweisung ist nur in wenigen Fällen die richtige Antwort - wir lehnen die Aussage ab.",
@@ -479,7 +487,7 @@
         }
       },
       {
-        "thesis": "20",
+        "thesis": 20,
         "position": "negative",
         "statement": {
           "de": "Die Nutzung von elektrischem Geld erlaubt eine Umfassende Nachverfolgung der Bürger. Dies ist Teil einer orwellschen Zukunft, die es zu Verhindern gilt.",
@@ -487,12 +495,12 @@
         }
       },
       {
-        "thesis": "21",
+        "thesis": 21,
         "position": "positive",
         "statement": {}
       },
       {
-        "thesis": "22",
+        "thesis": 22,
         "position": "negative",
         "statement": {
           "de": "Die EU sollte mehr Geld in Bildung, Gesundheit und Nachhaltigkeit investieren.",
@@ -500,7 +508,7 @@
         }
       },
       {
-        "thesis": "23",
+        "thesis": 23,
         "position": "positive",
         "statement": {
           "de": "Der freie Markt der EU wirkt sich auf alle Arbeitssuchende aus.",
@@ -508,7 +516,7 @@
         }
       },
       {
-        "thesis": "24",
+        "thesis": 24,
         "position": "positive",
         "statement": {
           "de": "Freihandelsabkommen mit Drittstaaten müssen transparent und unter fairen Bedingungen verhandelt werden. Sie sollten nie europäische Umwelt-, Gesundheits- und Arbeitsstandards untergraben.",
@@ -516,7 +524,7 @@
         }
       },
       {
-        "thesis": "25",
+        "thesis": 25,
         "position": "neutral",
         "statement": {
           "de": "Die regelmäßige Verlegung des Parlaments zwischen Brüssel und Straßburg ist eine enorme Geldverschwendung. Aus Effizienzgründen sollte das Parlament dort sein, wo der Großteil der EU Administration angesiedelt ist: in Brüssel. Strasbourg sollte die Möglichkeit erhalten, für den Umzug des Parlaments entschädigt zu werden.",
@@ -524,7 +532,7 @@
         }
       },
       {
-        "thesis": "26",
+        "thesis": 26,
         "position": "neutral",
         "statement": {
           "de": "Schlaue, nachhaltige und umweltfreundliche Infrastruktur und öffentliche Dienstleistungen sollten sowohl in städtischem als auch ländlichem Raum vorhanden sein.",
@@ -532,7 +540,7 @@
         }
       },
       {
-        "thesis": "27",
+        "thesis": 27,
         "position": "negative",
         "statement": {
           "de": "Die Idee von Schengen ist es, Grenzkontrollen überflüssig zu machen. Die Freiheit sich überall bewegen zu können ist ein fundamentales Menschenrecht und der Eckpfeiler der Europäischen Union. Wir werden die Freizügigkeiten verteidigen und fordern eine sofortige Abschaffung aller Grenzkontrollen im Schengenraum.",
@@ -540,7 +548,7 @@
         }
       },
       {
-        "thesis": "28",
+        "thesis": 28,
         "position": "negative",
         "statement": {
           "de": "Menschen in Europa haben ein Anrecht auf Sozialfürsorge in allen Mitgliedsstaaten. Sie müssen die Hilfe bekommen, die sie benötigen, um Krankheit, Arbeitslosigkeit und im hohen Alter gut leben zu können. Die Sozialführsorge muss alle Bedürftnisse am Wohnort erfüllen.",
@@ -548,7 +556,7 @@
         }
       },
       {
-        "thesis": "29",
+        "thesis": 29,
         "position": "positive",
         "statement": {
           "de": "Wir brauchen flexiblere und schnellere Entscheidungen in der EU und fordern das Prinzip der qualifizierten Mehrheit in den Entscheidungsfindungen der EU, auch in der Außenpolitik. Außerdem vordern wir einen Außenminister auf EU Ebene.",
@@ -584,6 +592,10 @@
   {
     "id": 2,
     "token": "ECPM",
+    "name": {
+      "de": "Europäische Christliche Politische Bewegung",
+      "en": "European Christian Political Movement"
+    },
     "european_profile": {
       "party": {
         "de": "Europäische Christliche Politische Bewegung",
@@ -602,203 +614,203 @@
         }
       },
       {
-        "thesis": "1",
+        "thesis": 1,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "2",
+        "thesis": 2,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "3",
+        "thesis": 3,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "4",
+        "thesis": 4,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "5",
+        "thesis": 5,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "6",
+        "thesis": 6,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "7",
+        "thesis": 7,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "8",
+        "thesis": 8,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "9",
+        "thesis": 9,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "10",
+        "thesis": 10,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "11",
+        "thesis": 11,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "12",
+        "thesis": 12,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "13",
+        "thesis": 13,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "14",
+        "thesis": 14,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "15",
+        "thesis": 15,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "16",
+        "thesis": 16,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "17",
+        "thesis": 17,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "18",
+        "thesis": 18,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "19",
+        "thesis": 19,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "20",
+        "thesis": 20,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "21",
+        "thesis": 21,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "22",
+        "thesis": 22,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "23",
+        "thesis": 23,
         "position": "negative",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "24",
+        "thesis": 24,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "25",
+        "thesis": 25,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "26",
+        "thesis": 26,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "27",
+        "thesis": 27,
         "position": "neutral",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "28",
+        "thesis": 28,
         "position": "positive",
         "statement": {
           "de": "-"
         }
       },
       {
-        "thesis": "29",
+        "thesis": 29,
         "position": "negative",
         "statement": {
           "de": "-"
@@ -830,6 +842,10 @@
   {
     "id": 3,
     "token": "EDE",
+    "name": {
+      "de": "Europa Demokratie Esperanto",
+      "en": "Europe Democracy Esperanto"
+    },
     "european_profile": {
       "party": {
         "de": "Europa Demokratie Esperanto",
@@ -840,122 +856,905 @@
     "positions": [
       {
         "thesis": 0,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 9,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 10,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 23,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 27,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 28,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 29,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "token": "EDP",
+    "name": {
+      "de": "Europäische Demokratische Partei",
+      "en": "European Democratic Party"
+    },
+    "european_profile": {
+      "party": {
+        "de": "Europäische Demokratische Partei",
+        "en": "European Democratic Party"
+      }
+    },
+    "program": {
+      "en": "http://www.democrats.eu/en/theme/a-democratic-europe"
+    },
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 1,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 5,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 6,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "skipped",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 8,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 9,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 10,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 11,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 12,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 19,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 20,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 21,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 26,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 27,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 28,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 29,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "positive",
+        "statement": {
+          "de": "-"
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "negative",
+        "statement": {
+          "de": "-"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "token": "EFA",
+    "name": {
+      "de": "Europäische Freie Allianz",
+      "en": "European Free Alliance"
+    },
+    "european_profile": {
+      "party": {
+        "de": "Europäische Freie Allianz",
+        "en": "European Free Alliance"
+      }
+    },
+    "program": {
+      "en": "https://www.youdecidenow.eu/2019-manifesto-european-elections/"
+    },
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 1,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "negative",
+        "statement": {
+          "de": "Die EFA-Mitglieder wollen allgemein keine Kompetenzenrückführung an die Mitgliedsstaaten. Die Kompetenzen/Aufgaben/Politiken sollten sowohl in der Verantwortung der EU als auch ihrer Nationen/Regionen sein, dem Subsidiaritätsprinzip folgend.",
+          "en": "The EFA members in general don't want the MS take back competences. The competences/tasks/policies should either be responsibility of the EU or of the nations/regions following, the principle of subsidiarity."
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA wünscht sich eine allmählichen Abschaffung der Atomkraft auf europäischer Ebene. Die Förderung von Energieeffizienz, Unabhängigkeit und Selbstversorgung basierend auf erneuerbaren Energien bis 2050 muss der Grundpfeiler für die Energiepolitik der EU sein.",
+          "en": "EFA wishes to see a phasing out of nuclear energy at a European level. Promoting energy efficiency and independence and self sufficiency based on renewables by 2050 must be the cornerstone for an EU energy policy"
+        }
+      },
+      {
+        "thesis": 4,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 5,
+        "position": "neutral",
+        "statement": {
+          "de": "Die EFA setzt sich ein für Inklusion, Respekt für Diversität und das Brückenbauen zwischen Menschen, und nicht für die Festigung der Grenzen zwischen ihnen.",
+          "en": "EFA defends inclusion, respect for diversity, and bridge-building between peoples, rather than the fortification of borders between them"
+        }
+      },
+      {
+        "thesis": 6,
+        "position": "neutral",
+        "statement": {
+          "de": "Die EFA fördert Geschlächterparität und erkennt an, dass Europa mehr weibliche Leitung benötigt - Leitung, die Diversität wertschätzt und Raum für Frauen schafft, vor allem aus Minderheiten und anderen verletzlichen Grupen.",
+          "en": "EFA fully supports gender parity and recognise that Europe needs more feminist leadership — leadership that values diversity and makes space for women, particularly from minorities and other vulnerable groups."
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 8,
+        "position": "neutral",
+        "statement": {
+          "de": "Die EFA ist Antreiberin für strake Solidarität mit den Ländern und Regionen an den EU Außengrenzen, welche hauptsächlich von der Ankunft der Menschen von außerhalb der EU betroffen sind. Jeder Mitgliedsstaat muss in die inklusive Migrationspolitik involviert sein.",
+          "en": "EFA pushes for strong solidarity with countries and regions at the EU borders that are particularly affected by the arrival of people from outside the EU. Every member state must be involved in inclusive policies for migrants."
+        }
+      },
+      {
+        "thesis": 9,
+        "position": "negative",
+        "statement": {
+          "de": "Die EFA glaubt, dass alle Völker das Recht haben, ihr Schicksal und einen sie befähigenden institutionellen Rahmen selbst zu bestimmen.",
+          "en": "EFA believes that all peoples have the right to choose their own destiny and an institutional framework that empowers them."
+        }
+      },
+      {
+        "thesis": 10,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 11,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 12,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "positive",
+        "statement": {
+          "de": "Die EFA fördert Politiken auf allen Ebenen (staatlich, regional und lokal), um die Jugendarbeitslosigkeit, Fachkräfteabwanderung und Armut zu bekämpfen, mit Blick auf die benachteiligten und peripheren Regionen von Europa, in denen die jungen Menschen damit zu kämpfen haben ihrer Zukunft nachzugehen.",
+          "en": "EFA promotes policies at all levels (state, regional and local) to tackle youth unemployment, brain drain and poverty, paying special attention to the deprived and peripheral regions of Europe where young people struggle to pursue their own future."
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 19,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 20,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 21,
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
+      },
+      {
+        "thesis": 22,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 23,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 24,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 25,
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
+      },
+      {
+        "thesis": 26,
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
+      },
+      {
+        "thesis": 27,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 28,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 29,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "skipped",
+        "statement": {
+          "de": "Die EFA hat hierzu keine offizielle Position.",
+          "en": "EFA doesn't have an official position on this issue"
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "skipped",
+        "statement": {
+          "de": "(Die Frage ist nicht ganz eindeutig) Die EFA repräsentiert über 40 Nationen und Regionen, alle pro-europäisch. Die EFA würde jedes Referendum zur EU-Mitgliedschaft unterstützen, das von den Nationen/Regionen ausgeht, die in der EFA repräsentiert sind.",
+          "en": "(this question is not very clear) EFA represents over 40 nations and regions, all pro-European.  EFA would support any referendum on the EU membership of the nations/regions represented in EFA."
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "token": "EGP",
+    "name": {
+      "de": "Europäische Grüne Partei",
+      "en": "European Greens"
+    },
+    "european_profile": {
+      "party": {
+        "de": "Europäische Grüne Partei",
+        "en": "European Greens"
+      }
+    },
+    "program": {
+      "en": "https://vote.europeangreens.eu/manifesto"
+    },
+    "positions": [
+      {
+        "thesis": 0,
         "statement": {}
       },
       {
-        "thesis": "1",
+        "thesis": 1,
         "statement": {}
       },
       {
-        "thesis": "2",
+        "thesis": 2,
         "statement": {}
       },
       {
-        "thesis": "3",
+        "thesis": 3,
         "statement": {}
       },
       {
-        "thesis": "4",
+        "thesis": 4,
         "statement": {}
       },
       {
-        "thesis": "5",
+        "thesis": 5,
         "statement": {}
       },
       {
-        "thesis": "6",
+        "thesis": 6,
         "statement": {}
       },
       {
-        "thesis": "7",
+        "thesis": 7,
         "statement": {}
       },
       {
-        "thesis": "8",
+        "thesis": 8,
         "statement": {}
       },
       {
-        "thesis": "9",
+        "thesis": 9,
         "statement": {}
       },
       {
-        "thesis": "10",
+        "thesis": 10,
         "statement": {}
       },
       {
-        "thesis": "11",
+        "thesis": 11,
         "statement": {}
       },
       {
-        "thesis": "12",
+        "thesis": 12,
         "statement": {}
       },
       {
-        "thesis": "13",
+        "thesis": 13,
         "statement": {}
       },
       {
-        "thesis": "14",
+        "thesis": 14,
         "statement": {}
       },
       {
-        "thesis": "15",
+        "thesis": 15,
         "statement": {}
       },
       {
-        "thesis": "16",
+        "thesis": 16,
         "statement": {}
       },
       {
-        "thesis": "17",
+        "thesis": 17,
         "statement": {}
       },
       {
-        "thesis": "18",
+        "thesis": 18,
         "statement": {}
       },
       {
-        "thesis": "19",
+        "thesis": 19,
         "statement": {}
       },
       {
-        "thesis": "20",
+        "thesis": 20,
         "statement": {}
       },
       {
-        "thesis": "21",
+        "thesis": 21,
         "statement": {}
       },
       {
-        "thesis": "22",
+        "thesis": 22,
         "statement": {}
       },
       {
-        "thesis": "23",
+        "thesis": 23,
         "statement": {}
       },
       {
-        "thesis": "24",
+        "thesis": 24,
         "statement": {}
       },
       {
-        "thesis": "25",
+        "thesis": 25,
         "statement": {}
       },
       {
-        "thesis": "26",
+        "thesis": 26,
         "statement": {}
       },
       {
-        "thesis": "27",
+        "thesis": 27,
         "statement": {}
       },
       {
-        "thesis": "28",
+        "thesis": 28,
         "statement": {}
       },
       {
-        "thesis": "29",
+        "thesis": 29,
         "statement": {}
       },
       {
@@ -973,50 +1772,12 @@
     ]
   },
   {
-    "id": 4,
-    "token": "EDP",
-    "european_profile": {
-      "party": {
-        "de": "Europäische Demokratische Partei",
-        "en": "European Democratic Party"
-      }
-    },
-    "program": {
-      "en": "http://www.democrats.eu/en/theme/a-democratic-europe"
-    },
-    "positions": []
-  },
-  {
-    "id": 5,
-    "token": "EFA",
-    "european_profile": {
-      "party": {
-        "de": "Europäische Freie Allianz",
-        "en": "European Free Alliance"
-      }
-    },
-    "program": {
-      "en": "https://www.youdecidenow.eu/2019-manifesto-european-elections/"
-    },
-    "positions": []
-  },
-  {
-    "id": 6,
-    "token": "EGP",
-    "european_profile": {
-      "party": {
-        "de": "Europäische Grüne Partei",
-        "en": "European Greens"
-      }
-    },
-    "program": {
-      "en": "https://vote.europeangreens.eu/manifesto"
-    },
-    "positions": []
-  },
-  {
     "id": 7,
-    "token": "European LEFT",
+    "token": "EUROPEAN LEFT",
+    "name": {
+      "de": "Partei der Europäischen Linken",
+      "en": "Party of the European Left"
+    },
     "european_profile": {
       "party": {
         "de": "Partei der Europäischen Linken",
@@ -1026,11 +1787,190 @@
     "program": {
       "en": "https://www.european-left.org/wp-content/uploads/2018/11/Manifesto-European-Left_ENG.pdf"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "skipped",
+        "statement": {}
+      },
+      {
+        "thesis": 1,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 2,
+        "position": "neutral",
+        "statement": {
+          "de": "Abhängig vom Politikfeld",
+          "en": "it depends on which political field"
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "skipped",
+        "statement": {}
+      },
+      {
+        "thesis": 4,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 5,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 6,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 7,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 8,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 9,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 10,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 11,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 12,
+        "position": "skipped",
+        "statement": {}
+      },
+      {
+        "thesis": 13,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 14,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 15,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 16,
+        "position": "negative",
+        "statement": {
+          "de": "auch auf europäischer Ebene",
+          "en": "also on European level"
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "skipped",
+        "statement": {}
+      },
+      {
+        "thesis": 18,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 19,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 20,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 21,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 23,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 24,
+        "position": "neutral",
+        "statement": {
+          "de": "Wir wollen faire Handelsabkommen.",
+          "en": "We want Fair trade agreements."
+        }
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 26,
+        "position": "skipped",
+        "statement": {}
+      },
+      {
+        "thesis": 27,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 28,
+        "position": "skipped",
+        "statement": {}
+      },
+      {
+        "thesis": 29,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 31,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 32,
+        "position": "skipped",
+        "statement": {}
+      }
+    ]
   },
   {
     "id": 8,
     "token": "EPP",
+    "name": {
+      "de": "Europäische Volkspartei",
+      "en": "European People's Party"
+    },
     "european_profile": {
       "party": {
         "de": "Europäische Volkspartei",
@@ -1040,11 +1980,148 @@
     "program": {
       "en": "https://www.eppgroup.eu/what-we-stand-for/campaigns/eu-elections-2019/commitments"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "statement": {}
+      },
+      {
+        "thesis": 1,
+        "statement": {}
+      },
+      {
+        "thesis": 2,
+        "statement": {}
+      },
+      {
+        "thesis": 3,
+        "statement": {}
+      },
+      {
+        "thesis": 4,
+        "statement": {}
+      },
+      {
+        "thesis": 5,
+        "statement": {}
+      },
+      {
+        "thesis": 6,
+        "statement": {}
+      },
+      {
+        "thesis": 7,
+        "statement": {}
+      },
+      {
+        "thesis": 8,
+        "statement": {}
+      },
+      {
+        "thesis": 9,
+        "statement": {}
+      },
+      {
+        "thesis": 10,
+        "statement": {}
+      },
+      {
+        "thesis": 11,
+        "statement": {}
+      },
+      {
+        "thesis": 12,
+        "statement": {}
+      },
+      {
+        "thesis": 13,
+        "statement": {}
+      },
+      {
+        "thesis": 14,
+        "statement": {}
+      },
+      {
+        "thesis": 15,
+        "statement": {}
+      },
+      {
+        "thesis": 16,
+        "statement": {}
+      },
+      {
+        "thesis": 17,
+        "statement": {}
+      },
+      {
+        "thesis": 18,
+        "statement": {}
+      },
+      {
+        "thesis": 19,
+        "statement": {}
+      },
+      {
+        "thesis": 20,
+        "statement": {}
+      },
+      {
+        "thesis": 21,
+        "statement": {}
+      },
+      {
+        "thesis": 22,
+        "statement": {}
+      },
+      {
+        "thesis": 23,
+        "statement": {}
+      },
+      {
+        "thesis": 24,
+        "statement": {}
+      },
+      {
+        "thesis": 25,
+        "statement": {}
+      },
+      {
+        "thesis": 26,
+        "statement": {}
+      },
+      {
+        "thesis": 27,
+        "statement": {}
+      },
+      {
+        "thesis": 28,
+        "statement": {}
+      },
+      {
+        "thesis": 29,
+        "statement": {}
+      },
+      {
+        "thesis": 30,
+        "statement": {}
+      },
+      {
+        "thesis": 31,
+        "statement": {}
+      },
+      {
+        "thesis": 32,
+        "statement": {}
+      }
+    ]
   },
   {
     "id": 9,
-    "token": "Pirates ",
+    "token": "PIRATES ",
+    "name": {
+      "de": "Europäische Piratenpartei",
+      "en": "European Pirate Party"
+    },
     "european_profile": {
       "party": {
         "de": "Europäische Piratenpartei",
@@ -1059,6 +2136,10 @@
   {
     "id": 10,
     "token": "PES",
+    "name": {
+      "de": "Sozialdemokratische Partei Europas",
+      "en": "Party of European Socialists"
+    },
     "european_profile": {
       "party": {
         "de": "Sozialdemokratische Partei Europas",
@@ -1068,11 +2149,181 @@
     "program": {
       "en": "https://www.pes.eu/export/sites/default/.galleries/Documents-gallery/PES-Manifesto-2019_EN.pdf_2063069299.pdf"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 1,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 2,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 3,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 4,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 5,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 6,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 7,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 8,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 9,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 10,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 11,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 12,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 13,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 14,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 15,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 16,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 17,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 18,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 19,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 20,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 21,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 24,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 25,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 26,
+        "position": "neutral",
+        "statement": {}
+      },
+      {
+        "thesis": 27,
+        "position": "negative",
+        "statement": {}
+      },
+      {
+        "thesis": 28,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 29,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 31,
+        "position": "positive",
+        "statement": {}
+      },
+      {
+        "thesis": 32,
+        "position": "negative",
+        "statement": {}
+      }
+    ]
   },
   {
     "id": 11,
     "token": "VOLT",
+    "name": {
+      "de": "Volt Europa",
+      "en": "Volt Europa"
+    },
     "european_profile": {
       "party": {
         "de": "Volt Europa",
@@ -1082,6 +2333,271 @@
     "program": {
       "en": "https://assets.nationbuilder.com/volt/pages/6564/attachments/original/1540629281/Amsterdam_Declaration.pdf?1540629281"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "positive",
+        "statement": {
+          "de": "Volt möchte die politische Bildung zu einer Priorität machen, indem wir die Verabschiedung von Lehrplänen unterstützen, die erklären, wie das politische System funktioniert, vom Gemeinderat über die nationale Regierung bis hin zur Europäischen Union.",
+          "en": "Volt wants to make citizenship education a priority by supporting the adoption of school curricula explaining how the political system works, from the local council, to the national government and the European Union."
+        }
+      },
+      {
+        "thesis": 1,
+        "position": "positive",
+        "statement": {
+          "de": "Volt unterstützt den Übergang von der bestehenden multilateralen Zusammenarbeit zwischen den EU-Mitgliedstaaten zur vollständigen Integration einer europäischen Verteidigungstruppe, die die europäische Sicherheit und Verteidigung effektiver, effizienter und kostengünstiger machen wird. Diese EU-weiten ständigen Streitkräfte sollten über ein einheitliches EU-Militärkommando verfügen und unter ziviler Kontrolle stehen.",
+          "en": "Volt supports moving from existing multilateral cooperation between EU member states to the full integration of a European Defence Force that will make European security and defence more effective, efficient and less costly. These EU-wide permanent forces should have a unified EU military command and be under civilian control."
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "negative",
+        "statement": {
+          "de": "Volt unterstützt das Subsidiaritätsprinzip, wonach politische Entscheidungen auf der niedrigsten Ebene getroffen werden sollten, auf der sie Veränderungen bewirken können. Wir sind jedoch nicht der Meinung, dass die EU zu viele Aufgaben übernommen hat. Tatsächlich glauben wir, dass einige der dringendsten politischen Probleme unserer Zeit, vom Klimawandel über die wirtschaftliche Unsicherheit bis hin zur Migration, nur auf europäischer Ebene und nicht von den Mitgliedstaaten alleine wirksam angegangen werden können.",
+          "en": "Volt supports the principle of subsidiarity whereby political decisions should be taken on the lowest level at which they can effect change. We are, however, not of the opinion that the EU has taken on too many tasks and in fact, we believe that some of the most pressing political problems of our time, from climate change over economic insecurity to migration, can only be effectively addressed on the European level and not by member states alone."
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "negative",
+        "statement": {
+          "de": "Volt unterstützt den Übergang zu einer CO2-freien Energieversorgung, die in erster Linie auf erneuerbaren Energien basiert. Alle Lebenszykluskosten in der Energieerzeugung, einschließlich der Stilllegung von Kernkraftwerken, sollten berücksichtigt werden; ein höherer Preis fördert Investitionen in sauberere Technologien.",
+          "en": "Volt supports the transition to a carbon-free energy supply that primarily relies on renewable energy. All lifecycle costs in energy production, incl. decommissioning of nuclear power plants, should be taken into account; a higher price incentivizes investments into cleaner technologies."
+        }
+      },
+      {
+        "thesis": 4,
+        "position": "negative",
+        "statement": {
+          "de": "Volt unterstützt den globalen freien und fairen Handel. Das bedeutet, dass wir die Zölle auf ein Minimum beschränken wollen, aber sicherstellen müssen, dass der internationale Handel durch multilaterale Handelsabkommen geregelt wird, die auf den Grundsätzen der nachhaltigen Entwicklung beruhen und Menschen und Planeten vor knappen Gewinnen stellen.",
+          "en": "Volt supports global free and fair trade. This means that we want to keep tarriffs to a minimum, but make sure that international trade is regulated by multilateral trade agreements that are grounded upon the principles of sustainable development and puts people and planet ahead of narrow profits."
+        }
+      },
+      {
+        "thesis": 5,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will, dass die europäische Grenz- und Küstenwache aus dem EU-Haushalt finanziert wird und unabhängig von den Beiträgen der Mitgliedstaaten handelt. Wir wollen jedoch, dass alle Mitgliedstaaten das Personal, das derzeit die Binnengrenzen im Schengenraum bewacht, an die Außengrenze verlegen, und zwar auf rotierender Basis mit einer zusätzlichen Entschädigung für die Entfernung von zu Hause.",
+          "en": "We want the European border and coast guard to be funded from the EU budget, to act independently from Member States’ contributions. However, we want all Member States to move the personnel currently guarding Schengen-internal borders to the external border, on a rotating basis with extra compensation for being far away from home."
+        }
+      },
+      {
+        "thesis": 6,
+        "position": "positive",
+        "statement": {
+          "de": "Volt fordert die Einführung einer Frauenquote von 40% in den Vorständen aller börsennotierten Unternehmen.",
+          "en": "Volt demands the introduction of a 40% quota for women on the boards of all publicly traded enterprises."
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "negative",
+        "statement": {
+          "de": "Volt setzt sich für eine digitale Grundrechtscharta als verbindliches internationales Rechtsinstrument auf der Grundlage bestehender Internet-Governance-Normen ein. Volt möchte den Datenschutz auf der Grundlage der Datenschutzgrundverordnung verbessern.",
+          "en": "Volt is pushing for a Digital Bill of Rights as a binding international legal instrument, based on existing internet governance norms. Volt wants to enhance data protection, building on the General Data Protection Regulation."
+        }
+      },
+      {
+        "thesis": 8,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will die Flüchtlingsströme aus Drittländern durch die Einrichtung eines einheitlichen EU-Flüchtlingssystems regeln. Das Dublin-System muss reformiert und durch ein Niederlassungskonzept ergänzt werden, das auf der Grundlage von Faktoren wie Bevölkerung, Bevölkerungsdichte, Wohlstand, Alter und Wachstum definiert wird. Das veränderte System sollte Sanktionen für diejenigen Länder vorsehen, die sich nicht daran halten.",
+          "en": "Volt wants to manage refugee flows from outside the EU by setting up a Unified EU Refugee System. The Dublin System must be reformed and complemented by a settlement scheme defined based on factors such as population, population density, wealth, age, and growth. The amended system should provide for penalties for those countries who do not abide by it."
+        }
+      },
+      {
+        "thesis": 9,
+        "position": "negative",
+        "statement": {
+          "de": "Volt unterstützt die Fortführung der Verhandlungen mit den Ländern des Westbalkans, die sich bereits im Prozess des Beitritts zur EU befinden. Alle Länder, die der EU beitreten wollen, müssen deren Grundsätze der Demokratie und der Rechtsstaatlichkeit einhalten.",
+          "en": "Volt supports the continued negotiations with countries in the Western Balkans already in the process of joining the EU. All countries wishing to join the EU need to meet its principles of democracy and rule of law."
+        }
+      },
+      {
+        "thesis": 10,
+        "position": "positive",
+        "statement": {
+          "de": "Volt unterstützt die Einführung einer EU-weiten CO2-Steuer, um klare Anreize für klimafreundliche Lösungen zu schaffen und die Produktion und den Verbrauch klimaintensiver Produkte zu verhindern.",
+          "en": "Volt supports the introduction of an EU-wide carbon tax to provide clear incentives for climate-friendly solutions and discourage the production and consumption of carbon-intensive products."
+        }
+      },
+      {
+        "thesis": 11,
+        "position": "negative",
+        "statement": {
+          "de": "Volt unterstützt eine grundlegende Transformation der europäischen Landwirtschaft, um sie auf einen nachhaltigen Weg zu bringen, der die biologische Vielfalt und das Tierwohl schützt. Dies erfordert erhebliche Investitionen in die ökologische Landwirtschaft. Agrarsubventionen, die sich nur auf die Produktion konzentrieren und die Großproduzenten begünstigen, müssen eingestellt werden. Die Exportsubventionen für landwirtschaftliche Erzeugnisse sollten schließlich ganz eingestellt werden.",
+          "en": "Volt supports a fundamental transformation of European agriculture to put it on a sustainable path that protects biodiversity and animal welfare. This will require substantial investments in green farming. Agriculture subsidies that focus only on production and favor large producers must be discontinued. Export subsidies on agricultural products should eventually be stopped altogether."
+        }
+      },
+      {
+        "thesis": 12,
+        "position": "positive",
+        "statement": {
+          "de": "Volt unterstützt die Vereinheitlichung der nationalen Polizei-, Nachrichten- und Cybersicherheitsdienste in ganz Europa und schlägt vor, ein europäisches Korps zu schaffen, um dem Terrorismus im militärischen Stil oder großen Naturkatastrophen, die nicht an den Grenzen enden, entgegenzutreten.",
+          "en": "Volt supports the unification of national police, intelligence, and cyber security services across Europe and proposes to create a European corps to face military-style terrorism or large-scale natural disasters that don't stop at borders."
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "positive",
+        "statement": {
+          "de": "Volt unterstützt den Ansatz, EU-weite, regional differenzierte, garantierte Mindestlöhne einzuführen, um die Schaffung und den Schutz von Arbeitsplätzen auch in ärmeren Regionen innerhalb der Mitgliedsstaaten zu erleichtern.",
+          "en": "Volt supports the idea of introducing EU-wide minimum guaranteed wages differentiated at the regional level, to facilitate the creation and protection of jobs also in poorer regions within member states."
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "negative",
+        "statement": {
+          "de": "Die EU-Sanktionen gegen Russland sind eine Reaktion auf die illegale russische Intervention in der Ostukraine. Eine starke EU-Außenpolitik mit wirksamen Sanktionen kann zur Lösung des Konflikts beitragen. Volt möchte, dass das Europäische Parlament das letzte Wort in allen Fällen von politischen und wirtschaftlichen Sanktionen, einschließlich Handelsembargos, hat, die von der EU gegen Drittländer oder Einzelpersonen verhängt werden.",
+          "en": "The EU sanctions against Russia are a response to the Russian illegal intervention in East Ukraine. A strong EU foreign policy, employing effective sanctions, can contribute to solving the conflict. Volt wants the European Parliament to have the final say on all cases of political and economic sanctions, including trade embargoes, imposed by the EU on third countries or individuals."
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "positive",
+        "statement": {
+          "de": "Die Strafverfolgungsbehörden, Europol und andere Agenturen müssen enger zusammenarbeiten, um Cyberkriminalität, Fehlinformationen und Mobbing zu bekämpfen und das Internet für die Bürger sicher zu machen.",
+          "en": "Law enforcement, Europol and other agencies need to cooperate more closely to fight cybercrimes, misinformation and bullying, and make the Internet safe for citizens' use."
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "negative",
+        "statement": {
+          "de": "Angesichts der negativen Auswirkungen auf die Gesellschaft und die Wirtschaft insgesamt muss die Arbeitslosigkeit auf allen politischen Ebenen, von der lokalen bis zur europäischen, angegangen werden. Volt sieht eine Reihe von Maßnahmen zur Bekämpfung der Arbeitslosigkeit vor, darunter die Unterstützung für Bildung und lebenslanges Lernen, neue flexible Arbeitsmodelle und Regelungen zum Abbau von Zeitarbeit.",
+          "en": "Given the negative impact it has on society and the economy at large, unemployment needs to be addressed at all political levels from the local to the European. Volt envisages a range of measures to combat unemployment, including lifelong training and education support, new flexible working models and temporary work-reduction schemes."
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will neue Verkehrsmittel wie Hybridbusse, Radwegesysteme, Solartransport und autonomes Fahren fördern. Das Verkehrssystem muss besser integriert werden, damit der multimodale Verkehr den Privatwagen überflüssig macht und der Vergangenheit angehört.",
+          "en": "Volt wants to promote new ways of transportation including hybrid buses, bike lane systems, solar transport, and autonomous driving. Transport system need to be better integrated to allow for multimodal transport to make the private car unnecessary and a thing of the past."
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will eine Bandbreite für die Körperschaftssteuersätze in der gesamten EU einführen, um die Wettbewerbsfähigkeit Europas als Ganzes und den Steuerwettbewerb zwischen den Mitgliedstaaten zu gewährleisten. Die Steuerbehörde für große Unternehmen, die in mehreren Mitgliedstaaten tätig sind, sollte auf EU-Ebene verlagert werden.",
+          "en": "Volt wants to introduce a bandwidth for corporate tax rates across the EU to ensure competitiveness of Europe as a whole, and fiscal competition among member states. Taxation authority for large companies operating in several member states should be transferred to the EU."
+        }
+      },
+      {
+        "thesis": 19,
+        "position": "positive",
+        "statement": {
+          "de": "Volt ist der Ansicht, dass Asylbewerber, deren Anträge abgelehnt wurden, in ihre Herkunftsländer zurückkehren sollten. Die EU und die Mitgliedstaaten sollten zusammenarbeiten, um Rückübernahmeabkommen mit den Herkunftsländern zu unterzeichnen. Entscheidungen in Asylfragen sollten in erster Linie von einem verstärkten Europäischen Unterstützungsbüro für Asylfragen innerhalb eines reformierten Dublin-Systems getroffen werden, bei dem ein Niederlassungssystem einen gemeinsamen europäischen Ansatz in Asylfragen gewährleistet.",
+          "en": "Volt believes that asylum applicants whose applications have been rejected should be returned to their countries of origin. The EU and Member States should work together to sign readmission agreements with countries of origin. Decisions on asylum issues should primarily be taken by a strengthened European Asylum Support Office within a reformed Dublin System where a settlement scheme ensures a common European approach to asylum."
+        }
+      },
+      {
+        "thesis": 20,
+        "position": "positive",
+        "statement": {
+          "de": "Volt unterstützt Pläne zur Reduzierung von Barzahlungen, um illegale Transaktionen so weit wie möglich zu minimieren. Dies könnte dadurch erreicht werden, dass die rechtlichen Folgen von Steuerhinterziehung und die Leistungsfähigkeit der Steuerbetrugsbehörden auf der einen Seite verstärkt werden, und dass sichergestellt wird, dass die Händler keine überhöhten Provisionen für Kartentransaktionen zahlen.",
+          "en": "Volt supports plans to reduce cash payments in order to minimise illegal transactions as much as possible. This could be pursued by increasing legal consequences of tax evasion and the effectiveness of tax fraud administrators on one side, and by making sure merchants do not pay excessive commissions on card transactions."
+        }
+      },
+      {
+        "thesis": 21,
+        "position": "negative",
+        "statement": {
+          "de": "Anstatt einer Direktwahl schlägt Volt die Wahl des Präsidenten der Kommission durch eine Abstimmung des Europäischen Parlaments vor, was derzeit nicht der Fall ist.",
+          "en": "Rather than through a direct election, Volt proposes the election of the President of the Commission by a vote of the European Parliament, which is currently not the case."
+        }
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {
+          "de": "Anstatt mehr Geld für die Verteidigung auszugeben, schlägt Volt vor, das Geld intelligenter einzusetzen, indem wir die Ressourcen der verschiedenen europäischen Armeen bündeln. Langfristig schlagen wir die vollständige Integration der Armeen in eine europäische Verteidigungstruppe vor, um die europäische Sicherheit und Verteidigung effektiver, effizienter und kostengünstiger zu gestalten.",
+          "en": "Rather then spend more money on defence we propose to spend money smarter by pooling resources across Europe's armies. In the long-term, we suggest the full integration armies into a European Defence Force to make European security and defence more effective, efficient and less costly."
+        }
+      },
+      {
+        "thesis": 23,
+        "position": "neutral",
+        "statement": {
+          "de": "Volt will das Paradigma von der responsiven Arbeitslosenversicherung auf die präventive \"Beschäftigungsversicherung\" umstellen, als Rahmen für Programme, die sich auf die Erhaltung der lebenslangen Beschäftigungsfähigkeit und die Vermeidung von Arbeitsplatzverlusten durch Ausbildung zur Vorbereitung europäischer Arbeitnehmer auf die Zukunft der Arbeit konzentrieren - das Volta-Programm.",
+          "en": "Volt wants to shift the paradigm from responsive unemployment to preventive 'employment insurance' as an umbrella for schemes focused on maintaining lifelong employability and preventing job loss through training to prepare European workers for the future of work - the Volta programme."
+        }
+      },
+      {
+        "thesis": 24,
+        "position": "negative",
+        "statement": {
+          "de": "Volt unterstützt die Regulierung des internationalen Handels durch multilaterale und, wo dies nicht möglich ist, bilaterale und regionale Handelsabkommen, die einen freien und fairen, nachhaltigen Handel fördern, der die Interessen von Unternehmen und Bürgern ausgewogen berücksichtigt.",
+          "en": "Volt supports the regulation of international trade through multilateral and, where this is not feasible, bilateral and regional trade agreements that promote free and fair, sustainable trade that balance the interests of firms and citizens."
+        }
+      },
+      {
+        "thesis": 25,
+        "position": "positive",
+        "statement": {
+          "de": "Volt unterstützt eine Politik des einen Standorts für das Parlament um Effizienz und Transparenz zu steigern.",
+          "en": "Volt supports a one-seat policy of the parliament to increase efficiency and transparency."
+        }
+      },
+      {
+        "thesis": 26,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will ländliche Regionen besser mit städtischen Zentren verbinden, indem mehr in Infrastrukturen investiert wird, darunter Hochgeschwindigkeitszüge und integrierte Verkehrssysteme, einschließlich Binnenschifffahrt und Güterzüge.",
+          "en": "Volt wants to better connect rural regions to urban centres by increasing investment in infrastructure, including highspeed railways and integrated transportation systems including inland waterway transport and freight trains."
+        }
+      },
+      {
+        "thesis": 27,
+        "position": "negative",
+        "statement": {
+          "de": "Die derzeitigen Grenzkontrollen innerhalb des Schengenraums sollten eingestellt werden, sobald wir eine funktionierende EU-Außengrenze haben. Das Personal, das an Grenzkontrollen innerhalb des Schengenraums beteiligt ist, sollte stattdessen im rotierenden Wechsel an die Außengrenzen entsandt werden.",
+          "en": "The ongoing intra-Schengen border controls should stop as soon as we have a functioning external EU border. The personnel involved in controlling intra-Schengen borders should instead be deployed to external borders, on a rotating basis."
+        }
+      },
+      {
+        "thesis": 28,
+        "position": "negative",
+        "statement": {
+          "de": "Volt will, dass die Sozialpolitik zu einer Kernsäule der EU-Politik wird. Dazu gehören die Einführung von garantierten Mindesteinkommensregelungen und Mindest-Kindergeld in der gesamten EU sowie die Integration von On-Demand-Arbeitnehmern in die Sozialsysteme. Pilotprojekte für bedingungslose Einkommen sollten unterstützt werden.",
+          "en": "Volt wants social policy to become a core pillar of EU policy. This includes the introduction of guaranteed minimum income schemes and minimum child benefits across the EU, and the integration of on-demand workers into social welfare systems. Pilot unconditional income projects should be supported."
+        }
+      },
+      {
+        "thesis": 29,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will das Prinzip der Einstimmigkeit zwischen den Mitgliedsstaaten abschaffen, auch im Bereich der Außenpolitik. Das allein wird jedoch nicht zu einer kohärenten EU-Außenpolitik führen. Dazu müssen wir auch den Europäischen Auswärtigen Dienst und die Rolle des Europäischen Parlaments in Fragen der EU-Außenpolitik, einschließlich politischer und wirtschaftlicher Sanktionen, stärken.",
+          "en": "Volt wants to abolish the principle of unanimity among member states, including in the field of foreign policy. This in itself will not lead to a coherent EU foreign policy, however. For this, we also need to strengthen the European External Action Service and the role of the European Parliament in matters of EU foreign policy, including political and economic sanctions."
+        }
+      },
+      {
+        "thesis": 30,
+        "position": "positive",
+        "statement": {
+          "de": "Volt fordert die Harmonisierung der Vorschriften für die Lebensmittelkennzeichnung in der gesamten EU nach den höchsten Standards, um Transparenz und Vertrauen zu gewährleisten. Volt beabsichtigt, die Verwendung der so genannten Ampel-Lebensmittelkennzeichnungssysteme zu verhindern, die die \"guten Fette\" (z.B. Omega-3-Fettsäuren), die Menge der konsumierten Lebensmittel im Vergleich zur Qualität und die Folgen künstlicher Lebensmittel und Farbstoffe nicht berücksichtigen. Weitere Maßnahmen für eine gesündere Ernährung sollten geprüft werden, wie z.B. die Erhöhung der Mehrwertsteuer auf ungesunde Lebensmittel, einschließlich gesättigter Fette, Transfettsäuren und verarbeiteter Zucker, und die Senkung der Mehrwertsteuer auf gesundes Gemüse und Obst.",
+          "en": "Volt calls for the harmonization of food label requirements all over the EU to the highest standard practice, ensuring transparency and fostering trust. Volt intends to prevent the use of the so-called traffic-light food labelling systems that do not take into account the ‘good fats’ (e.g. Omega-3 fatty acid), the amount of food vs. quality consumed, and the consequences of artificial food and colorants. Further measures for healthier nutrition should be explored, such as increases in VAT on unhealthy foods including saturated fats, trans-fatty acids, and processed sugars, and decreases in VAT on healthy vegetables and fruits."
+        }
+      },
+      {
+        "thesis": 31,
+        "position": "positive",
+        "statement": {
+          "de": "Volt will alle Finanztransaktionen je nach Art der Transaktion zwischen 0,05 % und 0,021 % besteuern. Ausnahmen müssen definiert werden, z.B. für kleine und mittlere Unternehmen.",
+          "en": "Volt wants to tax all financial transactions at between 0.05% and 0.021 %, depending on the type of transaction. Exemptions will have to be defined, e.g. for small and medium enterprises."
+        }
+      },
+      {
+        "thesis": 32,
+        "position": "negative",
+        "statement": {
+          "de": "Die EU wurde als ein historisch einzigartiges Friedensprojekt gegründet. Dies ist kein Projekt, dem man halbherzig beitreten sollte, und das der Reaktion von über den aktuellen Stand der Dinge frustrierten Bürgern ausgesetzt werden sollte. Volt glaubt an die gemeinsame Zukunft aller Länder in der EU, dass wir die Probleme der EU lösen müssen, anstatt dass die Länder die EU verlassen, um alleine zu handeln.",
+          "en": "The EU was founded as a historically unique peace project. This is not a project to be joined halfheartedly, and to be left in response to citizen frustration with the current state of things. Volt believes in the shared future of all countries in the EU that we need to fix the problems of the EU rather than have countries leave it to go it alone."
+        }
+      }
+    ]
   }
 ]
