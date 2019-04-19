@@ -3,6 +3,7 @@
     <header class="app-header">
       <router-link :to="{ path: `/${$i18n.locale}/` }">
         <img class="header-logo"
+          alt="EUROMAT Logo"
           :src="euromatLogo"
           :width="logoSize"
           :height="logoSize / 2"
@@ -12,7 +13,7 @@
       <app-menu :main="topMenu" :languages="languages" />
     </header>
 
-    <main>
+    <main id="main">
       <router-view />
     </main>
 
@@ -154,6 +155,32 @@
     overflow-x: hidden;
   }
 
+  .visuallyhidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .go-to-main.visuallyhidden {
+    position: absolute;
+    background: $background-secondary;
+    left: 0;
+    top: 0;
+    padding: calc(#{$small-gap} / 2);
+    z-index: 100;
+
+    &:focus {
+      color: $text-color-secondary;
+    }
+  }
+
   h1 {
     font-size: $font-size-xlarge;
     line-height: 110%;
@@ -189,7 +216,7 @@
     }
 
     &:not(.btn):focus {
-      outline: none;
+      outline: 2px solid $orange;
       color: $text-color-special;
     }
   }

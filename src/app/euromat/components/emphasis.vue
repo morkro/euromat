@@ -178,6 +178,10 @@
     margin-right: $base-gap;
     margin-left: $base-gap * 2;
 
+    &:focus + label::before {
+      border: 2px solid $orange;
+    }
+
     &:checked + label::after {
       opacity: 1;
       transform: translate(-70px, -50%);
@@ -188,6 +192,10 @@
 
     @media (max-width: $breakpoint) {
       margin-bottom: $small-gap / 2;
+
+      &:checked:focus + label::after {
+        transform: translate(62px, -133%);
+      }
 
       &:checked + label::after {
         transform: translate(60px, -125%);
