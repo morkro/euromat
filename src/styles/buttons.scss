@@ -38,6 +38,7 @@ button,
   &:focus,
   &:active {
     outline: none;
+    border: 2px solid $orange;
     box-shadow: $button-shadow, 0 0 8px $pink;
   }
 
@@ -93,6 +94,7 @@ button,
     &:focus,
     &:active {
       outline: none;
+      border: 2px solid $orange;
       box-shadow: 0 0 8px transparentize($dark-blue, 0.7);
     }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="app-menu">
+  <nav role="navigation" class="app-menu">
     <ul class="top-menu">
       <li v-for="(item, index) of main" :key="item.label + index">
         <router-link tag="a" :to="item.route">
@@ -43,7 +43,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -154,6 +154,7 @@
 
       &:focus {
         box-shadow: none;
+        border: 2px solid $orange;
         background: $button-background-secondary;
       }
     }
