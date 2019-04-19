@@ -16,6 +16,7 @@
 </template>
 
 <script>
+  import { getTranslatedUrl } from '@/i18n/helper'
   export default {
     name: 'Intro',
 
@@ -26,9 +27,7 @@
 
     computed: {
       thesesPath () {
-        return this.$i18n.locale === 'de'
-          ? `/${this.$i18n.locale}/thesen`
-          : `/${this.$i18n.locale}/theses`
+        return getTranslatedUrl('theses')
       }
     }
   }

@@ -15,6 +15,7 @@
                 <img
                   class="team-logo polis"
                   :src="polisLogo"
+                  :alt="teamLabel.polis.label"
                   width="150"
                   height="100"
                 >
@@ -43,6 +44,7 @@
               <a :href="teamLabel.poe.url" target="_blank">
                 <img
                   class="team-logo poe"
+                  :alt="teamLabel.poe.label"
                   :src="poeLogo"
                   width="400"
                   height="60"
@@ -177,18 +179,6 @@
       @media (max-width: $breakpoint) {
         flex: 0 0 100%;
         width: 100%;
-
-        &.poe {
-          order: 1;
-        }
-
-        &.polis {
-          order: 2;
-        }
-
-        &.dev {
-          order: 3;
-        }
       }
     }
 

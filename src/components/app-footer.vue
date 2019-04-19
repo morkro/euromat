@@ -163,6 +163,10 @@
       &:hover {
         color: $text-color-special;
       }
+
+      &:focus {
+        color: $text-color-base;
+      }
     }
 
     li:not(:first-child) {
