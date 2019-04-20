@@ -1,16 +1,7 @@
 {
   "language": "de",
-  "url": "haufige-fragen",
-  "title": "Häufig gestellte Fragen",
-  "headline": "FAQ",
-  "questions": [
-    {
-      "title": "Konzept",
-      "answer": "Der EUROMAT präsentiert insgesamt 30 Thesen zur Europapolitik denen Sie zustimmen, die Sie ablehnen oder die Sie mit neutral kommentieren können. Ihre Antworten werden anschließend mit den Positionen der Parteien abgeglichen, und daraus wird ein Ranking auf Basis der prozentuellen Übereinstimmung mit der jeweiligen Partei erstellt. Für die Zusammenstellung von Thesen und Antworten wurden die aktuell sechs größten Parteien kontaktiert: CDU/CSU, SPD, Bündnis90/Die Grünen, DIE LINKE, FDP and AFD. Von diesen sechs Parteien haben uns insgesamt fünf geantwortet. Da wir von der AFD im Vorfeld leider keine Stellungnahme zu den einzelnen Thesen des EUROMAT erhalten haben, konnten wir Sie daher nicht für die weitere Auswertung berücksichtigen."
-    },
-    {
-      "title": "Methodik",
-      "answer": "Das Berechnungsmodell des EUROMAT basiert auf dem Rechenmodell der Bundeszentrale für politische Bildung, welches unter folgender lizenzfrei zur Verfügung steht: Creative Commons BY-NC-ND 3.0"
-    }
-  ]
+  "url": "presse",
+  "title": "Presse",
+  "headline": "Kontakt",
+  "content": "Du bist Journalist\\*in, oder interessierte/r Bürger\\*in? Dann trete gerne mit uns in Kontakt!\n\nDeine Anfragen nehmen wir gerne unter folgender Email-Adresse entgegen:\n\nhallo\\[at]euromat\\[punkt]info"
 }
