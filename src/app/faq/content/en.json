@@ -5,12 +5,16 @@
   "headline": "FAQ",
   "questions": [
     {
-      "title": "Concept",
-      "answer": "In total, EUROMAT presents 30 statements on European policy which you choose to agree, disagree or react neutrally to. Ultimately, your answers will be compared against the positions of the German parties, and the results matched on percentage basis. For the compilation of statements and answers the six biggest parties have been contacted: CDU/CSU, SPD, Bündnis90/Die Grünen, DIE LINKE, FDP and AFD. Five of those six parties have responded to our questionnaire. As we have not received a formal reply from AFD in time, we could not include them in the further EUROMAT evaluation."
+      "title": "What is the EUROMAT?",
+      "answer": "The EUROMAT presents 33 statements on different European policy areas - such as migration or security - which you agree, disagree with or react neutrally to. Ultimately, your answers will be compared with the positions of the European parties, and the matching results presented as a percentage of correspondence. Additionally, we will give you an overview of the corresponding national parties affiliated with the respective European party. \n\nIn total, 21 parties were contacted for the compilation of statements and answers:  European People's Party (EPP), Party of European Socialists (PES), Alliance of Conservatives and Reformists in Europe (ACRE), European Christian Political Movement (ECPM),  Alliance of Liberals and Democrats for Europe (ALDE),  European Democratic Party (EDP), Party of the European Left (PEL), Nordic Green Left Alliance (NGLA), European Green Party (EGP), European Free Alliance (EFA),Movement for a Europe of Nations and Freedom (MENF), VOLT, Alliance for Peace and Freedom (APF), Alliance for European National Movements (AENM), Initiative of Communist and Workers' Parties, DiEM25, European Federalist Party, European Pirate Party (PPEU), Euro Animal 7 (EA7), Liberal South East European Network (LIBSEEN), Europe Democracy Esperanto (EDE).\n\n 12 of those 21 parties have responded to our questionnaire. As we have not received a formal reply from 9 parties in time, we could not include them in the further EUROMAT evaluation."
     },
     {
-      "title": "Methodology",
-      "answer": "Das Berechnungsmodell des EUROMAT basiert auf dem Rechenmodell der Bundeszentrale für politische Bildung, welches unter folgender lizenzfrei zur Verfügung steht: Creative Commons BY-NC-ND 3.0"
+      "title": "How does the EUROMAT works?",
+      "answer": "The computation model of EUROMAT follows the calculation program by Bundeszentrale für politische Bildung (German Federal Agency for Civic Education). It is freely available under the following license: Creative Commons BY-NC-ND 3.0"
+    },
+    {
+      "title": "How did we develop the EUROMAT?",
+      "answer": "In a first step, we developed statements in several workshops. Our goals were:\n\n* to cover a maximum of relevant topics for European societies\n* to cover a broad range of diverse political opinions\n\nIn a second step, partners from different european Member States examined the statements for relevance in their respective countries. With this feedback we finalized the statements. Then we sent a total of 49 statements to 21 parties of the European Parliament. They were asked to agree, disagree or remain neutral towards those statements. Additionally, they had the possibility to give a short explanation to their answer. \n\nThe answers of the European parties were analyzed and 33 final statements were selected to be included in the EUROMAT. The selection was based on their capacity of the statements to help differentiate between the parties. The answers were then translated by our partners to spread the EUROMAT in the most countries possible."
     }
   ]
 }
