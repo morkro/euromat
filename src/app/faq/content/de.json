@@ -1,20 +1,7 @@
 {
   "language": "de",
-  "url": "haufige-fragen",
-  "title": "Häufig gestellte Fragen",
-  "headline": "FAQ",
-  "questions": [
-    {
-      "title": "Konzept",
-      "answer": "Der EUROMAT präsentiert insgesamt 33 Behauptungen zu verschiedenen Politikfeldern der Europäischen Politik wie z. B. Migration oder Sicherheit, denen Du zustimmen, ablehnen oder neutral kommentieren kannst. Deine Antworten werden anschließend mit den Positionen der europäischen Parteien abgeglichen, und daraus wird ein Ranking auf Basis der prozentualen Übereinstimmung mit der jeweiligen Partei erstellt. Zusätzlich geben wir Dir einen Überblick über die Zuordnung der nationalen Parteien in den jeweiligen europäischen Parteien.\n\nFür die Zusammenstellung der Thesen und Antworten wurden insgesamt 21 europäische Parteien kontaktiert: European People's Party (EPP), Party of European Socialists (PES), Alliance of Conservatives and Reformists in Europe (ACRE), European Christian Political Movement (ECPM), Alliance of Liberals and Democrats for Europe (ALDE),  European Democratic Party (EDP), Party of the European Left (PEL), Nordic Green Left Alliance (NGLA), European Green Party (EGP),European Free Alliance (EFA), Movement for a Europe of Nations and Freedom (MENF), VOLT, Alliance for Peace and Freedom (APF), Alliance for European National Movements (AENM), Initiative of Communist and Workers' Parties, DiEM25, European Federalist Party,European Pirate Party (PPEU), Euro Animal 7 (EA7), Liberal South East European Network (LIBSEEN), Europe Democracy Esperanto (EDE).\n\nVon diesen 21 Parteien haben uns insgesamt 12 geantwortet. Da wir von 9 Parteien im Vorfeld leider keine Stellungnahme zu den einzelnen Behauptungen des EUROMAT erhalten haben, konnten wir sie daher nicht für die weitere Auswertung berücksichtigen."
-    },
-    {
-      "title": "Methodik",
-      "answer": "Das Berechnungsmodell des EUROMAT basiert auf dem Rechenmodell der Bundeszentrale für politische Bildung, welches lizenzfrei zur Verfügung steht: Creative Commons BY-NC-ND 3.0"
-    },
-    {
-      "title": "Wie wurde der EUROMAT entwickelt?",
-      "answer": "Zuerst haben wir in mehreren Workshops die Behauptungen entwickelt. Dabei haben wir zwei Ziele verfolgt: \n\n* ein Maximum an relevanten Themen für europäische Gesellschaften abzudecken; \n* ein breites Spektrum unterschiedlicher politischer Meinungen abzudecken\n\nIn einem zweiten Schritt haben Partner aus anderer Mitgliedstaaten die Behauptungen bezüglich ihrer Relevanz in ihren jeweiligen Ländern bewertet. Daraufhin haben wir insgesamt 49 Behauptungen an 21 Parteien des Europäischen Parlaments versendet. Sie wurden gebeten den Behauptungen zuzustimmen, diese abzulehnen oder neutral zu bleiben. Zusätzlich hatten sie die Möglichkeit, eine kurze Erklärung zu ihrer Antwort hinzuzufügen. \n\n33 finale Behauptungen wurden für den EUROMAT anhand der Positionen der Parteien zu diesen Aussagen ausgewählt. Die Auswahl beruhte auf ihrer Fähigkeit, bei der Unterscheidung zwischen den Parteien zu helfen. Die Antworten wurden dann von unseren Partnerorganisationen übersetzt, um den EUROMAT in so vielen Ländern wie möglich zu verbreiten."
-    }
-  ]
+  "url": "presse",
+  "title": "Presse",
+  "headline": "Kontakt",
+  "content": "Du bist Journalist\\*in, oder interessierte/r Bürger\\*in? Dann trete gerne mit uns in Kontakt!\n\nDeine Anfragen nehmen wir gerne unter folgender Email-Adresse entgegen:\n\nhallo@euromat.info"
 }
