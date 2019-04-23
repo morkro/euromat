@@ -47,6 +47,7 @@ export function getTranslatedAliases (data, section) {
     Object.keys(data)
       .filter(lang => lang !== DEFAULT_LOCALE)
       .map(lang => data[lang][section].url)
+      .filter(url => url !== data[DEFAULT_LOCALE][section].url)
       .filter(Boolean)
   )]
 }

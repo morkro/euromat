@@ -1,11 +1,11 @@
 {
-  "language": "de",
-  "url": "partei",
-  "title": "Partei",
-  "subtitle": "Zum Parteiprogramm",
-  "backButtonLabel": "Zurück zum Ergebnis",
-  "legendLabel": "Legende",
   "partyAnswer": "Antwort der Partei",
-  "tableHeading": "Thesis",
-  "tableUser": "Deine Wahl"
+  "legendLabel": "Legende",
+  "url": "partei",
+  "tableHeading": "These",
+  "subtitle": "Zum Parteiprogramm",
+  "title": "Partei",
+  "language": "de",
+  "tableUser": "Deine Wahl",
+  "backButtonLabel": "Zurück zum Ergebnis"
 }

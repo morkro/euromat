@@ -153,6 +153,9 @@
         box-shadow: none;
         border: 2px solid $orange;
         background: $button-background-secondary;
+        transform: translate(-1px, 1px);
+        margin-top: -3px;
+        margin-right: 1px;
       }
     }
 
