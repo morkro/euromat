@@ -22,19 +22,6 @@
                 <span hidden>{{ teamLabel.polis.label }}</span>
               </a>
             </h2>
-            <ul>
-              <li v-for="(member, index) of members.polis" :key="'member-polis-' + index">
-                <a
-                  v-if="member.profile"
-                  :href="member.profile"
-                  target="_blank"
-                >
-                  {{ member.name }}
-                  <feather-external-link />
-                </a>
-                <span v-else>{{ member.name }}</span>
-              </li>
-            </ul>
           </div>
         </div>
 
@@ -52,19 +39,6 @@
                 <span hidden>{{ teamLabel.poe.label }}</span>
               </a>
             </h2>
-            <ul>
-              <li v-for="(member, index) of members.poe" :key="'member-poe-' + index">
-                <a
-                  v-if="member.profile"
-                  :href="member.profile"
-                  target="_blank"
-                >
-                  {{ member.name }}
-                  <feather-external-link />
-                </a>
-                <span v-else>{{ member.name }}</span>
-              </li>
-            </ul>
           </div>
         </div>
 
@@ -106,16 +80,6 @@
         polisLogo: require('@/assets/svg/polis-colored-logo.svg'),
         poeLogo: require('@/assets/svg/poe-colored-logo.svg'),
         members: {
-          polis: [
-            { name: 'Susanne Zels', profile: 'https://www.linkedin.com/in/susannezels/' },
-            { name: 'Stephan Kreutzer', profile: 'https://www.linkedin.com/in/stephan-kreutzer-905a0635/' },
-            { name: 'Benjamin Lenzing', profile: null },
-            { name: 'Johannes John', profile: null }
-          ],
-          poe: [
-            { name: 'Eva Podgoršek', profile: 'https://twitter.com/evapodg' },
-            { name: 'Peter Funk', profile: 'https://twitter.com/funk67' }
-          ],
           dev: [
             { name: 'Moritz Kröger', profile: 'http://moritz.berlin' }
           ]
@@ -183,7 +147,6 @@
     }
 
     h2 {
-      margin-bottom: $small-gap;
       color: $text-color-secondary;
     }
 
@@ -202,10 +165,14 @@
     }
   }
 
+  .people-group.dev h2 {
+    margin-bottom: $small-gap;
+  }
+
   .group-inner {
     width: calc(100% - #{$base-gap});
     background: $background-secondary;
-    border-radius: $border-radius / 2;
+    border-radius: $border-radius / 4;
     box-shadow: $button-shadow;
     padding: $base-gap;
     color: $text-color-secondary;
