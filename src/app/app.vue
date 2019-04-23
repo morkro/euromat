@@ -67,6 +67,10 @@
             route: { path: getTranslatedUrl('about') }
           },
           {
+            label: this.$t('meta.topMenu.partner'),
+            route: { path: getTranslatedUrl('partner') }
+          },
+          {
             label: this.$t('meta.topMenu.press'),
             route: { path: getTranslatedUrl('press') }
           }

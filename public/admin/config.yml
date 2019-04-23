@@ -322,6 +322,44 @@ collections:
           - label: Answer
             name: answer
             widget: markdown
+  - name: partner
+    label: '[Page] Partner'
+    description: Partner page.
+    folder: src/app/partner/content
+    format: json
+    create: true
+    slug: '{{fields.language}}'
+    fields:
+      - label: '[Meta] Language'
+        name: language
+        hint: Select the language for this page.
+        widget: select
+        options:
+          - label: English
+            value: en
+          - label: Deutsch
+            value: de
+          - label: Français
+            value: fr
+          - label: Polski
+            value: pl
+      - label: '[Meta] Page URL'
+        name: url
+        widget: string
+        hint: >-
+          An optional, localised URL which will be used for this page (e.g.
+          https://euromat.info/#/<PAGE_URL>)
+        optional: true
+      - label: '[Meta] Site Name'
+        name: title
+        widget: string
+        hint: The name for the page that will appear in the browser tab.
+      - label: Headline
+        name: headline
+        widget: string
+      - label: Content
+        name: Content
+        widget: markdown
   - name: press
     label: '[Page] Press'
     description: Press page.
@@ -604,6 +642,9 @@ collections:
             widget: string
           - label: '[Label] About us'
             name: about
+            widget: string
+          - label: '[Label] Partner'
+            name: partner
             widget: string
           - label: '[Label] Press'
             name: press

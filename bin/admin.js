@@ -146,6 +146,20 @@ const configTree = {
     }),
     category({
       meta: {
+        name: 'partner',
+        label: '[Page] Partner',
+        description: 'Partner page.',
+        folder: 'src/app/partner/content'
+      },
+      fields: [
+        pageUrl(),
+        siteName(),
+        stringField('headline', 'Headline'),
+        markdownField('Content', 'Content')
+      ]
+    }),
+    category({
+      meta: {
         name: 'press',
         label: '[Page] Press',
         description: 'Press page.',
@@ -261,6 +275,7 @@ const configTree = {
             stringField('index', '[Label] Introduction'),
             stringField('faq', '[Label] FAQ'),
             stringField('about', '[Label] About us'),
+            stringField('partner', '[Label] Partner'),
             stringField('press', '[Label] Press')
           ]
         }),
