@@ -261,7 +261,7 @@ const configTree = {
             stringField('index', '[Label] Introduction'),
             stringField('faq', '[Label] FAQ'),
             stringField('about', '[Label] About us'),
-            stringField('press', '[Label] Press')
+            stringField('contact', '[Label] Contact')
           ]
         }),
         objectField('footerMenu', 'Footer Navigation', {
