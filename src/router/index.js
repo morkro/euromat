@@ -10,7 +10,7 @@ import { routes as euromat } from '@/app/euromat'
 import { routes as party } from '@/app/party'
 import { routes as about } from '@/app/about'
 import { routes as faq } from '@/app/faq'
-import { routes as press } from '@/app/press'
+import { routes as contact } from '@/app/contact'
 import { routes as imprint } from '@/app/imprint'
 import { routes as privacy } from '@/app/privacy'
 import { routes as fourzerofour } from '@/app/404'
@@ -30,7 +30,7 @@ const router = new Router({
         ...party,
         ...about,
         ...faq,
-        ...press,
+        ...contact,
         ...imprint,
         ...privacy,
         ...fourzerofour
