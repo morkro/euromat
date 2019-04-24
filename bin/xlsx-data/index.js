@@ -6,6 +6,13 @@ function toJSON (data = {}) {
   return JSON.stringify(data, null, 2)
 }
 
+function normalisePartyToken (name) {
+  return name
+    .toUpperCase()
+    .trim()
+    .replace(/\s/g, '-')
+}
+
 function createLocaleMap (section, data = {}) {
   return Object.keys(data)
     .filter(key => key.includes(section))
@@ -25,6 +32,20 @@ function createPartyPositionMap (sheetName) {
     position: block.Position,
     statement: createLocaleMap('Statement', block)
   }))
+}
+
+function createNationalPartyMap (token, nationalParties) {
+  const parties = nationalParties.filter(np => normalisePartyToken(np['European Party']) === token)
+  const partyMap = data => ({ token: normalisePartyToken(data.Token), name: data.Name })
+  return parties.reduce((acc, cur) => {
+    const countryCode = cur['Country Code'].toLowerCase()
+    if (!acc.hasOwnProperty(countryCode)) {
+      acc[countryCode] = [partyMap(cur)]
+    } else {
+      acc[countryCode].push(partyMap(cur))
+    }
+    return acc
+  }, {})
 }
 
 async function writeDataset (fileName, data = {}) {
@@ -79,14 +100,16 @@ async function createTerminologyDataset (sheetName) {
   await writeDataset('terminology.json', data)
 }
 
-async function createPartiesDataset (sheetName, partySheets) {
+async function createPartiesDataset (sheetName, sheets = {}) {
   if (!sheetName) {
     throw new Error(`createPartiesDataset() requires 'sheetName', got "${sheetName}"`)
   }
 
-  const rawData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName])
-  const data = rawData.map(block => {
-    const token = block.Token.toUpperCase().trim()
+  const { europeanParties, nationalParties, parties } = sheets
+  const rawDataEU = XLSX.utils.sheet_to_json(workbook.Sheets[europeanParties])
+  const rawDataNational = XLSX.utils.sheet_to_json(workbook.Sheets[nationalParties])
+  const data = rawDataEU.map(block => {
+    const token = normalisePartyToken(block.Token)
     return {
       id: parseInt(block.ID, 10),
       token,
@@ -94,8 +117,11 @@ async function createPartiesDataset (sheetName, partySheets) {
       european_profile: {
         party: createLocaleMap('European Party', block)
       },
+      national_parties: createNationalPartyMap(token, rawDataNational),
       program: createLocaleMap('Program', block),
-      positions: createPartyPositionMap(partySheets.find(sName => sName.toUpperCase() === token))
+      positions: createPartyPositionMap(
+        parties.find(sName => normalisePartyToken(sName) === token)
+      )
     }
   })
 
@@ -107,7 +133,12 @@ const OUTPUT_DIRECTORY = './src/data'
 const RESOURCE_FILE = 'euromat-dataset.xlsx'
 const spinner = ora()
 const workbook = XLSX.readFile(`./resources/${RESOURCE_FILE}`)
-const [options, theses, terminology, parties, ...morePartySheets] = workbook.SheetNames
+const [
+  options,
+  theses, terminology,
+  europeanParties, nationalParties,
+  ...morePartySheets
+] = workbook.SheetNames
 
 ;(async () => {
   spinner.start()
@@ -123,8 +154,12 @@ const [options, theses, terminology, parties, ...morePartySheets] = workbook.She
   spinner.info(`Writing '${terminology}.json' file`)
   await createTerminologyDataset(terminology)
 
-  spinner.info(`Writing '${parties}.json' file`)
-  await createPartiesDataset(parties, morePartySheets)
+  spinner.info(`Writing 'parties.json' file`)
+  await createPartiesDataset('parties', {
+    europeanParties,
+    nationalParties,
+    parties: morePartySheets
+  })
 
   spinner.stopAndPersist()
 })()

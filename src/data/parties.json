@@ -12,7 +12,94 @@
         "en": "Alliance of Liberals and Democrats for Europe (ALDE)"
       }
     },
+    "national_parties": {
+      "at": [
+        {
+          "token": "NEOS",
+          "name": "Neos"
+        }
+      ],
+      "be": [
+        {
+          "token": "MOR",
+          "name": "Mouvement Réformateur"
+        },
+        {
+          "token": "OVLD",
+          "name": "Open Vlaamse Liberalen en Democraten"
+        }
+      ],
+      "cz": [
+        {
+          "token": "ANO-2011",
+          "name": "Ano 2011"
+        }
+      ],
+      "dk": [
+        {
+          "token": "RV",
+          "name": "Radikale Venstre"
+        }
+      ],
+      "de": [
+        {
+          "token": "FDP",
+          "name": "Freie Demokratische Partei"
+        }
+      ],
+      "es": [
+        {
+          "token": "CIU",
+          "name": "Ciudadanos"
+        }
+      ],
+      "fr": [
+        {
+          "token": "MR",
+          "name": "Mouvement radical"
+        },
+        {
+          "token": "UDI",
+          "name": "Union des démocrates et indépendants"
+        }
+      ],
+      "ie": [
+        {
+          "token": "FF",
+          "name": "Fianna Fáil"
+        }
+      ],
+      "mt": [
+        {
+          "token": "PD",
+          "name": "Partit Demokratiku"
+        }
+      ],
+      "pl": [
+        {
+          "token": "NO",
+          "name": "Nowoczesna"
+        }
+      ],
+      "si": [
+        {
+          "token": "SAB",
+          "name": "Stranka Alenke Bratušek"
+        }
+      ],
+      "uk": [
+        {
+          "token": "APNI",
+          "name": "The Alliance Party of Northern Ireland"
+        },
+        {
+          "token": "LD",
+          "name": "Liberal Democrats"
+        }
+      ]
+    },
     "program": {
+      "de": "https://www.aldeparty.eu/sites/alde/files/40-Resolutions/2019_freedom_opportunity_prosperity_the_liberal_vision_for_the_future_of_europe.pdf",
       "en": "https://www.aldeparty.eu/sites/alde/files/40-Resolutions/2019_freedom_opportunity_prosperity_the_liberal_vision_for_the_future_of_europe.pdf"
     },
     "positions": [
@@ -314,19 +401,58 @@
   },
   {
     "id": 1,
-    "token": "DIEM25",
+    "token": "EUROPEAN-SPRING",
     "name": {
-      "de": "Bewegung Demokratie in Europa 2025",
+      "de": "European Spring",
       "en": "Democracy in Europe Movement 2025"
     },
     "european_profile": {
       "party": {
-        "de": "Bewegung Demokratie in Europa 2025",
+        "de": "European Spring",
         "en": "Democracy in Europe Movement 2025"
       }
     },
+    "national_parties": {
+      "at": [
+        {
+          "token": "WANDEL",
+          "name": "Der Wandel"
+        }
+      ],
+      "de": [
+        {
+          "token": "DIEM25",
+          "name": "Demokratie in Europa"
+        }
+      ],
+      "dk": [
+        {
+          "token": "ALTERNATIVET",
+          "name": "Alternativet"
+        }
+      ],
+      "fr": [
+        {
+          "token": "GENERATION",
+          "name": "Generation s"
+        }
+      ],
+      "es": [
+        {
+          "token": "ACTÚA",
+          "name": "Actúa"
+        }
+      ],
+      "pl": [
+        {
+          "token": "RAZEM",
+          "name": "Partiarazem"
+        }
+      ]
+    },
     "program": {
-      "en": "https://diem25.org/wp-content/uploads/2016/02/diem25_english_long.pdf"
+      "de": "https://europeanspring.net/wp-content/uploads/2019/02/EuropeanSpring-Manifesto-2019.DE.pdf",
+      "en": "https://europeanspring.net/wp-content/uploads/2019/03/EuropeanSpring-Manifesto.ENG_.pdf"
     },
     "positions": [
       {
@@ -602,7 +728,46 @@
         "en": "European Christian Political Movement"
       }
     },
+    "national_parties": {
+      "de": [
+        {
+          "token": "BÜNDNIS-C",
+          "name": "Bündnis C - Christen für Deutschland"
+        }
+      ],
+      "fr": [
+        {
+          "token": "PCD",
+          "name": "Le Parti Chrétien-Démocrate"
+        }
+      ],
+      "ie": [
+        {
+          "token": "CDD",
+          "name": "Comhaontas Dhínit an Duine"
+        }
+      ],
+      "mt": [
+        {
+          "token": "AB",
+          "name": "Alleanza Bidla"
+        }
+      ],
+      "pl": [
+        {
+          "token": "PR",
+          "name": "Prawica Rzeczypospolitej"
+        }
+      ],
+      "uk": [
+        {
+          "token": "CPA",
+          "name": "Christian Peoples Alliance"
+        }
+      ]
+    },
     "program": {
+      "de": "https://ecpm.info/ECPM%20Summary%20Election%20Manifesto%202019.pdf",
       "en": "https://ecpm.info/ECPM%20Summary%20Election%20Manifesto%202019.pdf"
     },
     "positions": [
@@ -852,6 +1017,7 @@
         "en": "Europe Democracy Esperanto"
       }
     },
+    "national_parties": {},
     "program": {},
     "positions": [
       {
@@ -1100,7 +1266,46 @@
         "en": "European Democratic Party"
       }
     },
+    "national_parties": {
+      "cz": [
+        {
+          "token": "SEN21",
+          "name": "Senator 21"
+        }
+      ],
+      "de": [
+        {
+          "token": "FW",
+          "name": "Freie Wähler"
+        }
+      ],
+      "es": [
+        {
+          "token": "CEU",
+          "name": "Coalición por Europa "
+        }
+      ],
+      "fr": [
+        {
+          "token": "MODEM",
+          "name": "Mouvement Démocrate"
+        }
+      ],
+      "pl": [
+        {
+          "token": "SD",
+          "name": "Stronnictwo Demokratyczne"
+        }
+      ],
+      "si": [
+        {
+          "token": "DESUS",
+          "name": "Demokratična stranka upokojencev Slovenije"
+        }
+      ]
+    },
     "program": {
+      "de": "http://www.democrats.eu/en/theme/a-democratic-europe",
       "en": "http://www.democrats.eu/en/theme/a-democratic-europe"
     },
     "positions": [
@@ -1350,7 +1555,22 @@
         "en": "European Free Alliance"
       }
     },
+    "national_parties": {
+      "de": [
+        {
+          "token": "BAYERN",
+          "name": "Bayernpartei"
+        }
+      ],
+      "es": [
+        {
+          "token": "AR",
+          "name": "Ahora Repúblicas "
+        }
+      ]
+    },
     "program": {
+      "de": "https://www.youdecidenow.eu/2019-manifesto-european-elections/",
       "en": "https://www.youdecidenow.eu/2019-manifesto-european-elections/"
     },
     "positions": [
@@ -1633,7 +1853,88 @@
         "en": "European Greens"
       }
     },
+    "national_parties": {
+      "at": [
+        {
+          "token": "DGA",
+          "name": "Die Grünen – Die Grüne Alternative"
+        }
+      ],
+      "be": [
+        {
+          "token": "GROEN",
+          "name": "Groen"
+        },
+        {
+          "token": "ECOLO",
+          "name": "Ecolo"
+        }
+      ],
+      "cz": [
+        {
+          "token": "SZ",
+          "name": "Strana Zelených"
+        }
+      ],
+      "de": [
+        {
+          "token": "DIE-GRÜNEN",
+          "name": "Bündnis 90/Die Grünen"
+        }
+      ],
+      "dk": [
+        {
+          "token": "SF",
+          "name": "Socialistisk Folkeparti"
+        }
+      ],
+      "es": [
+        {
+          "token": "EQUO",
+          "name": "EQUO"
+        },
+        {
+          "token": "ICV",
+          "name": "Iniciativa per Catalunya Verds"
+        }
+      ],
+      "fr": [
+        {
+          "token": "EELV",
+          "name": "Europe Écologie-Les Verts"
+        }
+      ],
+      "ie": [
+        {
+          "token": "GB",
+          "name": "Green Party"
+        }
+      ],
+      "mt": [
+        {
+          "token": "AD",
+          "name": "Alternattiva Demokratika"
+        }
+      ],
+      "si": [
+        {
+          "token": "SMS-ZELENI",
+          "name": "Stranka mladih – Zeleni Evrope"
+        }
+      ],
+      "uk": [
+        {
+          "token": "GPEW",
+          "name": "Green Party of England and Wales"
+        },
+        {
+          "token": "SGP",
+          "name": "Scottish Green Party"
+        }
+      ]
+    },
     "program": {
+      "de": "https://vote.europeangreens.eu/manifesto",
       "en": "https://vote.europeangreens.eu/manifesto"
     },
     "positions": [
@@ -1773,7 +2074,7 @@
   },
   {
     "id": 7,
-    "token": "EUROPEAN LEFT",
+    "token": "EUROPEAN-LEFT",
     "name": {
       "de": "Partei der Europäischen Linken",
       "en": "Party of the European Left"
@@ -1784,7 +2085,74 @@
         "en": "Party of the European Left"
       }
     },
+    "national_parties": {
+      "at": [
+        {
+          "token": "KPÖ",
+          "name": "Kommunistische Partei Österreichs"
+        }
+      ],
+      "be": [
+        {
+          "token": "DEMAIN",
+          "name": "Mouvement Demain "
+        },
+        {
+          "token": "LPC",
+          "name": "Le Parti Communiste"
+        }
+      ],
+      "cz": [
+        {
+          "token": "SDS",
+          "name": "Strana demokratického socialismu"
+        }
+      ],
+      "de": [
+        {
+          "token": "LINKE",
+          "name": "Die Linke"
+        }
+      ],
+      "dk": [
+        {
+          "token": "ENHEDSLISTEN",
+          "name": "Enhedslisten"
+        }
+      ],
+      "es": [
+        {
+          "token": "PCE",
+          "name": "Partido Comunista de España "
+        },
+        {
+          "token": "EUA",
+          "name": "Esquerra Unida i Alternativa"
+        },
+        {
+          "token": "IU",
+          "name": "Izquierda Unida"
+        }
+      ],
+      "si": [
+        {
+          "token": "LEVICA",
+          "name": "Levica"
+        }
+      ],
+      "uk": [
+        {
+          "token": "LU",
+          "name": "Left Unity"
+        },
+        {
+          "token": "DLS",
+          "name": "Democratic Left Scotland"
+        }
+      ]
+    },
     "program": {
+      "de": "https://www.european-left.org/wp-content/uploads/2018/11/Manifesto-European-Left_ENG.pdf",
       "en": "https://www.european-left.org/wp-content/uploads/2018/11/Manifesto-European-Left_ENG.pdf"
     },
     "positions": [
@@ -1977,141 +2345,367 @@
         "en": "European People's Party"
       }
     },
+    "national_parties": {
+      "de": [
+        {
+          "token": "CDU",
+          "name": "Christlich Demokratische Union"
+        },
+        {
+          "token": "CSU",
+          "name": "Christlich-Soziale Union in Bayern"
+        }
+      ],
+      "pl": [
+        {
+          "token": "PO",
+          "name": "Platforma Obywatelska"
+        },
+        {
+          "token": "PSL",
+          "name": "Polskie Stronnictwo Ludowe"
+        }
+      ],
+      "at": [
+        {
+          "token": "ÖVP",
+          "name": "Österreichische Volkspartei  "
+        }
+      ],
+      "be": [
+        {
+          "token": "CD&V",
+          "name": "Christen-Democratisch en Vlaams"
+        },
+        {
+          "token": "CDH",
+          "name": "Centre Démocrate Humaniste "
+        }
+      ],
+      "cz": [
+        {
+          "token": "TOP",
+          "name": "TOP 09"
+        },
+        {
+          "token": "KDU-CSL",
+          "name": "The Christian and Democratic Union-Czech People's Party "
+        }
+      ],
+      "dk": [
+        {
+          "token": "C",
+          "name": "Det Konservative Folkeparti "
+        },
+        {
+          "token": "KD",
+          "name": "KristenDemokraterne "
+        }
+      ],
+      "fr": [
+        {
+          "token": "LR",
+          "name": "Les Républicains"
+        }
+      ],
+      "ie": [
+        {
+          "token": "FG",
+          "name": "Fine Gael"
+        }
+      ],
+      "mt": [
+        {
+          "token": "PN",
+          "name": "Partit Nazzjonalista "
+        }
+      ],
+      "sl": [
+        {
+          "token": "SDS",
+          "name": "Slovenska demokratska stranka  "
+        },
+        {
+          "token": "NSI",
+          "name": "Nova Slovenija krščanski demokrati "
+        },
+        {
+          "token": "SLS",
+          "name": "Slovenska Ljudska Stranka "
+        }
+      ],
+      "es": [
+        {
+          "token": "PP",
+          "name": "Partido Popular "
+        }
+      ]
+    },
     "program": {
+      "de": "https://www.eppgroup.eu/what-we-stand-for/campaigns/eu-elections-2019/commitments",
       "en": "https://www.eppgroup.eu/what-we-stand-for/campaigns/eu-elections-2019/commitments"
     },
     "positions": [
       {
         "thesis": 0,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Wir sind der Überzeugung, dass Lehrpläne auch europapolitische Bildung beinhalten sollten und ermutigen die Mitgliedsstaaten diese in ihren nationalen Lehrplänen einzubeziehen.",
+          "en": "We believe that it is important that curriculas include European civic education and we encourage Member States to include European civic education in their national curriculas."
+        }
       },
       {
         "thesis": 1,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Wir wollen die Militärkapazitäten der EU Mitgliedsstaaten bis 2030 zusammenlegen, um eine wirkliche Verteidigungsfähigkeit zu schaffen - nicht um nationale Armeen zu ersetzen, sondern um die europäischen Armeen näher zusammenzubringen und stärker zu machen. Dies soll nicht zu Lasten der spezifischen Sicherheits- und Verteidigungspolitik einzelner Länder gehen.",
+          "en": "We want to pool the EU Member States military capacities to create a real defence capacity by 2030 — not to replace any national army but to bring European forces closer together and make them stronger. This shall not prejudice the specific character of the security and defence policy of certain Member States."
+        }
       },
       {
         "thesis": 2,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Wir unterstützen die kontinuierliche Analyse von Kompetenzen und die Annulierung von veralteter Gesetzgebung, um die richtige Balance zwischen den EU-Institutionen und Mitgliedsstaaten zu erhalten. Wir müssen regionale und nationale Parlamente darin bestärken, sich an den Gesetzgebungsprozessen zu beteiligen und ihrer Pflicht zur Überprüfung des Subsidiaritätsprinzipes nachzugehen, damit Entscheidungen so nah wie möglich am Bürger erfolgen.",
+          "en": "We support continuosly analysing the balance of competences and annulling outdated legislation to ensure that we keep the right balance between Member States and the EU institutions.We must improve national and regional parliaments’ involvement in law-making and oversight in line with the principle of subsidiarity so that decisions are made as close as possible to the citizens."
+        }
       },
       {
         "thesis": 3,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Staaten sollten das Recht haben, über ihren eigenen Energiemix zu bestimmen, basierend auf sicheren und nachhaltigen Energiequellen.",
+          "en": "We believe that Member States have the right to determine their own energy mix based on safe and sustainable energy sources."
+        }
       },
       {
         "thesis": 4,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Wir unterstützen Freihandelsabkommen, da sie Arbeitsplätze und Wohlstand schaffen. Deshalb sind wir auch gegen die Einführung von Zöllen, denn diese  untergraben Wettbewerb. Wenn ein Land außerhalb der EU die internationalen Hanelsregeln nicht befolgt sind wir bereit unsere Industrie gegen diese unfairen Praktiken zu schützen und wir sind bereit alle vorhandenen Instrumente der Handelspolitik dafür zu nutzen.",
+          "en": "We are committed to fair free trade agreements as these create jobs and prosperity. Hence, we are against introducing tariffs as a general measure to deter fair competition. However, if a non-EU country is abusing the international trade rules, we are determined to defend our industries against unfair practices and unfair competition and we are ready to use all trade defence instruments at our disposal."
+        }
       },
       {
         "thesis": 5,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die EPP ist der Auffassung dass Frontex, die Europäische Agentur für die Grenz- und Küstenwacheweiter, gestärkt werden muss - mit bis zu 10.000 weiteren Grenzbeamten. Wir müssen als Partner zusammen Verantwortung für unsere Grenzen übernehmen und zum Grenzsschutz beitragen.",
+          "en": "The EPP is convinced that the Frontex border agency must be further strengthened by recruiting 10 000 more border officers. We must take responsibility of our borders together as partners and we all have to contribute to border security."
+        }
       },
       {
         "thesis": 6,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Wir sind der Überzeugung, dass dies am Besten auf Ebene der Mitgliedsstaaten entschieden wird, aber wir engagieren uns für Chancengleichheit von Frauen und Männer.",
+          "en": "We believe that this is best decided at the Member State level but we are committed to equal opportunities between women and men."
+        }
       },
       {
         "thesis": 7,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Wir sind Verfechter der Datenschutzgrundverordnung, damit die Daten der Bürger sicherer sind. Wir sind der Auffassung, dass der Skandal um  Cambridge Analytica klar gezeigt hat, warum wir einen starken Datenschutz und eine starke Datensicherheit brauchen. Wir sind nicht  gegen den Gebrauch personenbezogener Daten so lange Datenschutzbestimmungen und Datensicherheitsbestimmungen eingehalten werden, das Einverständnis vorliegt und die Daten anonymisiert werden.",
+          "en": "We championed GDPR to make our citizens' data more secure. We believe that Cambridge Analytica scandal demostarates clearly why we need to have strong rules on data protection and privacy. We are not against personalised data use when data protection and privacy rules are fully respected, consent is acquired, and the data is anonymised."
+        }
       },
       {
         "thesis": 8,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Die EPP ist der Meinung, dass alle Mitgliedsstaaten Solidarität zeigen und die gleichen Asylgesetze haben sollten. Wir glauben, dass es eine Lösung geben muss, nach der die Verantwortung zu gleichen Teilen zwischen den Mitgliedsstaaten aufgeteilt und von allen akzeptiert wird.",
+          "en": "The EPP believes that Member States must show solidarity to each other and have the same rules for asylum. We believe that we must come with a solution that fairly distributes the responsibilities between Member States and which is acceptable to all Member States."
+        }
       },
       {
         "thesis": 9,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Die EPP ist der Auffassung, dass wir den Westbalkanstaaten eine Perspektive zur Integration in der EU geben müssen und bis dahin ihre Entwicklung und Reformen beobachten. Vor einer Erweiterung müssen alle Kopenhagener Kriterien erfüllt sein.",
+          "en": "The EPP believes that we need to give an enlargement perspective to the Western Balkan countries and monitor their progress and reforms. Before any future enlargement the accession/Copenhagen criteria should be fulfilled."
+        }
       },
       {
         "thesis": 10,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Die EPP unterstützt den Emissionshandel als kosteneffektiven Mechanismus. Andere Instrumente können in der Zukunft auch auf ihren Nutzen untersucht werden.",
+          "en": "EPP supports the emission trading system as a cost-effective mechanism. Other instruments could be examined in the future."
+        }
       },
       {
         "thesis": 11,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Europäische Landwirte produzieren die besten Nahrungsmittel in der Welt und wir müssen dafür sorgen, dass die Gemeinsame Agrarpolitik die nötige Unterstützung dafür gibt.",
+          "en": "European farmers produce the best food in the world and we must make sure that we have a modern Common Agricultural Policy that provides the required support to our farmers."
+        }
       },
       {
         "thesis": 12,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die EPP will die Kooperation der externen und internen Nachrichtendienste forcieren, um eine bessere Vernetzung zur Informationsbeschaffung zu Terroristen, potenziellen Gefährdern und anderen radikalen Personen zu sammeln, egal ob sich diese in ihren Heimatländern aufhalten oder im Ausland und ein Sicherheitsrisiko für die Bürger darstellen.",
+          "en": "The EPP will step up the cooperation of our external and internal intelligence services, to allow for a better exchange of intelligence on terrorists, potential offenders, and other radicalised persons, whether they are at home or abroad, who may represent a security risk for our citizens."
+        }
       },
       {
         "thesis": 13,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Wir glauben an faire Entlohnung und daran, dass harte Arbeit zu Erfolg führt. Wegen der unterschiedlichen ökonomischen, kulturellen, politischen und sozialen Traditionen sind wir der Meinung, dass die Entscheidung für einen Mindestlohn den Mitgliedsstaaten selbst überlassen werden sollte.",
+          "en": "We believe in fair remuneration and that by working hard one can achieve success. Due to the different economic, cultural, political and social traditions, we believe that a decision to introduce a minimum wage should be left for the Member States and their citizens."
+        }
       },
       {
         "thesis": 14,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Im Zuge der illegalen Annektion der Krim und der vorsätzlichen Destabilisierung der Ukraine sollte die EU Sanktionen gegen Russland erlassen. Wir fordern, dass Russland alle seine internationalen Verpflichtungen nachgeht. Dazu zählt auch das Abkommen von Minsk, die Wahrung internationalen Rechts und die Einhaltung territorialer Souveränität.",
+          "en": "In response to the illegal annexation of Crimea and deliberate destabilisation of Eastern Ukraine, the EU introduced sanctions against Russia. We demand that Russia fullfills all of its international obligations, including the Minsk agreements, respects international law, and the territorial sovereignty of other countries."
+        }
       },
       {
         "thesis": 15,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Wir sind der Überzeugung, dass Mobbing, Missinformationen und Verleumdungen ernstzunehmende Probleme sind, die von den nationalen Behörden und den Social Media Plattformen angegangen werden müssen. Wir müssen garantieren, dass die Meinungsfreiheit respektiert wird.",
+          "en": "We believe that bullying, misinformation, and defamation are serious problems which need to be dealt with by the competent national authorities and social media platforms. We must ensure that freedom of speech is respected."
+        }
       },
       {
         "thesis": 16,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Jugendarbeitslosigkeit ist ein inakzeptabler Zustand und wir haben uns dazu verpflichtet, in den nächsten Jahren 5 Millionen neue Arbeitsplätze zu schaffen. Wir glauben, dass die Bekämpfung der Jugendarbeitslosigkeit ein gemeinsames Unterfangen der Mitgliedsstaaten und der EU ist, weil beide Ebenen Unternehmen darin unterstützen können, Arbeitsplätze zu schaffen und um unserer Jugend neue Perspektiven zu geben.",
+          "en": "Youth unemployment is unacceptable and we are committed to creating 5 million new jobs over the next years. We believe that fighting youth unemployment must be a shared undertaking between the Member States and the EU because both can help companies to create new jobs and give our youth new opportunities."
+        }
       },
       {
         "thesis": 17,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Wir glauben, dass es den Bürgern selbst überlassen sein sollte, zu entscheiden, wie sie sich fortbewegen wollen.",
+          "en": "We believe that our citizens must be the ones to decide how they want to move around."
+        }
       },
       {
         "thesis": 18,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Wir sind der Überzeugung, dass alle Unternehmen ihren fairen Teil zur Gemeinschaft beitragen müssen. Daher bekämpfen wir Steuervermeidung. Wir glauben, dass es eine nationale Kompetenz sein sollte, Steuersätze festzulegen aber wir sollten einen gemeinsamen rechtlichen Rahmen schaffen.",
+          "en": "We believe that all companies regardless of their size must pay their fair share towards the common good. We are committed to fighting tax avoidance. We believe that setting tax rates should remain a national competence but we should set a common tax framework."
+        }
       },
       {
         "thesis": 19,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Wir sind der Meinung, dass die Menschen, die in Europa Schutz suchen, unsere Werte achten und unsere Gesetzte befolgen müssen. All diejenigen, die das Gesetzt brechen, sollten in ihr Herkunftland zurückgeschickt werden bzw. in ein sicheres Land außerhalb der EU. Wir wollen uns dafür einsetzen, dass mehr Ressourcen für die Ausreise illegaler Migranten eingesetzt werden.",
+          "en": "We believe that people who come to Europe to seek protection must respect our values and laws. Those who break our laws must be deported back to their country of origin or to another safe country outside of the European Union. We also want to dedicate more resources to returning illegal immigrants."
+        }
       },
       {
         "thesis": 20,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "In den letzten Jahren haben wir viele Innovationen im Bereich des Zahlungsverkehrs gesehen und unterstützen diese Neuheiten. Nichtsdestotrotz müssen wir dafür Sorge tragen, dass der Teil der Bevölkerung mitgenommen wird, der noch keinen Zugang zu digitaler Infrastruktur hat oder lieber in Bar bezahlt.",
+          "en": "Over the last years we have seen exciting new innovations in the field of payments and we support innovations. However, we must make sure that we do not leave behind those parts of our society who do not yet have the same access to digital infrastructure or who feel more comfortable paying in cash."
+        }
       },
       {
         "thesis": 21,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Zum jetzigen Zeitpunkt sind wir der Überzeugung, dass die Kombination des Spitzenkandidaten-Systems und der parlamentarischen Demokratie der beste Weg ist, Menschen Einfluss auf die Wahl zum Präsidenten der Europäischen Komission zu geben.",
+          "en": "For the time being, we are convinced that the combination of Spitzenkandidaten system and parliamentary democracy is the best way to give people a say in electing the President of the European Commission."
+        }
       },
       {
         "thesis": 22,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Die EPP ist der Meinung, dass die Mitgliedsstaaten genügend finanzielle Mittel für ihr Militär zur Verfügung stellen müssen.",
+          "en": "The EPP believes that Member States must invest sufficient funds for their armed forces."
+        }
       },
       {
         "thesis": 23,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Die EPP ist der Auffassung, dass es umfassende Arbeitslosenversicherungssysteme geben muss, die dazu ermutigen, möglichst schnell wieder in den Arbeitsmarkt einzutreten. Wir sind überzeugt, dass dieser Schutz am Besten von den Mitgliedsstaaten bereitgestellt werden kann.",
+          "en": "The EPP believes that we must have comprehensive uneployment insurance systems which encourage returning to work as quickly as is feasible. We are convinced that unemployment insurance is best provided by the Member States."
+        }
       },
       {
         "thesis": 24,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Die EPP verpflichtet sich zu neuen fairen Freihandelsabkommen. Der Handel trägt bereits zu über 31 Millionen hochwertigen Arbeitsplätzen in der EU bei und wir glauben, dass wir Wohlstand und Jobs kreieren und unsere Standards verteidigen können, wenn wir uns weiteren Teilen der Welt mit unseren weltklasse Firmen und Produkten öffnen.",
+          "en": "We are committed to new fair free trade agreements. Trade already supports more than 31 million quality jobs in the EU and we believe that we can create prosperity, jobs, and defend our standards by opening up to more of the world with our world-class companies and products."
+        }
       },
       {
         "thesis": 25,
+        "position": "negative",
         "statement": {}
       },
       {
         "thesis": 26,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Die EPP glaubt, dass man sowohl in ländliche, als auch in urbane Regionen investieren muss, um sie wettbewerbsfähig zu halten. Ländliche und urbane Gebiete sehen unterschiedlichen Herausforderungen entgegen und wir müssen helfen beide zu entwickeln.",
+          "en": "We believe that we must invest in both rural and urban regions to keep them competitive. Rural and urban areas face different challenges and we must help both to develop."
+        }
       },
       {
         "thesis": 27,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Grenzkontrollen sollten nur unter bestimmten Ausnahmesituationen eingeführt werden, die EPP glaubt jedoch, dass es verdeckten Polizeikräften ermöglicht werden muss an allen inneren Grenzen verdächtige Fahrzeuge und Passagiere zu kontrollieren, damit die Kapazitäten gegen Terrorismus und organisierte Kriminalität zu kämpfen, gestärkt werden. Die EPP wird die inneren EU Grenzen zu einer zusätzlichen Sicherheitsebene für unsere Bürgerinnen und Bürger umwandeln.",
+          "en": "Border controls should be introduced only in certain exceptional situations, but we believe that we have to enable enable undercover police forces at all internal borders to check suspicious vehicles and passengers to strenghten our capacities to fight against terrorism and organised crime. The EPP will turn our internal EU borders into an added layer of security for our citizens."
+        }
       },
       {
         "thesis": 28,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "EU Bürger sollten Sozialleistungen vorwiegend aus ihrem Heimatland erhalten; gleichzeitig muss man jedoch berücksichtigen, dass Bürgerinnen und Bürger, die grenzüberschreitend arbeiten, in dem Land Ansprüche auf Sozialleistungen haben, in dem sie arbeiten.",
+          "en": "EU citizens should primarily receive welfare benefits from their home countries but at the same time we must recognise that those citizens working cross-border are entitled to welfare benefits in the country of their work."
+        }
       },
       {
         "thesis": 29,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die EPP bevorzugt qualifizierte Mehrheitsentscheidungen bei Abstimmungen zur europäischen Außenpolitik. Ein Mitgliedsstaat alleine sollte niemals die Möglichkeit haben, alleine die EU als Ganzes in ihren Entscheidungen zu lähmen. Wir müssen in der Lage sein, auf der Weltbühne entschlossen aufzutreten, in Einklang mit unseren Werten.",
+          "en": "We are in favour of Qualiﬁed Majority Voting for foreign policy. One Member State alone should not be able to paralyse the European Union as a whole. We must be able to act decisively on the world stage in line with our values."
+        }
       },
       {
         "thesis": 30,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Die EPP unterstützt deutlichere Lebensmittelinformationsregeln, die es den Konsumenten erlauben, eine gesunde, informierte Wahl zu treffen, ohne gleichzeitig der Lebensmittelindustrie zu viele finanzielle und administrative Hindernisse zuzumuten. Die Mengen an Fett, Zuckler und Salz als auch der Energiegehalt müssen auf der Vorderseite von Verpackungen kenntlich gemacht werden und sollten zusammen mit Richtwerten zum täglichen Verzehr von 100 ml oder 100g abgebildet sein. Die EPP lehnt die Beschriftung mit einer Farbampel als zu vereinfacht ab.",
+          "en": "EPP supports clearer food information rules that would enable consumers to make healthy, well-informed choices, while limiting as far as possible the administrative and financial burden on food businesses. Quantities of fat, saturates, sugar, and salt - as well as energy - must be indicated on the front of food packs and should be accompanied by guideline daily amounts and expressed with per 100g or per 100ml values.  EPP rejects the colour-coded labelling as too simplistic."
+        }
       },
       {
         "thesis": 31,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die EPP verpflichtet sich zu fairer Besteuerung und einer breiten Steuerbasis. Eine Finanztransaktionssteuer ist eine Option aber unsere favourisierte Option wäre eine solche Steuer im Zusammenschluss mit globalen Partnern.",
+          "en": "The EPP is committed to fair taxation and broad tax base. Financial Transaction Tax (FTT) is a possible option but our favoured option would be to agree such a tax with our global partners."
+        }
       },
       {
         "thesis": 32,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Alle EU Mitgliedsstaaten haben demokratisch darüber entschieden, in die Europäische Union einzutreten. Die EU bringt Frieden, Stabilität und Wohlstand für seine Bürger.",
+          "en": "All EU Member States have democratically chosen to join the European Union. The European Union delivers peace, stability, and prosperity to its members and citizens."
+        }
       }
     ]
   },
@@ -2128,7 +2722,22 @@
         "en": "European Pirate Party"
       }
     },
+    "national_parties": {
+      "be": [
+        {
+          "token": "PP-BE",
+          "name": "Parti Pirate/Piratenpartij"
+        }
+      ],
+      "de": [
+        {
+          "token": "PP-DE",
+          "name": "Piratenparty Deutschland"
+        }
+      ]
+    },
     "program": {
+      "de": "https://wiki.ppeu.net/doku.php?id=programme:ceep2019",
       "en": "https://wiki.ppeu.net/doku.php?id=programme:ceep2019"
     },
     "positions": [
@@ -2348,44 +2957,138 @@
         "en": "Party of European Socialists"
       }
     },
+    "national_parties": {
+      "at": [
+        {
+          "token": "SDPA",
+          "name": " Social Democratic Party of Austria"
+        }
+      ],
+      "be": [
+        {
+          "token": "PSB",
+          "name": "Parti Socialiste"
+        },
+        {
+          "token": "SPA",
+          "name": "Socialistische Partij Anders - Flemish "
+        }
+      ],
+      "cz": [
+        {
+          "token": "CSSD",
+          "name": "Česká strana sociálne demokratická"
+        }
+      ],
+      "dk": [
+        {
+          "token": "SD",
+          "name": "Socialdemokratiet"
+        }
+      ],
+      "fr": [
+        {
+          "token": "PS",
+          "name": "Parti Socialiste"
+        }
+      ],
+      "de": [
+        {
+          "token": "SPD",
+          "name": "Sozialdemokratische Partei Deutschlands"
+        }
+      ],
+      "ie": [
+        {
+          "token": "LPI",
+          "name": "Labour Party Ireland"
+        }
+      ],
+      "mt": [
+        {
+          "token": "PL",
+          "name": "Partit Laburista"
+        }
+      ],
+      "es": [
+        {
+          "token": "PSOE",
+          "name": "Partido Socialista Obrero Español"
+        }
+      ],
+      "sl": [
+        {
+          "token": "SD",
+          "name": "Socialni Demokrati "
+        }
+      ],
+      "uk": [
+        {
+          "token": "SDLP",
+          "name": "Social Democratic and Labour Party"
+        }
+      ]
+    },
     "program": {
+      "de": "https://www.pes.eu/export/sites/default/.galleries/Documents-gallery/PES-Manifesto-2019_EN.pdf_2063069299.pdf",
       "en": "https://www.pes.eu/export/sites/default/.galleries/Documents-gallery/PES-Manifesto-2019_EN.pdf_2063069299.pdf"
     },
     "positions": [
       {
         "thesis": 0,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Die Anforderungen an politische Bildung steigen, auch und gerade in Europa. Deshalb gilt es, die Angebote der politischen Bildung zu stärken – in den Schulen, in der außerschulischen Jugendbildung und auch in der Erwachsenenbildung. Vor allem wollen wir hier die Zivilgesellschaft stärken, damit sie europäische Debatten begleiten, kommentieren und einen wichtigen Beitrag zum Zusammenhalt in Europa leisten kann.",
+          "en": "The demand for civic education is increasing, especially in Europe. This is why we need to fortify the political education offers - in the schools, in the extracurricular youth education and in the adult education. Especially we want to strenthen the civil society, so that it can accompany and comment on European debates and contribute importantly to the cohesion in Europe."
+        }
       },
       {
         "thesis": 1,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Die SPD spricht sich für eine gemeinsame parlamentarisch kontrollierte europäische Armee aus. Gerade in Anbetracht des Wiedererstarkens von Nationalismus ist sie eine innere Friedenssicherung. Wir setzen auf europäische Synergie, die eine effektive Konzentration der Verteidigungskräfte ermöglicht und eine generelle Erhöhung der Rüstungsausgaben unnötig macht. Der Einsatz darf nur durch das Europäische Parlament genehmigt werden.",
+          "en": "The SPD is in favour of an European army controlled by the parliament. It secures inner peace especially in light of nationalism regaining strength. We opt for European synergies which make an effective concentration of the defence forces possible and a general rise in military expenses unncessary. Only the European Parliament can authorize a deployment of defense forces."
+        }
       },
       {
         "thesis": 2,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Die praktische Geltung der sozialen Grundrechte hat in Europa nicht Schritt gehalten mit der gelungenen wirtschaftlichen Integration. Um dieses Ungleichgewicht auszugleichen, treten wir für eine neue Balance zwischen wirtschaftlichen Freiheiten und sozialen Rechten ein. Erst wenn die sozialen Rechte den Grundfreiheiten der EU gleichstehen, können europäische Gesetze nicht mehr zu Sozialabbau und Einschränkung der Mitbestimmung führen.",
+          "en": "The practical worth of social fundamental rights in Europe did not keep pace with the successful economic integration. To balance this disparity the SPD promotes a new balance between economic freedom and social rights. Only when social right and the basic freedoms of the EU are equal, is it possible to avoid cuts in social services and an infringement of participation through European law."
+        }
       },
       {
         "thesis": 3,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir setzen uns für einen Fahrplan zum europäischen Atomausstieg ein. Durch einen konsequenten Ausbau von erneuerbaren Energien wollen wir unseren klimapolitischen Verpflichtungen gerecht werden und die europäische Energieeffizienz fördern. Dieser Strukturwandel verlangt industrie- und sozialpolitische Investitionen.",
+          "en": "The SPD stands for a roadmap for the phase-out of European nuclear power. We want to live up to our envrionmental commitments through the consequente expansion of renewable energies and by promoting the European energy efficiency.  This structural change implies industrial and sociopolitical investments."
+        }
       },
       {
         "thesis": 4,
         "position": "neutral",
-        "statement": {}
+        "statement": {
+          "de": "Wir werden weiterhin für ein gerechtes internationales Regelwerk im Rahmen der Welthandelsorganisation und von Handelsverträgen arbeiten, damit weltweit dem Recht Geltung verschafft wird und nicht das Recht des Stärkeren die Oberhand gewinnt. Ein starkes Europa ist für uns Garant dafür, die europäische und auch die deutsche Industrie gegen unfaire Handelspraktiken zu schützen. Sei es Billig-Stahl aus China oder US-Strafzölle – wir schützen die heimischen Arbeitsplätze mit effektiven Handelsschutzinstrumenten.",
+          "en": "The SPD continues to strive for a fair international set of regulations within the framework of the World Trade Organisation and trade agreements so that laws are globally enforced and the law of the strongest does not dominate. A strong Europe guarantees that the European and the German industry are protected against unfair trade practices. We protect local jobs with effective instruments for trade protection, be it cheap steel from China or punitive duties from the US."
+        }
       },
       {
         "thesis": 5,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen, dass die Einreise in die EU an den europäischen Außengrenzen verlässlich kontrolliert wird und nationale Kontrollen an den Binnengrenzen schnellstmöglich eingestellt werden. Zudem wollen wir, dass Europa konsequenter gegen Schlepperbanden, Menschenhändler und Zwangsprostitution vorgeht. Es ist höchste Zeit für ein stärkeres europäisches Vorgehen für einen besseren Schutz von Frauen und Mädchen und die Eindämmung von Menschenhandel.",
+          "en": "The SPD wants to have a reliable control of entry into the EU at European outside boarders and wants to stop national controls at the internal boarders as soon as possible. We also want Europe to take more consequent action against people smugglers,  human traffickers, and forced prostitution. It is time for stronger European action for a better protection of women and girls and against human trafficking."
+        }
       },
       {
         "thesis": 6,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Frauen sind heute im Durchschnitt besser qualifiziert als Männer. Doch immer noch wird viel zu oft verhindert, dass sie Führungs- und Leitungsverantwortung übernehmen. Es ist nicht hinnehmbar, dass Frauen in Vorständen und Aufsichtsräten von Unternehmen und Institutionen immer noch eine kleine Minderheit sind. Die SPD setzt sich daher für den Beschluss einer EU-weiten Frauenquote in Aufsichtsräten ein. Die hierzu 2012 vorgelegte Richtlinie muss vom Europäischen Rat endlich verabschiedet werden.",
+          "en": "Women today are on average better qualified than men. However, they are often prevented from taking on ledership or management responsibilities. It is not acceptable that women on management or supervisory boards in companies and in institutions are still a small minority. The SPD therefore stands up for the creation of a EU-wide quota for woemn in supervisory boards. The directive presented in 2012 has to be passed by the European Council."
+        }
       },
       {
         "thesis": 7,
@@ -2395,127 +3098,202 @@
       {
         "thesis": 8,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Das Wahren des Asylrechts ist eine gemeinsame europäische Verantwortung, die solidarisch erfüllt werden muss. Sie darf nicht allein auf diejenigen Staaten mit einer Außengrenze verlagert werden. Deshalb wollen wir das Dublin-System durch einen solidarischen Verteilungsschlüssel ersetzen. Bis zur Verabschiedung der Reform müssen einzelne aufnahmewillige Staaten oder Städte besser unterstützt werden.",
+          "en": "Safeguarding the asylum law is a common European responsibility which requires solidarity. It cannot be shifted only to those states with external borders. For this reason we want to substitute the Dublin system with a solidary allocation formula. Until the adoption of this reform we need to better support states and cities willing to take in asylum seekers."
+        }
       },
       {
         "thesis": 9,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Die EU-Erweiterungspolitik bleibt wichtig, um Frieden, Stabilität und Zusammenarbeit zu fördern. Zugleich muss die EU durch innere Reformen ihre Handlungsfähigkeit sicherstellen. Wir halten an der Beitrittsperspektive für die Länder des westlichen Balkans fest. Wir schenken der Entwicklung von Demokratie und Rechtsstaatlichkeit dabei besondere Aufmerksamkeit.",
+          "en": "The European Enlargement Policy is still important to strengthen peace, stability and cooperation. At the same time the EU has to secure its capactiy to act through internal reforms. We cling to the membership perspective for countries of the western Balkans. We pay especially attention to the development of democracy and rule of law."
+        }
       },
       {
         "thesis": 10,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen weiterhin ambitionierte Schritte zur schnelleren Umstellung des Energiemixes hin zu mehr erneuerbaren Energien in ganz Europa vereinbaren. Dazu gehört das Funktionieren des europäischen Emissionshandels weiterhin sicherzustellen, ebenso wie die Einführung eines CO2-Preises für die Sektoren, die nicht vom Emissionshandel erfasst sind.",
+          "en": "The SPD wants to agree on ambitous steps to a faster change of the energy mix towards more renewable energies in all Europe. This goes along with securing the functioning of the European emissions trade as well as the implementation of the CO2 price for sectors that are not included in emissions trading."
+        }
       },
       {
         "thesis": 11,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Die Mittel sollen nicht gesenkt, sondern besser verteilt werden, um vor allem eine nachhaltige Landwirtschaft zu fördern. Dafür wollen wir die Gemeinsamen Agrarpolitik der EU vom Kopf auf die Füße stellen: Unser Ziel ist eine stärkere Bindung von Fördermittel an Kriterien, die den Menschen in den ländlichen Betrieben, den ländlichen Regionen sowie dem Tier- und Umweltschutz zugutekommen. Es gilt: \"öffentliches Geld für öffentliche Güter\". Dabei ist die Größe des Betriebes unerheblich.",
+          "en": "Funds encouraging a sustainable agriculture should not be reduced but better distributed. To this end the SPD wants to turn the Common Agricultural Policy of the EU on its head: Our goal is a stronger commitment of funds to criteria benefiting people in rural businesses and regions as well as the animal and environmental protection. This means: \"public money for public goods\". For this, the size of the business is not siginificant."
+        }
       },
       {
         "thesis": 12,
         "position": "neutral",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen die Zusammenarbeit der europäischen Sicherheitsbehörden verbessern. Dabei halten wir aber am Trennungsgebot zwischen Geheimdiensten und Polizei fest und lehnen daher ein \"europäisches FBI\" ab.",
+          "en": "We want to improve the collaboration of the European safety authorities. We stick to the separation ban between intelligent services and police and thus refuse an \"European FBI\"."
+        }
       },
       {
         "thesis": 13,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Kompetenzen müssen dort vorhanden sein, wo sie den Bürgerinnen und Bürgern am meisten nutzen. Wir verfolgen eine Sozialpolitik der EU, die die sozialen Grundrechte ausbaut und europäische Mindestlöhne schafft. Dies lässt sich am besten erreichen, indem gemeinsame sozialpolitische Standards auf europäischer Ebene geschaffen werden, damit die Lebensbedingungen überall in der EU aufgewertet werden und eine Grundsicherung ermöglicht wird.",
+          "en": "Competences have to exist where citizens make use of them most frequently. We persue a social policy for the EU which extends the social fundamental rights and creates European minimum wages. This is best achieved by creating common sociopolitical standards on the European level so that living conditions all over the EU are strengthened and basic security benefits are ensured."
+        }
       },
       {
         "thesis": 14,
         "position": "neutral",
-        "statement": {}
+        "statement": {
+          "de": "Voraussetzung für das Ende der Sanktionen ist die Umsetzung dessen, was im Minsker Abkommen von 2015 festgelegt ist. Wir wissen, dass Frieden in Europa ist nicht gegen, sondern nur mit Russland möglich. Wir wollen bestehende Strukturen verstärkt nutzen, um mit Russland im Dialog für eine Beendigung des Konflikts und damit an dem Abbau der gegenseitigen Sanktionen zu arbeiten.",
+          "en": "The condition for an end of the sanctions is the implementation of the Minsk agreement of 2015. We know that peace in Europe is not possible against Russia but only with Russia. We want to use the existing structures more intensively in order work togehter with Russia towards an end of the conflict and a reduction of the reciprocal sanctions."
+        }
       },
       {
         "thesis": 15,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Die SPD hat in Deutschland dafür gesorgt, dass Hasskriminalität und andere strafbare Inhalte im Netz besser strafrechtlich verfolgt werden können. Im world-wide-web ist darüberhinaus mindestens ein europäisches Vorgehen notwendig.",
+          "en": "In Germany, the SPD ensured that hate crimes and other illegal content on the web can be prosecuted more effectively. Furthermore, in the world wide web, at least a European approach is required."
+        }
       },
       {
         "thesis": 16,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Natürlich wollen wir, dass alle Mitgliedsstaaten Maßnahmen gegen Jugendarbeitslosikgeit in ihren Ländern ergreifen. Aber auch die EU muss Verantwortung übernehmen. Dafür fordern wir ein Sofortprogramm, das jeder und jedem unter 25 Jahren einen Ausbildungsplatz garantiert und damit eine berufliche Perspektive eröffnet. Hierfür werden wir die Mittel für die Jugendgarantie deutlich aufstocken. Nur so kann das europäische Versprechen gehalten werden, allen jungen Menschen unter 25 Jahren in vier Monaten konkrete Angebote für eine sichere berufliche Zukunft zu machen, nachdem sie arbeitslos geworden sind oder ihre Ausbildung abgeschlossen haben.",
+          "en": "The SPD wants all Member States to take action against youth unemployment in their countries. But EU also has to assume responsibility. To this end we demand the emergency programme that guarantees everybody under the age of 25 an apprenticeship to open up professional perspectives. Therefore the funds for the youth guarantee have to be increased drastically. Only then can the European promise be kept that all young people under the age of 25 are offered a concrete job for a safe professional future within four months of unemployment or 4 months after having finished their training."
+        }
       },
       {
         "thesis": 17,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen saubere Mobilitätskonzepte fördern. Der Individualverkehr darf nicht weiter der alleinige Maßstab für die Mobilität darstellen. In Europa gibt es viele vorbildliche Städte, in denen es einen kostenlosen bzw. deutlich kostengünstigen, inklusiv und ökologisch orientierten Nahverkehr gibt.",
+          "en": "We want to promote clean concepts of mobility. Individualised traffic can no longer be the only standard for mobility. There are many commendable cities in Europe that feature public transport systems which are free or at least signfificantly cheaper, inclusive and ecologically oriented."
+        }
       },
       {
         "thesis": 18,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Es ist ein Skandal, dass sich vor allem international agierende Konzerne immer noch einer gerechten Besteuerung weitgehend entziehen können. Diese sind weltweit aktiv und verschieben ihre Gewinne häufig in Niedrigsteuerländer. Auch die digitalen Unternehmen müssen ihren Beitrag zur Finanzierung des Gemeinwesens leisten. Das wollen wir beenden und bis Ende 2020 eine globale Mindestbesteuerung der digitalen Unternehmen einführen. Gleichzeitig treiben wir eine europäische Lösung voran.",
+          "en": "It is a scandal that especially companies on the interantional level can still evade a fair taxation to a large extent. They are globally active and transfer their profits to tax shelters. Digital companies also have to contribute to financing the community. The SPD wants to end this and to introduce a global minimum taxation on digital companies by 2020. At the same time we advance a European solution."
+        }
       },
       {
         "thesis": 19,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Wir stehen für eine humanitäre Flüchtlingspolitik. Das Recht auf Asyl muss auch in Zukunft unangetastet bleiben. Europa muss endlich als Ganzes seiner humaniären Verantwortung gerecht werden. Abegelehnte Asylbewerber, die alle rechtsstaatlichen Instanzen durchlaufen haben und keinen Aufenthaltstitel oder eine Duldung besitzen, müssen in ihr Herkunftsland zurückkehren.",
+          "en": "The SPD stands for a humanitarian refugee policy. The right to asylum has to remain intact also in the future. Europe as a whole finally has to do justice to its humanitarian responsibility. Rejected asylum applicants who have gone through all legal instances and do not have a residence permit nor an exceptional leave to remain, have to return to their home countries."
+        }
       },
       {
         "thesis": 20,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Wir setzen uns für ein Recht auf anonymes bargeldloses Bezahlen unter Berücksichtigung der allgemeinen gesetzlichen Bestimmungen bspw. zum Jugendschutz und zur Bekämpfung von Geldwäsche und Terrorismus ein.",
+          "en": "The SPD is commited to the right of anymous noncash payments taking into account the general legal requirements, for example for youth protection and for combating money laundering and terrorism."
+        }
       },
       {
         "thesis": 21,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen mehr europapolitische Debatten. Wir wollen Europawahlen mit europäischen Themen und mit europäischen Parteien. Die Wählerinnen und Wähler sollen einfacher erfahren können, welche Partei im Europäischen Parlament für welche Inhalte steht. Dazu leistet der pointierte politische Wettstreit der Spitzenkandidatinnen und -kandidaten um das Amt des Kommissionspräsidenten, der -präsidentin einen wichtigen Beitrag.",
+          "en": "We want more European debates. We want European elections with European topics and European parties. It shall be easier for voters to inform themselves about the contents of every party in the European Parliaments. The political competition of lead candidates for the office of the President of the European Commission contributes significantly to this."
+        }
       },
       {
         "thesis": 22,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Wir lehnen die pauschale Erhöhung der Rüstungsausgaben ab. Gleichzeitig wollen wir unsere Soldatinnen und Soldaten mit moderner Ausrüstung versorgen. Dafür setzen wir auch hier auf europäische Synergie durch den Aufbau einer gemeinsamen Beschaffungspolitik.",
+          "en": "The SPD rejects a general rise of military expenses. At the same time we want to provide our soldiers with modern equipment. We opt for European synergies by creating a common procurement policy."
+        }
       },
       {
         "thesis": 23,
         "position": "neutral",
-        "statement": {}
+        "statement": {
+          "de": "Die SPD tritt für die Einführung eines europäischen Fonds als Rückversicherung für die Finanzierung von Sozialleistungen ein. Er wird in guten Zeiten von allen Mitgliedstaaten gefüllt. Während einer Beschäftigungskrise können betroffene Staaten hieraus Mittel beanspruchen, um damit ihre Arbeitslosenversicherungen zu unterstützen, damit nicht in der schwierigen Zeit die Leistungen für Arbeitslose gekürzt werden müssen. Nach der Krise führen sie das Geld zurück in den Fonds.",
+          "en": "The SPD stands for the implementation of a European fund as a fallback for financing social welfare benefits. In good times, the Member States will pay in money. During a jobs crisis affected states can claim resources from it to support their unemployment insurence so that benefits for unemployed people do not have to be cut. After the crisis, these states return the money to the fund."
+        }
       },
       {
         "thesis": 24,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Wir werden weiterhin für ein gerechtes internationales Regelwerk im Rahmen der Welthandelsorganisation und von Handelsverträgen arbeiten, damit weltweit dem Recht Geltung verschafft wird und nicht das Recht des Stärkeren die Oberhand gewinnt.",
+          "en": "We will continue to strive for a fair international set of rules and regulations within the World Trade Organisation and of trade agreements in order to enhance the law and avoid that the right of the fittests wins the upper hand."
+        }
       },
       {
         "thesis": 25,
         "position": "neutral",
-        "statement": {}
+        "statement": {
+          "de": "Das ist eine Debatte, die vornehmlich von Rechtspopulisten geführt wird mit dem Ziel, Frankreich zu provozieren und das Europäische Parlament zu diskreditieren.",
+          "en": "This is a debate that is mostly conducted by right-wing populists in order to provoke France and discredite the European Parliament."
+        }
       },
       {
         "thesis": 26,
         "position": "neutral",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen den öffentlichen Personennahverkehr sowohl in der Stadt wie auch auf dem Land stärken und ausbauen. Das gilt besonders für den Ausbau von grenzüberschreitenden ÖPNV-Verbindungen wie etwa dem Schienenregionalverkehr.",
+          "en": "We want to strengthen and expand the public transport both in cities as in rural regions. This applies in particular to the expansion of cross-border public transport like the regional rail transport."
+        }
       },
       {
         "thesis": 27,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Die Grenzkontrollen innerhalb der EU sollen an den Binnengrenzen des Schengen-Raumes schnellstmöglich eingestellt werden. Damit einhergehen muss ein verlässlicher Schutz der Außengrenzen der EU, der das Gebot der Nicht-Zurückweisung für Schutzsuchende gewährleistet.",
+          "en": "The border controls on internal borders of the Schengen area should be stopped as soon as possible. This has to go hand in hand  with a reliable protection of the external borders of the EU, which ensures the principle of non-refoulement for those seeking protection."
+        }
       },
       {
         "thesis": 28,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Die EU-Mitgliedsstaaten müssen mittel- bis langfristig das Schutzniveau ihrer Arbeitslosen-, Renten- und Krankenversicherungssysteme angleichen. Die Annäherung an ein hohes Sozialschutzniveau für alle wird die Nachfrage stabilisieren und Europas Volkswirtschaften krisenfester machen. Wir streben eine Rahmenrichtlinie für faire Mindestlöhne in Europa und für Mindeststandards in der sozialen Sicherung an.",
+          "en": "Mid and long term, EU Member states have to align the level of protection of their unemploment, pension and health insurance systems. The convergence on a high level of social protection for all will stabilise the demand and make Europe's economies more crisis-proof. We strive for a framework directive for fair minimum wages in Europe and for minimum standarts for social security."
+        }
       },
       {
         "thesis": 29,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Europa muss an vielen Stellen zu deutlich schnelleren und effizienteren Entscheidungen kommen. Zu oft gilt noch das Prinzip der Einstimmigkeit. Dadurch wird die Handlungsfähigkeit Europas gelähmt. Künftig sollen wichtige Gesetzgebungen nicht mehr durch einzelne Mitgliedstaaten blockiert werden können. Die SPD spricht sich beispielsweise für ein Mehrheitsprinzip bei allen Entscheidungen im EU-Ministerrat aus.",
+          "en": "In many fields, Europe must be able to decide more quickly and efficiently. The principle of unanimity applies too often. As a consequence, Europe's ability to act is paralyzed. In the future, important legislation should not be stoppable by single member states. For example, the SPD supports a principle of majority rule for all decisions in the Council of the European Union."
+        }
       },
       {
         "thesis": 30,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen europaweit eine verbindliche Nährwertkennzeichnung einführen nach dem Vorbild der französischen Nährwertampel „Nutriscore“. Verbraucherinnen und Verbraucher sollen auf einen Blick den Zucker-, Fett- und Salzgehalt von verarbeiteten Lebensmitteln erkennen, vergleichen und die gesündere Wahl treffen können.",
+          "en": "We want to introduce a Europe-wide and binding labelling system for the nutritional value of food similar to the French nutritional \"traffic light\" scheme. Users should be able to easily discern sugar, fat and salt contents of processed groceries, compare products, and choose the healthier option."
+        }
       },
       {
         "thesis": 31,
         "position": "positive",
-        "statement": {}
+        "statement": {
+          "de": "Wir wollen eine Finanztransaktionssteuer nach dem Vorbild der französischen Finanztransaktionssteuer in der EU einführen. Mit der Besteuerung von Transaktionen auf im Inland emittierte Aktien machen wir den ersten Schritt. Die Einnahmen dieser Steuer sollen der EU zufließen.  Dies ist jedoch nur der erste Schritt. Unser Ziel bleibt eine umfassende Finanztransaktionssteuer. Diese soll alle börslichen und außerbörslichen Transaktionen von Wertpapieren, Anleihen und Derivaten sowie alle Devisentransaktionen umfassen.",
+          "en": "We want to introduce a financial transaction tax modelled on the French financial transaction tax in the EU. We want to do the first step with the taxation of transactions of shares issued in the inland. The revenues of this tax shall be transfered to the EU. Anyway, this is only the first step. Our goal stays a ful financial transaction tax. This shall include all stock exchange and off-exchange transations of shares and foreign exchange as well as all foreign exchange transactions."
+        }
       },
       {
         "thesis": 32,
         "position": "negative",
-        "statement": {}
+        "statement": {
+          "de": "Die europäische Idee bleibt der bedeutendste politische und zivilisatorische Fortschritt des vergangenen Jahrhunderts: Freiheit, Demokratie und Menschenrechte, wirtschaftliche Zusammenarbeit und politische Partnerschaft über nationale Grenzen hinweg. Ein lang anhaltender Frieden auf unserem von Jahrhunderten der Kriege erschütterten Kontinent. Die europäische Idee ist die Antwort auf die großen Aufgaben der Gegenwart und Zukunft.",
+          "en": "The European Idea is still the most important political and civilizational progress of the last century: liberty, democracy and human rights, economic cooperation and political partnership across national borders. A long-lasting peace on our continent shaken by wars over centuries. The European idea is the answer to the big challenges of the present and the future."
+        }
       }
     ]
   },
@@ -2532,7 +3310,22 @@
         "en": "Volt Europa"
       }
     },
+    "national_parties": {
+      "de": [
+        {
+          "token": "VOLT-D",
+          "name": "VOLT Deutschland"
+        }
+      ],
+      "fr": [
+        {
+          "token": "VOLT-FR",
+          "name": "VOLT France"
+        }
+      ]
+    },
     "program": {
+      "de": "https://assets.nationbuilder.com/volt/pages/6564/attachments/original/1540629281/Amsterdam_Declaration.pdf?1540629281",
       "en": "https://assets.nationbuilder.com/volt/pages/6564/attachments/original/1540629281/Amsterdam_Declaration.pdf?1540629281"
     },
     "positions": [
