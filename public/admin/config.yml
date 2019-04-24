@@ -30,6 +30,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -77,6 +79,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -121,6 +125,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -171,6 +177,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -207,6 +215,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -257,6 +267,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -298,6 +310,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -322,10 +336,10 @@ collections:
           - label: Answer
             name: answer
             widget: markdown
-  - name: press
-    label: '[Page] Press'
-    description: Press page.
-    folder: src/app/press/content
+  - name: contact
+    label: '[Page] Contact'
+    description: The general contact page.
+    folder: src/app/contact/content
     format: json
     create: true
     slug: '{{fields.language}}'
@@ -343,6 +357,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -381,6 +397,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -426,6 +444,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -553,6 +573,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -587,6 +609,8 @@ collections:
             value: fr
           - label: Polski
             value: pl
+          - label: Dansk
+            value: dk
       - label: '[Meta] Site Name'
         name: title
         widget: string

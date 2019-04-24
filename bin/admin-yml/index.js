@@ -138,10 +138,10 @@ const configTree = {
     }),
     category({
       meta: {
-        name: 'press',
-        label: '[Page] Press',
-        description: 'Press page.',
-        folder: 'src/app/press/content'
+        name: 'contact',
+        label: '[Page] Contact',
+        description: 'The general contact page.',
+        folder: 'src/app/contact/content'
       },
       fields: [
         pageUrl(),
@@ -253,7 +253,7 @@ const configTree = {
             stringField('index', '[Label] Introduction'),
             stringField('faq', '[Label] FAQ'),
             stringField('about', '[Label] About us'),
-            stringField('press', '[Label] Press')
+            stringField('contact', '[Label] Contact')
           ]
         }),
         objectField('footerMenu', 'Footer Navigation', {

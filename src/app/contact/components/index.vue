@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>{{ $t('press.headline') }}</h1>
-    <v-markdown :source="$t('press.content')" />
+    <h1>{{ $t('contact.headline') }}</h1>
+    <v-markdown :source="$t('contact.content')" />
     <a class="btn" href="mailto:hello@euromat.info">
       hello@euromat.info <feather-mail />
     </a>
@@ -10,7 +10,7 @@
 
 <script>
   export default {
-    name: 'Presse',
+    name: 'Contact',
 
     components: {
       'feather-mail': () =>

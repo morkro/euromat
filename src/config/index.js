@@ -1,12 +1,24 @@
-export const LOCALE_GERMAN = 'de'
-export const LOCALE_ENGLISH = 'en'
-export const LOCALE_FRENCH = 'fr'
-export const LOCALE_POLISH = 'pl'
-export const DEFAULT_LOCALE = LOCALE_ENGLISH
+const LOCALE_GERMAN = 'de'
+const LOCALE_ENGLISH = 'en'
+const LOCALE_FRENCH = 'fr'
+const LOCALE_POLISH = 'pl'
+const LOCALE_DANISH = 'dk'
+const DEFAULT_LOCALE = LOCALE_ENGLISH
 
-export const SUPPORTED_LOCALES = [
+const SUPPORTED_LOCALES = [
   [LOCALE_ENGLISH, 'English'],
   [LOCALE_GERMAN, 'Deutsch'],
   [LOCALE_FRENCH, 'Français'],
-  [LOCALE_POLISH, 'Polski']
+  [LOCALE_POLISH, 'Polski'],
+  [LOCALE_DANISH, 'Dansk']
 ]
+
+module.exports = {
+  LOCALE_GERMAN,
+  LOCALE_ENGLISH,
+  LOCALE_FRENCH,
+  LOCALE_POLISH,
+  LOCALE_DANISH,
+  DEFAULT_LOCALE,
+  SUPPORTED_LOCALES
+}

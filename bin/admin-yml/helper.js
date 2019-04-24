@@ -1,3 +1,5 @@
+const { SUPPORTED_LOCALES } = require('../src/config')
+
 const createField = (widget, name, label, opts) => ({ label, name, widget, ...opts })
 
 const textField = (...args) =>
@@ -32,12 +34,10 @@ const languageConfig = () => ({
   name: 'language',
   hint: 'Select the language for this page.',
   widget: 'select',
-  options: [
-    { label: 'English', value: 'en' },
-    { label: 'Deutsch', value: 'de' },
-    { label: 'Français', value: 'fr' },
-    { label: 'Polski', value: 'pl' }
-  ]
+  options: SUPPORTED_LOCALES.map(([locale, name]) => ({
+    label: name,
+    value: locale
+  }))
 })
 
 const pageUrl = () => ({

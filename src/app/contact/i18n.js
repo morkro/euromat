@@ -1,6 +1,6 @@
 import { loadContent } from '@/helper/content'
 
 export default loadContent(
-  'press',
+  'contact',
   require.context('./content', false, /\.json$/)
 )
