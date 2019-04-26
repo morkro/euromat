@@ -1,4 +1,4 @@
-const { SUPPORTED_LOCALES } = require('../src/config')
+const { SUPPORTED_LOCALES } = require('../../src/config')
 
 const createField = (widget, name, label, opts) => ({ label, name, widget, ...opts })
 
