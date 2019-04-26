@@ -516,7 +516,7 @@
         "position": "negative",
         "statement": {
           "de": "European Spring wird die Rechte der EU Bürger dahingehend stärken, Kontrolle über die Nutzung, Speicherung und Löschung ihrer eigenen Daten zu haben. Dies betrifft auch die Datenerfassung von Staaten und internationalen Geheimdiensten.",
-          "en": "The European Spring will strengthen the rights of Europe's citizens*to \r\ncontrol the use, storage and deletion of their data. This also includes \r\ndata collection by state and international agencies. We need to avoid \r\nthe threat of an orwellian future which may arrive quickly if unlimted \r\ndata collection happens to coincide with authoritarian goverment \r\ntakeovers."
+          "en": "The European Spring will strengthen the rights of Europe's citizens*to \ncontrol the use, storage and deletion of their data. This also includes \ndata collection by state and international agencies. We need to avoid \nthe threat of an orwellian future which may arrive quickly if unlimted \ndata collection happens to coincide with authoritarian goverment \ntakeovers."
         }
       },
       {
@@ -1940,135 +1940,266 @@
     "positions": [
       {
         "thesis": 0,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 1,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Zur Zeit sind wir noch weit entfernt von einer Integration der nationalen Armeen, da eine permanente Kooperation und Koordination nicht exisitiert. Wir befürworten eine Transformation aller bestehenden adhoc Strukturen in dauerhafte multinationale Fähigkeiten.",
+          "en": "Currently we are very far from integrating national armed forces, as permanent cooperation and coordination does not even exist. What we advocate is to transform all existing ad hoc structures into permanent multinational capabilities."
+        }
       },
       {
         "thesis": 2,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 3,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 4,
-        "statement": {}
+        "position": "neutral",
+        "statement": {
+          "de": "Die EU sollte sich in multilateralen Foren für niedrigere Zölle einsetzen. Allerdings sollte sie auch die Möglichkeit haben, sich von nicht nachhaltigen und unfairen Handelspraktiken zu schützen, zum Beispiel durch einen  \nMechanismus zur Anpassung der Kohlenstoffgrenzen.",
+          "en": "The EU should in multilateral fora strive towards lower tarifs. However, it should be able to shield itself from unsustainable and unfair trading practices for instance by carbon border adjustment mechanism."
+        }
       },
       {
         "thesis": 5,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die Grünen sind nicht dagegen die Außengrenzen der EU zu schützen. Allerdings sind wir gegen das Schließen unserer Grenzen für Menschen in Not.",
+          "en": "The Greens are not against protecting the outside borders of the EU. We are, however, against closing our borders for people who are in need."
+        }
       },
       {
         "thesis": 6,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 7,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 8,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Wir Grünen setzen uns schon lange für ein europäisches Asylsystem ein, welches auf Solidarität und der Aufteilung von Verantwortlichkeiten zwischen den Mitgliedsstaaten beruht.",
+          "en": "We Greens have long been advocating for a European asylum system which is based on solidarity and responsibility-sharing among Member States."
+        }
       },
       {
         "thesis": 9,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 10,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Durch die Stärkung des Emissionshandelsystems und indem andere Sektoren wie die Luft- oder Schifffahrt ihren Anteil zahlen, wollen wir einen fairen Preis für Kohlenstoff erzielen.",
+          "en": "We want a fair price for carbon by strenghtenning ETS and making other sectors such as aviation and shipping pay their share."
+        }
       },
       {
         "thesis": 11,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die EU-Unterstützung für Landwirschaft sollte kleine und nachhaltige Landwirte fördern, um einen nachhaltigen Wandel im Agrarsektor zu unterstützen. Subventionen für industrielle Landwirtschaft sollten reduziert werden.",
+          "en": "EU support for farming should be supporting small-scale and sustainable farmers in order to support a sustainable transition in the agricultural sector. Subsidies to industrial farming should be reduced."
+        }
       },
       {
         "thesis": 12,
-        "statement": {}
+        "position": "skipped",
+        "statement": {
+          "de": "Die Grünen wollen eine Organisation, welche in der Lage ist, gemeinsame Ermittlungen durchzuführen, um die europäische Kooperation im Kampf gegen Terrorismus zu stärken. Dies  sollte kein Geheimdienst sein, sondern eher ein \"FBI\" im europäischen Kontext.",
+          "en": "Greens want an organisation that is able to undertake joint investigations to increase European corporation on fighting terrorism. That should be no secret service, but rather an \"FBI\" in European context."
+        }
       },
       {
         "thesis": 13,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 14,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 15,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 16,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Nur die nationale Ebene ist nicht ausreichend. Natürlich sollten die Mitgliedsstaaten Maßnahmen einführen, um Jugendarbeitslosigkeit zu bekämpfen, aber die EU sollte auch viel mehr tun, um jungen Menschen zu garantieren, dass sie einfacher einen Arbeitsplatz finden können.",
+          "en": "Only national level is not enough. Certainly member states need to put in place policies to fight against youth unemployment, but the EU should also do much more to guarantee young people can find more easily a job."
+        }
       },
       {
         "thesis": 17,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 18,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 19,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Verbrechen sollten bestraft werden (einschließlich Haftstrafen), aber dies sollte nicht zu der Ausweisung aus einem Land führen.",
+          "en": "Crimes should be punished (including imprisonement), but not get you expelled from a country."
+        }
       },
       {
         "thesis": 20,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 21,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "Wir befürworten ein parlamentarisches System, in dem der Präsident durch das Parlament gewählt wird.",
+          "en": "We are in favor of a Parliamentary system where the president is elected by the Parliament"
+        }
       },
       {
         "thesis": 22,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 23,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Wir schlagen eine Arbeitslosenversicherung für die Eurozone vor, welche auch offen für andere ist, die daran teilnehmen wollen. Diese sollte eine Grundversicherung garantieren, welche durch nationale Arbeitslosenhilfe ergänzt wird.",
+          "en": "We propose an unemployment insurance for the euro-zone, and open to others who wish to take part, that guarantees basic coverage, supplemented by national unemployment benefits."
+        }
       },
       {
         "thesis": 24,
-        "statement": {}
+        "position": "skipped",
+        "statement": {
+          "de": "Wir sind nicht gegen weitere Handelsabkommen, unter der Voraussetzung, dass diese auf internationalen Regeln und transparenten Prozesse basieren und sie die Rechte von Arbeitern, Landwirten und Verbrauchern, den Tierschutz und den Schutz der Gesundheit und der Umwelt verbessern - und nicht gefährden. Wir befürworten Fortschritte in der WTO und multilaterale Abkommen, welche in völliger Transparenz und mit demokratischer Kontrolle über bilaterale Handelsabkommen verhandelt werden.",
+          "en": "We are not against further trade agreements provided they are based on international rules, transparent processes and that they enhance – not endanger – the rights of workers, farmers and consumers, animal welfare and the protection of health and the environment. We favour progress in the WTO and multilateral agreements that are negotiated in full transparency and with democratic control over bilateral trade dealsl."
+        }
       },
       {
         "thesis": 25,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Das Reisen zwischen Brüssel und Straßburg ergibt ökologisch und wirtschaftlich gesprochen keinen Sinn. Es sollte nur einen Sitz für das Europäische Parlament geben und die logische Wahl des Standortes wäre dort, wo sich bereits die anderen Institutionen befinden, d.h. in Brüssel. Aber für die Grünen ist die Gewährleistung des Rechts für das Europäische Parlament, den Standort des Sitzes selbst bestimmen zu dürfen, am wichtigsten.",
+          "en": "Traveling between Brussels and Strasbourg does not make any sense, ecologically and economically speaking. There should be a single seat for the European Parliament and the logical choice would be to put it where the other institutions are already located, i.e. in Brussels; but the most important for us is that the European Parliament should be granted the right to decide on the location of its seat."
+        }
       },
       {
         "thesis": 26,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "Die Grünen bevorzugen Investitionen in den öffentlichen Nahverkehr sowohl in städtischen als auch in ländlichen Regionen. Ländliche Regionen sind stark abhängig vom öffentlichen Nahverkehr und anderen öffentlichen Dienstleistungen mit Blick auf ihre Lebensqualität. Öffentlicher Nahverkehr in ländlichen Regionen sollte diese mit städtischen Regionen verbinden.",
+          "en": "We favor investments in public transport in both urban and rural areas. Rural areas are highly dependent on public transport and other public services for their liveability. Public transport in rural areas should connect with urban areas."
+        }
       },
       {
         "thesis": 27,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "en": "-"
+        }
       },
       {
         "thesis": 28,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "EU-Bürger*innen sollten (Sozial)Leistungen von den Mitgliedsstaaten erhalten, in denen sie ihren Beitrag leisten und Mitglied des Sozialversicherungssystems sind. Für die Grünen ist die Freizügigkeit logischerweise mit sozialer Sicherheit verbunden.",
+          "en": "EU citizens should receive benefits in the MS where they contribute and where they are member of social security systems. For the Greens freedom of movement is logically paired with social security."
+        }
       },
       {
         "thesis": 29,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 30,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 31,
-        "statement": {}
+        "position": "positive",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       },
       {
         "thesis": 32,
-        "statement": {}
+        "position": "negative",
+        "statement": {
+          "de": "-",
+          "en": "-"
+        }
       }
     ]
   },
