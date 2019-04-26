@@ -629,8 +629,8 @@ collections:
           - label: '[Label] About us'
             name: about
             widget: string
-          - label: '[Label] Press'
-            name: press
+          - label: '[Label] Contact'
+            name: contact
             widget: string
       - label: Footer Navigation
         name: footerMenu

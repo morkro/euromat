@@ -14,11 +14,14 @@
         <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
           <div class="result-party-info">
             <div class="result-party-logo">
-              <img :src="getPartyLogo(party.token)"
+              <img
+                v-if="hasPartyLogo(party.token)"
+                :src="getPartyLogo(party.token)"
                 width="50"
                 height="50"
                 :alt="party.token"
               >
+              <span v-else>{{ party.token }}</span>
             </div>
 
             <h2>{{ getScorePercentage(party.score) }}%</h2>
@@ -134,7 +137,15 @@
           return require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
         } catch (error) {
           console.warn(`No logo found for party "${token}", falling back to initials.`, error.message)
-          return ''
+          return false
+        }
+      },
+      hasPartyLogo (token) {
+        try {
+          require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
+          return true
+        } catch (error) {
+          return false
         }
       },
       getScorePercentage (score) {
@@ -332,6 +343,11 @@
 
       img {
         object-fit: contain;
+      }
+
+      span {
+        color: $text-color-invert;
+        font-weight: 700;
       }
     }
   }
