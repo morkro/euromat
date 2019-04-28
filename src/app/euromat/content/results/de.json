@@ -1,11 +1,11 @@
 {
-  "language": "de",
-  "url": "ergebnis",
-  "title": "Ergebnis",
-  "headline": "Dein Ergebnis",
-  "entry": "Super, Sie haben es geschafft! Gespannt, wie ihr Ergebnis ausfällt? Hier ist es auch schon:",
-  "hint": "Übrigens: Mit Klick auf die Partei gelangen Sie zur Übersicht der einzelnen Thesen. Vergleichen Sie Ihre Auswahl mit den direkten Antworten der jeweiligen Partei.",
-  "thanks": "Danke, dass Sie den EUROMAT genutzt haben. Wir hoffen es hat Ihnen Freude bereitet und vergessen Sie nicht: am 24. September ist Bundestagswahl!",
   "startoverBtn": "EUROMAT wiederholen",
-  "indexBtn": "Zur Startseite"
+  "hint": "Übrigens: Mit Klick auf die Partei gelangst Du zur Übersicht der einzelnen Thesen. Vergleiche Deine Auswahl mit den direkten Antworten der jeweiligen Partei.",
+  "thanks": "Danke, dass Du den EUROMAT genutzt hast. Wir hoffen es hat Dir Freude bereitet und vergiss nicht: am 26. Mai ist Europawahl!",
+  "indexBtn": "Zur Startseite",
+  "url": "ergebnis",
+  "entry": "Super, Du hast es geschafft! Gespannt, wie Dein Ergebnis ausfällt? Hier ist es auch schon:",
+  "headline": "Dein Ergebnis",
+  "title": "Ergebnis",
+  "language": "de"
 }
