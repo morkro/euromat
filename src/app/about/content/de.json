@@ -1,8 +1,8 @@
 {
-  "language": "de",
-  "url": "uber-uns",
-  "title": "Über uns",
-  "headline": "Wer steckt eigentlich hinter dem EUROMAT?",
-  "content": "Als digitaler Wahl-Freund hat der EUROMAT zwar einiges auf dem Kasten. Dennoch besteht seine DNA vor allem aus Einsen und Nullen. An der Umsetzung hat ein engagiertes Team zusammengearbeitet, die Thesen erarbeitet, die Stellungnahmen der Parteien eingeholt, und den EUROMAT technisch umgesetzt. Seit September 2018 arbeitet ein Team aus Ehrenamtlichen an der Entwicklung des EUROMAT. Wir sind Mitglieder des Grassroots-Thinktanks Polis180 e.V. und des Berliner Teams von Pulse of Europe e.V., die sich für den EUROMAT zusammengetan haben.",
-  "devDesign": "Umsetzung und Design"
+  "language": "dk",
+  "url": "Om os",
+  "title": "Om os",
+  "headline": "Hvem står bag EUROMATEN?",
+  "content": "Som digitalt værktøj består EUROMAT primært af ettaller og nuller. Men forudsætningen for dette er et dedikeret team, der arbejder på spørgsmålene, samler partiernes kommentarer og koder værktøjet.  Siden september 2018 har et team af frivillige arbejdet på udviklingen af EUROMAT. Vi er medlemmer af Polis180, en græsrods-tænketank baseret i Berlin, og af Pulse of Europe.",
+  "devDesign": "Moritz Kröger / Dive-Inn"
 }
