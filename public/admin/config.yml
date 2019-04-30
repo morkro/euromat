@@ -28,10 +28,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -77,10 +79,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -123,10 +127,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -175,10 +181,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -213,10 +221,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -265,10 +275,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -308,10 +320,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -355,10 +369,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -395,10 +411,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -442,10 +460,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -571,10 +591,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -607,10 +629,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
           - label: Dansk
             value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Site Name'
         name: title
         widget: string

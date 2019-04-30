@@ -77,6 +77,8 @@
         this.languageMenuSelected = false
       },
       changeLanguage (locale) {
+        // console.log(this.$route)
+        // this.$router.replace(`/${locale}`)
         setCurrentLocale(locale)
         this.hideLanguageSelection()
       }

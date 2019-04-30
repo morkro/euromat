@@ -2,6 +2,10 @@
 
 A Vue.js powered, progressive web voting application for upcoming European elections. EUROMAT is hosted on _Netlify_ and uses the **Netlify CMS** for easier collaboration.
 
+## Calculation Model
+
+The calculation model for voting has been defined by the German Federal Agency for Civic Education _(Bundeszentrale für politische Bildung)_. A good overview can be found in this PDF: [`resources/Rechenmodell des Wahl-O-Mat.pdf`](resources/Rechenmodell des Wahl-O-Mat.pdf).
+
 ## ⌨️ Development
 
 This is a Vue.js progressive web application, developed with [`@vue/cli`](https://github.com/vuejs/vue-cli).
