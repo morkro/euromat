@@ -157,7 +157,7 @@
     border-radius: $border-radius;
 
     a {
-      color: $text-color-secondary;
+      color: $medium-blue;
       font-weight: 600;
 
       &:hover {
