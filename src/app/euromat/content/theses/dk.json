@@ -2,9 +2,9 @@
   "language": "dk",
   "url": "theses",
   "title": "Theses",
-  "backBtn": "Retur",
+  "backBtn": "Tilbage",
   "positive": "Enig",
   "neutral": "Neutral",
   "negative": "Uenig",
-  "skipped": "Springe tese"
+  "skipped": "Spring over"
 }
