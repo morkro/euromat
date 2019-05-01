@@ -2,18 +2,18 @@
   "language": "dk",
   "title": "Indstillinger",
   "topMenu": {
-    "index": "Landing page",
+    "index": "Startside",
     "faq": "FAQ",
-    "about": "About us",
-    "contact": "Contact"
+    "about": "Om os",
+    "press": "Kontakt"
   },
   "footerMenu": {
-    "imprint": "Imprint",
+    "imprint": "Juridisk note",
     "privacy": "Data privacy"
   },
   "socialMedia": {
-    "twitter": "Great! German election is star-spangled. Curious what parties say about EU? Compare views & see your match:",
-    "facebook": "Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!",
+    "twitter": "#Europeanelections #EP19 #jungundwählerisch #EUROMAT Curious what visions European parties defend? Compare views & see your match:",
+    "facebook": "Curious what visions European parties defend? Compare views & see your match: #Europeanelections #EP19 #jungundwählerisch #EUROMAT",
     "clipboard": "Copied to clipboard"
   },
   "cookieConsent": {

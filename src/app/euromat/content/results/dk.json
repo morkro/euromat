@@ -1,11 +1,11 @@
 {
   "startoverBtn": "Start igen",
   "hint": "Forresten: Hvis du klikker på de enkelte partier, får du vist en oversigt over de enkelte udsagn. Tag et kig på hvad partierne svarede, og hvordan de ser ud sammenlignet med dine.",
-  "thanks": "Tak fordi du prøvede EUROMAT. Vi håber, du fik noget ud af det – og glem ikke: Valgdagen er 26. maj!",
+  "thanks": "Tak fordi du prøvede EUROMAT. Vi håber, du fik noget ud af det og ønsker et godt valg d. 26. maj!",
   "indexBtn": "Startside",
   "url": "resultat1",
-  "entry": "Godt, vi har fået dine svar! Nu til resultatet. Du skal ikke vente meget længere – her kommer det:",
-  "headline": "Til resultatet",
+  "entry": "Tak for dine svar! Herunder kan du se, i hvor høj grad dine svar ligner de europæiske partiers.",
+  "headline": "Resultat",
   "title": "Resultat",
   "language": "dk"
 }
