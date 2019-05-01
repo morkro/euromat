@@ -216,6 +216,7 @@
 
   .theses-content {
     text-align: left;
+    width: 100%;
   }
 
   .theses-header {
