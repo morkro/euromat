@@ -101,7 +101,7 @@
     "thesis": {
       "de": "Alle Mitgliedsstaaten sollten Geld und Personal für den Schutz der europäischen Außengrenzen zur Verfügung stellen.",
       "en": "Each member state should provide funds and human resources to secure the European border.",
-      "dk": "Alle medlemsstater skal bidrage med midler og personale til at sikre EU's ydre grænser.",
+      "dk": "Alle medlemslande skal bidrage med midler og personale til at sikre EU's ydre grænser.",
       "si": "Vsaka država članica bi morala prispevati sredstva in človeške vire za zaščito evropskih meja.",
       "cz": "Každý jednotlivý členský stát by měl poskytnout finance a lidské zdroje k ochraně evropských hranic."
     },
@@ -236,7 +236,7 @@
   {
     "id": 13,
     "category": {
-      "de": "Europäischer Mindestlohn:",
+      "de": "Europäischer Mindestlohn",
       "en": "Minimum Wage",
       "dk": "Mindsteløn",
       "si": "Minimalna plača",
@@ -299,7 +299,7 @@
     "thesis": {
       "de": "Jugendarbeitslosigkeit sollte national bekämpft werden.",
       "en": "Youth unemployment should be combated at national level.",
-      "dk": "Ungdomsarbejsløshed skal bekæmpes på nationalt plan.",
+      "dk": "Ungdomsarbejdsløshed skal primært bekæmpes på nationalt plan.",
       "si": "Proti brezposelnosti mladih se je potrebno boriti na nacionalni ravni.",
       "cz": "Proti nezaměstnanosti mladých lidí je třeba bojovat na vnitrostátní úrovni."
     },
@@ -416,7 +416,7 @@
   {
     "id": 23,
     "category": {
-      "de": "Arbeitslosenversicherung:",
+      "de": "Arbeitslosenversicherung",
       "en": "Unemployment Insurance",
       "dk": "Arbejdsløshedsforsikring",
       "si": "Zavarovanje za primer brezposelnosti",
@@ -454,14 +454,14 @@
     "category": {
       "de": "Bürokratieabbau",
       "en": "Reduction of Bureaucracy",
-      "dk": "Reducering af bureaukrati",
+      "dk": "Mindre bureaukrati",
       "si": "Zmanjšanje birokracije",
       "cz": "Snížení byrokracie"
     },
     "thesis": {
       "de": "Der Standort des Europäischen Parlaments in Strasburg sollte abgeschafft werden (Brüssel bleibt als einziger Standort erhalten).",
       "en": "The site of the European Parliament in Strasbourg should be abolished (Brussels remains as the only site).",
-      "dk": "Europaparlamentets sæde i Strasbourg skal afvikles (Bruxelles består som Europaparlaments eneste sæde).",
+      "dk": "Europa-Parlamentets aktiviteter i Strasbourg skal nedlægges, så det alene har sæde i Bruxelles.",
       "si": "Sedež Evropskega parlamenta v Strasbourgu bi morali ukiniti (Bruselj ostane kot edini sedež).",
       "cz": "Sídlo Evropského parlamentu ve Štrasburku by mělo být zrušeno (Brusel by se stal jediným sídlem)."
     },
@@ -533,7 +533,7 @@
     "thesis": {
       "de": "Ein einzelner Mitgliedsstaat sollte in Zukunft keine Mehrheitsentscheidung in der europäischen Außenpolitik blockieren können.",
       "en": "In future, a single member state should not be able to block majority decisions in European foreign policy.",
-      "dk": "Fremover skal et enkelt medlemsland ikke have ret til at blokkere en udenrigspolitisk beslutning i EU.",
+      "dk": "Fremover skal et enkelt medlemsland ikke have ret til at blokere en udenrigspolitisk beslutning i EU.",
       "si": "V prihodnosti posamezna država članica ne bi smela imeti možnosti, da blokira odločitev večine v evropski zunanji politiki.",
       "cz": "V budoucnu by jeden členský stát neměl být schopen blokovat většinová rozhodnutí v evropské zahraniční politice."
     },
@@ -544,7 +544,7 @@
     "category": {
       "de": "Lebensmittel/Verbraucherschutz",
       "en": "Food/Consumer Protection",
-      "dk": "Fødevarer- og forbrugersikkerhed",
+      "dk": "Fødevare- og forbrugersikkerhed",
       "si": "Hrana/varstvo potrošnikov",
       "cz": "Ochrana spotřebitele"
     },
@@ -587,7 +587,7 @@
     "thesis": {
       "de": "Es sollte in meinem Land ein Referendum über die EU-Mitgliedschaft meines Landes geben.",
       "en": "My country should have a referendum on its EU membership.",
-      "dk": "Mit land skal afholde afstemning om dets EU-medlemskab.",
+      "dk": "Mit land skal holde en afstemning om EU-medlemskabet.",
       "si": "Slovenija bi morala imeti referendum o članstvu v Evropski uniji.",
       "cz": "Moje země by měla mít referendum o členství v EU."
     },
