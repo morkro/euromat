@@ -1,11 +1,11 @@
 {
+  "partyAnswer": "Svar",
+  "legendLabel": "Valgmulidheder",
+  "url": "parti",
+  "tableHeading": "Udsagn",
+  "subtitle": "  besøg partiets hjemmeside",
+  "title": "Parti",
   "language": "dk",
-  "url": "party",
-  "title": "Party",
-  "subtitle": "To party program",
-  "backButtonLabel": "Back to results",
-  "legendLabel": "Legend",
-  "partyAnswer": "Party statement",
-  "tableHeading": "Theses",
-  "tableUser": "Your choice"
+  "tableUser": "Dit svar",
+  "backButtonLabel": "Tilbage til resultat"
 }
