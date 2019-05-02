@@ -1,12 +1,17 @@
 <template>
   <section>
-    <header class="party-header">
-      <div class="party-header-logo">
-        <img :src="partyLogo"
+    <header :class="['party-header', { 'no-party-link': !partyProgramLink }]">
+      <div :class="['party-header-logo', { 'no-logo': !hasPartyLogo }]">
+        <img
+          v-if="hasPartyLogo"
+          :src="partyLogo"
           :width="logoSize"
           :height="logoSize"
           :alt="partyName"
         >
+        <span v-else>
+          {{ partyToken }}
+        </span>
       </div>
 
       <div class="party-header-info">
@@ -18,7 +23,9 @@
           <feather-corner-up-left />
         </router-link>
         <h1>{{ partyName }}</h1>
-        <a class="btn"
+        <a
+          v-if="!!partyProgramLink"
+          class="btn"
           :href="partyProgramLink"
           target="_blank"
         >
@@ -120,7 +127,8 @@
 
       return {
         logoSize: 60,
-        partyLogo: require(`@/assets/svg/${this.$route.params.token}-logo.svg`),
+        partyLogo: this.hasPartyLogo && require(`@/assets/svg/${this.$route.params.token}-logo.svg`),
+        partyToken: this.$route.params.token.toUpperCase(),
         party: parties.find(p => p.token === this.$route.params.token.toUpperCase()),
         answers,
         toggles: theses.map(t => ({ id: t.id, show: false })),
@@ -132,6 +140,14 @@
     computed: {
       resultsPath () {
         return getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
+      },
+      hasPartyLogo () {
+        try {
+          require(`@/assets/svg/${this.$route.params.token}-logo.svg`)
+          return true
+        } catch (error) {
+          return false
+        }
       },
       partyName () {
         return this.party.name[this.$i18n.locale]
@@ -216,6 +232,10 @@
     align-items: flex-start;
     margin-bottom: $base-gap;
 
+    &.no-party-link {
+      align-items: center;
+    }
+
     @media (max-width: $breakpoint) {
       flex-direction: column;
     }
@@ -244,9 +264,19 @@
       justify-content: center;
       align-items: center;
       box-shadow: $button-shadow;
+      color: $text-color-invert;
+
+      &.no-logo {
+        width: 80px;
+        height: 80px;
+      }
 
       img {
         object-fit: contain;
+      }
+
+      span {
+        font-weight: 700;
       }
 
       @media (max-width: $breakpoint) {
