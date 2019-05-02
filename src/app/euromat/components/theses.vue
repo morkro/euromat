@@ -223,7 +223,7 @@
     margin-bottom: $base-gap + 5;
     text-align: left;
 
-    h1 {
+    h1, h2 {
       overflow-wrap: break-word;
     }
 
