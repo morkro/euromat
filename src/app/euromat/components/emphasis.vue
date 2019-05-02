@@ -232,7 +232,7 @@
     }
 
     &::before {
-      background: $dark-blue;
+      background: $medium-blue;
     }
 
     span {
