@@ -1,0 +1,28 @@
+{
+  "language": "dk",
+  "url": "faq",
+  "title": "Ofte stillede spørgsmål",
+  "headline": "FAQ",
+  "questions": [
+    {
+      "title": "Hvad er EUROMAT?",
+      "answer": "EUROMAT præsenterer 33 udsagn på forskellige europapolitiske områder, og beder sig om at tage stilling til om du er enig eller uenig. Efterfølgende bliver dine svar sammenlignet med de europæiske partiers svar, og du kan se i hvor høj grad du er enig med de enkelte partier. Til sidst får du et overblik over de danske partiers tilknytning til de europæiske partier."
+    },
+    {
+      "title": "Hvordan virker EUROMAT?",
+      "answer": "Beregningsmodellen følger Bundeszentrale für politische Bildungs (Tysklands Føderale agentur for politisk uddannelse) udregningsprogram. Programmet ligger frit tilgængeligt under den følgende licens: Creative Commons BY-NC-NC 3.0."
+    },
+    {
+      "title": "Hvordan er EUROMAT udviklet?",
+      "answer": "I første omgang udviklede vi en række udsagn om EU-samarbejdet gennem flere workshops. Vores mål var:\n\n1.\tAt dække afdække alle relevante emner for de europæiske samfund\n\n2.\tAt dække en bred variation af forskellige politiske holdninger\n\nDernæst har partnere fra forskellige lande gennemgået udsagnenes relevans og givet feedback. På den baggrund lavede vi de endelige udsagn. Derefter sendte vi i alt 49 udsagn ud til Europa-Parlamentets 21 partier. Partierne blev bedt om at tilkendegive deres holdning til udsagnene (”enig”, ”uenig” eller ”neutral”). Partierne havde desuden mulighed for at give en kort begrundelse for deres svar.\n\nDe europæiske partiers svar blev analyseret og 33 blev udvalgt til den endelige EUROMAT. Udvælgelsen af de endelige udsagn er baseret på deres evne til at hjælpe med at differentiere mellem partierne. Svarene oversættes derefter af vores partnere (i Danmark Tænketanken EUROPA) for at udbrede EUROMAT til så mange lande som muligt."
+    },
+    {
+      "title": "Why European parties? ",
+      "answer": "Though we have national parties on our ballots on election day, they are part of European parties. On the European level, our national political parties bundle with other parties which share similar political ideas and visions and are active in other Member States. The European parties (for exemple PES, EPP, ALDE or the European Green Party) are represented by party groups in the European Parliament. In the end, those will determine the decision-making process in the European Parliament. That’s why we decided to ask them to position themselves towards the EUROMAT theses and not directly our political parties at state level."
+    },
+    {
+      "title": "Which European parties were included in the EUROMAT?",
+      "answer": "I alt blev 21 partier kontaktet for indsamlingen af udsagn og svar: \n\nEuropean People's Party (EPP), Party of European Socialists (PES), Alliance of Conservatives and Reformists in Europe (ACRE),European Christian Political Movement (ECPM),  Alliance of Liberals and Democrats for Europe (ALDE),  European Democratic Party (EDP), Party of the European Left (PEL), Nordic Green Left Alliance (NGLA), European Green Party (EGP), European Free Alliance (EFA), Movement for a Europe of Nations and Freedom (MENF), VOLT, Alliance for Peace and Freedom (APF), Alliance for European National Movements (AENM), Initiative of Communist and Workers' Parties, DiEM25, European Federalist Party, European Pirate Party (PPEU), Euro Animal 7 (EA7),Liberal South East European Network (LIBSEEN), Europe Democracy Esperanto (EDE).\n\n9 ud af de 21 partier har indgivet deres svar på vores spørgeskema. Siden vi ikke har modtaget et formelt svar på x i tide, er de ikke inkluderet i den videre proces med EUROMAT."
+    }
+  ]
+}

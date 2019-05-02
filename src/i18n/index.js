@@ -7,7 +7,7 @@ import { i18n as party } from '@/app/party'
 import { i18n as about } from '@/app/about'
 import { i18n as fourzerofour } from '@/app/404'
 import { i18n as faq } from '@/app/faq'
-import { i18n as press } from '@/app/press'
+import { i18n as contact } from '@/app/contact'
 import { i18n as imprint } from '@/app/imprint'
 import { i18n as privacy } from '@/app/privacy'
 import { i18n as partner } from '@/app/partner'
@@ -21,7 +21,7 @@ const messages = [
   meta, intro,
   euromat, party, partner,
   about, fourzerofour, faq,
-  press, imprint, privacy
+  contact, imprint, privacy
 ]
 
 function getLanguage (locale) {

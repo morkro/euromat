@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "npm run svg && vue-cli-service serve",
-    "build": "npm run svg && npm run admin && vue-cli-service build --modern",
+    "serve": "npm run svg && npm run data && vue-cli-service serve",
+    "build": "npm run svg && npm run admin && npm run data && vue-cli-service build --modern",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "svg": "vsvg -s ./src/assets/svg -t ./src/assets/icons",
-    "admin": "node bin/admin"
+    "admin": "node bin/admin-yml",
+    "data": "node bin/xlsx-data"
   },
   "dependencies": {
     "lint-staged": "^8.1.5",
@@ -45,7 +46,8 @@
     "normalize.css": "^8.0.1",
     "ora": "^3.4.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "xlsx": "^0.14.2"
   },
   "husky": {
     "hooks": {

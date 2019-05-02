@@ -28,8 +28,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -75,8 +79,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -119,8 +127,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -169,8 +181,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -205,8 +221,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -255,8 +275,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -296,8 +320,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -322,10 +350,10 @@ collections:
           - label: Answer
             name: answer
             widget: markdown
-  - name: partner
-    label: '[Page] Partner'
-    description: Partner page.
-    folder: src/app/partner/content
+  - name: contact
+    label: '[Page] Contact'
+    description: The general contact page.
+    folder: src/app/contact/content
     format: json
     create: true
     slug: '{{fields.language}}'
@@ -341,46 +369,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
-      - label: '[Meta] Page URL'
-        name: url
-        widget: string
-        hint: >-
-          An optional, localised URL which will be used for this page (e.g.
-          https://euromat.info/#/<PAGE_URL>)
-        optional: true
-      - label: '[Meta] Site Name'
-        name: title
-        widget: string
-        hint: The name for the page that will appear in the browser tab.
-      - label: Headline
-        name: headline
-        widget: string
-      - label: Content
-        name: Content
-        widget: markdown
-  - name: press
-    label: '[Page] Press'
-    description: Press page.
-    folder: src/app/press/content
-    format: json
-    create: true
-    slug: '{{fields.language}}'
-    fields:
-      - label: '[Meta] Language'
-        name: language
-        hint: Select the language for this page.
-        widget: select
-        options:
-          - label: English
-            value: en
-          - label: Deutsch
-            value: de
-          - label: Français
-            value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -417,8 +411,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -462,8 +460,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Page URL'
         name: url
         widget: string
@@ -589,8 +591,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -623,8 +629,12 @@ collections:
             value: de
           - label: Français
             value: fr
-          - label: Polski
-            value: pl
+          - label: Dansk
+            value: dk
+          - label: Slovenščina
+            value: si
+          - label: Čeština
+            value: cz
       - label: '[Meta] Site Name'
         name: title
         widget: string
@@ -643,11 +653,8 @@ collections:
           - label: '[Label] About us'
             name: about
             widget: string
-          - label: '[Label] Partner'
-            name: partner
-            widget: string
-          - label: '[Label] Press'
-            name: press
+          - label: '[Label] Contact'
+            name: contact
             widget: string
       - label: Footer Navigation
         name: footerMenu

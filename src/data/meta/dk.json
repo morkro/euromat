@@ -1,0 +1,24 @@
+{
+  "language": "dk",
+  "title": "Indstillinger",
+  "topMenu": {
+    "index": "Startside",
+    "faq": "FAQ",
+    "about": "Om os",
+    "press": "Kontakt"
+  },
+  "footerMenu": {
+    "imprint": "Juridisk note",
+    "privacy": "Data privacy"
+  },
+  "socialMedia": {
+    "twitter": "#Europeanelections #EP19 #jungundwählerisch #EUROMAT Curious what visions European parties defend? Compare views & see your match:",
+    "facebook": "Curious what visions European parties defend? Compare views & see your match: #Europeanelections #EP19 #jungundwählerisch #EUROMAT",
+    "clipboard": "Copied to clipboard"
+  },
+  "cookieConsent": {
+    "text": "This website uses cookies to ensure you get the best experience on our website.",
+    "btnDecline": "Decline",
+    "btnAccept": "Accept"
+  }
+}

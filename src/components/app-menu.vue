@@ -77,10 +77,9 @@
         this.languageMenuSelected = false
       },
       changeLanguage (locale) {
-        // console.log('this.$router.currentRoute', this.$router.currentRoute)
-        // const currentRoute = this.$router.currentRoute.name
+        // console.log(this.$route)
+        // this.$router.replace(`/${locale}`)
         setCurrentLocale(locale)
-        // this.$router.replace(getTranslatedUrl(currentRoute))
         this.hideLanguageSelection()
       }
     }
@@ -156,6 +155,9 @@
         box-shadow: none;
         border: 2px solid $orange;
         background: $button-background-secondary;
+        transform: translate(-1px, 1px);
+        margin-top: -3px;
+        margin-right: 1px;
       }
     }
 

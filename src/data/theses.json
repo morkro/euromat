@@ -2,378 +2,594 @@
   {
     "id": 0,
     "category": {
-      "de": "Eurozone",
-      "en": "Eurozone"
+      "de": "Politische Bildung",
+      "en": "Civic Education",
+      "dk": "Medborgerskab",
+      "si": "Državljanska vzgoja",
+      "cz": "Občanské vzdělávání"
     },
     "thesis": {
-      "de": "Zur Stärkung des Euro sollte eine gemeinsame Wirtschaftspolitik für die Eurozone unter Leitung eines europäischen Ministers eingeführt werden.",
-      "en": "A common economic policy should beintroduced under the supervision of a European Minister to strengthen the Eurozone."
+      "de": "Europapolitische Bildung sollte Teil der Lehrpläne aller Mitgliedsländer sein.",
+      "en": "European civic education should be part of the school curricula of all member countries.",
+      "dk": "Europæisk medborgerskab skal være en del af skolepensum i alle medlemslande.",
+      "si": "Evropska državljanska vzgoja bi morala biti del šolskega kurikuluma v vseh državah članicah.",
+      "cz": "Evropské občanské vzdělávání by mělo být součástí školních osnov ve všech členských státech."
     },
-    "terminology": [
-      0
-    ]
+    "terminology": []
   },
   {
     "id": 1,
     "category": {
-      "de": "Europäisches Wahlrecht",
-      "en": "European Elections"
+      "de": "Europäische Armee",
+      "en": "European Army",
+      "dk": "Fælles forsvar",
+      "si": "Evropska vojska",
+      "cz": "Evropská armáda"
     },
     "thesis": {
-      "de": "Die Abgeordneten des Europäischen Parlaments sollen nach einem einheitlichen Wahlrecht über transnationale Listen gewählt werden.",
-      "en": "Representatives of the European Parliament should be elected through a uniform/ standardised electoral law via a paneuropean list."
+      "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee zusammenschließen.",
+      "en": "In the long-term EU member states should merge their armed forces to a European army.",
+      "dk": "På lang sigt skal EU-medlemslandenes forsvar samles i en fælles europæisk hær.",
+      "si": "Države članice EU bi morale na dolgi rok združiti svoje oborožene sile v skupno evropsko vojsko.",
+      "cz": "V dlouhodobém horizontu by měly být armády členských států sloučeny do Evropské armády."
     },
-    "terminology": [
-      1
-    ]
+    "terminology": []
   },
   {
     "id": 2,
     "category": {
-      "de": "Volksentscheid",
-      "en": "Referenda on EU-level"
+      "de": "Zuständigkeiten der EU",
+      "en": "Competencies of the EU",
+      "dk": "EU's beføjelser",
+      "si": "Pristojnosti EU",
+      "cz": "Kompetence EU"
     },
     "thesis": {
-      "de": "Änderungen an den europäischen Verträgen und andere grundlegenden Entscheidungen sollten in Zukunft über einen Volksentscheid auf europäischer Ebene beschlossen werden.",
-      "en": "Amendments to the European Treaties or any other basic decisions should pass a resolution/ be determined through a referendum on European level."
+      "de": "Die EU hat zu viele Aufgaben übernommen, die an die Mitgliedsstaaten zurückgegeben werden sollten.",
+      "en": "The EU has taken on too many tasks that should be transferred back to the member states.",
+      "dk": "EU har påtaget sig for mange opgaver, der bør føres tilbage til medlemsstaterne.",
+      "si": "EU je prevzela preveč nalog, ki jih je treba prenesti nazaj na države članice.",
+      "cz": "EU má nyní příliš mnoho pravomocí, které by byly lépe spravovány členskými státy."
     },
-    "terminology": [
-      2
-    ]
+    "terminology": []
   },
   {
     "id": 3,
     "category": {
-      "de": "Lobbying",
-      "en": "Lobby control"
+      "de": "Energiepolitik",
+      "en": "Energy Policy",
+      "dk": "Energipolitik",
+      "si": "Energetska politika",
+      "cz": "Energetická politika"
     },
     "thesis": {
-      "de": "Einflussnahme auf europäische Gesetze soll durch ein Lobbyregister transparenter gemacht werden.",
-      "en": "Influence on European laws is to be made more transparent by a lobby register."
+      "de": "Alle Mitgliedsstaaten sollen bis spätestens 2040 aus der Atomkraft aussteigen.",
+      "en": "Every member state should eliminate atomic energy by 2040.",
+      "dk": "I 2040 skal alle medlemslande have udfaset brugen af atomenergi.",
+      "si": "Vse države članice bi morale do leta 2040 odpraviti atomsko energijo.",
+      "cz": "Jaderná energie by měla být zakázána do roku 2040."
     },
     "terminology": []
   },
   {
     "id": 4,
     "category": {
-      "de": "Europäische Kommission",
-      "en": "European Commission"
+      "de": "Handelspolitik",
+      "en": "Trade Policy",
+      "dk": "Handelspolitik",
+      "si": "Trgovinska politika",
+      "cz": "Obchodní politika"
     },
     "thesis": {
-      "de": "Die Europäische Kommission sollte verkleinert werden und besser durch das Parlament kontrolliert werden.",
-      "en": "The European Commission should be scaled down and better controlled by the Parliament."
+      "de": "Die Europäische Union soll zum Schutz europäischer Produkte verstärkt Zölle erheben.",
+      "en": "The EU should raise tarifs to secure European products from foreign competition.",
+      "dk": "EU skal hæve tolden på varer fra tredjelande for at sikre europæiske produkter mod konkurrence.",
+      "si": "EU bi morala zvišati tarife, da bi zaščitila evropske proizvode pred tujo konkurenco.",
+      "cz": "EU by měla zvednout cla, aby ochránila evropské produkty před zahraniční konkurencí."
     },
     "terminology": []
   },
   {
     "id": 5,
     "category": {
-      "de": "Nationale Mitbestimmung",
-      "en": "National Representation"
+      "de": "Grenzschutz",
+      "en": "Border Protection",
+      "dk": "Grænsesikring",
+      "si": "Varovanje meja",
+      "cz": "Kontrola hranic"
     },
     "thesis": {
-      "de": "Die EU hat zu viele Aufgaben übernommen, die besser von den nationalen Parlamenten geregelt werden sollten.",
-      "en": "The EU has undertaken too many tasks which should be fullfilled by national Parliaments."
+      "de": "Alle Mitgliedsstaaten sollten Geld und Personal für den Schutz der europäischen Außengrenzen zur Verfügung stellen.",
+      "en": "Each member state should provide funds and human resources to secure the European border.",
+      "dk": "Alle medlemslande skal bidrage med midler og personale til at sikre EU's ydre grænser.",
+      "si": "Vsaka država članica bi morala prispevati sredstva in človeške vire za zaščito evropskih meja.",
+      "cz": "Každý jednotlivý členský stát by měl poskytnout finance a lidské zdroje k ochraně evropských hranic."
     },
     "terminology": []
   },
   {
     "id": 6,
     "category": {
-      "de": "Grenzkontrollen",
-      "en": "Border controls"
+      "de": "Gleichberechtigung",
+      "en": "Equality",
+      "dk": "Ligestilling",
+      "si": "Enakost",
+      "cz": "Rovnost"
     },
     "thesis": {
-      "de": "Es soll auch nicht in Ausnahmefällen Grenzkontrollen im Schengen-Raum geben.",
-      "en": "Even under special circumstances, border controls in the Shengen area should be entirely avoided."
+      "de": "Die EU sollte sich für eine verpflichtende Frauenquote auf Führungsebene von Unternehmen einsetzen.",
+      "en": "The EU should be committed to introducing a quota for women in leading managerial positions.",
+      "dk": "EU skal arbejde for at indføre kønskvoter på ledende poster.",
+      "si": "EU bi se morala zavezati k uvedbi kvot za ženske na vodilnih položajih.",
+      "cz": "EU by se měla zavázat k zavedení kvót pro ženy ve vedoucích pozicích."
     },
     "terminology": []
   },
   {
     "id": 7,
     "category": {
-      "de": "Europäischer Grenzschutz",
-      "en": "European border protection"
+      "de": "Datenschutz",
+      "en": "Data Protection",
+      "dk": "Databeskyttelse",
+      "si": "Varstvo podatkov",
+      "cz": "Ochrana dat"
     },
     "thesis": {
-      "de": "Alle Mitgliedstaaten sollten einen größeren Beitrag zum Schutz der EU-Außengrenzen leisten und ein eigenständig wirksamer europäischer Grenzschutz ausgebaut werden.",
-      "en": "All Member States should make a greater contribution to the protection of the EU's external borders and build an effective European border protection."
+      "de": "Unternehmen soll die Nutzung personalisierter Daten erleichtert werden.",
+      "en": "Personalized data should be made easier for companies to use.",
+      "dk": "Det skal gøres lettere for virksomheder at anvende personlig data kommercielt.",
+      "si": "Podjetjem je potrebno olajšati uporabo osebnih podatkov.",
+      "cz": "Společnosti by měli mít možnost využívat personalizovaná data lehčeji, než dnes."
     },
     "terminology": []
   },
   {
     "id": 8,
     "category": {
-      "de": "Terrorismusbekämpfung",
-      "en": "Fighting terrorism"
+      "de": "Verteilung von Asylbewerbern",
+      "en": "Asylum Seekers Allocation",
+      "dk": "Fordeling af asylansøgere",
+      "si": "Razporeditev prosilcev za azil",
+      "cz": "Přerozdělování žadatelů o azyl"
     },
     "thesis": {
-      "de": "Es sollte ein gemeinsamer europäischer Geheimdienst zur effektiveren Terrorismusbekämpfung aufgebaut werden.",
-      "en": "A joint European intelligence service should be set up to combat terrorism more effectively."
+      "de": "Innerhalb der EU sollten Asylbewerber nach einem Verteilungsschlüssel auf alle Mitgliedsstaaten verteilt werden.",
+      "en": "Asylum seekers should be distributed between every member state based on a quota within the EU.",
+      "dk": "Asylansøgere skal fordeles mellem medlemslandene efter et kvotesystem.",
+      "si": "Prosilce za azil oz. mednarodno zaščito je potrebno razporediti med vse države članice na podlagi kvot znotraj EU.",
+      "cz": "Žadatelé o azyl by měli být rozděleni mezi všechny členské státy EU na základě kvót."
     },
     "terminology": []
   },
   {
     "id": 9,
     "category": {
-      "de": "Cyberkriminalität",
-      "en": "Cyber crime"
+      "de": "Erweiterung",
+      "en": "EU Enlargement",
+      "dk": "Udvidelse af EU",
+      "si": "Širitev EU",
+      "cz": "Politika rozšíření EU"
     },
     "thesis": {
-      "de": "Die EU soll sich gemeinsam gegen internationale Cyber-Angriffe und Fake News mit einer Spezialeinheit zur Wehr setzen.",
-      "en": "The EU is to introduce a special unit to fight against international cyber attacks and Fake News."
+      "de": "Die EU sollte keine neuen Mitgliedsländer aufnehmen.",
+      "en": "The EU should not accept any new member states.",
+      "dk": "EU skal ikke optage nye medlemslande.",
+      "si": "EU ne bi smela sprejeti nobenih novih držav članic.",
+      "cz": "EU by neměla přijímat žádné nové členské státy."
     },
-    "terminology": [
-      3,
-      4
-    ]
+    "terminology": []
   },
   {
     "id": 10,
     "category": {
-      "de": "Aufnahme von Geflüchteten",
-      "en": "Refugee crisis"
+      "de": "Energiepolitik",
+      "en": "Energy Policy",
+      "dk": "Energipolitik",
+      "si": "Energetska politika",
+      "cz": "Energetická politika"
     },
     "thesis": {
-      "de": "Die EU soll keine weiteren Flüchtlinge mehr aufnehmen.",
-      "en": "The EU should not accept any more refugees."
+      "de": "Es soll eine EU-weite CO2-Steuer geben.",
+      "en": "A European carbon tax should be introduced.",
+      "dk": "EU skal indføre en skat på CO2-udledning.",
+      "si": "Potrebno je uvesti evropski davek na ogljik.",
+      "cz": "Měla by být zavedena evropská daň z uhlíku."
     },
     "terminology": []
   },
   {
     "id": 11,
     "category": {
-      "de": "Rüstungsexporte",
-      "en": "Defence exports"
+      "de": "Agrarsubventionen",
+      "en": "Agricultural Subsidies",
+      "dk": "Landbrugsstøtte",
+      "si": "Kmetijske subvencije",
+      "cz": "Zemědělské dotace"
     },
     "thesis": {
-      "de": "Es sollte in der EU mehr Abstimmung bei Rüstungsexporten in Drittländer geben.",
-      "en": "There should be more coordination in the EU for arms exports to third countries."
+      "de": "Die EU sollte die finanzielle Unterstützung der Landwirtschaft verringern.",
+      "en": "The EU should reduce financial subsidies given to the agriculture sector.",
+      "dk": "EU skal reducere den økonomiske støtte til landbruget.",
+      "si": "EU bi morala zmanjšati finančne subvencije za kmetijski sektor.",
+      "cz": "EU by měla snížit finanční dotace poskytované zemědělcům."
     },
-    "terminology": [
-      5
-    ]
+    "terminology": []
   },
   {
     "id": 12,
     "category": {
-      "de": "UNO-Sicherheitsrat",
-      "en": "UN Security Council"
+      "de": "Europäischer Geheimdienst",
+      "en": "Intelligence Service",
+      "dk": "Efterretningstjeneste",
+      "si": "Obveščevalna služba",
+      "cz": "Tajná služba"
     },
     "thesis": {
-      "de": "Deutschland soll sich für einen gemeinsamen EU-Sitz im UN-Sicherheitsrat einsetzen.",
-      "en": "Germany should commit to the Introducton of a joint EU Membership in the UN security council."
+      "de": "Die EU sollte einen gemeinsamen europäischen Geheimdienst zur effektiveren Terrorismusbekämpfung aufbauen.",
+      "en": "The EU should install a common European intelligent service in order to effectivly counter terrorism.",
+      "dk": "EU skal oprette en fælles europæisk efterretningstjeneste med henblik på effektiv bekæmpelse af terrorisme.",
+      "si": "EU bi morala uvesti skupno obveščevalno službo z namenom učinkovitega boja proti terorizmu.",
+      "cz": "EU by měla zavést společnou evropskou tajnou službu s cílem účinně bojovat proti terorismu."
     },
-    "terminology": [
-      6
-    ]
+    "terminology": []
   },
   {
     "id": 13,
     "category": {
-      "de": "Europäische Armee",
-      "en": "European Army"
+      "de": "Europäischer Mindestlohn",
+      "en": "Minimum Wage",
+      "dk": "Mindsteløn",
+      "si": "Minimalna plača",
+      "cz": "Minimální mzda"
     },
     "thesis": {
-      "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee vereinen.",
-      "en": "In the long term the EU should unite all its armed forces in one greater european army."
+      "de": "Es sollten europaweit Mindestlöhne abhängig vom Durchschnittseinkommen des jeweiligen Mitgliedsstaates eingeführt werden.",
+      "en": "A European minimum wage should be introduced, dependent on the average income of the member state.",
+      "dk": "Der skal indføres en europæisk mindsteløn reguleret efter gennemsnitslønnen i de enkelte medlemslande.",
+      "si": "Uvesti bi morali evropsko minimalno plačo, odvisno od povprečnega dohodka posamezne države članice.",
+      "cz": "Měla by být zavedena evropská minimální mzda v závislosti na průměrném platu v členském státu."
     },
-    "terminology": [
-      7
-    ]
+    "terminology": []
   },
   {
     "id": 14,
     "category": {
-      "de": "Gemeinsame Werte",
-      "en": "Common values"
+      "de": "Russland",
+      "en": "Russia",
+      "dk": "Rusland",
+      "si": "Rusija",
+      "cz": "Ruská federace"
     },
     "thesis": {
-      "de": "Die EU sollte auf globaler Ebene aktiver für ihre gemeinsamen Werte eintreten.",
-      "en": "The EU should act more actively on a global level in promoting its values."
+      "de": "Alle EU-Sanktionen gegen Russland sollten aufgehoben werden.",
+      "en": "All EU sanctions against Russia should be lifted.",
+      "dk": "Alle EU-sanktioner mod Rusland bør ophæves.",
+      "si": "Vse sankcije EU proti Rusiji bi morali odpraviti.",
+      "cz": "Všechny sankce EU vůči Rusku by měly být zrušeny."
     },
     "terminology": []
   },
   {
     "id": 15,
     "category": {
-      "de": "CO2-Steuer",
-      "en": "Tax on CO2 emissions"
+      "de": "Netzpolitik",
+      "en": "Net Policy",
+      "dk": "Internet",
+      "si": "Internet",
+      "cz": "Internetová politika"
     },
     "thesis": {
-      "de": "Auf europäischer Ebene sollte eine CO2-Steuer eingeführt werden die zur Finanzierung des EU-Haushaltes beiträgt.",
-      "en": "At European level, a CO2 tax should be introduced to help finance the EU budget."
+      "de": "Straftaten wie Mobbing, Falschinformation oder Verleumdung im Internet sollen EU-weit konsequent verfolgt werden.",
+      "en": "Criminal offences such as bullying, misinformation or defamation on the Internet should be consistently prosecuted throughout the EU.",
+      "dk": "Kriminelle aktiviteter som chikane, misinformation og injurier på internettet skal retsforfølges ensartet i hele EU.",
+      "si": "Kazniva dejanja kot so ustrahovanje, širjenje napačnih informacij ali obrekovanje na spletu bi morali dosledno preganjati po celotni EU.",
+      "cz": "Trestné činy, jako je šikana, dezinformace nebo pomluvy na internetu, by měly být v celé EU důsledně stíhány."
     },
-    "terminology": [
-      8,
-      9
-    ]
+    "terminology": []
   },
   {
     "id": 16,
     "category": {
-      "de": "Erneuerbare Energien",
-      "en": "Renewable energy"
+      "de": "Jugendarbeitslosigkeit",
+      "en": "Youth Unemployment",
+      "dk": "Ungdomsarbejdsløshed",
+      "si": "Brezposelnost mladih",
+      "cz": "Nezaměstnanost mladých"
     },
     "thesis": {
-      "de": "Es sollte auf europäischer Ebene ein eigenes Förderprogramm für regenerative Energien geben.",
-      "en": "A funding programme for renewable energy shoudl be introduced on European level"
+      "de": "Jugendarbeitslosigkeit sollte national bekämpft werden.",
+      "en": "Youth unemployment should be combated at national level.",
+      "dk": "Ungdomsarbejdsløshed skal primært bekæmpes på nationalt plan.",
+      "si": "Proti brezposelnosti mladih se je potrebno boriti na nacionalni ravni.",
+      "cz": "Proti nezaměstnanosti mladých lidí je třeba bojovat na vnitrostátní úrovni."
     },
     "terminology": []
   },
   {
     "id": 17,
     "category": {
-      "de": "Ausgabe des EU-Budgets",
-      "en": "Spending of EU-budget"
+      "de": "Mobilität",
+      "en": "Mobility",
+      "dk": "Mobilitet",
+      "si": "Mobilnost",
+      "cz": "Mobilita"
     },
     "thesis": {
-      "de": "Die EU sollte mehr Geld in Bildung und Zukunftstechnologien und weniger in Agrarförderung investieren.",
-      "en": "The EU should invest more money in education an new technologies and less in agricultural promotion. "
+      "de": "Durch Ausbau des öffentlichen Nah- und Fernverkehrs soll es jedem EU-Bürger möglich sein, auf ein eigenes Auto zu verzichten.",
+      "en": "By expanding public local and long-distance transport, every EU citizen should be able to renounce their own car.",
+      "dk": "Ved at udbygge offentlig transport skal alle EU-borgere have mulighed for at fravælge deres personbil.",
+      "si": "Z razširitvijo javnega lokalnega in medkrajevnega prevoza bi se moral biti vsak državljan EU zmožen odpovedati svojemu avtomobilu.",
+      "cz": "Rozšiřováním veřejné místní a dálkové dopravy by měl mít každý občan EU možnost vzdát se vlastnictví vozu."
     },
     "terminology": []
   },
   {
     "id": 18,
     "category": {
-      "de": "Mindestlöhne",
-      "en": "Minimum wage"
+      "de": "Unternehmensbesteuerung",
+      "en": "Taxation of Companies",
+      "dk": "Selskabsskat",
+      "si": "Obdavčitev podjetij",
+      "cz": "Zdanění společností"
     },
     "thesis": {
-      "de": "Es sollten europaweit angemessene Mindestlöhne eingeführt werden.",
-      "en": "Reasonable minimum wages should be introduced on a european level. "
+      "de": "Um Steuervermeidung zu bekämpfen, sollen EU-Mindeststeuersätze für Unternehmen eingeführt werden.",
+      "en": "To prevent tax avoidance, an EU minimum taxation for companies should be introduced.",
+      "dk": "For at undgå skatteunddragelse skal der indføres en minimumskat for virksomheder i EU.",
+      "si": "Da bi preprečili izogibanje davkom, je potrebno v EU uvesti minimalno obdavčitev za podjetja.",
+      "cz": "Aby se předešlo vyhýbání se daňovým povinnostem, mělo by být zavedeno minimální zdanění společností v EU."
     },
     "terminology": []
   },
   {
     "id": 19,
     "category": {
-      "de": "Unternehmenssteuern",
-      "en": "Business tax"
+      "de": "Rückführung",
+      "en": "Return Policy",
+      "dk": "Hjemsendelse",
+      "si": "Politika vračanja",
+      "cz": "Návratová politika"
     },
     "thesis": {
-      "de": "Es sollte europaweit einen einheitlichen Unternehmenssteuersatz geben und gegen Steuervermeidung durch international tätige Unternehmen sollte stärker vorgegangen werden.",
-      "en": "There should be a uniform corporate tax rate throughout Europe and stronger measures against tax evasion by international corporations should be taken."
+      "de": "Straffällig gewordene Asylbewerber und Menschen ohne anerkannten Aufenthaltsstatus sollen aus der EU ausgewiesen werden.",
+      "en": "Previously convicted asylum seekers and persons without a residence permit should be expelled from the EU.",
+      "dk": "Tidligere dømte asylansøgere og personer uden opholdstilladelse skal udvises af EU.",
+      "si": "Prosilce za azil, ki so bili predhodno obsojeni in osebe brez dovoljenja za prebivanje je potrebno izgnati iz EU.",
+      "cz": "Dříve odsouzení žadatelé o azyl a osoby bez povolení k pobytu by měli být vyhoštěni z EU."
     },
     "terminology": []
   },
   {
     "id": 20,
     "category": {
-      "de": "Freihandelsabkommen",
-      "en": "Free trade agreements"
+      "de": "Bargeld",
+      "en": "Money",
+      "dk": "Kontanter",
+      "si": "Denar",
+      "cz": "Peníze"
     },
     "thesis": {
-      "de": " Freihandelsabkommen sollten allein durch das Europäische Parlament ratifiziert werden.",
-      "en": "Free trade agreements should be ratified by the European parliament alone. "
+      "de": "Die EU sollte langfristig Bargeld abschaffen.",
+      "en": "The EU should abolish cash in the long-term.",
+      "dk": "EU skal på sigt afskaffe kontanter.",
+      "si": "EU bi morala na dolgi rok odpraviti gotovino.",
+      "cz": "EU by měla v budoucnosti zrušit hotovost."
     },
     "terminology": []
   },
   {
     "id": 21,
     "category": {
-      "de": "Handelspolitik",
-      "en": "Trade policy"
+      "de": "Direktwahl",
+      "en": "Direct Election",
+      "dk": "Direkte valg",
+      "si": "Neposredne volitve",
+      "cz": "Příma volba"
     },
     "thesis": {
-      "de": "Die EU soll zum Schutz vor unrechtmäßiger Konkurrenz einheimischer Produkte und Unternehmen verstärkt Zölle erheben.",
-      "en": "The EU should raise tariffs to protect domestic products and corporations from illegitimate competition."
+      "de": "Der/die PräsidentIn der Europäischen Kommission soll von den Bürgerinnen und Bürgern der Europäischen Union direkt gewählt werden.",
+      "en": "The President of the European Commission should be directly elected by the citizens of the European Union.",
+      "dk": "Formanden for Europa-Kommissionen skal vælges direkte af EU's borgere.",
+      "si": "Predsednika Evropske komisije bi morali neposredno izvoliti državljani Evropske unije.",
+      "cz": "Předseda Evropské komise by měl být přímo volen občany Evropské unie."
     },
     "terminology": []
   },
   {
     "id": 22,
     "category": {
-      "de": "Eurobonds",
-      "en": "Eurobonds"
+      "de": "Militärausgaben",
+      "en": "Military Spending",
+      "dk": "Forsvarsudgifter",
+      "si": "Izdatki za vojsko",
+      "cz": "Vojenské výdaje"
     },
     "thesis": {
-      "de": "Die Staaten der Eurozone sollten gemeinsam Kredite aufnehmen können für die sie gemeinsam haften (Eurobonds).",
-      "en": "The Eurozone countries should be able to jointly borrow loans for which they are jointly liable (Eurobonds)."
+      "de": "Die EU-Mitgliedsstaaten sollten ihre Militärausgaben stark erhöhen.",
+      "en": "EU member states should substantially increase their military spending.",
+      "dk": "EU's medlemslande bør øge forsvarsmidlerne betragteligt.",
+      "si": "Države članice EU bi morale znatno povečati svoje vojaške izdatke.",
+      "cz": "Členské státy EU by měly výrazně zvýšit své vojenské výdaje."
     },
     "terminology": []
   },
   {
     "id": 23,
     "category": {
-      "de": "Gundrechte",
-      "en": "Fundamental rights"
+      "de": "Arbeitslosenversicherung",
+      "en": "Unemployment Insurance",
+      "dk": "Arbejdsløshedsforsikring",
+      "si": "Zavarovanje za primer brezposelnosti",
+      "cz": "Pojištění pro případ nezaměstnanosti"
     },
     "thesis": {
-      "de": "Die Nichteinhaltung europäischer Rechtsstandards sollte durch Kürzung von Fördermitteln sanktioniert werden.",
-      "en": "The non-compliance of European legal standards should be sanctioned by a reduction in European funding. "
+      "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
+      "en": "There should be a common unemployment insurance for all member states within Europe.",
+      "dk": "Der bør være en fælles arbejdsløshedsforsikring for alle medlemslande i EU.",
+      "si": "Za vse države članice EU bi moralo obstajati skupno zavarovanje za primer brezposelnosti.",
+      "cz": "Mělo by existovat společné pojištění v nezaměstnanosti pro všechny členské státy v rámci Evropy."
     },
     "terminology": []
   },
   {
     "id": 24,
     "category": {
-      "de": "Arbeitslosenversicherung",
-      "en": "Unemployment insurance"
+      "de": "Freihandel",
+      "en": "Free Trade Agreements",
+      "dk": "Frihandelsaftaler",
+      "si": "Prostotrgovinski sporazumi",
+      "cz": "Dohody o volném obchodu"
     },
     "thesis": {
-      "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
-      "en": "There should be a joint unemployment insurance scheme at European level."
+      "de": "Die EU sollte keine weiteren Freihandelsabkommen abschließen.",
+      "en": "The EU should not conclude further free trade agreements.",
+      "dk": "EU skal ikke indgå flere frihandelsaftaler.",
+      "si": "EU ne bi smela sklepati nadaljnjih prostotrgovinskih sporazumov.",
+      "cz": "EU by neměla uzavírat další dohody o volném obchodu."
     },
     "terminology": []
   },
   {
     "id": 25,
     "category": {
-      "de": "Schuldenmanagement",
-      "en": "Debt management"
+      "de": "Bürokratieabbau",
+      "en": "Reduction of Bureaucracy",
+      "dk": "Mindre bureaukrati",
+      "si": "Zmanjšanje birokracije",
+      "cz": "Snížení byrokracie"
     },
     "thesis": {
-      "de": "Auf europäischer Ebene sollte der Fokus auf Investitionen anstatt auf Schuldenabbau liegen.",
-      "en": "At European level, the focus should be on investment instead of debt reduction."
+      "de": "Der Standort des Europäischen Parlaments in Strasburg sollte abgeschafft werden (Brüssel bleibt als einziger Standort erhalten).",
+      "en": "The site of the European Parliament in Strasbourg should be abolished (Brussels remains as the only site).",
+      "dk": "Europa-Parlamentets aktiviteter i Strasbourg skal nedlægges, så det alene har sæde i Bruxelles.",
+      "si": "Sedež Evropskega parlamenta v Strasbourgu bi morali ukiniti (Bruselj ostane kot edini sedež).",
+      "cz": "Sídlo Evropského parlamentu ve Štrasburku by mělo být zrušeno (Brusel by se stal jediným sídlem)."
     },
     "terminology": []
   },
   {
     "id": 26,
     "category": {
-      "de": "Elektromobilität",
-      "en": "E-mobility"
+      "de": "Ländliche Regionen",
+      "en": "Rural Regions",
+      "dk": "Fjernområder/landområder",
+      "si": "Podeželje",
+      "cz": "Obsluha venkova"
     },
     "thesis": {
-      "de": "Die EU sollte verstärkt in Elektromobilität und ein engmaschiges Netz an Ladestationen in ganz Europa investieren.",
-      "en": "The EU should invest more in electromobility and a dense network of charging stations across Europe."
+      "de": "Verkehr und öffentliche Versorgung sollen schwerpunktmäßig in ländlichen Regionen gefördert werden.",
+      "en": "Transport and public services are to be promoted primarily in rural regions.",
+      "dk": "Transport og offentlige services skal prioriteres højest til landområder.",
+      "si": "Promet in javne storitve je potrebno spodbujati predvsem na podeželskih območjih.",
+      "cz": "Dopravní a veřejné služby mají být podporovány především ve venkovských regionech."
     },
     "terminology": []
   },
   {
     "id": 27,
     "category": {
-      "de": "Europäischer Feiertag",
-      "en": "European Holiday"
+      "de": "Grenzkontrollen",
+      "en": "Border Control",
+      "dk": "Grænsekontrol",
+      "si": "Nadzor meja",
+      "cz": "Kontrola hranic"
     },
     "thesis": {
-      "de": "Es sollte einen gesamteuropäischen Feiertag zur Einheit Europas geben.",
-      "en": "There should be an all-European holiday celebrating the unity of Europe."
+      "de": "Grenzkontrollen im Schengen-Raum sollten immer möglich sein.",
+      "en": "Border controls should always be possible in the Schengen area.",
+      "dk": "Grænsekontrol bør altid være muligt inden for Schengen-området.",
+      "si": "Nadzor meja znotraj schengenskega območja bi moral biti vedno mogoč.",
+      "cz": "Hraniční kontroly by měly být vždy možné v rámci schengenského prostoru."
     },
     "terminology": []
   },
   {
     "id": 28,
     "category": {
-      "de": "Kostenloses Interrail",
-      "en": "Free Interrail"
+      "de": "Sozialleistungen",
+      "en": "Social Welfare Benefits",
+      "dk": "Velfærdsydelser",
+      "si": "Socialno varstvo",
+      "cz": "Sociální dávky"
     },
     "thesis": {
-      "de": "Zur interkulturellen Verständigung sollte die EU allen 18-jährigen EuropäerInnen eine Interrailkarte finanzieren.",
-      "en": "For intercultural understanding, the EU should finance an Interrail ticket for all 18-year-old Europeans."
+      "de": "EU-Bürger sollen Sozialleistungen hauptsächlich von ihrem Heimatland empfangen.",
+      "en": "EU-citizens should receive social welfare benefits primarily from their home countries.",
+      "dk": "EU-borgere skal primært modtage sociale ydelser fra deres hjemlande.",
+      "si": "Državljani EU bi morali socialno pomoč prejemati primarno s strani svoje matične države.",
+      "cz": "Občané EU by měli dostávat sociální dávky především ze svých domovských zemí."
     },
     "terminology": []
   },
   {
     "id": 29,
     "category": {
-      "de": "Arbeitslosenhilfe",
-      "en": "Unemployment assistance"
+      "de": "Vetorecht in der Außenpolitik",
+      "en": "Veto Right in Foreign Policy",
+      "dk": "Vetoret",
+      "si": "Pravica do veta v zunanji politiki",
+      "cz": "Veto v zahraniční politice"
     },
     "thesis": {
-      "de": "Arbeitslose EU-Bürger sollten eine EU-finanzierte Starthilfe bekommen, wenn sie in einem anderen Land einen Job suchen bzw. annehmen wollen.",
-      "en": "Unemployed EU citizens should receive an EU-funded aid if they are seeking or applying for a job in another country."
+      "de": "Ein einzelner Mitgliedsstaat sollte in Zukunft keine Mehrheitsentscheidung in der europäischen Außenpolitik blockieren können.",
+      "en": "In future, a single member state should not be able to block majority decisions in European foreign policy.",
+      "dk": "Fremover skal et enkelt medlemsland ikke have ret til at blokere en udenrigspolitisk beslutning i EU.",
+      "si": "V prihodnosti posamezna država članica ne bi smela imeti možnosti, da blokira odločitev večine v evropski zunanji politiki.",
+      "cz": "V budoucnu by jeden členský stát neměl být schopen blokovat většinová rozhodnutí v evropské zahraniční politice."
+    },
+    "terminology": []
+  },
+  {
+    "id": 30,
+    "category": {
+      "de": "Lebensmittel/Verbraucherschutz",
+      "en": "Food/Consumer Protection",
+      "dk": "Fødevare- og forbrugersikkerhed",
+      "si": "Hrana/varstvo potrošnikov",
+      "cz": "Ochrana spotřebitele"
+    },
+    "thesis": {
+      "de": "Es sollte eine EU-weite Ampelkennzeichnung von Zucker-, Fett- und Kaloriengehalt für Lebensmittel eingeführt werden.",
+      "en": "EU-wide colour-coded labelling of sugar, fat and calorie content for food should be introduced.",
+      "dk": "Der skal indføres en farvekodet mærkning af sukker-, fedt- og kalorieindhold i fødevarer i hele EU.",
+      "si": "Po celotni EU bi morali uvesti barvno kodiranje za označevanje vsebnosti sladkorja, maščob in kalorij v živilih.",
+      "cz": "Mělo by být zavedeno celoevropské označování cukru, tuku a kalorií v potravinách."
+    },
+    "terminology": []
+  },
+  {
+    "id": 31,
+    "category": {
+      "de": "Finanzmärkte (Finanztransaktionssteuer)",
+      "en": "Financial Markets (Financial Transaction Tax)",
+      "dk": "Finansskat",
+      "si": "Finančni trgi (davek na finančne transakcije)",
+      "cz": "Finanční trhy (Daň z finančních transakcí)"
+    },
+    "thesis": {
+      "de": "Die EU sollte Finanzmärkte besteuern.",
+      "en": "The EU should tax financial markets.",
+      "dk": "EU skal indføre en skat på finansielle transaktioner.",
+      "si": "Evropska unija bi morala obdavčiti finančne trge.",
+      "cz": "EU by měla zdanit finanční trhy."
+    },
+    "terminology": []
+  },
+  {
+    "id": 32,
+    "category": {
+      "de": "EU Mitgliedschaft",
+      "en": "EU Membership",
+      "dk": "EU-medlemskab",
+      "si": "Članstvo v EU",
+      "cz": "Členství v EU"
+    },
+    "thesis": {
+      "de": "Es sollte in meinem Land ein Referendum über die EU-Mitgliedschaft meines Landes geben.",
+      "en": "My country should have a referendum on its EU membership.",
+      "dk": "Mit land skal holde en afstemning om EU-medlemskabet.",
+      "si": "Slovenija bi morala imeti referendum o članstvu v Evropski uniji.",
+      "cz": "Moje země by měla mít referendum o členství v EU."
     },
     "terminology": []
   }
