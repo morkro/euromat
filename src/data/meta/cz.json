@@ -2,23 +2,23 @@
   "language": "cz",
   "title": "[CZ] Settings",
   "topMenu": {
-    "index": "Landing page",
+    "index": "Úvodní stránka",
     "faq": "FAQ",
-    "about": "About us",
-    "contact": "Contact"
+    "about": "O nás",
+    "contact": "Kontakt"
   },
   "footerMenu": {
-    "imprint": "Imprint",
+    "imprint": "Zákonné ustanovení",
     "privacy": "Data privacy"
   },
   "socialMedia": {
-    "twitter": "Great! German election is star-spangled. Curious what parties say about EU? Compare views & see your match:",
-    "facebook": "Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!",
+    "twitter": "The #EP19 elections are coming up! Compare views & see your match with the #EUROMAT:",
+    "facebook": "The #EP19 elections are coming up! What are European Parties advocating for? With the #EUROMAT you can compare views & see your match:",
     "clipboard": "Copied to clipboard"
   },
   "cookieConsent": {
-    "text": "This website uses cookies to ensure you get the best experience on our website.",
-    "btnDecline": "Decline",
-    "btnAccept": "Accept"
+    "text": "Tento web používá cookies, aby vám zajistil co nejlepší zážitek na našich webových stránkách.",
+    "btnDecline": "Odmítnout",
+    "btnAccept": "Přijmout"
   }
 }
