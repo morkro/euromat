@@ -1,9 +1,9 @@
 {
   "language": "si",
-  "url": "emphasis",
-  "title": "Emphasis",
-  "headline": "Which topics are important for you?",
-  "content": "Mark the statements which should count double.",
-  "skip": "Skip emphasis",
-  "button": "Continue"
+  "url": "poudarek",
+  "title": "Poudarek",
+  "headline": "Katere trditve so za vas pomembne?",
+  "content": "Označite trditve, za katere želite, da štejejo dvojno.",
+  "skip": "Preskočite poudarek",
+  "button": "Nadaljevati"
 }
