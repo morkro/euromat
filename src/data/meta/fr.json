@@ -2,23 +2,23 @@
   "language": "fr",
   "title": "[FR] Settings",
   "topMenu": {
-    "index": "Landing page",
+    "index": "Page d'accueil",
     "faq": "FAQ",
-    "about": "About us",
+    "about": "Qui sommes-nous",
     "contact": "Contact"
   },
   "footerMenu": {
-    "imprint": "Imprint",
+    "imprint": "Mentions légales",
     "privacy": "Data privacy"
   },
   "socialMedia": {
-    "twitter": "Great! German election is star-spangled. Curious what parties say about EU? Compare views & see your match:",
-    "facebook": "Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!",
+    "twitter": "Les élections européennes #EP19 approchent! Compare tes opinions aux positions des partis européens avec #EUROMAT",
+    "facebook": "Les élections européennes #EP19 approchent! Compare tes opinions aux positions des partis européens avec #EUROMAT",
     "clipboard": "Copied to clipboard"
   },
   "cookieConsent": {
-    "text": "This website uses cookies to ensure you get the best experience on our website.",
-    "btnDecline": "Decline",
-    "btnAccept": "Accept"
+    "text": "Ce site utilise des cookies pour vous offrir une meilleure expérience",
+    "btnDecline": "Non merci",
+    "btnAccept": "D'accord"
   }
 }
