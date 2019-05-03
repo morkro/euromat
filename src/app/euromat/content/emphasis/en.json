@@ -1,9 +1,9 @@
 {
-  "language": "en",
-  "url": "emphasis",
-  "title": "Emphasis",
-  "headline": "Which topics are important for you?",
-  "content": "Mark the statements which should count double.",
-  "skip": "Skip emphasis",
-  "button": "Continue"
+  "language": "fr",
+  "url": "ponderation",
+  "title": "Pondération",
+  "headline": "Quels sujets sont importants pour vous?",
+  "content": "Indiquez les sujets qui compteront double",
+  "skip": "Passer la pondération",
+  "button": "Continuer"
 }
