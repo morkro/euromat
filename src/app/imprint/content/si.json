@@ -1,36 +1,36 @@
 {
   "language": "si",
-  "url": "legal-notice",
-  "title": "Legal Notice",
-  "headline": "Legal notice",
+  "url": "pravni-poduk",
+  "title": "Pravni Poduk",
+  "headline": "Pravni poduk",
   "polis180": {
-    "addressLabel": "Address",
-    "register": "Register court: Amtsgericht\nCharlottenburg Registernummer: VR 34523",
-    "phoneLabel": "Phone",
-    "represented": "Board: \\\nSonja Schiffers, Co-President, Susanne Zels, Co-President, Christoph Abels, Treasurer",
-    "representedLabel": "Represented by:",
+    "addressLabel": "Naslov",
+    "register": "Sodišče: Amtsgericht\nCharlottenburg Registrsko številko: VR 34523",
+    "phoneLabel": "Telefon",
+    "represented": "Krovu:\\\nSonja Schiffers, Sopredsednik, Susanne Zels, Sopredsednik, Christoph Abels, Zakladnik",
+    "representedLabel": "Predstavlja:",
     "phone": "+49 (0)176 301 912 30",
-    "registerLabel": "Entry in the register of associations:",
+    "registerLabel": "Vpis v register združenj:",
     "address": "Polis180 e.V.\nFriedrichsstraße 180\n10117 Berlin",
-    "emailLabel": "Email",
+    "emailLabel": "E-naslov",
     "email": "info@polis180.org"
   },
   "poe": {
-    "addressLabel": "Adress",
-    "register": "Entry in the register of associations.\nRegister court: Frankfurt am Main\nRegisternummer:  VR 16000",
-    "phoneLabel": "Phone",
-    "represented": "The public charity is represented by the Managing Board, which in turn is represented by the Chair Dr. Daniel Röder.",
-    "representedLabel": "Represented by:",
+    "addressLabel": "Naslov",
+    "register": "Vpis v register združenj.\nRegister sodišče: Frankfurt am Main\nRegistrsko številko:  VR 16000",
+    "phoneLabel": "Telefon",
+    "represented": "Javno dobrodelnost zastopa upravni odbor, ki ga zastopa predsednik Dr. Daniel Röder.",
+    "representedLabel": "Predstavlja:",
     "phone": "+49 (0)157 721 209 88",
-    "registerLabel": "Register entry:",
+    "registerLabel": "Vnos v register:",
     "address": "Pulse of Europe e. V.\nWolfsgangstraße 63\n60322 Frankfurt\nDeutschland",
-    "emailLabel": "Email",
+    "emailLabel": "E-naslov",
     "email": "info@pulseofeurope.eu"
   },
   "responsible": {
-    "headline": "Responsible for website content (according to § 55 Abs. 2 RStV)",
-    "text": "Susanne Zels for Polis180\n\nPeter Funk for Pulse of Europe",
-    "mail": "Contact"
+    "headline": "Odgovoren za vsebino spletne strani (v skladu s členom 55 Abs. 2 RStV):",
+    "text": "Susanne Zels za Polis180\n\nPeter Funk za Pulse of Europe",
+    "mail": "Kontakt"
   },
   "content": [
     {
