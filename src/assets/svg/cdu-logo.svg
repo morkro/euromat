@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="750px" height="230px">
+	<rect x="0" y="0" width="750px" height="230px" style="fill:white; stroke:none; opacity:0;"/>
+	<!-- C -->
+	<path d="M 218,64 l 8,-49 c -285,-70 -295,263 -25,196 l 7,-49 c -200,44 -149,-153 10,-98 z" style="fill:#ba261d; stroke:none;"/>
+	<!-- D -->
+	<path d="M 259,10 l -32,207 h 144 c 114,0 155,-207 12,-207 z M 321,55 h 44 c 61,0 42,117 -14,117 h -47 z" style="fill:#ba261d; stroke:none;"/>
+	<!-- U -->
+	<path d="M 511,10 h 73 l -18,117 c -9,52 73,69 86,-1 l 17,-116 h 71 l -19,124 c -25,127 -250,109 -226,-10 z" style="fill:#ba261d; stroke:none;"/>
+</svg>

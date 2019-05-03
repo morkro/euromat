@@ -65,6 +65,7 @@ const configTree = {
         stringField('headline', 'Headline for results'),
         stringField('entry', 'Description under headline'),
         stringField('hint', 'A short hint for users to know they can click the parties'),
+        stringField('nationalParty', 'Text before national party logo'),
         stringField('thanks', 'Final words'),
         stringField('startoverBtn', '[Label] Button to start over'),
         stringField('indexBtn', '[Label] Button to go back to index')

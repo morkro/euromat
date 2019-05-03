@@ -153,6 +153,9 @@ collections:
       - label: A short hint for users to know they can click the parties
         name: hint
         widget: string
+      - label: Text before national party logo
+        name: nationalParty
+        widget: string
       - label: Final words
         name: thanks
         widget: string

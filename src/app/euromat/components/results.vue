@@ -35,6 +35,30 @@
             :max="totalScoredPoints"
           />
         </router-link>
+
+        <div v-if="party.nationalParty" class="party-results-national">
+          <feather-corner-down-right />
+          <span>
+            {{ $t('results.nationalParty') }}:
+            <a
+              class="party-results-national-logo"
+              :href="party.nationalParty.program"
+              target="_blank"
+              rel="noopener"
+            >
+              <div v-if="hasPartyLogo(party.nationalParty.token)">
+                <img
+                  :src="getPartyLogo(party.nationalParty.token)"
+                  :alt="party.nationalParty.name"
+                  :title="party.nationalParty.name"
+                  width="40"
+                  height="40"
+                >
+              </div>
+              <span v-else>{{ party.nationalParty.token }}</span>
+            </a>
+          </span>
+        </div>
       </li>
     </ul>
 
@@ -59,7 +83,7 @@
 </template>
 
 <script>
-  import { getTranslatedUrl } from '@/i18n/helper'
+  import { getCurrentLocale, getTranslatedUrl } from '@/i18n/helper'
   import {
     MAX_POINTS,
     BASE_POINTS,
@@ -78,7 +102,9 @@
       'feather-zoom-in': () =>
         import('vue-feather-icons/icons/ZoomInIcon' /* webpackChunkName: "icons" */),
       'feather-rotate-cw': () =>
-        import('vue-feather-icons/icons/RotateCwIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/RotateCwIcon' /* webpackChunkName: "icons" */),
+      'feather-corner-down-right': () =>
+        import('vue-feather-icons/icons/CornerDownRightIcon' /* webpackChunkName: "icons" */)
     },
 
     data () {
@@ -119,6 +145,7 @@
 
       this.scoringGrid = getScoringGrid(this.answers, this.emphasized)
       this.scores = this.getScorePoints(this.scoringGrid)
+      console.log(this.parties)
       this.parties = this.parties
         .map(this.getScorePerParty)
         .sort((a, b) => a.score - b.score)
@@ -197,7 +224,11 @@
           const user = row.positions[row.positions.length - 1]
           const scores = partiesFromRow.map(party => this.evalPoints(party, user, row.emphasis))
           const highestScore = this.getHighestScore(scores)
-          return { thesis: row.thesis, highestScore, scores }
+          return {
+            thesis: row.thesis,
+            highestScore,
+            scores
+          }
         })
       },
       getScorePerParty (party) {
@@ -205,7 +236,8 @@
           token: party.token,
           score: this.scores
             .map(t => t.scores.find(s => s.party === party.id).score)
-            .reduce(addUp, 0)
+            .reduce(addUp, 0),
+          nationalParty: party['national_parties'][getCurrentLocale()]
         }
       }
     }
@@ -216,6 +248,8 @@
   @import "~@/styles/animations";
   @import "~@/styles/colors";
   @import "~@/styles/layout";
+
+  $result-bar-length: 92%;
 
   section {
     width: 95%;
@@ -275,9 +309,9 @@
       }
     }
 
-    a {
+    a:not(.party-results-national-logo) {
       height: 80px;
-      width: 92%;
+      width: $result-bar-length;
       position: relative;
       display: flex;
       justify-content: space-between;
@@ -319,6 +353,50 @@
       position: absolute;
       top: 0;
       left: 0;
+    }
+  }
+
+  .party-results-national {
+    width: $result-bar-length;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: calc(#{$small-gap} / 2);
+    padding-left: $small-gap;
+
+    svg {
+      margin-right: calc(#{$small-gap} / 2);
+    }
+
+    > span {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .party-results-national-logo {
+      display: inline-block;
+      font-weight: 700;
+      margin-left: calc(#{$small-gap} / 2);
+
+      > div {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+        background: $background-secondary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        object-fit: contain;
+        width: 80%;
+      }
+    }
+
+    @media (max-width: 650px) {
+      width: 100%;
     }
   }
 

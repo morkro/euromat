@@ -36,13 +36,16 @@ function createPartyPositionMap (sheetName) {
 
 function createNationalPartyMap (token, nationalParties) {
   const parties = nationalParties.filter(np => normalisePartyToken(np['European Party']) === token)
-  const partyMap = data => ({ token: normalisePartyToken(data.Token), name: data.Name })
+  const partyMap = data => ({
+    token: normalisePartyToken(data.Token),
+    name: data.Name,
+    program: data.Program
+  })
+
   return parties.reduce((acc, cur) => {
     const countryCode = cur['Country Code'].toLowerCase()
     if (!acc.hasOwnProperty(countryCode)) {
-      acc[countryCode] = [partyMap(cur)]
-    } else {
-      acc[countryCode].push(partyMap(cur))
+      acc[countryCode] = partyMap(cur)
     }
     return acc
   }, {})
