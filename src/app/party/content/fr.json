@@ -1,11 +1,11 @@
 {
-  "language": "fr",
-  "url": "party",
-  "title": "Party",
-  "subtitle": "To party program",
-  "backButtonLabel": "Back to results",
-  "legendLabel": "Legend",
   "partyAnswer": "Party statement",
+  "legendLabel": "Legend",
+  "url": "strana",
   "tableHeading": "Theses",
-  "tableUser": "Your choice"
+  "subtitle": "To party program",
+  "title": "Strana",
+  "language": "cz",
+  "tableUser": "Your choice",
+  "backButtonLabel": "Back to results"
 }
