@@ -1,11 +1,11 @@
 {
-  "partyAnswer": "Party statement",
-  "legendLabel": "Legend",
-  "url": "party",
-  "tableHeading": "Theses",
-  "subtitle": "To party program",
-  "title": "Party",
-  "language": "en",
-  "tableUser": "Your choice",
-  "backButtonLabel": "Back to results"
+  "partyAnswer": "prohlášení strany",
+  "legendLabel": "Legenda",
+  "url": "strana",
+  "tableHeading": "tvrzení",
+  "subtitle": "Programu strany",
+  "title": "Strana",
+  "language": "cz",
+  "tableUser": "tvoje volba",
+  "backButtonLabel": "zpět k výsledkům"
 }

@@ -1,12 +1,12 @@
 {
   "startoverBtn": "Start over",
   "hint": "Oh, by the way: Clicking on each party will get you to an overview of all individual statements. Take a look at what the parties answered and how your choice compares.",
-  "thanks": "Thanks for using the EUROMAT. We hope you enjoyed it and don't forget: 23-26th of May are election days!",
+  "thanks": "Thanks for using the EUROMAT. We hope you enjoyed it and don't forget: 23rd of May is election day in Great-Britain, 24th in Ireland!",
   "indexBtn": "Back to landing page",
-  "url": "resultat",
+  "url": "results",
   "entry": "Great, you made it! Curious about your result? We won't keep you any longer, here it is:",
-  "nationalParty": "Parti membre dans votre pays: ",
-  "headline": "Vos résultats",
-  "title": "Résultat",
-  "language": "fr"
+  "nationalParty": "Member party in your country:",
+  "headline": "Your results",
+  "title": "Results",
+  "language": "en"
 }

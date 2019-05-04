@@ -1,10 +1,10 @@
 {
-  "language": "en",
-  "url": "theses",
-  "title": "Theses",
-  "backBtn": "Back",
-  "positive": "I agree",
-  "neutral": "neutral",
-  "negative": "I disagree",
-  "skipped": "Skip thesis"
+  "language": "cz",
+  "url": "tvrzení",
+  "title": "Tvrzení",
+  "backBtn": "Zpět",
+  "positive": "Souhlasím",
+  "neutral": "Nemám názor",
+  "negative": "Nesouhlasím",
+  "skipped": "Přeskočit"
 }

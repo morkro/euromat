@@ -1,8 +1,8 @@
 {
-  "language": "en",
-  "url": "about-us",
-  "title": "About us",
-  "headline": "Who's behind the EUROMAT?",
-  "content": "As a digital tool the EUROMAT is not a machine, it needs a dedicated team working on the questions, collecting the parties‘ comments and finally working the technical magic.  Since September 2018, a team of volunteers has been working on the development of the EUROMAT. We are members of Polis180, a grassroots think tank based in Berlin, and of Pulse of Europe e.V.",
+  "language": "cz",
+  "url": "o_nás",
+  "title": "O nás",
+  "headline": "Kdo stojí za EUROMATem?",
+  "content": "Jako digitální nástroj má za sebou EUROMAT velké množství počítačové výpočetní síly. Jeho DNA je však stále tvořena hlavně Jedničkami a Nulami.  Pro správnou skladbu však potřebuje specializovaný tým lidí, který pracuje na otázkách, sbírá komentáře stran a nakonec je posílá na webovou platformu.  Od září 2018 pracuje na vývoji EUROMATu tým dobrovolníků. Jsme členy Polis180, think-tanku sídlícího v Berlíně a Pulse of Europe e.V.",
   "devDesign": "Development and design"
 }
