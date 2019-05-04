@@ -145,7 +145,6 @@
 
       this.scoringGrid = getScoringGrid(this.answers, this.emphasized)
       this.scores = this.getScorePoints(this.scoringGrid)
-      console.log(this.parties)
       this.parties = this.parties
         .map(this.getScorePerParty)
         .sort((a, b) => a.score - b.score)
@@ -380,11 +379,8 @@
 
       > div {
         width: 50px;
-        height: 50px;
-        overflow: hidden;
-        border-radius: 50%;
-        background: $background-secondary;
-        display: flex;
+        height: auto;
+        display: inline-flex;
         justify-content: center;
         align-items: center;
       }
