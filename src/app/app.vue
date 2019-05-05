@@ -262,7 +262,7 @@
     position: relative;
     z-index: 2;
 
-    @media (max-width: 650px) {
+    @media (max-width: 730px) {
       flex-direction: column;
       justify-content: center;
       align-items: center;
