@@ -153,6 +153,34 @@ const configTree = {
     }),
     category({
       meta: {
+        name: 'partner',
+        label: '[Page] Partner',
+        description: 'The partner page.',
+        folder: 'src/app/partner/content'
+      },
+      fields: [
+        pageUrl(),
+        siteName(),
+        stringField('headline', 'Headline'),
+        markdownField('content', 'Content'),
+        listField('partners', 'Partner', {
+          list: [
+            stringField('name', 'Name of partner'),
+            stringField('url', 'Link to partner'),
+            markdownField('description', 'Description')
+          ]
+        }),
+        listField('communcations', 'Communcations Partner', {
+          list: [
+            stringField('name', 'Name of partner'),
+            stringField('url', 'Link to partner'),
+            markdownField('description', 'Description')
+          ]
+        })
+      ]
+    }),
+    category({
+      meta: {
         name: 'privacy',
         label: '[Page] Data Privacy',
         description: 'The data privacy page.',
@@ -254,6 +282,7 @@ const configTree = {
             stringField('index', '[Label] Introduction'),
             stringField('faq', '[Label] FAQ'),
             stringField('about', '[Label] About us'),
+            stringField('partner', '[Label] Partner'),
             stringField('contact', '[Label] Contact')
           ]
         }),
