@@ -6,6 +6,20 @@ A Vue.js powered, progressive web voting application for upcoming European elect
 
 The calculation model for voting has been defined by the German Federal Agency for Civic Education _(Bundeszentrale für politische Bildung)_. A good overview can be found in this PDF: [`resources/Rechenmodell des Wahl-O-Mat.pdf`](resources/Rechenmodell%20des%20Wahl-O-Mat.pdf).
 
+## Embedding Euromat
+
+It's possible to embed Euromat via an iframe and setting query parameters:
+
+```html
+<iframe
+  id="euromat-2019"
+  title="Euromat 2019"
+  width="500"
+  height="300"
+  src="https://euromat.info/de/theses?embedded=iframe">
+</iframe>
+```
+
 ## ⌨️ Development
 
 This is a Vue.js progressive web application, developed with [`@vue/cli`](https://github.com/vuejs/vue-cli).

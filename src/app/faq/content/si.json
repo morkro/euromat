@@ -1,0 +1,28 @@
+{
+  "language": "si",
+  "url": "pogosto-zastavljena-vprasanja",
+  "title": "Pogosto Zastavljena Vprašanja",
+  "headline": "Pogosto Zastavljena Vprašanja",
+  "questions": [
+    {
+      "title": "Kaj je EUROMAT?",
+      "answer": "EUROMAT je interaktivno digitalno orodje, ki vam ponuja informacije o stališčih evropskih strank glede nekaterih političnih izjav.\n\nEUROMAT predstavlja 33 trditev o različnih javnopolitičnih področjih EU – kot so migracije in varnost – s katerimi se lahko strinjate, ne strinjate ali pa ste nevtralni. Program nato primerja vaše odgovore s stališči evropskih političnih strank, rezultat pa vam pokaže delež ujemanja s posamezno stranko. Kot dodatek vam program nudi pregled vaših nacionalnih strank in njihove povezanosti z evropskimi strankami.\n\nPo zaključenem EUROMAT-u boste prejeli pregled povezav vaših nacionalnih strank z evropskimi."
+    },
+    {
+      "title": "Kako deluje EUROMAT?",
+      "answer": "Računalniški model EUROMAT sledi kalkulacijskemu programu 'Bundeszentrale für politische Bildung' (Nemška zvezna agencija za državljansko vzgojo). Program je javno dostopen pod licenco: Creative Commons BY-NC-ND 3.0."
+    },
+    {
+      "title": "Kako je bil EUROMAT razvit? ",
+      "answer": "Najprej smo v sklopu več delavnic razvili trditve. Naša cilja sta bila:\r\n\n1. pokriti čim več relevantnih tem za evropsko družbo,\r\n2. pokriti širok spekter različnih političnih stališč.\r\n\n\rV drugem koraku so partnerji iz drugih držav analizirali trditve in njihovo relevantnost za določeno državo, ter na podlagi analize podali povratne informacije. Na podlagi slednjih smo dokončali seznam trditev. Zatem smo vseh 49 trditev poslali na 21 političnih strank v Evropskem parlamentu. Prosili smo jih, naj se opredelijo ali se s trditvijo strinjajo, ne strinjajo, ali pa so nevtralni. Stranke so imele tudi možnost podatki kratko razlago za vsakega izmed odgovorov.\r\n\n\rOdgovore evropskih strank smo analizirali in v EUROMAT vključili 33 vprašanj. Izbira končnega seznama vprašanj je bila odvisna od razlikovanja odgovorov nanje s strani evropskih strank. Odgovore so nato naši partnerji prevedli z namenom razširjanja EUROMAT-a v čim več držav."
+    },
+    {
+      "title": "Zakaj evropske stranke?",
+      "answer": "Ali ste vedeli? Čeprav imamo volivci na glasovnicah naše nacionalne stranke, pa so slednje del evropskih političnih strank. Na evropskem nivoju se nacionalne stranke povezujejo s strankami iz ostalih držav članic EU, s katerimi delijo podobne politične ideje in vizijo. Evropske stranke (na primer PES, EPP, ALDE ali Evropski zeleni) v Evropskem parlamentu predstavljajo politične skupine. Na koncu dneva slednje determinirajo odločevalske procese v Evropskem parlamentu."
+    },
+    {
+      "title": "Katere evropske stranke so bile vključene v EUROMAT?",
+      "answer": "Skupno smo kontaktirali 21 evropskih strank, od katerih smo prejeli stališča do tem: European People's Party (EPP), Party of European Socialists (PES), Alliance of Conservatives and Reformists in Europe (ACRE), European Christian Political Movement, Alliance of Liberals and Democrats for Europe (ALDE), European Democratic Party (EDP), Party of the European Left (PEL), Nordic Green Left Alliance (NGLA), European Green Party (EGP), European Free Alliance (EFA), Movement for a Europe of Nations and Freedom (MENF), VOLT, Alliance for Peace and Freedom (APF), Alliance for European National Movements (AENM), Initiative of Communist and Workers' Parties, DiEM25, European Federalist Party, European Pirate Party (PPEU), Euro Animal 7 (EA7), Liberal South East European Network (LIBSEEN), Europe Democracy Esperanto (EDE).\n\n12 strank se ni odzvalo na naš vprašalnik. Ker v 9 času nismo dobili formalnega odgovora, jih nismo mogli vključiti v nadaljnjo EUROMAT obravnavo"
+    }
+  ]
+}

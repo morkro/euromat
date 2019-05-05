@@ -47,7 +47,7 @@
 </template>
 
 <script>
-  import { setCurrentLocale } from '@/i18n/helper'
+  import { setCurrentLocale, getTranslatedUrl } from '@/i18n/helper'
   export default {
     name: 'AppMenu',
 
@@ -77,9 +77,23 @@
         this.languageMenuSelected = false
       },
       changeLanguage (locale) {
-        // console.log(this.$route)
-        // this.$router.replace(`/${locale}`)
+        const routeName = this.$route.name
+        let translatedUrl = null
+
         setCurrentLocale(locale)
+
+        // @FIXME: This is bit of a hack. Make it smarter.
+        if (routeName === 'intro') {
+          translatedUrl = '/' + locale
+        } else if (getTranslatedUrl(routeName)) {
+          if (['emphasis', 'results'].includes(routeName)) {
+            translatedUrl = getTranslatedUrl(routeName, getTranslatedUrl('theses', null, true))
+          } else {
+            translatedUrl = getTranslatedUrl(routeName)
+          }
+        }
+
+        this.$router.replace(translatedUrl)
         this.hideLanguageSelection()
       }
     }

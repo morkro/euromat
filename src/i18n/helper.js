@@ -18,11 +18,14 @@ export function getUserLanguage () {
     window.navigator.userLanguage ||
     DEFAULT_LOCALE
   )
-  return lang.split('-')[0]
+  return {
+    language: lang.split('-')[0],
+    country: lang.split('-')[1].toLowerCase()
+  }
 }
 
 export function getUserSupportedLanguage () {
-  const language = getUserLanguage()
+  const { language } = getUserLanguage()
   return isLangSupported(language)
     ? language
     : DEFAULT_LOCALE
@@ -53,7 +56,8 @@ export function getTranslatedAliases (data, section) {
 }
 
 export function getTranslatedUrl (section, prefixUrl, omitLocale = false) {
-  const url = i18n.messages[getCurrentLocale()][section].url
+  const messages = i18n.messages[getCurrentLocale()][section]
+  const url = messages.url
   const fullUrl = prefixUrl ? `${prefixUrl}/${url}` : url
   return omitLocale
     ? fullUrl

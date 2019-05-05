@@ -13,90 +13,66 @@
       }
     },
     "national_parties": {
-      "at": [
-        {
-          "token": "NEOS",
-          "name": "Neos"
-        }
-      ],
-      "be": [
-        {
-          "token": "MOR",
-          "name": "Mouvement Réformateur"
-        },
-        {
-          "token": "OVLD",
-          "name": "Open Vlaamse Liberalen en Democraten"
-        }
-      ],
-      "cz": [
-        {
-          "token": "ANO-2011",
-          "name": "Ano 2011"
-        }
-      ],
-      "dk": [
-        {
-          "token": "RV",
-          "name": "Radikale Venstre"
-        }
-      ],
-      "de": [
-        {
-          "token": "FDP",
-          "name": "Freie Demokratische Partei"
-        }
-      ],
-      "es": [
-        {
-          "token": "CIU",
-          "name": "Ciudadanos"
-        }
-      ],
-      "fr": [
-        {
-          "token": "MR",
-          "name": "Mouvement radical"
-        },
-        {
-          "token": "UDI",
-          "name": "Union des démocrates et indépendants"
-        }
-      ],
-      "ie": [
-        {
-          "token": "FF",
-          "name": "Fianna Fáil"
-        }
-      ],
-      "mt": [
-        {
-          "token": "PD",
-          "name": "Partit Demokratiku"
-        }
-      ],
-      "pl": [
-        {
-          "token": "NO",
-          "name": "Nowoczesna"
-        }
-      ],
-      "si": [
-        {
-          "token": "SAB",
-          "name": "Stranka Alenke Bratušek"
-        }
-      ],
-      "uk": [
-        {
-          "token": "APNI",
-          "name": "The Alliance Party of Northern Ireland"
-        },
-        {
-          "token": "LD",
-          "name": "Liberal Democrats"
-        }
-      ]
+      "at": {
+        "token": "NEOS",
+        "name": "Neos",
+        "program": "https://europa.neos.eu/_Resources/Persistent/e4e6d86c469f335a77d3435dbee6d4e8fa95fc42/NEOS%20EU-Programm%202019.pdf"
+      },
+      "be": {
+        "token": "MOR",
+        "name": "Mouvement Réformateur",
+        "program": "http://www.mr.be/wp-content/uploads/2019/04/MR-PROGRAMME-EUROPEEN-2019.pdf"
+      },
+      "cz": {
+        "token": "ANO-2011",
+        "name": "Ano 2011",
+        "program": "https://www.anobudelip.cz/file/edee/ke-stazeni/ano-cesko-ochranime.pdf"
+      },
+      "dk": {
+        "token": "RV",
+        "name": "Radikale Venstre",
+        "program": "https://valg.radikale.dk/"
+      },
+      "de": {
+        "token": "FDP",
+        "name": "Freie Demokratische Partei",
+        "program": "https://www.fdp.de/sites/default/files/uploads/2019/02/26/2019-01-27-bpt-europas-chancen-nutzen-das-programm-der-freien-demokraten-zur-europawahl-2019.pdf"
+      },
+      "es": {
+        "token": "CIU",
+        "name": "Ciudadanos",
+        "program": "https://www.ciudadanos-cs.org/"
+      },
+      "fr": {
+        "token": "MR",
+        "name": "Mouvement radical",
+        "program": "http://lemouvementradical.fr/"
+      },
+      "ie": {
+        "token": "FF",
+        "name": "Fianna Fáil",
+        "program": "https://www.fiannafail.ie/wp-content/uploads/2019/05/Fianna-Fa%CC%81il-european-election-manifesto-2019.pdf"
+      },
+      "mt": {
+        "token": "PD",
+        "name": "Partit Demokratiku",
+        "program": "http://pd.org.mt/mt/466-2/"
+      },
+      "pl": {
+        "token": "NO",
+        "name": "Nowoczesna",
+        "program": "https://nowoczesna.org/"
+      },
+      "si": {
+        "token": "SAB",
+        "name": "Stranka Alenke Bratušek",
+        "program": "http://www.alenkabratusek.si/"
+      },
+      "uk": {
+        "token": "APNI",
+        "name": "The Alliance Party of Northern Ireland",
+        "program": "https://allianceparty.org/"
+      }
     },
     "program": {
       "de": "https://www.aldeparty.eu/sites/alde/files/40-Resolutions/2019_freedom_opportunity_prosperity_the_liberal_vision_for_the_future_of_europe.pdf",
@@ -427,42 +403,36 @@
       }
     },
     "national_parties": {
-      "at": [
-        {
-          "token": "WANDEL",
-          "name": "Der Wandel"
-        }
-      ],
-      "de": [
-        {
-          "token": "DIEM25",
-          "name": "Demokratie in Europa"
-        }
-      ],
-      "dk": [
-        {
-          "token": "ALTERNATIVET",
-          "name": "Alternativet"
-        }
-      ],
-      "fr": [
-        {
-          "token": "GENERATION",
-          "name": "Generation s"
-        }
-      ],
-      "es": [
-        {
-          "token": "ACTÚA",
-          "name": "Actúa"
-        }
-      ],
-      "pl": [
-        {
-          "token": "RAZEM",
-          "name": "Partiarazem"
-        }
-      ]
+      "at": {
+        "token": "WANDEL",
+        "name": "Der Wandel",
+        "program": "https://www.derwandel.at/demokratische-moderne-pdf/#fb0=1"
+      },
+      "de": {
+        "token": "DIEM25",
+        "name": "Demokratie in Europa",
+        "program": "https://diem25.org/main-de/"
+      },
+      "dk": {
+        "token": "ALTERNATIVET",
+        "name": "Alternativet",
+        "program": "https://alternativet.dk/aktiv"
+      },
+      "fr": {
+        "token": "GENERATION",
+        "name": "Generation s",
+        "program": "https://www.generation-s.fr/"
+      },
+      "es": {
+        "token": "ACTÚA",
+        "name": "Actúa",
+        "program": "https://reaccionayactua.com/"
+      },
+      "pl": {
+        "token": "RAZEM",
+        "name": "Partiarazem",
+        "program": "http://partiarazem.pl/"
+      }
     },
     "program": {
       "de": "https://europeanspring.net/wp-content/uploads/2019/02/EuropeanSpring-Manifesto-2019.DE.pdf",
@@ -743,42 +713,26 @@
       }
     },
     "national_parties": {
-      "de": [
-        {
-          "token": "BÜNDNIS-C",
-          "name": "Bündnis C - Christen für Deutschland"
-        }
-      ],
-      "fr": [
-        {
-          "token": "PCD",
-          "name": "Le Parti Chrétien-Démocrate"
-        }
-      ],
-      "ie": [
-        {
-          "token": "CDD",
-          "name": "Comhaontas Dhínit an Duine"
-        }
-      ],
-      "mt": [
-        {
-          "token": "AB",
-          "name": "Alleanza Bidla"
-        }
-      ],
-      "pl": [
-        {
-          "token": "PR",
-          "name": "Prawica Rzeczypospolitej"
-        }
-      ],
-      "uk": [
-        {
-          "token": "CPA",
-          "name": "Christian Peoples Alliance"
-        }
-      ]
+      "de": {
+        "token": "BÜNDNIS-C",
+        "name": "Bündnis C - Christen für Deutschland",
+        "program": "https://buendnis-c.de/wp-content/uploads/2019/02/Europawahl-2019_Vollprogramm_Buendnis-C.pdf"
+      },
+      "mt": {
+        "token": "AB",
+        "name": "Alleanza Bidla",
+        "program": "http://www.alleanzabidla.com/wp-content/uploads/2019/02/platform2pdf1.pdf"
+      },
+      "pl": {
+        "token": "PR",
+        "name": "Prawica Rzeczypospolitej",
+        "program": "http://prawicarzeczypospolitej.org/"
+      },
+      "uk": {
+        "token": "CPA",
+        "name": "Christian Peoples Alliance",
+        "program": "https://cpaparty.net/"
+      }
     },
     "program": {
       "de": "https://ecpm.info/ECPM%20Summary%20Election%20Manifesto%202019.pdf",
@@ -1281,42 +1235,26 @@
       }
     },
     "national_parties": {
-      "cz": [
-        {
-          "token": "SEN21",
-          "name": "Senator 21"
-        }
-      ],
-      "de": [
-        {
-          "token": "FW",
-          "name": "Freie Wähler"
-        }
-      ],
-      "es": [
-        {
-          "token": "CEU",
-          "name": "Coalición por Europa "
-        }
-      ],
-      "fr": [
-        {
-          "token": "MODEM",
-          "name": "Mouvement Démocrate"
-        }
-      ],
-      "pl": [
-        {
-          "token": "SD",
-          "name": "Stronnictwo Demokratyczne"
-        }
-      ],
-      "si": [
-        {
-          "token": "DESUS",
-          "name": "Demokratična stranka upokojencev Slovenije"
-        }
-      ]
+      "de": {
+        "token": "FW",
+        "name": "Freie Wähler",
+        "program": "https://www.freiewaehler.eu/Unsere%20Politik/Europa/"
+      },
+      "es": {
+        "token": "CEUS",
+        "name": "Coalición por una Europa Solidaria",
+        "program": "https://www.google.com"
+      },
+      "fr": {
+        "token": "MODEM",
+        "name": "Mouvement Démocrate",
+        "program": "https://www.mouvementdemocrate.fr/"
+      },
+      "si": {
+        "token": "DESUS",
+        "name": "Demokratična stranka upokojencev Slovenije",
+        "program": "https://desus.si/"
+      }
     },
     "program": {
       "de": "http://www.democrats.eu/en/theme/a-democratic-europe",
@@ -1570,18 +1508,16 @@
       }
     },
     "national_parties": {
-      "de": [
-        {
-          "token": "BAYERN",
-          "name": "Bayernpartei"
-        }
-      ],
-      "es": [
-        {
-          "token": "AR",
-          "name": "Ahora Repúblicas "
-        }
-      ]
+      "de": {
+        "token": "BAYERN",
+        "name": "Bayernpartei",
+        "program": "https://bayernpartei.de/wp-content/uploads/2019/04/photo_2019-04-09_17-15-17.jpg"
+      },
+      "es": {
+        "token": "AR",
+        "name": "Ahora Repúblicas ",
+        "program": "https://www.google.com"
+      }
     },
     "program": {
       "de": "https://www.youdecidenow.eu/2019-manifesto-european-elections/",
@@ -1868,84 +1804,61 @@
       }
     },
     "national_parties": {
-      "at": [
-        {
-          "token": "DGA",
-          "name": "Die Grünen – Die Grüne Alternative"
-        }
-      ],
-      "be": [
-        {
-          "token": "GROEN",
-          "name": "Groen"
-        },
-        {
-          "token": "ECOLO",
-          "name": "Ecolo"
-        }
-      ],
-      "cz": [
-        {
-          "token": "SZ",
-          "name": "Strana Zelených"
-        }
-      ],
-      "de": [
-        {
-          "token": "DIE-GRÜNEN",
-          "name": "Bündnis 90/Die Grünen"
-        }
-      ],
-      "dk": [
-        {
-          "token": "SF",
-          "name": "Socialistisk Folkeparti"
-        }
-      ],
-      "es": [
-        {
-          "token": "EQUO",
-          "name": "EQUO"
-        },
-        {
-          "token": "ICV",
-          "name": "Iniciativa per Catalunya Verds"
-        }
-      ],
-      "fr": [
-        {
-          "token": "EELV",
-          "name": "Europe Écologie-Les Verts"
-        }
-      ],
-      "ie": [
-        {
-          "token": "GB",
-          "name": "Green Party"
-        }
-      ],
-      "mt": [
-        {
-          "token": "AD",
-          "name": "Alternattiva Demokratika"
-        }
-      ],
-      "si": [
-        {
-          "token": "SMS-ZELENI",
-          "name": "Stranka mladih – Zeleni Evrope"
-        }
-      ],
-      "uk": [
-        {
-          "token": "GPEW",
-          "name": "Green Party of England and Wales"
-        },
-        {
-          "token": "SGP",
-          "name": "Scottish Green Party"
-        }
-      ]
+      "at": {
+        "token": "DGA",
+        "name": "Die Grünen – Die Grüne Alternative",
+        "program": "https://www.gruene.at/europawahlprogramm"
+      },
+      "be": {
+        "token": "GROEN",
+        "name": "Groen",
+        "program": "https://www.groen.be/"
+      },
+      "cz": {
+        "token": "SZ",
+        "name": "Strana Zelených",
+        "program": "https://www.zeleni.cz/"
+      },
+      "de": {
+        "token": "DIE-GRÜNEN",
+        "name": "Bündnis 90/Die Grünen",
+        "program": "https://cms.gruene.de/uploads/documents/2019_Europawahl-Programm.pdf"
+      },
+      "dk": {
+        "token": "SF",
+        "name": "Socialistisk Folkeparti",
+        "program": "https://sf.dk/"
+      },
+      "es": {
+        "token": "EQUO",
+        "name": "EQUO",
+        "program": "http://partidoequo.es/"
+      },
+      "fr": {
+        "token": "EELV",
+        "name": "Europe Écologie-Les Verts",
+        "program": "https://eelv.fr/"
+      },
+      "ie": {
+        "token": "GB",
+        "name": "Green Party",
+        "program": "https://www.greenparty.ie/"
+      },
+      "mt": {
+        "token": "AD",
+        "name": "Alternattiva Demokratika",
+        "program": "http://www.alternattiva.org.mt/"
+      },
+      "si": {
+        "token": "SMS-ZELENI",
+        "name": "Stranka mladih – Zeleni Evrope",
+        "program": "http://www.sms.si/"
+      },
+      "uk": {
+        "token": "GPEW",
+        "name": "Green Party of England and Wales",
+        "program": "https://www.greenparty.org.uk/?q"
+      }
     },
     "program": {
       "de": "https://vote.europeangreens.eu/manifesto",
@@ -2231,70 +2144,41 @@
       }
     },
     "national_parties": {
-      "at": [
-        {
-          "token": "KPÖ",
-          "name": "Kommunistische Partei Österreichs"
-        }
-      ],
-      "be": [
-        {
-          "token": "DEMAIN",
-          "name": "Mouvement Demain "
-        },
-        {
-          "token": "LPC",
-          "name": "Le Parti Communiste"
-        }
-      ],
-      "cz": [
-        {
-          "token": "SDS",
-          "name": "Strana demokratického socialismu"
-        }
-      ],
-      "de": [
-        {
-          "token": "LINKE",
-          "name": "Die Linke"
-        }
-      ],
-      "dk": [
-        {
-          "token": "ENHEDSLISTEN",
-          "name": "Enhedslisten"
-        }
-      ],
-      "es": [
-        {
-          "token": "PCE",
-          "name": "Partido Comunista de España "
-        },
-        {
-          "token": "EUA",
-          "name": "Esquerra Unida i Alternativa"
-        },
-        {
-          "token": "IU",
-          "name": "Izquierda Unida"
-        }
-      ],
-      "si": [
-        {
-          "token": "LEVICA",
-          "name": "Levica"
-        }
-      ],
-      "uk": [
-        {
-          "token": "LU",
-          "name": "Left Unity"
-        },
-        {
-          "token": "DLS",
-          "name": "Democratic Left Scotland"
-        }
-      ]
+      "at": {
+        "token": "KPÖ",
+        "name": "Kommunistische Partei Österreichs",
+        "program": "https://www.kpoeplus.at/schwerpunkte/"
+      },
+      "cz": {
+        "token": "SDS",
+        "name": "Strana demokratického socialismu",
+        "program": "http://www.levice.org/"
+      },
+      "de": {
+        "token": "LINKE",
+        "name": "Die Linke",
+        "program": "https://www.die-linke.de/fileadmin/download/wahlen2019/wahlprogramm_pdf/Europawahlprogramm_2019_-_Partei_DIE_LINKE__Druckversion_.pdf"
+      },
+      "dk": {
+        "token": "ENHEDSLISTEN",
+        "name": "Enhedslisten",
+        "program": "https://enhedslisten.dk/"
+      },
+      "es": {
+        "token": "EUA",
+        "name": "Esquerra Unida i Alternativa",
+        "program": "https://www.semprealesquerra.cat/"
+      },
+      "si": {
+        "token": "LEVICA",
+        "name": "Levica",
+        "program": "http://www.levica.si/wp-content/uploads/2019/04/Za-Evropo-ljudi-ne-kapitala-program-za-evropske-volitve-2019.pdf"
+      },
+      "uk": {
+        "token": "LU",
+        "name": "Left Unity",
+        "program": "https://leftunity.org/"
+      }
     },
     "program": {
       "de": "https://www.european-left.org/wp-content/uploads/2018/11/Manifesto-European-Left_ENG.pdf",
@@ -2491,100 +2375,61 @@
       }
     },
     "national_parties": {
-      "de": [
-        {
-          "token": "CDU",
-          "name": "Christlich Demokratische Union"
-        },
-        {
-          "token": "CSU",
-          "name": "Christlich-Soziale Union in Bayern"
-        }
-      ],
-      "pl": [
-        {
-          "token": "PO",
-          "name": "Platforma Obywatelska"
-        },
-        {
-          "token": "PSL",
-          "name": "Polskie Stronnictwo Ludowe"
-        }
-      ],
-      "at": [
-        {
-          "token": "ÖVP",
-          "name": "Österreichische Volkspartei  "
-        }
-      ],
-      "be": [
-        {
-          "token": "CD&V",
-          "name": "Christen-Democratisch en Vlaams"
-        },
-        {
-          "token": "CDH",
-          "name": "Centre Démocrate Humaniste "
-        }
-      ],
-      "cz": [
-        {
-          "token": "TOP",
-          "name": "TOP 09"
-        },
-        {
-          "token": "KDU-CSL",
-          "name": "The Christian and Democratic Union-Czech People's Party "
-        }
-      ],
-      "dk": [
-        {
-          "token": "C",
-          "name": "Det Konservative Folkeparti "
-        },
-        {
-          "token": "KD",
-          "name": "KristenDemokraterne "
-        }
-      ],
-      "fr": [
-        {
-          "token": "LR",
-          "name": "Les Républicains"
-        }
-      ],
-      "ie": [
-        {
-          "token": "FG",
-          "name": "Fine Gael"
-        }
-      ],
-      "mt": [
-        {
-          "token": "PN",
-          "name": "Partit Nazzjonalista "
-        }
-      ],
-      "sl": [
-        {
-          "token": "SDS",
-          "name": "Slovenska demokratska stranka  "
-        },
-        {
-          "token": "NSI",
-          "name": "Nova Slovenija krščanski demokrati "
-        },
-        {
-          "token": "SLS",
-          "name": "Slovenska Ljudska Stranka "
-        }
-      ],
-      "es": [
-        {
-          "token": "PP",
-          "name": "Partido Popular "
-        }
-      ]
+      "de": {
+        "token": "CDU",
+        "name": "Christlich Demokratische Union",
+        "program": "https://www.cdu.de/system/tdf/media/dokumente/europawahlprogramm.pdf?file=1&type=field_collection_item&id=18290"
+      },
+      "pl": {
+        "token": "PO",
+        "name": "Platforma Obywatelska",
+        "program": "https://platforma.org/"
+      },
+      "at": {
+        "token": "ÖVP",
+        "name": "Österreichische Volkspartei  ",
+        "program": "https://www.dieneuevolkspartei.at/"
+      },
+      "be": {
+        "token": "CD&V",
+        "name": "Christen-Democratisch en Vlaams",
+        "program": "https://www.cdenv.be/"
+      },
+      "cz": {
+        "token": "TOP",
+        "name": "TOP 09",
+        "program": "https://www.top09.cz/"
+      },
+      "dk": {
+        "token": "C",
+        "name": "Det Konservative Folkeparti ",
+        "program": "https://konservative.dk/politik/eu-program-2019-2024/"
+      },
+      "fr": {
+        "token": "LR",
+        "name": "Les Républicains",
+        "program": "https://www.republicains.fr/sites/default/files/2019-03/2019-03-26-lR-elections-europeennes-projet.pdf"
+      },
+      "ie": {
+        "token": "FG",
+        "name": "Fine Gael",
+        "program": "https://www.finegael.ie/app/uploads/2019/05/European-Manifesto-2019-PRINT.pdf"
+      },
+      "mt": {
+        "token": "PN",
+        "name": "Partit Nazzjonalista ",
+        "program": "https://d3n8a8pro7vhmx.cloudfront.net/pn/pages/2611/attachments/original/1556368745/PP_ElectoralProgram_Print_Output-compressed.pdf?1556368745"
+      },
+      "sl": {
+        "token": "SDS",
+        "name": "Slovenska demokratska stranka  ",
+        "program": "https://www.sds.si/"
+      },
+      "es": {
+        "token": "PP",
+        "name": "Partido Popular ",
+        "program": "https://www.pp.es/"
+      }
     },
     "program": {
       "de": "https://www.eppgroup.eu/what-we-stand-for/campaigns/eu-elections-2019/commitments",
@@ -2868,18 +2713,16 @@
       }
     },
     "national_parties": {
-      "be": [
-        {
-          "token": "PP-BE",
-          "name": "Parti Pirate/Piratenpartij"
-        }
-      ],
-      "de": [
-        {
-          "token": "PP-DE",
-          "name": "Piratenparty Deutschland"
-        }
-      ]
+      "be": {
+        "token": "PP-BE",
+        "name": "Parti Pirate/Piratenpartij",
+        "program": "https://pirateparty.be/"
+      },
+      "de": {
+        "token": "PP-DE",
+        "name": "Piratenparty Deutschland",
+        "program": "https://www.piratenpartei.de/files/2019/04/Wahlprogramm.pdf"
+      }
     },
     "program": {
       "de": "https://wiki.ppeu.net/doku.php?id=programme:ceep2019",
@@ -3103,76 +2946,61 @@
       }
     },
     "national_parties": {
-      "at": [
-        {
-          "token": "SDPA",
-          "name": " Social Democratic Party of Austria"
-        }
-      ],
-      "be": [
-        {
-          "token": "PSB",
-          "name": "Parti Socialiste"
-        },
-        {
-          "token": "SPA",
-          "name": "Socialistische Partij Anders - Flemish "
-        }
-      ],
-      "cz": [
-        {
-          "token": "CSSD",
-          "name": "Česká strana sociálne demokratická"
-        }
-      ],
-      "dk": [
-        {
-          "token": "SD",
-          "name": "Socialdemokratiet"
-        }
-      ],
-      "fr": [
-        {
-          "token": "PS",
-          "name": "Parti Socialiste"
-        }
-      ],
-      "de": [
-        {
-          "token": "SPD",
-          "name": "Sozialdemokratische Partei Deutschlands"
-        }
-      ],
-      "ie": [
-        {
-          "token": "LPI",
-          "name": "Labour Party Ireland"
-        }
-      ],
-      "mt": [
-        {
-          "token": "PL",
-          "name": "Partit Laburista"
-        }
-      ],
-      "es": [
-        {
-          "token": "PSOE",
-          "name": "Partido Socialista Obrero Español"
-        }
-      ],
-      "sl": [
-        {
-          "token": "SD",
-          "name": "Socialni Demokrati "
-        }
-      ],
-      "uk": [
-        {
-          "token": "SDLP",
-          "name": "Social Democratic and Labour Party"
-        }
-      ]
+      "at": {
+        "token": "SPÖ",
+        "name": "Sozialdemokratische Partei Österreichs",
+        "program": "https://europa.spoe.at/unser-wahlprogramm"
+      },
+      "be": {
+        "token": "PSB",
+        "name": "Parti Socialiste",
+        "program": "https://www.ps.be/#/"
+      },
+      "cz": {
+        "token": "CSSD",
+        "name": "Česká strana sociálne demokratická",
+        "program": "https://www.cssd.cz/data/files/volby-do-ep-argumentar-final.pdf"
+      },
+      "dk": {
+        "token": "SD",
+        "name": "Socialdemokratiet",
+        "program": "https://www.socialdemokratiet.dk/da/"
+      },
+      "fr": {
+        "token": "PS",
+        "name": "Parti Socialiste",
+        "program": "https://www.parti-socialiste.fr/"
+      },
+      "de": {
+        "token": "SPD",
+        "name": "Sozialdemokratische Partei Deutschlands",
+        "program": "https://www.spd.de/fileadmin/Dokumente/Europa_ist_die_Antwort/SPD_Europaprogramm_2019.pdf"
+      },
+      "ie": {
+        "token": "LPI",
+        "name": "Labour Party Ireland",
+        "program": "https://www.labour.ie/download/pdf//labour_european_manifesto_2019_web.pdf"
+      },
+      "mt": {
+        "token": "PL",
+        "name": "Partit Laburista",
+        "program": "https://partitlaburista.org/"
+      },
+      "es": {
+        "token": "PSOE",
+        "name": "Partido Socialista Obrero Español",
+        "program": "https://www.psoe.es/"
+      },
+      "sl": {
+        "token": "SD",
+        "name": "Socialni Demokrati ",
+        "program": "http://socialnidemokrati.si/"
+      },
+      "uk": {
+        "token": "SDLP",
+        "name": "Social Democratic and Labour Party",
+        "program": "https://www.sdlp.ie/"
+      }
     },
     "program": {
       "de": "https://www.pes.eu/export/sites/default/.galleries/Documents-gallery/PES-Manifesto-2019_EN.pdf_2063069299.pdf",
@@ -3456,18 +3284,16 @@
       }
     },
     "national_parties": {
-      "de": [
-        {
-          "token": "VOLT-D",
-          "name": "VOLT Deutschland"
-        }
-      ],
-      "fr": [
-        {
-          "token": "VOLT-FR",
-          "name": "VOLT France"
-        }
-      ]
+      "de": {
+        "token": "VOLT-D",
+        "name": "VOLT Deutschland",
+        "program": "https://d3n8a8pro7vhmx.cloudfront.net/volt/pages/3202/attachments/original/1554969359/2019_02_28_Amsterdam_Deklaration_A4.pdf?1554969359"
+      },
+      "fr": {
+        "token": "VOLT-FR",
+        "name": "VOLT France",
+        "program": "https://d3n8a8pro7vhmx.cloudfront.net/volteuropadev/pages/359/attachments/original/1556830400/FRENCH-Amsterdam-Declaration.pdf?1556830400"
+      }
     },
     "program": {
       "de": "https://assets.nationbuilder.com/volt/pages/6564/attachments/original/1540629281/Amsterdam_Declaration.pdf?1540629281",

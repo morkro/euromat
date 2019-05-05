@@ -1,0 +1,24 @@
+{
+  "language": "si",
+  "title": "[SI] Settings",
+  "topMenu": {
+    "index": "Začetna stran",
+    "faq": "FAQ",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "footerMenu": {
+    "imprint": "Pravni Poduk",
+    "privacy": "Data privacy"
+  },
+  "socialMedia": {
+    "twitter": "Great! German election is star-spangled. Curious what parties say about EU? Compare views & see your match:",
+    "facebook": "Great! #GermanElections are now star-spangled. Curious what parties say about EU? Compare your views w/#EUROMAT & see who you match up with!",
+    "clipboard": "Copied to clipboard"
+  },
+  "cookieConsent": {
+    "text": "This website uses cookies to ensure you get the best experience on our website.",
+    "btnDecline": "Decline",
+    "btnAccept": "Accept"
+  }
+}

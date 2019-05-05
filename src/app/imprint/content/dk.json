@@ -1,36 +1,36 @@
 {
   "language": "dk",
-  "url": "legal-notice",
-  "title": "Legal Notice",
-  "headline": "Legal notice",
+  "url": "juridisk-note",
+  "title": "Juridisk note",
+  "headline": "Juridisk note",
   "polis180": {
-    "addressLabel": "Address",
+    "addressLabel": "Adresse",
     "register": "Register court: Amtsgericht\nCharlottenburg Registernummer: VR 34523",
-    "phoneLabel": "Phone",
+    "phoneLabel": "Telefon",
     "represented": "Board: \\\nSonja Schiffers, Co-President, Susanne Zels, Co-President, Christoph Abels, Treasurer",
-    "representedLabel": "Represented by:",
+    "representedLabel": "Repræsenteret af:",
     "phone": "+49 (0)176 301 912 30",
     "registerLabel": "Entry in the register of associations:",
     "address": "Polis180 e.V.\nFriedrichsstraße 180\n10117 Berlin",
-    "emailLabel": "Email",
+    "emailLabel": "E-mail",
     "email": "info@polis180.org"
   },
   "poe": {
-    "addressLabel": "Adress",
+    "addressLabel": "Adresse",
     "register": "Entry in the register of associations.\nRegister court: Frankfurt am Main\nRegisternummer:  VR 16000",
-    "phoneLabel": "Phone",
+    "phoneLabel": "Telefon",
     "represented": "The public charity is represented by the Managing Board, which in turn is represented by the Chair Dr. Daniel Röder.",
-    "representedLabel": "Represented by:",
+    "representedLabel": "Repræsenteret af:",
     "phone": "+49 (0)157 721 209 88",
     "registerLabel": "Register entry:",
     "address": "Pulse of Europe e. V.\nWolfsgangstraße 63\n60322 Frankfurt\nDeutschland",
-    "emailLabel": "Email",
+    "emailLabel": "E-mail",
     "email": "info@pulseofeurope.eu"
   },
   "responsible": {
     "headline": "Responsible for website content (according to § 55 Abs. 2 RStV)",
     "text": "Susanne Zels for Polis180\n\nPeter Funk for Pulse of Europe",
-    "mail": "Contact"
+    "mail": "Kontakt"
   },
   "content": [
     {

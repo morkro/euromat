@@ -1,0 +1,28 @@
+{
+  "language": "cz",
+  "url": "faq",
+  "title": "Často kladené otázky",
+  "headline": "FAQ",
+  "questions": [
+    {
+      "title": "Co je EUROMAT?",
+      "answer": "EUROMAT Vám představí 33 tvrzení z různých oblastí evropské politiky - jako je migrace nebo bezpečnost - s nimiž souhlasíte, nesouhlasíte, nebo na ně máte neutrální názor. Vaše odpovědi budou nakonec porovnány s postoji evropských stran a výsledky Vám budou prezentovány jako procento shody. Dále Vám poskytneme přehled o příslušnosti národních stran k jejich příslušné Evropské straně."
+    },
+    {
+      "title": "Jak EUROMAT funguje?",
+      "answer": "Výpočetní model EUROMATu se řídí výpočetním programem Bundeszentrale für politische Bildung (Spolková agentura pro občanské vzdělávání). Je volně dostupný pod licencí: Creative Commons BY-NC-ND 3.0"
+    },
+    {
+      "title": "Jak byl EUROMAT vytvořen?",
+      "answer": "V prvním kroku jsme vypracovali seznam otázek během několika workshopů. Naše cíle byly:\n\n* pokrýt všechna důležitá evropská témata \n* pokrýt širokou škálu různých politických proudů\n\nVe druhém kroku partneři z ostatních zemí přezkoumali prohlášení o relevantnosti ve svých zemích a poskytli nám zpětnou vazbu. S touto zpětnou vazbou jsme dokončili výběr prohlášení. Poté jsme zaslali celkem 49 prohlášení 21 stranám Evropského parlamentu. Byli požádáni, aby s těmito prohlášeními souhlasili, nesouhlasili, nebo zůstali neutrální. Navíc měli možnost stručně vysvětlit svou odpověď.\n\nOdpovědi Evropských stran byly analyzovány a 33 bylo vybráno a zahrnuto do systému EUROMAT. Výběr konečných prohlášení vycházel z jejich schopnosti pomoci Vám rozlišit mezi jednotlivými stranami. Odpovědi pak naši partneři přeložili, aby šířili EUROMAT v co největším počtu zemí."
+    },
+    {
+      "title": "Why European parties? ",
+      "answer": "Though we have national parties on our ballots on election day, they are part of European parties. On the European level, our national political parties bundle with other parties which share similar political ideas and visions and are active in other Member States. The European parties (for exemple PES, EPP, ALDE or the European Green Party) are represented by party groups in the European Parliament. In the end, those will determine the decision-making process in the European Parliament. That’s why we decided to ask them to position themselves towards the EUROMAT theses and not directly our political parties at state level."
+    },
+    {
+      "title": "Které evropské strany byly zařazeny do systému EUROMAT?",
+      "answer": "Celkem bylo kontaktováno 21 stran, které měli možnost ukázat své postoje k našim otázkám: Evropská lidová strana (EPP), Strana evropských socialistů (SES), Aliance konzervativců a reformistů v Evropě (ACRE), Evropské křesťanské politické hnutí (ECPM), Aliance liberálů a demokratů pro Evropu (ALDE), Evropská demokratická strana (EDP), Strana evropské levice (PEL), Aliance Severské zelené levice (NGLA), Evropská strana zelených (EGP), Evropská svobodná aliance (EFA), Hnutí za Evropu národů a svobody (MENF), VOLT, Aliance pro mír a svobodu (APF), Aliance pro evropská národní hnutí (AENM), Iniciativa komunistických a dělnických stran, DiEM25, Evropská federalistická strana, Evropská pirátská strana (PPEU) , Euro Animal 7 (EA7), Liberální síť jihovýchodní Evropy (LIBSEEN), Evropa Demokracie Esperanto (EDE)\n\nx z těchto 21 stran odpovědělo na náš dotazník. Vzhledem k tomu, že jsme neobdrželi formální odpověď od x stran včas, nemohli jsme je zahrnout do hodnocení systémem EUROMAT."
+    }
+  ]
+}

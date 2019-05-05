@@ -1,0 +1,24 @@
+{
+  "language": "fr",
+  "title": "[FR] Settings",
+  "topMenu": {
+    "index": "Page d'accueil",
+    "faq": "FAQ",
+    "about": "Qui sommes-nous",
+    "contact": "Contact"
+  },
+  "footerMenu": {
+    "imprint": "Mentions légales",
+    "privacy": "Data privacy"
+  },
+  "socialMedia": {
+    "twitter": "Les élections européennes #EP19 approchent! Compare tes opinions aux positions des partis européens avec #EUROMAT",
+    "facebook": "Les élections européennes #EP19 approchent! Compare tes opinions aux positions des partis européens avec #EUROMAT",
+    "clipboard": "Copied to clipboard"
+  },
+  "cookieConsent": {
+    "text": "Ce site utilise des cookies pour vous offrir une meilleure expérience",
+    "btnDecline": "Non merci",
+    "btnAccept": "D'accord"
+  }
+}

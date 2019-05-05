@@ -70,6 +70,12 @@
     },
 
     computed: {
+      isEmbedded () {
+        return (
+          this.$route.query.embedded &&
+          this.$route.query.embedded === 'iframe'
+        )
+      },
       currentThesisStep () {
         return this.currentThesis + 1
       },
@@ -146,7 +152,8 @@
         }
 
         this.$router.push({
-          path: getTranslatedUrl('emphasis', getTranslatedUrl('theses', null, true))
+          path: getTranslatedUrl('emphasis', getTranslatedUrl('theses', null, true)),
+          query: this.isEmbedded ? { embedded: 'iframe' } : {}
         })
       }
     }
@@ -223,7 +230,7 @@
     margin-bottom: $base-gap + 5;
     text-align: left;
 
-    h1 {
+    h1, h2 {
       overflow-wrap: break-word;
     }
 
