@@ -172,7 +172,7 @@
   .group-inner {
     width: calc(100% - #{$base-gap});
     background: $background-secondary;
-    border-radius: $border-radius / 4;
+    border-radius: $border-radius-medium;
     box-shadow: $button-shadow;
     padding: $base-gap;
     color: $text-color-secondary;

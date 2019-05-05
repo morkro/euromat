@@ -1,0 +1,51 @@
+{
+  "language": "cz",
+  "url": "partner",
+  "title": "Partner",
+  "headline": "Partner",
+  "content": "We could provide the EUROMAT in 10 European countries thanks to the support of our friends and partners all over Europe.",
+  "partners": [
+    {
+      "name": "POLIS180",
+      "url": "https://polis180.org/",
+      "description": "«Polis180» was the first spin-off of foraus. Polis programmes create innovative debating formats that enable a better discussion of the questions that bother us most."
+    },
+    {
+      "name": "Pulse of Europe",
+      "url": "https://pulseofeurope.eu/",
+      "description": "We want to contribute our share to ensure that Europe, now and in the future, remains united and democratic and continues to be a community in which regard for human rights, the rule of law, freedom of speech and assembly as well as tolerance and respect remain integral parts of its essence."
+    },
+    {
+      "name": "ARGO",
+      "url": "http://argothinktank.org/en/",
+      "description": "In the European super election year 2017, foraus’ and Polis180’s new sister think tank, «Argo», sets foot in France. Argo is set out on March 23rd with their official launch press conference, in Paris."
+    },
+    {
+      "name": "PONTO",
+      "url": "http://www.pontothinktank.org/",
+      "description": "A small group in Vienna brings the grassroots concept to Austria's think tank landscape. Vienna as a melting pot of cultures and its position as a mediator between the «West» and the «East», Vienna as a hub for global politics and last but not least all the challenges in Austria's national political sphere - all that requires a new democratic voice."
+    },
+    {
+      "name": "JEF",
+      "url": "https://www.mladievropane.cz/",
+      "description": "Naším cílem je silná Evropa, která nám umožní uchovat naše hodnoty i v chaotickém světě."
+    },
+    {
+      "name": "THINKTANK EUROPA",
+      "url": "http://english.thinkeuropa.dk/think-tank-europa",
+      "description": "We are an independent think tank focusing on European issues. We are dedicated to finding constructive and forward-looking answers to Denmark’s role in the European Union."
+    },
+    {
+      "name": "INSTITUTE for POLITICAL MANAGEMENT",
+      "url": "https://ipm.si/en/homepage/",
+      "description": "Think tank, established with a purpose of researching, developing and applied operation in the field of political management."
+    }
+  ],
+  "communication": [
+    {
+      "name": "AEGEE",
+      "url": "https://www.aegee.org/",
+      "description": "foo"
+    }
+  ]
+}

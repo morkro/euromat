@@ -137,6 +137,12 @@
     li {
       margin-right: $base-gap;
     }
+
+    @media (max-width: 380px) {
+      li {
+        margin-right: calc(#{$base-gap} / 2);
+      }
+    }
   }
 
   a {

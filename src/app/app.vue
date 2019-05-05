@@ -67,6 +67,10 @@
             route: { path: getTranslatedUrl('about') }
           },
           {
+            label: this.$t('meta.topMenu.partner'),
+            route: { path: getTranslatedUrl('partner') }
+          },
+          {
             label: this.$t('meta.topMenu.contact'),
             route: { path: getTranslatedUrl('contact') }
           }
@@ -258,7 +262,7 @@
     position: relative;
     z-index: 2;
 
-    @media (max-width: 650px) {
+    @media (max-width: 730px) {
       flex-direction: column;
       justify-content: center;
       align-items: center;
