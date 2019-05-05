@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <header class="app-header">
+  <div id="app" :class="{ 'is-embedded': isEmbedded }">
+    <header v-if="!isEmbedded" class="app-header">
       <router-link :to="{ path: `/${$i18n.locale}/` }">
         <img class="header-logo"
           alt="EUROMAT Logo"
@@ -17,7 +17,7 @@
       <router-view />
     </main>
 
-    <footer>
+    <footer v-if="!isEmbedded">
       <app-footer :menu="subMenu" :social="socialMedia" />
     </footer>
 
@@ -105,6 +105,12 @@
             message: this.$t('meta.socialMedia.clipboard')
           }
         ]
+      },
+      isEmbedded () {
+        return (
+          this.$route.query.embedded &&
+          this.$route.query.embedded === 'iframe'
+        )
       }
     },
 
@@ -233,6 +239,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
+
+    &.is-embedded {
+      padding-top: $small-gap;
+    }
 
     header {
       width: 100%;

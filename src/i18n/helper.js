@@ -1,8 +1,6 @@
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
 import i18n from './index'
 
-console.log('i18n', i18n)
-
 export const isLangSupported = lang =>
   SUPPORTED_LOCALES.some(([locale]) => locale === lang)
 

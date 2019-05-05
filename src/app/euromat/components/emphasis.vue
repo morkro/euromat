@@ -57,6 +57,15 @@
       }
     },
 
+    computed: {
+      isEmbedded () {
+        return (
+          this.$route.query.embedded &&
+          this.$route.query.embedded === 'iframe'
+        )
+      }
+    },
+
     created () {
       if (this.$browser.supports('sessionStorage')) {
         if (!sessionStorage.getItem('euromat-answers')) {
@@ -92,7 +101,8 @@
         }
 
         this.$router.push({
-          path: getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
+          path: getTranslatedUrl('results', getTranslatedUrl('theses', null, true)),
+          query: this.isEmbedded ? { embedded: 'iframe' } : {}
         })
       }
     }

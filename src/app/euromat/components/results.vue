@@ -62,7 +62,7 @@
       </li>
     </ul>
 
-    <div class="results-ctrls">
+    <div v-if="!isEmbedded" class="results-ctrls">
       <p>{{ $t('results.thanks') }}</p>
       <router-link tag="a"
         class="btn"
@@ -121,6 +121,12 @@
     computed: {
       startOverUrl () {
         return getTranslatedUrl('theses')
+      },
+      isEmbedded () {
+        return (
+          this.$route.query.embedded &&
+          this.$route.query.embedded === 'iframe'
+        )
       }
     },
 
