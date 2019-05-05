@@ -2,13 +2,13 @@
   "language": "si",
   "title": "[SI] Settings",
   "topMenu": {
-    "index": "Landing page",
+    "index": "Začetna stran",
     "faq": "FAQ",
-    "about": "About us",
-    "contact": "Contact"
+    "about": "O nas",
+    "contact": "Kontakt"
   },
   "footerMenu": {
-    "imprint": "Imprint",
+    "imprint": "Pravni Poduk",
     "privacy": "Data privacy"
   },
   "socialMedia": {
