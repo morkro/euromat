@@ -1,6 +1,8 @@
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
 import i18n from './index'
 
+console.log('i18n', i18n)
+
 export const isLangSupported = lang =>
   SUPPORTED_LOCALES.some(([locale]) => locale === lang)
 
@@ -18,11 +20,14 @@ export function getUserLanguage () {
     window.navigator.userLanguage ||
     DEFAULT_LOCALE
   )
-  return lang.split('-')[0]
+  return {
+    language: lang.split('-')[0],
+    country: lang.split('-')[1].toLowerCase()
+  }
 }
 
 export function getUserSupportedLanguage () {
-  const language = getUserLanguage()
+  const { language } = getUserLanguage()
   return isLangSupported(language)
     ? language
     : DEFAULT_LOCALE

@@ -83,7 +83,7 @@
 </template>
 
 <script>
-  import { getCurrentLocale, getTranslatedUrl } from '@/i18n/helper'
+  import { getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
   import {
     MAX_POINTS,
     BASE_POINTS,
@@ -236,7 +236,7 @@
           score: this.scores
             .map(t => t.scores.find(s => s.party === party.id).score)
             .reduce(addUp, 0),
-          nationalParty: party['national_parties'][getCurrentLocale()]
+          nationalParty: party['national_parties'][getUserLanguage().country]
         }
       }
     }

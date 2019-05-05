@@ -11,7 +11,7 @@ export function getPageTitle (data = {}) {
 export function beforeEnter (to, from, next) {
   const lang = to.params.locale
   if (!i18n.isLangSupported(lang)) {
-    return next(i18n.getUserLanguage())
+    return next(i18n.getUserLanguage().language)
   }
 
   i18n.setCurrentLocale(lang)
