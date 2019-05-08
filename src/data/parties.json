@@ -3285,12 +3285,12 @@
     },
     "national_parties": {
       "de": {
-        "token": "VOLT-D",
+        "token": "VOLT",
         "name": "VOLT Deutschland",
         "program": "https://d3n8a8pro7vhmx.cloudfront.net/volt/pages/3202/attachments/original/1554969359/2019_02_28_Amsterdam_Deklaration_A4.pdf?1554969359"
       },
       "fr": {
-        "token": "VOLT-FR",
+        "token": "VOLT",
         "name": "VOLT France",
         "program": "https://d3n8a8pro7vhmx.cloudfront.net/volteuropadev/pages/359/attachments/original/1556830400/FRENCH-Amsterdam-Declaration.pdf?1556830400"
       }

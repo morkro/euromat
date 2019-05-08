@@ -8,10 +8,11 @@ export function getPageTitle (data = {}) {
     : title
 }
 
-export function beforeEnter (to, from, next) {
+export async function beforeEnter (to, from, next) {
   const lang = to.params.locale
   if (!i18n.isLangSupported(lang)) {
-    return next(i18n.getUserLanguage().language)
+    const { language } = await i18n.getUserLanguage()
+    return next(language)
   }
 
   i18n.setCurrentLocale(lang)

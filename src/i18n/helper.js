@@ -1,6 +1,11 @@
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
 import i18n from './index'
 
+export const getCountryByIP = async () => {
+  const response = await fetch('https://api.ipdata.co/?api-key=test')
+  return response.json()
+}
+
 export const isLangSupported = lang =>
   SUPPORTED_LOCALES.some(([locale]) => locale === lang)
 
@@ -12,15 +17,16 @@ export const setCurrentLocale = (locale) => {
   }
 }
 
-export function getUserLanguage () {
+export async function getUserLanguage () {
   const lang = (
     window.navigator.language ||
     window.navigator.userLanguage ||
     DEFAULT_LOCALE
   )
+  const ipData = await getCountryByIP()
   return {
     language: lang.split('-')[0],
-    country: lang.split('-')[1].toLowerCase()
+    country: ipData.country_code || lang.split('-')[1].toLowerCase()
   }
 }
 

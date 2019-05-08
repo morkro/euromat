@@ -11,7 +11,7 @@
 
     <ul class="party-results">
       <li v-for="party of parties" :key="party.token">
-        <router-link :to="{ path: getPartyPath(party.token.toLowerCase()) }">
+        <router-link :to="{ path: getPartyPath(party.token) }">
           <div class="result-party-info">
             <div class="result-party-logo">
               <img
@@ -39,7 +39,7 @@
         <div v-if="party.nationalParty" class="party-results-national">
           <feather-corner-down-right />
           <span>
-            {{ $t('results.nationalParty') }}:
+            {{ $t('results.nationalParty') }}
             <a
               class="party-results-national-logo"
               :href="party.nationalParty.program"
@@ -83,7 +83,7 @@
 </template>
 
 <script>
-  import { getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
+  import { getTranslatedUrl } from '@/i18n/helper'
   import {
     MAX_POINTS,
     BASE_POINTS,
@@ -109,6 +109,7 @@
 
     data () {
       return {
+        userCountry: this.$root.$children[0].userCountry.toLowerCase(),
         scoringGrid: [],
         answers: [],
         emphasized: [],
@@ -155,6 +156,7 @@
         .map(this.getScorePerParty)
         .sort((a, b) => a.score - b.score)
         .reverse()
+      console.log(parties)
       this.totalScoredPoints = this.scores
         .map(s => s.highestScore)
         .reduce(addUp, 0)
@@ -162,22 +164,31 @@
 
     methods: {
       getPartyPath (token) {
-        return `${getTranslatedUrl('party')}/${token}`
+        return `${getTranslatedUrl('party')}/${token.toLowerCase()}`
       },
       getPartyLogo (token) {
         try {
           return require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
-        } catch (error) {
-          console.warn(`No logo found for party "${token}", falling back to initials.`, error.message)
-          return false
+        } catch (e) {
+          try {
+            return require(`@/assets/${token.toLowerCase().replace(/\s/g, '-')}-logo.png`)
+          } catch (error) {
+            console.warn(`No logo found for party "${token}", falling back to initials.`, error.message)
+            return false
+          }
         }
       },
       hasPartyLogo (token) {
         try {
           require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
           return true
-        } catch (error) {
-          return false
+        } catch (e) {
+          try {
+            require(`@/assets/${token.toLowerCase().replace(/\s/g, '-')}-logo.png`)
+            return true
+          } catch (error) {
+            return false
+          }
         }
       },
       getScorePercentage (score) {
@@ -242,7 +253,7 @@
           score: this.scores
             .map(t => t.scores.find(s => s.party === party.id).score)
             .reduce(addUp, 0),
-          nationalParty: party['national_parties'][getUserLanguage().country]
+          nationalParty: party['national_parties'][this.userCountry]
         }
       }
     }
