@@ -4,6 +4,7 @@
     "category": {
       "de": "Politische Bildung",
       "en": "Civic Education",
+      "fr": "Education civique",
       "dk": "Medborgerskab",
       "si": "Državljanska vzgoja",
       "cz": "Občanské vzdělávání"
@@ -11,6 +12,7 @@
     "thesis": {
       "de": "Europapolitische Bildung sollte Teil der Lehrpläne aller Mitgliedsländer sein.",
       "en": "European civic education should be part of the school curricula of all member countries.",
+      "fr": "L’éducation civique européenne devrait faire partie des programmes scolaires de tous les Etats-membres.",
       "dk": "Europæisk medborgerskab skal være en del af skolepensum i alle medlemslande.",
       "si": "Evropska državljanska vzgoja bi morala biti del šolskega kurikuluma v vseh državah članicah.",
       "cz": "Evropské občanské vzdělávání by mělo být součástí školních osnov ve všech členských státech."
@@ -22,6 +24,7 @@
     "category": {
       "de": "Europäische Armee",
       "en": "European Army",
+      "fr": "Forces armées",
       "dk": "Fælles forsvar",
       "si": "Evropska vojska",
       "cz": "Evropská armáda"
@@ -29,6 +32,7 @@
     "thesis": {
       "de": "Langfristig sollten die EU-Mitgliedstaaten ihre Streitkräfte zu einer europäischen Armee zusammenschließen.",
       "en": "In the long-term EU member states should merge their armed forces to a European army.",
+      "fr": "A terme, les forces armées des pays membres de l'UE devraient fusionner.",
       "dk": "På lang sigt skal EU-medlemslandenes forsvar samles i en fælles europæisk hær.",
       "si": "Države članice EU bi morale na dolgi rok združiti svoje oborožene sile v skupno evropsko vojsko.",
       "cz": "V dlouhodobém horizontu by měly být armády členských států sloučeny do Evropské armády."
@@ -40,6 +44,7 @@
     "category": {
       "de": "Zuständigkeiten der EU",
       "en": "Competencies of the EU",
+      "fr": "Compétences de l'UE",
       "dk": "EU's beføjelser",
       "si": "Pristojnosti EU",
       "cz": "Kompetence EU"
@@ -47,6 +52,7 @@
     "thesis": {
       "de": "Die EU hat zu viele Aufgaben übernommen, die an die Mitgliedsstaaten zurückgegeben werden sollten.",
       "en": "The EU has taken on too many tasks that should be transferred back to the member states.",
+      "fr": "L’UE a trop de responsabilités et devrait en transférer certaines aux Etats-membres.",
       "dk": "EU har påtaget sig for mange opgaver, der bør føres tilbage til medlemsstaterne.",
       "si": "EU je prevzela preveč nalog, ki jih je treba prenesti nazaj na države članice.",
       "cz": "EU má nyní příliš mnoho pravomocí, které by byly lépe spravovány členskými státy."
@@ -58,6 +64,7 @@
     "category": {
       "de": "Energiepolitik",
       "en": "Energy Policy",
+      "fr": "Politique énergétique",
       "dk": "Energipolitik",
       "si": "Energetska politika",
       "cz": "Energetická politika"
@@ -65,6 +72,7 @@
     "thesis": {
       "de": "Alle Mitgliedsstaaten sollen bis spätestens 2040 aus der Atomkraft aussteigen.",
       "en": "Every member state should eliminate atomic energy by 2040.",
+      "fr": "Tous les Etats-membres devraient sortir de l’énergie nucléaire d’ici 2040.",
       "dk": "I 2040 skal alle medlemslande have udfaset brugen af atomenergi.",
       "si": "Vse države članice bi morale do leta 2040 odpraviti atomsko energijo.",
       "cz": "Jaderná energie by měla být zakázána do roku 2040."
@@ -76,6 +84,7 @@
     "category": {
       "de": "Handelspolitik",
       "en": "Trade Policy",
+      "fr": "Politique commerciale",
       "dk": "Handelspolitik",
       "si": "Trgovinska politika",
       "cz": "Obchodní politika"
@@ -83,6 +92,7 @@
     "thesis": {
       "de": "Die Europäische Union soll zum Schutz europäischer Produkte verstärkt Zölle erheben.",
       "en": "The EU should raise tarifs to secure European products from foreign competition.",
+      "fr": "L’UE devrait augmenter ses droits de douane pour protéger les produits européens face à la concurrence.",
       "dk": "EU skal hæve tolden på varer fra tredjelande for at sikre europæiske produkter mod konkurrence.",
       "si": "EU bi morala zvišati tarife, da bi zaščitila evropske proizvode pred tujo konkurenco.",
       "cz": "EU by měla zvednout cla, aby ochránila evropské produkty před zahraniční konkurencí."
@@ -94,6 +104,7 @@
     "category": {
       "de": "Grenzschutz",
       "en": "Border Protection",
+      "fr": "Protection des frontières",
       "dk": "Grænsesikring",
       "si": "Varovanje meja",
       "cz": "Kontrola hranic"
@@ -101,6 +112,7 @@
     "thesis": {
       "de": "Alle Mitgliedsstaaten sollten Geld und Personal für den Schutz der europäischen Außengrenzen zur Verfügung stellen.",
       "en": "Each member state should provide funds and human resources to secure the European border.",
+      "fr": "Chaque Etat-membre devrait mettre à disposition des ressources financières et humaines pour la protection des frontières européennes.",
       "dk": "Alle medlemslande skal bidrage med midler og personale til at sikre EU's ydre grænser.",
       "si": "Vsaka država članica bi morala prispevati sredstva in človeške vire za zaščito evropskih meja.",
       "cz": "Každý jednotlivý členský stát by měl poskytnout finance a lidské zdroje k ochraně evropských hranic."
@@ -112,6 +124,7 @@
     "category": {
       "de": "Gleichberechtigung",
       "en": "Equality",
+      "fr": "Egalité",
       "dk": "Ligestilling",
       "si": "Enakost",
       "cz": "Rovnost"
@@ -119,6 +132,7 @@
     "thesis": {
       "de": "Die EU sollte sich für eine verpflichtende Frauenquote auf Führungsebene von Unternehmen einsetzen.",
       "en": "The EU should be committed to introducing a quota for women in leading managerial positions.",
+      "fr": "L’UE devrait s’engager à mettre en place un quota de femmes aux positions managériales.",
       "dk": "EU skal arbejde for at indføre kønskvoter på ledende poster.",
       "si": "EU bi se morala zavezati k uvedbi kvot za ženske na vodilnih položajih.",
       "cz": "EU by se měla zavázat k zavedení kvót pro ženy ve vedoucích pozicích."
@@ -130,6 +144,7 @@
     "category": {
       "de": "Datenschutz",
       "en": "Data Protection",
+      "fr": "Protection des données personnelles",
       "dk": "Databeskyttelse",
       "si": "Varstvo podatkov",
       "cz": "Ochrana dat"
@@ -137,6 +152,7 @@
     "thesis": {
       "de": "Unternehmen soll die Nutzung personalisierter Daten erleichtert werden.",
       "en": "Personalized data should be made easier for companies to use.",
+      "fr": "Les données personnelles devraient être plus faciles à utiliser pour les entreprises.",
       "dk": "Det skal gøres lettere for virksomheder at anvende personlig data kommercielt.",
       "si": "Podjetjem je potrebno olajšati uporabo osebnih podatkov.",
       "cz": "Společnosti by měli mít možnost využívat personalizovaná data lehčeji, než dnes."
@@ -148,6 +164,7 @@
     "category": {
       "de": "Verteilung von Asylbewerbern",
       "en": "Asylum Seekers Allocation",
+      "fr": "Répartition des demandeurs d'asile",
       "dk": "Fordeling af asylansøgere",
       "si": "Razporeditev prosilcev za azil",
       "cz": "Přerozdělování žadatelů o azyl"
@@ -155,6 +172,7 @@
     "thesis": {
       "de": "Innerhalb der EU sollten Asylbewerber nach einem Verteilungsschlüssel auf alle Mitgliedsstaaten verteilt werden.",
       "en": "Asylum seekers should be distributed between every member state based on a quota within the EU.",
+      "fr": "Les demadeurs d'asile devraient être répartis dans l'UE entre tous les Etats-membres selon un barème de répartition.",
       "dk": "Asylansøgere skal fordeles mellem medlemslandene efter et kvotesystem.",
       "si": "Prosilce za azil oz. mednarodno zaščito je potrebno razporediti med vse države članice na podlagi kvot znotraj EU.",
       "cz": "Žadatelé o azyl by měli být rozděleni mezi všechny členské státy EU na základě kvót."
@@ -166,6 +184,7 @@
     "category": {
       "de": "Erweiterung",
       "en": "EU Enlargement",
+      "fr": "Elargissement de l'UE",
       "dk": "Udvidelse af EU",
       "si": "Širitev EU",
       "cz": "Politika rozšíření EU"
@@ -173,6 +192,7 @@
     "thesis": {
       "de": "Die EU sollte keine neuen Mitgliedsländer aufnehmen.",
       "en": "The EU should not accept any new member states.",
+      "fr": "L’UE ne devrait pas intégrer de nouveaux Etats-membres.",
       "dk": "EU skal ikke optage nye medlemslande.",
       "si": "EU ne bi smela sprejeti nobenih novih držav članic.",
       "cz": "EU by neměla přijímat žádné nové členské státy."
@@ -184,6 +204,7 @@
     "category": {
       "de": "Energiepolitik",
       "en": "Energy Policy",
+      "fr": "Politique énergétique",
       "dk": "Energipolitik",
       "si": "Energetska politika",
       "cz": "Energetická politika"
@@ -191,6 +212,7 @@
     "thesis": {
       "de": "Es soll eine EU-weite CO2-Steuer geben.",
       "en": "A European carbon tax should be introduced.",
+      "fr": "Une taxe-carbone européenne devrait être mise en place.",
       "dk": "EU skal indføre en skat på CO2-udledning.",
       "si": "Potrebno je uvesti evropski davek na ogljik.",
       "cz": "Měla by být zavedena evropská daň z uhlíku."
@@ -202,6 +224,7 @@
     "category": {
       "de": "Agrarsubventionen",
       "en": "Agricultural Subsidies",
+      "fr": "Subventions agricoles",
       "dk": "Landbrugsstøtte",
       "si": "Kmetijske subvencije",
       "cz": "Zemědělské dotace"
@@ -209,6 +232,7 @@
     "thesis": {
       "de": "Die EU sollte die finanzielle Unterstützung der Landwirtschaft verringern.",
       "en": "The EU should reduce financial subsidies given to the agriculture sector.",
+      "fr": "L’UE devrait réduire les subventions au secteur agricole.",
       "dk": "EU skal reducere den økonomiske støtte til landbruget.",
       "si": "EU bi morala zmanjšati finančne subvencije za kmetijski sektor.",
       "cz": "EU by měla snížit finanční dotace poskytované zemědělcům."
@@ -220,6 +244,7 @@
     "category": {
       "de": "Europäischer Geheimdienst",
       "en": "Intelligence Service",
+      "fr": "Services de renseignement",
       "dk": "Efterretningstjeneste",
       "si": "Obveščevalna služba",
       "cz": "Tajná služba"
@@ -227,6 +252,7 @@
     "thesis": {
       "de": "Die EU sollte einen gemeinsamen europäischen Geheimdienst zur effektiveren Terrorismusbekämpfung aufbauen.",
       "en": "The EU should install a common European intelligent service in order to effectivly counter terrorism.",
+      "fr": "L’UE devrait mettre en place un service de renseignement commun pour lutter efficacement contre le terrorisme.",
       "dk": "EU skal oprette en fælles europæisk efterretningstjeneste med henblik på effektiv bekæmpelse af terrorisme.",
       "si": "EU bi morala uvesti skupno obveščevalno službo z namenom učinkovitega boja proti terorizmu.",
       "cz": "EU by měla zavést společnou evropskou tajnou službu s cílem účinně bojovat proti terorismu."
@@ -238,6 +264,7 @@
     "category": {
       "de": "Europäischer Mindestlohn",
       "en": "Minimum Wage",
+      "fr": "Salaire minimum",
       "dk": "Mindsteløn",
       "si": "Minimalna plača",
       "cz": "Minimální mzda"
@@ -245,6 +272,7 @@
     "thesis": {
       "de": "Es sollten europaweit Mindestlöhne abhängig vom Durchschnittseinkommen des jeweiligen Mitgliedsstaates eingeführt werden.",
       "en": "A European minimum wage should be introduced, dependent on the average income of the member state.",
+      "fr": "Un salaire minimum européen devrait être mis en place, variant selon le salaire moyen des Etats-Membres.",
       "dk": "Der skal indføres en europæisk mindsteløn reguleret efter gennemsnitslønnen i de enkelte medlemslande.",
       "si": "Uvesti bi morali evropsko minimalno plačo, odvisno od povprečnega dohodka posamezne države članice.",
       "cz": "Měla by být zavedena evropská minimální mzda v závislosti na průměrném platu v členském státu."
@@ -256,6 +284,7 @@
     "category": {
       "de": "Russland",
       "en": "Russia",
+      "fr": "Russie",
       "dk": "Rusland",
       "si": "Rusija",
       "cz": "Ruská federace"
@@ -263,6 +292,7 @@
     "thesis": {
       "de": "Alle EU-Sanktionen gegen Russland sollten aufgehoben werden.",
       "en": "All EU sanctions against Russia should be lifted.",
+      "fr": "Toutes les sanctions européennes contre la Russie devraient être levées.",
       "dk": "Alle EU-sanktioner mod Rusland bør ophæves.",
       "si": "Vse sankcije EU proti Rusiji bi morali odpraviti.",
       "cz": "Všechny sankce EU vůči Rusku by měly být zrušeny."
@@ -274,6 +304,7 @@
     "category": {
       "de": "Netzpolitik",
       "en": "Net Policy",
+      "fr": "Politique de l'internet",
       "dk": "Internet",
       "si": "Internet",
       "cz": "Internetová politika"
@@ -281,6 +312,7 @@
     "thesis": {
       "de": "Straftaten wie Mobbing, Falschinformation oder Verleumdung im Internet sollen EU-weit konsequent verfolgt werden.",
       "en": "Criminal offences such as bullying, misinformation or defamation on the Internet should be consistently prosecuted throughout the EU.",
+      "fr": "Des crimes tels que la brutalité, l’humiliation, la désinformation ou la diffamation sur internet devraient conduire à des poursuites judiciaires partout en Europe.",
       "dk": "Kriminelle aktiviteter som chikane, misinformation og injurier på internettet skal retsforfølges ensartet i hele EU.",
       "si": "Kazniva dejanja kot so ustrahovanje, širjenje napačnih informacij ali obrekovanje na spletu bi morali dosledno preganjati po celotni EU.",
       "cz": "Trestné činy, jako je šikana, dezinformace nebo pomluvy na internetu, by měly být v celé EU důsledně stíhány."
@@ -292,6 +324,7 @@
     "category": {
       "de": "Jugendarbeitslosigkeit",
       "en": "Youth Unemployment",
+      "fr": "Chômage des jeunes",
       "dk": "Ungdomsarbejdsløshed",
       "si": "Brezposelnost mladih",
       "cz": "Nezaměstnanost mladých"
@@ -299,6 +332,7 @@
     "thesis": {
       "de": "Jugendarbeitslosigkeit sollte national bekämpft werden.",
       "en": "Youth unemployment should be combated at national level.",
+      "fr": "Le chômage des jeunes devrait être combattu au niveau national.",
       "dk": "Ungdomsarbejdsløshed skal primært bekæmpes på nationalt plan.",
       "si": "Proti brezposelnosti mladih se je potrebno boriti na nacionalni ravni.",
       "cz": "Proti nezaměstnanosti mladých lidí je třeba bojovat na vnitrostátní úrovni."
@@ -310,6 +344,7 @@
     "category": {
       "de": "Mobilität",
       "en": "Mobility",
+      "fr": "Mobilité",
       "dk": "Mobilitet",
       "si": "Mobilnost",
       "cz": "Mobilita"
@@ -317,6 +352,7 @@
     "thesis": {
       "de": "Durch Ausbau des öffentlichen Nah- und Fernverkehrs soll es jedem EU-Bürger möglich sein, auf ein eigenes Auto zu verzichten.",
       "en": "By expanding public local and long-distance transport, every EU citizen should be able to renounce their own car.",
+      "fr": "Chaque citoyen européen devrait pouvoir se passer d'une voiture grâce à un développement des transports en communs locaux et de longue-distance.",
       "dk": "Ved at udbygge offentlig transport skal alle EU-borgere have mulighed for at fravælge deres personbil.",
       "si": "Z razširitvijo javnega lokalnega in medkrajevnega prevoza bi se moral biti vsak državljan EU zmožen odpovedati svojemu avtomobilu.",
       "cz": "Rozšiřováním veřejné místní a dálkové dopravy by měl mít každý občan EU možnost vzdát se vlastnictví vozu."
@@ -328,6 +364,7 @@
     "category": {
       "de": "Unternehmensbesteuerung",
       "en": "Taxation of Companies",
+      "fr": "Taxe sur les entreprises",
       "dk": "Selskabsskat",
       "si": "Obdavčitev podjetij",
       "cz": "Zdanění společností"
@@ -335,6 +372,7 @@
     "thesis": {
       "de": "Um Steuervermeidung zu bekämpfen, sollen EU-Mindeststeuersätze für Unternehmen eingeführt werden.",
       "en": "To prevent tax avoidance, an EU minimum taxation for companies should be introduced.",
+      "fr": "Pour lutter contre l’évasion fiscale, une taxe-plancher sur les entreprises devrait être mise en place en Europe.",
       "dk": "For at undgå skatteunddragelse skal der indføres en minimumskat for virksomheder i EU.",
       "si": "Da bi preprečili izogibanje davkom, je potrebno v EU uvesti minimalno obdavčitev za podjetja.",
       "cz": "Aby se předešlo vyhýbání se daňovým povinnostem, mělo by být zavedeno minimální zdanění společností v EU."
@@ -346,6 +384,7 @@
     "category": {
       "de": "Rückführung",
       "en": "Return Policy",
+      "fr": "Reconduite à la frontière",
       "dk": "Hjemsendelse",
       "si": "Politika vračanja",
       "cz": "Návratová politika"
@@ -353,6 +392,7 @@
     "thesis": {
       "de": "Straffällig gewordene Asylbewerber und Menschen ohne anerkannten Aufenthaltsstatus sollen aus der EU ausgewiesen werden.",
       "en": "Previously convicted asylum seekers and persons without a residence permit should be expelled from the EU.",
+      "fr": "Des demandeurs d’asile ou des personnes sans carte de séjour faisant l'objet d'une condamnation devraient être expulsés de l’UE.",
       "dk": "Tidligere dømte asylansøgere og personer uden opholdstilladelse skal udvises af EU.",
       "si": "Prosilce za azil, ki so bili predhodno obsojeni in osebe brez dovoljenja za prebivanje je potrebno izgnati iz EU.",
       "cz": "Dříve odsouzení žadatelé o azyl a osoby bez povolení k pobytu by měli být vyhoštěni z EU."
@@ -364,6 +404,7 @@
     "category": {
       "de": "Bargeld",
       "en": "Money",
+      "fr": "Argent",
       "dk": "Kontanter",
       "si": "Denar",
       "cz": "Peníze"
@@ -371,6 +412,7 @@
     "thesis": {
       "de": "Die EU sollte langfristig Bargeld abschaffen.",
       "en": "The EU should abolish cash in the long-term.",
+      "fr": "A terme, L’UE devrait abolir l’argent liquide.",
       "dk": "EU skal på sigt afskaffe kontanter.",
       "si": "EU bi morala na dolgi rok odpraviti gotovino.",
       "cz": "EU by měla v budoucnosti zrušit hotovost."
@@ -382,6 +424,7 @@
     "category": {
       "de": "Direktwahl",
       "en": "Direct Election",
+      "fr": "Elections directes",
       "dk": "Direkte valg",
       "si": "Neposredne volitve",
       "cz": "Příma volba"
@@ -389,6 +432,7 @@
     "thesis": {
       "de": "Der/die PräsidentIn der Europäischen Kommission soll von den Bürgerinnen und Bürgern der Europäischen Union direkt gewählt werden.",
       "en": "The President of the European Commission should be directly elected by the citizens of the European Union.",
+      "fr": "Le président de la Commission européenne devrait être élu au suffrage universel direct par les citoyens européens.",
       "dk": "Formanden for Europa-Kommissionen skal vælges direkte af EU's borgere.",
       "si": "Predsednika Evropske komisije bi morali neposredno izvoliti državljani Evropske unije.",
       "cz": "Předseda Evropské komise by měl být přímo volen občany Evropské unie."
@@ -400,6 +444,7 @@
     "category": {
       "de": "Militärausgaben",
       "en": "Military Spending",
+      "fr": "Dépenses militaires",
       "dk": "Forsvarsudgifter",
       "si": "Izdatki za vojsko",
       "cz": "Vojenské výdaje"
@@ -407,6 +452,7 @@
     "thesis": {
       "de": "Die EU-Mitgliedsstaaten sollten ihre Militärausgaben stark erhöhen.",
       "en": "EU member states should substantially increase their military spending.",
+      "fr": "Les Etats-membres de l’UE devraient considérablement augmenter leurs dépenses militaires.",
       "dk": "EU's medlemslande bør øge forsvarsmidlerne betragteligt.",
       "si": "Države članice EU bi morale znatno povečati svoje vojaške izdatke.",
       "cz": "Členské státy EU by měly výrazně zvýšit své vojenské výdaje."
@@ -418,6 +464,7 @@
     "category": {
       "de": "Arbeitslosenversicherung",
       "en": "Unemployment Insurance",
+      "fr": "Assurance chômage",
       "dk": "Arbejdsløshedsforsikring",
       "si": "Zavarovanje za primer brezposelnosti",
       "cz": "Pojištění pro případ nezaměstnanosti"
@@ -425,6 +472,7 @@
     "thesis": {
       "de": "Es sollte eine gemeinsame Arbeitslosenversicherung auf europäischer Ebene geben.",
       "en": "There should be a common unemployment insurance for all member states within Europe.",
+      "fr": "Il devrait y avoir une assurance chômage commune à tous les Etats-membres de l’UE.",
       "dk": "Der bør være en fælles arbejdsløshedsforsikring for alle medlemslande i EU.",
       "si": "Za vse države članice EU bi moralo obstajati skupno zavarovanje za primer brezposelnosti.",
       "cz": "Mělo by existovat společné pojištění v nezaměstnanosti pro všechny členské státy v rámci Evropy."
@@ -436,6 +484,7 @@
     "category": {
       "de": "Freihandel",
       "en": "Free Trade Agreements",
+      "fr": "Accords de libre-échange",
       "dk": "Frihandelsaftaler",
       "si": "Prostotrgovinski sporazumi",
       "cz": "Dohody o volném obchodu"
@@ -443,6 +492,7 @@
     "thesis": {
       "de": "Die EU sollte keine weiteren Freihandelsabkommen abschließen.",
       "en": "The EU should not conclude further free trade agreements.",
+      "fr": "L’UE ne devrait pas négocier de nouveaux accords de libre-échange.",
       "dk": "EU skal ikke indgå flere frihandelsaftaler.",
       "si": "EU ne bi smela sklepati nadaljnjih prostotrgovinskih sporazumov.",
       "cz": "EU by neměla uzavírat další dohody o volném obchodu."
@@ -454,6 +504,7 @@
     "category": {
       "de": "Bürokratieabbau",
       "en": "Reduction of Bureaucracy",
+      "fr": "Réduction de la bureaucratie",
       "dk": "Mindre bureaukrati",
       "si": "Zmanjšanje birokracije",
       "cz": "Snížení byrokracie"
@@ -461,6 +512,7 @@
     "thesis": {
       "de": "Der Standort des Europäischen Parlaments in Strasburg sollte abgeschafft werden (Brüssel bleibt als einziger Standort erhalten).",
       "en": "The site of the European Parliament in Strasbourg should be abolished (Brussels remains as the only site).",
+      "fr": "Le siège du Parlement européen à Strasbourg devrait disparaître (l’unique siège demeurant à Bruxelles).",
       "dk": "Europa-Parlamentets aktiviteter i Strasbourg skal nedlægges, så det alene har sæde i Bruxelles.",
       "si": "Sedež Evropskega parlamenta v Strasbourgu bi morali ukiniti (Bruselj ostane kot edini sedež).",
       "cz": "Sídlo Evropského parlamentu ve Štrasburku by mělo být zrušeno (Brusel by se stal jediným sídlem)."
@@ -472,6 +524,7 @@
     "category": {
       "de": "Ländliche Regionen",
       "en": "Rural Regions",
+      "fr": "Régions rurales",
       "dk": "Fjernområder/landområder",
       "si": "Podeželje",
       "cz": "Obsluha venkova"
@@ -479,6 +532,7 @@
     "thesis": {
       "de": "Verkehr und öffentliche Versorgung sollen schwerpunktmäßig in ländlichen Regionen gefördert werden.",
       "en": "Transport and public services are to be promoted primarily in rural regions.",
+      "fr": "Les transports et services publics devraient être soutenus en priorité dans les zones rurales.",
       "dk": "Transport og offentlige services skal prioriteres højest til landområder.",
       "si": "Promet in javne storitve je potrebno spodbujati predvsem na podeželskih območjih.",
       "cz": "Dopravní a veřejné služby mají být podporovány především ve venkovských regionech."
@@ -490,6 +544,7 @@
     "category": {
       "de": "Grenzkontrollen",
       "en": "Border Control",
+      "fr": "Contrôles aux frontières",
       "dk": "Grænsekontrol",
       "si": "Nadzor meja",
       "cz": "Kontrola hranic"
@@ -497,6 +552,7 @@
     "thesis": {
       "de": "Grenzkontrollen im Schengen-Raum sollten immer möglich sein.",
       "en": "Border controls should always be possible in the Schengen area.",
+      "fr": "Les contrôles aux frontières devraient toujours être possibles au sein de l’Espace Schengen.",
       "dk": "Grænsekontrol bør altid være muligt inden for Schengen-området.",
       "si": "Nadzor meja znotraj schengenskega območja bi moral biti vedno mogoč.",
       "cz": "Hraniční kontroly by měly být vždy možné v rámci schengenského prostoru."
@@ -508,6 +564,7 @@
     "category": {
       "de": "Sozialleistungen",
       "en": "Social Welfare Benefits",
+      "fr": "Prestations sociales",
       "dk": "Velfærdsydelser",
       "si": "Socialno varstvo",
       "cz": "Sociální dávky"
@@ -515,6 +572,7 @@
     "thesis": {
       "de": "EU-Bürger sollen Sozialleistungen hauptsächlich von ihrem Heimatland empfangen.",
       "en": "EU-citizens should receive social welfare benefits primarily from their home countries.",
+      "fr": "Les citoyens européens devraient recevoir leurs prestations sociales principalement de leur pays d’origine.",
       "dk": "EU-borgere skal primært modtage sociale ydelser fra deres hjemlande.",
       "si": "Državljani EU bi morali socialno pomoč prejemati primarno s strani svoje matične države.",
       "cz": "Občané EU by měli dostávat sociální dávky především ze svých domovských zemí."
@@ -526,6 +584,7 @@
     "category": {
       "de": "Vetorecht in der Außenpolitik",
       "en": "Veto Right in Foreign Policy",
+      "fr": "Droit de véto en politique étrangère",
       "dk": "Vetoret",
       "si": "Pravica do veta v zunanji politiki",
       "cz": "Veto v zahraniční politice"
@@ -533,6 +592,7 @@
     "thesis": {
       "de": "Ein einzelner Mitgliedsstaat sollte in Zukunft keine Mehrheitsentscheidung in der europäischen Außenpolitik blockieren können.",
       "en": "In future, a single member state should not be able to block majority decisions in European foreign policy.",
+      "fr": "A l’avenir, un seul Etat-membre ne devrait pas pouvoir bloquer une décision majoritaire de politique étrangère européenne.",
       "dk": "Fremover skal et enkelt medlemsland ikke have ret til at blokere en udenrigspolitisk beslutning i EU.",
       "si": "V prihodnosti posamezna država članica ne bi smela imeti možnosti, da blokira odločitev večine v evropski zunanji politiki.",
       "cz": "V budoucnu by jeden členský stát neměl být schopen blokovat většinová rozhodnutí v evropské zahraniční politice."
@@ -544,6 +604,7 @@
     "category": {
       "de": "Lebensmittel/Verbraucherschutz",
       "en": "Food/Consumer Protection",
+      "fr": "Protection du consommateur",
       "dk": "Fødevare- og forbrugersikkerhed",
       "si": "Hrana/varstvo potrošnikov",
       "cz": "Ochrana spotřebitele"
@@ -551,6 +612,7 @@
     "thesis": {
       "de": "Es sollte eine EU-weite Ampelkennzeichnung von Zucker-, Fett- und Kaloriengehalt für Lebensmittel eingeführt werden.",
       "en": "EU-wide colour-coded labelling of sugar, fat and calorie content for food should be introduced.",
+      "fr": "Un étiquetage coloré commun dans toute l'UE pour labéliser les produits contenant du sucre, du gras et des calories devrait être mis en place.",
       "dk": "Der skal indføres en farvekodet mærkning af sukker-, fedt- og kalorieindhold i fødevarer i hele EU.",
       "si": "Po celotni EU bi morali uvesti barvno kodiranje za označevanje vsebnosti sladkorja, maščob in kalorij v živilih.",
       "cz": "Mělo by být zavedeno celoevropské označování cukru, tuku a kalorií v potravinách."
@@ -562,6 +624,7 @@
     "category": {
       "de": "Finanzmärkte (Finanztransaktionssteuer)",
       "en": "Financial Markets (Financial Transaction Tax)",
+      "fr": "Marchés financiers",
       "dk": "Finansskat",
       "si": "Finančni trgi (davek na finančne transakcije)",
       "cz": "Finanční trhy (Daň z finančních transakcí)"
@@ -569,6 +632,7 @@
     "thesis": {
       "de": "Die EU sollte Finanzmärkte besteuern.",
       "en": "The EU should tax financial markets.",
+      "fr": "L’UE devrait taxer les marchés financiers.",
       "dk": "EU skal indføre en skat på finansielle transaktioner.",
       "si": "Evropska unija bi morala obdavčiti finančne trge.",
       "cz": "EU by měla zdanit finanční trhy."
@@ -580,6 +644,7 @@
     "category": {
       "de": "EU Mitgliedschaft",
       "en": "EU Membership",
+      "fr": "Appartenance à l'UE",
       "dk": "EU-medlemskab",
       "si": "Članstvo v EU",
       "cz": "Členství v EU"
@@ -587,6 +652,7 @@
     "thesis": {
       "de": "Es sollte in meinem Land ein Referendum über die EU-Mitgliedschaft meines Landes geben.",
       "en": "My country should have a referendum on its EU membership.",
+      "fr": "Il devrait y avoir un référendum concernant l'appartenance à l'UE de mon pays",
       "dk": "Mit land skal holde en afstemning om EU-medlemskabet.",
       "si": "Slovenija bi morala imeti referendum o članstvu v Evropski uniji.",
       "cz": "Moje země by měla mít referendum o členství v EU."
