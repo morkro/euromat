@@ -1,8 +1,9 @@
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
+import { IPDATA_URL } from '@/config/api'
 import i18n from './index'
 
 export const getCountryByIP = async () => {
-  const response = await fetch('https://api.ipdata.co/?api-key=test')
+  const response = await fetch(IPDATA_URL)
   return response.json()
 }
 

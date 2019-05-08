@@ -156,7 +156,6 @@
         .map(this.getScorePerParty)
         .sort((a, b) => a.score - b.score)
         .reverse()
-      console.log(parties)
       this.totalScoredPoints = this.scores
         .map(s => s.highestScore)
         .reduce(addUp, 0)
