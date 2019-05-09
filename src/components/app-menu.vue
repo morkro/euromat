@@ -132,6 +132,10 @@
       li:last-child {
         margin-right: 0;
       }
+
+      a {
+        text-align: center;
+      }
     }
 
     li {
