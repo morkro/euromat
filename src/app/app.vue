@@ -30,10 +30,11 @@
 
 <script>
   import '@/assets/icons/european-stars'
+  import { IPDATA_URL } from '@/config/api'
   import { GA_COOKIE_NAME } from '@/config/analytics'
   import { SUPPORTED_LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
-  import { getCountryByIP, getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
+  import { getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'App',
@@ -120,7 +121,8 @@
     },
 
     async created () {
-      const ipData = await getCountryByIP()
+      const ipResponse = await fetch(IPDATA_URL)
+      const ipData = ipResponse.json()
       this.userCountry = ipData.country_code
     },
 

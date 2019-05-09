@@ -1,11 +1,5 @@
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
-import { IPDATA_URL } from '@/config/api'
 import i18n from './index'
-
-export const getCountryByIP = async () => {
-  const response = await fetch(IPDATA_URL)
-  return response.json()
-}
 
 export const isLangSupported = lang =>
   SUPPORTED_LOCALES.some(([locale]) => locale === lang)
@@ -60,6 +54,8 @@ export function getTranslatedAliases (data, section) {
       .filter(Boolean)
   )]
 }
+
+console.log('getTranslatedAliases inside', getTranslatedAliases)
 
 export function getTranslatedUrl (section, prefixUrl, omitLocale = false) {
   const messages = i18n.messages[getCurrentLocale()][section]

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import * as i18n from '@/i18n/helper'
+import { getUserSupportedLanguage } from '@/i18n/helper'
 import BaseLocaleRouter from '@/components/base-locale-router'
 import { getPageTitle, beforeEnter } from '@/router/helper'
 
@@ -41,7 +41,7 @@ const router = new Router({
     {
       path: '*',
       redirect (to) {
-        return i18n.getUserSupportedLanguage()
+        return getUserSupportedLanguage()
       }
     }
   ]

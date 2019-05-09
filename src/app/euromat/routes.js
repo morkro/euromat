@@ -2,7 +2,7 @@ import { DEFAULT_LOCALE } from '@/config'
 import i18n from '@/i18n'
 import localI18n from './i18n'
 import { storageAvailable } from '@/helper/storage'
-import { getTranslatedAliases, getTranslatedTitles } from '@/i18n/helper'
+import { getTranslatedTitles, getTranslatedAliases } from '@/i18n/helper'
 
 function hasAnswers (to, from, next) {
   if (storageAvailable('sessionStorage') && !sessionStorage.getItem('euromat-answers')) {
