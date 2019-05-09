@@ -24,11 +24,14 @@ export function getUserLanguage () {
     window.navigator.userLanguage ||
     DEFAULT_LOCALE
   )
-  return lang.split('-')[0]
+  return {
+    language: lang.split('-')[0],
+    country: lang.split('-')[1]
+  }
 }
 
 export function getUserSupportedLanguage () {
-  const language = getUserLanguage()
+  const { language } = getUserLanguage()
   return isLangSupported(language)
     ? language
     : DEFAULT_LOCALE

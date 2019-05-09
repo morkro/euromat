@@ -33,14 +33,14 @@
   import { GA_COOKIE_NAME } from '@/config/analytics'
   import { SUPPORTED_LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
-  import { getCountryByIP, getTranslatedUrl } from '@/i18n/helper'
+  import { getCountryByIP, getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'App',
 
     data () {
       return {
-        userCountry: null,
+        userCountry: getUserLanguage().country,
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         logoSize: 220,
