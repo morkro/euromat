@@ -121,9 +121,15 @@
     },
 
     async created () {
-      const ipResponse = await fetch(IPDATA_URL)
-      const ipData = ipResponse.json()
-      this.userCountry = ipData.country_code
+      try {
+        const ipResponse = await fetch(IPDATA_URL)
+        const ipData = ipResponse.json()
+        if (ipData.country_code) {
+          this.userCountry = ipData.country_code
+        }
+      } catch (error) {
+        console.warn('Unable to fetch geo location:', error)
+      }
     },
 
     methods: {
