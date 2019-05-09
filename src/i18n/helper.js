@@ -18,21 +18,17 @@ export const setCurrentLocale = (locale) => {
   }
 }
 
-export async function getUserLanguage () {
+export function getUserLanguage () {
   const lang = (
     window.navigator.language ||
     window.navigator.userLanguage ||
     DEFAULT_LOCALE
   )
-  const ipData = await getCountryByIP()
-  return {
-    language: lang.split('-')[0],
-    country: ipData.country_code || lang.split('-')[1].toLowerCase()
-  }
+  return lang.split('-')[0]
 }
 
 export function getUserSupportedLanguage () {
-  const { language } = getUserLanguage()
+  const language = getUserLanguage()
   return isLangSupported(language)
     ? language
     : DEFAULT_LOCALE

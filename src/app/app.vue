@@ -33,7 +33,7 @@
   import { GA_COOKIE_NAME } from '@/config/analytics'
   import { SUPPORTED_LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
-  import { getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
+  import { getCountryByIP, getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'App',
@@ -120,8 +120,8 @@
     },
 
     async created () {
-      const { country } = await getUserLanguage()
-      this.userCountry = country
+      const ipData = await getCountryByIP()
+      this.userCountry = ipData.country_code
     },
 
     methods: {
