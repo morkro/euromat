@@ -20,6 +20,8 @@
   @import "~@/styles/layout";
 
   progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
     width: 100%;
     height: 60px;
@@ -33,7 +35,8 @@
       border-radius: $border-radius;
     }
 
-    &::-webkit-progress-value {
+    &::-webkit-progress-value,
+    &::-moz-progress-bar {
       background: $button-background-primary;
       border-radius: $border-radius;
       box-shadow: $button-shadow;
