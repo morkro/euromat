@@ -2,9 +2,9 @@
   "language": "si",
   "url": "rezultat",
   "title": "Rezultat",
-  "backBtn": "nazaj",
-  "positive": "strinjam se",
-  "neutral": "nevtralen",
-  "negative": "ne strinjam se",
+  "backBtn": "Nazaj",
+  "positive": "Strinjam se",
+  "neutral": "Nevtralen",
+  "negative": "Ne strinjam se",
   "skipped": "Izpusti trditev"
 }
