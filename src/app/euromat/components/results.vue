@@ -416,11 +416,12 @@
       margin-left: calc(#{$small-gap} / 2);
 
       > div {
-        width: 50px;
+        width: 70px;
         height: auto;
         display: inline-flex;
         justify-content: center;
         align-items: center;
+        vertical-align: middle;
       }
 
       img {
