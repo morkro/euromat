@@ -35,8 +35,13 @@
       border-radius: $border-radius;
     }
 
-    &::-webkit-progress-value,
     &::-moz-progress-bar {
+      background: $button-background-primary;
+      border-radius: $border-radius;
+      box-shadow: $button-shadow;
+    }
+
+    &::-webkit-progress-value {
       background: $button-background-primary;
       border-radius: $border-radius;
       box-shadow: $button-shadow;
