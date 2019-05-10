@@ -79,6 +79,20 @@
         <feather-rotate-cw />
       </router-link>
     </div>
+
+    <div class="results-affiliation">
+      <a
+        href="https://www.talkingeurope.com/"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          :src="talkingEuropeBanner"
+          title="Talking Europe"
+          alt="Talking Europe Banner"
+        >
+      </a>
+    </div>
   </section>
 </template>
 
@@ -128,6 +142,14 @@
           this.$route.query.embedded &&
           this.$route.query.embedded === 'iframe'
         )
+      },
+      talkingEuropeBanner () {
+        try {
+          return require(`@/assets/talkingeurope/talkingeurope-${this.$i18n.locale}.png`)
+        } catch (e) {
+          console.warn('TalkingEurope image not found, defaulting to "en". ', e)
+          return require(`@/assets/talkingeurope/talkingeurope-en.png`)
+        }
       }
     },
 
@@ -453,6 +475,33 @@
 
     a:first-of-type {
       margin-right: $small-gap;
+    }
+  }
+
+  .results-affiliation {
+    background: $medium-blue;
+    width: 100%;
+    margin-top: $base-gap * 2;
+    padding: calc(#{$small-gap} / 2);
+    border-radius: calc(#{$border-radius} / 3);
+
+    @media (max-width: 650px) {
+      padding: 0;
+      margin-top: $base-gap * 2;
+      border-top: 4px solid $transparent-white;
+      padding-top: $small-gap;
+      border-radius: 0;
+      background: transparent;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
     }
   }
 </style>
