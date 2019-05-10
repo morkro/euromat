@@ -3,39 +3,32 @@
   "url": "partner",
   "title": "Partner",
   "headline": "Partner",
-  "content": "We could provide the EUROMAT in 10 European countries thanks to the support of our friends and partners all over Europe.",
+  "content": "Dank der Unterstützung unserer Freunde und Partner in ganz Europa können wir den EUROMAT in 10 europäischen Ländern anbieten.",
   "partners": [
     {
       "name": "ARGO",
       "url": "http://argothinktank.org/en/",
-      "description": "In the European super election year 2017, foraus’ and Polis180’s new sister think tank, «Argo», sets foot in France. Argo is set out on March 23rd with their official launch press conference, in Paris."
+      "description": "ARGO ist ein neuer \"Crowdsourcing\" Thinktank ansässig in Paris mit dem Ziel die Lücke zwischen Politik und Menschen zu schließen. ARGO ist inklusiv, Fakten basierend, vernetzt und optimistisch."
     },
     {
       "name": "PONTO",
       "url": "http://www.pontothinktank.org/",
-      "description": "A small group in Vienna brings the grassroots concept to Austria's think tank landscape. Vienna as a melting pot of cultures and its position as a mediator between the «West» and the «East», Vienna as a hub for global politics and last but not least all the challenges in Austria's national political sphere - all that requires a new democratic voice."
+      "description": "Ponto ist ein in Wien ansässiger junger Grassroots Think Tank, der die österreichische Debatte zur Europa- und Außenpolitik aufmischen will. Ponto ist eine innovative, dynamische und überparteiliche Organisation, die zudem Teil des europaweiten \"Open Think Tank Network (OTTN)\" ist. Den inhaltlichen Hauptfokus bilden Themen wie Osteuropa, Digitalisierung, Nachhaltigkeit und EU-Außenpolitik."
     },
     {
-      "name": "JEF",
+      "name": "JEF Tschechien",
       "url": "https://www.mladievropane.cz/",
-      "description": "Naším cílem je silná Evropa, která nám umožní uchovat naše hodnoty i v chaotickém světě."
+      "description": "Das Hauptziel von JEF ist die Schaffung einer demokratischen europäischen Föderation. Dies ist ein wichtiger Bestandteil für Frieden und eine Garantie für eine freiere, gerechte und demokratische Gesellschaft. JEF setzt sich für eine echte europäische Staatsbürgerschaft ein, arbeitet an der Erweiterung und Vertiefung der EU und strebt nach einer gerechteren und integrierten Gesellschaft auf dem europäischen Kontinent. Es ist unabhängig von allen Parteien und Ideologien und verfolgt seine Ziele eigenständig. JEF zielt darauf ab, Europa den Bürger\\*innen näher und die Bürger\\*innen näher an Europa zu bringen."
     },
     {
       "name": "THINKTANK EUROPA",
       "url": "http://english.thinkeuropa.dk/think-tank-europa",
-      "description": "We are an independent think tank focusing on European issues. We are dedicated to finding constructive and forward-looking answers to Denmark’s role in the European Union."
+      "description": "Think Tank EUROPA ist ein unabhängiger Thinktank aus Kopenhagen, Dänemark, der sich auf europäische Themen fokussiert. Auf der Basis von kompetenter Forschung und eignen Analysen, charakterisiert, verfeinert und beeinflusst der Thinktank die Debatte über Europa in Dänemark zum Vorteil einer weiteren Öffentlichkeit und mit dem Anspruch das Wissen der dänischen Öffentlichkeit über die EU zu erhöhen."
     },
     {
       "name": "INSTITUTE for POLITICAL MANAGEMENT",
       "url": "https://ipm.si/en/homepage/",
-      "description": "Think tank, established with a purpose of researching, developing and applied operation in the field of political management."
-    }
-  ],
-  "communication": [
-    {
-      "name": "AEGEE",
-      "url": "https://www.aegee.org/",
-      "description": "foo"
+      "description": "Das Institute for POLITICAL MANAGEMENT (IPM) ist ein Thinktank, der mit Ziel in dem Bereich der Politik, genauer gesagt im Bereich des politischen Managements, zu forschen, zu entwickeln und anzuwenden, gegründet wurde. Aufgrund vieler Jahre des angewandten Arbeitens und Forschens, stellen Mitarbeiter*innen unserer Einrichtung ein umfassendes Angebot an Dienstleistungen im Bereich des politischen Managements, der Krisenkommunikation, des Lobbying und Beratung in politischen Situationen und Prozessen zur Verfügung."
     }
   ]
 }
