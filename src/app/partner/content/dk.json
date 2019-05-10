@@ -8,7 +8,7 @@
     {
       "name": "ARGO",
       "url": "http://argothinktank.org/en/",
-      "description": "In the European super election year 2017, foraus’ and Polis180’s new sister think tank, «Argo», sets foot in France. Argo is set out on March 23rd with their official launch press conference, in Paris."
+      "description": "ARGO is a new crowdsourcing think tank based in Paris with the aim to reduce the gap between policy and people. ARGO is inclusive, fact based, connected and optimistic."
     },
     {
       "name": "PONTO",
@@ -16,9 +16,9 @@
       "description": "A small group in Vienna brings the grassroots concept to Austria's think tank landscape. Vienna as a melting pot of cultures and its position as a mediator between the «West» and the «East», Vienna as a hub for global politics and last but not least all the challenges in Austria's national political sphere - all that requires a new democratic voice."
     },
     {
-      "name": "JEF",
+      "name": "JEF Czech Republic",
       "url": "https://www.mladievropane.cz/",
-      "description": "Naším cílem je silná Evropa, která nám umožní uchovat naše hodnoty i v chaotickém světě."
+      "description": "JEF´s primary goal is the creation of a democratic European federation as a crucial ingredient for peace, a guarantee for a more free, just and democratic society. JEF promotes true European Citizenship, works for the widening and deepening of the EU and strives for a more just and integrated society on the European continent. It is independent from all political parties and ideologies and pursues its objectives autonomously. JEF aims at bringing Europe closer to the Citizens and the Citizens closer to Europe."
     },
     {
       "name": "THINKTANK EUROPA",
@@ -28,14 +28,7 @@
     {
       "name": "INSTITUTE for POLITICAL MANAGEMENT",
       "url": "https://ipm.si/en/homepage/",
-      "description": "Think tank, established with a purpose of researching, developing and applied operation in the field of political management."
-    }
-  ],
-  "communication": [
-    {
-      "name": "AEGEE",
-      "url": "https://www.aegee.org/",
-      "description": "foo"
+      "description": "The Institute for Political Management (IPM) is a think tank established with the purpose of researching, developing and applied operation in the field of politics, more concretely in the field of political management. Due to many years of applied work and research, associates of our consortium provide a comprehensive set of services in the fields of political management, crisis communication, advocacy, lobbying, and consulting in political situations and processes."
     }
   ]
 }
