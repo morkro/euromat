@@ -30,18 +30,16 @@
 
 <script>
   import '@/assets/icons/european-stars'
-  import { IPDATA_URL } from '@/config/api'
   import { GA_COOKIE_NAME } from '@/config/analytics'
   import { SUPPORTED_LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
-  import { getUserLanguage, getTranslatedUrl } from '@/i18n/helper'
+  import { getTranslatedUrl } from '@/i18n/helper'
 
   export default {
     name: 'App',
 
     data () {
       return {
-        userCountry: getUserLanguage().country,
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
         logoSize: 220,
@@ -117,18 +115,6 @@
           this.$route.query.embedded &&
           this.$route.query.embedded === 'iframe'
         )
-      }
-    },
-
-    async created () {
-      try {
-        const ipResponse = await fetch(IPDATA_URL)
-        const ipData = ipResponse.json()
-        if (ipData.country_code) {
-          this.userCountry = ipData.country_code
-        }
-      } catch (error) {
-        console.warn('Unable to fetch geo location:', error)
       }
     },
 

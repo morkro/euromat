@@ -97,7 +97,8 @@
 </template>
 
 <script>
-  import { getTranslatedUrl } from '@/i18n/helper'
+  import { IPDATA_URL } from '@/config/api'
+  import { getTranslatedUrl, getUserLanguage } from '@/i18n/helper'
   import {
     MAX_POINTS,
     BASE_POINTS,
@@ -123,7 +124,7 @@
 
     data () {
       return {
-        userCountry: this.$root.$children[0].userCountry.toLowerCase(),
+        userCountry: getUserLanguage().country,
         scoringGrid: [],
         answers: [],
         emphasized: [],
@@ -153,7 +154,7 @@
       }
     },
 
-    created () {
+    async created () {
       let emphasized
       let answers
 
@@ -167,6 +168,16 @@
 
       if (!emphasized) {
         this.$router.push({ path: getTranslatedUrl('theses') })
+      }
+
+      try {
+        const ipResponse = await fetch(IPDATA_URL)
+        const ipData = await ipResponse.json()
+        if (ipData.country_code) {
+          this.userCountry = ipData.country_code.toLowerCase()
+        }
+      } catch (error) {
+        console.warn('Unable to fetch geo location:', error)
       }
 
       this.emphasized = emphasized
