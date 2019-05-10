@@ -18,8 +18,8 @@
     "clipboard": "In Zwischenablage kopiert"
   },
   "cookieConsent": {
-    "text": "This website uses cookies to ensure you get the best experience on our website.",
-    "btnDecline": "Decline",
-    "btnAccept": "Accept"
+    "text": "Diese Website verwendet Cookies, um die bestmögliche Erfahrung auf unserer Website zu ermöglichen.",
+    "btnDecline": "Ablehnen",
+    "btnAccept": "Akzeptieren"
   }
 }
