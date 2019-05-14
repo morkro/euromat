@@ -18,8 +18,8 @@
     "clipboard": "Copied to clipboard"
   },
   "cookieConsent": {
-    "text": "This website uses cookies to ensure you get the best experience on our website.",
-    "btnDecline": "Decline",
-    "btnAccept": "Accept"
+    "text": "Ta spletna stran uporablja piškotke, saj vam želimo zagotoviti najboljšo uporabniško izkušnjo na naši spletni strani.",
+    "btnDecline": "Zavrni",
+    "btnAccept": "Sprejmi"
   }
 }
