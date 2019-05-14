@@ -1,12 +1,12 @@
 {
-  "startoverBtn": "Začeti znova",
+  "startoverBtn": "Začni znova",
   "hint": "Še tole: s klikom na posamezno stranko lahko dostopate do povzetka njihovih stališč do vseh trditev. Preverite, kako so odgovarjale stranke in njihove odgovore primerjajte s svojimi.",
   "thanks": "Hvala, da ste uporabili EUROMAT. Upamo, da ste se imeli dobro. In ne pozabite: 26. maja so volitve v Evropski parlament!",
-  "indexBtn": "Nazaj na ciljno stran",
+  "indexBtn": "Nazaj na začetno stran",
   "url": "rezultat",
   "entry": "Super, zaključili ste! Vas zanima vaš rezultat? Ne bomo vas pustili čakati, tukaj je vaš rezultat:",
   "nationalParty": "Član stranke v vaši državi",
-  "headline": "Vaš rezultat",
+  "headline": "Vaši rezultati",
   "title": "Rezultat",
   "language": "si"
 }
