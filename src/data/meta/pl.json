@@ -1,0 +1,25 @@
+{
+  "language": "pl",
+  "title": "[PL] Settings",
+  "topMenu": {
+    "index": "Landing page",
+    "faq": "FAQ",
+    "about": "About us",
+    "partner": "Partner",
+    "contact": "Contact"
+  },
+  "footerMenu": {
+    "imprint": "Imprint",
+    "privacy": "Data privacy"
+  },
+  "socialMedia": {
+    "twitter": "The #EP19 elections are coming up! Curious what the European Parties parties say? Compare views & see your match w/#EUROMAT:",
+    "facebook": "The #EP19 elections are coming up! Curious what the European Parties are advocating for? Compare your views w/#EUROMAT & see who you match up with!",
+    "clipboard": "Copied to clipboard"
+  },
+  "cookieConsent": {
+    "text": "This website uses cookies to ensure you get the best experience on our website.",
+    "btnDecline": "Decline",
+    "btnAccept": "Accept"
+  }
+}

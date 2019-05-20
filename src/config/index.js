@@ -13,7 +13,8 @@ const SUPPORTED_LOCALES = [
   [LOCALE_FRENCH, 'Français'],
   [LOCALE_DANISH, 'Dansk'],
   [LOCALE_SLOVENIAN, 'Slovenščina'],
-  [LOCALE_CZECH, 'Čeština']
+  [LOCALE_CZECH, 'Čeština'],
+  [LOCALE_POLISH, 'Polski']
 ]
 
 module.exports = {

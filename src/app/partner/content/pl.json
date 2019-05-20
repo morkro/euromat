@@ -1,0 +1,34 @@
+{
+  "language": "pl",
+  "url": "partner",
+  "title": "[PL] Partner",
+  "headline": "Partner",
+  "content": "We couldn't have provided the EUROMAT in 10 European countries without support of our friends and partners all over Europe.",
+  "partners": [
+    {
+      "name": "ARGO",
+      "url": "http://argothinktank.org/en/",
+      "description": "ARGO is a new crowdsourcing think tank based in Paris with the aim to reduce the gap between policy and people. ARGO is inclusive, fact based, connected and optimistic."
+    },
+    {
+      "name": "PONTO",
+      "url": "http://www.pontothinktank.org/",
+      "description": "Ponto is a young grassroots think tank based in Vienna that wants to stir up Austria's debate on European and foreign policy. Ponto is an innovative, dynamic and non-partisan organization that is also part of the Europe-wide \"Open Think Tank Network\". Main thematic foci include Eastern Europe, digitalisation, sustainability and EU foreign policy."
+    },
+    {
+      "name": "JEF Czech Republic",
+      "url": "https://www.mladievropane.cz/",
+      "description": "JEF´s primary goal is the creation of a democratic European federation as a crucial ingredient for peace, a guarantee for a more free, just and democratic society. JEF promotes true European Citizenship, works for the widening and deepening of the EU and strives for a more just and integrated society on the European continent. It is independent from all political parties and ideologies and pursues its objectives autonomously. JEF aims at bringing Europe closer to the Citizens and the Citizens closer to Europe."
+    },
+    {
+      "name": "THINKTANK EUROPA",
+      "url": "http://english.thinkeuropa.dk/think-tank-europa",
+      "description": "Think Tank EUROPA is an independent think tank based in Copenhagen, Denmark, and focusing on European issues. On the basis of competent research and independent analysis, the think tank qualifies, refines and influences the debate on Europe in Denmark for the benefit of the broader public and with an overall ambition to increase the Danish public’s knowledge about the EU."
+    },
+    {
+      "name": "INSTITUTE for POLITICAL MANAGEMENT",
+      "url": "https://ipm.si/en/homepage/",
+      "description": "The Institute for Political Management (IPM) is a think tank, established with the purpose of researching, developing and applied operation in the field of politics, more concretely in the field of political management. Due to many years of applied work and research, associates of our consortium provide a comprehensive set of services in the fields of political management, crisis communication, advocacy, lobbying, and consulting in political situations and processes."
+    }
+  ]
+}
