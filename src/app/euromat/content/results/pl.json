@@ -1,12 +1,11 @@
 {
-  "startoverBtn": "Start over",
-  "hint": "Oh, by the way: Clicking on each party will get you to an overview of all individual statements. Take a look at what the parties answered and how your choice compares.",
-  "thanks": "Thanks for using the EUROMAT. We hope you enjoyed it and don't forget: 23rd of May is election day in Great-Britain, 24th in Ireland!",
-  "indexBtn": "Back to landing page",
+  "startoverBtn": "zacząć od nowa",
+  "hint": "Och, tak na marginesie: kliknięcie każdej strony daje przegląd wszystkich wypowiedzi. Spójrz na odpowiedzi partii europejskich i porównaj je z wyborem.",
+  "thanks": "Dziękujemy za korzystanie z EUROMAT. Mamy nadzieję, że się podobało i nie zapomnijcie: 26 maja to dzień wyborów!",
+  "indexBtn": "Powrót do strony głównej",
   "url": "results",
-  "entry": "Great, you made it! Curious about your result? We won't keep you any longer, here it is:",
-  "nationalParty": "Member party in your country:",
-  "headline": "Your results",
-  "title": "[PL] Results",
+  "entry": "Świetnie, udało ci się! Czy jesteś zainteresowany swoimi wynikami? Nie sprawimy, że będziesz czekał dłużej, tutaj jest:",
+  "headline": "Twoje wyniki",
+  "title": "Wyniki",
   "language": "pl"
 }
