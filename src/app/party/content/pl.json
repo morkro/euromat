@@ -1,11 +1,11 @@
 {
-  "partyAnswer": "Party statement",
-  "legendLabel": "Legend",
-  "url": "party",
-  "tableHeading": "Theses",
-  "subtitle": "To party program",
-  "title": "[PL] Party",
+  "partyAnswer": "komentarz partii",
+  "legendLabel": "Legenda",
+  "url": "partia",
+  "tableHeading": "twierdzenie",
+  "subtitle": "Program partii",
+  "title": "Partia",
   "language": "pl",
-  "tableUser": "Your choice",
-  "backButtonLabel": "Back to results"
+  "tableUser": "Twój wybór",
+  "backButtonLabel": "Powrót do wyników"
 }
