@@ -26,21 +26,6 @@
         </div>
       </li>
     </ul>
-
-    <!-- <ul class="communications-list">
-      <li v-for="communicationPartner in $t('partner.communication')" :key="communicationPartner.name">
-        <h2>
-          <a
-            :href="communicationPartner.url"
-            target="_blank"
-            rel="noopener"
-          >
-            {{ communicationPartner.name }}
-          </a>
-        </h2>
-        <p>{{ communicationPartner.description }}</p>
-      </li>
-    </ul> -->
   </section>
 </template>
 
@@ -50,7 +35,12 @@
 
     methods: {
       getPartnerLogo (token) {
-        const name = token.toLowerCase().replace(/\s/g, '-')
+        let name = token.toLowerCase().replace(/\s/g, '-')
+        // Hotfix, should be handled correctly.
+        if (name.includes('czech-republic')) {
+          name = name.split('-')[0]
+        }
+
         return require(`@/assets/${name}-logo.png`)
       }
     }
