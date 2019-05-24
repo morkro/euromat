@@ -12,6 +12,8 @@
     "data": "node bin/xlsx-data"
   },
   "dependencies": {
+    "@sentry/browser": "^5.3.0",
+    "@sentry/integrations": "^5.3.1",
     "lint-staged": "^8.1.5",
     "register-service-worker": "^1.6.2",
     "stylelint": "^9.10.1",

@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueSVGIcon from 'vue-svgicon'
 import VueAnalytics from 'vue-analytics'
+import { init as initSentry } from '@sentry/browser'
+import * as Integrations from '@sentry/integrations'
 
 import App from '@/app/app'
 import router from '@/router'
@@ -23,6 +25,13 @@ Vue.use(VueAnalytics, {
     sendHitTask: process.env.NODE_ENV === 'production'
   }
 })
+
+if (process.env.NODE_ENV === 'production') {
+  initSentry({
+    dsn: process.env.VUE_APP_SENTRY_DSN,
+    integrations: [new Integrations.Vue({ Vue, attachProps: true })]
+  })
+}
 
 new Vue({
   i18n,
