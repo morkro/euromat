@@ -37,8 +37,8 @@
       getPartnerLogo (token) {
         let name = token.toLowerCase().replace(/\s/g, '-')
         // Hotfix, should be handled correctly.
-        if (name.includes('czech-republic')) {
-          name = name.split('-')[0]
+        if (name.includes('jef')) {
+          name = 'jef'
         }
 
         return require(`@/assets/${name}-logo.png`)
