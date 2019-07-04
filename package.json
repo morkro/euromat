@@ -9,7 +9,9 @@
     "test:unit": "vue-cli-service test:unit",
     "svg": "vsvg -s ./src/assets/svg -t ./src/assets/icons",
     "admin": "node bin/admin-yml",
-    "data": "node bin/xlsx-data"
+    "data": "node bin/xlsx-data",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@sentry/browser": "^5.3.0",
@@ -27,7 +29,8 @@
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.3",
     "vue-svgicon": "^3.2.5",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.5",
@@ -69,5 +72,6 @@
       "npm run admin",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }
