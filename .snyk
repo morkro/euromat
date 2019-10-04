@@ -734,3 +734,8 @@ patch:
         patched: '2019-07-04T11:09:49.228Z'
     - '@vue/cli-plugin-unit-jest > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash':
         patched: '2019-07-04T11:09:49.228Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T06:06:31.795Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T06:06:31.795Z'
