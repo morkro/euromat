@@ -4,11 +4,11 @@
       <p>{{ $t('meta.cookieConsent.text') }}</p>
       <div class="consent-actions">
         <button @click="updateConsent(false)">
-          {{ $t('meta.cookieConsent.btnDecline') }}
-        </button>
+{{ $t('meta.cookieConsent.btnDecline') }}
+</button>
         <button @click="updateConsent(true)">
-          {{ $t('meta.cookieConsent.btnAccept') }}
-        </button>
+{{ $t('meta.cookieConsent.btnAccept') }}
+</button>
       </div>
     </div>
   </section>
@@ -36,6 +36,8 @@
     position: fixed;
     z-index: 4;
     bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100vw;
     max-width: $app-width;
     background: $background-secondary;
@@ -51,6 +53,8 @@
       margin-bottom: 0;
       border-radius: 0;
       box-shadow: 0;
+      left: 0;
+      transform: none;
     }
 
     .consent-content {

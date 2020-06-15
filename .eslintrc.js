@@ -4,10 +4,7 @@ module.exports = {
     node: true,
     jest: true
   },
-  'extends': [
-    'plugin:vue/recommended',
-    '@vue/standard'
-  ],
+  extends: ['plugin:vue/recommended', '@vue/standard'],
   globals: {
     FB: true
   },
@@ -16,14 +13,17 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'vue/script-indent': 'off',
     'vue/html-indent': 'off',
-    'vue/max-attributes-per-line': [2, {
-      'singleline': 2,
-      'multiline': {
-        'max': 1,
-        'allowFirstLine': true
+    'vue/max-attributes-per-line': [
+      2,
+      {
+        singleline: 2,
+        multiline: {
+          max: 1,
+          allowFirstLine: true
+        }
       }
-    }],
-    'indent': 'off',
+    ],
+    indent: 'off',
     'arrow-parens': 'off',
     'generator-star-spacing': 'off'
   },
