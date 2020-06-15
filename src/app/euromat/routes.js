@@ -26,7 +26,7 @@ export default [
         }
       },
       {
-        path: 'emphasis',
+        path: localI18n[DEFAULT_LOCALE].emphasis.url,
         alias: getTranslatedAliases(localI18n, 'emphasis'),
         name: 'emphasis',
         component: () => import('./components/emphasis' /* webpackChunkName: "euromat" */),
@@ -36,7 +36,7 @@ export default [
         }
       },
       {
-        path: 'results',
+        path: localI18n[DEFAULT_LOCALE].results.url,
         alias: getTranslatedAliases(localI18n, 'results'),
         name: 'results',
         component: () => import('./components/results' /* webpackChunkName: "euromat" */),
