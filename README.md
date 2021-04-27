@@ -1,6 +1,6 @@
-# EUROMAT
+# EUROMAT [![Netlify Status](https://api.netlify.com/api/v1/badges/ab25f2eb-228a-421f-b143-5c2f7affb90b/deploy-status)](https://app.netlify.com/sites/euromat/deploys)
 
-A Vue.js powered, progressive web voting application for upcoming European elections. EUROMAT is hosted on _Netlify_ and uses the **Netlify CMS** for easier collaboration.
+A Vue.js-powered, progressive web voting application for European elections. EUROMAT is hosted on _Netlify_ and uses the **Netlify CMS** for easier collaboration. 
 
 ## Calculation Model
 
