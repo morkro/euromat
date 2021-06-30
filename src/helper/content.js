@@ -1,4 +1,9 @@
-export function loadContent (prefix, requireContent) {
+/**
+ * @param {string} prefix
+ * @param {object} requireContent
+ * @returns object
+ */
+export function loadContent(prefix, requireContent) {
   if (!prefix || !requireContent) {
     throw new Error('loadContent: prefix and requireContent are both required!')
   }

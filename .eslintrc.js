@@ -1,3 +1,7 @@
+const off = 0
+const warn = 1
+const error = 2
+
 module.exports = {
   root: true,
   env: {
@@ -9,10 +13,18 @@ module.exports = {
     FB: true
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'vue/script-indent': 'off',
-    'vue/html-indent': 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? error : off,
+    'no-debugger': process.env.NODE_ENV === 'production' ? error : off,
+    'vue/script-indent': off,
+    'vue/html-indent': [
+      error,
+      2,
+      {
+        attribute: 1,
+        baseIndent: 1,
+        closeBracket: 0
+      }
+    ],
     'vue/max-attributes-per-line': [
       2,
       {
@@ -23,9 +35,9 @@ module.exports = {
         }
       }
     ],
-    indent: 'off',
-    'arrow-parens': 'off',
-    'generator-star-spacing': 'off'
+    indent: off,
+    'arrow-parens': off,
+    'generator-star-spacing': off
   },
   parserOptions: {
     parser: 'babel-eslint'
