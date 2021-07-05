@@ -14,38 +14,36 @@
 
 <script>
   export default {
-    name: 'FAQ'
+    name: 'FAQ',
   }
 </script>
 
-<style lang="scss">
-  @import "~@/styles/layout";
-
+<style lang="postcss">
   .faq-page {
     h1 {
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
     }
 
     ul {
       list-style: none;
 
       li:not(:last-child) {
-        margin-bottom: $base-gap * 2;
+        margin-bottom: calc(var(--base-gap) * 2);
       }
     }
 
     h2 {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
   }
 
   .faq-content ul {
     padding-left: 1.25em;
-    margin-top: calc(#{$base-gap} / 2);
+    margin-top: calc(var(--base-gap) / 2);
     list-style: circle;
 
     li {
-      margin-bottom: calc(#{$base-gap} / 2);
+      margin-bottom: calc(var(--base-gap) / 2);
     }
   }
 </style>

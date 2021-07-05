@@ -6,11 +6,11 @@ module.exports = {
   root: true,
   env: {
     node: true,
-    jest: true
+    jest: true,
   },
   extends: ['plugin:vue/recommended', '@vue/standard'],
   globals: {
-    FB: true
+    FB: true,
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? error : off,
@@ -22,24 +22,27 @@ module.exports = {
       {
         attribute: 1,
         baseIndent: 1,
-        closeBracket: 0
-      }
+        closeBracket: 0,
+      },
     ],
     'vue/max-attributes-per-line': [
-      2,
+      4,
       {
         singleline: 2,
         multiline: {
           max: 1,
-          allowFirstLine: true
-        }
-      }
+          allowFirstLine: true,
+        },
+      },
     ],
+    'vue/html-self-closing': off,
     indent: off,
     'arrow-parens': off,
-    'generator-star-spacing': off
+    'generator-star-spacing': off,
+    'space-before-function-paren': off,
+    'comma-dangle': off,
   },
   parserOptions: {
-    parser: 'babel-eslint'
-  }
+    parser: 'babel-eslint',
+  },
 }

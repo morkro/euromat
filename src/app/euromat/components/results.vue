@@ -20,7 +20,7 @@
                 width="50"
                 height="50"
                 :alt="party.token"
-              >
+              />
               <span v-else>{{ party.token }}</span>
             </div>
 
@@ -29,11 +29,7 @@
 
           <feather-zoom-in class="results-see-more" />
 
-          <v-progress
-            class="result-percentage"
-            :value="party.score"
-            :max="totalMaxPoints"
-          />
+          <v-progress class="result-percentage" :value="party.score" :max="totalMaxPoints" />
         </router-link>
 
         <div v-if="party.nationalParty" class="party-results-national">
@@ -53,7 +49,7 @@
                   :title="party.nationalParty.name"
                   width="40"
                   height="40"
-                >
+                />
               </div>
               <span v-else>{{ party.nationalParty.token }}</span>
             </a>
@@ -64,33 +60,18 @@
 
     <div v-if="!isEmbedded" class="results-ctrls">
       <p>{{ $t('results.thanks') }}</p>
-      <router-link tag="a"
-                   class="btn"
-                   :to="{ path: `/${$i18n.locale}/` }"
-      >
+      <router-link tag="a" class="btn" :to="{ path: `/${$i18n.locale}/` }">
         {{ $t('results.indexBtn') }}
       </router-link>
-      <router-link
-        tag="a"
-        class="btn btn-dark btn-small"
-        :to="{ path: startOverUrl }"
-      >
+      <router-link tag="a" class="btn btn-dark btn-small" :to="{ path: startOverUrl }">
         {{ $t('results.startoverBtn') }}
         <feather-rotate-cw />
       </router-link>
     </div>
 
     <div class="results-affiliation">
-      <a
-        href="https://www.talkingeurope.com/"
-        target="_blank"
-        rel="noopener"
-      >
-        <img
-          :src="talkingEuropeBanner"
-          title="Talking Europe"
-          alt="Talking Europe Banner"
-        >
+      <a href="https://www.talkingeurope.com/" target="_blank" rel="noopener">
+        <img :src="talkingEuropeBanner" title="Talking Europe" alt="Talking Europe Banner" />
       </a>
     </div>
   </section>
@@ -111,39 +92,36 @@
       'feather-rotate-cw': () =>
         import('vue-feather-icons/icons/RotateCwIcon' /* webpackChunkName: "icons" */),
       'feather-corner-down-right': () =>
-        import('vue-feather-icons/icons/CornerDownRightIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/CornerDownRightIcon' /* webpackChunkName: "icons" */),
     },
 
-    data () {
+    data() {
       return {
         userCountry: getUserLanguage().country,
         scoringGrid: [],
         parties: [],
-        totalMaxPoints: 0
+        totalMaxPoints: 0,
       }
     },
 
     computed: {
-      startOverUrl () {
+      startOverUrl() {
         return getTranslatedUrl('theses')
       },
-      isEmbedded () {
-        return (
-          this.$route.query.embedded &&
-          this.$route.query.embedded === 'iframe'
-        )
+      isEmbedded() {
+        return this.$route.query.embedded && this.$route.query.embedded === 'iframe'
       },
-      talkingEuropeBanner () {
+      talkingEuropeBanner() {
         try {
           return require(`@/assets/talkingeurope/talkingeurope-${this.$i18n.locale}.png`)
         } catch (e) {
           console.warn('TalkingEurope image not found, defaulting to "en". ', e)
           return require(`@/assets/talkingeurope/talkingeurope-en.png`)
         }
-      }
+      },
     },
 
-    async created () {
+    async created() {
       let emphasized
       let answers
 
@@ -170,33 +148,37 @@
       }
 
       const partiesWithScores = getPartiesWithScores(answers, emphasized, parties)
-      this.parties = partiesWithScores.map(party => ({
-        token: party.token,
-        score: party.score,
-        nationalParty: party['national_parties'][this.userCountry]
-      }))
+      this.parties = partiesWithScores
+        .map((party) => ({
+          token: party.token,
+          score: party.score,
+          nationalParty: party['national_parties'][this.userCountry],
+        }))
         .sort((a, b) => a.score - b.score)
         .reverse()
       this.totalMaxPoints = getTotalMaxPoints(answers, emphasized)
     },
 
     methods: {
-      getPartyPath (token) {
+      getPartyPath(token) {
         return `${getTranslatedUrl('party')}/${token.toLowerCase()}`
       },
-      getPartyLogo (token) {
+      getPartyLogo(token) {
         try {
           return require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
         } catch (e) {
           try {
             return require(`@/assets/${token.toLowerCase().replace(/\s/g, '-')}-logo.png`)
           } catch (error) {
-            console.warn(`No logo found for party "${token}", falling back to initials.`, error.message)
+            console.warn(
+              `No logo found for party "${token}", falling back to initials.`,
+              error.message
+            )
             return false
           }
         }
       },
-      hasPartyLogo (token) {
+      hasPartyLogo(token) {
         try {
           require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
           return true
@@ -209,40 +191,34 @@
           }
         }
       },
-      getScorePercentage (score) {
-        return (score / this.totalMaxPoints * 100).toFixed(2)
-      }
-    }
+      getScorePercentage(score) {
+        return ((score / this.totalMaxPoints) * 100).toFixed(2)
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/animations";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $result-bar-length: 92%;
-
+<style lang="postcss" scoped>
   section {
     width: 95%;
     margin: 0 auto;
   }
 
   .results-header {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
 
     h1 {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
   }
 
   .results-content {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
 
     span {
-      margin-top: $small-gap;
-      color: $text-color-secondary;
-      font-size: $font-size-small;
+      margin-top: var(--small-gap);
+      color: var(--text-color-secondary);
+      font-size: var(--font-size-small);
     }
   }
 
@@ -255,7 +231,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
       position: relative;
 
       &:hover .results-see-more {
@@ -264,13 +240,13 @@
 
       &::before {
         counter-increment: result;
-        content: counter(result) ".";
+        content: counter(result) '.';
         position: absolute;
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        color: $text-color-secondary;
-        font-size: $font-size-xlarge;
+        color: var(--text-color-secondary);
+        font-size: var(--font-size-xlarge);
         font-weight: 600;
       }
 
@@ -283,7 +259,7 @@
 
     a:not(.party-results-national-logo) {
       height: 80px;
-      width: $result-bar-length;
+      width: 92%;
       position: relative;
       display: flex;
       justify-content: space-between;
@@ -301,9 +277,9 @@
     }
 
     h2 {
-      color: $text-color-base;
+      color: var(--text-color-base);
       font-weight: 600;
-      text-shadow: $text-shadow;
+      text-shadow: var(--text-shadow);
 
       span {
         font-weight: 400;
@@ -311,13 +287,13 @@
     }
 
     .results-see-more {
-      stroke: $text-color-base;
-      filter: drop-shadow($text-shadow);
+      stroke: var(--text-color-base);
+      filter: drop-shadow(var(--text-shadow));
       height: 32px;
       width: 32px;
       opacity: 0;
-      transition: opacity 150ms $easeOutBack;
-      margin-right: $base-gap;
+      transition: opacity 150ms var(--ease-out-back);
+      margin-right: var(--base-gap);
     }
 
     .result-percentage {
@@ -329,15 +305,15 @@
   }
 
   .party-results-national {
-    width: $result-bar-length;
+    width: 92%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: calc(#{$small-gap} / 2);
-    padding-left: $small-gap;
+    padding-top: calc(#{var(--small-gap)} / 2);
+    padding-left: var(--small-gap);
 
     svg {
-      margin-right: calc(#{$small-gap} / 2);
+      margin-right: calc(#{var(--small-gap)} / 2);
     }
 
     > span {
@@ -348,7 +324,7 @@
     .party-results-national-logo {
       display: inline-block;
       font-weight: 700;
-      margin-left: calc(#{$small-gap} / 2);
+      margin-left: calc(#{var(--small-gap)} / 2);
 
       > div {
         width: 70px;
@@ -377,11 +353,11 @@
     justify-content: center;
 
     .result-party-logo {
-      margin-right: $small-gap;
+      margin-right: var(--small-gap);
       position: relative;
       z-index: 1;
-      background: $background-secondary;
-      border-radius: $border-radius;
+      background: var(--background-secondary);
+      border-radius: var(--border-radius);
       width: 80px;
       height: 100%;
       display: flex;
@@ -394,38 +370,38 @@
       }
 
       span {
-        color: $text-color-invert;
+        color: var(--text-color-invert);
         font-weight: 700;
       }
     }
   }
 
   .results-ctrls {
-    margin-top: $base-gap * 2;
-    border-top: 4px solid $transparent-white;
-    padding-top: $small-gap;
+    margin-top: calc(var(--base-gap) * 2);
+    border-top: 4px solid var(--transparent-white);
+    padding-top: var(--small-gap);
 
     p {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
 
     a:first-of-type {
-      margin-right: $small-gap;
+      margin-right: var(--small-gap);
     }
   }
 
   .results-affiliation {
-    background: $medium-blue;
+    background: var(--medium-blue);
     width: 100%;
-    margin-top: $base-gap * 2;
-    padding: calc(#{$small-gap} / 2);
-    border-radius: calc(#{$border-radius} / 3);
+    margin-top: calc(var(--base-gap) * 2);
+    padding: calc(#{var(--small-gap)} / 2);
+    border-radius: calc(var(--border-radius) / 3);
 
     @media (max-width: 650px) {
       padding: 0;
-      margin-top: $base-gap * 2;
-      border-top: 4px solid $transparent-white;
-      padding-top: $small-gap;
+      margin-top: calc(var(--base-gap) * 2);
+      border-top: 4px solid var(--transparent-white);
+      padding-top: var(--small-gap);
       border-radius: 0;
       background: transparent;
     }

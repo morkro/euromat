@@ -2,9 +2,7 @@
   <section>
     <h1>{{ $t('contact.headline') }}</h1>
     <v-markdown :source="$t('contact.content')" />
-    <a class="btn" href="mailto:hello@euromat.info">
-      hello@euromat.info <feather-mail />
-    </a>
+    <a class="btn" href="mailto:hello@euromat.info"> hello@euromat.info <feather-mail /> </a>
   </section>
 </template>
 
@@ -14,19 +12,17 @@
 
     components: {
       'feather-mail': () =>
-        import('vue-feather-icons/icons/MailIcon' /* webpackChunkName: "icons" */)
-    }
+        import('vue-feather-icons/icons/MailIcon' /* webpackChunkName: "icons" */),
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/layout";
-
+<style lang="postcss" scoped>
   h1 {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   a {
-    margin-top: $base-gap;
+    margin-top: var(--base-gap);
   }
 </style>

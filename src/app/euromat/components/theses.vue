@@ -30,11 +30,7 @@
           </li>
         </ul>
         <div class="controls-sub">
-          <button
-            class="btn-dark btn-small"
-            type="button"
-            @click="submitAnswer(optionSkip)"
-          >
+          <button class="btn-dark btn-small" type="button" @click="submitAnswer(optionSkip)">
             {{ optionSkip.label }} <feather-corner-up-right />
           </button>
         </div>
@@ -58,75 +54,78 @@
       'feather-thumbs-up': () =>
         import('vue-feather-icons/icons/ThumbsUpIcon' /* webpackChunkName: "icons" */),
       'feather-thumbs-down': () =>
-        import('vue-feather-icons/icons/ThumbsDownIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/ThumbsDownIcon' /* webpackChunkName: "icons" */),
     },
 
-    data () {
+    data() {
       return {
         currentThesis: 0,
         thesesCount: theses.length,
-        answers: []
+        answers: [],
       }
     },
 
     computed: {
-      isEmbedded () {
-        return (
-          this.$route.query.embedded &&
-          this.$route.query.embedded === 'iframe'
-        )
+      isEmbedded() {
+        return this.$route.query.embedded && this.$route.query.embedded === 'iframe'
       },
-      currentThesisStep () {
+      currentThesisStep() {
         return this.currentThesis + 1
       },
-      thesisTitle () {
+      thesisTitle() {
         if (this.currentThesis === this.thesesCount) {
           return
         }
         return this.getThesis(this.currentThesis).thesis[this.$i18n.locale]
       },
-      thesisCategory () {
+      thesisCategory() {
         if (this.currentThesis === this.thesesCount) {
           return
         }
         return this.getThesis(this.currentThesis).category[this.$i18n.locale]
       },
-      options () {
-        return options.map(option =>
-          Object.assign({}, option, {
-            label: this.$t(`theses.${option.position}`),
-            icon: this.getIconName(option.position)
-          }))
-        .filter(option => option.position !== 'skipped')
+      options() {
+        return options
+          .map((option) =>
+            Object.assign({}, option, {
+              label: this.$t(`theses.${option.position}`),
+              icon: this.getIconName(option.position),
+            })
+          )
+          .filter((option) => option.position !== 'skipped')
       },
-      optionSkip () {
-        const skipped = options.find(option => option.position === 'skipped')
+      optionSkip() {
+        const skipped = options.find((option) => option.position === 'skipped')
         return Object.assign({}, skipped, {
-          label: this.$t('theses.skipped')
+          label: this.$t('theses.skipped'),
         })
-      }
+      },
     },
 
     methods: {
-      getIconName (type) {
+      getIconName(type) {
         switch (type) {
-          case 'positive': return 'thumbs-up'
-          case 'neutral': return 'circle'
-          case 'negative': return 'thumbs-down'
-          case 'skipped': return 'corner-up-right'
+          case 'positive':
+            return 'thumbs-up'
+          case 'neutral':
+            return 'circle'
+          case 'negative':
+            return 'thumbs-down'
+          case 'skipped':
+            return 'corner-up-right'
           default:
         }
       },
-      getThesis (id) {
-        return theses.find(t => t.id === id)
+      getThesis(id) {
+        return theses.find((t) => t.id === id)
       },
-      goBack () {
+      goBack() {
         const thesis = this.getThesis(this.currentThesis)
-        const index = this.answers.findIndex(a => a.thesis === thesis.id)
+        const index = this.answers.findIndex((a) => a.thesis === thesis.id)
         this.answers.splice(index, 1)
         this.currentThesis -= 1
       },
-      submitAnswer (option, event) {
+      submitAnswer(option, event) {
         if (!option) {
           // eslint-disable-next-line
           return console.warn('Invalid answer')
@@ -142,7 +141,7 @@
           this.forwardToResults()
         }
       },
-      forwardToResults () {
+      forwardToResults() {
         const answers = JSON.stringify(this.answers)
 
         if (this.$browser.supports('sessionStorage')) {
@@ -153,25 +152,19 @@
 
         this.$router.push({
           path: getTranslatedUrl('emphasis', getTranslatedUrl('theses', null, true)),
-          query: this.isEmbedded ? { embedded: 'iframe' } : {}
+          query: this.isEmbedded ? { embedded: 'iframe' } : {},
         })
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/fonts";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $breakpoint: 835px;
-
+<style lang="postcss" scoped>
   .theses {
     display: flex;
     align-items: flex-start;
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 835px) {
       flex-direction: column;
     }
   }
@@ -181,10 +174,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: $base-gap * 2;
-    color: $text-color-secondary;
+    margin-right: calc(var(--base-gap) * 2);
+    color: var(--text-color-secondary);
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 835px) {
       flex: 1;
       width: 100%;
       flex-direction: row;
@@ -198,25 +191,25 @@
     }
 
     span {
-      font-size: $font-size-large;
+      font-size: var(--font-size-large);
       font-weight: 600;
       display: inline;
 
-      @media (max-width: $breakpoint) {
-        font-size: $font-size-large - 50%;
+      @media (max-width: 835px) {
+        font-size: calc(var(--font-size-large) - 50%);
       }
     }
 
     .progress-current {
-      color: $text-color-special;
+      color: var(--text-color-special);
     }
 
     button {
-      margin-top: $base-gap + 5;
+      margin-top: calc(var(--base-gap) + 5);
 
-      @media (max-width: $breakpoint) {
+      @media (max-width: 835px) {
         margin-top: 0;
-        margin-left: $base-gap;
+        margin-left: var(--base-gap);
       }
     }
   }
@@ -227,15 +220,16 @@
   }
 
   .theses-header {
-    margin-bottom: $base-gap + 5;
+    margin-bottom: calc(var(--base-gap) + 5);
     text-align: left;
 
-    h1, h2 {
+    h1,
+    h2 {
       overflow-wrap: break-word;
     }
 
     h2 {
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
     }
   }
 
@@ -248,10 +242,10 @@
 
   .controls-sub {
     display: flex;
-    margin-top: $small-gap;
+    margin-top: var(--small-gap);
 
     button:first-of-type {
-      margin-right: $small-gap;
+      margin-right: var(--small-gap);
     }
   }
 
@@ -261,16 +255,16 @@
     justify-content: center;
 
     li:not(:last-child) {
-      margin-right: $small-gap;
+      margin-right: var(--small-gap);
     }
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 835px) {
       flex-direction: column;
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
 
       li:not(:last-child) {
         margin-right: 0;
-        margin-bottom: $small-gap;
+        margin-bottom: var(--small-gap);
       }
     }
   }

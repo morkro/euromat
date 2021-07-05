@@ -19,19 +19,14 @@
     name: 'CookieConsent',
 
     methods: {
-      updateConsent (consent) {
+      updateConsent(consent) {
         this.$emit('cookie-consent', consent)
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/fonts";
-  @import "~@/styles/buttons";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
+<style lang="postcss" scoped>
   #analytics-consent {
     position: fixed;
     z-index: 4;
@@ -39,17 +34,17 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100vw;
-    max-width: $app-width;
-    background: $background-secondary;
-    color: $text-color-secondary;
+    max-width: var(--app-width);
+    background: var(--background-secondary);
+    color: var(--text-color-secondary);
     display: flex;
     justify-content: center;
-    padding: $small-gap;
-    margin-bottom: $base-gap;
-    border-radius: $border-radius;
-    box-shadow: $button-shadow;
+    padding: var(--small-gap);
+    margin-bottom: var(--base-gap);
+    border-radius: var(--border-radius);
+    box-shadow: var(--button-shadow);
 
-    @media (max-width: $app-width) {
+    @media (max-width: var(--app-width)) {
       margin-bottom: 0;
       border-radius: 0;
       box-shadow: 0;
@@ -58,14 +53,14 @@
     }
 
     .consent-content {
-      max-width: $app-width;
+      max-width: var(--app-width);
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       & button {
-        margin-left: $small-gap;
+        margin-left: var(--small-gap);
       }
     }
   }

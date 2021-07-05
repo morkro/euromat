@@ -33,33 +33,33 @@
       'feather-facebook': () =>
         import('vue-feather-icons/icons/FacebookIcon' /* webpackChunkName: "icons" */),
       'feather-clipboard': () =>
-        import('vue-feather-icons/icons/ClipboardIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/ClipboardIcon' /* webpackChunkName: "icons" */),
     },
 
     props: {
       menu: { type: Array, default: () => [] },
-      social: { type: Array, default: () => [] }
+      social: { type: Array, default: () => [] },
     },
 
-    data () {
+    data() {
       return {
         shareURL: window.location.origin,
         showClipboardInfo: false,
-        infoTimeout: 2000
+        infoTimeout: 2000,
       }
     },
 
     methods: {
-      getMessage (item) {
+      getMessage(item) {
         return item.label === 'clipboard' ? item.message : ''
       },
-      getSocialClass (item) {
+      getSocialClass(item) {
         return {
-          'show-info': item.label === 'clipboard' && this.showClipboardInfo
+          'show-info': item.label === 'clipboard' && this.showClipboardInfo,
         }
       },
       // https://stackoverflow.com/a/16861050/1724106
-      getPopupDimensions (w = 800, h = 600) {
+      getPopupDimensions(w = 800, h = 600) {
         const { screenLeft, screenTop, innerWidth, innerHeight } = window
         const dualScreenLeft = screenLeft || screen.left
         const dualScreenTop = screenTop || screen.top
@@ -70,15 +70,15 @@
           width: w,
           height: h,
           left: width / 2 - w / 2 + dualScreenLeft,
-          top: height / 2 - h / 2 + dualScreenTop
+          top: height / 2 - h / 2 + dualScreenTop,
         }
       },
-      constructTwitterURL (message) {
+      constructTwitterURL(message) {
         const { text, hashtags } = message
         const url = 'https://twitter.com/intent/tweet'
         return `${url}?text=${encodeURI(text)}&hashtags=${hashtags}&url=${this.shareURL}`
       },
-      share (social) {
+      share(social) {
         switch (social.label.toLowerCase()) {
           case 'twitter':
             return this.shareViaTwitter(social.message)
@@ -90,7 +90,7 @@
             break
         }
       },
-      shareViaTwitter (message) {
+      shareViaTwitter(message) {
         const frameName = 'Post a Tweet on Twitter'
         const { width, height, left, top } = this.getPopupDimensions()
         const options = `resizable,scrollbars,width=${width},height=${height},top=${top},left=${left}`
@@ -100,17 +100,17 @@
           popup.focus()
         }
       },
-      shareViaFacebook () {
+      shareViaFacebook() {
         FB.ui(
           {
             method: 'share',
             display: 'popup',
-            href: this.shareURL
+            href: this.shareURL,
           },
           (response) => {}
         )
       },
-      copyToClipboard (message) {
+      copyToClipboard(message) {
         const $textarea = document.createElement('textarea')
         $textarea.value = this.shareURL
         document.body.appendChild($textarea)
@@ -130,19 +130,12 @@
         }
 
         document.body.removeChild($textarea)
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import '~@/styles/animations';
-  @import '~@/styles/colors';
-  @import '~@/styles/layout';
-
-  $social-btn-size: 40px;
-  $breakpoint: 1050px;
-
+<style lang="postcss" scoped>
   .footer {
     display: flex;
     flex-direction: column;
@@ -152,43 +145,43 @@
       list-style: none;
     }
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 1050px) {
       align-items: center;
     }
   }
 
   .footer-menu {
-    background: transparentize($background-primary, 0.5);
+    background: var(--background-primary);
     display: flex;
-    font-size: $font-size-small;
-    padding: $small-gap / 2 $small-gap $small-gap;
-    border-radius: $border-radius;
+    font-size: var(--font-size-small);
+    padding: var(--small-gap) / 2 var(--small-gap) var(--small-gap);
+    border-radius: var(--border-radius);
 
     a {
-      color: $medium-blue;
+      color: var(--medium-blue);
       font-weight: 600;
 
       &:hover {
-        color: $text-color-special;
+        color: var(--text-color-special);
       }
 
       &:focus {
-        color: $text-color-base;
+        color: var(--text-color-base);
       }
     }
 
     li:not(:first-child) {
-      margin-left: $base-gap;
+      margin-left: var(--base-gap);
     }
   }
 
   .footer-social {
-    margin: 0 $small-gap / 2 0 0;
-    padding: $small-gap / 2;
-    background: $background-primary;
-    border-radius: $border-radius;
+    margin: 0 var(--small-gap) / 2 0 0;
+    padding: var(--small-gap) / 2;
+    background: var(--background-primary);
+    border-radius: var(--border-radius);
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 1050px) {
       display: flex;
       justify-content: center;
       padding: 0;
@@ -196,7 +189,7 @@
 
       li:not(:last-child) {
         margin-bottom: 0;
-        margin-right: $small-gap;
+        margin-right: var(--small-gap);
       }
     }
 
@@ -207,7 +200,7 @@
         transform: translate(-105%, -50%) scale(1);
         opacity: 1;
 
-        @media (max-width: $breakpoint) {
+        @media (max-width: 1050px) {
           transform: translate(-50%, -55%) scale(1);
         }
       }
@@ -221,14 +214,14 @@
       transform: translate(-105%, -50%) scale(0);
       white-space: pre;
       padding: 10px 20px;
-      border-radius: $border-radius;
+      border-radius: var(--border-radius);
       background: rgba(0, 0, 0, 0.3);
       width: auto;
-      font-size: $font-size-small;
+      font-size: var(--font-size-small);
       opacity: 0;
-      transition: opacity 150ms $easeOutBack;
+      transition: opacity 150ms var(--ease-out-back);
 
-      @media (max-width: $breakpoint) {
+      @media (max-width: 1050px) {
         left: 50%;
         top: -50%;
       }
@@ -239,8 +232,9 @@
     }
 
     button {
-      width: $social-btn-size;
-      height: $social-btn-size;
+      --social-btn-size: 40px;
+      width: var(--social-btn-size);
+      height: var(--social-btn-size);
       padding: 0;
       display: flex;
       justify-content: center;

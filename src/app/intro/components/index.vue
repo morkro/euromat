@@ -22,27 +22,25 @@
 
     components: {
       'feather-check-circle': () =>
-        import('vue-feather-icons/icons/CheckCircleIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/CheckCircleIcon' /* webpackChunkName: "icons" */),
     },
 
     computed: {
-      thesesPath () {
+      thesesPath() {
         return getTranslatedUrl('theses')
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/layout";
-
+<style lang="postcss" scoped>
   h1,
   p {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   p.small {
-    font-size: $font-size-small;
+    font-size: var(--font-size-small);
   }
 
   .intro {
@@ -55,6 +53,6 @@
   }
 
   .intro-text {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 </style>

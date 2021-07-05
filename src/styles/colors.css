@@ -1,0 +1,31 @@
+:root {
+  --transparent-white: rgba(255, 255, 255, 0.21);
+  --transparent-black: rgba(0, 0, 0, 0.15);
+  --blue: #40a6ee;
+  --medium-blue: #22608c;
+  --dark-blue: rgb(33, 20, 82);
+  --yellow: #fee872;
+  --orange: #f5a960;
+  --pink: #d74aa1;
+
+  --background-primary: var(--blue);
+  --background-secondary: white;
+
+  --text-color-base: white;
+  --text-color-secondary: var(--dark-blue);
+  --text-color-invert: rgba(0, 0, 0, 0.8);
+  --text-color-special: var(--yellow);
+  --text-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+
+  --button-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  --button-background-primary: linear-gradient(
+    215deg,
+    var(--yellow) 0%,
+    var(--orange) 44%,
+    var(--pink) 100%
+  );
+  --button-background-secondary: var(--transparent-white);
+  --button-color: white;
+  --button-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
+  --button-shadow-deep: 0 15px 15px rgba(0, 0, 0, 0.06);
+}

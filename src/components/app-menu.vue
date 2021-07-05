@@ -9,22 +9,16 @@
     </ul>
 
     <div :class="['menu-language', { 'show-languages': languageMenuSelected }]">
-      <button
-        class="btn-txt"
-        type="button"
-        @click="toggleLanguageSelection"
-      >
-        <img :src="selectedLanguage.icon"
-             :width="buttonSize"
-             :height="buttonSize"
-             :alt="selectedLanguage.locale"
-        >
+      <button class="btn-txt" type="button" @click="toggleLanguageSelection">
+        <img
+          :src="selectedLanguage.icon"
+          :width="buttonSize"
+          :height="buttonSize"
+          :alt="selectedLanguage.locale"
+        />
       </button>
 
-      <div
-        class="menu-language-select"
-        @click.self="hideLanguageSelection"
-      >
+      <div class="menu-language-select" @click.self="hideLanguageSelection">
         <ul>
           <li
             v-for="lang of languages"
@@ -32,11 +26,7 @@
             :class="{ selected: $i18n.locale === lang.locale }"
           >
             <button @click="changeLanguage(lang.locale)">
-              <img :src="lang.icon"
-                   :width="buttonSize"
-                   :height="buttonSize"
-                   :alt="lang.locale"
-              >
+              <img :src="lang.icon" :width="buttonSize" :height="buttonSize" :alt="lang.locale" />
               <span>{{ lang.language }}</span>
             </button>
           </li>
@@ -53,30 +43,30 @@
 
     props: {
       main: { type: Array, default: () => [{ label: 'Index', route: { path: '/' } }] },
-      languages: { type: Array, default: () => [] }
+      languages: { type: Array, default: () => [] },
     },
 
-    data () {
+    data() {
       return {
         buttonSize: 20,
-        languageMenuSelected: false
+        languageMenuSelected: false,
       }
     },
 
     computed: {
-      selectedLanguage () {
-        return this.languages.find(lang => lang.locale === this.$i18n.locale)
-      }
+      selectedLanguage() {
+        return this.languages.find((lang) => lang.locale === this.$i18n.locale)
+      },
     },
 
     methods: {
-      toggleLanguageSelection () {
+      toggleLanguageSelection() {
         this.languageMenuSelected = !this.languageMenuSelected
       },
-      hideLanguageSelection () {
+      hideLanguageSelection() {
         this.languageMenuSelected = false
       },
-      changeLanguage (locale) {
+      changeLanguage(locale) {
         const routeName = this.$route.name
         let translatedUrl = null
 
@@ -95,18 +85,12 @@
 
         this.$router.replace(translatedUrl)
         this.hideLanguageSelection()
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/animations";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $language-btn-size: 45px;
-
+<style lang="postcss" scoped>
   .app-menu {
     display: flex;
     justify-content: flex-end;
@@ -127,7 +111,7 @@
     display: flex;
 
     @media (max-width: 480px) {
-      margin-bottom: $small-gap + 5;
+      margin-bottom: calc(var(--small-gap) + 5);
 
       li:last-child {
         margin-right: 0;
@@ -139,12 +123,12 @@
     }
 
     li {
-      margin-right: $base-gap;
+      margin-right: var(--base-gap);
     }
 
     @media (max-width: 380px) {
       li {
-        margin-right: calc(#{$base-gap} / 2);
+        margin-right: calc(#{var(--base-gap)} / 2);
       }
     }
   }
@@ -156,6 +140,7 @@
   }
 
   .menu-language {
+    --language-btn-size: 45px;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -167,18 +152,18 @@
       margin-right: 5px;
       background: rgba(0, 0, 0, 0.1);
       border-radius: 100%;
-      width: $language-btn-size;
-      height: $language-btn-size;
-      transition: background 150ms $easeOutBack;
+      width: var(--language-btn-size);
+      height: var(--language-btn-size);
+      transition: background 150ms var(--ease-out-back);
 
       &:hover {
-        background: $transparent-black;
+        background: var(--transparent-black);
       }
 
       &:focus {
         box-shadow: none;
-        border: 2px solid $orange;
-        background: $button-background-secondary;
+        border: 2px solid var(--orange);
+        background: var(--button-background-secondary);
         transform: translate(-1px, 1px);
         margin-top: -3px;
         margin-right: 1px;
@@ -209,10 +194,10 @@
     }
 
     ul {
-      background: $background-secondary;
+      background: var(--background-secondary);
       width: 100%;
       border-radius: 10px;
-      box-shadow: $button-shadow;
+      box-shadow: var(--button-shadow);
 
       @media (max-width: 480px) {
         width: 95%;
@@ -222,7 +207,7 @@
 
     ul li {
       &:not(:last-child) {
-        border-bottom: 2px solid $transparent-black;
+        border-bottom: 2px solid var(--transparent-black);
       }
     }
 
@@ -232,7 +217,7 @@
       box-shadow: none;
       text-shadow: none;
       border-radius: 0;
-      color: $text-color-secondary;
+      color: var(--text-color-secondary);
 
       &:hover {
         transform: translateY(0);

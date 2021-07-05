@@ -18,7 +18,7 @@
                   :alt="teamLabel.polis.label"
                   width="150"
                   height="100"
-                >
+                />
                 <span hidden>{{ teamLabel.polis.label }}</span>
               </a>
             </h2>
@@ -35,7 +35,7 @@
                   :src="poeLogo"
                   width="400"
                   height="60"
-                >
+                />
                 <span hidden>{{ teamLabel.poe.label }}</span>
               </a>
             </h2>
@@ -47,11 +47,7 @@
             <h2>{{ $t('about.devDesign') }}</h2>
             <ul>
               <li v-for="(member, index) of members.dev" :key="'member-dev-' + index">
-                <a
-                  v-if="member.profile"
-                  :href="member.profile"
-                  target="_blank"
-                >
+                <a v-if="member.profile" :href="member.profile" target="_blank">
                   {{ member.name }}
                   <feather-external-link />
                 </a>
@@ -72,42 +68,35 @@
 
     components: {
       'feather-external-link': () =>
-        import('vue-feather-icons/icons/ExternalLinkIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/ExternalLinkIcon' /* webpackChunkName: "icons" */),
     },
 
-    data () {
+    data() {
       return {
         polisLogo: require('@/assets/svg/polis-colored-logo.svg'),
         poeLogo: require('@/assets/svg/poe-colored-logo.svg'),
         members: {
-          dev: [
-            { name: 'Moritz Kröger', profile: 'http://moritz.berlin' }
-          ]
+          dev: [{ name: 'Moritz Kröger', profile: 'http://moritz.berlin' }],
         },
         teamLabel: {
           polis: {
             label: 'Polis180',
-            url: 'https://polis180.org/'
+            url: 'https://polis180.org/',
           },
           poe: {
             label: 'Pulse of Europe',
-            url: 'https://pulseofeurope.eu'
-          }
-        }
+            url: 'https://pulseofeurope.eu',
+          },
+        },
       }
-    }
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $breakpoint: 630px;
-
+<style lang="postcss" scoped>
   h1,
   p {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   .team-logo.poe {
@@ -121,7 +110,7 @@
   }
 
   .about-text {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   .about-people {
@@ -130,7 +119,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 630px) {
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
@@ -140,14 +129,14 @@
       flex: 0 0 50%;
       text-align: center;
 
-      @media (max-width: $breakpoint) {
+      @media (max-width: 630px) {
         flex: 0 0 100%;
         width: 100%;
       }
     }
 
     h2 {
-      color: $text-color-secondary;
+      color: var(--text-color-secondary);
     }
 
     ul {
@@ -155,55 +144,55 @@
     }
 
     li:not(:last-child) {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
 
     svg:not(.team-logo) {
-      stroke: $transparent-white;
+      stroke: var(--transparent-white);
       width: 1em;
       height: 1em;
     }
   }
 
   .people-group.dev h2 {
-    margin-bottom: $small-gap;
+    margin-bottom: var(--small-gap);
   }
 
   .group-inner {
-    width: calc(100% - #{$base-gap});
-    background: $background-secondary;
-    border-radius: $border-radius-medium;
-    box-shadow: $button-shadow;
-    padding: $base-gap;
-    color: $text-color-secondary;
-    margin-bottom: $base-gap;
+    width: calc(100% - #{var(--base-gap)});
+    background: var(--background-secondary);
+    border-radius: var(--border-radius)-medium;
+    box-shadow: var(--button-shadow);
+    padding: var(--base-gap);
+    color: var(--text-color-secondary);
+    margin-bottom: var(--base-gap);
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 630px) {
       width: 100%;
     }
 
     &.dark {
-      background: $dark-blue;
+      background: var(--dark-blue);
 
       h2,
       a,
       span {
-        color: $text-color-base;
+        color: var(--text-color-base);
       }
     }
 
     a,
     span {
-      color: $text-color-secondary;
+      color: var(--text-color-secondary);
       font-weight: 700;
     }
 
     a:hover {
-      color: $text-color-special;
+      color: var(--text-color-special);
     }
 
     svg:not(.team-logo) {
-      stroke: $blue !important;
+      stroke: var(--blue) !important;
     }
   }
 </style>

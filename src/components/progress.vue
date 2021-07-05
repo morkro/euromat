@@ -10,41 +10,38 @@
 
     props: {
       value: { type: [String, Number], default: () => 0 },
-      max: { type: [String, Number], default: () => 100 }
-    }
+      max: { type: [String, Number], default: () => 100 },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
+<style lang="postcss" scoped>
   progress[value] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 100%;
     height: 60px;
-    background: $dark-blue;
-    color: $yellow;
+    background: var(--dark-blue);
+    color: var(--yellow);
     border: none;
-    border-radius: $border-radius;
+    border-radius: var(--border-radius);
 
     &::-webkit-progress-bar {
-      background: $dark-blue;
-      border-radius: $border-radius;
+      background: var(--dark-blue);
+      border-radius: var(--border-radius);
     }
 
     &::-moz-progress-bar {
-      background: $button-background-primary;
-      border-radius: $border-radius;
-      box-shadow: $button-shadow;
+      background: var(--button-background-primary);
+      border-radius: var(--border-radius);
+      box-shadow: var(--button-shadow);
     }
 
     &::-webkit-progress-value {
-      background: $button-background-primary;
-      border-radius: $border-radius;
-      box-shadow: $button-shadow;
+      background: var(--button-background-primary);
+      border-radius: var(--border-radius);
+      box-shadow: var(--button-shadow);
     }
   }
 </style>

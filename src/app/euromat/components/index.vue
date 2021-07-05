@@ -4,8 +4,6 @@
 
 <script>
   export default {
-    name: 'EuromatIndex'
+    name: 'EuromatIndex',
   }
 </script>
-
-<style lang="scss" scoped></style>

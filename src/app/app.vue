@@ -8,7 +8,7 @@
           :src="euromatLogo"
           :width="logoSize"
           :height="logoSize / 2"
-        >
+        />
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
@@ -36,7 +36,7 @@
   export default {
     name: 'App',
 
-    data () {
+    data() {
       return {
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
@@ -44,91 +44,91 @@
         languages: SUPPORTED_LOCALES.map(([locale, language]) => ({
           icon: require(`@/assets/svg/flag-${locale}.svg`),
           locale,
-          language
-        }))
+          language,
+        })),
       }
     },
 
     computed: {
-      topMenu () {
+      topMenu() {
         return [
           {
             label: this.$t('meta.topMenu.index'),
-            route: { path: `/${this.$i18n.locale}/` }
+            route: { path: `/${this.$i18n.locale}/` },
           },
           {
             label: this.$t('meta.topMenu.faq'),
-            route: { path: getTranslatedUrl('faq') }
+            route: { path: getTranslatedUrl('faq') },
           },
           {
             label: this.$t('meta.topMenu.about'),
-            route: { path: getTranslatedUrl('about') }
+            route: { path: getTranslatedUrl('about') },
           },
           {
             label: this.$t('meta.topMenu.partner'),
-            route: { path: getTranslatedUrl('partner') }
+            route: { path: getTranslatedUrl('partner') },
           },
           {
             label: this.$t('meta.topMenu.contact'),
-            route: { path: getTranslatedUrl('contact') }
-          }
+            route: { path: getTranslatedUrl('contact') },
+          },
         ]
       },
-      subMenu () {
+      subMenu() {
         return [
           {
             label: this.$t('meta.footerMenu.imprint'),
-            route: { path: getTranslatedUrl('imprint') }
+            route: { path: getTranslatedUrl('imprint') },
           },
           {
             label: this.$t('meta.footerMenu.privacy'),
-            route: { path: getTranslatedUrl('privacy') }
-          }
+            route: { path: getTranslatedUrl('privacy') },
+          },
         ]
       },
-      socialMedia () {
+      socialMedia() {
         return [
           {
             label: 'twitter',
             icon: 'twitter',
             message: {
               text: this.$t('meta.socialMedia.twitter'),
-              hashtags: 'BTW17,EUROMAT'
-            }
+              hashtags: 'BTW17,EUROMAT',
+            },
           },
           {
             label: 'facebook',
             icon: 'facebook',
-            message: this.$t('meta.socialMedia.facebook')
+            message: this.$t('meta.socialMedia.facebook'),
           },
           {
             label: 'clipboard',
             icon: 'clipboard',
-            message: this.$t('meta.socialMedia.clipboard')
-          }
+            message: this.$t('meta.socialMedia.clipboard'),
+          },
         ]
       },
-      isEmbedded () {
+      isEmbedded() {
         return this.$route.query.embedded && this.$route.query.embedded === 'iframe'
-      }
+      },
     },
 
     methods: {
-      updateConsent (consent) {
+      updateConsent(consent) {
         setCookie(GA_COOKIE_NAME, consent)
         this.showConsentLayer = false
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss">
-  @import '~@/../node_modules/normalize.css/normalize';
-  @import '~@/styles/animations';
-  @import '~@/styles/fonts';
-  @import '~@/styles/buttons';
-  @import '~@/styles/colors';
-  @import '~@/styles/layout';
+<style lang="postcss">
+  @import 'normalize.css';
+  @import '../styles/animations.css';
+  @import '../styles/fonts';
+  @import '../styles/buttons.css';
+  @import '../styles/colors.css';
+  @import '../styles/layout.css';
 
   * {
     padding: 0;
@@ -150,11 +150,11 @@
   }
 
   body {
-    background: $background-primary;
-    color: $text-color-base;
-    font-family: $fontAssistant;
+    background: var(--background-primary);
+    color: var(--text-color-base);
+    font-family: var(--font-assistant);
     font-weight: normal;
-    font-size: $font-size-base;
+    font-size: var(--font-size-base);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -175,35 +175,35 @@
 
   .go-to-main.visuallyhidden {
     position: absolute;
-    background: $background-secondary;
+    background: var(--background-secondary);
     left: 0;
     top: 0;
-    padding: calc(#{$small-gap} / 2);
+    padding: calc(#{var(--small-gap)} / 2);
     z-index: 100;
 
     &:focus {
-      color: $text-color-secondary;
+      color: var(--text-color-secondary);
     }
   }
 
   h1 {
-    font-size: $font-size-xlarge;
+    font-size: var(--font-size-xlarge);
     line-height: 110%;
     font-weight: 600;
-    text-shadow: $text-shadow;
+    text-shadow: var(--text-shadow);
     margin: 0;
 
     @media (max-width: 768px) {
-      font-size: $font-size-large;
+      font-size: var(--font-size-large);
     }
   }
 
   h2 {
-    font-size: $font-size-large;
-    color: $text-color-secondary;
+    font-size: var(--font-size-large);
+    color: var(--text-color-secondary);
 
     @media (max-width: 768px) {
-      font-size: $font-size-large - 50%;
+      font-size: calc(var(--font-size-large) - 50%);
     }
   }
 
@@ -212,23 +212,23 @@
   }
 
   a {
-    color: $text-color-base;
+    color: var(--text-color-base);
     text-decoration: none;
-    transition: color 150ms $easeOutBack;
+    transition: color 150ms var(--ease-out-back);
 
     &:not(.btn):hover {
-      color: $text-color-special;
+      color: var(--text-color-special);
     }
 
     &:not(.btn):focus {
-      outline: 2px solid $orange;
-      color: $text-color-special;
+      outline: 2px solid var(--orange);
+      color: var(--text-color-special);
     }
   }
 
   ::selection {
-    color: $text-color-base;
-    background: $text-color-special;
+    color: var(--text-color-base);
+    background: var(--text-color-special);
   }
 
   #app {
@@ -240,7 +240,7 @@
     position: relative;
 
     &.is-embedded {
-      padding-top: $small-gap;
+      padding-top: var(--small-gap);
     }
 
     header {
@@ -252,8 +252,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: $base-gap $small-gap 0 $base-gap;
-    margin-bottom: $base-gap;
+    padding: var(--base-gap) var(--small-gap) 0 var(--base-gap);
+    margin-bottom: var(--base-gap);
     position: relative;
     z-index: 2;
 
@@ -261,30 +261,30 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: $small-gap - 5;
+      padding: calc(var(--small-gap) - 5);
     }
   }
 
   .header-logo {
     @media (max-width: 650px) {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
   }
 
   main {
     width: 100%;
-    max-width: $app-width;
-    padding: 0 $small-gap;
+    max-width: var(--app-width);
+    padding: 0 var(--small-gap);
     position: relative;
     z-index: 1;
-    margin-bottom: $base-gap * 3;
+    margin-bottom: calc(var(--base-gap) * 3);
 
     @media (max-width: 1050px) {
-      margin-bottom: $base-gap * 2;
+      margin-bottom: calc(var(--base-gap) * 2);
     }
 
     @media (max-width: 768px) {
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
     }
   }
 
@@ -300,7 +300,7 @@
       position: static;
       z-index: 0;
       justify-content: center;
-      margin-top: $base-gap;
+      margin-top: var(--base-gap);
     }
   }
 </style>

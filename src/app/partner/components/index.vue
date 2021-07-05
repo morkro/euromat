@@ -6,17 +6,8 @@
 
     <ul class="partners-list">
       <li v-for="partner in $t('partner.partners')" :key="partner.name">
-        <a
-          class="partners-list-logo"
-          :href="partner.url"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            :src="getPartnerLogo(partner.name)"
-            :alt="partner.name"
-            :title="partner.name"
-          >
+        <a class="partners-list-logo" :href="partner.url" target="_blank" rel="noopener">
+          <img :src="getPartnerLogo(partner.name)" :alt="partner.name" :title="partner.name" />
         </a>
         <div class="partners-list-content">
           <h2>
@@ -34,7 +25,7 @@
     name: 'Partner',
 
     methods: {
-      getPartnerLogo (token) {
+      getPartnerLogo(token) {
         let name = token.toLowerCase().replace(/\s/g, '-')
         // Hotfix, should be handled correctly.
         if (name.includes('jef')) {
@@ -42,20 +33,15 @@
         }
 
         return require(`@/assets/${name}-logo.png`)
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $breakpoint: 630px;
-
+<style lang="postcss" scoped>
   .partner-page {
     h1 {
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
     }
   }
 
@@ -67,24 +53,24 @@
     justify-content: center;
     list-style: none;
     width: 100%;
-    margin-top: $base-gap;
+    margin-top: var(--base-gap);
 
     li {
-      width: calc(50% - #{$base-gap});
+      width: calc(50% - #{var(--base-gap)});
       flex: 0 0 auto;
-      background: $medium-blue;
-      border-radius: $border-radius-medium;
-      margin-bottom: $base-gap;
+      background: var(--medium-blue);
+      border-radius: var(--border-radius)-medium;
+      margin-bottom: var(--base-gap);
 
       &:not(:nth-of-type(even)):not(:last-child) {
-        margin-right: $base-gap;
+        margin-right: var(--base-gap);
       }
 
       img {
         width: 100%;
       }
 
-      @media (max-width: $breakpoint) {
+      @media (max-width: 630px) {
         margin-right: 0;
         flex: 0 0 100%;
         width: 100%;
@@ -96,20 +82,20 @@
     }
 
     h2 {
-      color: $text-color-base;
-      margin-bottom: calc(#{$base-gap} / 2);
+      color: var(--text-color-base);
+      margin-bottom: calc(#{var(--base-gap)} / 2);
     }
 
     .partners-list-logo {
-      background: $background-secondary;
-      border-radius: $border-radius-medium;
-      padding: $base-gap;
-      margin-bottom: calc(#{$base-gap} / 2);
+      background: var(--background-secondary);
+      border-radius: var(--border-radius)-medium;
+      padding: var(--base-gap);
+      margin-bottom: calc(#{var(--base-gap)} / 2);
       display: block;
     }
 
     .partners-list-content {
-      padding: 0 $base-gap $base-gap;
+      padding: 0 var(--base-gap) var(--base-gap);
     }
   }
 </style>

@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <hr>
+    <hr />
 
     <div class="imprint-responsibility">
       <div class="imprint-group">
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <hr>
+    <hr />
 
     <ul class="imprint-info">
       <li v-for="info of $t('imprint.content')" :key="info.title">
@@ -105,37 +105,34 @@
       'feather-mail': () =>
         import('vue-feather-icons/icons/MailIcon' /* webpackChunkName: "icons" */),
       'feather-phone': () =>
-        import('vue-feather-icons/icons/PhoneIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/PhoneIcon' /* webpackChunkName: "icons" */),
     },
 
-    data () {
+    data() {
       return {
         social: {
           polis: [
             { platform: 'Twitter', url: '' },
-            { platform: 'Facebook', url: '' }
+            { platform: 'Facebook', url: '' },
           ],
           poe: [
             { platform: 'Twitter', url: '' },
-            { platform: 'Facebook', url: '' }
-          ]
-        }
+            { platform: 'Facebook', url: '' },
+          ],
+        },
       }
-    }
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/layout";
-  @import "~@/styles/colors";
-
+<style lang="postcss" scoped>
   h1 {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   .imprint-basic,
   .imprint-responsibility {
-    margin-bottom: $base-gap / 2;
+    margin-bottom: var(--base-gap) / 2;
   }
 
   hr {
@@ -143,8 +140,8 @@
     width: 100%;
     border: none;
     height: 4px;
-    background: $transparent-white;
-    margin-bottom: $base-gap;
+    background: var(--transparent-white);
+    margin-bottom: var(--base-gap);
   }
 
   .imprint-basic {
@@ -160,21 +157,21 @@
     }
 
     .imprint-address {
-      width: calc(50% - #{$base-gap / 2});
+      width: calc(50% - var(--base-gap) / 2);
 
       @media (max-width: 700px) {
         width: 100%;
 
         &:last-of-type {
-          border-top: 4px solid $transparent-white;
-          padding-top: $small-gap;
+          border-top: 4px solid var(--transparent-white);
+          padding-top: var(--small-gap);
         }
       }
     }
   }
 
   .imprint-group {
-    margin-bottom: $small-gap;
+    margin-bottom: var(--small-gap);
 
     &.inline {
       display: flex;
@@ -182,7 +179,7 @@
     }
 
     &.inline h3 {
-      margin-right: $small-gap;
+      margin-right: var(--small-gap);
     }
   }
 
@@ -190,11 +187,11 @@
     list-style: none;
 
     h2 {
-      margin-bottom: $small-gap / 2;
+      margin-bottom: calc(var(--small-gap) / 2);
     }
 
     li:not(:last-child) {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
   }
 </style>

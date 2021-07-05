@@ -10,15 +10,13 @@
 
 <script>
   export default {
-    name: 'FourZeroFour'
+    name: 'FourZeroFour',
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/layout";
-
+<style lang="postcss" scoped>
   h1,
   p {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 </style>

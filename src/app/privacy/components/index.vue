@@ -14,26 +14,24 @@
 
 <script>
   export default {
-    name: 'Datenschutz'
+    name: 'Datenschutz',
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/layout";
-
+<style lang="postcss" scoped>
   h1 {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   ul {
     list-style: none;
 
     li {
-      margin-bottom: $base-gap * 2;
+      margin-bottom: calc(var(--base-gap) * 2);
     }
   }
 
   h2 {
-    margin-bottom: $small-gap;
+    margin-bottom: var(--small-gap);
   }
 </style>

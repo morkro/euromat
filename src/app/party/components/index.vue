@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="layout-party">
     <header :class="['party-header', { 'no-party-link': !partyProgramLink }]">
       <div :class="['party-header-logo', { 'no-logo': !hasPartyLogo }]">
         <img
@@ -8,27 +8,19 @@
           :width="logoSize"
           :height="logoSize"
           :alt="partyName"
-        >
+        />
         <span v-else>
           {{ partyToken }}
         </span>
       </div>
 
       <div class="party-header-info">
-        <router-link v-if="!!answers"
-                     class="btn btn-dark btn-small"
-                     :to="{ path: resultsPath }"
-        >
+        <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
           {{ $t('party.backButtonLabel') }}
           <feather-corner-up-left />
         </router-link>
         <h1>{{ partyName }}</h1>
-        <a
-          v-if="!!partyProgramLink"
-          class="btn"
-          :href="partyProgramLink"
-          target="_blank"
-        >
+        <a v-if="!!partyProgramLink" class="btn" :href="partyProgramLink" target="_blank">
           {{ $t('party.subtitle') }}
           <feather-external-link />
         </a>
@@ -73,7 +65,9 @@
         </div>
 
         <div v-show="showStatement(thesis.id)" class="thesis-statement">
-          <p><strong>{{ $t('party.partyAnswer') }}:</strong></p>
+          <p>
+            <strong>{{ $t('party.partyAnswer') }}:</strong>
+          </p>
           <blockquote>
             {{ getPartyStatement(thesis.id) }}
           </blockquote>
@@ -81,10 +75,7 @@
       </li>
     </ul>
 
-    <router-link v-if="!!answers"
-                 class="btn btn-dark btn-small"
-                 :to="{ path: resultsPath }"
-    >
+    <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
       {{ $t('party.backButtonLabel') }}
       <feather-corner-up-left />
     </router-link>
@@ -112,11 +103,10 @@
         import('vue-feather-icons/icons/ThumbsUpIcon' /* webpackChunkName: "icons" */),
       'feather-thumbs-down': () =>
         import('vue-feather-icons/icons/ThumbsDownIcon' /* webpackChunkName: "icons" */),
-      'feather-x': () =>
-        import('vue-feather-icons/icons/XIcon' /* webpackChunkName: "icons" */)
+      'feather-x': () => import('vue-feather-icons/icons/XIcon' /* webpackChunkName: "icons" */),
     },
 
-    data () {
+    data() {
       let answers
 
       if (this.$browser.supports('sessionStorage')) {
@@ -129,19 +119,19 @@
         logoSize: 60,
         partyLogo: this.hasPartyLogo && require(`@/assets/svg/${this.$route.params.token}-logo.svg`),
         partyToken: this.$route.params.token.toUpperCase(),
-        party: parties.find(p => p.token === this.$route.params.token.toUpperCase()),
+        party: parties.find((p) => p.token === this.$route.params.token.toUpperCase()),
         answers,
-        toggles: theses.map(t => ({ id: t.id, show: false })),
+        toggles: theses.map((t) => ({ id: t.id, show: false })),
         theses,
-        options
+        options,
       }
     },
 
     computed: {
-      resultsPath () {
+      resultsPath() {
         return getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
       },
-      hasPartyLogo () {
+      hasPartyLogo() {
         try {
           require(`@/assets/svg/${this.$route.params.token}-logo.svg`)
           return true
@@ -149,27 +139,25 @@
           return false
         }
       },
-      partyName () {
+      partyName() {
         return this.party.name[this.$i18n.locale]
       },
-      partyProgramLink () {
+      partyProgramLink() {
         return this.party.program[this.$i18n.locale]
-      }
+      },
     },
 
     methods: {
-      chevronIcon (id) {
-        return this.showStatement(id)
-          ? 'chevron-up'
-          : 'chevron-down'
+      chevronIcon(id) {
+        return this.showStatement(id) ? 'chevron-up' : 'chevron-down'
       },
-      getCategory (category) {
+      getCategory(category) {
         return category[this.$i18n.locale]
       },
-      getThesis (thesis) {
+      getThesis(thesis) {
         return thesis[this.$i18n.locale]
       },
-      positionToIconName (position) {
+      positionToIconName(position) {
         switch (position) {
           case 'positive':
             return 'thumbs-up'
@@ -182,61 +170,52 @@
             return 'circle'
         }
       },
-      getPartyPosition (id) {
-        return this.positionToIconName(
-          this.party.positions.find(p => p.thesis === id).position
-        )
+      getPartyPosition(id) {
+        return this.positionToIconName(this.party.positions.find((p) => p.thesis === id).position)
       },
-      getPartyStatement (id) {
-        return this.party.positions
-          .find(p => p.thesis === id)
-          .statement[this.$i18n.locale]
+      getPartyStatement(id) {
+        return this.party.positions.find((p) => p.thesis === id).statement[this.$i18n.locale]
       },
-      getUserPosition (id) {
-        return this.positionToIconName(
-          this.answers.find(a => a.thesis === id).position
-        )
+      getUserPosition(id) {
+        return this.positionToIconName(this.answers.find((a) => a.thesis === id).position)
       },
-      showStatement (id) {
-        return this.toggles.find(t => t.id === id).show
+      showStatement(id) {
+        return this.toggles.find((t) => t.id === id).show
       },
-      toggleStatement (id) {
-        const statement = this.toggles.find(t => t.id === id)
+      toggleStatement(id) {
+        const statement = this.toggles.find((t) => t.id === id)
         statement.show = !statement.show
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/animations";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $breakpoint: 600px;
-  $table-column-large: 70%;
-  $table-column-small: 15%;
+<style lang="postcss" scoped>
+  .layout-party {
+    --table-column-large: 70%;
+    --table-column-small: 15%;
+  }
 
   svg {
-    stroke: $text-color-base;
-    filter: drop-shadow($text-shadow);
+    stroke: var(--text-color-base);
+    filter: drop-shadow(var(--text-shadow));
 
     path,
     polyline {
-      stroke: $button-color;
+      stroke: var(--button-color);
     }
   }
 
   .party-header {
     display: flex;
     align-items: flex-start;
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
 
     &.no-party-link {
       align-items: center;
     }
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 600px) {
       flex-direction: column;
     }
 
@@ -244,27 +223,27 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-right: $small-gap;
+      margin-right: var(--small-gap);
 
       .btn {
-        margin-bottom: $small-gap / 2;
+        margin-bottom: var(--small-gap) / 2;
       }
     }
 
     h1 {
-      margin-bottom: $small-gap;
+      margin-bottom: var(--small-gap);
     }
 
     .party-header-logo {
-      margin-right: $small-gap;
-      background: $background-secondary;
-      padding: $small-gap;
+      margin-right: var(--small-gap);
+      background: var(--background-secondary);
+      padding: var(--small-gap);
       border-radius: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: $button-shadow;
-      color: $text-color-invert;
+      box-shadow: var(--button-shadow);
+      color: var(--text-color-invert);
 
       &.no-logo {
         width: 80px;
@@ -279,8 +258,8 @@
         font-weight: 700;
       }
 
-      @media (max-width: $breakpoint) {
-        margin-bottom: $base-gap;
+      @media (max-width: 600px) {
+        margin-bottom: var(--base-gap);
         margin-right: 0;
       }
     }
@@ -289,11 +268,11 @@
   .theses-legend {
     display: flex;
     flex-direction: column;
-    font-size: $font-size-tiny;
+    font-size: var(--font-size-tiny);
 
     p {
       font-weight: 600;
-      margin-bottom: $small-gap / 2;
+      margin-bottom: var(--small-gap) / 2;
     }
 
     ul {
@@ -301,7 +280,7 @@
       display: flex;
       flex-wrap: wrap;
 
-      @media (max-width: $breakpoint) {
+      @media (max-width: 600px) {
         flex-direction: column;
         align-items: flex-start;
       }
@@ -311,59 +290,59 @@
       display: flex;
       align-items: center;
       background: rgba(0, 0, 0, 0.1);
-      border-radius: $border-radius;
-      padding: $small-gap / 3 $small-gap / 1.5;
-      margin-bottom: $small-gap / 3;
+      border-radius: var(--border-radius);
+      padding: var(--small-gap) / 3 var(--small-gap) / 1.5;
+      margin-bottom: var(--small-gap) / 3;
 
       &:not(:last-child) {
-        margin-right: $small-gap / 3;
+        margin-right: var(--small-gap) / 3;
       }
     }
 
     svg {
       width: 12px;
       height: 12px;
-      margin-right: $small-gap / 3;
+      margin-right: var(--small-gap) / 3;
     }
   }
 
   .party-theses-list {
-    margin: $small-gap / 2 0 $base-gap 0;
+    margin: var(--small-gap) / 2 0 var(--base-gap) 0;
     list-style: none;
-    border-bottom: 4px solid $transparent-white;
+    border-bottom: 4px solid var(--transparent-white);
 
     .list-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-direction: row;
-      background: $background-secondary;
-      border-radius: $border-radius;
-      box-shadow: $button-shadow;
-      padding: $small-gap;
+      background: var(--background-secondary);
+      border-radius: var(--border-radius);
+      box-shadow: var(--button-shadow);
+      padding: var(--small-gap);
 
       h2 {
-        flex: 1 0 $table-column-small;
-        font-size: $font-size-base;
+        flex: 1 0 var(--table-column-small);
+        font-size: var(--font-size-base);
         margin: 0;
         text-align: center;
       }
 
       h2:first-of-type {
-        flex: 1 0 $table-column-large;
-        width: $table-column-large;
+        flex: 1 0 var(--table-column-large);
+        width: var(--table-column-large);
         text-align: left;
       }
     }
 
     li {
-      padding: $small-gap;
+      padding: var(--small-gap);
       display: flex;
       flex-direction: column;
     }
 
     li:not(:last-child):not(.list-header) {
-      border-bottom: 2px dashed $transparent-white;
+      border-bottom: 2px dashed var(--transparent-white);
     }
 
     .thesis-facts {
@@ -372,18 +351,18 @@
     }
 
     .thesis-statement {
-      background: $dark-blue;
-      border-radius: $border-radius / 4;
-      padding: $small-gap;
-      margin-top: $base-gap;
+      background: var(--dark-blue);
+      border-radius: var(--border-radius) / 4;
+      padding: var(--small-gap);
+      margin-top: var(--base-gap);
       position: relative;
 
       &::after {
         position: absolute;
-        content: "";
+        content: '';
         width: 20px;
         height: 20px;
-        background: $dark-blue;
+        background: var(--dark-blue);
         top: 0;
         left: 0;
         transform: translate(30px, -50%) rotate(45deg);
@@ -391,36 +370,36 @@
     }
 
     .list-thesis {
-      flex: 1 0 $table-column-large;
-      padding-right: $small-gap;
+      flex: 1 0 var(--table-column-large);
+      padding-right: var(--small-gap);
       cursor: pointer;
 
       &:hover svg {
-        stroke: $text-color-special;
+        stroke: var(--text-color-special);
       }
 
       span {
-        color: $text-color-secondary;
+        color: var(--text-color-secondary);
         display: inline-block;
         font-weight: 700;
       }
 
       svg {
-        margin-right: $small-gap / 2;
-        stroke: $text-color-secondary;
-        transition: stroke 150ms $easeOutBack;
+        margin-right: var(--small-gap) / 2;
+        stroke: var(--text-color-secondary);
+        transition: stroke 150ms var(--ease-out-back);
       }
 
       .thesis-subline {
         display: flex;
         align-items: center;
-        margin-bottom: $small-gap / 2;
+        margin-bottom: var(--small-gap) / 2;
       }
     }
 
     .statements-party,
     .statements-user {
-      flex: 1 0 $table-column-small;
+      flex: 1 0 var(--table-column-small);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -428,7 +407,7 @@
 
     .statements-party {
       background: rgba(255, 255, 255, 0.1);
-      border-radius: $border-radius;
+      border-radius: var(--border-radius);
     }
   }
 </style>

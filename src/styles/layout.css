@@ -1,0 +1,15 @@
+:root {
+  --font-size-tiny: 80%;
+  --font-size-small: 90%;
+  --font-size-base: 16px;
+  --font-size-medium: 115%;
+  --font-size-large: 225%;
+  --font-size-xlarge: 275%;
+
+  --small-gap: 20px;
+  --base-gap: 30px;
+  --border-radius: 100px;
+  --border-radius-medium: 20px;
+
+  --app-width: 930px;
+}

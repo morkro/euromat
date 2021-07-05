@@ -4,10 +4,7 @@
 
     <div class="emphasis-content">
       <p>{{ $t('emphasis.content') }}</p>
-      <button type="button"
-              class="btn-dark btn-small"
-              @click="submitEmphasis()"
-      >
+      <button type="button" class="btn-dark btn-small" @click="submitEmphasis()">
         {{ $t('emphasis.skip') }}
         <feather-corner-up-right />
       </button>
@@ -20,7 +17,7 @@
           :name="`thesis-${thesis.id}`"
           type="checkbox"
           @click.self="addThesisEmphasis(thesis, $event)"
-        >
+        />
         <label :for="`thesis-${thesis.id}`">
           <span>{{ getThesisCategory(thesis.category) }}</span>
           {{ getThesisTitle(thesis.thesis) }}
@@ -47,26 +44,23 @@
       'feather-arrow-right': () =>
         import('vue-feather-icons/icons/ArrowRightIcon' /* webpackChunkName: "icons" */),
       'feather-corner-up-right': () =>
-        import('vue-feather-icons/icons/CornerUpRightIcon' /* webpackChunkName: "icons" */)
+        import('vue-feather-icons/icons/CornerUpRightIcon' /* webpackChunkName: "icons" */),
     },
 
-    data () {
+    data() {
       return {
         theses,
-        emphasized: []
+        emphasized: [],
       }
     },
 
     computed: {
-      isEmbedded () {
-        return (
-          this.$route.query.embedded &&
-          this.$route.query.embedded === 'iframe'
-        )
-      }
+      isEmbedded() {
+        return this.$route.query.embedded && this.$route.query.embedded === 'iframe'
+      },
     },
 
-    created () {
+    created() {
       if (this.$browser.supports('sessionStorage')) {
         if (!sessionStorage.getItem('euromat-answers')) {
           this.$router.push({ path: getTranslatedUrl('theses') })
@@ -77,21 +71,21 @@
     },
 
     methods: {
-      getThesisCategory (category) {
+      getThesisCategory(category) {
         return category[this.$i18n.locale]
       },
-      getThesisTitle (thesis) {
+      getThesisTitle(thesis) {
         return thesis[this.$i18n.locale]
       },
-      addThesisEmphasis (thesis, event) {
+      addThesisEmphasis(thesis, event) {
         if (event.target.checked) {
           this.emphasized.push({ thesis: thesis.id })
         } else {
-          const index = this.emphasized.findIndex(item => item.thesis === thesis.id)
+          const index = this.emphasized.findIndex((item) => item.thesis === thesis.id)
           this.emphasized.splice(index, 1)
         }
       },
-      submitEmphasis () {
+      submitEmphasis() {
         const emphasized = JSON.stringify(this.emphasized)
 
         if (this.$browser.supports('sessionStorage')) {
@@ -102,60 +96,54 @@
 
         this.$router.push({
           path: getTranslatedUrl('results', getTranslatedUrl('theses', null, true)),
-          query: this.isEmbedded ? { embedded: 'iframe' } : {}
+          query: this.isEmbedded ? { embedded: 'iframe' } : {},
         })
-      }
-    }
+      },
+    },
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "~@/styles/animations";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
-
-  $input-size: 40px;
-  $breakpoint: 768px;
-
+<style lang="postcss" scoped>
   h1 {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
   }
 
   .emphasis-content {
-    margin-bottom: $base-gap;
+    margin-bottom: var(--base-gap);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 
     button {
       flex: 0 0 auto;
-      margin-left: $base-gap;
+      margin-left: var(--base-gap);
     }
   }
 
   .thesis-list {
-    margin-top: $base-gap;
+    --input-size: 40px;
+    margin-top: var(--base-gap);
     list-style: decimal;
     counter-reset: emphasis;
 
     li {
-      padding-bottom: $base-gap;
+      padding-bottom: var(--base-gap);
       display: flex;
       justify-content: space-between;
       position: relative;
 
       &::before {
         counter-increment: emphasis;
-        content: counter(emphasis) ".";
+        content: counter(emphasis) '.';
         position: absolute;
         top: 50%;
         transform: translateY(-85%);
-        color: $text-color-secondary;
-        font-size: $font-size-large;
+        color: var(--text-color-secondary);
+        font-size: var(--font-size-large);
         font-weight: 600;
       }
 
-      @media (max-width: $breakpoint) {
+      @media (max-width: 768px) {
         flex-direction: column;
 
         &::before {
@@ -166,42 +154,40 @@
     }
 
     li:not(:last-child) {
-      margin-bottom: $base-gap;
+      margin-bottom: var(--base-gap);
 
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
         width: 100vw;
         height: 4px;
-        background: linear-gradient(90deg, $transparent-white);
+        background: linear-gradient(90deg, var(--transparent-white));
       }
     }
   }
 
   input {
     opacity: 0;
-    width: $input-size;
-    height: $input-size;
-    margin-right: $base-gap;
-    margin-left: $base-gap * 2;
+    width: var(--input-size);
+    height: var(--input-size);
+    margin-right: var(--base-gap);
+    margin-left: calc(var(--base-gap) * 2);
 
     &:focus + label::before {
-      border: 2px solid $orange;
+      border: 2px solid var(--orange);
     }
 
     &:checked + label::after {
       opacity: 1;
       transform: translate(-70px, -50%);
-      transition:
-        transform 150ms $easeOutBack,
-        opacity 200ms $easeOutBack;
+      transition: transform 150ms var(--ease-out-back), opacity 200ms var(--ease-out-back);
     }
 
-    @media (max-width: $breakpoint) {
-      margin-bottom: $small-gap / 2;
+    @media (max-width: 768px) {
+      margin-bottom: var(--small-gap) / 2;
 
       &:checked:focus + label::after {
         transform: translate(62px, -133%);
@@ -221,37 +207,35 @@
 
     &::after,
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 50%;
       transform: translate(-70px, -50%);
       border-radius: 100%;
-      width: $input-size;
-      height: $input-size;
+      width: var(--input-size);
+      height: var(--input-size);
     }
 
     &::after {
       opacity: 0;
-      background: $button-background-primary;
-      box-shadow: $button-shadow;
+      background: var(--button-background-primary);
+      box-shadow: var(--button-shadow);
       transform: translate(-70px, -47%);
-      transition:
-        transform 150ms $easeOutBack,
-        opacity 200ms $easeOutBack;
+      transition: transform 150ms var(--ease-out-back), opacity 200ms var(--ease-out-back);
     }
 
     &::before {
-      background: $medium-blue;
+      background: var(--medium-blue);
     }
 
     span {
-      color: $text-color-secondary;
+      color: var(--text-color-secondary);
       display: block;
-      margin-bottom: $small-gap / 2;
+      margin-bottom: var(--small-gap) / 2;
     }
 
-    @media (max-width: $breakpoint) {
+    @media (max-width: 768px) {
       &::after,
       &::before {
         top: 0;
@@ -261,7 +245,7 @@
   }
 
   .emphasis-controls {
-    margin-top: $base-gap;
+    margin-top: var(--base-gap);
     display: flex;
     justify-content: flex-start;
   }
