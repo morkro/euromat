@@ -7,7 +7,7 @@ export default [
     name: '404',
     component: () => import('./components/index' /* webpackChunkName: "404" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'fourzerofour')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'fourzerofour'),
+    },
+  },
 ]

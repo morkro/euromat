@@ -9,7 +9,7 @@ export default [
     name: 'imprint',
     component: () => import('./components/index' /* webpackChunkName: "misc" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'imprint')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'imprint'),
+    },
+  },
 ]

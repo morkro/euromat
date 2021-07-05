@@ -14,15 +14,18 @@ const SUPPORTED_LOCALES = [
   [LOCALE_DANISH, 'Dansk'],
   [LOCALE_SLOVENIAN, 'Slovenščina'],
   [LOCALE_CZECH, 'Čeština'],
-  [LOCALE_POLISH, 'Polski']
+  [LOCALE_POLISH, 'Polski'],
 ]
 
 module.exports = {
+  GA_KEY: 'UA-83519650-2',
+  GA_COOKIE_NAME: '_euromat-ga',
+  IPDATA_URL: 'https://api.ipdata.co/?api-key=test',
   LOCALE_GERMAN,
   LOCALE_ENGLISH,
   LOCALE_FRENCH,
   LOCALE_POLISH,
   LOCALE_DANISH,
   DEFAULT_LOCALE,
-  SUPPORTED_LOCALES
+  SUPPORTED_LOCALES,
 }

@@ -4,16 +4,15 @@ import VueAnalytics from 'vue-analytics'
 import { init as initSentry } from '@sentry/browser'
 import * as Integrations from '@sentry/integrations'
 
-import App from '@/app/App'
+import App from '@/components/App'
 import router from '@/router'
 import i18n from '@/i18n'
 import storage from '@/helper/storage'
 import { getCookie } from '@/helper/cookies'
-import { GA_KEY, GA_COOKIE_NAME } from '@/config/analytics'
+import { GA_KEY, GA_COOKIE_NAME } from '@/config'
 
 import '@/registerComponents'
 import '@/registerServiceWorker'
-import './registerServiceWorker'
 
 Vue.config.productionTip = false
 Vue.use(VueSVGIcon)

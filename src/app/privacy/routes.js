@@ -9,7 +9,7 @@ export default [
     name: 'privacy',
     component: () => import('./components/index' /* webpackChunkName: "misc" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'privacy')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'privacy'),
+    },
+  },
 ]

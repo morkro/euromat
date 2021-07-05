@@ -4,7 +4,7 @@ import localI18n from './i18n'
 import { storageAvailable } from '@/helper/storage'
 import { getTranslatedTitles, getTranslatedAliases } from '@/i18n/helper'
 
-function hasAnswers (to, from, next) {
+function hasAnswers(to, from, next) {
   if (storageAvailable('sessionStorage') && !sessionStorage.getItem('euromat-answers')) {
     next({ path: `/${i18n.locale}/` })
   }
@@ -22,8 +22,8 @@ export default [
         name: 'theses',
         component: () => import('./components/theses' /* webpackChunkName: "euromat" */),
         meta: {
-          title: getTranslatedTitles(localI18n, 'theses')
-        }
+          title: getTranslatedTitles(localI18n, 'theses'),
+        },
       },
       {
         path: localI18n[DEFAULT_LOCALE].emphasis.url,
@@ -32,8 +32,8 @@ export default [
         component: () => import('./components/emphasis' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
-          title: getTranslatedTitles(localI18n, 'emphasis')
-        }
+          title: getTranslatedTitles(localI18n, 'emphasis'),
+        },
       },
       {
         path: localI18n[DEFAULT_LOCALE].results.url,
@@ -42,9 +42,9 @@ export default [
         component: () => import('./components/results' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
-          title: getTranslatedTitles(localI18n, 'results')
-        }
-      }
-    ]
-  }
+          title: getTranslatedTitles(localI18n, 'results'),
+        },
+      },
+    ],
+  },
 ]

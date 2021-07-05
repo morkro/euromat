@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import { getUserSupportedLanguage } from '@/i18n/helper'
-import BaseLocaleRouter from '@/components/base-locale-router'
+import BaseLocaleRouter from '@/components/BaseLocaleRouter'
 import { getPageTitle, beforeEnter } from '@/router/helper'
 
 import { routes as intro } from '@/app/intro'
@@ -35,16 +35,16 @@ const router = new Router({
         ...contact,
         ...imprint,
         ...privacy,
-        ...fourzerofour
-      ]
+        ...fourzerofour,
+      ],
     },
     {
       path: '*',
-      redirect (to) {
+      redirect(to) {
         return getUserSupportedLanguage()
-      }
-    }
-  ]
+      },
+    },
+  ],
 })
 
 router.beforeEach((to, from, next) => {

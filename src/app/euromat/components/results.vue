@@ -78,7 +78,7 @@
 </template>
 
 <script>
-  import { IPDATA_URL } from '@/config/api'
+  import { IPDATA_URL } from '@/config'
   import { getTranslatedUrl, getUserLanguage } from '@/i18n/helper'
   import { getPartiesWithScores, getTotalMaxPoints } from '@/app/euromat/scoring'
   import { parties } from '@/data'

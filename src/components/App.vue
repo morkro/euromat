@@ -28,8 +28,7 @@
 
 <script>
   import '@/assets/icons/european-stars'
-  import { GA_COOKIE_NAME } from '@/config/analytics'
-  import { SUPPORTED_LOCALES } from '@/config'
+  import { GA_COOKIE_NAME, SUPPORTED_LOCALES } from '@/config'
   import { setCookie, getCookie } from '@/helper/cookies'
   import { getTranslatedUrl } from '@/i18n/helper'
 

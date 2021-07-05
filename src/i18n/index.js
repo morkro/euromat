@@ -18,26 +18,39 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
 Vue.use(VueI18n)
 
 const messages = [
-  meta, intro,
-  euromat, party, partner,
-  about, fourzerofour, faq,
-  contact, imprint, privacy
+  meta,
+  intro,
+  euromat,
+  party,
+  partner,
+  about,
+  fourzerofour,
+  faq,
+  contact,
+  imprint,
+  privacy,
 ]
 
-function getLanguage (locale) {
-  return messages.reduce((acc, cur) => ({
-    ...acc,
-    ...cur[locale]
-  }), {})
+function getLanguage(locale) {
+  return messages.reduce(
+    (acc, cur) => ({
+      ...acc,
+      ...cur[locale],
+    }),
+    {}
+  )
 }
 
 const i18n = new VueI18n({
   locale: DEFAULT_LOCALE,
   fallbackLocale: DEFAULT_LOCALE,
-  messages: SUPPORTED_LOCALES.reduce((acc, [locale]) => ({
-    ...acc,
-    [locale]: getLanguage(locale)
-  }), {})
+  messages: SUPPORTED_LOCALES.reduce(
+    (acc, [locale]) => ({
+      ...acc,
+      [locale]: getLanguage(locale),
+    }),
+    {}
+  ),
 })
 
 export default i18n

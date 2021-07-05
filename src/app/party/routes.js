@@ -9,7 +9,7 @@ export default [
     name: 'party',
     component: () => import('./components/index' /* webpackChunkName: "party" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'party')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'party'),
+    },
+  },
 ]
