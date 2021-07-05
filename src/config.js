@@ -18,9 +18,12 @@ const SUPPORTED_LOCALES = [
 ]
 
 module.exports = {
+  // Analytics
   GA_KEY: 'UA-83519650-2',
   GA_COOKIE_NAME: '_euromat-ga',
+  // API
   IPDATA_URL: 'https://api.ipdata.co/?api-key=test',
+  // Languages
   LOCALE_GERMAN,
   LOCALE_ENGLISH,
   LOCALE_FRENCH,
