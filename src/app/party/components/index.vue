@@ -16,8 +16,8 @@
 
       <div class="party-header-info">
         <router-link v-if="!!answers"
-          class="btn btn-dark btn-small"
-          :to="{ path: resultsPath }"
+                     class="btn btn-dark btn-small"
+                     :to="{ path: resultsPath }"
         >
           {{ $t('party.backButtonLabel') }}
           <feather-corner-up-left />
@@ -82,8 +82,8 @@
     </ul>
 
     <router-link v-if="!!answers"
-      class="btn btn-dark btn-small"
-      :to="{ path: resultsPath }"
+                 class="btn btn-dark btn-small"
+                 :to="{ path: resultsPath }"
     >
       {{ $t('party.backButtonLabel') }}
       <feather-corner-up-left />

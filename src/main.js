@@ -13,6 +13,7 @@ import { GA_KEY, GA_COOKIE_NAME } from '@/config/analytics'
 
 import '@/registerComponents'
 import '@/registerServiceWorker'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 Vue.use(VueSVGIcon)

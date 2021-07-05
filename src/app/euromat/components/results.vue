@@ -65,8 +65,8 @@
     <div v-if="!isEmbedded" class="results-ctrls">
       <p>{{ $t('results.thanks') }}</p>
       <router-link tag="a"
-        class="btn"
-        :to="{ path: `/${$i18n.locale}/` }"
+                   class="btn"
+                   :to="{ path: `/${$i18n.locale}/` }"
       >
         {{ $t('results.indexBtn') }}
       </router-link>

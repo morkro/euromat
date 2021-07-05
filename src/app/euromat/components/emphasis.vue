@@ -5,8 +5,8 @@
     <div class="emphasis-content">
       <p>{{ $t('emphasis.content') }}</p>
       <button type="button"
-        class="btn-dark btn-small"
-        @click="submitEmphasis()"
+              class="btn-dark btn-small"
+              @click="submitEmphasis()"
       >
         {{ $t('emphasis.skip') }}
         <feather-corner-up-right />

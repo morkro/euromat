@@ -8,7 +8,7 @@
           :src="euromatLogo"
           :width="logoSize"
           :height="logoSize / 2"
-        />
+        >
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
@@ -36,7 +36,7 @@
   export default {
     name: 'App',
 
-    data() {
+    data () {
       return {
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
@@ -44,81 +44,81 @@
         languages: SUPPORTED_LOCALES.map(([locale, language]) => ({
           icon: require(`@/assets/svg/flag-${locale}.svg`),
           locale,
-          language,
-        })),
+          language
+        }))
       }
     },
 
     computed: {
-      topMenu() {
+      topMenu () {
         return [
           {
             label: this.$t('meta.topMenu.index'),
-            route: { path: `/${this.$i18n.locale}/` },
+            route: { path: `/${this.$i18n.locale}/` }
           },
           {
             label: this.$t('meta.topMenu.faq'),
-            route: { path: getTranslatedUrl('faq') },
+            route: { path: getTranslatedUrl('faq') }
           },
           {
             label: this.$t('meta.topMenu.about'),
-            route: { path: getTranslatedUrl('about') },
+            route: { path: getTranslatedUrl('about') }
           },
           {
             label: this.$t('meta.topMenu.partner'),
-            route: { path: getTranslatedUrl('partner') },
+            route: { path: getTranslatedUrl('partner') }
           },
           {
             label: this.$t('meta.topMenu.contact'),
-            route: { path: getTranslatedUrl('contact') },
-          },
+            route: { path: getTranslatedUrl('contact') }
+          }
         ]
       },
-      subMenu() {
+      subMenu () {
         return [
           {
             label: this.$t('meta.footerMenu.imprint'),
-            route: { path: getTranslatedUrl('imprint') },
+            route: { path: getTranslatedUrl('imprint') }
           },
           {
             label: this.$t('meta.footerMenu.privacy'),
-            route: { path: getTranslatedUrl('privacy') },
-          },
+            route: { path: getTranslatedUrl('privacy') }
+          }
         ]
       },
-      socialMedia() {
+      socialMedia () {
         return [
           {
             label: 'twitter',
             icon: 'twitter',
             message: {
               text: this.$t('meta.socialMedia.twitter'),
-              hashtags: 'BTW17,EUROMAT',
-            },
+              hashtags: 'BTW17,EUROMAT'
+            }
           },
           {
             label: 'facebook',
             icon: 'facebook',
-            message: this.$t('meta.socialMedia.facebook'),
+            message: this.$t('meta.socialMedia.facebook')
           },
           {
             label: 'clipboard',
             icon: 'clipboard',
-            message: this.$t('meta.socialMedia.clipboard'),
-          },
+            message: this.$t('meta.socialMedia.clipboard')
+          }
         ]
       },
-      isEmbedded() {
+      isEmbedded () {
         return this.$route.query.embedded && this.$route.query.embedded === 'iframe'
-      },
+      }
     },
 
     methods: {
-      updateConsent(consent) {
+      updateConsent (consent) {
         setCookie(GA_COOKIE_NAME, consent)
         this.showConsentLayer = false
-      },
-    },
+      }
+    }
   }
 </script>
 

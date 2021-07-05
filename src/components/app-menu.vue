@@ -15,9 +15,9 @@
         @click="toggleLanguageSelection"
       >
         <img :src="selectedLanguage.icon"
-          :width="buttonSize"
-          :height="buttonSize"
-          :alt="selectedLanguage.locale"
+             :width="buttonSize"
+             :height="buttonSize"
+             :alt="selectedLanguage.locale"
         >
       </button>
 
@@ -33,9 +33,9 @@
           >
             <button @click="changeLanguage(lang.locale)">
               <img :src="lang.icon"
-                :width="buttonSize"
-                :height="buttonSize"
-                :alt="lang.locale"
+                   :width="buttonSize"
+                   :height="buttonSize"
+                   :alt="lang.locale"
               >
               <span>{{ lang.language }}</span>
             </button>

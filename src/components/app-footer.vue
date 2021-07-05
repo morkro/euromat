@@ -1,7 +1,8 @@
 <template>
   <div class="footer">
     <ul class="footer-social">
-      <li v-for="item of social"
+      <li
+        v-for="item of social"
         :key="item.label"
         :data-message="getMessage(item)"
         :class="getSocialClass(item)"
@@ -50,9 +51,7 @@
 
     methods: {
       getMessage (item) {
-        return item.label === 'clipboard'
-          ? item.message
-          : ''
+        return item.label === 'clipboard' ? item.message : ''
       },
       getSocialClass (item) {
         return {
@@ -70,8 +69,8 @@
         return {
           width: w,
           height: h,
-          left: ((width / 2) - (w / 2)) + dualScreenLeft,
-          top: ((height / 2) - (h / 2)) + dualScreenTop
+          left: width / 2 - w / 2 + dualScreenLeft,
+          top: height / 2 - h / 2 + dualScreenTop
         }
       },
       constructTwitterURL (message) {
@@ -81,10 +80,14 @@
       },
       share (social) {
         switch (social.label.toLowerCase()) {
-          case 'twitter': return this.shareViaTwitter(social.message)
-          case 'facebook': return this.shareViaFacebook(social.message)
-          case 'clipboard': return this.copyToClipboard(social.message)
-          default: break
+          case 'twitter':
+            return this.shareViaTwitter(social.message)
+          case 'facebook':
+            return this.shareViaFacebook(social.message)
+          case 'clipboard':
+            return this.copyToClipboard(social.message)
+          default:
+            break
         }
       },
       shareViaTwitter (message) {
@@ -98,11 +101,14 @@
         }
       },
       shareViaFacebook () {
-        FB.ui({
-          method: 'share',
-          display: 'popup',
-          href: this.shareURL
-        }, response => {})
+        FB.ui(
+          {
+            method: 'share',
+            display: 'popup',
+            href: this.shareURL
+          },
+          (response) => {}
+        )
       },
       copyToClipboard (message) {
         const $textarea = document.createElement('textarea')
@@ -114,7 +120,9 @@
           const successful = document.execCommand('copy')
           if (successful) {
             this.showClipboardInfo = true
-            setTimeout(() => { this.showClipboardInfo = false }, this.infoTimeout)
+            setTimeout(() => {
+              this.showClipboardInfo = false
+            }, this.infoTimeout)
           }
         } catch (error) {
           // eslint-disable-next-line
@@ -128,9 +136,9 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "~@/styles/animations";
-  @import "~@/styles/colors";
-  @import "~@/styles/layout";
+  @import '~@/styles/animations';
+  @import '~@/styles/colors';
+  @import '~@/styles/layout';
 
   $social-btn-size: 40px;
   $breakpoint: 1050px;

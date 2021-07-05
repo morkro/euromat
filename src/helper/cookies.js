@@ -2,7 +2,7 @@
  * @param {string} name
  * @param {string} value
  */
-export function setCookie(name, value = '') {
+export function setCookie (name, value = '') {
   if (!name) {
     throw new Error(`Cookie needs a valid name, you passed "${name}".`)
   }
@@ -13,7 +13,7 @@ export function setCookie(name, value = '') {
  * @param {string} name
  * @returns string
  */
-export function getCookie(name) {
+export function getCookie (name) {
   const nameEQ = name + '='
   const cookies = document.cookie.split(';')
 
@@ -33,7 +33,7 @@ export function getCookie(name) {
 /**
  * @param {string} name
  */
-export function deleteCookie(name) {
+export function deleteCookie (name) {
   if (!name) {
     throw new Error(`Cookie needs a valid name, you passed "${name}".`)
   }
