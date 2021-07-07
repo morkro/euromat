@@ -18,9 +18,7 @@
       <router-view />
     </main>
 
-    <footer v-if="!isEmbedded">
-      <app-footer :menu="subMenu" :social="socialMedia" />
-    </footer>
+    <app-footer v-if="!isEmbedded" :menu="subMenu" :social="socialMedia" />
 
     <cookie-consent v-if="showConsentLayer" @cookie-consent="updateConsent" />
   </div>
@@ -177,7 +175,7 @@
     background: var(--background-secondary);
     left: 0;
     top: 0;
-    padding: calc(#{var(--small-gap)} / 2);
+    padding: calc(var(--small-gap) / 2);
     z-index: 100;
 
     &:focus {
@@ -242,7 +240,7 @@
       padding-top: var(--small-gap);
     }
 
-    header {
+    & header {
       width: 100%;
     }
   }
@@ -284,22 +282,6 @@
 
     @media (max-width: 768px) {
       margin-bottom: var(--base-gap);
-    }
-  }
-
-  footer {
-    position: fixed;
-    z-index: 2;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    justify-content: flex-end;
-
-    @media (max-width: 1050px) {
-      position: static;
-      z-index: 0;
-      justify-content: center;
-      margin-top: var(--base-gap);
     }
   }
 </style>

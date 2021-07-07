@@ -26,7 +26,7 @@
   ul {
     list-style: none;
 
-    li {
+    & li {
       margin-bottom: calc(var(--base-gap) * 2);
     }
   }

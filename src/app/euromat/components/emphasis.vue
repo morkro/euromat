@@ -114,7 +114,7 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    button {
+    & button {
       flex: 0 0 auto;
       margin-left: var(--base-gap);
     }
@@ -126,7 +126,7 @@
     list-style: decimal;
     counter-reset: emphasis;
 
-    li {
+    & li {
       padding-bottom: var(--base-gap);
       display: flex;
       justify-content: space-between;
@@ -153,7 +153,7 @@
       }
     }
 
-    li:not(:last-child) {
+    & li:not(:last-child) {
       margin-bottom: var(--base-gap);
 
       &::after {
@@ -229,7 +229,7 @@
       background: var(--medium-blue);
     }
 
-    span {
+    & span {
       color: var(--text-color-secondary);
       display: block;
       margin-bottom: var(--small-gap) / 2;

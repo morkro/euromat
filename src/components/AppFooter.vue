@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer>
     <ul class="footer-social">
       <li
         v-for="item of social"
@@ -20,7 +20,7 @@
         </router-link>
       </li>
     </ul>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -136,17 +136,25 @@
 </script>
 
 <style lang="postcss" scoped>
-  .footer {
+  footer {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
-    align-items: flex-end;
-
-    ul {
-      list-style: none;
-    }
 
     @media (max-width: 1050px) {
+      position: static;
+      z-index: 0;
+      justify-content: center;
       align-items: center;
+      margin-top: var(--base-gap);
+    }
+
+    & ul {
+      list-style: none;
     }
   }
 
@@ -154,10 +162,10 @@
     background: var(--background-primary);
     display: flex;
     font-size: var(--font-size-small);
-    padding: var(--small-gap) / 2 var(--small-gap) var(--small-gap);
+    padding: calc(var(--small-gap) / 2) var(--small-gap) var(--small-gap);
     border-radius: var(--border-radius);
 
-    a {
+    & a {
       color: var(--medium-blue);
       font-weight: 600;
 
@@ -170,14 +178,14 @@
       }
     }
 
-    li:not(:first-child) {
+    & li:not(:first-child) {
       margin-left: var(--base-gap);
     }
   }
 
   .footer-social {
-    margin: 0 var(--small-gap) / 2 0 0;
-    padding: var(--small-gap) / 2;
+    margin: 0 calc(var(--small-gap) / 2) 0 auto;
+    padding: calc(var(--small-gap) / 2);
     background: var(--background-primary);
     border-radius: var(--border-radius);
 
@@ -187,13 +195,13 @@
       padding: 0;
       margin: 0;
 
-      li:not(:last-child) {
+      & li:not(:last-child) {
         margin-bottom: 0;
         margin-right: var(--small-gap);
       }
     }
 
-    li {
+    & li {
       position: relative;
 
       &.show-info::before {
@@ -206,7 +214,7 @@
       }
     }
 
-    li::before {
+    & li::before {
       content: attr(data-message);
       position: absolute;
       top: 50%;
@@ -227,11 +235,11 @@
       }
     }
 
-    li:not(:last-child) {
+    & li:not(:last-child) {
       margin-bottom: 5px;
     }
 
-    button {
+    & button {
       --social-btn-size: 40px;
       width: var(--social-btn-size);
       height: var(--social-btn-size);
@@ -241,7 +249,7 @@
       align-items: center;
     }
 
-    svg {
+    & svg {
       margin: 0 auto;
     }
   }

@@ -20,19 +20,19 @@
 
 <style lang="postcss">
   .faq-page {
-    h1 {
+    & h1 {
       margin-bottom: var(--base-gap);
     }
 
-    ul {
+    & ul {
       list-style: none;
 
-      li:not(:last-child) {
+      & li:not(:last-child) {
         margin-bottom: calc(var(--base-gap) * 2);
       }
     }
 
-    h2 {
+    & h2 {
       margin-bottom: var(--small-gap);
     }
   }
@@ -42,7 +42,7 @@
     margin-top: calc(var(--base-gap) / 2);
     list-style: circle;
 
-    li {
+    & li {
       margin-bottom: calc(var(--base-gap) / 2);
     }
   }

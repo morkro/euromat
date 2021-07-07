@@ -7,7 +7,7 @@ export default [
     path: i18n[DEFAULT_LOCALE].privacy.url,
     alias: getTranslatedAliases(i18n, 'privacy'),
     name: 'privacy',
-    component: () => import('./components/index' /* webpackChunkName: "misc" */),
+    component: () => import('./components/Privacy' /* webpackChunkName: "misc" */),
     meta: {
       title: getTranslatedTitles(i18n, 'privacy'),
     },

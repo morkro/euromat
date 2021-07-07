@@ -40,7 +40,7 @@
 
 <style lang="postcss" scoped>
   .partner-page {
-    h1 {
+    & h1 {
       margin-bottom: var(--base-gap);
     }
   }
@@ -55,18 +55,18 @@
     width: 100%;
     margin-top: var(--base-gap);
 
-    li {
-      width: calc(50% - #{var(--base-gap)});
+    & li {
+      width: calc(50% - var(--base-gap));
       flex: 0 0 auto;
       background: var(--medium-blue);
-      border-radius: var(--border-radius)-medium;
+      border-radius: var(--border-radius-medium);
       margin-bottom: var(--base-gap);
 
       &:not(:nth-of-type(even)):not(:last-child) {
         margin-right: var(--base-gap);
       }
 
-      img {
+      & img {
         width: 100%;
       }
 
@@ -81,20 +81,20 @@
       }
     }
 
-    h2 {
+    & h2 {
       color: var(--text-color-base);
-      margin-bottom: calc(#{var(--base-gap)} / 2);
+      margin-bottom: calc(var(--base-gap) / 2);
     }
 
-    .partners-list-logo {
+    & .partners-list-logo {
       background: var(--background-secondary);
-      border-radius: var(--border-radius)-medium;
+      border-radius: var(--border-radius-medium);
       padding: var(--base-gap);
-      margin-bottom: calc(#{var(--base-gap)} / 2);
+      margin-bottom: calc(var(--base-gap) / 2);
       display: block;
     }
 
-    .partners-list-content {
+    & .partners-list-content {
       padding: 0 var(--base-gap) var(--base-gap);
     }
   }

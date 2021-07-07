@@ -15,12 +15,12 @@ export default [
   {
     path: localI18n[DEFAULT_LOCALE].theses.url,
     alias: getTranslatedAliases(localI18n, 'theses'),
-    component: () => import('./components/index' /* webpackChunkName: "euromat" */),
+    component: () => import('./components/Euromat' /* webpackChunkName: "euromat" */),
     children: [
       {
         path: '',
         name: 'theses',
-        component: () => import('./components/theses' /* webpackChunkName: "euromat" */),
+        component: () => import('./components/Theses' /* webpackChunkName: "euromat" */),
         meta: {
           title: getTranslatedTitles(localI18n, 'theses'),
         },
@@ -29,7 +29,7 @@ export default [
         path: localI18n[DEFAULT_LOCALE].emphasis.url,
         alias: getTranslatedAliases(localI18n, 'emphasis'),
         name: 'emphasis',
-        component: () => import('./components/emphasis' /* webpackChunkName: "euromat" */),
+        component: () => import('./components/Emphasis' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
           title: getTranslatedTitles(localI18n, 'emphasis'),
@@ -39,7 +39,7 @@ export default [
         path: localI18n[DEFAULT_LOCALE].results.url,
         alias: getTranslatedAliases(localI18n, 'results'),
         name: 'results',
-        component: () => import('./components/results' /* webpackChunkName: "euromat" */),
+        component: () => import('./components/Results' /* webpackChunkName: "euromat" */),
         beforeEnter: hasAnswers,
         meta: {
           title: getTranslatedTitles(localI18n, 'results'),

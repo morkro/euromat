@@ -119,35 +119,24 @@
     align-items: flex-start;
     flex-wrap: wrap;
 
-    @media (max-width: 630px) {
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-    }
-
     .people-group {
       flex: 0 0 50%;
       text-align: center;
-
-      @media (max-width: 630px) {
-        flex: 0 0 100%;
-        width: 100%;
-      }
     }
 
-    h2 {
+    & h2 {
       color: var(--text-color-secondary);
     }
 
-    ul {
+    & ul {
       list-style: none;
     }
 
-    li:not(:last-child) {
+    & li:not(:last-child) {
       margin-bottom: var(--small-gap);
     }
 
-    svg:not(.team-logo) {
+    & svg:not(.team-logo) {
       stroke: var(--transparent-white);
       width: 1em;
       height: 1em;
@@ -159,40 +148,53 @@
   }
 
   .group-inner {
-    width: calc(100% - #{var(--base-gap)});
+    width: calc(100% - var(--base-gap));
     background: var(--background-secondary);
-    border-radius: var(--border-radius)-medium;
+    border-radius: var(--border-radius-medium);
     box-shadow: var(--button-shadow);
     padding: var(--base-gap);
     color: var(--text-color-secondary);
     margin-bottom: var(--base-gap);
 
-    @media (max-width: 630px) {
-      width: 100%;
-    }
-
     &.dark {
       background: var(--dark-blue);
 
-      h2,
-      a,
-      span {
+      & h2,
+      & a,
+      & span {
         color: var(--text-color-base);
       }
     }
 
-    a,
-    span {
+    & a,
+    & span {
       color: var(--text-color-secondary);
       font-weight: 700;
     }
 
-    a:hover {
+    & a:hover {
       color: var(--text-color-special);
     }
 
-    svg:not(.team-logo) {
+    & svg:not(.team-logo) {
       stroke: var(--blue) !important;
+    }
+  }
+
+  @media (max-width: 630px) {
+    .about-people {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .people-group {
+      flex: 0 0 100%;
+      width: 100%;
+    }
+
+    .group-inner {
+      width: 100%;
     }
   }
 </style>

@@ -52,7 +52,7 @@
       transform: none;
     }
 
-    .consent-content {
+    & .consent-content {
       max-width: var(--app-width);
       width: 100%;
       display: flex;

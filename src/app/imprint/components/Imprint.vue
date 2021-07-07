@@ -152,11 +152,11 @@
       flex-direction: column;
     }
 
-    address {
+    & address {
       font-style: normal;
     }
 
-    .imprint-address {
+    & .imprint-address {
       width: calc(50% - var(--base-gap) / 2);
 
       @media (max-width: 700px) {
@@ -186,11 +186,11 @@
   .imprint-info {
     list-style: none;
 
-    h2 {
+    & h2 {
       margin-bottom: calc(var(--small-gap) / 2);
     }
 
-    li:not(:last-child) {
+    & li:not(:last-child) {
       margin-bottom: var(--small-gap);
     }
   }

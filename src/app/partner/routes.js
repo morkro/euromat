@@ -7,7 +7,7 @@ export default [
     path: i18n[DEFAULT_LOCALE].partner.url,
     alias: getTranslatedAliases(i18n, 'partner'),
     name: 'partner',
-    component: () => import('./components/index' /* webpackChunkName: "partner" */),
+    component: () => import('./components/Partner' /* webpackChunkName: "partner" */),
     meta: {
       title: getTranslatedTitles(i18n, 'partner'),
     },
