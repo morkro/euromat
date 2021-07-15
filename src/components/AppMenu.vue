@@ -1,5 +1,7 @@
 <template>
   <nav role="navigation" class="app-menu">
+    <div v-if="languageMenuSelected" class="shadow" @click.self="hideLanguageSelection" />
+
     <ul class="top-menu">
       <li v-for="(item, index) of main" :key="item.label + index">
         <router-link tag="a" :to="item.route">
@@ -11,7 +13,7 @@
 
     <div :class="['menu-language', { 'show-languages': languageMenuSelected }]">
       <v-button text-only @click="toggleLanguageSelection">
-        <visually-hidden>Change language</visually-hidden>
+        <visually-hidden>{{ $t('meta.topMenu.language') }}</visually-hidden>
         <img
           :src="selectedLanguage.icon"
           :width="buttonSize"
@@ -27,7 +29,7 @@
             :key="lang.locale"
             :class="{ selected: $i18n.locale === lang.locale }"
           >
-            <v-button @click="changeLanguage(lang.locale)">
+            <v-button small @click="changeLanguage(lang.locale)">
               <img :src="lang.icon" :width="buttonSize" :height="buttonSize" :alt="lang.locale" />
               <span>{{ lang.language }}</span>
             </v-button>
@@ -116,6 +118,19 @@
     }
   }
 
+  .shadow {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    background: var(--prussian-blue);
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
   ul {
     list-style: none;
   }
@@ -169,14 +184,12 @@
       width: var(--language-btn-size);
       height: var(--language-btn-size);
       overflow: hidden;
+      border: 2px solid var(--background-primary);
 
       &:focus {
-        box-shadow: none;
-        border: 2px solid var(--orange);
+        border-color: var(--orange);
+        outline: none;
         background: var(--blue-green);
-        transform: translate(-1px, 1px);
-        margin-top: -3px;
-        margin-right: 1px;
       }
 
       & img {
@@ -210,31 +223,33 @@
     }
 
     & ul {
-      background: var(--background-secondary);
+      background: var(--white);
       width: 100%;
-      border-radius: 10px;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      border: 2px solid var(--prussian-blue);
 
       @media (max-width: 480px) {
         width: 95%;
         margin: 0 auto;
       }
-    }
 
-    & ul li:not(:last-child) {
-      border-bottom: 2px solid var(--transparent-black);
+      & li {
+        display: flex;
+      }
+
+      & li:not(:last-child) {
+        border-bottom: 2px solid var(--prussian-blue);
+      }
     }
 
     & ul button {
       width: 100%;
-      background: none;
-      box-shadow: none;
-      text-shadow: none;
+      border: none;
       border-radius: 0;
-      color: var(--text-color-secondary);
 
       &:hover {
-        transform: translateY(0);
-        box-shadow: none;
+        color: var(--orange);
       }
 
       & span {
@@ -242,10 +257,10 @@
       }
 
       & img {
-        margin: 0;
-        height: auto;
-        box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
-        display: inline-flex;
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        margin: -8px 0 -8px -14px;
       }
     }
   }

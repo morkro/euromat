@@ -196,7 +196,7 @@
     }
 
     & .progress-current {
-      color: var(--text-color-special);
+      color: var(--orange);
     }
 
     & button {

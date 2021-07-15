@@ -36,10 +36,7 @@
 
     <div v-if="!isEmbedded" class="results-ctrls">
       <p>{{ $t('results.thanks') }}</p>
-      <v-button router-link as="a" :to="{ path: `/${$i18n.locale}/` }">
-        {{ $t('results.indexBtn') }}
-      </v-button>
-      <v-button router-link as="a" small dark :to="{ path: startOverUrl }">
+      <v-button router-link as="a" dark :to="{ path: startOverUrl }">
         {{ $t('results.startoverBtn') }}
         <feather-rotate-cw />
       </v-button>
@@ -171,11 +168,31 @@
 
   .results-content {
     margin-bottom: var(--base-gap);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: baseline;
+
+    & p {
+      font-size: var(--font-size-medium);
+    }
 
     & span {
-      margin-top: var(--small-gap);
-      color: var(--text-color-secondary);
+      margin-left: var(--small-gap);
+      width: 60%;
+      color: var(--prussian-blue);
       font-size: var(--font-size-small);
+      background: var(--white);
+      padding: calc(var(--base-gap) / 2);
+      display: inline-block;
+      border-radius: var(--border-radius);
+      border: 1px solid var(--prussian-blue);
+
+      &::before {
+        content: '';
+      }
     }
   }
 
@@ -202,7 +219,7 @@
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        color: var(--text-color-secondary);
+        color: var(--prussian-blue);
         font-size: var(--font-size-xlarge);
         font-weight: 600;
       }
@@ -234,7 +251,7 @@
     }
 
     & h2 {
-      color: var(--text-color-base);
+      color: var(--prussian-blue);
       font-weight: 600;
 
       & span {
@@ -243,7 +260,7 @@
     }
 
     & .results-see-more {
-      stroke: var(--text-color-base);
+      stroke: var(--prussian-blue);
       height: 32px;
       width: 32px;
       opacity: 0;
@@ -283,22 +300,17 @@
       }
 
       & span {
-        color: var(--text-color-invert);
+        color: var(--prussian-blue);
         font-weight: 700;
       }
     }
   }
 
   .results-ctrls {
-    margin-top: calc(var(--base-gap) * 2);
-    border-top: 4px solid var(--transparent-white);
-    padding-top: var(--small-gap);
+    margin-top: var(--base-gap);
+    display: flex;
 
     & p {
-      margin-bottom: var(--small-gap);
-    }
-
-    & a:first-of-type {
       margin-right: var(--small-gap);
     }
   }

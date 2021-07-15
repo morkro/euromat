@@ -167,15 +167,15 @@
     border-radius: var(--border-radius);
 
     & a {
-      color: var(--medium-blue);
+      color: var(--prussian-blue);
       font-weight: 600;
 
       &:hover {
-        color: var(--text-color-special);
+        color: var(--orange);
       }
 
       &:focus {
-        color: var(--text-color-base);
+        color: var(--prussian-blue);
       }
     }
 

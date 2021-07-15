@@ -135,7 +135,7 @@
       all: unset;
       cursor: pointer;
       background: transparent;
-      color: var(--text-color-base);
+      color: var(--prussian-blue);
       border: none;
       font-weight: 400;
     }

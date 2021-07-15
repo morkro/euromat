@@ -36,7 +36,7 @@
     width: 100vw;
     max-width: var(--app-width);
     background: var(--background-secondary);
-    color: var(--text-color-secondary);
+    color: var(--prussian-blue);
     display: flex;
     justify-content: center;
     padding: var(--small-gap);

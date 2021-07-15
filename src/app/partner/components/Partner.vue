@@ -6,7 +6,7 @@
 
     <ul class="partners-list">
       <li v-for="partner in $t('partner.partners')" :key="partner.name">
-        <a class="partners-list-logo" :href="partner.url" target="_blank" rel="noopener">
+        <a class="partners-list-logo" :href="partner.url" target="_blank" rel="noopener noreferrer">
           <img :src="getPartnerLogo(partner.name)" :alt="partner.name" :title="partner.name" />
         </a>
         <div class="partners-list-content">
@@ -58,7 +58,7 @@
     & li {
       width: calc(50% - var(--base-gap));
       flex: 0 0 auto;
-      background: var(--medium-blue);
+      background: var(--cornflower-blue);
       border-radius: var(--border-radius);
       margin-bottom: var(--base-gap);
 
@@ -82,7 +82,7 @@
     }
 
     & h2 {
-      color: var(--text-color-base);
+      color: var(--prussian-blue);
       margin-bottom: calc(var(--base-gap) / 2);
     }
 

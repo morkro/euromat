@@ -5,7 +5,11 @@ import { storageAvailable } from '@/helper/storage'
 import { getTranslatedTitles, getTranslatedAliases } from '@/i18n/helper'
 
 function hasAnswers(to, from, next) {
-  if (storageAvailable('sessionStorage') && !sessionStorage.getItem('euromat-answers')) {
+  if (
+    !to.params.result &&
+    storageAvailable('sessionStorage') &&
+    !sessionStorage.getItem('euromat-answers')
+  ) {
     next({ path: `/${i18n.locale}/` })
   }
   next()

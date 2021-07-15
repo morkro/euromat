@@ -20,7 +20,13 @@
           <feather-corner-up-left />
         </v-button>
         <h1>{{ partyName }}</h1>
-        <v-button v-if="!!partyProgramLink" as="a" :href="partyProgramLink" target="_blank">
+        <v-button
+          v-if="!!partyProgramLink"
+          as="a"
+          :href="partyProgramLink"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {{ $t('party.subtitle') }}
           <feather-external-link />
         </v-button>
@@ -204,15 +210,6 @@
     --table-column-small: 15%;
   }
 
-  svg {
-    stroke: var(--text-color-base);
-
-    & path,
-    & polyline {
-      stroke: var(--white);
-    }
-  }
-
   .party-header {
     display: flex;
     align-items: flex-start;
@@ -249,7 +246,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      color: var(--text-color-invert);
+      color: var(--prussian-blue);
+      overflow: hidden;
 
       &.no-logo {
         width: 80px;
@@ -380,18 +378,18 @@
       cursor: pointer;
 
       &:hover svg {
-        stroke: var(--text-color-special);
+        stroke: var(--orange);
       }
 
       & span {
-        color: var(--text-color-secondary);
+        color: var(--prussian-blue);
         display: inline-block;
         font-weight: 700;
       }
 
       & svg {
         margin-right: calc(var(--small-gap) / 2);
-        stroke: var(--text-color-secondary);
+        stroke: var(--prussian-blue);
         transition: stroke 150ms var(--ease-out-back);
       }
 

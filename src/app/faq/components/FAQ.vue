@@ -24,11 +24,13 @@
       margin-bottom: var(--base-gap);
     }
 
-    & ul {
+    & > ul {
       list-style: none;
 
-      & li:not(:last-child) {
-        margin-bottom: calc(var(--base-gap) * 2);
+      & > li:not(:last-child) {
+        border-bottom: 2px solid var(--cornflower-blue);
+        margin-bottom: var(--base-gap);
+        padding-bottom: var(--base-gap);
       }
     }
 

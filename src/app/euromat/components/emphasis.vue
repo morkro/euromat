@@ -4,10 +4,15 @@
 
     <div class="emphasis-content">
       <p>{{ $t('emphasis.content') }}</p>
-      <v-button type="button" small dark @click="submitEmphasis()">
-        {{ $t('emphasis.skip') }}
-        <feather-corner-up-right />
-      </v-button>
+      <div>
+        <v-button type="button" small dark @click="submitEmphasis()">
+          {{ $t('emphasis.skip') }}
+          <feather-corner-up-right />
+        </v-button>
+        <v-button type="button" @click="submitEmphasis()">
+          {{ $t('emphasis.button') }} <feather-arrow-right />
+        </v-button>
+      </div>
     </div>
 
     <ol class="thesis-list">
@@ -19,13 +24,19 @@
           @click.self="addThesisEmphasis(thesis, $event)"
         />
         <label :for="`thesis-${thesis.id}`">
-          <span>{{ getThesisCategory(thesis.category) }}</span>
+          <span>
+            <strong>{{ getThesisCategory(thesis.category) }}</strong>
+          </span>
           {{ getThesisTitle(thesis.thesis) }}
         </label>
       </li>
     </ol>
 
     <div class="emphasis-controls">
+      <v-button type="button" small dark @click="submitEmphasis()">
+        {{ $t('emphasis.skip') }}
+        <feather-corner-up-right />
+      </v-button>
       <v-button type="button" @click="submitEmphasis()">
         {{ $t('emphasis.button') }} <feather-arrow-right />
       </v-button>
@@ -119,7 +130,7 @@
     margin-bottom: var(--base-gap);
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 
     & button {
       flex: 0 0 auto;
@@ -145,7 +156,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-85%);
-        color: var(--text-color-secondary);
+        color: var(--cornflower-blue);
         font-size: var(--font-size-large);
         font-weight: 600;
       }
@@ -171,7 +182,7 @@
         transform: translateX(-50%);
         width: 100vw;
         height: 4px;
-        background: linear-gradient(90deg, var(--transparent-white));
+        background: var(--white);
       }
     }
   }
@@ -184,13 +195,13 @@
     margin-left: calc(var(--base-gap) * 2);
 
     &:focus + label::before {
-      border: 2px solid var(--orange);
+      background-color: var(--orange);
     }
 
     &:checked + label::after {
       opacity: 1;
-      transform: translate(-70px, -50%);
-      transition: transform 150ms var(--ease-out-back), opacity 200ms var(--ease-out-back);
+      transform: translate(-68px, -50%);
+      background-color: var(--orange);
     }
 
     @media (max-width: 768px) {
@@ -210,7 +221,6 @@
     cursor: pointer;
     flex: 1;
     position: relative;
-    font-weight: 600;
 
     &::after,
     &::before {
@@ -231,11 +241,12 @@
     }
 
     &::before {
-      background: var(--medium-blue);
+      background: var(--white);
+      border: 2px solid var(--prussian-blue);
     }
 
     & span {
-      color: var(--text-color-secondary);
+      color: var(--prussian-blue);
       display: block;
       margin-bottom: calc(var(--small-gap) / 2);
     }
@@ -252,6 +263,11 @@
   .emphasis-controls {
     margin-top: var(--base-gap);
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
+
+    & button {
+      margin-left: var(--base-gap);
+    }
   }
 </style>

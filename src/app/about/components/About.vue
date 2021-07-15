@@ -11,7 +11,7 @@
         <div class="people-group polis">
           <div class="group-inner">
             <h2>
-              <a :href="teamLabel.polis.url" target="_blank">
+              <a :href="teamLabel.polis.url" target="_blank" rel="noopener noreferrer">
                 <img
                   class="team-logo polis"
                   :src="polisLogo"
@@ -28,7 +28,7 @@
         <div class="people-group poe">
           <div class="group-inner">
             <h2>
-              <a :href="teamLabel.poe.url" target="_blank">
+              <a :href="teamLabel.poe.url" target="_blank" rel="noopener noreferrer">
                 <img
                   class="team-logo poe"
                   :alt="teamLabel.poe.label"
@@ -47,7 +47,12 @@
             <h2>{{ $t('about.devDesign') }}</h2>
             <ul>
               <li v-for="(member, index) of members.dev" :key="'member-dev-' + index">
-                <a v-if="member.profile" :href="member.profile" target="_blank">
+                <a
+                  v-if="member.profile"
+                  :href="member.profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {{ member.name }}
                   <feather-external-link />
                 </a>
@@ -125,7 +130,7 @@
     }
 
     & h2 {
-      color: var(--text-color-secondary);
+      color: var(--prussian-blue);
     }
 
     & ul {
@@ -137,7 +142,7 @@
     }
 
     & svg:not(.team-logo) {
-      stroke: var(--transparent-white);
+      stroke: var(--white);
       width: 1em;
       height: 1em;
     }
@@ -152,7 +157,7 @@
     background: var(--background-secondary);
     border-radius: var(--border-radius);
     padding: var(--base-gap);
-    color: var(--text-color-secondary);
+    color: var(--prussian-blue);
     margin-bottom: var(--base-gap);
 
     &.dark {
@@ -161,22 +166,18 @@
       & h2,
       & a,
       & span {
-        color: var(--text-color-base);
+        color: var(--prussian-blue);
       }
     }
 
     & a,
     & span {
-      color: var(--text-color-secondary);
+      color: var(--prussian-blue);
       font-weight: 700;
     }
 
     & a:hover {
-      color: var(--text-color-special);
-    }
-
-    & svg:not(.team-logo) {
-      stroke: var(--blue) !important;
+      color: var(--orange);
     }
   }
 

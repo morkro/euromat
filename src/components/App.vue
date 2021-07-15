@@ -150,7 +150,7 @@
 
   body {
     background: var(--background-primary);
-    color: var(--text-color-base);
+    color: var(--prussian-blue);
     font-family: var(--font-roboto);
     font-weight: normal;
     font-size: var(--font-size-base);
@@ -176,7 +176,7 @@
     z-index: 100;
 
     &:focus {
-      color: var(--text-color-secondary);
+      color: var(--prussian-blue);
     }
   }
 
@@ -193,7 +193,7 @@
 
   h2 {
     font-size: var(--font-size-large);
-    color: var(--text-color-secondary);
+    color: var(--prussian-blue);
 
     @media (max-width: 768px) {
       font-size: calc(var(--font-size-large) - 50%);
@@ -205,24 +205,24 @@
   }
 
   a {
-    color: var(--text-color-base);
+    color: var(--prussian-blue);
     text-decoration: none;
     transition: color 150ms var(--ease-out-back);
 
     &:not(.btn):hover {
       text-decoration: underline;
-      color: var(--text-color-special);
+      color: var(--orange);
     }
 
     &:not(.btn):focus {
       outline: 2px solid var(--orange);
-      color: var(--text-color-special);
+      color: var(--orange);
     }
   }
 
   ::selection {
-    color: var(--text-color-base);
-    background: var(--text-color-special);
+    color: var(--prussian-blue);
+    background: var(--orange);
   }
 
   #app {
@@ -249,7 +249,7 @@
     padding: var(--base-gap) var(--small-gap) 0 var(--base-gap);
     margin-bottom: var(--base-gap);
     position: relative;
-    z-index: 2;
+    z-index: 3;
 
     @media (max-width: 730px) {
       flex-direction: column;

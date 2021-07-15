@@ -91,7 +91,7 @@
     <ul class="imprint-info">
       <li v-for="info of $t('imprint.content')" :key="info.title">
         <h2>{{ info.title }}</h2>
-        <p>{{ info.text }}</p>
+        <p>{{ info.content }}</p>
       </li>
     </ul>
   </section>
@@ -139,8 +139,8 @@
     display: block;
     width: 100%;
     border: none;
-    height: 4px;
-    background: var(--transparent-white);
+    height: 2px;
+    background: var(--prussian-blue);
     margin-bottom: var(--base-gap);
   }
 
@@ -163,7 +163,7 @@
         width: 100%;
 
         &:last-of-type {
-          border-top: 4px solid var(--transparent-white);
+          border-top: 2px solid var(--prussian-blue);
           padding-top: var(--small-gap);
         }
       }
