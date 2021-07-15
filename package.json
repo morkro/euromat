@@ -18,18 +18,13 @@
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.2",
     "snyk": "^1.653.0",
-    "stylelint": "^10.0.0",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-processor-html": "^1.0.0",
-    "stylelint-webpack-plugin": "^0.10.5",
     "vue": "^2.6.14",
     "vue-analytics": "^5.22.1",
     "vue-feather-icons": "^5.1.0",
     "vue-i18n": "^8.24.5",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.5.2",
-    "vue-svgicon": "^3.2.9",
-    "vuex": "^3.6.2"
+    "vue-svgicon": "^3.2.9"
   },
   "devDependencies": {
     "@sentry/browser": "^6.8.0",
@@ -60,6 +55,10 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-reporter": "^6.0.1",
     "postcss-url": "^8.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-processor-html": "^1.0.0",
+    "stylelint-webpack-plugin": "^2.2.2",
     "vue-template-compiler": "^2.6.14",
     "xlsx": "^0.17.0"
   },
