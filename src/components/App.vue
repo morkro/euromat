@@ -51,22 +51,27 @@
         return [
           {
             label: this.$t('meta.topMenu.index'),
+            icon: 'home',
             route: { path: `/${this.$i18n.locale}/` },
           },
           {
             label: this.$t('meta.topMenu.faq'),
+            icon: 'help-circle',
             route: { path: getTranslatedUrl('faq') },
           },
           {
             label: this.$t('meta.topMenu.about'),
+            icon: 'users',
             route: { path: getTranslatedUrl('about') },
           },
           {
             label: this.$t('meta.topMenu.partner'),
+            icon: 'smile',
             route: { path: getTranslatedUrl('partner') },
           },
           {
             label: this.$t('meta.topMenu.contact'),
+            icon: 'mail',
             route: { path: getTranslatedUrl('contact') },
           },
         ]
@@ -121,11 +126,8 @@
 
 <style lang="postcss">
   @import 'normalize.css';
-  @import '../styles/animations.css';
   @import '../styles/fonts';
-  @import '../styles/buttons.css';
-  @import '../styles/colors.css';
-  @import '../styles/layout.css';
+  @import '../styles/layout';
 
   * {
     padding: 0;
@@ -149,7 +151,7 @@
   body {
     background: var(--background-primary);
     color: var(--text-color-base);
-    font-family: var(--font-assistant);
+    font-family: var(--font-roboto);
     font-weight: normal;
     font-size: var(--font-size-base);
     -webkit-font-smoothing: antialiased;
@@ -157,21 +159,16 @@
     overflow-x: hidden;
   }
 
-  .visuallyhidden:not(:focus):not(:active) {
+  .go-to-main {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
-
-  .go-to-main.visuallyhidden {
-    position: absolute;
     background: var(--background-secondary);
     left: 0;
     top: 0;
@@ -187,7 +184,6 @@
     font-size: var(--font-size-xlarge);
     line-height: 110%;
     font-weight: 600;
-    text-shadow: var(--text-shadow);
     margin: 0;
 
     @media (max-width: 768px) {
@@ -214,6 +210,7 @@
     transition: color 150ms var(--ease-out-back);
 
     &:not(.btn):hover {
+      text-decoration: underline;
       color: var(--text-color-special);
     }
 
@@ -258,7 +255,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: calc(var(--small-gap) - 5);
+      padding: calc(var(--small-gap) - 5px);
     }
   }
 

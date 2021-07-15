@@ -31,55 +31,24 @@
 
           <v-progress class="result-percentage" :value="party.score" :max="totalMaxPoints" />
         </router-link>
-
-        <div v-if="party.nationalParty" class="party-results-national">
-          <feather-corner-down-right />
-          <span>
-            {{ $t('results.nationalParty') }}
-            <a
-              class="party-results-national-logo"
-              :href="party.nationalParty.program"
-              target="_blank"
-              rel="noopener"
-            >
-              <div v-if="hasPartyLogo(party.nationalParty.token)">
-                <img
-                  :src="getPartyLogo(party.nationalParty.token)"
-                  :alt="party.nationalParty.name"
-                  :title="party.nationalParty.name"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <span v-else>{{ party.nationalParty.token }}</span>
-            </a>
-          </span>
-        </div>
       </li>
     </ul>
 
     <div v-if="!isEmbedded" class="results-ctrls">
       <p>{{ $t('results.thanks') }}</p>
-      <router-link tag="a" class="btn" :to="{ path: `/${$i18n.locale}/` }">
+      <v-button router-link as="a" :to="{ path: `/${$i18n.locale}/` }">
         {{ $t('results.indexBtn') }}
-      </router-link>
-      <router-link tag="a" class="btn btn-dark btn-small" :to="{ path: startOverUrl }">
+      </v-button>
+      <v-button router-link as="a" small dark :to="{ path: startOverUrl }">
         {{ $t('results.startoverBtn') }}
         <feather-rotate-cw />
-      </router-link>
-    </div>
-
-    <div class="results-affiliation">
-      <a href="https://www.talkingeurope.com/" target="_blank" rel="noopener">
-        <img :src="talkingEuropeBanner" title="Talking Europe" alt="Talking Europe Banner" />
-      </a>
+      </v-button>
     </div>
   </section>
 </template>
 
 <script>
-  import { IPDATA_URL } from '@/config'
-  import { getTranslatedUrl, getUserLanguage } from '@/i18n/helper'
+  import { getTranslatedUrl } from '@/i18n/helper'
   import { getPartiesWithScores, getTotalMaxPoints } from '@/app/euromat/scoring'
   import { parties } from '@/data'
 
@@ -91,13 +60,10 @@
         import('vue-feather-icons/icons/ZoomInIcon' /* webpackChunkName: "icons" */),
       'feather-rotate-cw': () =>
         import('vue-feather-icons/icons/RotateCwIcon' /* webpackChunkName: "icons" */),
-      'feather-corner-down-right': () =>
-        import('vue-feather-icons/icons/CornerDownRightIcon' /* webpackChunkName: "icons" */),
     },
 
     data() {
       return {
-        userCountry: getUserLanguage().country,
         scoringGrid: [],
         parties: [],
         totalMaxPoints: 0,
@@ -111,17 +77,25 @@
       isEmbedded() {
         return this.$route.query.embedded && this.$route.query.embedded === 'iframe'
       },
-      talkingEuropeBanner() {
-        try {
-          return require(`@/assets/talkingeurope/talkingeurope-${this.$i18n.locale}.png`)
-        } catch (e) {
-          console.warn('TalkingEurope image not found, defaulting to "en". ', e)
-          return require(`@/assets/talkingeurope/talkingeurope-en.png`)
-        }
-      },
     },
 
     async created() {
+      if (this.$route.params.result) {
+        const [maxScore, ...results] = this.$route.params.result.split(',')
+        const [, maxScoreNumber] = maxScore.split(':') // 's:79'
+        this.totalMaxPoints = parseInt(maxScoreNumber, 10)
+        this.parties = results.map((p) => {
+          const [id, score] = p.split(':') // 10:42 (example)
+          return {
+            id,
+            score,
+            token: parties.find((party) => party.id === Number(id))?.token,
+          }
+        })
+
+        return
+      }
+
       let emphasized
       let answers
 
@@ -137,25 +111,8 @@
         this.$router.push({ path: getTranslatedUrl('theses') })
       }
 
-      try {
-        const ipResponse = await fetch(IPDATA_URL)
-        const ipData = await ipResponse.json()
-        if (ipData.country_code) {
-          this.userCountry = ipData.country_code.toLowerCase()
-        }
-      } catch (error) {
-        console.warn('Unable to fetch geo location:', error)
-      }
-
       const partiesWithScores = getPartiesWithScores(answers, emphasized, parties)
-      this.parties = partiesWithScores
-        .map((party) => ({
-          token: party.token,
-          score: party.score,
-          nationalParty: party['national_parties'][this.userCountry],
-        }))
-        .sort((a, b) => a.score - b.score)
-        .reverse()
+      this.parties = partiesWithScores.sort((a, b) => a.score - b.score).reverse()
       this.totalMaxPoints = getTotalMaxPoints(answers, emphasized)
     },
 
@@ -182,11 +139,11 @@
         try {
           require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
           return true
-        } catch (e) {
+        } catch {
           try {
             require(`@/assets/${token.toLowerCase().replace(/\s/g, '-')}-logo.png`)
             return true
-          } catch (error) {
+          } catch {
             return false
           }
         }
@@ -279,7 +236,6 @@
     & h2 {
       color: var(--text-color-base);
       font-weight: 600;
-      text-shadow: var(--text-shadow);
 
       & span {
         font-weight: 400;
@@ -288,7 +244,6 @@
 
     & .results-see-more {
       stroke: var(--text-color-base);
-      filter: drop-shadow(var(--text-shadow));
       height: 32px;
       width: 32px;
       opacity: 0;
@@ -301,48 +256,6 @@
       position: absolute;
       top: 0;
       left: 0;
-    }
-  }
-
-  .party-results-national {
-    width: 92%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: calc(var(--small-gap) / 2);
-    padding-left: var(--small-gap);
-
-    & svg {
-      margin-right: calc(var(--small-gap) / 2);
-    }
-
-    & > span {
-      display: inline-flex;
-      align-items: center;
-    }
-
-    & .party-results-national-logo {
-      display: inline-block;
-      font-weight: 700;
-      margin-left: calc(var(--small-gap) / 2);
-
-      & > div {
-        width: 70px;
-        height: auto;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        vertical-align: middle;
-      }
-
-      & img {
-        object-fit: contain;
-        width: 80%;
-      }
-    }
-
-    @media (max-width: 650px) {
-      width: 100%;
     }
   }
 
@@ -387,33 +300,6 @@
 
     & a:first-of-type {
       margin-right: var(--small-gap);
-    }
-  }
-
-  .results-affiliation {
-    background: var(--medium-blue);
-    width: 100%;
-    margin-top: calc(var(--base-gap) * 2);
-    padding: calc(var(--small-gap) / 2);
-    border-radius: calc(var(--border-radius) / 3);
-
-    @media (max-width: 650px) {
-      padding: 0;
-      margin-top: calc(var(--base-gap) * 2);
-      border-top: 4px solid var(--transparent-white);
-      padding-top: var(--small-gap);
-      border-radius: 0;
-      background: transparent;
-    }
-
-    & a {
-      display: block;
-    }
-
-    & img {
-      width: 100%;
-      height: auto;
-      vertical-align: middle;
     }
   }
 </style>

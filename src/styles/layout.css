@@ -1,15 +1,35 @@
 :root {
-  --font-size-tiny: 80%;
-  --font-size-small: 90%;
-  --font-size-base: 16px;
-  --font-size-medium: 115%;
-  --font-size-large: 225%;
-  --font-size-xlarge: 275%;
-
+  /* Dimensions */
   --small-gap: 20px;
   --base-gap: 30px;
-  --border-radius: 100px;
-  --border-radius-medium: 20px;
-
+  --border-radius: 8px;
   --app-width: 930px;
+
+  /* Animations */
+  --ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Colors */
+  /* Legacy */
+  --transparent-white: rgba(255, 255, 255, 0.21);
+  --transparent-black: rgba(0, 0, 0, 0.15);
+  --blue: #40a6ee;
+  --medium-blue: #22608c;
+  /* /Legacy */
+
+  --white: #fff;
+  --black: #000;
+  --prussian-blue: #023047;
+  --blue-green: #219ebc;
+  --cornflower-blue: #8ecae6;
+  --light-blue: #f3f9fc;
+  --orange: #fb8500;
+  --honey-yellow: #ffb703;
+  --background-primary: var(--light-blue);
+  --background-secondary: var(--white);
+
+  /* Text */
+  --text-color-base: var(--prussian-blue);
+  --text-color-secondary: var(--prussian-blue);
+  --text-color-invert: rgba(0, 0, 0, 0.8);
+  --text-color-special: var(--orange);
 }

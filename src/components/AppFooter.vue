@@ -1,5 +1,12 @@
 <template>
   <footer>
+    <ul class="footer-menu">
+      <li v-for="item of menu" :key="item.label">
+        <router-link tag="a" :to="item.route">
+          {{ item.label }}
+        </router-link>
+      </li>
+    </ul>
     <ul class="footer-social">
       <li
         v-for="item of social"
@@ -7,17 +14,10 @@
         :data-message="getMessage(item)"
         :class="getSocialClass(item)"
       >
-        <button class="btn-dark" @click="share(item)">
+        <v-button dark @click="share(item)">
+          <visually-hidden>{{ item.label }}</visually-hidden>
           <component :is="'feather-' + item.icon" />
-        </button>
-      </li>
-    </ul>
-
-    <ul class="footer-menu">
-      <li v-for="item of menu" :key="item.label">
-        <router-link tag="a" :to="item.route">
-          {{ item.label }}
-        </router-link>
+        </v-button>
       </li>
     </ul>
   </footer>
@@ -139,11 +139,12 @@
   footer {
     position: fixed;
     z-index: 2;
-    bottom: 0;
-    right: 0;
+    bottom: calc(var(--small-gap) / 2);
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: flex-end;
-    flex-direction: column;
+    align-items: center;
 
     @media (max-width: 1050px) {
       position: static;
@@ -162,7 +163,7 @@
     background: var(--background-primary);
     display: flex;
     font-size: var(--font-size-small);
-    padding: calc(var(--small-gap) / 2) var(--small-gap) var(--small-gap);
+    padding: calc(var(--small-gap) / 2);
     border-radius: var(--border-radius);
 
     & a {
@@ -184,21 +185,12 @@
   }
 
   .footer-social {
-    margin: 0 calc(var(--small-gap) / 2) 0 auto;
-    padding: calc(var(--small-gap) / 2);
-    background: var(--background-primary);
-    border-radius: var(--border-radius);
+    display: flex;
+    margin-left: var(--base-gap);
 
     @media (max-width: 1050px) {
       display: flex;
       justify-content: center;
-      padding: 0;
-      margin: 0;
-
-      & li:not(:last-child) {
-        margin-bottom: 0;
-        margin-right: var(--small-gap);
-      }
     }
 
     & li {
@@ -236,7 +228,7 @@
     }
 
     & li:not(:last-child) {
-      margin-bottom: 5px;
+      margin-right: 5px;
     }
 
     & button {

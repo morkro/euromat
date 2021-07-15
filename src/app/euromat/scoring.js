@@ -1,7 +1,26 @@
+import { parties } from '@/data'
+
 export const MAX_POINTS = 2
 export const BASE_POINTS = 1
 export const MIN_POINTS = 0
 export const EMPHASIS_POINTS = 2
+
+/**
+ * The returned string is structured as follows.
+ * Full example:
+ *    ms:48,10:31,11:29,6:27,4:27,1:27,9:26,3:26,2:24,5:23,8:22,7:17,0:15
+ * Break down:
+ *    ms:48 = this is the calculated maximum score points
+ *    10:31 = partyId:scorePoints
+ * @returns {string}
+ */
+export function getScoreResultString(answers, emphasized) {
+  const partiesWithScores = getPartiesWithScores(answers, emphasized, parties)
+    .sort((a, b) => a.score - b.score)
+    .reverse()
+  const totalMaxPoints = getTotalMaxPoints(answers, emphasized)
+  return `s:${totalMaxPoints},${partiesWithScores.map(p => `${p.id}:${p.score}`).join(',')}`
+}
 
 export function getPartiesWithScores(answers, emphasized, partiesPositions) {
   const scorePointsGrid = getScorePointsGrid(answers, emphasized, partiesPositions)

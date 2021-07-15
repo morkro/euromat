@@ -2,14 +2,11 @@ const { SUPPORTED_LOCALES } = require('../../src/config')
 
 const createField = (widget, name, label, opts) => ({ label, name, widget, ...opts })
 
-const textField = (...args) =>
-  createField('text', ...args)
+const textField = (...args) => createField('text', ...args)
 
-const stringField = (...args) =>
-  createField('string', ...args)
+const stringField = (...args) => createField('string', ...args)
 
-const markdownField = (...args) =>
-  createField('markdown', ...args)
+const markdownField = (...args) => createField('markdown', ...args)
 
 const listField = (name, label, { list, ...rest } = {}) =>
   createField('list', name, label, { ...rest, fields: list })
@@ -22,11 +19,11 @@ const baseConfig = () => ({
     name: 'git-gateway',
     branch: 'master',
     squash_merges: true,
-    accept_roles: ['admin', 'editor']
+    accept_roles: ['admin', 'editor'],
   },
   publish_mode: 'editorial_workflow',
   media_folder: 'static/img/uploads',
-  public_folder: '/img/uploads'
+  public_folder: '/img/uploads',
 })
 
 const languageConfig = () => ({
@@ -36,23 +33,24 @@ const languageConfig = () => ({
   widget: 'select',
   options: SUPPORTED_LOCALES.map(([locale, name]) => ({
     label: name,
-    value: locale
-  }))
+    value: locale,
+  })),
 })
 
 const pageUrl = () => ({
   label: '[Meta] Page URL',
   name: 'url',
   widget: 'string',
-  hint: 'An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>)',
-  optional: true
+  hint:
+    'An optional, localised URL which will be used for this page (e.g. https://euromat.info/#/<PAGE_URL>)',
+  optional: true,
 })
 
 const siteName = () => ({
   label: '[Meta] Site Name',
   name: 'title',
   widget: 'string',
-  hint: 'The name for the page that will appear in the browser tab.'
+  hint: 'The name for the page that will appear in the browser tab.',
 })
 
 const category = ({ meta, fields = [] }) => ({
@@ -60,10 +58,7 @@ const category = ({ meta, fields = [] }) => ({
   format: 'json',
   create: true,
   slug: '{{fields.language}}',
-  fields: [
-    languageConfig(),
-    ...fields
-  ]
+  fields: [languageConfig(), ...fields],
 })
 
 module.exports = {
@@ -76,5 +71,5 @@ module.exports = {
   stringField,
   markdownField,
   listField,
-  objectField
+  objectField,
 }

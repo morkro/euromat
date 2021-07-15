@@ -8,11 +8,11 @@
     name: 'Markdown',
 
     components: {
-      VueMarkdown
+      VueMarkdown,
     },
 
     props: {
-      source: { type: String, required: true }
-    }
+      source: { type: String, required: true },
+    },
   }
 </script>

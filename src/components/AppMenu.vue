@@ -3,20 +3,22 @@
     <ul class="top-menu">
       <li v-for="(item, index) of main" :key="item.label + index">
         <router-link tag="a" :to="item.route">
+          <component :is="`feather-${item.icon}`" />
           {{ item.label }}
         </router-link>
       </li>
     </ul>
 
     <div :class="['menu-language', { 'show-languages': languageMenuSelected }]">
-      <button class="btn-txt" type="button" @click="toggleLanguageSelection">
+      <v-button text-only @click="toggleLanguageSelection">
+        <visually-hidden>Change language</visually-hidden>
         <img
           :src="selectedLanguage.icon"
           :width="buttonSize"
           :height="buttonSize"
           :alt="selectedLanguage.locale"
         />
-      </button>
+      </v-button>
 
       <div class="menu-language-select" @click.self="hideLanguageSelection">
         <ul>
@@ -25,10 +27,10 @@
             :key="lang.locale"
             :class="{ selected: $i18n.locale === lang.locale }"
           >
-            <button @click="changeLanguage(lang.locale)">
+            <v-button @click="changeLanguage(lang.locale)">
               <img :src="lang.icon" :width="buttonSize" :height="buttonSize" :alt="lang.locale" />
               <span>{{ lang.language }}</span>
-            </button>
+            </v-button>
           </li>
         </ul>
       </div>
@@ -40,6 +42,19 @@
   import { setCurrentLocale, getTranslatedUrl } from '@/i18n/helper'
   export default {
     name: 'AppMenu',
+
+    components: {
+      'feather-home': () =>
+        import('vue-feather-icons/icons/HomeIcon' /* webpackChunkName: "icons" */),
+      'feather-help-circle': () =>
+        import('vue-feather-icons/icons/HelpCircleIcon' /* webpackChunkName: "icons" */),
+      'feather-users': () =>
+        import('vue-feather-icons/icons/UsersIcon' /* webpackChunkName: "icons" */),
+      'feather-mail': () =>
+        import('vue-feather-icons/icons/MailIcon' /* webpackChunkName: "icons" */),
+      'feather-smile': () =>
+        import('vue-feather-icons/icons/SmileIcon' /* webpackChunkName: "icons" */),
+    },
 
     props: {
       main: { type: Array, default: () => [{ label: 'Index', route: { path: '/' } }] },
@@ -111,7 +126,7 @@
     display: flex;
 
     @media (max-width: 480px) {
-      margin-bottom: calc(var(--small-gap) + 5);
+      margin-bottom: calc(var(--small-gap) + 5px);
 
       & li:last-child {
         margin-right: 0;
@@ -134,37 +149,40 @@
   a {
     text-decoration: none;
     font-weight: 600;
-    display: block;
+    display: flex;
+    align-items: center;
+
+    & svg {
+      stroke: var(--blue-green);
+      margin-right: calc(var(--small-gap) / 2);
+    }
   }
 
   .menu-language {
-    --language-btn-size: 45px;
+    --language-btn-size: var(--base-gap);
     display: flex;
     justify-content: space-around;
     position: relative;
 
-    & > button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 5px;
-      background: rgba(0, 0, 0, 0.1);
+    & > .btn {
       border-radius: 100%;
       width: var(--language-btn-size);
       height: var(--language-btn-size);
-      transition: background 150ms var(--ease-out-back);
-
-      &:hover {
-        background: var(--transparent-black);
-      }
+      overflow: hidden;
 
       &:focus {
         box-shadow: none;
         border: 2px solid var(--orange);
-        background: var(--button-background-secondary);
+        background: var(--blue-green);
         transform: translate(-1px, 1px);
         margin-top: -3px;
         margin-right: 1px;
+      }
+
+      & img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
       }
     }
 
@@ -195,7 +213,6 @@
       background: var(--background-secondary);
       width: 100%;
       border-radius: 10px;
-      box-shadow: var(--button-shadow);
 
       @media (max-width: 480px) {
         width: 95%;

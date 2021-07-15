@@ -3,12 +3,12 @@
     <div class="consent-content">
       <p>{{ $t('meta.cookieConsent.text') }}</p>
       <div class="consent-actions">
-        <button @click="updateConsent(false)">
+        <v-button @click="updateConsent(false)">
           {{ $t('meta.cookieConsent.btnDecline') }}
-        </button>
-        <button @click="updateConsent(true)">
+        </v-button>
+        <v-button @click="updateConsent(true)">
           {{ $t('meta.cookieConsent.btnAccept') }}
-        </button>
+        </v-button>
       </div>
     </div>
   </section>
@@ -42,7 +42,6 @@
     padding: var(--small-gap);
     margin-bottom: var(--base-gap);
     border-radius: var(--border-radius);
-    box-shadow: var(--button-shadow);
 
     @media (max-width: var(--app-width)) {
       margin-bottom: 0;

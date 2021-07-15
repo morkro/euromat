@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueSVGIcon from 'vue-svgicon'
 import VueAnalytics from 'vue-analytics'
+import VueCompositionAPI from '@vue/composition-api'
 import { init as initSentry } from '@sentry/browser'
 import * as Integrations from '@sentry/integrations'
 
@@ -15,6 +16,7 @@ import '@/registerComponents'
 import '@/registerServiceWorker'
 
 Vue.config.productionTip = false
+Vue.use(VueCompositionAPI)
 Vue.use(VueSVGIcon)
 Vue.use(storage)
 Vue.use(VueAnalytics, {

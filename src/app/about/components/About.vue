@@ -150,14 +150,13 @@
   .group-inner {
     width: calc(100% - var(--base-gap));
     background: var(--background-secondary);
-    border-radius: var(--border-radius-medium);
-    box-shadow: var(--button-shadow);
+    border-radius: var(--border-radius);
     padding: var(--base-gap);
     color: var(--text-color-secondary);
     margin-bottom: var(--base-gap);
 
     &.dark {
-      background: var(--dark-blue);
+      background: var(--prussian-blue);
 
       & h2,
       & a,

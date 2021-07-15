@@ -1,36 +1,62 @@
 :root {
-  --font-assistant: 'Assistant', Avenir, Helvetica, Arial, sans-serif;
+  --font-roboto: 'Roboto', Helvetiva, Arial, sans-serif;
+  --font-size-tiny: 80%;
+  --font-size-small: 90%;
+  --font-size-base: 16px;
+  --font-size-medium: 115%;
+  --font-size-large: 225%;
+  --font-size-xlarge: 275%;
 }
 
 @font-face {
-  font-family: 'Assistant';
-  src: url('/fonts/hinted-Assistant-Bold.eot');
-  src: local('Assistant Bold'), local('Assistant-Bold'),
-    url('/fonts/hinted-Assistant-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/hinted-Assistant-Bold.woff') format('woff'),
-    url('/fonts/hinted-Assistant-Bold.ttf') format('truetype');
-  font-weight: 700;
+  font-family: 'Roboto';
+  src: local('Roboto Regular'), local('Roboto-Regular'),
+    url('/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Assistant';
-  src: url('/fonts/hinted-Assistant-SemiBold.eot');
-  src: local('Assistant-SemiBold'),
-    url('/fonts/hinted-Assistant-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/hinted-Assistant-SemiBold.woff') format('woff'),
-    url('/fonts/hinted-Assistant-SemiBold.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: local('Roboto Italic'), local('Roboto-Italic'),
+    url('/fonts/Roboto-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('/fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto MediumItalic'), local('Roboto-MediumItalic'),
+    url('/fonts/Roboto-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('/fonts/Roboto-Bold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Assistant';
-  src: url('/fonts/hinted-Assistant-Regular.eot');
-  src: local('Assistant-Regular'),
-    url('/fonts/hinted-Assistant-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/hinted-Assistant-Regular.woff') format('woff'),
-    url('/fonts/hinted-Assistant-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Roboto';
+  src: local('Roboto BoldItalic'), local('Roboto-BoldItalic'),
+    url('/fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }

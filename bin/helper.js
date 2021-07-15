@@ -2,7 +2,7 @@ const fs = require('fs')
 
 const writeFile = (path, data, opts = 'utf8') =>
   new Promise((resolve, reject) => {
-    fs.writeFile(path, data, opts, (err) => {
+    fs.writeFile(path, data, opts, err => {
       if (err) reject(err)
       else resolve()
     })
@@ -18,5 +18,5 @@ const readFile = (path, opts = 'utf8') =>
 
 module.exports = {
   writeFile,
-  readFile
+  readFile,
 }

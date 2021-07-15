@@ -5,14 +5,9 @@
         <span class="progress-current">{{ currentThesisStep }}</span>
         <span>/{{ thesesCount }}</span>
       </div>
-      <button
-        :disabled="currentThesis === 0"
-        class="btn-dark btn-small"
-        type="button"
-        @click="goBack"
-      >
+      <v-button type="button" small dark :disabled="currentThesis === 0" @click="goBack">
         {{ $t('theses.backBtn') }}
-      </button>
+      </v-button>
     </div>
 
     <div class="theses-content">
@@ -24,15 +19,15 @@
       <div class="theses-controls">
         <ul class="theses-btns">
           <li v-for="option in options" :key="option.label">
-            <button type="button" @click="submitAnswer(option, $event)">
+            <v-button type="button" @click="submitAnswer(option, $event)">
               {{ option.label }} <component :is="'feather-' + option.icon" />
-            </button>
+            </v-button>
           </li>
         </ul>
         <div class="controls-sub">
-          <button class="btn-dark btn-small" type="button" @click="submitAnswer(optionSkip)">
+          <v-button dark type="button" @click="submitAnswer(optionSkip)">
             {{ optionSkip.label }} <feather-corner-up-right />
-          </button>
+          </v-button>
         </div>
       </div>
     </div>
@@ -175,7 +170,7 @@
     flex-direction: column;
     align-items: flex-end;
     margin-right: calc(var(--base-gap) * 2);
-    color: var(--text-color-secondary);
+    color: var(--blue-green);
 
     @media (max-width: 835px) {
       flex: 1;
@@ -205,7 +200,7 @@
     }
 
     & button {
-      margin-top: calc(var(--base-gap) + 5);
+      margin-top: calc(var(--base-gap) + 5px);
 
       @media (max-width: 835px) {
         margin-top: 0;
@@ -220,7 +215,7 @@
   }
 
   .theses-header {
-    margin-bottom: calc(var(--base-gap) + 5);
+    margin-bottom: calc(var(--base-gap) + 5px);
     text-align: left;
 
     & h1,
@@ -230,6 +225,7 @@
 
     & h2 {
       margin-bottom: var(--base-gap);
+      color: var(--blue-green);
     }
   }
 

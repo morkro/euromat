@@ -59,7 +59,7 @@
       width: calc(50% - var(--base-gap));
       flex: 0 0 auto;
       background: var(--medium-blue);
-      border-radius: var(--border-radius-medium);
+      border-radius: var(--border-radius);
       margin-bottom: var(--base-gap);
 
       &:not(:nth-of-type(even)):not(:last-child) {
@@ -88,7 +88,7 @@
 
     & .partners-list-logo {
       background: var(--background-secondary);
-      border-radius: var(--border-radius-medium);
+      border-radius: var(--border-radius);
       padding: var(--base-gap);
       margin-bottom: calc(var(--base-gap) / 2);
       display: block;

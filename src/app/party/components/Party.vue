@@ -15,15 +15,15 @@
       </div>
 
       <div class="party-header-info">
-        <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
+        <v-button v-if="!!answers" router-link small dark :to="{ path: resultsPath }">
           {{ $t('party.backButtonLabel') }}
           <feather-corner-up-left />
-        </router-link>
+        </v-button>
         <h1>{{ partyName }}</h1>
-        <a v-if="!!partyProgramLink" class="btn" :href="partyProgramLink" target="_blank">
+        <v-button v-if="!!partyProgramLink" as="a" :href="partyProgramLink" target="_blank">
           {{ $t('party.subtitle') }}
           <feather-external-link />
-        </a>
+        </v-button>
       </div>
     </header>
 
@@ -75,10 +75,10 @@
       </li>
     </ul>
 
-    <router-link v-if="!!answers" class="btn btn-dark btn-small" :to="{ path: resultsPath }">
+    <v-button v-if="!!answers" router-link dark small :to="{ path: resultsPath }">
       {{ $t('party.backButtonLabel') }}
       <feather-corner-up-left />
-    </router-link>
+    </v-button>
   </section>
 </template>
 
@@ -124,12 +124,14 @@
         toggles: theses.map((t) => ({ id: t.id, show: false })),
         theses,
         options,
+        previousRoute: null,
       }
     },
 
     computed: {
       resultsPath() {
-        return getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
+        const basePath = getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
+        return this.previousRoute ? this.previousRoute : basePath
       },
       hasPartyLogo() {
         try {
@@ -145,6 +147,12 @@
       partyProgramLink() {
         return this.party.program[this.$i18n.locale]
       },
+    },
+
+    beforeRouteEnter(to, from, next) {
+      next((vm) => {
+        vm.previousRoute = from.path
+      })
     },
 
     methods: {
@@ -198,11 +206,10 @@
 
   svg {
     stroke: var(--text-color-base);
-    filter: drop-shadow(var(--text-shadow));
 
     & path,
     & polyline {
-      stroke: var(--button-color);
+      stroke: var(--white);
     }
   }
 
@@ -226,7 +233,7 @@
       margin-right: var(--small-gap);
 
       & .btn {
-        margin-bottom: var(--small-gap) / 2;
+        margin-bottom: calc(var(--small-gap) / 2);
       }
     }
 
@@ -242,7 +249,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: var(--button-shadow);
       color: var(--text-color-invert);
 
       &.no-logo {
@@ -272,7 +278,7 @@
 
     & p {
       font-weight: 600;
-      margin-bottom: var(--small-gap) / 2;
+      margin-bottom: calc(var(--small-gap) / 2);
     }
 
     & ul {
@@ -291,25 +297,25 @@
       align-items: center;
       background: rgba(0, 0, 0, 0.1);
       border-radius: var(--border-radius);
-      padding: var(--small-gap) / 3 var(--small-gap) / 1.5;
-      margin-bottom: var(--small-gap) / 3;
+      padding: calc(var(--small-gap) / 3) calc(var(--small-gap) / 1.5);
+      margin-bottom: calc(var(--small-gap) / 3);
 
       &:not(:last-child) {
-        margin-right: var(--small-gap) / 3;
+        margin-right: calc(var(--small-gap) / 3);
       }
     }
 
     & svg {
       width: 12px;
       height: 12px;
-      margin-right: var(--small-gap) / 3;
+      margin-right: calc(var(--small-gap) / 3);
     }
   }
 
   .party-theses-list {
-    margin: var(--small-gap) / 2 0 var(--base-gap) 0;
+    margin: calc(var(--small-gap) / 2) 0 var(--base-gap) 0;
     list-style: none;
-    border-bottom: 4px solid var(--transparent-white);
+    border-bottom: 4px solid var(--prussian-blue);
 
     & .list-header {
       display: flex;
@@ -318,7 +324,6 @@
       flex-direction: row;
       background: var(--background-secondary);
       border-radius: var(--border-radius);
-      box-shadow: var(--button-shadow);
       padding: var(--small-gap);
 
       & h2 {
@@ -342,7 +347,7 @@
     }
 
     & li:not(:last-child):not(.list-header) {
-      border-bottom: 2px dashed var(--transparent-white);
+      border-bottom: 2px dashed var(--prussian-blue);
     }
 
     & .thesis-facts {
@@ -351,8 +356,8 @@
     }
 
     & .thesis-statement {
-      background: var(--dark-blue);
-      border-radius: var(--border-radius) / 4;
+      background: var(--prussian-blue);
+      border-radius: calc(var(--border-radius) / 4);
       padding: var(--small-gap);
       margin-top: var(--base-gap);
       position: relative;
@@ -362,7 +367,7 @@
         content: '';
         width: 20px;
         height: 20px;
-        background: var(--dark-blue);
+        background: var(--prussian-blue);
         top: 0;
         left: 0;
         transform: translate(30px, -50%) rotate(45deg);
@@ -385,7 +390,7 @@
       }
 
       & svg {
-        margin-right: var(--small-gap) / 2;
+        margin-right: calc(var(--small-gap) / 2);
         stroke: var(--text-color-secondary);
         transition: stroke 150ms var(--ease-out-back);
       }
@@ -393,7 +398,7 @@
       & .thesis-subline {
         display: flex;
         align-items: center;
-        margin-bottom: var(--small-gap) / 2;
+        margin-bottom: calc(var(--small-gap) / 2);
       }
     }
 

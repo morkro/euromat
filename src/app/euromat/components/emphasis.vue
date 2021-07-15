@@ -4,10 +4,10 @@
 
     <div class="emphasis-content">
       <p>{{ $t('emphasis.content') }}</p>
-      <button type="button" class="btn-dark btn-small" @click="submitEmphasis()">
+      <v-button type="button" small dark @click="submitEmphasis()">
         {{ $t('emphasis.skip') }}
         <feather-corner-up-right />
-      </button>
+      </v-button>
     </div>
 
     <ol class="thesis-list">
@@ -26,9 +26,9 @@
     </ol>
 
     <div class="emphasis-controls">
-      <button type="button" @click="submitEmphasis()">
+      <v-button type="button" @click="submitEmphasis()">
         {{ $t('emphasis.button') }} <feather-arrow-right />
-      </button>
+      </v-button>
     </div>
   </section>
 </template>
@@ -36,6 +36,7 @@
 <script>
   import { theses } from '@/data'
   import { getTranslatedUrl } from '@/i18n/helper'
+  import { getScoreResultString } from '../scoring'
 
   export default {
     name: 'Emphasis',
@@ -87,15 +88,21 @@
       },
       submitEmphasis() {
         const emphasized = JSON.stringify(this.emphasized)
+        let answers
 
         if (this.$browser.supports('sessionStorage')) {
           sessionStorage.setItem('euromat-emphasized', emphasized)
+          answers = JSON.parse(sessionStorage.getItem('euromat-answers'))
         } else {
           this.$root.$data.backupStorage.emphasized = emphasized
+          answers = JSON.parse(this.$root.$data.backupStorage.answers)
         }
 
+        const basePath = getTranslatedUrl('results', getTranslatedUrl('theses', null, true))
+        const scoreResultPath = getScoreResultString(answers, this.emphasized)
+
         this.$router.push({
-          path: getTranslatedUrl('results', getTranslatedUrl('theses', null, true)),
+          path: `${basePath}/${scoreResultPath}`,
           query: this.isEmbedded ? { embedded: 'iframe' } : {},
         })
       },
@@ -219,8 +226,6 @@
 
     &::after {
       opacity: 0;
-      background: var(--button-background-primary);
-      box-shadow: var(--button-shadow);
       transform: translate(-70px, -47%);
       transition: transform 150ms var(--ease-out-back), opacity 200ms var(--ease-out-back);
     }
@@ -232,7 +237,7 @@
     & span {
       color: var(--text-color-secondary);
       display: block;
-      margin-bottom: var(--small-gap) / 2;
+      margin-bottom: calc(var(--small-gap) / 2);
     }
 
     @media (max-width: 768px) {

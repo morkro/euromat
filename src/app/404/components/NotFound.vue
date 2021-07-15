@@ -2,9 +2,9 @@
   <section>
     <h1>{{ $t('fourzerofour.headline') }}</h1>
     <v-markdown :source="$t('fourzerofour.content')" />
-    <router-link class="btn" :to="{ path: '/' }">
+    <v-button router-link :to="{ path: '/' }">
       {{ $t('fourzerofour.button') }}
-    </router-link>
+    </v-button>
   </section>
 </template>
 

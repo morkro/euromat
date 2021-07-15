@@ -7,10 +7,10 @@
         <v-markdown :source="$t('intro.content')" />
       </div>
 
-      <router-link class="btn" :to="{ path: thesesPath }">
+      <v-button router-link as="a" :to="{ path: thesesPath }">
         {{ $t('intro.button') }}
         <feather-check-circle />
-      </router-link>
+      </v-button>
     </div>
   </section>
 </template>

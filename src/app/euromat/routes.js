@@ -44,6 +44,16 @@ export default [
         meta: {
           title: getTranslatedTitles(localI18n, 'results'),
         },
+        children: [
+          {
+            path: ':result',
+            alias: 'results',
+            component: () => import('./components/Results' /* webpackChunkName: "euromat" */),
+            meta: {
+              title: getTranslatedTitles(localI18n, 'results'),
+            },
+          },
+        ],
       },
     ],
   },

@@ -18,16 +18,16 @@
 
         <div class="imprint-group inline">
           <h3>{{ $t('imprint.poe.emailLabel') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.poe.email')}`">
+          <v-button as="a" small dark :href="`mailto:${$t('imprint.poe.email')}`">
             {{ $t('imprint.poe.email') }} <feather-mail />
-          </a>
+          </v-button>
         </div>
 
         <div class="imprint-group inline">
           <h3>{{ $t('imprint.poe.phoneLabel') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`tel:${$t('imprint.poe.phone')}`">
+          <v-button as="a" small dark :href="`tel:${$t('imprint.poe.phone')}`">
             {{ $t('imprint.poe.phone') }} <feather-phone />
-          </a>
+          </v-button>
         </div>
 
         <div class="imprint-group">
@@ -51,16 +51,16 @@
 
         <div class="imprint-group inline">
           <h3>{{ $t('imprint.polis180.emailLabel') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`mailto:${$t('imprint.polis180.email')}`">
+          <v-button as="a" small dark :href="`mailto:${$t('imprint.polis180.email')}`">
             {{ $t('imprint.polis180.email') }} <feather-mail />
-          </a>
+          </v-button>
         </div>
 
         <div class="imprint-group inline">
           <h3>{{ $t('imprint.polis180.phoneLabel') }}</h3>
-          <a class="btn btn-dark btn-small" :href="`tel:${$t('imprint.polis180.phone')}`">
+          <v-button as="a" small dark :href="`tel:${$t('imprint.polis180.phone')}`">
             {{ $t('imprint.polis180.phone') }} <feather-phone />
-          </a>
+          </v-button>
         </div>
 
         <div class="imprint-group">
@@ -80,9 +80,9 @@
 
       <div class="imprint-group inline">
         <h3>{{ $t('imprint.responsible.mail') }}</h3>
-        <a class="btn btn-dark btn-small" href="mailto:hello@euromat.info">
+        <v-button as="a" small dark href="mailto:hello@euromat.info">
           hello@euromat.info <feather-mail />
-        </a>
+        </v-button>
       </div>
     </div>
 
