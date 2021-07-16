@@ -18,6 +18,8 @@ const SUPPORTED_LOCALES = [
 ]
 
 module.exports = {
+  // Meta
+  EMAIL: 'hello@euromat.info',
   // Analytics
   GA_KEY: 'UA-83519650-2',
   GA_COOKIE_NAME: '_euromat-ga',

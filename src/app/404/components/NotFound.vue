@@ -5,18 +5,36 @@
     <v-button router-link :to="{ path: '/' }">
       {{ $t('fourzerofour.button') }}
     </v-button>
+    <v-illustration aria-hidden="true" />
   </section>
 </template>
 
 <script>
+  import Illustration from './Illustration.vue'
   export default {
     name: 'FourZeroFour',
+    components: {
+      'v-illustration': Illustration,
+    },
   }
 </script>
 
 <style lang="postcss" scoped>
-  h1,
-  p {
-    margin-bottom: var(--base-gap);
+  section {
+    position: relative;
+    text-align: center;
+
+    & h1,
+    & p,
+    & > div {
+      margin-bottom: var(--base-gap);
+    }
+
+    & button {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 20%);
+    }
   }
 </style>

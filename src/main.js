@@ -10,7 +10,7 @@ import router from '@/router'
 import i18n from '@/i18n'
 import storage from '@/helper/storage'
 import { getCookie } from '@/helper/cookies'
-import { GA_KEY, GA_COOKIE_NAME } from '@/config'
+import { EMAIL, GA_KEY, GA_COOKIE_NAME } from '@/config'
 
 import '@/registerComponents'
 import '@/registerServiceWorker'
@@ -39,6 +39,7 @@ new Vue({
   i18n,
   router,
   data: {
+    email: EMAIL,
     backupStorage: {
       answers: undefined,
       emphasized: undefined,

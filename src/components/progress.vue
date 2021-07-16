@@ -34,12 +34,12 @@
     }
 
     &::-moz-progress-bar {
-      background: var(--orange);
+      background: var(--honey-yellow);
       border-radius: var(--border-radius);
     }
 
     &::-webkit-progress-value {
-      background: var(--orange);
+      background: var(--honey-yellow);
       border-radius: var(--border-radius);
     }
   }

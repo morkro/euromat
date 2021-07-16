@@ -53,7 +53,7 @@
       </li>
 
       <li v-for="thesis in theses" :key="thesis.id">
-        <div class="thesis-facts">
+        <div :class="['thesis-facts', { 'same-position': isSamePosition(thesis.id) }]">
           <div class="list-thesis" @click="toggleStatement(thesis.id)">
             <div class="thesis-subline">
               <component :is="'feather-' + chevronIcon(thesis.id)" />
@@ -193,6 +193,9 @@
       getUserPosition(id) {
         return this.positionToIconName(this.answers.find((a) => a.thesis === id).position)
       },
+      isSamePosition(id) {
+        return this.getPartyPosition(id) === this.getUserPosition(id)
+      },
       showStatement(id) {
         return this.toggles.find((t) => t.id === id).show
       },
@@ -293,7 +296,7 @@
     & li {
       display: flex;
       align-items: center;
-      background: rgba(0, 0, 0, 0.1);
+      background: var(--cornflower-blue);
       border-radius: var(--border-radius);
       padding: calc(var(--small-gap) / 3) calc(var(--small-gap) / 1.5);
       margin-bottom: calc(var(--small-gap) / 3);
@@ -320,15 +323,17 @@
       align-items: center;
       justify-content: space-between;
       flex-direction: row;
-      background: var(--background-secondary);
+      background: var(--prussian-blue);
       border-radius: var(--border-radius);
       padding: var(--small-gap);
+      color: var(--white);
 
       & h2 {
         flex: 1 0 var(--table-column-small);
         font-size: var(--font-size-base);
         margin: 0;
         text-align: center;
+        color: var(--white);
       }
 
       & h2:first-of-type {
@@ -345,27 +350,33 @@
     }
 
     & li:not(:last-child):not(.list-header) {
-      border-bottom: 2px dashed var(--prussian-blue);
+      border-bottom: 2px dashed var(--cornflower-blue);
     }
 
     & .thesis-facts {
       display: flex;
       align-items: stretch;
+
+      &.same-position svg {
+        stroke: var(--orange);
+      }
     }
 
     & .thesis-statement {
-      background: var(--prussian-blue);
+      background: var(--white);
       border-radius: calc(var(--border-radius) / 4);
       padding: var(--small-gap);
       margin-top: var(--base-gap);
       position: relative;
+      z-index: 1;
 
-      &::after {
+      &::before {
         position: absolute;
+        z-index: 0;
         content: '';
         width: 20px;
         height: 20px;
-        background: var(--prussian-blue);
+        background: var(--white);
         top: 0;
         left: 0;
         transform: translate(30px, -50%) rotate(45deg);
@@ -382,7 +393,7 @@
       }
 
       & span {
-        color: var(--prussian-blue);
+        color: var(--blue-green);
         display: inline-block;
         font-weight: 700;
       }
@@ -400,17 +411,17 @@
       }
     }
 
-    .statements-party,
-    .statements-user {
+    & .statements-party,
+    & .statements-user {
       flex: 1 0 var(--table-column-small);
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
     }
 
-    .statements-party {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: var(--border-radius);
+    & .statements-party {
+      flex: 1 0 var(--table-column-small);
     }
   }
 </style>

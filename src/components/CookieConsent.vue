@@ -3,11 +3,13 @@
     <div class="consent-content">
       <p>{{ $t('meta.cookieConsent.text') }}</p>
       <div class="consent-actions">
-        <v-button @click="updateConsent(false)">
+        <v-button small @click="updateConsent(false)">
           {{ $t('meta.cookieConsent.btnDecline') }}
+          <feather-slash />
         </v-button>
-        <v-button @click="updateConsent(true)">
+        <v-button small @click="updateConsent(true)">
           {{ $t('meta.cookieConsent.btnAccept') }}
+          <feather-smile />
         </v-button>
       </div>
     </div>
@@ -17,6 +19,13 @@
 <script>
   export default {
     name: 'CookieConsent',
+
+    components: {
+      'feather-slash': () =>
+        import('vue-feather-icons/icons/SlashIcon' /* webpackChunkName: "icons" */),
+      'feather-smile': () =>
+        import('vue-feather-icons/icons/SmileIcon' /* webpackChunkName: "icons" */),
+    },
 
     methods: {
       updateConsent(consent) {
@@ -35,13 +44,14 @@
     transform: translateX(-50%);
     width: 100vw;
     max-width: var(--app-width);
-    background: var(--background-secondary);
-    color: var(--prussian-blue);
+    background: var(--blue-green);
+    color: var(--white);
     display: flex;
     justify-content: center;
     padding: var(--small-gap);
     margin-bottom: var(--base-gap);
     border-radius: var(--border-radius);
+    border: 4px solid var(--white);
 
     @media (max-width: var(--app-width)) {
       margin-bottom: 0;
@@ -61,6 +71,10 @@
       & button {
         margin-left: var(--small-gap);
       }
+    }
+
+    & .consent-actions {
+      display: flex;
     }
   }
 </style>

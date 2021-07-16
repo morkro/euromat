@@ -80,8 +80,8 @@
 
       <div class="imprint-group inline">
         <h3>{{ $t('imprint.responsible.mail') }}</h3>
-        <v-button as="a" small dark href="mailto:hello@euromat.info">
-          hello@euromat.info <feather-mail />
+        <v-button as="a" small dark :href="`mailto:${$root.$data.email}`">
+          {{ $root.$data.email }} <feather-mail />
         </v-button>
       </div>
     </div>

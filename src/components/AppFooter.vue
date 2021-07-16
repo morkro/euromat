@@ -76,7 +76,7 @@
       constructTwitterURL(message) {
         const { text, hashtags } = message
         const url = 'https://twitter.com/intent/tweet'
-        return `${url}?text=${encodeURI(text)}&hashtags=${hashtags}&url=${this.shareURL}`
+        return `${url}?text=${encodeURIComponent(text)}&hashtags=${hashtags}&url=${this.shareURL}`
       },
       share(social) {
         switch (social.label.toLowerCase()) {
@@ -94,7 +94,6 @@
         const frameName = 'Post a Tweet on Twitter'
         const { width, height, left, top } = this.getPopupDimensions()
         const options = `resizable,scrollbars,width=${width},height=${height},top=${top},left=${left}`
-
         const popup = window.open(this.constructTwitterURL(message), frameName, options)
         if (window.focus) {
           popup.focus()
