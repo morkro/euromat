@@ -63,7 +63,8 @@ export function getTranslatedTitles(data, section) {
     title: Object.keys(data).reduce((acc, cur) => {
       const title = data[cur][section].title
       if (!title) {
-        console.warning(`Property "title" doesn't exist on i18n.de.${section}`)
+        // eslint-disable-next-line no-console
+        console.warn(`Property "title" doesn't exist on i18n.de.${section}`)
       }
 
       acc[cur] = title

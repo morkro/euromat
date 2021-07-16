@@ -122,7 +122,7 @@
       },
       submitAnswer(option, event) {
         if (!option) {
-          // eslint-disable-next-line
+          // eslint-disable-next-line no-console
           return console.warn('Invalid answer')
         }
 

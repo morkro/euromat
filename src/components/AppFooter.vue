@@ -125,7 +125,7 @@
             }, this.infoTimeout)
           }
         } catch (error) {
-          // eslint-disable-next-line
+          // eslint-disable-next-line no-console
           console.error('Oops, unable to copy', error)
         }
 
