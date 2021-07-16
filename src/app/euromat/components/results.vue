@@ -120,10 +120,11 @@
       getPartyLogo(token) {
         try {
           return require(`@/assets/svg/${token.toLowerCase().replace(/\s/g, '-')}-logo.svg`)
-        } catch (e) {
+        } catch {
           try {
             return require(`@/assets/${token.toLowerCase().replace(/\s/g, '-')}-logo.png`)
           } catch (error) {
+            // eslint-disable-next-line no-console
             console.warn(
               `No logo found for party "${token}", falling back to initials.`,
               error.message
