@@ -1,11 +1,38 @@
 const { SUPPORTED_LOCALES } = require('../../src/config')
 
+/**
+ * @typedef ConfigField
+ * @property {string} widget
+ * @property {string} name
+ * @property {string} label
+ * @property {object} opts
+ */
+
+/**
+ * @param {string} widget
+ * @param {string} name
+ * @param {string} label
+ * @param {object} opts
+ * @returns {ConfigField}
+ */
 const createField = (widget, name, label, opts) => ({ label, name, widget, ...opts })
 
+/**
+ * @param  {...string} args
+ * @returns {ConfigField}
+ */
 const textField = (...args) => createField('text', ...args)
 
+/**
+ * @param  {...string} args
+ * @returns {ConfigField}
+ */
 const stringField = (...args) => createField('string', ...args)
 
+/**
+ * @param  {...string} args
+ * @returns {ConfigField}
+ */
 const markdownField = (...args) => createField('markdown', ...args)
 
 const listField = (name, label, { list, ...rest } = {}) =>

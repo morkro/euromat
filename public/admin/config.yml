@@ -707,7 +707,7 @@ collections:
         widget: string
   - name: settings
     label: Settings
-    description: 'Overall settings for all pages (e.g. menu labels, social media, ...)'
+    description: Overall settings for all pages (e.g. menu labels, social media, ...)
     folder: src/data/meta
     format: json
     create: true

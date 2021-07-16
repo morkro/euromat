@@ -2,10 +2,19 @@ const XLSX = require('xlsx')
 const ora = require('ora')
 const { writeFile } = require('../helper')
 
+/**
+ * @param {object} data
+ * @returns {string}
+ */
 function toJSON(data = {}) {
   return JSON.stringify(data, null, 2)
 }
 
+/**
+ * @description Normalises a token
+ * @param {string} name
+ * @returns {string}
+ */
 function normalisePartyToken(name) {
   return name
     .toUpperCase()

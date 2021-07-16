@@ -309,7 +309,7 @@ const configTree = {
 ;(async () => {
   const spinner = ora(`Building 'config.yml' for Netlify CMS admin.`).start()
   try {
-    await writeFile(PATH_DESTINATION, yaml.safeDump(configTree))
+    await writeFile(PATH_DESTINATION, yaml.dump(configTree))
     spinner.succeed(`'config.yml' has been successfully created!`)
   } catch (error) {
     spinner.fail(`There was an error creating 'config.yml': ${error.message}`)
