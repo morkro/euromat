@@ -10,26 +10,13 @@ import faq from '@/app/faq/i18n'
 import contact from '@/app/contact/i18n'
 import imprint from '@/app/imprint/i18n'
 import privacy from '@/app/privacy/i18n'
-import partner from '@/app/partner/i18n'
 import { i18n as meta } from '@/data'
 
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@/config'
 
 Vue.use(VueI18n)
 
-const messages = [
-  meta,
-  intro,
-  euromat,
-  party,
-  partner,
-  about,
-  fourzerofour,
-  faq,
-  contact,
-  imprint,
-  privacy,
-]
+const messages = [meta, intro, euromat, party, about, fourzerofour, faq, contact, imprint, privacy]
 
 function getLanguage(locale) {
   return messages.reduce(

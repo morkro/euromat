@@ -9,7 +9,6 @@ import intro from '@/app/intro/routes'
 import euromat from '@/app/euromat/routes'
 import party from '@/app/party/routes'
 import about from '@/app/about/routes'
-import partner from '@/app/partner/routes'
 import faq from '@/app/faq/routes'
 import contact from '@/app/contact/routes'
 import imprint from '@/app/imprint/routes'
@@ -30,7 +29,6 @@ const router = new Router({
         ...euromat,
         ...party,
         ...about,
-        ...partner,
         ...faq,
         ...contact,
         ...imprint,

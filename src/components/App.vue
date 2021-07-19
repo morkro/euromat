@@ -65,11 +65,6 @@
             route: { path: getTranslatedUrl('about') },
           },
           {
-            label: this.$t('meta.topMenu.partner'),
-            icon: 'smile',
-            route: { path: getTranslatedUrl('partner') },
-          },
-          {
             label: this.$t('meta.topMenu.contact'),
             icon: 'mail',
             route: { path: getTranslatedUrl('contact') },
