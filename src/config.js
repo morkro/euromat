@@ -5,7 +5,7 @@ const LOCALE_ENGLISH = 'en'
 // const LOCALE_DANISH = 'dk'
 // const LOCALE_SLOVENIAN = 'si'
 // const LOCALE_CZECH = 'cz'
-const DEFAULT_LOCALE = LOCALE_ENGLISH
+const DEFAULT_LOCALE = LOCALE_GERMAN
 
 const SUPPORTED_LOCALES = [
   [LOCALE_ENGLISH, 'English'],
