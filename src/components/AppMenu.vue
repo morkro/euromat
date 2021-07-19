@@ -100,6 +100,8 @@
           }
         }
 
+        document.querySelector('.go-to-main').textContent = this.$t('meta.skipToMain')
+        document.querySelector('#main').focus()
         this.$router.replace(translatedUrl)
         this.hideLanguageSelection()
       },

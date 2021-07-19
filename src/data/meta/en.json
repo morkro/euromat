@@ -1,6 +1,7 @@
 {
   "language": "en",
   "title": "Settings",
+  "skipToMain": "Skip to main",
   "topMenu": {
     "index": "Landing page",
     "faq": "FAQ",

@@ -1,6 +1,7 @@
 {
   "language": "de",
   "title": "Einstellungen",
+  "skipToMain": "Zum Inhalt springen",
   "topMenu": {
     "index": "Startseite",
     "faq": "FAQ",

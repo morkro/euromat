@@ -1,20 +1,20 @@
 const LOCALE_GERMAN = 'de'
 const LOCALE_ENGLISH = 'en'
-const LOCALE_FRENCH = 'fr'
-const LOCALE_POLISH = 'pl'
-const LOCALE_DANISH = 'dk'
-const LOCALE_SLOVENIAN = 'si'
-const LOCALE_CZECH = 'cz'
+// const LOCALE_FRENCH = 'fr'
+// const LOCALE_POLISH = 'pl'
+// const LOCALE_DANISH = 'dk'
+// const LOCALE_SLOVENIAN = 'si'
+// const LOCALE_CZECH = 'cz'
 const DEFAULT_LOCALE = LOCALE_ENGLISH
 
 const SUPPORTED_LOCALES = [
   [LOCALE_ENGLISH, 'English'],
   [LOCALE_GERMAN, 'Deutsch'],
-  [LOCALE_FRENCH, 'Français'],
-  [LOCALE_DANISH, 'Dansk'],
-  [LOCALE_SLOVENIAN, 'Slovenščina'],
-  [LOCALE_CZECH, 'Čeština'],
-  [LOCALE_POLISH, 'Polski'],
+  // [LOCALE_FRENCH, 'Français'],
+  // [LOCALE_DANISH, 'Dansk'],
+  // [LOCALE_SLOVENIAN, 'Slovenščina'],
+  // [LOCALE_CZECH, 'Čeština'],
+  // [LOCALE_POLISH, 'Polski'],
 ]
 
 module.exports = {
@@ -28,9 +28,9 @@ module.exports = {
   // Languages
   LOCALE_GERMAN,
   LOCALE_ENGLISH,
-  LOCALE_FRENCH,
-  LOCALE_POLISH,
-  LOCALE_DANISH,
+  // LOCALE_FRENCH,
+  // LOCALE_POLISH,
+  // LOCALE_DANISH,
   DEFAULT_LOCALE,
   SUPPORTED_LOCALES,
 }

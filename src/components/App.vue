@@ -115,6 +115,10 @@
       },
     },
 
+    beforeCreate() {
+      document.querySelector('.go-to-main').textContent = this.$t('meta.skipToMain')
+    },
+
     methods: {
       updateConsent(consent) {
         setCookie(GA_COOKIE_NAME, consent)
@@ -169,14 +173,22 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    background: var(--background-secondary);
+    background: var(--prussian-blue);
     left: 0;
     top: 0;
     padding: calc(var(--small-gap) / 2);
     z-index: 100;
+    font-weight: 500;
+    font-size: var(--font-size-medium);
 
     &:focus {
-      color: var(--prussian-blue);
+      color: var(--white) !important;
+      clip: auto;
+      clip-path: none;
+      height: auto;
+      overflow: auto;
+      position: absolute;
+      width: auto;
     }
   }
 
