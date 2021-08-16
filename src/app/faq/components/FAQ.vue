@@ -1,6 +1,9 @@
 <template>
   <section class="faq-page">
-    <h1>{{ $t('faq.headline') }}</h1>
+    <header>
+      <h1>{{ $t('faq.headline') }}</h1>
+      <v-illustration aria-hidden="true" />
+    </header>
     <ul>
       <li v-for="question of $t('faq.questions')" :key="question.title + question.answer">
         <h2>{{ question.title }}</h2>
@@ -13,22 +16,22 @@
 </template>
 
 <script>
+  import Illustration from './Illustration.vue'
   export default {
     name: 'FAQ',
+    components: {
+      'v-illustration': Illustration,
+    },
   }
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
   .faq-page {
-    & h1 {
-      margin-bottom: var(--base-gap);
-    }
-
     & > ul {
       list-style: none;
 
       & > li:not(:last-child) {
-        border-bottom: 2px solid var(--cornflower-blue);
+        border-bottom: 2px solid var(--prussian-blue);
         margin-bottom: var(--base-gap);
         padding-bottom: var(--base-gap);
       }
@@ -36,6 +39,30 @@
 
     & h2 {
       margin-bottom: var(--small-gap);
+    }
+  }
+
+  .faq-page header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(-1 * var(--base-gap));
+
+    @media (max-width: 768px) {
+      margin-bottom: var(--base-gap);
+    }
+
+    & > svg {
+      width: 125px;
+      height: aut0;
+
+      @media (max-width: 768px) {
+        width: 11vw;
+        margin-left: var(--small-gap);
+      }
+
+      @media (max-width: 480px) {
+        display: none;
+      }
     }
   }
 

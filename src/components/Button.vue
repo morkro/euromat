@@ -73,7 +73,7 @@
     &:focus,
     &:active {
       outline: none;
-      border: 2px solid var(--orange);
+      border: 2px solid var(--orange) !important;
     }
 
     & svg {

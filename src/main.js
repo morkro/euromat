@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueSVGIcon from 'vue-svgicon'
 import VueAnalytics from 'vue-analytics'
 import VueCompositionAPI from '@vue/composition-api'
+import VueFlag from 'vue-flagpack'
 import { init as initSentry } from '@sentry/browser'
 import * as Integrations from '@sentry/integrations'
 
@@ -18,6 +19,7 @@ import '@/registerServiceWorker'
 Vue.config.productionTip = false
 Vue.use(VueCompositionAPI)
 Vue.use(VueSVGIcon)
+Vue.use(VueFlag, { name: 'v-flag' })
 Vue.use(storage)
 Vue.use(VueAnalytics, {
   id: GA_KEY,

@@ -2,13 +2,7 @@
   <div id="app" :class="{ 'is-embedded': isEmbedded }">
     <header v-if="!isEmbedded" class="app-header">
       <router-link :to="{ path: `/${$i18n.locale}/` }">
-        <img
-          class="header-logo"
-          alt="EUROMAT Logo"
-          :src="euromatLogo"
-          :width="logoSize"
-          :height="logoSize / 2"
-        />
+        <img class="header-logo" alt="EUROMAT Logo" :src="euromatLogo" height="110" />
       </router-link>
 
       <app-menu :main="topMenu" :languages="languages" />
@@ -37,9 +31,7 @@
       return {
         showConsentLayer: getCookie(GA_COOKIE_NAME) === null,
         euromatLogo: require('@/assets/svg/euromat-logo.svg'),
-        logoSize: 220,
         languages: SUPPORTED_LOCALES.map(([locale, language]) => ({
-          icon: require(`@/assets/svg/flag-${locale}.svg`),
           locale,
           language,
         })),
@@ -90,7 +82,7 @@
             icon: 'twitter',
             message: {
               text: this.$t('meta.socialMedia.twitter'),
-              hashtags: 'BTW17,EUROMAT',
+              hashtags: 'BTW21,EUROMAT',
             },
           },
           {
@@ -141,14 +133,9 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
-    &.no-scroll {
-      overflow: hidden;
-    }
   }
 
   body {
-    background: var(--background-primary);
     color: var(--prussian-blue);
     font-family: var(--font-roboto);
     font-weight: normal;
@@ -156,6 +143,15 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    background-color: var(--background-primary);
+    background-image: url(/img/app-background.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 33vw auto;
+
+    @media (max-width: 768px) {
+      background-image: none;
+    }
   }
 
   .go-to-main {
@@ -200,7 +196,7 @@
 
   h2 {
     font-size: var(--font-size-large);
-    color: var(--prussian-blue);
+    color: var(--blue-green);
 
     @media (max-width: 768px) {
       font-size: calc(var(--font-size-large) - 50%);
@@ -222,7 +218,7 @@
     }
 
     &:not(.btn):focus {
-      outline: 2px solid var(--orange);
+      outline: 2px dashed var(--orange);
       color: var(--orange);
     }
   }
@@ -234,10 +230,11 @@
 
   #app {
     width: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
 
     &.is-embedded {
@@ -278,7 +275,7 @@
     padding: 0 var(--small-gap);
     position: relative;
     z-index: 1;
-    margin-bottom: calc(var(--base-gap) * 3);
+    margin-bottom: calc(var(--base-gap) * 2);
 
     @media (max-width: 1050px) {
       margin-bottom: calc(var(--base-gap) * 2);

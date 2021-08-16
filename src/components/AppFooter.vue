@@ -14,7 +14,7 @@
         :data-message="getMessage(item)"
         :class="getSocialClass(item)"
       >
-        <v-button dark @click="share(item)">
+        <v-button text-only @click="share(item)">
           <visually-hidden>{{ item.label }}</visually-hidden>
           <component :is="'feather-' + item.icon" />
         </v-button>
@@ -51,6 +51,7 @@
 
     methods: {
       getMessage(item) {
+        console.log(item)
         return item.label === 'clipboard' ? item.message : ''
       },
       getSocialClass(item) {
@@ -136,20 +137,14 @@
 
 <style lang="postcss" scoped>
   footer {
-    position: fixed;
-    z-index: 2;
-    bottom: calc(var(--small-gap) / 2);
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-bottom: calc(var(--small-gap) / 2);
+    margin-left: auto;
+    margin-right: auto;
 
     @media (max-width: 1050px) {
-      position: static;
-      z-index: 0;
-      justify-content: center;
-      align-items: center;
       margin-top: var(--base-gap);
     }
 
@@ -167,7 +162,6 @@
 
     & a {
       color: var(--prussian-blue);
-      font-weight: 600;
 
       &:hover {
         color: var(--orange);
@@ -185,7 +179,7 @@
 
   .footer-social {
     display: flex;
-    margin-left: var(--base-gap);
+    margin-left: calc(0.5 * var(--base-gap));
 
     @media (max-width: 1050px) {
       display: flex;
@@ -238,9 +232,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      &:hover svg,
+      &:hover svg path {
+        stroke: var(--orange);
+      }
     }
 
-    & svg {
+    & svg,
+    & svg path {
+      stroke: var(--prussian-blue);
       margin: 0 auto;
     }
   }

@@ -14,12 +14,7 @@
     <div :class="['menu-language', { 'show-languages': languageMenuSelected }]">
       <v-button text-only @click="toggleLanguageSelection">
         <visually-hidden>{{ $t('meta.topMenu.language') }}</visually-hidden>
-        <img
-          :src="selectedLanguage.icon"
-          :width="buttonSize"
-          :height="buttonSize"
-          :alt="selectedLanguage.locale"
-        />
+        <v-flag :code="getLocale(selectedLanguage.locale)" size="l" has-border-radius />
       </v-button>
 
       <div class="menu-language-select" @click.self="hideLanguageSelection">
@@ -30,7 +25,7 @@
             :class="{ selected: $i18n.locale === lang.locale }"
           >
             <v-button small @click="changeLanguage(lang.locale)">
-              <img :src="lang.icon" :width="buttonSize" :height="buttonSize" :alt="lang.locale" />
+              <v-flag :code="getLocale(lang.locale)" size="l" />
               <span>{{ lang.language }}</span>
             </v-button>
           </li>
@@ -104,6 +99,9 @@
         document.querySelector('#main').focus()
         this.$router.replace(translatedUrl)
         this.hideLanguageSelection()
+      },
+      getLocale(locale) {
+        return locale === 'en' ? 'GBR' : locale.toUpperCase()
       },
     },
   }
@@ -182,22 +180,13 @@
     position: relative;
 
     & > .btn {
-      border-radius: 100%;
-      width: var(--language-btn-size);
-      height: var(--language-btn-size);
-      overflow: hidden;
-      border: 2px solid var(--background-primary);
+      display: flex;
+      border: 2px dashed var(--background-primary);
 
       &:focus {
         border-color: var(--orange);
         outline: none;
         background: var(--blue-green);
-      }
-
-      & img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
       }
     }
 
@@ -255,14 +244,8 @@
       }
 
       & span {
-        margin-left: 0.5em;
-      }
-
-      & img {
-        width: 32px;
-        height: 32px;
-        object-fit: cover;
-        margin: -8px 0 -8px -14px;
+        margin-left: 1em;
+        font-size: var(--font-size-medium);
       }
     }
   }
