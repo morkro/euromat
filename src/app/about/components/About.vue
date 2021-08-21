@@ -124,7 +124,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
 
-    .people-group {
+    & .people-group {
       flex: 0 0 50%;
       text-align: center;
     }
@@ -166,7 +166,7 @@
       & h2,
       & a,
       & span {
-        color: var(--prussian-blue);
+        color: var(--white);
       }
     }
 
