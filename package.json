@@ -17,7 +17,6 @@
     "@vue/composition-api": "^1.0.0-rc.14",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.2",
-    "snyk": "^1.653.0",
     "vue": "^2.6.14",
     "vue-analytics": "^5.22.1",
     "vue-feather-icons": "^5.1.0",
@@ -82,5 +81,5 @@
       "git add"
     ]
   },
-  "snyk": true
+  "snyk": false
 }
