@@ -14,7 +14,7 @@
     <div :class="['menu-language', { 'show-languages': languageMenuSelected }]">
       <v-button text-only @click="toggleLanguageSelection">
         <visually-hidden>{{ $t('meta.topMenu.language') }}</visually-hidden>
-        <v-flag :code="getLocale(selectedLanguage.locale)" size="l" has-border-radius />
+        <feather-globe />
       </v-button>
 
       <div class="menu-language-select" @click.self="hideLanguageSelection">
@@ -25,7 +25,6 @@
             :class="{ selected: $i18n.locale === lang.locale }"
           >
             <v-button small @click="changeLanguage(lang.locale)">
-              <v-flag :code="getLocale(lang.locale)" size="l" />
               <span>{{ lang.language }}</span>
             </v-button>
           </li>
@@ -41,6 +40,8 @@
     name: 'AppMenu',
 
     components: {
+      'feather-globe': () =>
+        import('vue-feather-icons/icons/GlobeIcon' /* webpackChunkName: "icons" */),
       'feather-home': () =>
         import('vue-feather-icons/icons/HomeIcon' /* webpackChunkName: "icons" */),
       'feather-help-circle': () =>
@@ -244,7 +245,6 @@
       }
 
       & span {
-        margin-left: 1em;
         font-size: var(--font-size-medium);
       }
     }
