@@ -9,8 +9,6 @@
     "lint": "vue-cli-service lint",
     "admin": "node bin/admin-yml",
     "data": "node bin/xlsx-data",
-    "prepare": "npm run snyk-protect",
-    "snyk-protect": "snyk protect",
     "svg": "vsvg -s ./src/assets/svg -t ./src/assets/icons"
   },
   "dependencies": {
@@ -80,5 +78,4 @@
       "git add"
     ]
   },
-  "snyk": false
 }
