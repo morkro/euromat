@@ -1,0 +1,22 @@
+:root {
+  /* Dimensions */
+  --small-gap: 20px;
+  --base-gap: 30px;
+  --border-radius: 8px;
+  --app-width: 930px;
+
+  /* Animations */
+  --ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --prussian-blue: #023047;
+  --blue-green: #219ebc;
+  --cornflower-blue: #8ecae6;
+  --light-blue: #f3f9fc;
+  --orange: #fb8500;
+  --honey-yellow: #ffb703;
+  --background-primary: var(--light-blue);
+  --background-secondary: var(--white);
+}

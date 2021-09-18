@@ -1,12 +1,13 @@
 {
   "language": "de",
   "title": "Einstellungen",
+  "skipToMain": "Zum Inhalt springen",
   "topMenu": {
     "index": "Startseite",
     "faq": "FAQ",
     "about": "Über uns",
-    "partner": "Partner",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "language": "Sprache ändern"
   },
   "footerMenu": {
     "imprint": "Impressum",

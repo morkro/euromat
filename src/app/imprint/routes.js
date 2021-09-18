@@ -7,9 +7,9 @@ export default [
     path: i18n[DEFAULT_LOCALE].imprint.url,
     alias: getTranslatedAliases(i18n, 'imprint'),
     name: 'imprint',
-    component: () => import('./components/index' /* webpackChunkName: "misc" */),
+    component: () => import('./components/Imprint' /* webpackChunkName: "misc" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'imprint')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'imprint'),
+    },
+  },
 ]

@@ -5,9 +5,9 @@ export default [
   {
     path: '*',
     name: '404',
-    component: () => import('./components/index' /* webpackChunkName: "404" */),
+    component: () => import('./components/NotFound' /* webpackChunkName: "404" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'fourzerofour')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'fourzerofour'),
+    },
+  },
 ]

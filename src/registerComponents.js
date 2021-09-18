@@ -13,7 +13,7 @@ import Vue from 'vue'
 const requireComponent = require.context('./components', false, /\.vue$/)
 const fileNameToComponentName = file => file.substr(2).replace(/\.vue/, '')
 const pascalToKebab = name => name.replace(/([a-zA-Z])(?=[A-Z])/g, '$1-').toLowerCase()
-const addPrefix = name => name.includes('-') ? name : `v-${name}`
+const addPrefix = name => (name.includes('-') ? name : `v-${name}`)
 
 for (const fileName of requireComponent.keys()) {
   const componentConfig = requireComponent(fileName)

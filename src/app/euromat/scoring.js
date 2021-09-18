@@ -1,25 +1,46 @@
+import { parties } from '@/data'
+
 export const MAX_POINTS = 2
 export const BASE_POINTS = 1
 export const MIN_POINTS = 0
 export const EMPHASIS_POINTS = 2
 
-export function getPartiesWithScores (answers, emphasized, partiesPositions) {
+/**
+ * The returned string is structured as follows.
+ * Full example:
+ *    ms:48,10:31,11:29,6:27,4:27,1:27,9:26,3:26,2:24,5:23,8:22,7:17,0:15
+ * Break down:
+ *    ms:48 = this is the calculated maximum score points
+ *    10:31 = partyId:scorePoints
+ * @returns {string}
+ */
+export function getScoreResultString(answers, emphasized) {
+  const partiesWithScores = getPartiesWithScores(answers, emphasized, parties)
+    .sort((a, b) => a.score - b.score)
+    .reverse()
+  const totalMaxPoints = getTotalMaxPoints(answers, emphasized)
+  return `s:${totalMaxPoints},${partiesWithScores.map(p => `${p.id}:${p.score}`).join(',')}`
+}
+
+export function getPartiesWithScores(answers, emphasized, partiesPositions) {
   const scorePointsGrid = getScorePointsGrid(answers, emphasized, partiesPositions)
 
   return partiesPositions.map(party => ({
     ...party,
-    score: getTotalScorePerParty(party, scorePointsGrid)
+    score: getTotalScorePerParty(party, scorePointsGrid),
   }))
 }
 
-export function getTotalMaxPoints (userAnswers, userEmphasized) {
-  return userAnswers.map(answer => {
-    const emphasis = userEmphasized.filter(e => e.thesis === answer.thesis).length >= 1
-    return getMaxScorePerThesis(answer.position, emphasis)
-  }).reduce((total, maxScorePerRow) => total + maxScorePerRow)
+export function getTotalMaxPoints(userAnswers, userEmphasized) {
+  return userAnswers
+    .map(answer => {
+      const emphasis = userEmphasized.filter(e => e.thesis === answer.thesis).length >= 1
+      return getMaxScorePerThesis(answer.position, emphasis)
+    })
+    .reduce((total, maxScorePerRow) => total + maxScorePerRow)
 }
 
-function getScorePointsGrid (userAnswers, userEmphasized, partiesPositions) {
+function getScorePointsGrid(userAnswers, userEmphasized, partiesPositions) {
   // 1. Iterate over scoringGrid
   // 2. Get user and party positions of each thesis
   // 3. Evaluate points based on calculation model for each party
@@ -32,26 +53,30 @@ function getScorePointsGrid (userAnswers, userEmphasized, partiesPositions) {
     const userPosition = getUserPosition(row)
     const scores = partiesFromRow.map(party => ({
       party: party.party,
-      score: evalPointsPerThesisPerParty(party.position, userPosition, row.emphasis)
+      score: evalPointsPerThesisPerParty(party.position, userPosition, row.emphasis),
     }))
     return {
       thesis: row.thesis,
-      scores
+      scores,
     }
   })
 }
 
-function getTotalScorePerParty (party, scorePointsGrid) {
+function getTotalScorePerParty(party, scorePointsGrid) {
   return scorePointsGrid
     .map(thesis => thesis.scores.find(scores => scores.party === party.id).score)
     .reduce((total, score) => total + score, 0)
 }
 
-function getMaxScorePerThesis (userPosition, emphasis) {
-  return userPosition === 'skipped' ? MIN_POINTS : emphasis ? MAX_POINTS * EMPHASIS_POINTS : MAX_POINTS
+function getMaxScorePerThesis(userPosition, emphasis) {
+  return userPosition === 'skipped'
+    ? MIN_POINTS
+    : emphasis
+    ? MAX_POINTS * EMPHASIS_POINTS
+    : MAX_POINTS
 }
 
-function getUserPosition (row) {
+function getUserPosition(row) {
   return row.positions.find(p => p.type === 'user').position
 }
 
@@ -72,31 +97,29 @@ function getUserPosition (row) {
 //   },
 //   ...
 // ]
-function getScoringGrid (userAnswers, emphasizedTheses, parties) {
-  return userAnswers.map(answer => (
-    {
-      thesis: answer.thesis,
-      emphasis: emphasizedTheses.filter(e => e.thesis === answer.thesis).length >= 1,
-      positions: [
-        ...getPartyPositions(answer.thesis, parties),
-        ...[{ type: 'user', position: answer.position }]
-      ]
-    }
-  ))
+function getScoringGrid(userAnswers, emphasizedTheses, parties) {
+  return userAnswers.map(answer => ({
+    thesis: answer.thesis,
+    emphasis: emphasizedTheses.filter(e => e.thesis === answer.thesis).length >= 1,
+    positions: [
+      ...getPartyPositions(answer.thesis, parties),
+      ...[{ type: 'user', position: answer.position }],
+    ],
+  }))
 }
 
-function getPartyPositions (thesis, parties) {
+function getPartyPositions(thesis, parties) {
   return parties.map(party => {
     const position = party.positions.find(p => p.thesis === thesis)
     return {
       type: 'party',
       party: party.id,
-      position: (position && position.position) || {}
+      position: (position && position.position) || {},
     }
   })
 }
 
-export function evalPointsPerThesisPerParty (partyPosition, userPosition, emphasis) {
+export function evalPointsPerThesisPerParty(partyPosition, userPosition, emphasis) {
   let score = 0
 
   if (userPosition === partyPosition) {

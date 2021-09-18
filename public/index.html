@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EUROMAT 2019</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
-    <!--[if IE]><link rel="shortcut icon" href="/img/favicon.ico"><![endif]-->
+    <meta
+      name="description"
+      content="The EUROMAT is not a regular voting advice application. On the contrary, it is your digital tool navigating you through the policies and visions of the current European parties. The goal of the EUROMAT is to support you to make an informed choice for the upcoming European elections!"
+    />
+    <link rel="icon" type="image/svg+xml" href="/img/icons/favicon.svg">
+    <link rel="icon" type="image/png" href="/img/icons/favicon.png">
+    <!--[if IE]><link rel="shortcut icon" href="/img/favicon.ico"/><![endif]-->
     <!-- Add to home screen for Android and modern mobile browsers -->
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#40A6EE">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#40A6EE" />
     <!-- Open Graph -->
     <meta property="og:url" content="https://www.euromat.info" />
     <meta property="og:title" content="EUROMAT 2019" />
@@ -20,21 +24,22 @@
     <meta property="og:locale:alternate" content="cz_CZ" />
     <meta property="og:locale:alternate" content="si_SI" />
     <meta property="og:locale:alternate" content="dk_DK" />
-    <meta property="og:description" content="The EUROMAT is not a regular voting advice application. On the contrary, it is your digital tool navigating you through the policies and visions of the current European parties. The goal of the EUROMAT is to support you to make an informed choice for the upcoming European elections!" />
+    <meta
+      property="og:description"
+      content="The EUROMAT is not a regular voting advice application. On the contrary, it is your digital tool navigating you through the policies and visions of the current European parties. The goal of the EUROMAT is to support you to make an informed choice for the upcoming European elections!"
+    />
     <meta property="og:image" content="https://www.euromat.info/img/facebook.2.png" />
     <meta property="og:image:secure_url" content="https://www.euromat.info/img/facebook.2.png" />
     <meta property="fb:app_id" content="766231516835034" />
     <!-- Add to home screen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="EUROMAT">
-    <link rel="apple-touch-icon" href="/img/icons/apple-touch-icon-152x152.png">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="EUROMAT" />
     <!-- Add to home screen for Windows -->
-    <meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#40A6EE">
+    <meta name="msapplication-TileColor" content="#40A6EE" />
   </head>
   <body>
-    <a href="#main" class="visuallyhidden go-to-main">
+    <a href="#main" class="go-to-main">
       Skip to main content
     </a>
 
@@ -51,7 +56,10 @@
     </script>
 
     <noscript>
-      <strong>We're sorry but EUROMAT doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but EUROMAT doesn't work properly without JavaScript enabled. Please enable it
+        to continue.</strong
+      >
     </noscript>
 
     <div id="app"></div>
@@ -62,18 +70,21 @@
         FB.init({
           appId: '766231516835034',
           xfbml: true,
-          version: 'v2.10'
+          version: 'v2.10',
         })
         FB.AppEvents.logPageView()
       }
-
-      (function(d, s, id){
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) {return;}
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+      ;(function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0]
+        if (d.getElementById(id)) {
+          return
+        }
+        js = d.createElement(s)
+        js.id = id
+        js.src = '//connect.facebook.net/en_US/sdk.js'
+        fjs.parentNode.insertBefore(js, fjs)
+      })(document, 'script', 'facebook-jssdk')
     </script>
   </body>
 </html>

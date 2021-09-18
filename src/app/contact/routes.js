@@ -7,9 +7,9 @@ export default [
     path: i18n[DEFAULT_LOCALE].contact.url,
     alias: getTranslatedAliases(i18n, 'contact'),
     name: 'contact',
-    component: () => import('./components/index' /* webpackChunkName: "contact" */),
+    component: () => import('./components/Contact' /* webpackChunkName: "contact" */),
     meta: {
-      title: getTranslatedTitles(i18n, 'contact')
-    }
-  }
+      title: getTranslatedTitles(i18n, 'contact'),
+    },
+  },
 ]

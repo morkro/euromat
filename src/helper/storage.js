@@ -2,7 +2,7 @@
  * @param {string} type
  * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
  */
-export function storageAvailable (type) {
+export function storageAvailable(type) {
   try {
     var storage = window[type]
     const x = '__storage_test__'
@@ -30,11 +30,11 @@ export function storageAvailable (type) {
 export default Vue => {
   Object.defineProperties(Vue.prototype, {
     $browser: {
-      get () {
+      get() {
         return {
-          supports: storageAvailable
+          supports: storageAvailable,
         }
-      }
-    }
+      },
+    },
   })
 }
