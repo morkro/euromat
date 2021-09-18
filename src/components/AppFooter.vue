@@ -51,7 +51,6 @@
 
     methods: {
       getMessage(item) {
-        console.log(item)
         return item.label === 'clipboard' ? item.message : ''
       },
       getSocialClass(item) {
