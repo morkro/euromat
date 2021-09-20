@@ -1000,7 +1000,192 @@
       "de": "https://www.freiewaehler.eu/",
       "en": "https://www.freiewaehler.eu/"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "negative",
+        "statement": {
+          "de": "Wir wollen keine EU-Behörde schaffen, die sich um die Vermittlung unserer Arbeitslosen kümmert. Auch eine europäische Arbeitslosenversicherung ist überflüssig und lehnen wir konsequent ab. Es ist Auftrag der souveränen Mitgliedstaaten, diese Aufgabe zu erfüllen.",
+          "en": "We do not want to create an EU authority to take care of the placement of our unemployed. A European unemployment insurance scheme is also superfluous and we consistently reject it. It is up to the sovereign member states to fulfill this task."
+        }
+      },
+      {
+        "thesis": 1,
+        "position": "positive",
+        "statement": {
+          "de": "Noch immer werden Minderheiten innerhalb der EU diskriminiert oder gar angegriffen. Darauf braucht es gemeinsame, entschlossene europäische Antworten. Wir dulden es nicht, dass einige EU-Länder ihren Minderheiten nicht alle Unterstützung zukommen lassen, die nach europäischen Standards erwartet wird. Wir FREIE WÄHLER fordern hier eine neue, ambitioniertere Strategie der EU mit Sanktionsmöglichkeiten gegenüber den entsprechenden Mitgliedsländern.",
+          "en": "Minorities are still discriminated against or even attacked within the EU. We need joint, resolute European responses to this. We do not tolerate that some EU countries do not give their minorities all the support that is expected according to European standards. We FREIE WÄHLER demand here a new, more ambitious strategy of the EU with sanction possibilities towards the respective member countries."
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "positive",
+        "statement": {
+          "de": "Wir FREIE WÄHLER wollen legale Wege der Einreise für schutzbedürftige Menschen schaffen. Asylanträge müssen schon vor einer Überfahrt nach Europa gestellt und geprüft werden können. Dadurch entziehen wir dem menschenverachtenden Geschäftsmodell der Schlepper den Boden.",
+          "en": "We FREIE WÄHLER want to create legal ways of entry for people in need of protection. It must be possible for asylum applications to be made and examined before a person crosses into Europe. In this way, we will remove the ground from the inhumane business model of the smugglers."
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "positive",
+        "statement": {
+          "de": "Wir setzen uns für die Schaffung sozialer Rechte als Mindeststandard ein, die allen europäischen Bürgern zustehen. Wir sind aber dagegen, pauschale Rechtsvorschriften mit Mengenvorgaben, Prozentsätzen, Methoden oder Systemen zu erlassen, die verbindlich auf nationaler Ebene umgesetzt werden müssen. Die Rolle der EU muss darin bestehen, Mindestschutzniveaus festzulegen, um insbesondere Sozialdumping zu verhindern. Den Mitgliedstaaten steht es frei, über die Mindestniveaus hinauszugehen.",
+          "en": "We advocate the creation of social rights as a minimum standard to which all European citizens are entitled. However, we are against enacting blanket legislation with quantity targets, percentages, methods or systems that must be implemented bindingly at the national level. The role of the EU must be to set minimum levels of protection to prevent social dumping in particular. Member States are free to go beyond the minimum levels."
+        }
+      },
+      {
+        "thesis": 4,
+        "position": "negative",
+        "statement": {
+          "de": "Wir wollen keine Rückkehr zu Schlagbäumen in Europa. Aber damit wir die offenen Grenzen erhalten können, brauchen wir eine umso bessere Sicherung unserer europäischen Außengrenzen. Deshalb sind wir für eine Stärkung des Grenzschutzes auf europäischer Ebene. Die Grenzschutzagentur Frontex braucht daher mehr Personal und weitreichendere Kompetenzen, muss aber auch regelmäßig öffentlich Bericht erstatten über ihr Vorgehen, die Situation vor Ort und mögliche Menschenrechtsverletzungen.",
+          "en": "We do not want a return to barriers in Europe. But in order to maintain open borders, we need all the better security for our European external borders. That is why we are in favor of strengthening border protection at the European level. The border management agency Frontex therefore needs more staff and more far-reaching competencies, but it must also report publicly on a regular basis about its actions, the situation on the ground and possible human rights violations."
+        }
+      },
+      {
+        "thesis": 5,
+        "position": "positive",
+        "statement": {
+          "de": "Wir wollen das Instrument der verstärkten Zusammenarbeit in Zukunft gerade im Bereich der Sicherheitspolitik verstärkt einsetzen. Auch denken wir, dass für diese Politikfelder das Einstimmigkeitsprinzip zugunsten demokratischer Mehrheitsentscheidungen überdacht werden sollte.",
+          "en": "We want to make greater use of the instrument of enhanced cooperation in the future, especially in the area of security policy. We also think that the principle of unanimity should be reconsidered for these policy areas in favor of democratic majority decisions."
+        }
+      },
+      {
+        "thesis": 6,
+        "position": "positive",
+        "statement": {
+          "de": "Wir machen uns dafür stark, dass künftig nicht das Wohnsitzland, sondern das Heimatland für die soziale Sicherung seiner Bürger zuständig ist. Damit müssten sich Arbeitnehmer aus anderen EU-Ländern beim Beziehen von Sozialleistungen an die Höhe der Sozialleistungen in ihrem Herkunftsland anpassen. Da alle Mitgliedstaaten dem Sozialstaatsgebot verpflichtet sind, ist eine entsprechende Absicherung gewährleistet und gleichzeitig werden falsche Anreize unserer sozialen Sicherungssysteme beseitigt.",
+          "en": "We advocate that in the future it should not be the country of residence but the home country that is responsible for the social security of its citizens. This would mean that employees from other EU countries would have to adapt to the level of social benefits in their country of origin when drawing social benefits. Since all member states are committed to the welfare state principle, appropriate protection is guaranteed and, at the same time, false incentives in our social security systems are eliminated."
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "negative",
+        "statement": {
+          "de": "Wir stehen zum Eigentum und zur Eigentumsverantwortung. Die Wirtschaft kann sich nur entfalten, wenn sie einen möglichst freien Handlungsrahmen vorfindet. Die Verwaltung soll nur eingreifen, wenn Fehlentwicklungen offenkundig werden. Seit jeher stehen verantwortlich handelnde Unternehmer und Unternehmen für ein nachhaltiges Wachstum und gesellschaftliche Stabilität. In der aktuellen Krise muss jedoch die Lizenzproduktion unkompliziert ausgeweitet werden",
+          "en": "We stand by ownership and ownership responsibility. The economy can only develop if it is given the freest possible framework for action. The administration should only intervene when undesirable developments become apparent. Responsible entrepreneurs and companies have always stood for sustainable growth and social stability. In the current crisis, however, license production must be expanded in an uncomplicated manner."
+        }
+      },
+      {
+        "thesis": 8,
+        "position": "negative",
+        "statement": {
+          "de": "Wir FREIE WÄHLER wollen ein entschlossenes Vorgehen gegen Korruption, Steuerdumping, -betrug, -vermeidung, und Geldwäsche international und in Europa. Dafür brauchen wir klare Mindestbesteuerungen in allen Mitgliedsstaaten.",
+          "en": "We FREIE WÄHLER want decisive action against corruption, tax dumping, fraud, avoidance, and money laundering internationally and in Europe. For this, we need clear minimum taxation in all member states."
+        }
+      },
+      {
+        "thesis": 9,
+        "position": "positive",
+        "statement": {
+          "de": "International tätige Unternehmen dürfen sich nicht länger ihrer gesellschaftlichen Verantwortung entziehen. Sie müssen genauso wie der Mittelstand angemessene Steuern bei uns zahlen, wenn sie in Europa Gewinne erwirtschaften. Wir FREIE WÄHLER setzen uns weiterhin dafür ein, dass multinationale Konzerne und insbesondere Internetkonzerne wie Google, Apple, Facebook und Amazon endlich in die Pflicht genommen werden.",
+          "en": "Internationally active companies must no longer be allowed to shirk their social responsibility. Just like small and medium-sized enterprises, they must pay appropriate taxes in our country if they generate profits in Europe. We FREIE WÄHLER continue to advocate that multinational corporations and in particular Internet corporations such as Google, Apple, Facebook and Amazon finally be held accountable."
+        }
+      },
+      {
+        "thesis": 10,
+        "position": "positive",
+        "statement": {
+          "de": "Deutschland ist bei seiner Gasversorgung auf Importe aus dem Ausland angewiesen. Dieses soll nicht als Fracking-Gas aus den USA per Schiff nach Deutschland gelangen. Der Gasimport aus Russland wird auch vor dem Hintergrund der angestrebten Klimaneutralität bis 2045 nur eine Übergangslösung sein. Mit dem von uns geplanten Ausbau der Wasserstoffwirtschaft in Deutschland, welche auch den Import von Wasserstoff voraussetzt, brauchen wir gut ausgebaute Gasnetze.",
+          "en": "Germany is dependent on imports from abroad for its gas supply. This should not reach Germany by ship as fracked gas from the USA. Gas imports from Russia will only be a temporary solution, also in view of the goal of climate neutrality by 2045. With the planned expansion of the hydrogen economy in Germany, which also requires the import of hydrogen, we need well-developed gas networks."
+        }
+      },
+      {
+        "thesis": 11,
+        "position": "negative",
+        "statement": {
+          "de": "Das aktive und passive Wahlrecht zu Landtags- und Bundestagswahlen ist für uns mit der deutschen Staatsangehörigkeit verknüpft. Das seit 1992 bestehende Recht zur Teilnahme an Wahlen auf kommunaler Ebene begrüßen wir hingegen, da sich so EU-Ausländerinnen und Ausländer vor Ort in ihrer Gemeinde politisch engagieren können.",
+          "en": "For us, the right to vote and stand for election in state and federal elections is linked to German citizenship. On the other hand, we welcome the right to participate in elections at the local level, which has existed since 1992, as this allows EU foreigners to become politically involved locally in their community."
+        }
+      },
+      {
+        "thesis": 12,
+        "position": "positive",
+        "statement": {
+          "de": "Wir FREIE WÄHLER wollen den allmählichen Übergang zu modernen Landbewirtschaftungsmethoden unterstützen. Ziel muss es einerseits sein, den Einsatz von Pflanzenschutzmitteln zu reduzieren und durch umweltfreundlichere Alternativen zu ersetzen. Andererseits wollen wir hohe Tierwohlstandards, eine bessere Rückverfolgbarkeit sowie Gesundheits- und Pflanzenschutznormen gewährleisten.",
+          "en": "We FREIE WÄHLER want to support the gradual transition to modern land management methods. On the one hand, the goal must be to reduce the use of pesticides and replace them with more environmentally friendly alternatives. On the other hand, we want high animal welfare standards, better traceability, and health and plant protection norms"
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "negative",
+        "statement": {
+          "de": "Wir sehen transnationale Listen kritisch, da damit keine proportionale Verteilung der Abgeordneten nach Regionen und zugleich politischer Färbung gewährleistet ist. Im Europaparlament können wir regelmäßig beobachten, dass bei Abstimmungen der nationale Hintergrund eine besondere Rolle spielt. Mit transnationalen Listen würden dann eher Zufälle festlegen, welche nationalen Interessen in der fünfjährigen Wahlperiode besonders stark und besonders schwach vertreten werden.",
+          "en": "We take a critical view of transnational lists because they do not ensure a proportional distribution of deputies according to region and, at the same time, political coloration. In the European Parliament, we can regularly observe that national backgrounds play a special role in voting. With transnational lists, coincidences would then tend to determine which national interests are represented particularly strongly and particularly weakly during the five-year election period."
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "negative",
+        "statement": {
+          "de": "Auch weiterhin müssen die Nationalstaaten grundsätzlich die Steuerhoheit besitzen. Einzelne EU Steuern wie die Digitalsteuer können sinnvolle Ergänzungen sein, da die EU einen modernen, stabilen regulatorischen und steuerlichen Rahmen braucht, um auf die Entwicklungen und Herausforderungen der digitalen Wirtschaft zu reagieren.",
+          "en": "The nation states must continue to have tax sovereignty in principle. Individual EU taxes such as the digital tax can be useful additions, as the EU needs a modern, stable regulatory and fiscal framework to respond to the developments and challenges of the digital economy."
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "positive",
+        "statement": {
+          "de": "Wir FREIE WÄHLER wollen eine ideologiefreie Debatte über die Erweiterung der EU. Grundsätzlich sollte allen europäischen Ländern eine Beitrittsperspektive gegeben werden, die unsere Grundwerte achten und entsprechende wirtschaftliche Kriterien erfüllen. Im Moment ist die EU allerdings nicht aufnahmefähig, da ein einzelnes Land alle Entscheidungen blockieren kann. Diesen Zustand müssen wir schnellstens ändern, indem wir eine Möglichkeit der Mehrheitsentscheidung finden.",
+          "en": "We FREIE WÄHLER want an ideology-free debate on the enlargement of the EU. In principle, all European countries that respect our fundamental values and meet appropriate economic criteria should be given the prospect of joining. At the moment, however, the EU is not receptive because a single country can block all decisions. We need to change this state of affairs as soon as possible by finding a way to have majority voting."
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "positive",
+        "statement": {
+          "de": "Die europäische Sicherheitsarchitektur ist zunehmend fragil. Deutschland muss sich gemeinsam mit Europa seiner Verantwortung in der Welt stellen. Aus unserer Sicht muss es das Ziel sein, eine europäische Armee aufzustellen, die der Kontrolle des Europäischen Parlamentes untersteht. Das Europäische Parlament wird dann künftige gemeinsame Einsätze der europäischen Streitkräfte bewilligen.",
+          "en": "The European security architecture is increasingly fragile. Germany, together with Europe, must face up to its responsibilities in the world. In our view, the goal must be to establish a European army that is subject to the control of the European Parliament. The European Parliament will then approve future joint deployments of the European armed forces."
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "negative",
+        "statement": {
+          "de": "Wir FREIE WÄHLER setzen uns für eine Reform des Stabilitäts- und Wachstumspakts ein. Künftige Verstöße sollen automatisch geahndet und sanktioniert werden. Dadurch erreichen wir mehr Haushaltsdisziplin und verhindern, dass die Stabilität unserer Währungsunion von politischen Entscheidungen abhängt.",
+          "en": "We FREIE WÄHLER advocate a reform of the Stability and Growth Pact. Future violations should be automatically punished and sanctioned. In this way, we will achieve greater budgetary discipline and prevent the stability of our monetary union from depending on political decisions."
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "positive",
+        "statement": {
+          "de": "Wir stehen zu den Verpflichtungen, die sich aus dem Pariser Klimaabkommen ergeben. Deswegen gilt es, die Klimaneutralität spätestens bis zum Jahr 2050 zu erreichen. Hier wollen wir aber nicht stehen bleiben, sondern künftige internationale Vertragswerke engagiert mitgestalten. Wir setzen uns dafür ein, dass Europa in der Klima- und Nachhaltigkeitspolitik geschlossen die Führungsrolle übernimmt.",
+          "en": "We stand by the obligations arising from the Paris Climate Agreement. That is why we need to achieve climate neutrality by 2050 at the latest. We do not want to stop here, however, but want to play a committed role in shaping future international agreements. We are committed to Europe taking a united leadership role in climate and sustainability policy."
+        }
+      },
+      {
+        "thesis": 19,
+        "position": "negative",
+        "statement": {
+          "de": "„Jedes Land haftet für seine Schulden selbst“ – für diesen Grundsatz treten wir FREIE WÄHLER auch weiterhin ein. Eine Vergemeinschaftung unserer Schulden in Form von Eurobonds als gemeinsame Anleihen oder anderen Instrumenten lehnen wir weiterhin entschieden ab.",
+          "en": "Every country is liable for its own debts - we FREIE WÄHLER continue to stand up for this principle. We continue to firmly reject the communitization of our debts in the form of Eurobonds as common bonds or other instruments."
+        }
+      },
+      {
+        "thesis": 20,
+        "position": "positive",
+        "statement": {
+          "de": "Die meisten Menschen verstehen immer noch nicht, wie die Europäische Union funktioniert und was sie für uns macht. Wir FREIE WÄHLER wollen deshalb, dass alle politischen Ebenen unserem gemeinsamen Projekt Europa mehr Aufmerksamkeit in der Bildungsarbeit widmen. Wir machen uns dafür stark, dass sie alle mehr in die Europabildung investieren und den Mehrwert Europas deutlicher herausstellen.",
+          "en": "Most people still do not understand how the European Union works and what it does for us. We FREIE WÄHLER therefore want all political levels to devote more attention to our common project Europe in their educational work. We advocate that they all invest more in European education and highlight the added value of Europe more clearly."
+        }
+      },
+      {
+        "thesis": 21,
+        "position": "negative",
+        "statement": {
+          "de": "Die Unabhängigkeit der Zentralbank von politischen Einflüssen ist uns weiterhin sehr wichtig.",
+          "en": "The independence of the central bank from political influences remains very important to us."
+        }
+      },
+      {
+        "thesis": 22,
+        "position": "negative",
+        "statement": {
+          "de": "Wir FREIE WÄHLER wollen Rücknahmeabkommen mit den Maghreb-Staaten nach dem Vorbild der EU-Türkei-Vereinbarungen vom März 2016 voranbringen. Gleichzetig haben die jüngsten Ereignisse gezeigt, dass wir uns nicht durch eine mögliche Aufkündigung des EU-Türkei-Flüchtlingsabkommens erpressen lassen dürfen.",
+          "en": "We FREIE WÄHLER want to advance readmission agreements with the Maghreb states along the lines of the EU-Turkey agreements of March 2016. At the same time, recent events have shown that we must not allow ourselves to be blackmailed by a possible termination of the EU-Turkey refugee agreement."
+        }
+      }
+    ]
   },
   {
     "id": 6,
@@ -1013,7 +1198,192 @@
       "de": "https://www.piratenpartei.de/bundestagswahl-2021/",
       "en": "https://www.piratenpartei.de/bundestagswahl-2021/"
     },
-    "positions": []
+    "positions": [
+      {
+        "thesis": 0,
+        "position": "positive",
+        "statement": {
+          "de": "Prinzipiell ja. Aber Maßnahmen sind an die Verabschiedung umfangreicher Informationsfreiheits- und Transparenzgesetze in den betreffenden Staaten zu koppeln. Nur so kann sichergestellt werden, dass Finanzmittel im Sinne und unter Aufsicht der Bevölkerung der jeweiligen Länder eingesetzt werden. Wir gehen davon aus, dass zusätzliche Transparenz dazu führt, dass tatsächlich in Maßnahmen investiert wird, die langfristig die ökonomische Stabilität im jeweiligen Land fördern.",
+          "en": "In principle, yes. But measures must be linked to the adoption of comprehensive freedom of information and transparency laws in the countries concerned. This is the only way to ensure that financial resources are used in the interest of and under the supervision of the people of the respective countries. We assume that additional transparency will lead to actual investment in measures that promote long-term economic stability in the respective country."
+        }
+      },
+      {
+        "thesis": 1,
+        "position": "positive",
+        "statement": {
+          "de": "Diskriminierung darf es in der EU nicht geben, auch nicht in der Strafverfolgung.",
+          "en": "There must be no discrimination in the EU, not even in law enforcement."
+        }
+      },
+      {
+        "thesis": 2,
+        "position": "negative",
+        "statement": {
+          "de": "Asylanträge müssen zwar auch außerhalb Europas gestellt werden können, um Schutzsuchenden eine sichere Einreise in die EU zu ermöglichen. Dabei ist zu gewährleisten, dass die Antragstellenden Rechtsschutz auf dem Niveau genießen, wie es bei einer Antragstellung im Inland der Fall wäre. Dennoch muss es auch möglich sein, dies im Asyl gebenden Land zu tun.",
+          "en": "It must be possible to submit asylum applications outside Europe in order to enable those seeking protection to enter the EU safely. In doing so, it must be ensured that applicants enjoy legal protection at the same level as would be the case if the application were filed domestically. Nevertheless, it must also be possible to do so in the country granting asylum."
+        }
+      },
+      {
+        "thesis": 3,
+        "position": "positive",
+        "statement": {
+          "de": "Bis zur Einführung eines bedingungslosen Grundeinkommens setzen wir uns europaweit für Mindestlöhne ein, welche den Lohnwettbewerb eindämmen sollen, für menschenwürdige Arbeits- und Lebensverhältnisse sorgen und genauso wie das bedingungslose Grundeinkommen auch die Binnennachfrage steigern würden.",
+          "en": "Until the introduction of an unconditional basic income, we advocate minimum wages throughout Europe, which should curb wage competition, ensure decent working and living conditions and, just like the unconditional basic income, would also increase domestic demand."
+        }
+      },
+      {
+        "thesis": 4,
+        "position": "positive",
+        "statement": {
+          "de": "Die völkerrechtswidrigen Praktiken der EU-Agentur für Grenz- und Küstenschutz (ehemals als Frontex bekannt) sind Ausdruck einer menschenverachtenden Ausgrenzungspolitik der Europäischen Union. Wir PIRATEN fordern daher deren Abschaffung.",
+          "en": "The practices of the EU Border and Coast Guard Agency (formerly known as Frontex), which are contrary to international law, are an expression of the European Union's inhumane exclusion policy. We PIRATES therefore demand their abolition."
+        }
+      },
+      {
+        "thesis": 5,
+        "position": "positive",
+        "statement": {
+          "de": "Eine gemeinsame, auf demokratischen Fundamenten fußende, europäische Außen- und Sicherheitspolitik muss den Menschen- und Bürgerrechten verpflichtet sein. Sie soll sich nicht an nationalen Einzelinteressen orientieren, sondern die Bedürfnisse aller Menschen im Blick haben.",
+          "en": "A common European foreign and security policy based on democratic foundations must be committed to human and civil rights. It should not be oriented towards national individual interests, but should have the needs of all people in mind."
+        }
+      },
+      {
+        "thesis": 6,
+        "position": "negative",
+        "statement": {
+          "de": "Wir begrüßen die Freizügigkeit für Arbeitnehmer:innen, in einem frei gewählten EU-Land zu leben und zu arbeiten. Allerdings muss der gemeinsame, europäische Arbeitsmarkt der Förderung des Wohlstands und dem Nutzen aller dienen. Wer überall arbeiten kann, muss auch überall die jeweiligen Sozialleistungen in Anspruch nehmen können.",
+          "en": "We welcome the freedom of movement for workers to live and work in any EU country they choose. However, the common European labor market must serve to promote prosperity and benefit everyone. Those who can work everywhere must also be able to take advantage of the respective social benefits everywhere."
+        }
+      },
+      {
+        "thesis": 7,
+        "position": "positive",
+        "statement": {
+          "de": "Die Pandemie sorgt weltweit für Tote und erkrankte Menschen, auch von #LongCovid sind sie betroffen. Um so schnell wie möglich für alle Menschen auf der Welt Impfstoffe zur Verfügung zu haben, müssen die Patente auf den mRna Impfstoff ausgesetzt werden. damit weltweit die Produktion möglich wird.",
+          "en": "The pandemic is causing deaths and sick people around the world, they are also affected by #LongCovid. In order to have vaccines available for everyone in the world as soon as possible, the patents on the mRna vaccine must be suspended. so that production is possible worldwide."
+        }
+      },
+      {
+        "thesis": 8,
+        "position": "negative",
+        "statement": {
+          "de": "Wir setzen uns für die Weiterentwicklung Europas zu einem föderalen Staat mit einer gemeinsamen Verfassung ein. Das Vetorecht einzelner Staaten muss dafür mittelfristig überwunden werden.",
+          "en": "We are committed to the further development of Europe into a federal state with a common constitution. To this end, the veto rights of individual states must be overcome in the medium term."
+        }
+      },
+      {
+        "thesis": 9,
+        "position": "positive",
+        "statement": {
+          "de": "Die Steuersysteme der Nationalstaaten sind von einem Unterbietungswettlauf untereinander gekennzeichnet. Unsere Lösungsvorschläge sind eine gemeinsame konsolidierte Körperschaftsteuer-Bemessungsgrundlage (GKKB) und eine verstärkte Aufsicht durch die EU-Kommission über die Steueroasen in der EU.",
+          "en": "The tax systems of the nation states are characterized by a race to undercut each other. Our proposed solutions are a common consolidated corporate tax base (CCCTB) and increased supervision by the EU Commission of tax havens in the EU."
+        }
+      },
+      {
+        "thesis": 10,
+        "position": "negative",
+        "statement": {
+          "de": "Wir setzen uns für eine gemeinsame demokratisch legitimierte europäische Außen- und Sicherheitspolitik ein. Das Pipelineprojekt stärkt Kräfte, die Interesse an einer Spaltung Europas haben, und entfernt Deutschland von seinen Verbündeten. Wir halten eine gemeinsame europäische Linie für wichtig und fordern daher einen Projektstopp.",
+          "en": "We advocate a common democratically legitimized European foreign and security policy. The pipeline project strengthens forces interested in dividing Europe and distances Germany from its allies. We believe that a common European line is important and therefore call for a halt to the project."
+        }
+      },
+      {
+        "thesis": 11,
+        "position": "positive",
+        "statement": {
+          "de": "Wahlrecht ist ein wichtiges Teilhaberecht. Wir setzen uns für das gleiche kommunale Wahlrecht für Nicht-EU-Bürger wie für EU-Bürger ein, unabhängig von ihrer Staatsangehörigkeit. Auch die Beteiligung an weiteren politischen Prozessen, zum Beispiel Volksbegehren, -initiativen und -entscheiden, sowie das Einbringen und Unterzeichnen von Petitionen, soll unabhängig von der Staatsangehörigkeit möglich sein. Zu nationalen Wahlen haben wir zustimmende Beschlüsse in einigen Verbänden auf Landesebene.",
+          "en": "Voting rights are an important right of participation. We advocate the same right to vote in local elections for non-EU citizens as for EU citizens, regardless of their nationality. Participation in other political processes, such as referendums, initiatives and decisions, as well as the submission and signing of petitions, should also be possible regardless of nationality. On national elections, we have approving resolutions in some associations at the state level."
+        }
+      },
+      {
+        "thesis": 12,
+        "position": "positive",
+        "statement": {
+          "de": "Die Rolle der Subventionen in der europäischen Landwirtschaftspolitik bedarf der Änderung, sie muss auf mehr Vielfalt und Gerechtigkeit ausgerichtet werden. Subventionen können nur im Einklang mit Nachhaltigkeitskriterien garantiert werden.",
+          "en": "The role of subsidies in European agricultural policy needs to be changed, it must be directed towards more diversity and fairness. Subsidies can only be guaranteed in line with sustainability criteria."
+        }
+      },
+      {
+        "thesis": 13,
+        "position": "positive",
+        "statement": {
+          "de": "Da wir eine weitere Einigung in Europa als den richtigen Weg erachten, sind transnationale Listen ein wichtiger Schritt, um ein europäisches Wir-Gefühl zu erzeugen.",
+          "en": "As we consider further unification in Europe to be the right way forward, transnational lists are an important step to create a European \"we\" feeling."
+        }
+      },
+      {
+        "thesis": 14,
+        "position": "positive",
+        "statement": {
+          "de": "Im EU-Wahlprogramm wird dazu keine Position vertreten. In der laufenden politischen Arbeit unterstützen wir den Ansatz. Europäische Steuern verhindern einen Steuerunterbietungswettbewerb der einzelnen EU-Staaten.",
+          "en": "The EU election program does not take a position on this. In our ongoing political work, we support the approach. European taxes prevent tax undercutting competition between individual EU states."
+        }
+      },
+      {
+        "thesis": 15,
+        "position": "negative",
+        "statement": {
+          "de": "Sofern Staaten die Aufnahmebedingungen für die Europäische Union erfüllen, insbesondere im Hinblick auf Einhaltung der Menschenrechte, muss ihnen der Aufnahmeprozess offen stehen - unabhängig davon, ob in einem anderen Mitgliedsland gerade gewählt wird.",
+          "en": "Provided that states meet the conditions for admission to the European Union, especially with regard to compliance with human rights, the admission process must be open to them - regardless of whether elections are currently being held in another member state."
+        }
+      },
+      {
+        "thesis": 16,
+        "position": "positive",
+        "statement": {
+          "de": "Wir PIRATEN stehen der Idee einer gemeinsamen europäischen Armee wohlwollend gegenüber. Wir betrachten die Gemeinsame Europäische Armee als selbständigen Teil eines transatlantischen Sicherheits- und Verteidigungsbündnisses. Integriert in ein immer größer werdendes globales Sicherheitsbündnis, welches dazu beiträgt das Macht- und Sicherheitsdilemma zwischen den Mitgliedern des Bündnisses zu überwinden.",
+          "en": "We PIRATES are sympathetic to the idea of a common European army. We see the Joint European Army as an independent part of a transatlantic security and defense alliance. Integrated into an ever-growing global security alliance, which helps to overcome the power and security dilemma between the members of the alliance."
+        }
+      },
+      {
+        "thesis": 17,
+        "position": "negative",
+        "statement": {
+          "de": "Sofern es sich um langfristige Investitionen handelt die Umweltstandards einhalten und einen nachhaltigen Nutzen versprechen, stehen wir Investitionen durchaus positiv gegenüber. Gerade Investitionen in Infrastruktur und erneuerbare Energien erfüllt oft diese Bedingungen. Jedoch muss eine auch für zukünftige Generationen nachhaltige Finanzierung durch (Steuer-)Einnahmen erwirtschaftet werden und nicht durch Schulden.",
+          "en": "Insofar as long-term investments"
+        }
+      },
+      {
+        "thesis": 18,
+        "position": "positive",
+        "statement": {
+          "de": "Wir streben Klimaneutralität bis 2035 an. Dazu ist der Umbau der Energieversorgung vordringlich, gefolgt oder gleichzeitig mit anderen Sektoren. Der Umstieg auf nachhaltige Energiequellen ist sogar eine große wirtschaftliche Chance, da die Abhängigkeit vom Import von Energierohstoffen damit aufhört.",
+          "en": "We aim to achieve climate neutrality by 2035. To achieve this, the transformation of the energy supply is a matter of urgency, followed by or at the same time as other sectors. The switch to sustainable energy sources is even a great economic opportunity, as it will end our dependence on the import of energy raw materials."
+        }
+      },
+      {
+        "thesis": 19,
+        "position": "positive",
+        "statement": {
+          "de": "Ja, die Europäische Union soll weiter die Möglichkeit haben, Schulden aufzunehmen, um gemeinsame Projekte zu finanzieren. Wir Piraten fordern aber, das Haushaltsrecht dem Europäischen Parlament zu unterstellen.",
+          "en": "Yes, the European Union should continue to be able to take on debt in order to finance joint projects. However, we Pirates demand that budgetary law be placed under the control of the European Parliament."
+        }
+      },
+      {
+        "thesis": 20,
+        "position": "positive",
+        "statement": {
+          "de": "Agenturen zur politischen Bildung können einen Beitrag dabei leisten, Menschen über ihre demokratischen Rechte zu informieren und Wahlen in Europa transparenter und offener zu gestalten. Die Grundlagen müssen aber im Bildungssystem verankert sein.",
+          "en": "Agencies for political education can make a contribution to informing people about their democratic rights and making elections in Europe more transparent and open. However, the basics must be anchored in the education system."
+        }
+      },
+      {
+        "thesis": 21,
+        "position": "positive",
+        "statement": {
+          "de": "Nachhaltigkeit und Wohlstand der Menschen sind für uns wichtige Kennzahlen für den Erfolg von Wirtschafts- und Geldpolitik.",
+          "en": "For us, sustainability and people's prosperity are important indicators of the success of economic and monetary policy."
+        }
+      },
+      {
+        "thesis": 22,
+        "position": "positive",
+        "statement": {
+          "de": "Das EU-Türkei-Abkommen macht die EU erpressbar! Daher sind wir für eine sofortige Aufkündigung. Eine aktuell diskutierte Ausweitung auf aus Afghanistan Geflüchtete ist inakzeptabel. Gleiches gilt auch für ähnliche Verträge mit nordafrikanischen Staaten.",
+          "en": "The EU-Turkey agreement makes the EU blackmailable! Therefore, we are in favor of its immediate termination. A currently discussed extension to refugees from Afghanistan is unacceptable. The same applies to similar agreements with North African countries."
+        }
+      }
+    ]
   },
   {
     "id": 7,
