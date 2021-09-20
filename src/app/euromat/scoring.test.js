@@ -5,7 +5,7 @@ import {
 } from '@/app/euromat/scoring'
 
 const positionDef = ['positive', 'neutral', 'negative', 'skipped']
-// See offficial Rechenmodell of bpb from 2019
+// See official Rechenmodell of bpb from 2019
 const rechenmodellGrid = [
   [0, 0, 0, 0, 0, false],
   [0, 0, 2, 0, 1, false],
