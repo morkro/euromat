@@ -189,6 +189,12 @@
         outline: none;
         background: var(--blue-green);
       }
+
+      & svg,
+      & svg path {
+        margin-left: 0;
+        stroke: var(--blue-green);
+      }
     }
 
     & img {

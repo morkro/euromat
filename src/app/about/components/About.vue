@@ -8,35 +8,18 @@
       </div>
 
       <div class="about-people">
-        <div class="people-group polis">
+        <div v-for="team of teamLabels" :key="team.label" :class="`people-group ${team.token}`">
           <div class="group-inner">
             <h2>
-              <a :href="teamLabel.polis.url" target="_blank" rel="noopener noreferrer">
+              <a :href="team.url" target="_blank" rel="noopener noreferrer">
                 <img
-                  class="team-logo polis"
-                  :src="polisLogo"
-                  :alt="teamLabel.polis.label"
-                  width="150"
+                  v-if="team.logo"
+                  :class="`team-logo ${team.token}`"
+                  :src="team.logo"
+                  :alt="team.label"
                   height="100"
                 />
-                <span hidden>{{ teamLabel.polis.label }}</span>
-              </a>
-            </h2>
-          </div>
-        </div>
-
-        <div class="people-group poe">
-          <div class="group-inner">
-            <h2>
-              <a :href="teamLabel.poe.url" target="_blank" rel="noopener noreferrer">
-                <img
-                  class="team-logo poe"
-                  :alt="teamLabel.poe.label"
-                  :src="poeLogo"
-                  width="400"
-                  height="60"
-                />
-                <span hidden>{{ teamLabel.poe.label }}</span>
+                <span :hidden="team.logo !== false">{{ team.label }}</span>
               </a>
             </h2>
           </div>
@@ -78,21 +61,35 @@
 
     data() {
       return {
-        polisLogo: require('@/assets/svg/polis-colored-logo.svg'),
-        poeLogo: require('@/assets/svg/poe-colored-logo.svg'),
         members: {
           dev: [{ name: 'Moritz Kröger', profile: 'http://moritz.berlin' }],
         },
-        teamLabel: {
-          polis: {
+        teamLabels: [
+          {
+            token: 'polis',
             label: 'Polis180',
+            logo: require('@/assets/svg/polis-colored-logo.svg'),
             url: 'https://polis180.org/',
           },
-          poe: {
+          {
+            token: 'poe',
             label: 'Pulse of Europe',
+            logo: require('@/assets/svg/poe-colored-logo.svg'),
             url: 'https://pulseofeurope.eu',
           },
-        },
+          {
+            token: 'jef',
+            label: 'JEF Deutschland',
+            logo: require('@/assets/jef-logo.png'),
+            url: 'https://jef.de',
+          },
+          {
+            token: 'foederalist',
+            label: 'Der (europäische) Föderalist',
+            logo: false,
+            url: 'https://www.foederalist.eu',
+          },
+        ],
       }
     },
   }
@@ -119,13 +116,12 @@
   }
 
   .about-people {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: var(--base-gap);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
 
     & .people-group {
-      flex: 0 0 50%;
       text-align: center;
     }
 
@@ -137,31 +133,40 @@
       list-style: none;
     }
 
-    & li:not(:last-child) {
-      margin-bottom: var(--small-gap);
-    }
-
     & svg:not(.team-logo) {
       stroke: var(--white);
       width: 1em;
       height: 1em;
     }
+
+    & img {
+      max-height: 100%;
+      width: 100%;
+    }
   }
 
-  .people-group.dev h2 {
-    margin-bottom: var(--small-gap);
+  .people-group.dev {
+    grid-column: span 2;
+
+    & h2 {
+      margin-bottom: var(--base-gap);
+    }
   }
 
   .group-inner {
-    width: calc(100% - var(--base-gap));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--background-secondary);
     border-radius: var(--border-radius);
     padding: var(--base-gap);
     color: var(--prussian-blue);
-    margin-bottom: var(--base-gap);
 
     &.dark {
       background: var(--prussian-blue);
+      flex-direction: column;
 
       & h2,
       & a,
