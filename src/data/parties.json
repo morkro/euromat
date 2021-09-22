@@ -805,7 +805,7 @@
     "positions": [
       {
         "thesis": 0,
-        "position": "skipped",
+        "position": "positive",
         "statement": {
           "de": "-",
           "en": "-"
@@ -813,7 +813,7 @@
       },
       {
         "thesis": 1,
-        "position": "skipped",
+        "position": "positive",
         "statement": {
           "de": "-",
           "en": "-"
@@ -821,7 +821,7 @@
       },
       {
         "thesis": 2,
-        "position": "skipped",
+        "position": "negative",
         "statement": {
           "de": "-",
           "en": "-"
@@ -829,7 +829,7 @@
       },
       {
         "thesis": 3,
-        "position": "skipped",
+        "position": "positive",
         "statement": {
           "de": "-",
           "en": "-"
@@ -837,7 +837,7 @@
       },
       {
         "thesis": 4,
-        "position": "skipped",
+        "position": "positive",
         "statement": {
           "de": "-",
           "en": "-"
@@ -845,7 +845,7 @@
       },
       {
         "thesis": 5,
-        "position": "skipped",
+        "position": "negative",
         "statement": {
           "de": "-",
           "en": "-"
@@ -853,7 +853,7 @@
       },
       {
         "thesis": 6,
-        "position": "skipped",
+        "position": "negative",
         "statement": {
           "de": "-",
           "en": "-"
@@ -861,7 +861,7 @@
       },
       {
         "thesis": 7,
-        "position": "skipped",
+        "position": "positive",
         "statement": {
           "de": "-",
           "en": "-"
@@ -973,7 +973,7 @@
       },
       {
         "thesis": 21,
-        "position": "skipped",
+        "position": "positive",
         "statement": {
           "de": "-",
           "en": "-"
