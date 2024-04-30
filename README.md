@@ -1,3 +1,5 @@
+> ⚠️ As of April 2024, this project is no longer maintained by me and development continues with a different team on a different platform.
+
 # EUROMAT [![Netlify Status](https://api.netlify.com/api/v1/badges/ab25f2eb-228a-421f-b143-5c2f7affb90b/deploy-status)](https://app.netlify.com/sites/euromat/deploys)
 
 A Vue.js-powered, progressive web voting application for European (or German) elections. EUROMAT is hosted on _Netlify_ and uses the **Netlify CMS** for easier collaboration.
